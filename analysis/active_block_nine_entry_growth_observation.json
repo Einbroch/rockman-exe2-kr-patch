@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "kind": "runtime_observation_active_block_nine_entry_growth_poc",
+  "poc_manifest_filename": "active_block_nine_entry_growth_manifest.json",
+  "poc_manifest_sha256": "9e8bb8396743b77d4553ffb79e1dd412bfb18739fe10d1f22e5de37814e954a1",
+  "frames": [
+    {
+      "filename": "30.PNG",
+      "sha256": "6ebed78de29f8fb5987e832fe0bc0b5eee833329eaf975694ee62b5cc3e08d11",
+      "observation": "dialogue_frame_normal_and_inserted_marker_visible"
+    },
+    {
+      "filename": "31.PNG",
+      "sha256": "22cc08df292b6e534bf19899a94a1dfcb69aab7cf1c4a6c4d0d8f326edc0b3ce",
+      "observation": "later_dialogue_frame_normal_and_inserted_marker_visible"
+    },
+    {
+      "filename": "32.PNG",
+      "sha256": "dff4ad0b62ee4883970001edf55878ef074450fc5c6c63fcd846369e6a098090",
+      "observation": "later_dialogue_frame_normal_and_inserted_marker_visible"
+    },
+    {
+      "filename": "33.PNG",
+      "sha256": "2327d56af67b2a7b24ea55d3a33120ffa4f43d0cf3c40be3b1c9594890c3cbb3",
+      "observation": "later_dialogue_frame_normal_and_inserted_marker_visible"
+    },
+    {
+      "filename": "34.PNG",
+      "sha256": "c8a21d5171b1f4a7af01fcb31d2715dca296541977398c1ee79f5ed6820dc7ce",
+      "observation": "later_dialogue_frame_normal_and_inserted_marker_visible"
+    },
+    {
+      "filename": "35.PNG",
+      "sha256": "4b19c221783134c387923d5c5774216c54728dfb25926621c8738a1dc40561d1",
+      "observation": "later_dialogue_frame_normal_and_inserted_marker_visible"
+    },
+    {
+      "filename": "36.PNG",
+      "sha256": "ac12e9bea678ee9f3bb3d7193470996257f2d2b5db4c0baacb3f106192f53027",
+      "observation": "later_dialogue_frame_normal_and_inserted_marker_visible"
+    },
+    {
+      "filename": "37.PNG",
+      "sha256": "c0ba0cbd755d208e361b0c1f7a941ac8c3a53913255f2d185af428aa2e921759",
+      "observation": "later_dialogue_frame_normal_and_inserted_marker_visible"
+    },
+    {
+      "filename": "38.PNG",
+      "sha256": "6ad198c82a61977bb6da1b125f6f64093cb4c56340abb46193de912443ec16e4",
+      "observation": "normal_intermediate_dialogue_frame"
+    },
+    {
+      "filename": "39.PNG",
+      "sha256": "a0f287dcd090f3e0f5405f664928ec1c0db2ec8856b4154c68873667afe290a5",
+      "observation": "final_declared_inserted_marker_visible_and_dialogue_progresses"
+    }
+  ],
+  "conclusion": "The inspected sequence contains all nine declared inserted markers, retains normal dialogue framing, and progresses through the following intermediate frame. This completes runtime coverage for the declared entries in this one relocated block.",
+  "limitations": [
+    "This remains evidence for one runtime-observed block only.",
+    "It does not establish global font-slot safety or bulk-script eligibility."
+  ]
+}

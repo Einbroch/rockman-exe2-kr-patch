@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "kind": "multi_archive_translation_batch_plan",
+  "batch_number": 3,
+  "batch_size": 100,
+  "archives": [
+    {
+      "selector": "00/13",
+      "archive_offset": 7658536,
+      "tpl_path": "../analysis/archive_00_13_textpet_full.tpl",
+      "text_entry_start": 47,
+      "text_entry_count": 100
+    }
+  ]
+}

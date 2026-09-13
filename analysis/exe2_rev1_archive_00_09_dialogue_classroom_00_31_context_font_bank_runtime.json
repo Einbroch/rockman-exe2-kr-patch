@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "kind": "muted_context_selected_font_bank_runtime_verification",
+  "date": "2026-08-27",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_31_context_font_bank_poc.gba",
+    "sha256": "9a1ea683f85e8842f066c36daad4098012274d4e07e482563586c1693ccec681",
+    "byte_length": 16777216
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "system": "gba",
+    "launch_id": "launch-01m0zb7hgr3rs7n04g53ewc7c1",
+    "display": false,
+    "sound": false,
+    "stopped": true
+  },
+  "interventions": {
+    "base_state": "analysis/emucap/yai_fan_exe1k_font_entry8_choice_muted.ss1",
+    "archive_input": "poc/output/archive_00_09_dialogue_classroom_00_31_full_exe1k_font_clean_decompressed.bin",
+    "archive_input_sha256": "05f480d84ff82e89b6313288a86f10b0f8058741e9898e82f9444362908966f4",
+    "archive_memory_offset": "0x00038800",
+    "renderer_cursor_field": "0x02008754",
+    "renderer_entry_start_field": "0x0200875C",
+    "renderer_reset_addresses": ["0x02008732", "0x0200873E"]
+  },
+  "context_predicate": {
+    "cursor_start_inclusive": "0x020389FE",
+    "cursor_end_exclusive": "0x0203963D",
+    "translated_entries": "0 through 31; entries 18 through 21 are zero-length",
+    "boundary_outside_entry": 35
+  },
+  "cases": [
+    {
+      "name": "inside_context_entry_26",
+      "cursor": "0x020393D0",
+      "expected_bank": "expanded_context_korean_bank",
+      "screenshot": "analysis/emucap/context_font_bank_entry26_page1.png",
+      "screenshot_sha256": "40074d6cf914535ed9976938f02fefe285a880b09821e3502b85fcf5fc4c08a7",
+      "observed": "Korean page rendered with the EXE 1 [K] glyph records; no clipping, Japanese residue, or broken glyph was observed.",
+      "passed": true
+    },
+    {
+      "name": "outside_context_entry_35",
+      "cursor": "0x0203963D",
+      "expected_bank": "restored_original_rev1_bank",
+      "screenshot": "analysis/emucap/context_font_bank_entry35_original_page1.png",
+      "screenshot_sha256": "8d4c162a73a178522086f6ea5e90e2785c208023eb7e0ece7ab78fbe009053fc",
+      "observed": "Original Japanese dialogue rendered normally at the exact exclusive context boundary.",
+      "passed": true
+    }
+  ],
+  "verification": {
+    "inside_context_selects_korean_bank": true,
+    "outside_context_selects_original_bank": true,
+    "audio_enabled": false,
+    "managed_emulator_stopped": true
+  },
+  "limitations": [
+    "The renderer cursor and archive payload were explicitly injected for focused testing; normal NPC routing is not claimed by this evidence.",
+    "The current PoC still uses the existing 256-assignment codepage. The 741-record contextual capacity has not yet been consumed by a rebuilt script.",
+    "All Korean wording remains a machine draft pending independent review and human approval."
+  ],
+  "passed": true
+}

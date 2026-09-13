@@ -1,0 +1,1990 @@
+{
+  "schema_version": 1,
+  "kind": "metadata_only_relocation_capacity_plan",
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "byte_length": 8388608
+  },
+  "catalog": {
+    "filename": "rev1_message_block_catalog.json",
+    "sha256": "860771a9029bbc73042e0ad02b6aecd473d6af2bf3890f5efd43628af7310a89"
+  },
+  "literal_audit": {
+    "filename": "catalog_block_literal_consumer_audit.json",
+    "sha256": "eb00b35805aad5612d7d19353393c8047c0e45d5988d37602b1bbf64cb2f8fe5"
+  },
+  "direct_literal_block_summary": {
+    "block_count": 194,
+    "source_byte_total": 208710,
+    "blocks": [
+      {
+        "id": "pc-jap-map-0001",
+        "source_rom_offset": 7541520,
+        "source_byte_length": 3948,
+        "direct_literal_consumer_count": 10
+      },
+      {
+        "id": "pc-jap-map-0214",
+        "source_rom_offset": 7557388,
+        "source_byte_length": 2264,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0220",
+        "source_rom_offset": 7559132,
+        "source_byte_length": 1780,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0219",
+        "source_rom_offset": 7560600,
+        "source_byte_length": 6643,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0225",
+        "source_rom_offset": 7569716,
+        "source_byte_length": 913,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0226",
+        "source_rom_offset": 7570412,
+        "source_byte_length": 472,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0227",
+        "source_rom_offset": 7570720,
+        "source_byte_length": 5997,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0232",
+        "source_rom_offset": 7586428,
+        "source_byte_length": 3897,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0234",
+        "source_rom_offset": 7591956,
+        "source_byte_length": 1266,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0241",
+        "source_rom_offset": 7596988,
+        "source_byte_length": 1130,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0023",
+        "source_rom_offset": 7840408,
+        "source_byte_length": 525,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0024",
+        "source_rom_offset": 7840772,
+        "source_byte_length": 500,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0025",
+        "source_rom_offset": 7841136,
+        "source_byte_length": 907,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0026",
+        "source_rom_offset": 7841808,
+        "source_byte_length": 640,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0027",
+        "source_rom_offset": 7842300,
+        "source_byte_length": 295,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0028",
+        "source_rom_offset": 7842512,
+        "source_byte_length": 829,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0029",
+        "source_rom_offset": 7843132,
+        "source_byte_length": 398,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0030",
+        "source_rom_offset": 7843400,
+        "source_byte_length": 644,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0031",
+        "source_rom_offset": 7843844,
+        "source_byte_length": 942,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0032",
+        "source_rom_offset": 7844460,
+        "source_byte_length": 521,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0033",
+        "source_rom_offset": 7844844,
+        "source_byte_length": 667,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0034",
+        "source_rom_offset": 7845328,
+        "source_byte_length": 386,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0035",
+        "source_rom_offset": 7845600,
+        "source_byte_length": 229,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0036",
+        "source_rom_offset": 7845756,
+        "source_byte_length": 311,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0037",
+        "source_rom_offset": 7845956,
+        "source_byte_length": 93,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0038",
+        "source_rom_offset": 7846032,
+        "source_byte_length": 1225,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0039",
+        "source_rom_offset": 7846892,
+        "source_byte_length": 911,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0040",
+        "source_rom_offset": 7847488,
+        "source_byte_length": 474,
+        "direct_literal_consumer_count": 6
+      },
+      {
+        "id": "pc-jap-map-0041",
+        "source_rom_offset": 7847828,
+        "source_byte_length": 305,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0042",
+        "source_rom_offset": 7848040,
+        "source_byte_length": 978,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0043",
+        "source_rom_offset": 7848692,
+        "source_byte_length": 376,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0044",
+        "source_rom_offset": 7848976,
+        "source_byte_length": 745,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0045",
+        "source_rom_offset": 7849536,
+        "source_byte_length": 877,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0046",
+        "source_rom_offset": 7850176,
+        "source_byte_length": 610,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0047",
+        "source_rom_offset": 7850624,
+        "source_byte_length": 838,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0048",
+        "source_rom_offset": 7851224,
+        "source_byte_length": 374,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0050",
+        "source_rom_offset": 7851492,
+        "source_byte_length": 225,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0052",
+        "source_rom_offset": 7851656,
+        "source_byte_length": 911,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0053",
+        "source_rom_offset": 7852276,
+        "source_byte_length": 460,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0054",
+        "source_rom_offset": 7852628,
+        "source_byte_length": 169,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0055",
+        "source_rom_offset": 7852760,
+        "source_byte_length": 842,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0056",
+        "source_rom_offset": 7853372,
+        "source_byte_length": 667,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0057",
+        "source_rom_offset": 7853848,
+        "source_byte_length": 559,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0058",
+        "source_rom_offset": 7854248,
+        "source_byte_length": 555,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0059",
+        "source_rom_offset": 7854648,
+        "source_byte_length": 227,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0060",
+        "source_rom_offset": 7854816,
+        "source_byte_length": 148,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0061",
+        "source_rom_offset": 7854928,
+        "source_byte_length": 1191,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0062",
+        "source_rom_offset": 7855776,
+        "source_byte_length": 1150,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0063",
+        "source_rom_offset": 7856556,
+        "source_byte_length": 252,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0064",
+        "source_rom_offset": 7856736,
+        "source_byte_length": 401,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0065",
+        "source_rom_offset": 7857016,
+        "source_byte_length": 1200,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0066",
+        "source_rom_offset": 7857892,
+        "source_byte_length": 1013,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0067",
+        "source_rom_offset": 7858604,
+        "source_byte_length": 2522,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0068",
+        "source_rom_offset": 7860364,
+        "source_byte_length": 423,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0069",
+        "source_rom_offset": 7860636,
+        "source_byte_length": 1944,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0070",
+        "source_rom_offset": 7861984,
+        "source_byte_length": 532,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0071",
+        "source_rom_offset": 7862328,
+        "source_byte_length": 726,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0072",
+        "source_rom_offset": 7862816,
+        "source_byte_length": 99,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0073",
+        "source_rom_offset": 7862892,
+        "source_byte_length": 359,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0074",
+        "source_rom_offset": 7863140,
+        "source_byte_length": 349,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0075",
+        "source_rom_offset": 7863388,
+        "source_byte_length": 755,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0076",
+        "source_rom_offset": 7863944,
+        "source_byte_length": 180,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0077",
+        "source_rom_offset": 7864080,
+        "source_byte_length": 1591,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0078",
+        "source_rom_offset": 7865172,
+        "source_byte_length": 357,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0079",
+        "source_rom_offset": 7865424,
+        "source_byte_length": 143,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0080",
+        "source_rom_offset": 7865524,
+        "source_byte_length": 165,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0081",
+        "source_rom_offset": 7865644,
+        "source_byte_length": 1260,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0082",
+        "source_rom_offset": 7866492,
+        "source_byte_length": 709,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0083",
+        "source_rom_offset": 7866988,
+        "source_byte_length": 1262,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0084",
+        "source_rom_offset": 7867880,
+        "source_byte_length": 123,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0085",
+        "source_rom_offset": 7867968,
+        "source_byte_length": 1643,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0086",
+        "source_rom_offset": 7869044,
+        "source_byte_length": 424,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0087",
+        "source_rom_offset": 7869332,
+        "source_byte_length": 78,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0088",
+        "source_rom_offset": 7869392,
+        "source_byte_length": 46,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0089",
+        "source_rom_offset": 7869428,
+        "source_byte_length": 509,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0094",
+        "source_rom_offset": 7870052,
+        "source_byte_length": 262,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0095",
+        "source_rom_offset": 7870208,
+        "source_byte_length": 1430,
+        "direct_literal_consumer_count": 12
+      },
+      {
+        "id": "pc-jap-map-0096",
+        "source_rom_offset": 7871272,
+        "source_byte_length": 318,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0097",
+        "source_rom_offset": 7871512,
+        "source_byte_length": 98,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0098",
+        "source_rom_offset": 7871572,
+        "source_byte_length": 344,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0099",
+        "source_rom_offset": 7871828,
+        "source_byte_length": 235,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0100",
+        "source_rom_offset": 7871980,
+        "source_byte_length": 1237,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0101",
+        "source_rom_offset": 7872924,
+        "source_byte_length": 1084,
+        "direct_literal_consumer_count": 7
+      },
+      {
+        "id": "pc-jap-map-0102",
+        "source_rom_offset": 7873676,
+        "source_byte_length": 387,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0103",
+        "source_rom_offset": 7873964,
+        "source_byte_length": 744,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0104",
+        "source_rom_offset": 7874468,
+        "source_byte_length": 1776,
+        "direct_literal_consumer_count": 6
+      },
+      {
+        "id": "pc-jap-map-0105",
+        "source_rom_offset": 7875716,
+        "source_byte_length": 1233,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0106",
+        "source_rom_offset": 7876580,
+        "source_byte_length": 2234,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0107",
+        "source_rom_offset": 7878152,
+        "source_byte_length": 1361,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0108",
+        "source_rom_offset": 7879112,
+        "source_byte_length": 1338,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0109",
+        "source_rom_offset": 7880060,
+        "source_byte_length": 1089,
+        "direct_literal_consumer_count": 8
+      },
+      {
+        "id": "pc-jap-map-0110",
+        "source_rom_offset": 7880808,
+        "source_byte_length": 803,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0111",
+        "source_rom_offset": 7881368,
+        "source_byte_length": 220,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0112",
+        "source_rom_offset": 7881520,
+        "source_byte_length": 892,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0113",
+        "source_rom_offset": 7882152,
+        "source_byte_length": 1136,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0114",
+        "source_rom_offset": 7882968,
+        "source_byte_length": 652,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0115",
+        "source_rom_offset": 7883424,
+        "source_byte_length": 1625,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0116",
+        "source_rom_offset": 7884588,
+        "source_byte_length": 1043,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0117",
+        "source_rom_offset": 7885384,
+        "source_byte_length": 433,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0118",
+        "source_rom_offset": 7885696,
+        "source_byte_length": 192,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0119",
+        "source_rom_offset": 7885824,
+        "source_byte_length": 1713,
+        "direct_literal_consumer_count": 7
+      },
+      {
+        "id": "pc-jap-map-0120",
+        "source_rom_offset": 7887004,
+        "source_byte_length": 1496,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0121",
+        "source_rom_offset": 7888024,
+        "source_byte_length": 156,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0122",
+        "source_rom_offset": 7888124,
+        "source_byte_length": 406,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0123",
+        "source_rom_offset": 7888424,
+        "source_byte_length": 502,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0124",
+        "source_rom_offset": 7888788,
+        "source_byte_length": 1187,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0125",
+        "source_rom_offset": 7889612,
+        "source_byte_length": 647,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0126",
+        "source_rom_offset": 7890080,
+        "source_byte_length": 744,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0127",
+        "source_rom_offset": 7890596,
+        "source_byte_length": 805,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0128",
+        "source_rom_offset": 7891124,
+        "source_byte_length": 1026,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0129",
+        "source_rom_offset": 7891832,
+        "source_byte_length": 840,
+        "direct_literal_consumer_count": 6
+      },
+      {
+        "id": "pc-jap-map-0130",
+        "source_rom_offset": 7892400,
+        "source_byte_length": 1058,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0131",
+        "source_rom_offset": 7893100,
+        "source_byte_length": 507,
+        "direct_literal_consumer_count": 7
+      },
+      {
+        "id": "pc-jap-map-0132",
+        "source_rom_offset": 7893480,
+        "source_byte_length": 1826,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0133",
+        "source_rom_offset": 7894704,
+        "source_byte_length": 428,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0134",
+        "source_rom_offset": 7894984,
+        "source_byte_length": 1999,
+        "direct_literal_consumer_count": 6
+      },
+      {
+        "id": "pc-jap-map-0135",
+        "source_rom_offset": 7896308,
+        "source_byte_length": 481,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0136",
+        "source_rom_offset": 7896644,
+        "source_byte_length": 327,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0137",
+        "source_rom_offset": 7896844,
+        "source_byte_length": 82,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0138",
+        "source_rom_offset": 7896908,
+        "source_byte_length": 361,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0139",
+        "source_rom_offset": 7897144,
+        "source_byte_length": 560,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0140",
+        "source_rom_offset": 7897524,
+        "source_byte_length": 1039,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0141",
+        "source_rom_offset": 7898224,
+        "source_byte_length": 235,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0142",
+        "source_rom_offset": 7898384,
+        "source_byte_length": 1037,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0143",
+        "source_rom_offset": 7899060,
+        "source_byte_length": 801,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0144",
+        "source_rom_offset": 7899636,
+        "source_byte_length": 313,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0145",
+        "source_rom_offset": 7899864,
+        "source_byte_length": 611,
+        "direct_literal_consumer_count": 6
+      },
+      {
+        "id": "pc-jap-map-0146",
+        "source_rom_offset": 7900256,
+        "source_byte_length": 373,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0147",
+        "source_rom_offset": 7900528,
+        "source_byte_length": 324,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0148",
+        "source_rom_offset": 7900756,
+        "source_byte_length": 219,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0149",
+        "source_rom_offset": 7900920,
+        "source_byte_length": 311,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0150",
+        "source_rom_offset": 7901132,
+        "source_byte_length": 454,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0151",
+        "source_rom_offset": 7901456,
+        "source_byte_length": 287,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0152",
+        "source_rom_offset": 7901648,
+        "source_byte_length": 529,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0153",
+        "source_rom_offset": 7902008,
+        "source_byte_length": 492,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0154",
+        "source_rom_offset": 7902348,
+        "source_byte_length": 804,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0155",
+        "source_rom_offset": 7902876,
+        "source_byte_length": 1881,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0156",
+        "source_rom_offset": 7904092,
+        "source_byte_length": 676,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0157",
+        "source_rom_offset": 7904584,
+        "source_byte_length": 257,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0158",
+        "source_rom_offset": 7904760,
+        "source_byte_length": 311,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0159",
+        "source_rom_offset": 7904984,
+        "source_byte_length": 1097,
+        "direct_literal_consumer_count": 6
+      },
+      {
+        "id": "pc-jap-map-0160",
+        "source_rom_offset": 7905748,
+        "source_byte_length": 680,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0161",
+        "source_rom_offset": 7906228,
+        "source_byte_length": 2017,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0162",
+        "source_rom_offset": 7907600,
+        "source_byte_length": 472,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0163",
+        "source_rom_offset": 7907908,
+        "source_byte_length": 374,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0164",
+        "source_rom_offset": 7908180,
+        "source_byte_length": 707,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0165",
+        "source_rom_offset": 7908624,
+        "source_byte_length": 1002,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0166",
+        "source_rom_offset": 7909296,
+        "source_byte_length": 907,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0167",
+        "source_rom_offset": 7909904,
+        "source_byte_length": 1460,
+        "direct_literal_consumer_count": 6
+      },
+      {
+        "id": "pc-jap-map-0168",
+        "source_rom_offset": 7910864,
+        "source_byte_length": 752,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0169",
+        "source_rom_offset": 7911396,
+        "source_byte_length": 965,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0170",
+        "source_rom_offset": 7912084,
+        "source_byte_length": 224,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0171",
+        "source_rom_offset": 7912252,
+        "source_byte_length": 1485,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0172",
+        "source_rom_offset": 7913280,
+        "source_byte_length": 528,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0173",
+        "source_rom_offset": 7913664,
+        "source_byte_length": 643,
+        "direct_literal_consumer_count": 5
+      },
+      {
+        "id": "pc-jap-map-0174",
+        "source_rom_offset": 7914124,
+        "source_byte_length": 3152,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0175",
+        "source_rom_offset": 7916256,
+        "source_byte_length": 368,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0176",
+        "source_rom_offset": 7916488,
+        "source_byte_length": 353,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0177",
+        "source_rom_offset": 7916752,
+        "source_byte_length": 2080,
+        "direct_literal_consumer_count": 9
+      },
+      {
+        "id": "pc-jap-map-0178",
+        "source_rom_offset": 7918220,
+        "source_byte_length": 273,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0179",
+        "source_rom_offset": 7918420,
+        "source_byte_length": 512,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0180",
+        "source_rom_offset": 7918784,
+        "source_byte_length": 466,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0181",
+        "source_rom_offset": 7919108,
+        "source_byte_length": 241,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0182",
+        "source_rom_offset": 7919276,
+        "source_byte_length": 294,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0183",
+        "source_rom_offset": 7919484,
+        "source_byte_length": 479,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0184",
+        "source_rom_offset": 7919820,
+        "source_byte_length": 167,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0185",
+        "source_rom_offset": 7919936,
+        "source_byte_length": 224,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0186",
+        "source_rom_offset": 7920112,
+        "source_byte_length": 349,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0187",
+        "source_rom_offset": 7920376,
+        "source_byte_length": 1991,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0188",
+        "source_rom_offset": 7921708,
+        "source_byte_length": 2729,
+        "direct_literal_consumer_count": 8
+      },
+      {
+        "id": "pc-jap-map-0189",
+        "source_rom_offset": 7923640,
+        "source_byte_length": 1932,
+        "direct_literal_consumer_count": 6
+      },
+      {
+        "id": "pc-jap-map-0190",
+        "source_rom_offset": 7924916,
+        "source_byte_length": 533,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0191",
+        "source_rom_offset": 7925292,
+        "source_byte_length": 2748,
+        "direct_literal_consumer_count": 11
+      },
+      {
+        "id": "pc-jap-map-0192",
+        "source_rom_offset": 7927200,
+        "source_byte_length": 1863,
+        "direct_literal_consumer_count": 8
+      },
+      {
+        "id": "pc-jap-map-0193",
+        "source_rom_offset": 7928508,
+        "source_byte_length": 177,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0194",
+        "source_rom_offset": 7928632,
+        "source_byte_length": 1645,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0195",
+        "source_rom_offset": 7929796,
+        "source_byte_length": 2561,
+        "direct_literal_consumer_count": 10
+      },
+      {
+        "id": "pc-jap-map-0196",
+        "source_rom_offset": 7931584,
+        "source_byte_length": 420,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0197",
+        "source_rom_offset": 7931860,
+        "source_byte_length": 6121,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0199",
+        "source_rom_offset": 7936504,
+        "source_byte_length": 1935,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0200",
+        "source_rom_offset": 7937836,
+        "source_byte_length": 2102,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0317",
+        "source_rom_offset": 7939264,
+        "source_byte_length": 14682,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0207",
+        "source_rom_offset": 7953616,
+        "source_byte_length": 1097,
+        "direct_literal_consumer_count": 3
+      },
+      {
+        "id": "pc-jap-map-0208",
+        "source_rom_offset": 7954408,
+        "source_byte_length": 506,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0210",
+        "source_rom_offset": 7954780,
+        "source_byte_length": 612,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0340",
+        "source_rom_offset": 7959928,
+        "source_byte_length": 450,
+        "direct_literal_consumer_count": 4
+      },
+      {
+        "id": "pc-jap-map-0351",
+        "source_rom_offset": 7960240,
+        "source_byte_length": 4515,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0223",
+        "source_rom_offset": 8231124,
+        "source_byte_length": 3003,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0426",
+        "source_rom_offset": 8265320,
+        "source_byte_length": 5838,
+        "direct_literal_consumer_count": 73
+      },
+      {
+        "id": "pc-jap-map-0224",
+        "source_rom_offset": 8276232,
+        "source_byte_length": 4224,
+        "direct_literal_consumer_count": 1
+      },
+      {
+        "id": "pc-jap-map-0217",
+        "source_rom_offset": 8288952,
+        "source_byte_length": 1851,
+        "direct_literal_consumer_count": 6
+      },
+      {
+        "id": "pc-jap-map-0002",
+        "source_rom_offset": 8291736,
+        "source_byte_length": 131,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0215",
+        "source_rom_offset": 8327808,
+        "source_byte_length": 1483,
+        "direct_literal_consumer_count": 2
+      },
+      {
+        "id": "pc-jap-map-0216",
+        "source_rom_offset": 8331376,
+        "source_byte_length": 940,
+        "direct_literal_consumer_count": 15
+      }
+    ]
+  },
+  "constant_padding_candidates": {
+    "minimum_run_bytes": 128,
+    "candidate_count": 113,
+    "total_byte_length": 34666,
+    "runs": [
+      {
+        "start_rom_offset": 186636,
+        "end_rom_offset_exclusive": 186764,
+        "byte_length": 128,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 186636
+      },
+      {
+        "start_rom_offset": 355961,
+        "end_rom_offset_exclusive": 356221,
+        "byte_length": 260,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 355964
+      },
+      {
+        "start_rom_offset": 402807,
+        "end_rom_offset_exclusive": 403068,
+        "byte_length": 261,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 402808
+      },
+      {
+        "start_rom_offset": 435992,
+        "end_rom_offset_exclusive": 436248,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 435992
+      },
+      {
+        "start_rom_offset": 445596,
+        "end_rom_offset_exclusive": 445852,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 445596
+      },
+      {
+        "start_rom_offset": 976175,
+        "end_rom_offset_exclusive": 976424,
+        "byte_length": 249,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 976176
+      },
+      {
+        "start_rom_offset": 977432,
+        "end_rom_offset_exclusive": 977640,
+        "byte_length": 208,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 977432
+      },
+      {
+        "start_rom_offset": 1241507,
+        "end_rom_offset_exclusive": 1241676,
+        "byte_length": 169,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1241508
+      },
+      {
+        "start_rom_offset": 1241864,
+        "end_rom_offset_exclusive": 1242129,
+        "byte_length": 265,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1241864
+      },
+      {
+        "start_rom_offset": 1246653,
+        "end_rom_offset_exclusive": 1247232,
+        "byte_length": 579,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1246656
+      },
+      {
+        "start_rom_offset": 1306574,
+        "end_rom_offset_exclusive": 1307316,
+        "byte_length": 742,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1306576
+      },
+      {
+        "start_rom_offset": 1339018,
+        "end_rom_offset_exclusive": 1339201,
+        "byte_length": 183,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1339020
+      },
+      {
+        "start_rom_offset": 1371629,
+        "end_rom_offset_exclusive": 1371828,
+        "byte_length": 199,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1371632
+      },
+      {
+        "start_rom_offset": 1372227,
+        "end_rom_offset_exclusive": 1372355,
+        "byte_length": 128,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1372228
+      },
+      {
+        "start_rom_offset": 1549482,
+        "end_rom_offset_exclusive": 1549610,
+        "byte_length": 128,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1549484
+      },
+      {
+        "start_rom_offset": 1628413,
+        "end_rom_offset_exclusive": 1630234,
+        "byte_length": 1821,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1628416
+      },
+      {
+        "start_rom_offset": 1647005,
+        "end_rom_offset_exclusive": 1647446,
+        "byte_length": 441,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1647008
+      },
+      {
+        "start_rom_offset": 1647468,
+        "end_rom_offset_exclusive": 1647949,
+        "byte_length": 481,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1647468
+      },
+      {
+        "start_rom_offset": 1718133,
+        "end_rom_offset_exclusive": 1718430,
+        "byte_length": 297,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1718136
+      },
+      {
+        "start_rom_offset": 1747287,
+        "end_rom_offset_exclusive": 1747618,
+        "byte_length": 331,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1747288
+      },
+      {
+        "start_rom_offset": 1770627,
+        "end_rom_offset_exclusive": 1771665,
+        "byte_length": 1038,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1770628
+      },
+      {
+        "start_rom_offset": 1895152,
+        "end_rom_offset_exclusive": 1895369,
+        "byte_length": 217,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1895152
+      },
+      {
+        "start_rom_offset": 1967060,
+        "end_rom_offset_exclusive": 1967198,
+        "byte_length": 138,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1967060
+      },
+      {
+        "start_rom_offset": 1977896,
+        "end_rom_offset_exclusive": 1978034,
+        "byte_length": 138,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 1977896
+      },
+      {
+        "start_rom_offset": 1987776,
+        "end_rom_offset_exclusive": 1988608,
+        "byte_length": 832,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 1987776
+      },
+      {
+        "start_rom_offset": 1994176,
+        "end_rom_offset_exclusive": 1996800,
+        "byte_length": 2624,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 1994176
+      },
+      {
+        "start_rom_offset": 2044623,
+        "end_rom_offset_exclusive": 2044767,
+        "byte_length": 144,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2044624
+      },
+      {
+        "start_rom_offset": 2045398,
+        "end_rom_offset_exclusive": 2045539,
+        "byte_length": 141,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2045400
+      },
+      {
+        "start_rom_offset": 2046227,
+        "end_rom_offset_exclusive": 2046371,
+        "byte_length": 144,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2046228
+      },
+      {
+        "start_rom_offset": 2047002,
+        "end_rom_offset_exclusive": 2047143,
+        "byte_length": 141,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2047004
+      },
+      {
+        "start_rom_offset": 2047831,
+        "end_rom_offset_exclusive": 2047975,
+        "byte_length": 144,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2047832
+      },
+      {
+        "start_rom_offset": 2195018,
+        "end_rom_offset_exclusive": 2195178,
+        "byte_length": 160,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2195020
+      },
+      {
+        "start_rom_offset": 2264868,
+        "end_rom_offset_exclusive": 2265380,
+        "byte_length": 512,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2264868
+      },
+      {
+        "start_rom_offset": 2473224,
+        "end_rom_offset_exclusive": 2473380,
+        "byte_length": 156,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2473224
+      },
+      {
+        "start_rom_offset": 2497493,
+        "end_rom_offset_exclusive": 2497622,
+        "byte_length": 129,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2497496
+      },
+      {
+        "start_rom_offset": 2589816,
+        "end_rom_offset_exclusive": 2589959,
+        "byte_length": 143,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2589816
+      },
+      {
+        "start_rom_offset": 2592252,
+        "end_rom_offset_exclusive": 2592387,
+        "byte_length": 135,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2592252
+      },
+      {
+        "start_rom_offset": 2593276,
+        "end_rom_offset_exclusive": 2593407,
+        "byte_length": 131,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2593276
+      },
+      {
+        "start_rom_offset": 2740446,
+        "end_rom_offset_exclusive": 2740584,
+        "byte_length": 138,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2740448
+      },
+      {
+        "start_rom_offset": 2740706,
+        "end_rom_offset_exclusive": 2740844,
+        "byte_length": 138,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2740708
+      },
+      {
+        "start_rom_offset": 2741030,
+        "end_rom_offset_exclusive": 2741168,
+        "byte_length": 138,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2741032
+      },
+      {
+        "start_rom_offset": 2893408,
+        "end_rom_offset_exclusive": 2893664,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 2893408
+      },
+      {
+        "start_rom_offset": 2893732,
+        "end_rom_offset_exclusive": 2893988,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 2893732
+      },
+      {
+        "start_rom_offset": 2894120,
+        "end_rom_offset_exclusive": 2894376,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 2894120
+      },
+      {
+        "start_rom_offset": 2894572,
+        "end_rom_offset_exclusive": 2894828,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 2894572
+      },
+      {
+        "start_rom_offset": 2895088,
+        "end_rom_offset_exclusive": 2895344,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 2895088
+      },
+      {
+        "start_rom_offset": 2895668,
+        "end_rom_offset_exclusive": 2895924,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 2895668
+      },
+      {
+        "start_rom_offset": 2896568,
+        "end_rom_offset_exclusive": 2896824,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 2896568
+      },
+      {
+        "start_rom_offset": 2897468,
+        "end_rom_offset_exclusive": 2897724,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 2897468
+      },
+      {
+        "start_rom_offset": 2898368,
+        "end_rom_offset_exclusive": 2898624,
+        "byte_length": 256,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 2898368
+      },
+      {
+        "start_rom_offset": 2993668,
+        "end_rom_offset_exclusive": 2993876,
+        "byte_length": 208,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 2993668
+      },
+      {
+        "start_rom_offset": 3050794,
+        "end_rom_offset_exclusive": 3051054,
+        "byte_length": 260,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 3050796
+      },
+      {
+        "start_rom_offset": 3286003,
+        "end_rom_offset_exclusive": 3286238,
+        "byte_length": 235,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 3286004
+      },
+      {
+        "start_rom_offset": 3289108,
+        "end_rom_offset_exclusive": 3289588,
+        "byte_length": 480,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 3289108
+      },
+      {
+        "start_rom_offset": 3437190,
+        "end_rom_offset_exclusive": 3437324,
+        "byte_length": 134,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 3437192
+      },
+      {
+        "start_rom_offset": 3502030,
+        "end_rom_offset_exclusive": 3502159,
+        "byte_length": 129,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 3502032
+      },
+      {
+        "start_rom_offset": 3502641,
+        "end_rom_offset_exclusive": 3502771,
+        "byte_length": 130,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 3502644
+      },
+      {
+        "start_rom_offset": 3671131,
+        "end_rom_offset_exclusive": 3671364,
+        "byte_length": 233,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 3671132
+      },
+      {
+        "start_rom_offset": 3672090,
+        "end_rom_offset_exclusive": 3672328,
+        "byte_length": 238,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 3672092
+      },
+      {
+        "start_rom_offset": 4236704,
+        "end_rom_offset_exclusive": 4236868,
+        "byte_length": 164,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 4236704
+      },
+      {
+        "start_rom_offset": 5018136,
+        "end_rom_offset_exclusive": 5018360,
+        "byte_length": 224,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 5018136
+      },
+      {
+        "start_rom_offset": 5732282,
+        "end_rom_offset_exclusive": 5732508,
+        "byte_length": 226,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 5732284
+      },
+      {
+        "start_rom_offset": 5778984,
+        "end_rom_offset_exclusive": 5779240,
+        "byte_length": 256,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 5778984
+      },
+      {
+        "start_rom_offset": 5822483,
+        "end_rom_offset_exclusive": 5822676,
+        "byte_length": 193,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 5822484
+      },
+      {
+        "start_rom_offset": 5853204,
+        "end_rom_offset_exclusive": 5853524,
+        "byte_length": 320,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 5853204
+      },
+      {
+        "start_rom_offset": 5856388,
+        "end_rom_offset_exclusive": 5856644,
+        "byte_length": 256,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 5856388
+      },
+      {
+        "start_rom_offset": 5917866,
+        "end_rom_offset_exclusive": 5918092,
+        "byte_length": 226,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 5917868
+      },
+      {
+        "start_rom_offset": 5945844,
+        "end_rom_offset_exclusive": 5946164,
+        "byte_length": 320,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 5945844
+      },
+      {
+        "start_rom_offset": 6002303,
+        "end_rom_offset_exclusive": 6002496,
+        "byte_length": 193,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 6002304
+      },
+      {
+        "start_rom_offset": 6169400,
+        "end_rom_offset_exclusive": 6169592,
+        "byte_length": 192,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 6169400
+      },
+      {
+        "start_rom_offset": 6210731,
+        "end_rom_offset_exclusive": 6210924,
+        "byte_length": 193,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 6210732
+      },
+      {
+        "start_rom_offset": 6237328,
+        "end_rom_offset_exclusive": 6237648,
+        "byte_length": 320,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 6237328
+      },
+      {
+        "start_rom_offset": 6951819,
+        "end_rom_offset_exclusive": 6951957,
+        "byte_length": 138,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 6951820
+      },
+      {
+        "start_rom_offset": 6952079,
+        "end_rom_offset_exclusive": 6954002,
+        "byte_length": 1923,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 6952080
+      },
+      {
+        "start_rom_offset": 7504272,
+        "end_rom_offset_exclusive": 7504400,
+        "byte_length": 128,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 7504272
+      },
+      {
+        "start_rom_offset": 7505018,
+        "end_rom_offset_exclusive": 7505261,
+        "byte_length": 243,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 7505020
+      },
+      {
+        "start_rom_offset": 7505525,
+        "end_rom_offset_exclusive": 7505773,
+        "byte_length": 248,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 7505528
+      },
+      {
+        "start_rom_offset": 7506047,
+        "end_rom_offset_exclusive": 7506285,
+        "byte_length": 238,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 7506048
+      },
+      {
+        "start_rom_offset": 7506589,
+        "end_rom_offset_exclusive": 7506797,
+        "byte_length": 208,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 7506592
+      },
+      {
+        "start_rom_offset": 7507113,
+        "end_rom_offset_exclusive": 7507309,
+        "byte_length": 196,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 7507116
+      },
+      {
+        "start_rom_offset": 7507629,
+        "end_rom_offset_exclusive": 7507821,
+        "byte_length": 192,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 7507632
+      },
+      {
+        "start_rom_offset": 7508141,
+        "end_rom_offset_exclusive": 7508310,
+        "byte_length": 169,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 7508144
+      },
+      {
+        "start_rom_offset": 8074332,
+        "end_rom_offset_exclusive": 8074717,
+        "byte_length": 385,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8074332
+      },
+      {
+        "start_rom_offset": 8136764,
+        "end_rom_offset_exclusive": 8136956,
+        "byte_length": 192,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8136764
+      },
+      {
+        "start_rom_offset": 8137180,
+        "end_rom_offset_exclusive": 8137372,
+        "byte_length": 192,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8137180
+      },
+      {
+        "start_rom_offset": 8137596,
+        "end_rom_offset_exclusive": 8137788,
+        "byte_length": 192,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8137596
+      },
+      {
+        "start_rom_offset": 8138012,
+        "end_rom_offset_exclusive": 8138204,
+        "byte_length": 192,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8138012
+      },
+      {
+        "start_rom_offset": 8138428,
+        "end_rom_offset_exclusive": 8138620,
+        "byte_length": 192,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8138428
+      },
+      {
+        "start_rom_offset": 8138844,
+        "end_rom_offset_exclusive": 8139036,
+        "byte_length": 192,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8138844
+      },
+      {
+        "start_rom_offset": 8139260,
+        "end_rom_offset_exclusive": 8139452,
+        "byte_length": 192,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8139260
+      },
+      {
+        "start_rom_offset": 8139548,
+        "end_rom_offset_exclusive": 8139870,
+        "byte_length": 322,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8139548
+      },
+      {
+        "start_rom_offset": 8144508,
+        "end_rom_offset_exclusive": 8144670,
+        "byte_length": 162,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8144508
+      },
+      {
+        "start_rom_offset": 8169148,
+        "end_rom_offset_exclusive": 8169566,
+        "byte_length": 418,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8169148
+      },
+      {
+        "start_rom_offset": 8171484,
+        "end_rom_offset_exclusive": 8171646,
+        "byte_length": 162,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8171484
+      },
+      {
+        "start_rom_offset": 8178035,
+        "end_rom_offset_exclusive": 8178178,
+        "byte_length": 143,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8178036
+      },
+      {
+        "start_rom_offset": 8178252,
+        "end_rom_offset_exclusive": 8178422,
+        "byte_length": 170,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8178252
+      },
+      {
+        "start_rom_offset": 8179145,
+        "end_rom_offset_exclusive": 8179375,
+        "byte_length": 230,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8179148
+      },
+      {
+        "start_rom_offset": 8179622,
+        "end_rom_offset_exclusive": 8179759,
+        "byte_length": 137,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8179624
+      },
+      {
+        "start_rom_offset": 8179788,
+        "end_rom_offset_exclusive": 8179958,
+        "byte_length": 170,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8179788
+      },
+      {
+        "start_rom_offset": 8180103,
+        "end_rom_offset_exclusive": 8180307,
+        "byte_length": 204,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8180104
+      },
+      {
+        "start_rom_offset": 8180681,
+        "end_rom_offset_exclusive": 8180883,
+        "byte_length": 202,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8180684
+      },
+      {
+        "start_rom_offset": 8183018,
+        "end_rom_offset_exclusive": 8183318,
+        "byte_length": 300,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8183020
+      },
+      {
+        "start_rom_offset": 8183628,
+        "end_rom_offset_exclusive": 8183771,
+        "byte_length": 143,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8183628
+      },
+      {
+        "start_rom_offset": 8345994,
+        "end_rom_offset_exclusive": 8346137,
+        "byte_length": 143,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8345996
+      },
+      {
+        "start_rom_offset": 8348517,
+        "end_rom_offset_exclusive": 8348869,
+        "byte_length": 352,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8348520
+      },
+      {
+        "start_rom_offset": 8349056,
+        "end_rom_offset_exclusive": 8349344,
+        "byte_length": 288,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8349056
+      },
+      {
+        "start_rom_offset": 8349568,
+        "end_rom_offset_exclusive": 8349857,
+        "byte_length": 289,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8349568
+      },
+      {
+        "start_rom_offset": 8350079,
+        "end_rom_offset_exclusive": 8350370,
+        "byte_length": 291,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8350080
+      },
+      {
+        "start_rom_offset": 8350594,
+        "end_rom_offset_exclusive": 8350881,
+        "byte_length": 287,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8350596
+      },
+      {
+        "start_rom_offset": 8351104,
+        "end_rom_offset_exclusive": 8351392,
+        "byte_length": 288,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8351104
+      },
+      {
+        "start_rom_offset": 8351616,
+        "end_rom_offset_exclusive": 8351904,
+        "byte_length": 288,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8351616
+      },
+      {
+        "start_rom_offset": 8352128,
+        "end_rom_offset_exclusive": 8352416,
+        "byte_length": 288,
+        "fill_byte": "00",
+        "four_byte_aligned_start": 8352128
+      },
+      {
+        "start_rom_offset": 8386928,
+        "end_rom_offset_exclusive": 8388608,
+        "byte_length": 1680,
+        "fill_byte": "FF",
+        "four_byte_aligned_start": 8386928
+      }
+    ],
+    "warning": "A constant run is only a candidate. This report does not establish that a run is unreferenced or safe to overwrite; each allocation needs its own consumer and runtime validation."
+  },
+  "planning_conclusion": {
+    "direct_literal_source_bytes_exceed_all_constant_candidate_bytes": true,
+    "recommendation": "Use a separately validated relocation bank for broad coverage. Size it from measured translated output plus growth headroom; do not infer safety from constant padding alone."
+  }
+}

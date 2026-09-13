@@ -1,0 +1,52 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba",
+  "rom_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-irtt3tlk\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba"
+  ],
+  "input_checkpoint": "analysis\\playtest_20260910_fixed\\157_waterfront_park2\\checkpoint.mss",
+  "timeline": [
+    {
+      "start": 0,
+      "release": 45,
+      "end": 65,
+      "keys": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "start": 65,
+      "release": 71,
+      "end": 251,
+      "keys": [
+        "a"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "62cc7b1d038e5b97a18464915bf96d029a5fb2a8e3405074bfb88a81a1551c8b",
+    "complete.txt": "c75d3f1f5bcd6914d0331ce5ec17c0db8f2070a2d4285f8e3ff11c6ca19168ff",
+    "input.mss": "f345ea6a7ea0418aaf88d0ae95fc414668e38896f47cbd86c953db22efcfaaed",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "segment.lua": "cc23cc82c1ea458a9270d421d71f9b4b018c0f188073fff3c6d5f53ba8482e73",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "c860098087cb8d0053273da4b24d01b18b6c7c7345ab873d440287fc213c4355",
+    "step_001.json": "56bb5a205650a80868cba2fbcf46b76b4b2545980c59881232b6ad076dd71153",
+    "step_001.png": "9958f6dfb364b768aa60624eaf091e4225379e653f8145564e9ad92a0a4e0c1b",
+    "step_002.json": "535049a78d651f3b28f0054870d34f42bd28531e9b4219b31fd4abdd22295abb",
+    "step_002.png": "9958f6dfb364b768aa60624eaf091e4225379e653f8145564e9ad92a0a4e0c1b"
+  }
+}

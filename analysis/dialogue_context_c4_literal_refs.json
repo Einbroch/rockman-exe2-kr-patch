@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "literals": [
+    {
+      "rom_offset": 135032,
+      "little_endian_u32": 33589188
+    },
+    {
+      "rom_offset": 135036,
+      "little_endian_u32": 33589188
+    },
+    {
+      "rom_offset": 135040,
+      "little_endian_u32": 33589188
+    },
+    {
+      "rom_offset": 135044,
+      "little_endian_u32": 33589188
+    },
+    {
+      "rom_offset": 533380,
+      "little_endian_u32": 33589188
+    },
+    {
+      "rom_offset": 533596,
+      "little_endian_u32": 33589188
+    },
+    {
+      "rom_offset": 797536,
+      "little_endian_u32": 33589188
+    }
+  ],
+  "requested_literal_value_occurrences": {
+    "020087C4": [
+      135032,
+      135036,
+      135040,
+      135044,
+      533380,
+      533596,
+      797536
+    ]
+  },
+  "thumb_pc_relative_ldr_references": [
+    {
+      "instruction_offset": 134910,
+      "destination_register": 1,
+      "literal_offset": 135032
+    },
+    {
+      "instruction_offset": 134926,
+      "destination_register": 1,
+      "literal_offset": 135036
+    },
+    {
+      "instruction_offset": 134942,
+      "destination_register": 1,
+      "literal_offset": 135040
+    },
+    {
+      "instruction_offset": 134954,
+      "destination_register": 1,
+      "literal_offset": 135044
+    },
+    {
+      "instruction_offset": 533352,
+      "destination_register": 0,
+      "literal_offset": 533380
+    },
+    {
+      "instruction_offset": 533560,
+      "destination_register": 0,
+      "literal_offset": 533596
+    },
+    {
+      "instruction_offset": 533574,
+      "destination_register": 0,
+      "literal_offset": 533596
+    },
+    {
+      "instruction_offset": 797506,
+      "destination_register": 0,
+      "literal_offset": 797536
+    }
+  ],
+  "arm_pc_relative_ldr_references": [],
+  "limitation": "Only PC-relative LDR literal forms are scanned; no absence claim is made for other address-construction paths."
+}

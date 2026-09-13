@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "kind": "runtime_control_width_observation",
+  "input": {
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "probe_manifest": {
+    "filename": "ed_02_cursor_probe_manifest.json",
+    "sha256": "0373b1dd3eb6ac7d79acdef2532af93c5fb980f0b39beb24447cbc8c977f5451"
+  },
+  "observation": {
+    "opcode": 237,
+    "selector_value": 2,
+    "observed_stream_byte_count": 3,
+    "marker_visible": false,
+    "dialogue_progress_normal": true,
+    "interpretation": "The E5 marker placed in the third post-opcode byte was not rendered; the following byte was rendered as a normal glyph."
+  },
+  "limitations": [
+    "The observation applies only to the selected ED selector in the verified active entry.",
+    "It does not name the command, establish its state effect, or authorize changing its bytes.",
+    "No screenshot or source stream data is stored in this report."
+  ]
+}

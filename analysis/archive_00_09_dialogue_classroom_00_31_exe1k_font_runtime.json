@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "kind": "muted_exact_rom_runtime_verification",
+  "date": "2026-08-25",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_31_exe1k_font_clean_poc.gba",
+    "sha256": "de2b97050083497407110544d591538502b8d755ff3c74092c079feecba7a067",
+    "byte_length": 16777216
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "system": "gba",
+    "launch_id": "launch-01m0wgf3pszx456rd1ya6zkn56",
+    "display": false,
+    "sound": false,
+    "stopped": true
+  },
+  "fresh_boot_archive_load": {
+    "route": "fresh launch -> title -> new game -> opening dialogue -> classroom archive load",
+    "dump_directory": "analysis/emucap/classroom_00_31_exe1k_fresh_newgame_memory",
+    "verification": "analysis/classroom_00_31_exe1k_fresh_newgame_runtime_archive_verification.json",
+    "ewram_address": "0x02038800",
+    "loaded_byte_length": 6603,
+    "loaded_sha256": "d1543746b8db6e0123871a5836d204a2fe25b484869ce30913e485495342f6ef",
+    "differing_byte_count": 0,
+    "passed": true
+  },
+  "focused_renderer_cursor_intervention": {
+    "archive_source": "The exact 6603-byte archive was first loaded naturally by this ROM, dumped from EWRAM, and then reused byte-for-byte after restoring a verified classroom dialogue renderer state.",
+    "base_state": "analysis/emucap/yai_fan_exe1k_font_entry8_choice_muted.ss1",
+    "renderer_preparation": "The saved choice was confirmed once to reach a normal non-choice dialogue page before redirecting the active renderer.",
+    "ewram_pool_address": "0x02038800",
+    "renderer_state_address": "0x02008730",
+    "cursor_address": "0x02008754",
+    "entry_start_address_field": "0x0200875C",
+    "line_state_reset_addresses": ["0x02008732", "0x0200873E"],
+    "evidence_boundary": "These captures prove exact-build rendering, page progression, wait consumption, and the entry-25-to-entry-31 jump after a natural archive load plus explicit renderer-state and cursor intervention. They do not prove the bypassed natural map interaction that selects entry 25.",
+    "entries": [
+      {
+        "entry_index": 25,
+        "ewram_address": "0x0203925A",
+        "focused_entry_address": "0x02039266",
+        "focused_entry_note": "The focused renderer entered at the original ED mugshot command, skipping only the three leading F2 flag commands so the test did not mutate chapter progression flags.",
+        "page_count": 7,
+        "wait_skip_frames_preserved": [30],
+        "screenshots": [
+          {"path": "analysis/emucap/classroom_entry25_exe1k_page1_final.png", "sha256": "6587d3c1d66ac41cd145f00f8d262aaf695075ec2b970b5dfab969fec2014c81"},
+          {"path": "analysis/emucap/classroom_entry25_exe1k_page2_final.png", "sha256": "006e26a07eeff4df5a981699069575155e5b3401c74def7843613093fc32cf7b"},
+          {"path": "analysis/emucap/classroom_entry25_exe1k_page3_final.png", "sha256": "d7820966b26c8e66ac0d108c96be700ea28ab7dce1918d18573a0512f5824697"},
+          {"path": "analysis/emucap/classroom_entry25_exe1k_page4_final.png", "sha256": "d023aba83edb3cd811d0eb8001f1014d66fb0f34931be0db0399c879e88a12ee"},
+          {"path": "analysis/emucap/classroom_entry25_exe1k_page5_final.png", "sha256": "f217074f2dd3501d22b74aa9d2e3076324330f5c52501b2779ddc5eafb42350a"},
+          {"path": "analysis/emucap/classroom_entry25_exe1k_page6_final.png", "sha256": "190a8bd4d5a348c2d3ee147eb9c920eb31d4f6e13c11d18beb2efbdeae1c390d"},
+          {"path": "analysis/emucap/classroom_entry25_exe1k_page7_final.png", "sha256": "5534beacf98ac8a8ada11060708dac050c46362351dc3c6d42623cba04745bfe"}
+        ],
+        "clipping_observed": false,
+        "japanese_residue_observed": false,
+        "broken_glyph_observed": false,
+        "passed": true
+      },
+      {
+        "entry_index": 31,
+        "ewram_address": "0x0203955A",
+        "reached_from_entry_25_jump": true,
+        "preserved_jump_hex": "f5 00 1f",
+        "page_count": 3,
+        "wait_skip_frames_preserved": [15],
+        "screenshots": [
+          {"path": "analysis/emucap/classroom_entry31_exe1k_page1_from_jump_final.png", "sha256": "33cc9fa2ae446104ddb5a3f099e70ba73dc57e36f83e0057a642c7ab85b00674"},
+          {"path": "analysis/emucap/classroom_entry31_exe1k_page2_final.png", "sha256": "5492d3cc1f8c89ee9dbc1d79ebc69db64b4829f5f0ed3cfc9f93532e5e50dffa"},
+          {"path": "analysis/emucap/classroom_entry31_exe1k_page3_final.png", "sha256": "7c63349f732625ca18623dbef6a44ae8714b462b9b27e9bc906126b8f7b1d326"}
+        ],
+        "clipping_observed": false,
+        "japanese_residue_observed": false,
+        "broken_glyph_observed": false,
+        "passed": true
+      }
+    ]
+  },
+  "verification": {
+    "rebuilt_from_untouched_rev1": true,
+    "fresh_boot_current_archive_loaded_exactly": true,
+    "entry_25_all_seven_pages_rendered": true,
+    "entry_25_terminal_page_break_did_not_create_an_empty_page": true,
+    "entry_25_jump_reached_entry_31": true,
+    "entry_31_all_three_pages_rendered": true,
+    "clipping_observed": false,
+    "japanese_residue_observed": false,
+    "broken_glyph_observed": false,
+    "audio_enabled": false
+  },
+  "limitations": [
+    "All Korean wording remains a machine draft that needs independent human review and human approval.",
+    "오피셜 스퀘어 and 시민 넷배틀러 are provisional terminology selections.",
+    "The EXE1 Korean ROM font is a local reference only; its authorship, license, and redistribution permission are not verified.",
+    "The natural map-interaction route that selects entry 25 remains to be recorded separately."
+  ],
+  "passed": true
+}

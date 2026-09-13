@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "kind": "multi_archive_translation_batch_plan",
+  "batch_number": 53,
+  "batch_size": 100,
+  "unit": "text_bearing_archive_entries",
+  "archives": [
+    {"selector":"00/344","archive_offset":7952192,"storage":"raw","raw_byte_length":969,"tpl_path":"../analysis/archive_00_344_textpet_full.tpl","text_entry_start":8,"text_entry_count":10},
+    {"selector":"00/345","archive_offset":7953172,"storage":"raw","raw_byte_length":431,"tpl_path":"../analysis/archive_00_345_textpet_full.tpl","text_entry_start":0,"text_entry_count":9},
+    {"selector":"00/346","archive_offset":7953616,"storage":"raw","raw_byte_length":746,"tpl_path":"../analysis/archive_00_346_textpet_full.tpl","text_entry_start":0,"text_entry_count":18},
+    {"selector":"00/347","archive_offset":7954408,"storage":"raw","raw_byte_length":308,"tpl_path":"../analysis/archive_00_347_textpet_full.tpl","text_entry_start":0,"text_entry_count":4},
+    {"selector":"00/349","archive_offset":7954780,"storage":"raw","raw_byte_length":351,"tpl_path":"../analysis/archive_00_349_textpet_full.tpl","text_entry_start":0,"text_entry_count":5},
+    {"selector":"00/350","archive_offset":7955224,"storage":"raw","raw_byte_length":1747,"tpl_path":"../analysis/archive_00_350_textpet_full.tpl","text_entry_start":0,"text_entry_count":23},
+    {"selector":"00/351","archive_offset":7957064,"storage":"raw","raw_byte_length":1600,"tpl_path":"../analysis/archive_00_351_textpet_full.tpl","text_entry_start":0,"text_entry_count":23},
+    {"selector":"00/352","archive_offset":7958824,"storage":"raw","raw_byte_length":1067,"tpl_path":"../analysis/archive_00_352_textpet_full.tpl","text_entry_start":0,"text_entry_count":8}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "independent_context_selected_full_font_bank_verification",
+  "rom": {
+    "filename": "exe2_rev1_korean_working.gba",
+    "sha256": "f4405865483de247a42616e9813531da557cee5f244228ef0373780084c1aaa7",
+    "byte_length": 16777216
+  },
+  "manifest": {
+    "filename": "exe2_rev1_korean_working_manifest.json",
+    "sha256": "382213ae53d8cc1c6b4890ceae0bb3d95bd614b9419217c2bd49bdcbb40c80c8"
+  },
+  "context": {
+    "cursor_start_inclusive": "0x020389FE",
+    "cursor_end_exclusive": "0x02039800"
+  },
+  "codepage_mapped_record_count": 331,
+  "verification": {
+    "supported_lengths": true,
+    "ordinary_font_bank_matches_original": true,
+    "alternate_font_bank_matches_prior_development_bank": true,
+    "hook_bytes_match_independent_encoding": true,
+    "trampoline_matches_independent_encoding": true,
+    "context_bounds_are_ordered": true,
+    "archive_at_expanded_rom_start_unchanged": true,
+    "gba_header_complement_checksum_valid": true,
+    "codepage_indices_unique_and_in_range": true,
+    "all_codepage_records_match_alternate_bank": true,
+    "prefix_differences_confined": true,
+    "tail_differences_confined": true
+  },
+  "passed": true
+}

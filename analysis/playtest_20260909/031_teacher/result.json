@@ -1,0 +1,91 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260909\\EXE2_KR_playtest_20260909.gba",
+  "rom_sha256": "8d6ed5473404d2dcaf6056297324e86a47d88b4c999324eb40ab8a7a5e8ac11a",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-mjp9ubum\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260909\\EXE2_KR_playtest_20260909.gba"
+  ],
+  "input_checkpoint": "analysis\\playtest_20260909\\030_teacher\\checkpoint.mss",
+  "timeline": [
+    {
+      "start": 0,
+      "release": 6,
+      "end": 186,
+      "keys": [
+        "a"
+      ]
+    },
+    {
+      "start": 186,
+      "release": 192,
+      "end": 372,
+      "keys": [
+        "a"
+      ]
+    },
+    {
+      "start": 372,
+      "release": 378,
+      "end": 558,
+      "keys": [
+        "a"
+      ]
+    },
+    {
+      "start": 558,
+      "release": 564,
+      "end": 744,
+      "keys": [
+        "a"
+      ]
+    },
+    {
+      "start": 744,
+      "release": 750,
+      "end": 930,
+      "keys": [
+        "a"
+      ]
+    },
+    {
+      "start": 930,
+      "release": 936,
+      "end": 1116,
+      "keys": [
+        "a"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "d3b4ba620c7d5d0c833a86742e9c78349e4968cdb5bbaf1420b91dfc171b9cc3",
+    "complete.txt": "10e35e8e93e91e58b54af372922fe86028c587c7e32fa3f50c4a106eaa05e668",
+    "input.mss": "b011c47f0eca38325a50e29caa53e0c2040238abbc621652861c8058b4e72df4",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "segment.lua": "cb4528983f65203ea170df61320f4dc4ea7cd3d1b01d871883ace83f51465a85",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "c2232d9d52130726e06a4357b93c1d6be2b18a83f9466c77eff9ccaedc86f2a8",
+    "step_001.json": "8045f655f2b19d54ed0fb1ed2731c255a671bacb30e7c733849ae074b00b2937",
+    "step_001.png": "bb4e30712ee762f42fbeeddd46bd3c6516162db82df5600711eeb4fd1b291487",
+    "step_002.json": "e3471c6c1f5b06160bd381a80d9065bcb97f29f294e28e73a1e87fba0e8e4dbb",
+    "step_002.png": "e20673063fd855e895dd19afbde55f43ea887e37e2209e1c028c973079a1787e",
+    "step_003.json": "d51c64b4f7ca6fb671f052ac259d1d7359b0b345a7b95d796be53003a40206de",
+    "step_003.png": "fcbbbfbf0cd4521d78dbe114cdb197210606ba2f99e6ffc3ad09cbb6a6f072dc",
+    "step_004.json": "0f5800f17d6611e2848fbb274f496c2d20b3fbe27711e9fd4b1dc37f48b2f270",
+    "step_004.png": "58da9cb388e241b13871455443b163e859b826dd4c47d06df94762ced4e4dfe4",
+    "step_005.json": "65a71eb029f176d895a83aa17ba81fad8587ee502419da8e557f5b5554a4f120",
+    "step_005.png": "8c7aaaeee382a7389fe4098bb8b9ab1bd9dfbf71a9294cf121c413fa48a407d2",
+    "step_006.json": "e018ce80705ddf044c305e562d8d728d16242b205dfa0da66255cdd5720ce254",
+    "step_006.png": "c4f30982e70d4fc8631954c49f0e3ef260f1e669360daa74edd45f2133d2aac1"
+  }
+}

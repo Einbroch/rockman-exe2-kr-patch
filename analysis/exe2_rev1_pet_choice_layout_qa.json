@@ -1,0 +1,87 @@
+{
+  "issue_id": "pet-bookshelf-choice-overlap",
+  "scope": "00/404 entry 10 only; development candidate, not release",
+  "old_rom_sha256": "d5617308a910231ab43a7a64a451f33120f6d18798d5abebde59c98bef7e5139",
+  "new_rom_sha256": "b69aa381934118b31918a802985d187d0fc8605626482e506e01e667036cd5a2",
+  "static_status": "PASS",
+  "changed_archives": [
+    "00/404"
+  ],
+  "changed_entry_indices": [
+    10
+  ],
+  "source_control_skeleton_unchanged": true,
+  "question_rows": [
+    "나는 다 외웠으니",
+    "내가 가르쳐 줄까?"
+  ],
+  "choices": [
+    "가르쳐 줘",
+    "됐어"
+  ],
+  "runtime_status": "PASS_TARGETED_RENDERER_INTERVENTION",
+  "runtime_scope": "renderer intervention at frame 1800, then real input and rendering; not natural map entry",
+  "audio_enabled": false,
+  "branch_snapshots": {
+    "yes_branch": {
+      "frame": 2480,
+      "entry": 16,
+      "renderer_status": 1
+    },
+    "no_branch": {
+      "frame": 3130,
+      "entry": 10,
+      "renderer_status": 1
+    },
+    "cancel_branch": {
+      "frame": 3860,
+      "entry": 10,
+      "renderer_status": 1
+    }
+  },
+  "visual_review": "Agent inspected old overlap, fixed three-row layout, cursor on both choices, yes/no/cancel pages.",
+  "limitations": [
+    "Natural map entry on the new ROM and mGBA-specific reproduction remain unverified.",
+    "Other choice scripts are not covered by this fix. Broad activation rejected because other draft slot layouts need separate audit.",
+    "Old first-run cancel capture used simultaneous A+B; only fixed_cancel_verified evidence establishes B cancellation.",
+    "Full-game runtime and translation review remain open."
+  ],
+  "evidence_sha256": {
+    "analysis/emucap/pet_choice_old/cancel_branch.json": "de9b9a368b8f3e96ade366d7f7591299f970cc0f350bd5c70500d591be0a5651",
+    "analysis/emucap/pet_choice_old/cancel_branch.png": "a56687434440c8eaa790e40e70183cfe72e9d7d5698237024b00bacc1cff2169",
+    "analysis/emucap/pet_choice_old/choice_alternate.json": "754a0ffb92a2fa166005b8fcb6528acbf38099e0b4044eacd261300f052aaaa7",
+    "analysis/emucap/pet_choice_old/choice_alternate.png": "2fb80477a3fbe41f91adf8e6322611c3d28b4b8d5a0d3b2cfaf972616f2fd876",
+    "analysis/emucap/pet_choice_old/choice_cancel.json": "dbaa9fee44b8b9a5f174b329344db7e60415441a0bd1ad129ef4d1c1d4a2683c",
+    "analysis/emucap/pet_choice_old/choice_cancel.png": "7dd13f3c81c6c848a9581c5d24dc96fd4fadad58657736aa32b29d702a543498",
+    "analysis/emucap/pet_choice_old/choice_default.json": "0a3a100ea42534fe7a4a531e2cb084d1588bf3614b969216337c7e5729e228bf",
+    "analysis/emucap/pet_choice_old/choice_default.png": "348fa26a2b92ca2eb86107bd31e7ec4a0e14a90241b9afff4c9d240fa913841d",
+    "analysis/emucap/pet_choice_old/choice_repeat.json": "6972af5f0fb1b1929d4cbaaaf286084e7678ad89b5a337234eab5de898a45f86",
+    "analysis/emucap/pet_choice_old/choice_repeat.png": "7b0c6b91d5b46a6c6673ede9b9e41f6bb0583000f58102044b410c0f80c54f67",
+    "analysis/emucap/pet_choice_old/first_page.json": "ddf8e6017d8caa2901c0c84d2ce8e9a3921f520c296665867ae8ab1baa52ecbe",
+    "analysis/emucap/pet_choice_old/first_page.png": "b7dec8dcce4795fa82223228d8f9948c2cf656ca10afbdfd8ac5bf79f8f2aae9",
+    "analysis/emucap/pet_choice_old/no_branch.json": "c1d6b0c40e3b4cf6c0318c566b55f9a747fe1aace3e7f58313bd7cf7dd1c8ff5",
+    "analysis/emucap/pet_choice_old/no_branch.png": "592cacb59c48eb80d32724e828c47fb59a692b7605934a8bf6b1e7e828864313",
+    "analysis/emucap/pet_choice_old/probe.lua": "814a8cb00f361a88590eec7360e7fa1cdf3e9cd2c77b4f3bb85e965e5dfc7292",
+    "analysis/emucap/pet_choice_old/result.json": "bc37f39432ce9956081d18643e3b732a9f9de4de4edbd6adfce9cae5b46c9294",
+    "analysis/emucap/pet_choice_old/yes_branch.json": "aa535155f86a3ad75c4623d7f914ba4148d9ce1d4d9c87ac303b0a24b056b661",
+    "analysis/emucap/pet_choice_old/yes_branch.png": "b2d82e3e18cbea007a609016514c816fb09a3dc2fa4ee0bc669316f4d0a55e0f",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/cancel_branch.json": "ae8f38e6e652d99403718bd1590c5c73045f3723150bc36f187e1402998f4426",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/cancel_branch.png": "6f33bc73719c57f6a98ee27f3f2871f493591779fcd9262c06a64a3cc4f37294",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/choice_alternate.json": "754a0ffb92a2fa166005b8fcb6528acbf38099e0b4044eacd261300f052aaaa7",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/choice_alternate.png": "ca3e75172a3a8fc9822be1473c8a4f9b2e8d9891d73cf07516d0ab52ca1d9014",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/choice_cancel.json": "dbaa9fee44b8b9a5f174b329344db7e60415441a0bd1ad129ef4d1c1d4a2683c",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/choice_cancel.png": "259975ff0d8d5ec66c6a466a767b096e5bc43918aff3f32f8c6a93be5ace6b51",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/choice_default.json": "0a3a100ea42534fe7a4a531e2cb084d1588bf3614b969216337c7e5729e228bf",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/choice_default.png": "259975ff0d8d5ec66c6a466a767b096e5bc43918aff3f32f8c6a93be5ace6b51",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/choice_repeat.json": "6972af5f0fb1b1929d4cbaaaf286084e7678ad89b5a337234eab5de898a45f86",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/choice_repeat.png": "259975ff0d8d5ec66c6a466a767b096e5bc43918aff3f32f8c6a93be5ace6b51",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/first_page.json": "ddf8e6017d8caa2901c0c84d2ce8e9a3921f520c296665867ae8ab1baa52ecbe",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/first_page.png": "587f13b4299b1592be6b5f8889c967fe6ffd64e95758fe1867830f255d8e2972",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/no_branch.json": "c1d6b0c40e3b4cf6c0318c566b55f9a747fe1aace3e7f58313bd7cf7dd1c8ff5",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/no_branch.png": "2c056a1c019183d904c08baff333399e65ceab39c8091e244d8680d5ca306253",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/probe.lua": "b805d7f7abb602f48029e09904dff21427964410f67457945ff908f15fc38c17",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/result.json": "ed431a800d95d117e4c27d0d26bc79e66898f1fd0c364f0cf15354264e92c8fc",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/yes_branch.json": "aa535155f86a3ad75c4623d7f914ba4148d9ce1d4d9c87ac303b0a24b056b661",
+    "analysis/emucap/pet_choice_fixed_cancel_verified/yes_branch.png": "bff282ffe6bc5863cb2f5170f637a17e18cbd978d256368d4598822a971fb154"
+  }
+}

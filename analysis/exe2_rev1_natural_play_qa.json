@@ -1,0 +1,1007 @@
+{
+  "status": "PASS targeted natural-play fix and save round-trip; PARTIAL whole-game QA",
+  "candidate": {
+    "path": "poc\\output\\exe2_rev1_semantic_translation_playtest_fix_v2.gba",
+    "sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a"
+  },
+  "play_method": "Normal controller inputs; fresh boot/in-game Continue; no game RAM or progress injection. Same-ROM full savestates between segments.",
+  "audio_enabled": false,
+  "verified_segment_receipts": 226,
+  "captured_screenshots": 531,
+  "segment_receipts": [
+    {
+      "path": "analysis\\playtest_20260909\\001_boot\\result.json",
+      "sha256": "9c467a6d391991ecb5656be0dcfe8310c9f37d25cda28e2cabc624d774a54157"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\002_title\\result.json",
+      "sha256": "509c2a89383f88aad55ef05b158047ff33cd539631a7b36d51f085b9e8ed764d"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\003_opening\\result.json",
+      "sha256": "47bcaf8d0523df46624b962f37a44994a0475e227c195fa253228af4c2c464b4"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\004_opening_pages\\result.json",
+      "sha256": "7846fb375d8bd30d64817ce70a40b88baeda69c7f051ba3aa035af0ce5dd5dd3"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\005_old_core_control\\result.json",
+      "sha256": "650410f778d63cafe22c40f2df5f9bbbd77a20919d6bf2ead606018af7fb9a25"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\006_opening_end\\result.json",
+      "sha256": "b56e32a421158557d292c9072def26ef18de8dba245283585676d551a996dd7a"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\007_classroom_intro\\result.json",
+      "sha256": "c27b613812e61d0a96f2101a45600cb693a0d9165b72ccfafe5c34e22e424296"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\008_continuation\\result.json",
+      "sha256": "312cfade0d58bfa7fd31cacc85914be2f0de1fd1d792c118a28fb79c4a49c54b"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\009_menu\\result.json",
+      "sha256": "7d0c197677ff51e239e314090a327595b5a60f8f2ec5dc3d86f1d4045c7c7daa"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\010_save_menu\\result.json",
+      "sha256": "fa87a17abb0d8e69f9cc7fe66e19550c910f9e98d7458e26c2bbe0ea0e1c0f96"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\011_save_prompt\\result.json",
+      "sha256": "04ec3a3c84b500bc59277011c70e32fda44328b5303d1d292ffa193c484903ca"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\012_saved\\result.json",
+      "sha256": "f3328cb8b3978454e959cf62c9ae3a783b488459e1b646cedf6a8cffc5e8e7b4"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\013_rockman_hint\\result.json",
+      "sha256": "96c7e6a36415566ed883039eec38afa97bf76a0a67549d1ac6f30aa0edf3e027"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\014_mayl\\result.json",
+      "sha256": "36741420434e1380ed1cb6866638360bc36caa7f789ecd3cd93026bc025beab7"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\015_classroom_walk\\result.json",
+      "sha256": "439aafc3b6fc85c5d07a3d3b5d9483915273fb2cc53e636b2232dadbf57f7b0b"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\016_classroom_walk\\result.json",
+      "sha256": "cb7c520cef294709c139183a398da0b939b232a79728b4cb54b425103dbf85e0"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\017_book_boy\\result.json",
+      "sha256": "912938c4757fd39f37aa2908a149c27c1cac5b880c20293616d428480eb5a951"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\018_pet_dialogue\\result.json",
+      "sha256": "953b9f34693cb2f0bd1f8477d051a3f8485db8dd3a5a100d0cec39303936b466"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\019_pet_choice\\result.json",
+      "sha256": "f04183caf84f52df641962a4469560a137a85a94b90f1f6e6fd6b185a60cd17e"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\020_pet_no\\result.json",
+      "sha256": "3acd381de847bcb33361a736a03b8a8beb59aee79666fc9032b8caf5ed3f547f"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\021_pet_yes\\result.json",
+      "sha256": "7c80584b95b1c48860867c4116bdfc98adc516bd2f8dcce9c3b5f4d1772009d6"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\022_pet_explanation\\result.json",
+      "sha256": "c849b8429842397dacaf433bed348c0304a2feb21826ee038c40592cd1eb722e"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\023_pet_explanation\\result.json",
+      "sha256": "84f2128606a6a1ea0145a9384ae7a015f4b893ae83350e075a297b195e2be477"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\024_pet_cancel\\result.json",
+      "sha256": "1242deba34e2f8adafe3b7f0ee1d4f2666f9d4aee988c9c0684b95cb1359705d"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\025_classroom_walk\\result.json",
+      "sha256": "681b2ac44a171b85797c65fc1b9c0f7ebb3ca6e15baea54a9eb3d566c241d9f8"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\026_classroom_walk\\result.json",
+      "sha256": "3a59923b38de8b6bc57e75ccfca058be74e26ec5f5492bb591e9d2300548c330"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\027_dex_approach\\result.json",
+      "sha256": "149d1285c8d18892738d4a64ae037045191fa301d47685d32b967de97d7a1206"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\028_dex_dialogue\\result.json",
+      "sha256": "2b744b8665764a0e828f580e9b18a908b964d6c0e04ed6dda8c5fc30b6e1db87"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\029_dex_dialogue\\result.json",
+      "sha256": "314ce83d1f8fe852a56943c486c38a4f57cc2548ee2224078a8e91295239aca6"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\030_teacher\\result.json",
+      "sha256": "f1f39423be3fb22e38482198266d7544e5514c53af96bbf8cbcc8b986a5085de"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\031_teacher\\result.json",
+      "sha256": "059f5a6ee505f63a86d8fd56315460d5ae51b02bb6c9adc9551c10812441baba"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\032_after_class\\result.json",
+      "sha256": "8692dd81d6df869f3a97ee68366c742ed5e73ae04789c31dad36fff56370a6e6"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\033_after_class\\result.json",
+      "sha256": "a023890c273f8642ca27c6a1b4437dce5c53c5750c3b2a9af8daa8fc333ee1d2"
+    },
+    {
+      "path": "analysis\\playtest_20260909\\034_battery_reload\\result.json",
+      "sha256": "65d397ad9fbe8e76d768ffe6b471d84d6d176e02b377b2965eceeaf43823ed41"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\001_coldboot_continue\\result.json",
+      "sha256": "cea8b8d84ea14e26a8774ce4968090a505e1e8aa8d522826742dd802b7ca9cd4"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\002_route_dex\\result.json",
+      "sha256": "ea27daf57f4280ef2bfa675024f456d79e48c08343e16c184d323815d0e3958b"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\result.json",
+      "sha256": "c70da2f055da66486aabcbce90d0b30b49edf7aa315dc047348de79b68e34145"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\result.json",
+      "sha256": "7feee6aff3b3e5c0121103eee1c7c4a1ddbb5bd0fb53a485ea52991527a6d84e"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\005_before_fixed_tail\\result.json",
+      "sha256": "f5b9be1680ab254466eeb167519b9a24ab94895d7be496e4dfc0dca7a6c9efcd"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\006_fixed_tail\\result.json",
+      "sha256": "0fa54cc3c2f7374f9b3d01505aeef93acb267c6d64699c65244dfb7db2a7edff"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\007_after_fix_field\\result.json",
+      "sha256": "708d5898efceadb58a02b65037f457c787bfd52b1c78254b5ffebc80fd3ade16"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\008_saved_after_class\\result.json",
+      "sha256": "93e24d271f4113d42d7544f4addc65fa6145477ef2d359c86650dcaeab59e148"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\009_saved_coldboot\\result.json",
+      "sha256": "b81593f0b2c0280342e639fced16f19fdb32eed3ddaad7e075f7c79ec4be3619"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\010_resume_field\\result.json",
+      "sha256": "4a7e7134f5218ad1d2ba6c089a602c8a9a71001640311634a0def13733fdcfa4"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\011_after_class_walk\\result.json",
+      "sha256": "59eceb1d5f9ed904280f9c1281494307fc8a947647d27b3e4f017918e53734ab"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\012_dex_after_class\\result.json",
+      "sha256": "0f15768c2b2529b6b44f05923bec181ed003b650e630cd8b831c7d753b3b01d0"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\013_dex_plan\\result.json",
+      "sha256": "f3625913fc83f4bf347d943429f75bd260e70ba86cad5eae5f0f7a67b5064729"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\014_dex_end\\result.json",
+      "sha256": "5feaac4a8d60b52b593396bf6fb5d7b3a44b1713c4062a85596feed1e421d250"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\015_dex_end\\result.json",
+      "sha256": "5be2b5e2cee13a3841563fb2ffd1f472e9dcb56a32d750f3248b799abc6270ff"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\016_dex_end\\result.json",
+      "sha256": "deeee3cb945620b9fb431e13cca25800f11cc45d7a4b2bfa7162e6f9da9f3141"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\017_dex_end\\result.json",
+      "sha256": "92112537d76379af4f4e111223780e397b424361ca34b178f38f94e990873ec3"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\018_field_stable\\result.json",
+      "sha256": "aac0c4566dd679da7a909398ef812de9eeed705dea5c7273cec89d5fe049e7d3"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\019_field_return\\result.json",
+      "sha256": "b14540f578884fb10c43cf611c750ea272b32ea43cc5d4c5cf2231eeac3c3132"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\020_dex_pages\\result.json",
+      "sha256": "7fda3b3abc5903bb09c946eb234a3034ab308916b986d0f4c13d646f4fee287f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\021_dex_pages\\result.json",
+      "sha256": "00e4845ec8e91da501f66b3efb315b68ede34af47b4a1d56230f5a8b5cdaef94"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\022_walk_left\\result.json",
+      "sha256": "b6be180a8064696d6949c97d0376267a631d44bd9e04456082078395ab54a93a"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\023_walk_left\\result.json",
+      "sha256": "00efd37f046595d760e5c8ffe5e0f972465b303e2bd2eb025861c2bebc99f60c"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\024_walk_up\\result.json",
+      "sha256": "a7e4c1c58ab111895052d074cd917dc2e6ef8debc2e5908ca4a05c903aee4d89"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\025_walk_up\\result.json",
+      "sha256": "a50725fba0df2a467db2bde68d7d1726f90c3a306055decdb3419a1ac750fbdb"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\026_walk_down\\result.json",
+      "sha256": "6c78f71e1aa10a1761b296db430f85dbd4a5a00ac5cd449d51f17ee84673a065"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\027_walk_down\\result.json",
+      "sha256": "6fe2b9bb0b7392e7dafdfc3904b8395028d19431e6fc99d761e4f7c39c67c873"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\028_walk_right\\result.json",
+      "sha256": "6d0c2033fccea67bcba7f0527513eb358bd83bb11bfdb85eac6d518001f778b7"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\029_map_transition\\result.json",
+      "sha256": "a6e843b5c94fbdd4f743d306cf56ab9ea0bb1ac232c2eb3bb0f3a1c473e305ea"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\030_exit_attempt\\result.json",
+      "sha256": "21bef1217d529341600df96ff9c6d7789d31d09de60a1c038bbe11829c3bda4c"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\031_school_exterior\\result.json",
+      "sha256": "f5af3c33cf0f24d4b2de77bb565b9b1ac23df4db40365c7e8be4a00b9c11c258"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\032_school_exterior\\result.json",
+      "sha256": "c51cdcb8004c3a67aa7ae2812cf867251cd34c828d68301368736e749ce6cc9e"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\033_school_exterior\\result.json",
+      "sha256": "ea49caef203281df08b4231cf5a67da1ec2c0a3f7a837a85b320e94e380a5943"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\034_city_route\\result.json",
+      "sha256": "1c9abf9c0d9daa34c9c138597144e53640f1185f380ac221917f7b665536db16"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\035_pet_menu\\result.json",
+      "sha256": "4a3c7d63543beb71520ddd474262902d9f04f5f6353d4be3d711cb7e00c84396"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\036_pet_hint\\result.json",
+      "sha256": "98b3e246969fe9e0cf97e244bd43632c3a11604dce0a17dec616ddeb2f38167b"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\037_school_return\\result.json",
+      "sha256": "de97da9dd58d2ff2aa1563932130e29e60da56800b9e773311fd68f89d5914ec"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\038_school_return\\result.json",
+      "sha256": "2f61794f09f6866900341535362cd60c36437203fda8236d20aa3586ef2833c4"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\039_city_walk\\result.json",
+      "sha256": "840fc559741fc861647d48fe47bca06bfd27a67806e6cd30261cfb06ec6c8364"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\040_city_walk\\result.json",
+      "sha256": "c6291e620f7be41d699cdd0972e6325d203303dffbee64b0214d79ae298216eb"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\041_terminal\\result.json",
+      "sha256": "5fcdfcefccd2cb0c95489b5b1cc0884c4f7f124a0334eb60532636a8c211d4e8"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\042_terminal\\result.json",
+      "sha256": "8eeb9fb7a794de69e7d26b2993caa65df2daf0ffa15931dadcabc99b7f2ef037"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\043_terminal\\result.json",
+      "sha256": "964202eb6eabc951fcc1c32ee981fa5504c062eeb0e4bc903fcb4f4a9bd3df52"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\044_terminal\\result.json",
+      "sha256": "f64a0bcf1f32041852372f78e2873f837bbec03346e227addd02e5d53fe92b35"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\045_terminal\\result.json",
+      "sha256": "a51e84f31d18ad788d56633a7d3b7b6ac8190763b83c3093b2cc96bf320b8d20"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\046_terminal\\result.json",
+      "sha256": "ffbf2c61c4dcd9692ebf2dc69c6c75592b9209e0b31ecc479518881dba498af5"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\047_terminal\\result.json",
+      "sha256": "8a29da308970d0e2a89632757e4f1896e6b4c62fb92972866d987bc39a9dfb0d"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\048_terminal\\result.json",
+      "sha256": "148e59666f7cb5fdabd7763225752cc00e0c84f58cf9cce13042b88a4ba5cbfa"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\049_terminal_fresh\\result.json",
+      "sha256": "18f8c9589fd5551bf5aca70a5d93201dbacfde58d5c9bc5b48bf9123e3989293"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\050_city_npc\\result.json",
+      "sha256": "4b900ab86c8c9c90302f28606982c899e8d36d9c570f2f68e9d8b3ca845267e6"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\051_city_npc_dialogue\\result.json",
+      "sha256": "d475b65e8f44f97b22ef4441d94f1ed3342910b3ba3142106a67687ff583e3f5"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\052_map_left\\result.json",
+      "sha256": "75dd971e2891b527d4b842cdc71b2fce4a979e5bc39a33dd0d5af4a18566f22f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\053_map_down\\result.json",
+      "sha256": "85628e8363b85d5bd4247e7a0e6516f025f9e7910ba1a6538ef6270fa956c8ba"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\054_map_right\\result.json",
+      "sha256": "62de7acbba94999798ca01182152c484a4bbb697af63c857deec80d4b4cad4c5"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\055_city_route\\result.json",
+      "sha256": "7124c39dc6c44cc2cbc09743a3b2a4301469b2bdec6fba0c02765bc1cfd58298"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\056_city_route\\result.json",
+      "sha256": "71fab8a902123ae67a6417db24a3411a2d237cdb5b8118214158cba31513e663"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\057_city_route\\result.json",
+      "sha256": "a6eb34805d39be8d348ff66b3d84821615a6e80abf38dd4163db1949603c713d"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\058_access_point\\result.json",
+      "sha256": "4b46fb6f1bbc65f2fa72bc376be5ab134280c60812a88f0caf1742b85c2423dd"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\059_access_point\\result.json",
+      "sha256": "759ea9106c0e11d9dc8f0f072b51bed9a14a4e973ef89ec79cd3c1220e104d37"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\060_access_point\\result.json",
+      "sha256": "bfdf0d4e56835929ea9e00748dea0067ee051bb280eb4cd35a9db42bc07c7279"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\061_access_point\\result.json",
+      "sha256": "30c67e150eff4ec457f14e95a489e6a95a04f815ce66816842ab7a14358f29c5"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\062_building\\result.json",
+      "sha256": "a70eaa27c0d459c565fa1857c30e0397801e6a4aba9b0df80c0ad5c32accd769"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\063_close_hint\\result.json",
+      "sha256": "9d315bc5442d2e7a1b239fa32d7df8b96d8fba6e83c341c48a44058b693a97b2"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\064_building\\result.json",
+      "sha256": "e83d3c9220a1fa0103272eee89aa883bda336a7926dfbf3314e59316d88eb203"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\065_building_event\\result.json",
+      "sha256": "eff8736b788baab6d61ad6f7497bbc7cd4a813d9947fd88dae21e00aeb417e72"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\066_building_entry\\result.json",
+      "sha256": "213c25b97031103b759f8500003f80bb810379071e42ca28dea3bcd61f2a89b6"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\067_building_entry\\result.json",
+      "sha256": "f9c1cc910beaa42b397cfe0d1e71092d48ac19081f9012a87515cb1115aff0c7"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\068_home_npc\\result.json",
+      "sha256": "0f1404347185449e88dd06f70edc8bd62a932732ef62c23edd8a705b9678714e"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\069_home_npc\\result.json",
+      "sha256": "5a7ed38b941dc5453c75945d0dea31f458b84fe212c82f5cd0a79c3fe9e07713"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\070_home_npc\\result.json",
+      "sha256": "b54ff4a1050a24a4bce5e6f4ef4d6bc6885d08bacf1555647492b0e9505b8765"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\071_home_entry\\result.json",
+      "sha256": "15ccb12405dccf43048b1e00288b26d1a2c923966547aadede2fe9e2023fb1b7"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\072_home_entry\\result.json",
+      "sha256": "511b70361685c8955e21e88a7e925eb12b4402d9b502ca4be1c926467be205d6"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\073_home_entry\\result.json",
+      "sha256": "92c1701be61a5ea834473b5cefc47b5f8d26f39b3894450fca2fb8889596e5b6"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\074_home_entry\\result.json",
+      "sha256": "ab16f38111a793a53291b2d68a8ec897f27bc087acb5b2adb5c9e78d91ba3cda"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\075_home_entry\\result.json",
+      "sha256": "aa29f005fd09dbaf7f7c55ae2f38d7569ac1da1c6b897b36f50dde0fcf5f67b6"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\076_left_map\\result.json",
+      "sha256": "edc6a0772738a5b4c34162cd013b9a31afa620a6486cb897382709b0377bdaa1"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\077_left_map\\result.json",
+      "sha256": "c73e3c807df6b8c831ccb8d35031706622406b34b48894e794484c106f5c962f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\078_left_map\\result.json",
+      "sha256": "9e7d26e8bd8acd655b4209f97a85fd3b96dfb32dce23eb1636c30213986963e6"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\079_neighborhood_npc\\result.json",
+      "sha256": "57c6a7ab5c18300457414f71011501e3d0941c1c0dedf1258710cfa08afaba93"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\080_neighborhood_npc\\result.json",
+      "sha256": "dc53d1223b4bdbf574e6d166a3d7587ad30111042583c4b8526b40c0f0ea640f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\081_neighborhood_npc\\result.json",
+      "sha256": "64bbf1dfbc565a3cecfa24f8130ff09a905093adadef1f3c21c7ab67d5269271"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\082_indoor\\result.json",
+      "sha256": "ad052b3c912a011230a4033e4ad6f0d9d46afa1830b6c5d1e17b86361b486b9d"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\083_indoor_object\\result.json",
+      "sha256": "617a2aba411fd9bac7dbb7601105e11acdc1252464369c309279a8e757201ba3"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\084_indoor_npc\\result.json",
+      "sha256": "e0319e3a1a4b279efd9572cd4d85a35fa7fcbb0a1fe5779e3e4ab0b7316a7219"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\085_indoor_north\\result.json",
+      "sha256": "818b45aa273e83b80b06ab3eef291765f6c079d8613cdd1e6926067fd5d361aa"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\086_indoor_interact\\result.json",
+      "sha256": "161213db501ccfea6068b242344c5b6936e367c2164310b47cab90b366fe51a0"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\087_indoor_left\\result.json",
+      "sha256": "e7a1f28f8346004330a6873060a049cda83a818eff3934030d93802b848d59ba"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\088_indoor_kitchen\\result.json",
+      "sha256": "d45a6a861104c7079710f0baf99b93e9f25904fcc62fe1e3d1cae2d53a437344"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\089_indoor_exit\\result.json",
+      "sha256": "f19285214729943bb432070c9018a5d0f520a67dbe846cc744dce2a582031976"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\090_clock_dialogue\\result.json",
+      "sha256": "84b21c499f03ea2c981f0adf804e5c5e2d7c33c917cdf5ce9fb32eb8bee22374"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\091_clock_dialogue_page2\\result.json",
+      "sha256": "364a708e55908bba61102677008793e6ccfb6452778458658b71261cbb1e1053"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\092_indoor_exitdoor\\result.json",
+      "sha256": "4260b2aacd096bd7fec3f32308f175de49726f055b29345cb5f14079fe6968d7"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\093_mom_dialogue_page2\\result.json",
+      "sha256": "d73b22ebb6e55ab7e2e49c95c60d4f0e95cc6e8c7c25ca1773dc2b02870f18be"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\094_home_exit\\result.json",
+      "sha256": "a2600f5bf7eef903ce01baee5b4e820b5efa37b6eb423f0d4e9c4bd8ec533855"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\095_mom_dialogue_page3\\result.json",
+      "sha256": "99c20030e887a7e98f86485b400f7f1c602ebe2b817722b6197203d936a21261"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\096_home_picture\\result.json",
+      "sha256": "596d02f4d1919a025ab14bea4d088e02bcf1eb312b1d694b090fc4ec28b55b2f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\097_home_picture_interact\\result.json",
+      "sha256": "bb6afc028a2ea23bf126a364d79de1ef7a4eb16ff273ce2104c598915a681077"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\098_home_picture_page2\\result.json",
+      "sha256": "0345ea70368092f129e5508c4b58cc610d1743082235c52ace1794ae3accc7ea"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\099_home_picture_close\\result.json",
+      "sha256": "31c219341ce8d126ed555bbae393a25c4fcc0fc4e17cacf3efdde5161ba2dccf"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\100_home_kitchen\\result.json",
+      "sha256": "e1334a5d82bf177e39a6735739bf9cbb71985b9a3f32176eb109dc34246ef5c2"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\101_home_frontdoor\\result.json",
+      "sha256": "1caa42ca74921d5348e08c6b26b3a32a55fef29075bf56fedaf6e9372ad6efec"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\102_home_door\\result.json",
+      "sha256": "d4dc8e8b3fddddce46c92ceaf866ec49749e01ace42124901417704154aa45e1"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\103_home_leave_try\\result.json",
+      "sha256": "68a0eacddfc362160a3adee65eb4122ae7fe8f96c65bc19e18f53d8bd7de470c"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\104_home_door_walk\\result.json",
+      "sha256": "6d83256c63c3ea02989f318d08955197a2d03b496f2f0affb24513daf66ce5f0"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\105_home_door_up\\result.json",
+      "sha256": "052a8ddec4cff27f32c4248cfcfd19703e4c721be87f1531cf1b0ec6aec9f898"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\106_home_mom_close\\result.json",
+      "sha256": "e3dedcf112838b5e15ff9235cf48d4877fee1510dab0bfba84729fbaa78a44d8"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\107_home_exit_after_mom\\result.json",
+      "sha256": "1a9bd7d85ffa8edd768499598310a1f1a0ae7397559eb08f9bc6ffdecf8e4189"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\108_home_leave_down\\result.json",
+      "sha256": "be375c38ba61339a3439b451b6c45332e54bf2f8374a6a7d13646a8e28437cf4"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\109_home_exit_lower\\result.json",
+      "sha256": "8bfcd51fd2a70c7227f21e75ff08fe70fd951c6c22b99e0b3ee85902d53a750e"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\110_home_exit_lower2\\result.json",
+      "sha256": "1fc57d493e56468066f53437634e5b0e85c00bcb1b932167cc87ba3b1008d8c6"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\111_home_outside\\result.json",
+      "sha256": "7ba533f60cc270e3494c86cb733eeaec5502de97c80913ac9a5e99456c6e0db6"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\112_pet_object\\result.json",
+      "sha256": "7325c66b877be9e895c3d667030cfbbf8cc00b7f726a775c49ddcd88bc021a79"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\113_pet_object_face\\result.json",
+      "sha256": "482c280d298e226e9a96468940a334d34d507ea49cc4d78c6d98f6699121893f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\114_home_wait\\result.json",
+      "sha256": "0a274abaa8958de1abe92d6108efc86b750c94d49e540a44c6c36e38d48483b3"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\115_home_bdoor\\result.json",
+      "sha256": "75a1196ebfc65198cf9eee13fbee2ddd369f1549fee6264984ad3e292c3d4fe0"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\116_home_door_left\\result.json",
+      "sha256": "557f56f62a3d1a3bf8e1c2b8a853431e1ae2751fcecb784233cb1a8fa171099f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\117_home_mom_sequence\\result.json",
+      "sha256": "0cdc562aee3e2f74dd6666bcb32ac440f58c4a223b98fbb97ab083d33356d029"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\118_home_mom_down\\result.json",
+      "sha256": "faf3cedf37e74af36cdf90a23da6fc2f81142cdbe9ca63b46049656fbd6d2f10"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\119_home_mom_long\\result.json",
+      "sha256": "40c36f2c36868d1cc91ecbf9cca774ae4c48881d359864e0796587f050a66e38"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\120_home_mom_waitnext\\result.json",
+      "sha256": "b43234d05c5f44980581af483f1fac42f9d7a90a5f944345319d787934b7b89e"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\121_home_exit_diag\\result.json",
+      "sha256": "837ce07afa32951ca4eba51cc29bb37209f43d1e1f33197d8b2c0f9f2f748ec8"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\122_home_door_around\\result.json",
+      "sha256": "51e94dda8de8d17929505914b173e9fc90123929b1251c659f7448e63c5f1d2e"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\123_home_mom_from_side\\result.json",
+      "sha256": "605c814e32b9f0a0abde1e1274f7497e8f5918dddd1542f24b59ae537617328b"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\124_home_mom_side2\\result.json",
+      "sha256": "422bbf22021c6f3e211ed286f6fc6fd41e3022930b4f706514c4b907d62d1677"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\125_home_exit_clear\\result.json",
+      "sha256": "0d039edf341905e86e4dac35b8bdab349494b462c7d3b42e12935aec4ec4500d"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\126_home_left_exit\\result.json",
+      "sha256": "ecca730f091436e9728b28fab0942fce541ad60fb5e162cac2a7c113ea867420"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\127_home_left_mat\\result.json",
+      "sha256": "97e5ff9f49ca531cf3b94c5e31b82d9f5c79b96f2ef9098b0029d498d1ac2c6c"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\128_home_stairs\\result.json",
+      "sha256": "3d7843e248868d139dff25fd374a1ca15fc77d20cde7c5ad8288f3333ab98a04"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\129_home_stairs_down\\result.json",
+      "sha256": "8b3c838ec89bd85cc678034ef10cc66abf2a2b49a037d9731c276025a281026e"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\130_housefront_npc\\result.json",
+      "sha256": "93476b1ee77f913550bb9ffe805e9a0d12f5140a6202fb794bc2d7532c954118"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\131_housefront_npc_close\\result.json",
+      "sha256": "2d216bca23acc10b5eb012dd7239f5196a71c110393c0da7cf564e82ce2e180c"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\132_housefront_npc_page3\\result.json",
+      "sha256": "81c9074336da1a277695a8ffc9c817d69dcf70676e0421a9c809b15ef72ed7fd"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\133_housefront_npc_close2\\result.json",
+      "sha256": "b956c6d17f7be746a04f7bdd5587c50fa33fcef1c375a2c52f5893fb1f7c1d79"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\134_home_area_up\\result.json",
+      "sha256": "e6c65fb99213c75100587cb3afd01984a48080894cc4b9b381a984ce86bd98b0"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\135_home_area_north\\result.json",
+      "sha256": "42201523214f758a08120ac3ff1006c8960ada695fa14d392512448449e93826"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\136_home_area_npc\\result.json",
+      "sha256": "157fda52a196db5320c70a6f53ebe099e8b584a7ac2474407ab5b414c807467c"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\137_home_area_npc2\\result.json",
+      "sha256": "b4074a32013be4593bce5b093de607a5fd228551fe277ca1e43dc385f283d842"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\138_home_area_npc3\\result.json",
+      "sha256": "a0966156512260fecfe55c89882a92757560dde3fa2f5fd7ae63706be8108722"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\139_home_area_npc4\\result.json",
+      "sha256": "5d8e3d5b561f85af331985ca226c9fe9d3c6394d86e709f8a89265bae74381f3"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\140_home_area_npc5\\result.json",
+      "sha256": "0646430805b20dab40e3d881544e04bcd87fa58aaf4d0fddb93e50243ec6397f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\141_home_area_north2\\result.json",
+      "sha256": "d315aa89a431990727682c2fc1ea0c1f253e9708dc552db5adafe1d1fcb11924"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\142_home_area_npc_page2\\result.json",
+      "sha256": "d16b325e7dbfffe467ed79368cdef79caf57af06635886db7a7aac6c259741a8"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\143_home_area_npc_close\\result.json",
+      "sha256": "60652d93ee65cda318834a2631650fc0508abb2a86210cba8b737bb710a7f647"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\144_home_area_npc_page4\\result.json",
+      "sha256": "66d50bdbeb18b1b93be8edc367f234c540c4f8a252fa52d7a295c4e3524606e2"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\145_home_area_exit_north\\result.json",
+      "sha256": "2a3c0f02f7d3a180cf52a95b08c61e589e2116f1ecbe4a28c799947ab31aa06b"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\146_home_area_exit_north2\\result.json",
+      "sha256": "8133803458200f1287c9dfff563d73473a75e326d20b8441231cf39f30030085"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\147_home_area_road\\result.json",
+      "sha256": "86f3dcc54d09f0d1b529c83b4ac69483b859225a714d1b7369795742cfac730e"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\148_home_area_road_right\\result.json",
+      "sha256": "da0a467a78c4d7528e726dad1d4422dfb0d5c1fe037615e264f01f86fb45f35f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\149_home_area_road_right2\\result.json",
+      "sha256": "03a9b9c6315434877e805ca46e08c4d7340b80172169863ec1190ae5fcb33d61"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\150_home_area_end\\result.json",
+      "sha256": "034317100e0ace1793a96adc52b11b15742fc50df5cf5a41e1bae5d337552bd1"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\151_home_area_exit\\result.json",
+      "sha256": "4fe7de93a7674865588a1de977ab37c1ca9b7121bc3e0791d6a015d783354aa6"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\152_home_area_exit_right\\result.json",
+      "sha256": "7d3a205c8f3cf4e070bc38f8ad07c3177244c93098283f3d99604eb1fa74e16d"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\153_waterfront_down\\result.json",
+      "sha256": "96edb54ce99b5aba45c2b972c3ef40e8d6ebb389ff2efd31876ec842b3f3e65a"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\154_waterfront_down2\\result.json",
+      "sha256": "a5e19c76094af5286a2f2418487aea51ddadc2d88b0306963915b11124560a20"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\155_waterfront_left\\result.json",
+      "sha256": "2c808ada1bad64601a84e07495ac61f55c346a33351e9141dfac3ab2ad05ba51"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\156_waterfront_park\\result.json",
+      "sha256": "1b8bd78133ce28435fabe0c958f217a5a989bbddb52593edbb65352adcba848c"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\157_waterfront_park2\\result.json",
+      "sha256": "5923702bc5f2be1bfe18f95c09220123634b8d61f732c0d693c32f76bf9abaab"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\158_waterfront_park_npc\\result.json",
+      "sha256": "2668a722f8913c2a7ed8cd7dbccc044249435582087789ee6ff9f354d4c8514f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\159_waterfront_park_npc2\\result.json",
+      "sha256": "79a66ae5b0d87ba847007a059b8411199f5045be4f5083b669c30e9e32e3f216"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\160_waterfront_park_top\\result.json",
+      "sha256": "5246e52623537ef430c4bf655925f92eb2bf8461c6b02832d6f5f0834be3afcc"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\161_waterfront_park_top_npc\\result.json",
+      "sha256": "00831f3050af451771d01df8797392ec0d756b6f919649e7ac959181b03da04f"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\162_shop_npc\\result.json",
+      "sha256": "f3f4bd4ca1ac05c5aa22ea667db616e987f4b5d38d118dbe3928c56388ce5e40"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\163_shop_npc2\\result.json",
+      "sha256": "f9063e8fcb0c146a7d0ae9d45cb3b4b2a199cc20aa650a26d07867292dfd007b"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\164_shop_npc_close\\result.json",
+      "sha256": "2abe01a25f8a5c5bb353237033193ee98f02ec22d24e8efa01422871bd7d5fa2"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\165_shop_entry\\result.json",
+      "sha256": "f549e5e83ca77f5dc442849bacd37099ebd24addc816bedcb40e566a42663bb6"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\166_shop_entry2\\result.json",
+      "sha256": "63f5dd2e1da7ff517cd5383eb9e2ea950c664815d38b31aaa0c1af6b6544dfa1"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\167_shop_door\\result.json",
+      "sha256": "bce5e925c17c3f299dcfe9ebeddc7137c4498247248ab38dc5296971cda5eac1"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\168_shop_inside\\result.json",
+      "sha256": "c4531740fc4aac7d34842141bdc78fab9fe66327a51f5c236f83ff71b8af2eae"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\169_shop_door_up\\result.json",
+      "sha256": "8be3e8215593d937e65abbaf0bde8dbbb895a6712243ea6388837cd373034f36"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\170_shop_npc_blue\\result.json",
+      "sha256": "d2f348d156e9ad545d95bdf09bdb7e39c0c84f85a9e5df9d0b6001b8a4baa96a"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\171_street_npc\\result.json",
+      "sha256": "10d414c61f64127fad4064c1ad75168ca8cf85a56c122368fd1a1dfa6c79852a"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\172_street_statue\\result.json",
+      "sha256": "c54e511edb23675d959cabeb18aee77261dced192f5ba46b4b1ddc511281dbc3"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\173_park_slide\\result.json",
+      "sha256": "b156d38805dcafafce086ddb74c865ca0d36b28ee62fd07bff5345a6c6fe248d"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\174_park_npc\\result.json",
+      "sha256": "09b6ccade1c69a56b1bef948659f314f4ae9d068e4d202b6b6abc995b09508e8"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\175_street_north\\result.json",
+      "sha256": "006b707f00fe6bf8d732849a0507a244b95da89f74f6a8edf359675c368afac8"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\176_street_south\\result.json",
+      "sha256": "4ac83ec4f48c4892adf55057a3164e5162e975512450e655751982bb026d852a"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\177_park_west\\result.json",
+      "sha256": "fbf309ed564c604d0468ddbe772b23bab4bdfc281fd031a11a04fbae62e95326"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\178_park_west2\\result.json",
+      "sha256": "1c4dcc89c0e9c4544797247150542815251aa1cbd8fde5b0ed9ddd73634feef4"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\179_shop_black_npc\\result.json",
+      "sha256": "78d112e0c21c79499efe39b7c2a63538c162ee9ffb591e00439aa6c4c2324105"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\180_building_north\\result.json",
+      "sha256": "4f5ab27d1553fbe2418f2221b51896bce664179b4afc179d487e9190d1713bda"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\181_building_west\\result.json",
+      "sha256": "38edb989ed22abe5e5d7f978bdf43c3a07ccff339c3642ce79e8300621ee6200"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\182_west_npc\\result.json",
+      "sha256": "dc833cf24b5fbf6294d83b87a3d057734ceba3293a2fc8b145d4ff1766118abe"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\183_west_building\\result.json",
+      "sha256": "1b81fc7c17e3d4483e83a13b19996e8d22eb3c66b9cf1fd06a3f257aff7f9255"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\184_building_door\\result.json",
+      "sha256": "f2e1712ff7fb52afef4087c98decb438aa8d8a601bd2cd9a9d51c630904b1a7b"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\185_building_entry\\result.json",
+      "sha256": "eb4e44d32604e174f5ab564a6096e431b533dfb7d87809625b7cbc914b5c4286"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\186_building_south\\result.json",
+      "sha256": "da90dbe3b06f187b11ab6a974c19f75976e1a66c375fee6ecce1f0506e57a8ac"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\187_blue_building\\result.json",
+      "sha256": "26afda49fe6b12de96e6010fbfee58e3e10091d0e3f4f4b3eddc006fdc7da4e3"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\188_blue_building_door\\result.json",
+      "sha256": "bd09bb15ec7a53ccdee9e798d576bae35ce7e2d2be0d6d5387112f4b609dfca9"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\189_pink_house\\result.json",
+      "sha256": "7c210cdfc7d9fbf89b3192eab040b98946d3d09adb127883748f697b75bb3048"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\190_pink_house_north\\result.json",
+      "sha256": "8d76426f1db57a95710fa7051001378616b58357254e9cd1b6d862ef836a8025"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\191_pink_house_door\\result.json",
+      "sha256": "043d2b566f2e30089bb522eb2aa3f14745876ba433b4fa8c8ff0ca1bbb155336"
+    },
+    {
+      "path": "analysis\\playtest_20260910_fixed\\192_pink_house_edge\\result.json",
+      "sha256": "a0515da732d203753977852fc350296735587224ce6d0f948d0aabc7cf521666"
+    }
+  ],
+  "fixed_issue": {
+    "identity": "00/164 physical continuation, terminal jump from entry 16 to 17",
+    "before": {
+      "path": "analysis\\playtest_20260909\\033_after_class\\step_002.png",
+      "sha256": "3eaadd12c21c097edc6871c3c3fc395cc71840cc538500fff38614273aff68b0"
+    },
+    "after": {
+      "path": "analysis\\playtest_20260910_fixed\\006_fixed_tail\\step_001.png",
+      "sha256": "fb24697568349a8536e6e04ec60515dc9ed7331193d1a20f1246e76418057611"
+    },
+    "translated_display": "넷토、 역시...",
+    "visual_review": "Agent inspected native emulator screenshot: Korean line and punctuation visible within one row, no clipping or cursor overlap.",
+    "immediate_predecessor": {
+      "path": "analysis\\playtest_20260910_fixed\\005_before_fixed_tail\\checkpoint.mss",
+      "sha256": "6b771ead8a7ea9b96475405dd3ddb4eb2c50f06451dd418578b237dc0e151d69"
+    },
+    "field_return": {
+      "path": "analysis\\playtest_20260910_fixed\\007_after_fix_field\\step_001.png",
+      "sha256": "0b78bfb0c88013e417ffdb19acc5d4d7d5bd42c28c2d955bc58b48de89d112d1"
+    },
+    "player_movement": {
+      "path": "analysis\\playtest_20260910_fixed\\007_after_fix_field\\step_002.png",
+      "sha256": "705a64fbad57c251818160a88f7299f2c0f7ad937782dbdc54055ab518f9b6f0"
+    }
+  },
+  "save_validation": {
+    "input_battery": {
+      "path": "analysis\\playtest_20260909\\012_saved\\battery_classroom.sav",
+      "sha256": "bccc38c8d92df3d447ce965d4555953213c31d2587d7b68268f7f021a52f601f"
+    },
+    "new_rom_coldboot_continue": {
+      "path": "analysis\\playtest_20260910_fixed\\001_coldboot_continue\\step_003.png",
+      "sha256": "6aed1b71964eb4c474c988bb3447d89ef5358342fafc539b108cfd49f80771d7"
+    },
+    "game_save_completed_message": {
+      "path": "analysis\\playtest_20260910_fixed\\008_saved_after_class\\step_002.png",
+      "sha256": "5639efc0198339797ce81efe6a96ca18cc8ec51ded057681e2767377b7456433"
+    },
+    "after_class_battery": {
+      "path": "analysis\\playtest_20260910_fixed\\008_saved_after_class\\battery_after_class.sav",
+      "sha256": "28b10f935edc8355466971cfeb86c8048a65bd4a848ee9ed2bca8e0bb10e453d"
+    },
+    "after_class_coldboot_continue": {
+      "path": "analysis\\playtest_20260910_fixed\\009_saved_coldboot\\step_003.png",
+      "sha256": "ff7b7f983b057d25ffb46d84925c20613c02ca50703f079ff07da9ddaf0d92be"
+    },
+    "latest_same_rom_checkpoint": {
+      "path": "analysis\\playtest_20260910_fixed\\010_resume_field\\checkpoint.mss",
+      "sha256": "6fec34665b5525848631a74ef3a207a11d682284b48ab613c459429a1437738b"
+    }
+  },
+  "baseline_natural_regressions": {
+    "former_00_163_crash_followup": {
+      "path": "analysis\\playtest_20260909\\008_continuation\\step_001.png",
+      "sha256": "e4676e6a21d33545f988b0703bb97308ac40e8fd5ad893fdde4dac4ea4f7f4d8"
+    },
+    "L_hint_three_rows": {
+      "path": "analysis\\playtest_20260909\\013_rockman_hint\\step_001.png",
+      "sha256": "40b520b3d03323c9d660fc7228b81dfc7c9047e9484095b2c2191d85c8d3577e"
+    },
+    "PET_choice": {
+      "path": "analysis\\playtest_20260909\\019_pet_choice\\step_001.png",
+      "sha256": "773c09d1e2ece157ffecb01eb31a65f8b3cc6f0e9ae11dd9f7148d2652f3c73f"
+    },
+    "PET_decline": {
+      "path": "analysis\\playtest_20260909\\020_pet_no\\step_002.png",
+      "sha256": "c880aa609780fc892ad97c50cfb6ec61f9bc72c8027f5977a565817da35c636b"
+    },
+    "PET_accept": {
+      "path": "analysis\\playtest_20260909\\021_pet_yes\\step_001.png",
+      "sha256": "f5052f4ae9c2a962a986c1a357c57a9c52fee90ba3f1cc376b530738be66b8f9"
+    },
+    "PET_B_cancel": {
+      "path": "analysis\\playtest_20260909\\024_pet_cancel\\step_001.png",
+      "sha256": "3a10558e4da111fa46d547d31fa1b9d21f803f7690e4cf8517b36544e54b53cb"
+    }
+  },
+  "latest_natural_play_checkpoint": {
+    "path": "analysis\\playtest_20260910_fixed\\192_pink_house_edge\\checkpoint.mss",
+    "sha256": "859342feb7fb2b57335b16d4151305aa39f69e90b1a7c5e7b922ad8bed29c1f2"
+  },
+  "open_issues": [
+    "Japanese title/menu/save UI",
+    "156 preserved untranslated physical continuations",
+    "00/357 unresolved reference (95 entries)",
+    "Previously deferred layout cases",
+    "Remainder of game and mGBA-specific natural replay not tested"
+  ],
+  "next_route": "Neighborhood map-edge checkpoint 192: continue the next event route using fresh normal-input segments.",
+  "distribution_zip_updated": false
+}

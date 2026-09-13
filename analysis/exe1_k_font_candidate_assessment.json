@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "kind": "external_exe1_k_pixel_font_candidate_assessment",
+  "source": {
+    "filename": "Battle Network Rockman EXE 1 [K].gba",
+    "sha256": "c0753c1d3170f69e1eb8b03a02875ec63c5622185ac4afbb2b8688c53209d865",
+    "byte_length": 9523772,
+    "header_title": "ROCKMAN_EXE",
+    "game_code": "AREJ",
+    "version": 0,
+    "embedded_in_project": false,
+    "distribution_permission_status": "permission_received_user_attested",
+    "permission_record": "analysis/exe1_k_font_permission_record.json",
+    "documentary_permission_copy_stored_in_workspace": false
+  },
+  "source_structure": {
+    "hook_entry_rom_offset": 8388608,
+    "hook_entry_gba_address": "0x08800000",
+    "hook_pointer_literal_rom_offset": 79476,
+    "font_base_rom_offset": 8388972,
+    "font_base_rom_offset_hex": "0x80016C",
+    "font_record_byte_length": 64,
+    "cell_pixels": [8, 16],
+    "tile_layout": "two_vertical_8x8_gba_4bpp_tiles_low_nibble_first",
+    "hangul_base_record_index": 512,
+    "hangul_order": "KS_X_1001_2350",
+    "source_index_formula": "512 + ((EUC-KR lead - 0xB0) * 94) + (EUC-KR trail - 0xA1)",
+    "observed_hangul_palette_indices": [1, 3]
+  },
+  "current_scope_coverage": {
+    "required_hangul_glyph_count": 135,
+    "mapped_glyph_count": 135,
+    "missing_glyph_count": 0,
+    "unique_source_record_count": 135,
+    "source_record_index_range": [512, 2846],
+    "average_foreground_pixels_per_glyph": 37.17,
+    "minimum_foreground_pixels": 21,
+    "maximum_foreground_pixels": 55,
+    "comparison_gulim_average_foreground_pixels": 41.42
+  },
+  "candidate_build": {
+    "filename": "poc/output/exe2_rev1_archive_00_09_dialogue_yai_fan_exe1k_font_clean_poc.gba",
+    "sha256": "d12cb1081ba7a421585a972411b907a528c48770e7c72b1bd39bcc9d863a505e",
+    "byte_length": 16777216,
+    "archive_manifest": {
+      "filename": "poc/output/archive_00_09_dialogue_yai_fan_exe1k_font_clean_manifest.json",
+      "sha256": "6c9de9725f3c2cc7a833aecc9cd73650fc1815fc8dc298feef6d08fdb4bbc0bc"
+    },
+    "integrated_manifest": {
+      "filename": "poc/output/integrated_archive_00_09_dialogue_yai_fan_exe1k_font_clean_manifest.json",
+      "sha256": "c0963711867980789d9a2b1ba38714ec20d2707cc3058f0dbff746b61958d262"
+    },
+    "static_verification": {
+      "filename": "analysis/archive_00_09_dialogue_yai_fan_exe1k_font_clean_verification.json",
+      "sha256": "76e075b5cb3b02bd65d31704a99bdd7b7bc98427b48dfae2dba07c23a8451e9a",
+      "passed": true
+    },
+    "comparison_with_gulim": {
+      "different_byte_count": 3326,
+      "different_font_record_count": 135,
+      "differences_confined_to_declared_font_records": true,
+      "archive_and_codepage_byte_identical": true
+    },
+    "distribution_eligible": false
+  },
+  "runtime": {
+    "emulator": "Mesen 2 through emucap",
+    "system": "gba",
+    "display": false,
+    "sound": false,
+    "launch_id": "launch-01m0wc8b63vte8wf08pefyjhxd",
+    "archive_intervention": {
+      "reason": "The reused entry 7 state contained an older archive snapshot; the byte-identical current 6238-byte archive was written to EWRAM 0x38800 before the font redraw.",
+      "input_sha256": "c6802368852d4617d7ce80ec5a0a1dd1b94682f10da648a1991e25ef417f9fde"
+    },
+    "font_record_read_trace": {
+      "character": "요",
+      "font_record_index": 581,
+      "rom_offset": 6948080,
+      "rom_offset_hex": "0x6A04F0",
+      "consumer_pc": "0x08020DA6",
+      "frame": 1044,
+      "snapshot_sha256": "d4be8d700287ce3c5d1a5d8591057f273b6b1e7d1e6657bde481a8421e328a0d",
+      "matches_candidate_rom_record": true
+    },
+    "screenshots": [
+      {"stage": "entry_8_page_1", "filename": "analysis/emucap/yai_fan_exe1k_font_entry8_page1_muted.png", "sha256": "d9e9747229ba209280f13f9651e3402091a877949c1d3b8d471d03a95c3ef696"},
+      {"stage": "entry_8_page_2", "filename": "analysis/emucap/yai_fan_exe1k_font_entry8_page2_muted.png", "sha256": "5cc027fa0ee4b7caa4d4537d6ec254e6a60b7b1cb7ec5c39d5bf8543752ad227"},
+      {"stage": "entry_8_page_3", "filename": "analysis/emucap/yai_fan_exe1k_font_entry8_page3_muted.png", "sha256": "1ec44397cdc8b5d55b743b57b49617e8b91b2381ed602a948a9b87bdf6f5dc57"},
+      {"stage": "entry_8_choice", "filename": "analysis/emucap/yai_fan_exe1k_font_entry8_choice_muted.png", "sha256": "f683cf667ad141fe348ac67eee17ac676f0229c3f9b29d0687dad27d32d8cb3e"},
+      {"stage": "entry_8_affirmative", "filename": "analysis/emucap/yai_fan_exe1k_font_entry8_yes_branch_muted.png", "sha256": "0e40a3b5645de8c5e1e95b979e199cc7b993c286dfb049357c738b58d1d91f2b"},
+      {"stage": "entry_9_negative", "filename": "analysis/emucap/yai_fan_exe1k_font_entry9_no_branch_muted.png", "sha256": "44ef19e09ea6e8090284d865c4a097d6ba59b5ce3c34ba29f2488923a9a665f1"}
+    ],
+    "comparison_image": {
+      "filename": "analysis/emucap/yai_fan_gulim_vs_exe1k_font_choice_comparison.png",
+      "sha256": "42b54b1d3e6b5e86032564976d32aeb55f1b8c0ac395f67bc23d835c88b79d59",
+      "layout": "top: Gulim Regular; bottom: EXE 1 [K] pixel font"
+    },
+    "clipping_observed": false,
+    "overlap_observed": false,
+    "ghosting_observed": false,
+    "progression_stall_observed": false,
+    "passed": true
+  },
+  "assessment": {
+    "technical_compatibility": "pass",
+    "visual_character": "The source is a hand-tuned 8x16 game pixel font, appears crisper and slightly lighter than the current Gulim raster, and fits the existing dialogue cell without resizing.",
+    "recommended_use": "Use as the selected EXE 2 Korean-patch pixel font under the adopted user-attested permission record.",
+    "release_blocker": null,
+    "rights_basis": "Permission received, as attested by the project user on 2026-08-26; the workspace does not store a documentary permission copy."
+  },
+  "passed": true
+}

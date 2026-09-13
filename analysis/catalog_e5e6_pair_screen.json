@@ -1,0 +1,3220 @@
+{
+  "schema_version": 1,
+  "kind": "catalog_scoped_e5e6_raw_pair_screen",
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "catalog": {
+    "filename": "rev1_message_block_catalog.json",
+    "sha256": "860771a9029bbc73042e0ad02b6aecd473d6af2bf3890f5efd43628af7310a89",
+    "record_count": 427,
+    "subentry_count": 10360
+  },
+  "summary": {
+    "font_record_range": [
+      229,
+      740
+    ],
+    "candidate_record_count": 512,
+    "records_with_no_catalog_record_raw_pair_occurrence": 256,
+    "records_with_no_catalog_entry_raw_pair_occurrence": 374,
+    "no_catalog_record_raw_pair_observed_record_indices": [
+      256,
+      266,
+      268,
+      272,
+      277,
+      278,
+      279,
+      280,
+      281,
+      283,
+      284,
+      286,
+      287,
+      290,
+      291,
+      292,
+      294,
+      298,
+      299,
+      300,
+      303,
+      306,
+      309,
+      310,
+      311,
+      312,
+      314,
+      315,
+      316,
+      318,
+      319,
+      320,
+      323,
+      324,
+      335,
+      354,
+      359,
+      363,
+      364,
+      371,
+      372,
+      374,
+      375,
+      378,
+      379,
+      380,
+      383,
+      391,
+      394,
+      399,
+      401,
+      405,
+      407,
+      411,
+      420,
+      432,
+      433,
+      436,
+      441,
+      442,
+      445,
+      446,
+      452,
+      456,
+      457,
+      459,
+      463,
+      468,
+      474,
+      475,
+      476,
+      477,
+      478,
+      480,
+      482,
+      508,
+      511,
+      516,
+      518,
+      519,
+      520,
+      522,
+      523,
+      524,
+      525,
+      526,
+      529,
+      530,
+      531,
+      532,
+      533,
+      534,
+      535,
+      536,
+      538,
+      539,
+      540,
+      542,
+      543,
+      544,
+      547,
+      548,
+      549,
+      550,
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      558,
+      559,
+      560,
+      561,
+      562,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      614,
+      615,
+      616,
+      617,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      641,
+      644,
+      645,
+      648,
+      649,
+      654,
+      655,
+      660,
+      664,
+      665,
+      666,
+      667,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      678,
+      679,
+      680,
+      682,
+      683,
+      684,
+      687,
+      688,
+      689,
+      690,
+      691,
+      692,
+      693,
+      694,
+      695,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704,
+      705,
+      707,
+      708,
+      709,
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      719,
+      720,
+      721,
+      722,
+      723,
+      724,
+      727,
+      728,
+      729,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739
+    ],
+    "no_catalog_entry_raw_pair_observed_record_indices": [
+      237,
+      238,
+      239,
+      241,
+      242,
+      245,
+      246,
+      247,
+      250,
+      251,
+      252,
+      256,
+      257,
+      258,
+      263,
+      264,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      309,
+      310,
+      311,
+      312,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      323,
+      324,
+      335,
+      353,
+      354,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      371,
+      372,
+      374,
+      375,
+      378,
+      379,
+      380,
+      382,
+      383,
+      386,
+      388,
+      391,
+      393,
+      394,
+      398,
+      399,
+      400,
+      401,
+      403,
+      405,
+      407,
+      411,
+      417,
+      419,
+      420,
+      422,
+      425,
+      429,
+      432,
+      433,
+      436,
+      441,
+      442,
+      445,
+      446,
+      447,
+      451,
+      452,
+      453,
+      456,
+      457,
+      458,
+      459,
+      461,
+      463,
+      468,
+      469,
+      474,
+      475,
+      476,
+      477,
+      478,
+      480,
+      481,
+      482,
+      484,
+      490,
+      494,
+      497,
+      502,
+      506,
+      507,
+      508,
+      511,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529,
+      530,
+      531,
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      550,
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      643,
+      644,
+      645,
+      646,
+      647,
+      648,
+      649,
+      650,
+      651,
+      652,
+      653,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      662,
+      663,
+      664,
+      665,
+      666,
+      667,
+      668,
+      669,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      684,
+      685,
+      686,
+      687,
+      688,
+      689,
+      690,
+      691,
+      692,
+      693,
+      694,
+      695,
+      696,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704,
+      705,
+      706,
+      707,
+      708,
+      709,
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730,
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739,
+      740
+    ]
+  },
+  "records": [
+    {
+      "font_record_index": 229,
+      "catalog_record_raw_pair_occurrence_count": 486,
+      "catalog_entry_raw_pair_occurrence_count": 123
+    },
+    {
+      "font_record_index": 230,
+      "catalog_record_raw_pair_occurrence_count": 59,
+      "catalog_entry_raw_pair_occurrence_count": 11
+    },
+    {
+      "font_record_index": 231,
+      "catalog_record_raw_pair_occurrence_count": 4201,
+      "catalog_entry_raw_pair_occurrence_count": 3802
+    },
+    {
+      "font_record_index": 232,
+      "catalog_record_raw_pair_occurrence_count": 1463,
+      "catalog_entry_raw_pair_occurrence_count": 1850
+    },
+    {
+      "font_record_index": 233,
+      "catalog_record_raw_pair_occurrence_count": 549,
+      "catalog_entry_raw_pair_occurrence_count": 865
+    },
+    {
+      "font_record_index": 234,
+      "catalog_record_raw_pair_occurrence_count": 1763,
+      "catalog_entry_raw_pair_occurrence_count": 1698
+    },
+    {
+      "font_record_index": 235,
+      "catalog_record_raw_pair_occurrence_count": 11,
+      "catalog_entry_raw_pair_occurrence_count": 76
+    },
+    {
+      "font_record_index": 236,
+      "catalog_record_raw_pair_occurrence_count": 11,
+      "catalog_entry_raw_pair_occurrence_count": 74
+    },
+    {
+      "font_record_index": 237,
+      "catalog_record_raw_pair_occurrence_count": 27,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 238,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 239,
+      "catalog_record_raw_pair_occurrence_count": 14,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 240,
+      "catalog_record_raw_pair_occurrence_count": 16,
+      "catalog_entry_raw_pair_occurrence_count": 115
+    },
+    {
+      "font_record_index": 241,
+      "catalog_record_raw_pair_occurrence_count": 6,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 242,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 243,
+      "catalog_record_raw_pair_occurrence_count": 15,
+      "catalog_entry_raw_pair_occurrence_count": 3
+    },
+    {
+      "font_record_index": 244,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 245,
+      "catalog_record_raw_pair_occurrence_count": 29,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 246,
+      "catalog_record_raw_pair_occurrence_count": 8,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 247,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 248,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 249,
+      "catalog_record_raw_pair_occurrence_count": 8,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 250,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 251,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 252,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 253,
+      "catalog_record_raw_pair_occurrence_count": 11,
+      "catalog_entry_raw_pair_occurrence_count": 3
+    },
+    {
+      "font_record_index": 254,
+      "catalog_record_raw_pair_occurrence_count": 10,
+      "catalog_entry_raw_pair_occurrence_count": 76
+    },
+    {
+      "font_record_index": 255,
+      "catalog_record_raw_pair_occurrence_count": 9,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 256,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 257,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 258,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 259,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 260,
+      "catalog_record_raw_pair_occurrence_count": 17,
+      "catalog_entry_raw_pair_occurrence_count": 28
+    },
+    {
+      "font_record_index": 261,
+      "catalog_record_raw_pair_occurrence_count": 19,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 262,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 263,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 264,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 265,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 266,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 267,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 268,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 269,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 270,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 271,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 272,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 273,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 274,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 275,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 276,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 277,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 278,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 279,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 280,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 281,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 282,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 283,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 284,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 285,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 286,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 287,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 288,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 289,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 290,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 291,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 292,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 293,
+      "catalog_record_raw_pair_occurrence_count": 19,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 294,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 295,
+      "catalog_record_raw_pair_occurrence_count": 14,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 296,
+      "catalog_record_raw_pair_occurrence_count": 6,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 297,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 298,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 299,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 300,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 301,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 302,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 303,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 304,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 305,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 306,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 307,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 308,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 4
+    },
+    {
+      "font_record_index": 309,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 310,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 311,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 312,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 313,
+      "catalog_record_raw_pair_occurrence_count": 9,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 314,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 315,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 316,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 317,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 318,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 319,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 320,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 321,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 322,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 6
+    },
+    {
+      "font_record_index": 323,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 324,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 325,
+      "catalog_record_raw_pair_occurrence_count": 29,
+      "catalog_entry_raw_pair_occurrence_count": 11
+    },
+    {
+      "font_record_index": 326,
+      "catalog_record_raw_pair_occurrence_count": 82,
+      "catalog_entry_raw_pair_occurrence_count": 149
+    },
+    {
+      "font_record_index": 327,
+      "catalog_record_raw_pair_occurrence_count": 53,
+      "catalog_entry_raw_pair_occurrence_count": 23
+    },
+    {
+      "font_record_index": 328,
+      "catalog_record_raw_pair_occurrence_count": 41,
+      "catalog_entry_raw_pair_occurrence_count": 20
+    },
+    {
+      "font_record_index": 329,
+      "catalog_record_raw_pair_occurrence_count": 15,
+      "catalog_entry_raw_pair_occurrence_count": 11
+    },
+    {
+      "font_record_index": 330,
+      "catalog_record_raw_pair_occurrence_count": 6,
+      "catalog_entry_raw_pair_occurrence_count": 5
+    },
+    {
+      "font_record_index": 331,
+      "catalog_record_raw_pair_occurrence_count": 68,
+      "catalog_entry_raw_pair_occurrence_count": 29
+    },
+    {
+      "font_record_index": 332,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 333,
+      "catalog_record_raw_pair_occurrence_count": 129,
+      "catalog_entry_raw_pair_occurrence_count": 45
+    },
+    {
+      "font_record_index": 334,
+      "catalog_record_raw_pair_occurrence_count": 49,
+      "catalog_entry_raw_pair_occurrence_count": 41
+    },
+    {
+      "font_record_index": 335,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 336,
+      "catalog_record_raw_pair_occurrence_count": 197,
+      "catalog_entry_raw_pair_occurrence_count": 296
+    },
+    {
+      "font_record_index": 337,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 338,
+      "catalog_record_raw_pair_occurrence_count": 105,
+      "catalog_entry_raw_pair_occurrence_count": 39
+    },
+    {
+      "font_record_index": 339,
+      "catalog_record_raw_pair_occurrence_count": 142,
+      "catalog_entry_raw_pair_occurrence_count": 94
+    },
+    {
+      "font_record_index": 340,
+      "catalog_record_raw_pair_occurrence_count": 112,
+      "catalog_entry_raw_pair_occurrence_count": 113
+    },
+    {
+      "font_record_index": 341,
+      "catalog_record_raw_pair_occurrence_count": 111,
+      "catalog_entry_raw_pair_occurrence_count": 81
+    },
+    {
+      "font_record_index": 342,
+      "catalog_record_raw_pair_occurrence_count": 39,
+      "catalog_entry_raw_pair_occurrence_count": 16
+    },
+    {
+      "font_record_index": 343,
+      "catalog_record_raw_pair_occurrence_count": 83,
+      "catalog_entry_raw_pair_occurrence_count": 52
+    },
+    {
+      "font_record_index": 344,
+      "catalog_record_raw_pair_occurrence_count": 274,
+      "catalog_entry_raw_pair_occurrence_count": 486
+    },
+    {
+      "font_record_index": 345,
+      "catalog_record_raw_pair_occurrence_count": 171,
+      "catalog_entry_raw_pair_occurrence_count": 86
+    },
+    {
+      "font_record_index": 346,
+      "catalog_record_raw_pair_occurrence_count": 16,
+      "catalog_entry_raw_pair_occurrence_count": 13
+    },
+    {
+      "font_record_index": 347,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 348,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 349,
+      "catalog_record_raw_pair_occurrence_count": 16,
+      "catalog_entry_raw_pair_occurrence_count": 6
+    },
+    {
+      "font_record_index": 350,
+      "catalog_record_raw_pair_occurrence_count": 153,
+      "catalog_entry_raw_pair_occurrence_count": 141
+    },
+    {
+      "font_record_index": 351,
+      "catalog_record_raw_pair_occurrence_count": 17,
+      "catalog_entry_raw_pair_occurrence_count": 4
+    },
+    {
+      "font_record_index": 352,
+      "catalog_record_raw_pair_occurrence_count": 11,
+      "catalog_entry_raw_pair_occurrence_count": 4
+    },
+    {
+      "font_record_index": 353,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 354,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 355,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 356,
+      "catalog_record_raw_pair_occurrence_count": 65,
+      "catalog_entry_raw_pair_occurrence_count": 53
+    },
+    {
+      "font_record_index": 357,
+      "catalog_record_raw_pair_occurrence_count": 73,
+      "catalog_entry_raw_pair_occurrence_count": 53
+    },
+    {
+      "font_record_index": 358,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 359,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 360,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 361,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 362,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 363,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 364,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 365,
+      "catalog_record_raw_pair_occurrence_count": 50,
+      "catalog_entry_raw_pair_occurrence_count": 23
+    },
+    {
+      "font_record_index": 366,
+      "catalog_record_raw_pair_occurrence_count": 17,
+      "catalog_entry_raw_pair_occurrence_count": 10
+    },
+    {
+      "font_record_index": 367,
+      "catalog_record_raw_pair_occurrence_count": 209,
+      "catalog_entry_raw_pair_occurrence_count": 117
+    },
+    {
+      "font_record_index": 368,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 4
+    },
+    {
+      "font_record_index": 369,
+      "catalog_record_raw_pair_occurrence_count": 10,
+      "catalog_entry_raw_pair_occurrence_count": 9
+    },
+    {
+      "font_record_index": 370,
+      "catalog_record_raw_pair_occurrence_count": 22,
+      "catalog_entry_raw_pair_occurrence_count": 18
+    },
+    {
+      "font_record_index": 371,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 372,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 373,
+      "catalog_record_raw_pair_occurrence_count": 14,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 374,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 375,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 376,
+      "catalog_record_raw_pair_occurrence_count": 769,
+      "catalog_entry_raw_pair_occurrence_count": 970
+    },
+    {
+      "font_record_index": 377,
+      "catalog_record_raw_pair_occurrence_count": 779,
+      "catalog_entry_raw_pair_occurrence_count": 985
+    },
+    {
+      "font_record_index": 378,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 379,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 380,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 381,
+      "catalog_record_raw_pair_occurrence_count": 434,
+      "catalog_entry_raw_pair_occurrence_count": 651
+    },
+    {
+      "font_record_index": 382,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 383,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 384,
+      "catalog_record_raw_pair_occurrence_count": 57,
+      "catalog_entry_raw_pair_occurrence_count": 42
+    },
+    {
+      "font_record_index": 385,
+      "catalog_record_raw_pair_occurrence_count": 136,
+      "catalog_entry_raw_pair_occurrence_count": 213
+    },
+    {
+      "font_record_index": 386,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 387,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 388,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 389,
+      "catalog_record_raw_pair_occurrence_count": 47,
+      "catalog_entry_raw_pair_occurrence_count": 13
+    },
+    {
+      "font_record_index": 390,
+      "catalog_record_raw_pair_occurrence_count": 21,
+      "catalog_entry_raw_pair_occurrence_count": 8
+    },
+    {
+      "font_record_index": 391,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 392,
+      "catalog_record_raw_pair_occurrence_count": 190,
+      "catalog_entry_raw_pair_occurrence_count": 93
+    },
+    {
+      "font_record_index": 393,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 394,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 395,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 396,
+      "catalog_record_raw_pair_occurrence_count": 23,
+      "catalog_entry_raw_pair_occurrence_count": 27
+    },
+    {
+      "font_record_index": 397,
+      "catalog_record_raw_pair_occurrence_count": 27,
+      "catalog_entry_raw_pair_occurrence_count": 14
+    },
+    {
+      "font_record_index": 398,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 399,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 400,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 401,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 402,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 403,
+      "catalog_record_raw_pair_occurrence_count": 6,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 404,
+      "catalog_record_raw_pair_occurrence_count": 17,
+      "catalog_entry_raw_pair_occurrence_count": 14
+    },
+    {
+      "font_record_index": 405,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 406,
+      "catalog_record_raw_pair_occurrence_count": 34,
+      "catalog_entry_raw_pair_occurrence_count": 6
+    },
+    {
+      "font_record_index": 407,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 408,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 409,
+      "catalog_record_raw_pair_occurrence_count": 20,
+      "catalog_entry_raw_pair_occurrence_count": 8
+    },
+    {
+      "font_record_index": 410,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 3
+    },
+    {
+      "font_record_index": 411,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 412,
+      "catalog_record_raw_pair_occurrence_count": 12,
+      "catalog_entry_raw_pair_occurrence_count": 9
+    },
+    {
+      "font_record_index": 413,
+      "catalog_record_raw_pair_occurrence_count": 32,
+      "catalog_entry_raw_pair_occurrence_count": 21
+    },
+    {
+      "font_record_index": 414,
+      "catalog_record_raw_pair_occurrence_count": 8,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 415,
+      "catalog_record_raw_pair_occurrence_count": 155,
+      "catalog_entry_raw_pair_occurrence_count": 287
+    },
+    {
+      "font_record_index": 416,
+      "catalog_record_raw_pair_occurrence_count": 29,
+      "catalog_entry_raw_pair_occurrence_count": 14
+    },
+    {
+      "font_record_index": 417,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 418,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 419,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 420,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 421,
+      "catalog_record_raw_pair_occurrence_count": 6,
+      "catalog_entry_raw_pair_occurrence_count": 3
+    },
+    {
+      "font_record_index": 422,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 423,
+      "catalog_record_raw_pair_occurrence_count": 6,
+      "catalog_entry_raw_pair_occurrence_count": 6
+    },
+    {
+      "font_record_index": 424,
+      "catalog_record_raw_pair_occurrence_count": 22,
+      "catalog_entry_raw_pair_occurrence_count": 22
+    },
+    {
+      "font_record_index": 425,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 426,
+      "catalog_record_raw_pair_occurrence_count": 42,
+      "catalog_entry_raw_pair_occurrence_count": 17
+    },
+    {
+      "font_record_index": 427,
+      "catalog_record_raw_pair_occurrence_count": 48,
+      "catalog_entry_raw_pair_occurrence_count": 17
+    },
+    {
+      "font_record_index": 428,
+      "catalog_record_raw_pair_occurrence_count": 114,
+      "catalog_entry_raw_pair_occurrence_count": 87
+    },
+    {
+      "font_record_index": 429,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 430,
+      "catalog_record_raw_pair_occurrence_count": 11,
+      "catalog_entry_raw_pair_occurrence_count": 9
+    },
+    {
+      "font_record_index": 431,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 4
+    },
+    {
+      "font_record_index": 432,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 433,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 434,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 7
+    },
+    {
+      "font_record_index": 435,
+      "catalog_record_raw_pair_occurrence_count": 54,
+      "catalog_entry_raw_pair_occurrence_count": 46
+    },
+    {
+      "font_record_index": 436,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 437,
+      "catalog_record_raw_pair_occurrence_count": 380,
+      "catalog_entry_raw_pair_occurrence_count": 371
+    },
+    {
+      "font_record_index": 438,
+      "catalog_record_raw_pair_occurrence_count": 402,
+      "catalog_entry_raw_pair_occurrence_count": 383
+    },
+    {
+      "font_record_index": 439,
+      "catalog_record_raw_pair_occurrence_count": 105,
+      "catalog_entry_raw_pair_occurrence_count": 100
+    },
+    {
+      "font_record_index": 440,
+      "catalog_record_raw_pair_occurrence_count": 15,
+      "catalog_entry_raw_pair_occurrence_count": 6
+    },
+    {
+      "font_record_index": 441,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 442,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 443,
+      "catalog_record_raw_pair_occurrence_count": 11,
+      "catalog_entry_raw_pair_occurrence_count": 8
+    },
+    {
+      "font_record_index": 444,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 445,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 446,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 447,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 448,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 5
+    },
+    {
+      "font_record_index": 449,
+      "catalog_record_raw_pair_occurrence_count": 8,
+      "catalog_entry_raw_pair_occurrence_count": 7
+    },
+    {
+      "font_record_index": 450,
+      "catalog_record_raw_pair_occurrence_count": 11,
+      "catalog_entry_raw_pair_occurrence_count": 9
+    },
+    {
+      "font_record_index": 451,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 452,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 453,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 454,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 6
+    },
+    {
+      "font_record_index": 455,
+      "catalog_record_raw_pair_occurrence_count": 11,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 456,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 457,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 458,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 459,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 460,
+      "catalog_record_raw_pair_occurrence_count": 23,
+      "catalog_entry_raw_pair_occurrence_count": 5
+    },
+    {
+      "font_record_index": 461,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 462,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 463,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 464,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 465,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 466,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 467,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 468,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 469,
+      "catalog_record_raw_pair_occurrence_count": 20,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 470,
+      "catalog_record_raw_pair_occurrence_count": 130,
+      "catalog_entry_raw_pair_occurrence_count": 115
+    },
+    {
+      "font_record_index": 471,
+      "catalog_record_raw_pair_occurrence_count": 16,
+      "catalog_entry_raw_pair_occurrence_count": 10
+    },
+    {
+      "font_record_index": 472,
+      "catalog_record_raw_pair_occurrence_count": 16,
+      "catalog_entry_raw_pair_occurrence_count": 10
+    },
+    {
+      "font_record_index": 473,
+      "catalog_record_raw_pair_occurrence_count": 16,
+      "catalog_entry_raw_pair_occurrence_count": 10
+    },
+    {
+      "font_record_index": 474,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 475,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 476,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 477,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 478,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 479,
+      "catalog_record_raw_pair_occurrence_count": 42,
+      "catalog_entry_raw_pair_occurrence_count": 46
+    },
+    {
+      "font_record_index": 480,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 481,
+      "catalog_record_raw_pair_occurrence_count": 8,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 482,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 483,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 484,
+      "catalog_record_raw_pair_occurrence_count": 6,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 485,
+      "catalog_record_raw_pair_occurrence_count": 23,
+      "catalog_entry_raw_pair_occurrence_count": 8
+    },
+    {
+      "font_record_index": 486,
+      "catalog_record_raw_pair_occurrence_count": 103,
+      "catalog_entry_raw_pair_occurrence_count": 85
+    },
+    {
+      "font_record_index": 487,
+      "catalog_record_raw_pair_occurrence_count": 114,
+      "catalog_entry_raw_pair_occurrence_count": 90
+    },
+    {
+      "font_record_index": 488,
+      "catalog_record_raw_pair_occurrence_count": 15,
+      "catalog_entry_raw_pair_occurrence_count": 73
+    },
+    {
+      "font_record_index": 489,
+      "catalog_record_raw_pair_occurrence_count": 12,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 490,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 491,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 2
+    },
+    {
+      "font_record_index": 492,
+      "catalog_record_raw_pair_occurrence_count": 6,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 493,
+      "catalog_record_raw_pair_occurrence_count": 41,
+      "catalog_entry_raw_pair_occurrence_count": 18
+    },
+    {
+      "font_record_index": 494,
+      "catalog_record_raw_pair_occurrence_count": 16,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 495,
+      "catalog_record_raw_pair_occurrence_count": 8,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 496,
+      "catalog_record_raw_pair_occurrence_count": 11,
+      "catalog_entry_raw_pair_occurrence_count": 3
+    },
+    {
+      "font_record_index": 497,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 498,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 499,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 19
+    },
+    {
+      "font_record_index": 500,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 20
+    },
+    {
+      "font_record_index": 501,
+      "catalog_record_raw_pair_occurrence_count": 58,
+      "catalog_entry_raw_pair_occurrence_count": 93
+    },
+    {
+      "font_record_index": 502,
+      "catalog_record_raw_pair_occurrence_count": 9,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 503,
+      "catalog_record_raw_pair_occurrence_count": 10,
+      "catalog_entry_raw_pair_occurrence_count": 6
+    },
+    {
+      "font_record_index": 504,
+      "catalog_record_raw_pair_occurrence_count": 12,
+      "catalog_entry_raw_pair_occurrence_count": 5
+    },
+    {
+      "font_record_index": 505,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 506,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 507,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 508,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 509,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 510,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 1
+    },
+    {
+      "font_record_index": 511,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 512,
+      "catalog_record_raw_pair_occurrence_count": 12,
+      "catalog_entry_raw_pair_occurrence_count": 6
+    },
+    {
+      "font_record_index": 513,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 514,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 515,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 516,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 517,
+      "catalog_record_raw_pair_occurrence_count": 7,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 518,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 519,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 520,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 521,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 522,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 523,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 524,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 525,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 526,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 527,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 528,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 529,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 530,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 531,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 532,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 533,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 534,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 535,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 536,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 537,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 538,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 539,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 540,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 541,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 542,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 543,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 544,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 545,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 546,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 547,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 548,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 549,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 550,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 551,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 552,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 553,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 554,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 555,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 556,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 557,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 558,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 559,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 560,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 561,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 562,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 563,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 564,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 565,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 566,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 567,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 568,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 569,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 570,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 571,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 572,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 573,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 574,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 575,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 576,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 577,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 578,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 579,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 580,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 581,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 582,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 583,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 584,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 585,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 586,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 587,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 588,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 589,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 590,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 591,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 592,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 593,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 594,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 595,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 596,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 597,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 598,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 599,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 600,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 601,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 602,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 603,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 604,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 605,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 606,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 607,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 608,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 609,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 610,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 611,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 612,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 613,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 614,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 615,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 616,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 617,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 618,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 619,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 620,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 621,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 622,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 623,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 624,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 625,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 626,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 627,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 628,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 629,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 630,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 631,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 632,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 633,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 634,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 635,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 636,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 637,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 638,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 639,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 640,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 641,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 642,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 643,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 644,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 645,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 646,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 647,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 648,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 649,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 650,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 651,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 652,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 653,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 654,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 655,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 656,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 657,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 658,
+      "catalog_record_raw_pair_occurrence_count": 6,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 659,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 660,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 661,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 662,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 663,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 664,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 665,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 666,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 667,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 668,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 669,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 670,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 671,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 672,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 673,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 674,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 675,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 676,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 677,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 678,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 679,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 680,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 681,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 682,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 683,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 684,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 685,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 686,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 687,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 688,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 689,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 690,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 691,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 692,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 693,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 694,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 695,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 696,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 697,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 698,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 699,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 700,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 701,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 702,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 703,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 704,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 705,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 706,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 707,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 708,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 709,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 710,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 711,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 712,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 713,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 714,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 715,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 716,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 717,
+      "catalog_record_raw_pair_occurrence_count": 3,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 718,
+      "catalog_record_raw_pair_occurrence_count": 5,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 719,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 720,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 721,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 722,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 723,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 724,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 725,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 726,
+      "catalog_record_raw_pair_occurrence_count": 2,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 727,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 728,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 729,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 730,
+      "catalog_record_raw_pair_occurrence_count": 8,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 731,
+      "catalog_record_raw_pair_occurrence_count": 1,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 732,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 733,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 734,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 735,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 736,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 737,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 738,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 739,
+      "catalog_record_raw_pair_occurrence_count": 0,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    },
+    {
+      "font_record_index": 740,
+      "catalog_record_raw_pair_occurrence_count": 4,
+      "catalog_entry_raw_pair_occurrence_count": 0
+    }
+  ],
+  "interpretation_notice": "This is a screening result for the catalogued text scope only. A zero raw-pair count does not prove that the font record is unreferenced by uncatalogued text, non-text data, code, or runtime-generated input."
+}

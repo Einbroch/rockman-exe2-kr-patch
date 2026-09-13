@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "fresh_newgame_runtime_archive_verification",
+  "date": "2026-08-25",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_31_exe1k_font_clean_poc.gba",
+    "sha256": "de2b97050083497407110544d591538502b8d755ff3c74092c079feecba7a067",
+    "byte_length": 16777216
+  },
+  "route": [
+    "fresh emulator launch",
+    "title screen",
+    "new game",
+    "opening dialogue progression",
+    "classroom archive load"
+  ],
+  "emulator": {
+    "adapter": "mesen2",
+    "system": "gba",
+    "display": false,
+    "sound": false,
+    "launch_id": "launch-01m0wgf3pszx456rd1ya6zkn56"
+  },
+  "runtime_memory": {
+    "dump_directory": "analysis/emucap/classroom_00_31_exe1k_fresh_newgame_memory",
+    "memory_type": "gbaExtWorkRam",
+    "offset": 231424,
+    "emulated_address": "0x02038800",
+    "byte_length": 6603,
+    "expected_sha256": "d1543746b8db6e0123871a5836d204a2fe25b484869ce30913e485495342f6ef",
+    "actual_sha256": "d1543746b8db6e0123871a5836d204a2fe25b484869ce30913e485495342f6ef",
+    "differing_byte_count": 0
+  },
+  "passed": true
+}

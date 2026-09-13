@@ -1,0 +1,24 @@
+{
+    "rom":  "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_semantic_translation_emulator_test.gba",
+    "state":  "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\emucap\\entry_00_163_8_crash_probe.ss1",
+    "mute":  true,
+    "input_key":  "X (GBA A)",
+    "input_pulses":  4,
+    "process_alive":  true,
+    "fatal_window_detected":  true,
+    "window_titles":  [
+                          "NVOGLDC invisible",
+                          "__wglDummyWindowFodder",
+                          "NVOGLDC invisible",
+                          "mGBA",
+                          "치명적인 오류",
+                          "mGBA - ROCKMAN_EXE2 - 0.10.5",
+                          "Default IME",
+                          "Default IME",
+                          "Default IME",
+                          "Default IME",
+                          "MSCTFIME UI"
+                      ],
+    "before_screenshot":  "analysis/emucap/entry_00_163_8_old_before.png",
+    "after_screenshot":  "analysis/emucap/entry_00_163_8_old_after.png"
+}

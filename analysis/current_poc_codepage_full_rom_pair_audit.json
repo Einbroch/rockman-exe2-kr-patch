@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "kind": "selected_codepage_full_rom_pair_occurrence_audit",
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "byte_length": 8388608
+  },
+  "codepage": {
+    "filename": "korean_codepage_candidate_unobserved_poc.json",
+    "sha256": "ef1392993f1213a9c0293505c2ace2a6bc5651b9fb92cbc15f07e8d04035c9c4"
+  },
+  "summary": {
+    "selected_record_count": 14,
+    "records_with_no_full_rom_pair_occurrence": 0,
+    "records_with_any_full_rom_pair_occurrence": 14
+  },
+  "records": [
+    {
+      "font_record_index": 237,
+      "unicode_code_point": "U+AC00",
+      "full_rom_nonoverlapping_pair_occurrence_count": 55
+    },
+    {
+      "font_record_index": 238,
+      "unicode_code_point": "U+B098",
+      "full_rom_nonoverlapping_pair_occurrence_count": 33
+    },
+    {
+      "font_record_index": 239,
+      "unicode_code_point": "U+B2E4",
+      "full_rom_nonoverlapping_pair_occurrence_count": 46
+    },
+    {
+      "font_record_index": 241,
+      "unicode_code_point": "U+B77C",
+      "full_rom_nonoverlapping_pair_occurrence_count": 39
+    },
+    {
+      "font_record_index": 242,
+      "unicode_code_point": "U+B9C8",
+      "full_rom_nonoverlapping_pair_occurrence_count": 37
+    },
+    {
+      "font_record_index": 245,
+      "unicode_code_point": "U+BC14",
+      "full_rom_nonoverlapping_pair_occurrence_count": 114
+    },
+    {
+      "font_record_index": 246,
+      "unicode_code_point": "U+C0AC",
+      "full_rom_nonoverlapping_pair_occurrence_count": 74
+    },
+    {
+      "font_record_index": 247,
+      "unicode_code_point": "U+C544",
+      "full_rom_nonoverlapping_pair_occurrence_count": 43
+    },
+    {
+      "font_record_index": 250,
+      "unicode_code_point": "U+C790",
+      "full_rom_nonoverlapping_pair_occurrence_count": 37
+    },
+    {
+      "font_record_index": 251,
+      "unicode_code_point": "U+CC28",
+      "full_rom_nonoverlapping_pair_occurrence_count": 39
+    },
+    {
+      "font_record_index": 252,
+      "unicode_code_point": "U+CE74",
+      "full_rom_nonoverlapping_pair_occurrence_count": 22
+    },
+    {
+      "font_record_index": 256,
+      "unicode_code_point": "U+D0C0",
+      "full_rom_nonoverlapping_pair_occurrence_count": 20
+    },
+    {
+      "font_record_index": 257,
+      "unicode_code_point": "U+D30C",
+      "full_rom_nonoverlapping_pair_occurrence_count": 40
+    },
+    {
+      "font_record_index": 258,
+      "unicode_code_point": "U+D558",
+      "full_rom_nonoverlapping_pair_occurrence_count": 26
+    }
+  ],
+  "interpretation_notice": "Absence of a raw two-byte pair in the ROM is a stronger screening signal than a scoped catalog scan, but it does not prove a font record is unreferenced by non-text code or generated data."
+}

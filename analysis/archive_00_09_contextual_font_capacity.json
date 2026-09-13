@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "kind": "context_selected_font_capacity_transition_plan",
+  "date": "2026-08-27",
+  "current_codepage": {
+    "filename": "korean_codepage_archive_00_09_dialogue_classroom_00_46_contextual_full_bank.json",
+    "sha256": "63c4a910ec70869c6a4656556ef0bbead390726bbf83bad2d71dd70776efa06e",
+    "mode": "contextual_full_bank",
+    "assignment_count": 271,
+    "draft_used_hangul_count": 268,
+    "reserved_non_hangul_record_count": 26,
+    "assignable_record_capacity": 715,
+    "mapped_but_currently_unused": [
+      {"character": "차", "font_record_index": 229},
+      {"character": "타", "font_record_index": 251},
+      {"character": "파", "font_record_index": 261}
+    ],
+    "remaining_assignment_capacity": 444
+  },
+  "contextual_bank": {
+    "record_index_range": [0, 740],
+    "record_count": 741,
+    "rom_offset": 8454144,
+    "rom_offset_hex": "0x00810000",
+    "runtime_context_cursor_range": ["0x020389FE", "0x020393AC"],
+    "reserved_direct_record_count": 17,
+    "reserved_source_glyph_record_count": 9,
+    "capacity_for_new_characters": 444,
+    "fully_recompiled_268_syllable_corpus_remaining_capacity": 447
+  },
+  "archive_progression": {
+    "translated_context_entry_range": [0, 46],
+    "zero_length_entries_inside_context": [18, 19, 20, 21, 32, 33, 34, 37, 38, 39, 41, 42, 43, 44],
+    "zero_length_entries_after_context": [47, 48, 49],
+    "next_nonempty_entry": 50,
+    "next_safe_growth_rule": "Translate entry 50, rebuild the archive, and move the exclusive context boundary to rebuilt table entry 51. Preserve both page boundaries and the clear-message command byte-exactly."
+  },
+  "evidence": {
+    "build_manifest": "poc/output/exe2_rev1_archive_00_09_dialogue_classroom_00_46_contextual_full_bank_poc_manifest.json",
+    "independent_verification": "analysis/exe2_rev1_archive_00_09_dialogue_classroom_00_46_contextual_full_bank_verification.json",
+    "runtime_verification": "analysis/exe2_rev1_archive_00_09_dialogue_classroom_00_46_contextual_full_bank_runtime.json"
+  },
+  "decision": "retain_context_selected_full_font_bank_and_continue_from_entry_50",
+  "limitations": [
+    "741 records are a bounded archive-local capacity, not proof that one bank covers the final whole-game approved corpus.",
+    "The contextual compiler reserves every non-Hangul direct and source-glyph record used by the current structured scope; future draft growth must regenerate that reservation set.",
+    "Other archives need their own proven cursor ranges or a later generalized bank-selection mechanism."
+  ]
+}

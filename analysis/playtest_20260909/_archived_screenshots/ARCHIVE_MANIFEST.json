@@ -1,0 +1,812 @@
+{
+  "purpose": "Recoverable archive of inspected no-issue screenshots",
+  "created": "2026-09-10T22:53:34.0917235+09:00",
+  "updated": "2026-09-10T22:53:34.0957518+09:00",
+  "files": [
+    {
+      "original": "001_boot\\step_001.png",
+      "archive": "_archived_screenshots\\001_boot\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\001_boot\\step_001.png",
+      "sha256": "5dd8e36e1f559f3b4a979ada8c97df2323da4de4268d88954f0a4a7e81cea496",
+      "length": 14565
+    },
+    {
+      "original": "002_title\\step_001.png",
+      "archive": "_archived_screenshots\\002_title\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\002_title\\step_001.png",
+      "sha256": "c7537a90a036a4484fb2c9611b3cd2ccb620f182d447bd3be59e258f06a2a402",
+      "length": 14748
+    },
+    {
+      "original": "003_opening\\step_001.png",
+      "archive": "_archived_screenshots\\003_opening\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\003_opening\\step_001.png",
+      "sha256": "a1e4a4d4a099cb4b0d8269604b965fdf72ea5f199bbfd5bc0632d0f5668c85f1",
+      "length": 1081
+    },
+    {
+      "original": "004_opening_pages\\step_001.png",
+      "archive": "_archived_screenshots\\004_opening_pages\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\004_opening_pages\\step_001.png",
+      "sha256": "ac1a48412c7a17860fdfc21cf7282f3100bbef2ace6eba668a858fc993c7783e",
+      "length": 769
+    },
+    {
+      "original": "004_opening_pages\\step_002.png",
+      "archive": "_archived_screenshots\\004_opening_pages\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\004_opening_pages\\step_002.png",
+      "sha256": "78c1ef27fccd2f66ed89366fa6db4a1048028bd683d2693df4cd93bf7f83fa78",
+      "length": 672
+    },
+    {
+      "original": "004_opening_pages\\step_003.png",
+      "archive": "_archived_screenshots\\004_opening_pages\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\004_opening_pages\\step_003.png",
+      "sha256": "2f9efec3f413563f338596c168675553367fd4e7d843d6e8e069666b6e8adbb1",
+      "length": 755
+    },
+    {
+      "original": "004_opening_pages\\step_004.png",
+      "archive": "_archived_screenshots\\004_opening_pages\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\004_opening_pages\\step_004.png",
+      "sha256": "63aec0d6fd45c62cf4007247a4816d898d4fe11587c3a712d0243ffec6c2edae",
+      "length": 562
+    },
+    {
+      "original": "004_opening_pages\\step_005.png",
+      "archive": "_archived_screenshots\\004_opening_pages\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\004_opening_pages\\step_005.png",
+      "sha256": "042d9464900ad6508c32417a343ffb404401c4a1a36c8433c2147ac1525d711c",
+      "length": 728
+    },
+    {
+      "original": "005_old_core_control\\step_001.png",
+      "archive": "_archived_screenshots\\005_old_core_control\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\005_old_core_control\\step_001.png",
+      "sha256": "5c55afc4dfa0a5766fb8be8df6bad33ffe5cdcdfb3c7df92b399421bd3251383",
+      "length": 15415
+    },
+    {
+      "original": "005_old_core_control\\step_002.png",
+      "archive": "_archived_screenshots\\005_old_core_control\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\005_old_core_control\\step_002.png",
+      "sha256": "bfb7a85befa87025d3aff36b5133ee09dd9f4b1c601776db76dde4f081244627",
+      "length": 14496
+    },
+    {
+      "original": "005_old_core_control\\step_003.png",
+      "archive": "_archived_screenshots\\005_old_core_control\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\005_old_core_control\\step_003.png",
+      "sha256": "424ac7586730fcfba9a0fe160e45c96562f3e91f8e0ad50b70bc8d82c1f9030c",
+      "length": 1009
+    },
+    {
+      "original": "005_old_core_control\\step_004.png",
+      "archive": "_archived_screenshots\\005_old_core_control\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\005_old_core_control\\step_004.png",
+      "sha256": "ae941aa68cf5865e18e9e20abed25e321a0768377b4cc7e6ed0b2ead39995d50",
+      "length": 705
+    },
+    {
+      "original": "006_opening_end\\step_001.png",
+      "archive": "_archived_screenshots\\006_opening_end\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\006_opening_end\\step_001.png",
+      "sha256": "d402a52496942e3c873c3bb518a82d42d949e8d5132dc79dbfe10c8b6efcdea0",
+      "length": 1017
+    },
+    {
+      "original": "006_opening_end\\step_002.png",
+      "archive": "_archived_screenshots\\006_opening_end\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\006_opening_end\\step_002.png",
+      "sha256": "4d45e305bc6eb16e180ea3a947c553f78105271f66bb777314e3974cca4c3ba3",
+      "length": 1223
+    },
+    {
+      "original": "006_opening_end\\step_003.png",
+      "archive": "_archived_screenshots\\006_opening_end\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\006_opening_end\\step_003.png",
+      "sha256": "257b834e75ae465375d5ac194a0e0045b73fbcddfd315186b2d008c8d9c97406",
+      "length": 749
+    },
+    {
+      "original": "006_opening_end\\step_004.png",
+      "archive": "_archived_screenshots\\006_opening_end\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\006_opening_end\\step_004.png",
+      "sha256": "578265e83fefa82a5f2f23f40b40bdd6a8f6ce602b4c4de5c3903f3ab072e1d7",
+      "length": 565
+    },
+    {
+      "original": "006_opening_end\\step_005.png",
+      "archive": "_archived_screenshots\\006_opening_end\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\006_opening_end\\step_005.png",
+      "sha256": "7fbc9376a407fb43f8a6a01e37cbb0fae4416dfb0dd2442f9646bc00c0ff5ac0",
+      "length": 4807
+    },
+    {
+      "original": "007_classroom_intro\\step_001.png",
+      "archive": "_archived_screenshots\\007_classroom_intro\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\007_classroom_intro\\step_001.png",
+      "sha256": "72b88d98a3c9a2681608d5242e08d982682721e6b936a0c94793635dffa512d1",
+      "length": 5702
+    },
+    {
+      "original": "007_classroom_intro\\step_002.png",
+      "archive": "_archived_screenshots\\007_classroom_intro\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\007_classroom_intro\\step_002.png",
+      "sha256": "fae0d9e1257a841bf0fa08e2825089e9ac62ddbcfbe3d65197ac05bb0011d792",
+      "length": 5365
+    },
+    {
+      "original": "007_classroom_intro\\step_003.png",
+      "archive": "_archived_screenshots\\007_classroom_intro\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\007_classroom_intro\\step_003.png",
+      "sha256": "31d85b76a0c3ef4cfbbb872da33ce77c579ed5c3b5407e44774cf45ec7883ec7",
+      "length": 5885
+    },
+    {
+      "original": "007_classroom_intro\\step_004.png",
+      "archive": "_archived_screenshots\\007_classroom_intro\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\007_classroom_intro\\step_004.png",
+      "sha256": "6e8e07b27c8fbb7da9f9a7b7c6df0edc37339dc61c4939fa74148bd7c1f8530e",
+      "length": 5611
+    },
+    {
+      "original": "007_classroom_intro\\step_005.png",
+      "archive": "_archived_screenshots\\007_classroom_intro\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\007_classroom_intro\\step_005.png",
+      "sha256": "07e4ec19b27137457259ecffc5fa1002c222d8ff8444a87b01c82eac5c850ed7",
+      "length": 5532
+    },
+    {
+      "original": "007_classroom_intro\\step_006.png",
+      "archive": "_archived_screenshots\\007_classroom_intro\\step_006.png",
+      "original_relative": "analysis\\playtest_20260909\\007_classroom_intro\\step_006.png",
+      "sha256": "c78313a859ae1854ee3aa7d1a44c16c7432687192c631c55564513dc1439b4b3",
+      "length": 5683
+    },
+    {
+      "original": "007_classroom_intro\\step_007.png",
+      "archive": "_archived_screenshots\\007_classroom_intro\\step_007.png",
+      "original_relative": "analysis\\playtest_20260909\\007_classroom_intro\\step_007.png",
+      "sha256": "f91987f94695f7b6f4ff79bd5726cfb332e45c84a9974825d371bea972111953",
+      "length": 5554
+    },
+    {
+      "original": "007_classroom_intro\\step_008.png",
+      "archive": "_archived_screenshots\\007_classroom_intro\\step_008.png",
+      "original_relative": "analysis\\playtest_20260909\\007_classroom_intro\\step_008.png",
+      "sha256": "70dbbbb3cfd090a134e15a9daa46404fdc74220622a59f3dbd9886766885b56b",
+      "length": 5515
+    },
+    {
+      "original": "008_continuation\\step_002.png",
+      "archive": "_archived_screenshots\\008_continuation\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\008_continuation\\step_002.png",
+      "sha256": "5339147f90eb751258d0e01388be0126b3c21c78ffdd7692fb6f9aa97972f9ab",
+      "length": 5253
+    },
+    {
+      "original": "008_continuation\\step_003.png",
+      "archive": "_archived_screenshots\\008_continuation\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\008_continuation\\step_003.png",
+      "sha256": "9c18e06ff1de6e803bdfc1a590e5b291ba17fae8bd240b0db381f238532cff33",
+      "length": 5240
+    },
+    {
+      "original": "009_menu\\step_001.png",
+      "archive": "_archived_screenshots\\009_menu\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\009_menu\\step_001.png",
+      "sha256": "41fddfa8298c7828ea4df01b7edc63c56c3dcc4064a1512e965025491d7e0df3",
+      "length": 4661
+    },
+    {
+      "original": "010_save_menu\\step_001.png",
+      "archive": "_archived_screenshots\\010_save_menu\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\010_save_menu\\step_001.png",
+      "sha256": "ec8b08712900dd14f02dda84072068a7b8cb4de9133008248e856603870ac121",
+      "length": 4699
+    },
+    {
+      "original": "010_save_menu\\step_002.png",
+      "archive": "_archived_screenshots\\010_save_menu\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\010_save_menu\\step_002.png",
+      "sha256": "fc287b76b14417ccc99752ce12556d7dd374e62208d4ac5bbe786936d1c12177",
+      "length": 4697
+    },
+    {
+      "original": "010_save_menu\\step_003.png",
+      "archive": "_archived_screenshots\\010_save_menu\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\010_save_menu\\step_003.png",
+      "sha256": "db07c409bc3b44f78ff6d5c0ccf5f2ec9b06d75557663eb2452afcbeaf371054",
+      "length": 5238
+    },
+    {
+      "original": "011_save_prompt\\step_001.png",
+      "archive": "_archived_screenshots\\011_save_prompt\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\011_save_prompt\\step_001.png",
+      "sha256": "fa1bd46de548438731a98a82f60f6ab6daa60c20c12ccb5c29b5c748817ba271",
+      "length": 4672
+    },
+    {
+      "original": "011_save_prompt\\step_002.png",
+      "archive": "_archived_screenshots\\011_save_prompt\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\011_save_prompt\\step_002.png",
+      "sha256": "a390b8efe40d3642c90a2b5ea29b0a37164b45467fcfe5357b1f297525cd9d59",
+      "length": 4658
+    },
+    {
+      "original": "011_save_prompt\\step_003.png",
+      "archive": "_archived_screenshots\\011_save_prompt\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\011_save_prompt\\step_003.png",
+      "sha256": "219797db694fb1025e3cb4aae592010df2a0b971d44277f3f4f0eb5ed4bbc961",
+      "length": 4661
+    },
+    {
+      "original": "011_save_prompt\\step_004.png",
+      "archive": "_archived_screenshots\\011_save_prompt\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\011_save_prompt\\step_004.png",
+      "sha256": "b7b8f34a4c9fa4ac0562a7c76036aaa83571bce362fc62c05bb1e7e17c9b24a2",
+      "length": 3382
+    },
+    {
+      "original": "012_saved\\step_001.png",
+      "archive": "_archived_screenshots\\012_saved\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\012_saved\\step_001.png",
+      "sha256": "b2d1809620c8ea81ee00f2734cadfc64fe1592c540dcfc478aa5c9ce5379bcbf",
+      "length": 3749
+    },
+    {
+      "original": "012_saved\\step_002.png",
+      "archive": "_archived_screenshots\\012_saved\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\012_saved\\step_002.png",
+      "sha256": "144271987fc685754590c0d81bbf610e0f313f956c9348cfe4b9b9e1b695108c",
+      "length": 2984
+    },
+    {
+      "original": "012_saved\\step_003.png",
+      "archive": "_archived_screenshots\\012_saved\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\012_saved\\step_003.png",
+      "sha256": "86c3790b483e3697a4db8dce1fc3d726e02094c6aee114dfe149193159990247",
+      "length": 4711
+    },
+    {
+      "original": "012_saved\\step_004.png",
+      "archive": "_archived_screenshots\\012_saved\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\012_saved\\step_004.png",
+      "sha256": "a5dc599e407b71a332d515aef3c4510466bb3667ac63724d56a1e75991eebc4b",
+      "length": 5280
+    },
+    {
+      "original": "012_saved\\step_005.png",
+      "archive": "_archived_screenshots\\012_saved\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\012_saved\\step_005.png",
+      "sha256": "3825c2b63a995bf7d1cb86616b9e902d4dde296a84706e1dc7f31f5c09eb7a76",
+      "length": 5579
+    },
+    {
+      "original": "013_rockman_hint\\step_002.png",
+      "archive": "_archived_screenshots\\013_rockman_hint\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\013_rockman_hint\\step_002.png",
+      "sha256": "6aed1b71964eb4c474c988bb3447d89ef5358342fafc539b108cfd49f80771d7",
+      "length": 5278
+    },
+    {
+      "original": "013_rockman_hint\\step_003.png",
+      "archive": "_archived_screenshots\\013_rockman_hint\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\013_rockman_hint\\step_003.png",
+      "sha256": "01f931ab166cbc21010791c600e7478ad402ed34c8835f8cada116f8e4b1a8e5",
+      "length": 5224
+    },
+    {
+      "original": "013_rockman_hint\\step_004.png",
+      "archive": "_archived_screenshots\\013_rockman_hint\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\013_rockman_hint\\step_004.png",
+      "sha256": "a062a0a2bc169fa81c72fab523a307bf746231c6ea710220faf702251ce5f82d",
+      "length": 5414
+    },
+    {
+      "original": "014_mayl\\step_001.png",
+      "archive": "_archived_screenshots\\014_mayl\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\014_mayl\\step_001.png",
+      "sha256": "3ec97cd7175c11a307c61b3b27d6d23a12cb73c5f93fe39ab829615377d42806",
+      "length": 5426
+    },
+    {
+      "original": "014_mayl\\step_002.png",
+      "archive": "_archived_screenshots\\014_mayl\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\014_mayl\\step_002.png",
+      "sha256": "5506581e56271f02dd389f173b38be6a7134dac7143ce681174c0d3fdca6594e",
+      "length": 5531
+    },
+    {
+      "original": "014_mayl\\step_003.png",
+      "archive": "_archived_screenshots\\014_mayl\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\014_mayl\\step_003.png",
+      "sha256": "155fb85bf510ee007dd73234db6f6850ffff446fef9ee49ff81ccfd1980f2ee7",
+      "length": 5241
+    },
+    {
+      "original": "014_mayl\\step_004.png",
+      "archive": "_archived_screenshots\\014_mayl\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\014_mayl\\step_004.png",
+      "sha256": "7eeb48c87d7d4ca8949bb0580316efee2e89c1d4f286f6039f8fc09b00c0efe8",
+      "length": 5501
+    },
+    {
+      "original": "014_mayl\\step_005.png",
+      "archive": "_archived_screenshots\\014_mayl\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\014_mayl\\step_005.png",
+      "sha256": "ab1dc01c0af27378c70da02db9c775f49346778f02371027e8d482d4e4764746",
+      "length": 5328
+    },
+    {
+      "original": "014_mayl\\step_006.png",
+      "archive": "_archived_screenshots\\014_mayl\\step_006.png",
+      "original_relative": "analysis\\playtest_20260909\\014_mayl\\step_006.png",
+      "sha256": "8b80dbb0bbce451527c9589897fa452c04dc19b308b8b8c5facc9dde64e0b1a4",
+      "length": 5524
+    },
+    {
+      "original": "015_classroom_walk\\step_001.png",
+      "archive": "_archived_screenshots\\015_classroom_walk\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\015_classroom_walk\\step_001.png",
+      "sha256": "0c44ce1bbaf9c1bbae2c61212a35ed4418dbdd8c690fe5c2bb773c3c60681567",
+      "length": 5229
+    },
+    {
+      "original": "015_classroom_walk\\step_002.png",
+      "archive": "_archived_screenshots\\015_classroom_walk\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\015_classroom_walk\\step_002.png",
+      "sha256": "0e9ce1a95c23a3c96d4420d72846ace7312753700b4d8b27cb0cce3b1d6c7f98",
+      "length": 6641
+    },
+    {
+      "original": "016_classroom_walk\\step_001.png",
+      "archive": "_archived_screenshots\\016_classroom_walk\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\016_classroom_walk\\step_001.png",
+      "sha256": "3b4961d6a1cbd4dda7f75751a62f27281cd96f37687950d1b2c41a8aef193970",
+      "length": 7220
+    },
+    {
+      "original": "016_classroom_walk\\step_002.png",
+      "archive": "_archived_screenshots\\016_classroom_walk\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\016_classroom_walk\\step_002.png",
+      "sha256": "619705bab053104f911fe1d9f767632647b08422bf43aab1913cccdb6f74d391",
+      "length": 8179
+    },
+    {
+      "original": "017_book_boy\\step_001.png",
+      "archive": "_archived_screenshots\\017_book_boy\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\017_book_boy\\step_001.png",
+      "sha256": "bce38c21a76e9d773875ecf626bd236a3b203007e5bf16eb0c9ec62a33e71050",
+      "length": 8569
+    },
+    {
+      "original": "017_book_boy\\step_002.png",
+      "archive": "_archived_screenshots\\017_book_boy\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\017_book_boy\\step_002.png",
+      "sha256": "955aa7c2162d5ded13a4616b75d7bddfda6618c17560d9f869630c32e8b5ab4a",
+      "length": 8544
+    },
+    {
+      "original": "017_book_boy\\step_003.png",
+      "archive": "_archived_screenshots\\017_book_boy\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\017_book_boy\\step_003.png",
+      "sha256": "72382acb7d2acfa15355f8a6d67fa753e371da492f3b577361bf5443a69a0386",
+      "length": 8724
+    },
+    {
+      "original": "018_pet_dialogue\\step_001.png",
+      "archive": "_archived_screenshots\\018_pet_dialogue\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\018_pet_dialogue\\step_001.png",
+      "sha256": "ff89ef66722d70efc71996046a6cc7122a95fe0e4253a4cb81d0d5f9295e018f",
+      "length": 8085
+    },
+    {
+      "original": "018_pet_dialogue\\step_002.png",
+      "archive": "_archived_screenshots\\018_pet_dialogue\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\018_pet_dialogue\\step_002.png",
+      "sha256": "a79249db9ad10f07d97ce19286c79f777697bc5afc535a0ae3cbbe7d34f10e70",
+      "length": 8282
+    },
+    {
+      "original": "018_pet_dialogue\\step_003.png",
+      "archive": "_archived_screenshots\\018_pet_dialogue\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\018_pet_dialogue\\step_003.png",
+      "sha256": "a09de634557dbeda04d2f2eeeea556f4998fab015c68616626baeb4380cc23f4",
+      "length": 6521
+    },
+    {
+      "original": "020_pet_no\\step_001.png",
+      "archive": "_archived_screenshots\\020_pet_no\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\020_pet_no\\step_001.png",
+      "sha256": "f7126fd5cc8b92293248ab5822c5eefc74ed88a1b3a101ccfdc24dc3de944f2d",
+      "length": 6274
+    },
+    {
+      "original": "022_pet_explanation\\step_001.png",
+      "archive": "_archived_screenshots\\022_pet_explanation\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\022_pet_explanation\\step_001.png",
+      "sha256": "b7726f59182bc67f85eab44344032bfc8fb2519ce64b9c63ee2644f122aeec27",
+      "length": 5221
+    },
+    {
+      "original": "022_pet_explanation\\step_002.png",
+      "archive": "_archived_screenshots\\022_pet_explanation\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\022_pet_explanation\\step_002.png",
+      "sha256": "b031dad6f39d904a8a7d9b30536d8bbb9363afc7b0d0cc72a19b6a3781107920",
+      "length": 5561
+    },
+    {
+      "original": "022_pet_explanation\\step_003.png",
+      "archive": "_archived_screenshots\\022_pet_explanation\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\022_pet_explanation\\step_003.png",
+      "sha256": "17ee976c5be9b944c7fd1f285f707de09591d66c793ccc582d0a3c90fe765ca6",
+      "length": 5587
+    },
+    {
+      "original": "022_pet_explanation\\step_004.png",
+      "archive": "_archived_screenshots\\022_pet_explanation\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\022_pet_explanation\\step_004.png",
+      "sha256": "e69abae9720034d8be34d590c6a33c9cf38fb7c844f01f8267613ffd143c08a4",
+      "length": 5757
+    },
+    {
+      "original": "022_pet_explanation\\step_005.png",
+      "archive": "_archived_screenshots\\022_pet_explanation\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\022_pet_explanation\\step_005.png",
+      "sha256": "3b47b34800271241e57564df9d699d4cd1a524eb706273ed85cebe9a4b475155",
+      "length": 5808
+    },
+    {
+      "original": "022_pet_explanation\\step_006.png",
+      "archive": "_archived_screenshots\\022_pet_explanation\\step_006.png",
+      "original_relative": "analysis\\playtest_20260909\\022_pet_explanation\\step_006.png",
+      "sha256": "e710f04363a4e48c9d54a5f95a30a96ebb647557d879658d0d83cac039eca2ff",
+      "length": 6142
+    },
+    {
+      "original": "023_pet_explanation\\step_001.png",
+      "archive": "_archived_screenshots\\023_pet_explanation\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\023_pet_explanation\\step_001.png",
+      "sha256": "8e62a557ac497150ea70847edad44ba7bedb39294ac2a5ce7465c4230e3bfa17",
+      "length": 5889
+    },
+    {
+      "original": "023_pet_explanation\\step_002.png",
+      "archive": "_archived_screenshots\\023_pet_explanation\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\023_pet_explanation\\step_002.png",
+      "sha256": "69319a42c1737a0d2aa9e089d7b085f1b3f4c9c20abe99b4531b36123ff9d96e",
+      "length": 7987
+    },
+    {
+      "original": "023_pet_explanation\\step_003.png",
+      "archive": "_archived_screenshots\\023_pet_explanation\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\023_pet_explanation\\step_003.png",
+      "sha256": "8b0576b6a91fb8b37c37b4de6b0e5cebea22a32442dd99806d9874760afd2ab6",
+      "length": 6515
+    },
+    {
+      "original": "023_pet_explanation\\step_004.png",
+      "archive": "_archived_screenshots\\023_pet_explanation\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\023_pet_explanation\\step_004.png",
+      "sha256": "773c09d1e2ece157ffecb01eb31a65f8b3cc6f0e9ae11dd9f7148d2652f3c73f",
+      "length": 6272
+    },
+    {
+      "original": "023_pet_explanation\\step_005.png",
+      "archive": "_archived_screenshots\\023_pet_explanation\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\023_pet_explanation\\step_005.png",
+      "sha256": "da56be70db7771d9ec006357d7b8b004740505efb201ba03960bccea60f71e5c",
+      "length": 6129
+    },
+    {
+      "original": "023_pet_explanation\\step_006.png",
+      "archive": "_archived_screenshots\\023_pet_explanation\\step_006.png",
+      "original_relative": "analysis\\playtest_20260909\\023_pet_explanation\\step_006.png",
+      "sha256": "b7726f59182bc67f85eab44344032bfc8fb2519ce64b9c63ee2644f122aeec27",
+      "length": 5221
+    },
+    {
+      "original": "024_pet_cancel\\step_002.png",
+      "archive": "_archived_screenshots\\024_pet_cancel\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\024_pet_cancel\\step_002.png",
+      "sha256": "6ab100c515782f990350cc4e08b6b75a1e6744a1b966956bf83a2a7abb0b00f9",
+      "length": 8131
+    },
+    {
+      "original": "024_pet_cancel\\step_003.png",
+      "archive": "_archived_screenshots\\024_pet_cancel\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\024_pet_cancel\\step_003.png",
+      "sha256": "5e52d0de94fed6abd9d878e84322fb3341cce231c199056c617cc20ceffda3de",
+      "length": 8289
+    },
+    {
+      "original": "025_classroom_walk\\step_001.png",
+      "archive": "_archived_screenshots\\025_classroom_walk\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\025_classroom_walk\\step_001.png",
+      "sha256": "3ad86bef97627899b17140c6d1e3e9aa60cff3e5ead30d8ab485c32e3d41a350",
+      "length": 9057
+    },
+    {
+      "original": "025_classroom_walk\\step_002.png",
+      "archive": "_archived_screenshots\\025_classroom_walk\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\025_classroom_walk\\step_002.png",
+      "sha256": "34b0a188a285300d6542c3a59d187b33c19e1c4675a8816280704d5fefc53a6b",
+      "length": 8649
+    },
+    {
+      "original": "026_classroom_walk\\step_001.png",
+      "archive": "_archived_screenshots\\026_classroom_walk\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\026_classroom_walk\\step_001.png",
+      "sha256": "330fdb4c8304c6f40c64e774f868de0aad0e523826352268fe809f5238e5d555",
+      "length": 9561
+    },
+    {
+      "original": "026_classroom_walk\\step_002.png",
+      "archive": "_archived_screenshots\\026_classroom_walk\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\026_classroom_walk\\step_002.png",
+      "sha256": "778d67a84d999c55d8aa6296825e30b007f774bc0e310237590a5e2893d6e1b9",
+      "length": 9350
+    },
+    {
+      "original": "027_dex_approach\\step_001.png",
+      "archive": "_archived_screenshots\\027_dex_approach\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\027_dex_approach\\step_001.png",
+      "sha256": "3c4e5f7f2f77ac7129d8f64ff16da5a830e95d02a6bff58dd29034618fec87e7",
+      "length": 7291
+    },
+    {
+      "original": "027_dex_approach\\step_002.png",
+      "archive": "_archived_screenshots\\027_dex_approach\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\027_dex_approach\\step_002.png",
+      "sha256": "603e6b159215a3a9dfaadf83077bce04d21bf7feb5234fa578c3da7cfd9ec8a1",
+      "length": 8352
+    },
+    {
+      "original": "027_dex_approach\\step_003.png",
+      "archive": "_archived_screenshots\\027_dex_approach\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\027_dex_approach\\step_003.png",
+      "sha256": "ae812837eead883f2f95c258d10244c2f27674680f7713204e29f86b4a2d1fcf",
+      "length": 7452
+    },
+    {
+      "original": "028_dex_dialogue\\step_001.png",
+      "archive": "_archived_screenshots\\028_dex_dialogue\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\028_dex_dialogue\\step_001.png",
+      "sha256": "3362828cbe95abd04a6fd61957902431f72ab071d9283b7cace35d0b87588310",
+      "length": 7319
+    },
+    {
+      "original": "028_dex_dialogue\\step_002.png",
+      "archive": "_archived_screenshots\\028_dex_dialogue\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\028_dex_dialogue\\step_002.png",
+      "sha256": "8855242b7fe6f8b87b5d4aa4cc335a7a76bcfe1fdbc91f0a6719dc1211f08ada",
+      "length": 7221
+    },
+    {
+      "original": "028_dex_dialogue\\step_003.png",
+      "archive": "_archived_screenshots\\028_dex_dialogue\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\028_dex_dialogue\\step_003.png",
+      "sha256": "b94e5134755a1a339bb8ec5d43758f67f24c7f9827ae08319805f4737ea13e43",
+      "length": 7061
+    },
+    {
+      "original": "028_dex_dialogue\\step_004.png",
+      "archive": "_archived_screenshots\\028_dex_dialogue\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\028_dex_dialogue\\step_004.png",
+      "sha256": "e7bdfb177d4b2ba5b00a9177baf0635de6baeb09d56815af17c9802fd6751743",
+      "length": 8180
+    },
+    {
+      "original": "029_dex_dialogue\\step_001.png",
+      "archive": "_archived_screenshots\\029_dex_dialogue\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\029_dex_dialogue\\step_001.png",
+      "sha256": "a148e9882063a275492d4b95def8f2f7e234ce987ec55156e0cd8dd2e8095a82",
+      "length": 7630
+    },
+    {
+      "original": "029_dex_dialogue\\step_002.png",
+      "archive": "_archived_screenshots\\029_dex_dialogue\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\029_dex_dialogue\\step_002.png",
+      "sha256": "309c115f67eec13cc6473cc48eceec5a50f8d0051f68b3cac335828ec90006be",
+      "length": 7412
+    },
+    {
+      "original": "029_dex_dialogue\\step_003.png",
+      "archive": "_archived_screenshots\\029_dex_dialogue\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\029_dex_dialogue\\step_003.png",
+      "sha256": "ba752db54939167f058cb53b3c2c29c2a22ed03fe3749e46f459ec5267f3fd80",
+      "length": 6385
+    },
+    {
+      "original": "029_dex_dialogue\\step_004.png",
+      "archive": "_archived_screenshots\\029_dex_dialogue\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\029_dex_dialogue\\step_004.png",
+      "sha256": "826e0502534c47ebfbaba511b20fb5c99ddecd37677b7f5615a09f906fc814b5",
+      "length": 6624
+    },
+    {
+      "original": "029_dex_dialogue\\step_005.png",
+      "archive": "_archived_screenshots\\029_dex_dialogue\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\029_dex_dialogue\\step_005.png",
+      "sha256": "e91de3873e20582df0af57b9be98e6c51e89642c070007afe3801ac5fb7d633a",
+      "length": 7288
+    },
+    {
+      "original": "029_dex_dialogue\\step_006.png",
+      "archive": "_archived_screenshots\\029_dex_dialogue\\step_006.png",
+      "original_relative": "analysis\\playtest_20260909\\029_dex_dialogue\\step_006.png",
+      "sha256": "b415426d47875b83e030a2395c7c48feaaef9b9c400280c877ac9cde56a9df5a",
+      "length": 7228
+    },
+    {
+      "original": "030_teacher\\step_001.png",
+      "archive": "_archived_screenshots\\030_teacher\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\030_teacher\\step_001.png",
+      "sha256": "b61e45276d1255e462ffb68a87ca869b870b29c4e080d90f58e3794075c0be47",
+      "length": 6469
+    },
+    {
+      "original": "030_teacher\\step_002.png",
+      "archive": "_archived_screenshots\\030_teacher\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\030_teacher\\step_002.png",
+      "sha256": "37da1c6fd3cd3bc6f54c0743484039e216c4cf99872f1c035f69650712acbb02",
+      "length": 6996
+    },
+    {
+      "original": "030_teacher\\step_003.png",
+      "archive": "_archived_screenshots\\030_teacher\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\030_teacher\\step_003.png",
+      "sha256": "af67ab417aa33c746bd83e05b2216548de187cde83220b02965dc9a4e804d584",
+      "length": 6761
+    },
+    {
+      "original": "030_teacher\\step_004.png",
+      "archive": "_archived_screenshots\\030_teacher\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\030_teacher\\step_004.png",
+      "sha256": "844bd021baea035015c66d3d6fc2b3e55ab6fd5b607801b8bea81639cb518bc9",
+      "length": 6906
+    },
+    {
+      "original": "030_teacher\\step_005.png",
+      "archive": "_archived_screenshots\\030_teacher\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\030_teacher\\step_005.png",
+      "sha256": "f331be54ff0993ddeb764ee16bd11f843a317293db95ff0dd630a5c7644d2277",
+      "length": 7041
+    },
+    {
+      "original": "030_teacher\\step_006.png",
+      "archive": "_archived_screenshots\\030_teacher\\step_006.png",
+      "original_relative": "analysis\\playtest_20260909\\030_teacher\\step_006.png",
+      "sha256": "3a39c56685124ef5b6f317c6d27a998f541ed634ccfd3dabb4daa97951dacdf3",
+      "length": 7056
+    },
+    {
+      "original": "031_teacher\\step_001.png",
+      "archive": "_archived_screenshots\\031_teacher\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\031_teacher\\step_001.png",
+      "sha256": "bb4e30712ee762f42fbeeddd46bd3c6516162db82df5600711eeb4fd1b291487",
+      "length": 6681
+    },
+    {
+      "original": "031_teacher\\step_002.png",
+      "archive": "_archived_screenshots\\031_teacher\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\031_teacher\\step_002.png",
+      "sha256": "e20673063fd855e895dd19afbde55f43ea887e37e2209e1c028c973079a1787e",
+      "length": 7125
+    },
+    {
+      "original": "031_teacher\\step_003.png",
+      "archive": "_archived_screenshots\\031_teacher\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\031_teacher\\step_003.png",
+      "sha256": "fcbbbfbf0cd4521d78dbe114cdb197210606ba2f99e6ffc3ad09cbb6a6f072dc",
+      "length": 6433
+    },
+    {
+      "original": "031_teacher\\step_004.png",
+      "archive": "_archived_screenshots\\031_teacher\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\031_teacher\\step_004.png",
+      "sha256": "58da9cb388e241b13871455443b163e859b826dd4c47d06df94762ced4e4dfe4",
+      "length": 6580
+    },
+    {
+      "original": "031_teacher\\step_005.png",
+      "archive": "_archived_screenshots\\031_teacher\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\031_teacher\\step_005.png",
+      "sha256": "8c7aaaeee382a7389fe4098bb8b9ab1bd9dfbf71a9294cf121c413fa48a407d2",
+      "length": 7011
+    },
+    {
+      "original": "031_teacher\\step_006.png",
+      "archive": "_archived_screenshots\\031_teacher\\step_006.png",
+      "original_relative": "analysis\\playtest_20260909\\031_teacher\\step_006.png",
+      "sha256": "c4f30982e70d4fc8631954c49f0e3ef260f1e669360daa74edd45f2133d2aac1",
+      "length": 7330
+    },
+    {
+      "original": "032_after_class\\step_001.png",
+      "archive": "_archived_screenshots\\032_after_class\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\032_after_class\\step_001.png",
+      "sha256": "b6cea70fe4301284c899c95f8c05c8edafca5fd1c8c4e5550322e7fb7afa8e9d",
+      "length": 6641
+    },
+    {
+      "original": "032_after_class\\step_002.png",
+      "archive": "_archived_screenshots\\032_after_class\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\032_after_class\\step_002.png",
+      "sha256": "e22a25715a5d30711864db97b5f325d25c02fb47eea10f4c483e00f259be34eb",
+      "length": 6413
+    },
+    {
+      "original": "032_after_class\\step_003.png",
+      "archive": "_archived_screenshots\\032_after_class\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\032_after_class\\step_003.png",
+      "sha256": "196c480f068fa99a4fd5cda4111bb33a97d17c92ff44ea865d0ad5c293a7e91e",
+      "length": 6482
+    },
+    {
+      "original": "032_after_class\\step_004.png",
+      "archive": "_archived_screenshots\\032_after_class\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\032_after_class\\step_004.png",
+      "sha256": "adeb5e786ef9245578c2de68925348f1bf5db1666b6d6396abb93ea17849fe8e",
+      "length": 6393
+    },
+    {
+      "original": "033_after_class\\step_001.png",
+      "archive": "_archived_screenshots\\033_after_class\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\033_after_class\\step_001.png",
+      "sha256": "e0835b3018560ef9026b779b8caef86c34a914f1cc061773247f253d93779728",
+      "length": 7091
+    },
+    {
+      "original": "033_after_class\\step_003.png",
+      "archive": "_archived_screenshots\\033_after_class\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\033_after_class\\step_003.png",
+      "sha256": "229e5e3ea2e5128200f0868bd1f9689a7be5530c81f46ffe352253a2c8cecd85",
+      "length": 9212
+    },
+    {
+      "original": "033_after_class\\step_004.png",
+      "archive": "_archived_screenshots\\033_after_class\\step_004.png",
+      "original_relative": "analysis\\playtest_20260909\\033_after_class\\step_004.png",
+      "sha256": "6e8bd605c01a21f6af14315589b9f0f302e4bc4d72fa3f62fc6c103ab2aa563f",
+      "length": 9674
+    },
+    {
+      "original": "033_after_class\\step_005.png",
+      "archive": "_archived_screenshots\\033_after_class\\step_005.png",
+      "original_relative": "analysis\\playtest_20260909\\033_after_class\\step_005.png",
+      "sha256": "9a3891a1d54c5599311babd02c19aedd2fbb313b387bf6c12455f447315ed874",
+      "length": 9321
+    },
+    {
+      "original": "033_after_class\\step_006.png",
+      "archive": "_archived_screenshots\\033_after_class\\step_006.png",
+      "original_relative": "analysis\\playtest_20260909\\033_after_class\\step_006.png",
+      "sha256": "2d8ca9db2d13cde2e4440c8b4c43620c43ee78f40fb8ab97dc69137038e06da7",
+      "length": 9864
+    },
+    {
+      "original": "034_battery_reload\\step_001.png",
+      "archive": "_archived_screenshots\\034_battery_reload\\step_001.png",
+      "original_relative": "analysis\\playtest_20260909\\034_battery_reload\\step_001.png",
+      "sha256": "604369a28161d09b505ad9d6e48094d4b8b8b3ae52196ed1aa40789ad47f1aa5",
+      "length": 14551
+    },
+    {
+      "original": "034_battery_reload\\step_002.png",
+      "archive": "_archived_screenshots\\034_battery_reload\\step_002.png",
+      "original_relative": "analysis\\playtest_20260909\\034_battery_reload\\step_002.png",
+      "sha256": "47789268e6192cb8d7e96c9b40f513a9a70ef0b3b8b58d58026fb7518799bf91",
+      "length": 14333
+    },
+    {
+      "original": "034_battery_reload\\step_003.png",
+      "archive": "_archived_screenshots\\034_battery_reload\\step_003.png",
+      "original_relative": "analysis\\playtest_20260909\\034_battery_reload\\step_003.png",
+      "sha256": "6aed1b71964eb4c474c988bb3447d89ef5358342fafc539b108cfd49f80771d7",
+      "length": 5278
+    }
+  ]
+}

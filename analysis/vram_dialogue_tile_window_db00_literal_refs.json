@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "literals": [
+    {
+      "rom_offset": 151016,
+      "little_endian_u32": 100719360
+    }
+  ],
+  "requested_literal_value_occurrences": {
+    "0600DB00": [
+      151016
+    ]
+  },
+  "thumb_pc_relative_ldr_references": [
+    {
+      "instruction_offset": 150980,
+      "destination_register": 1,
+      "literal_offset": 151016
+    }
+  ],
+  "arm_pc_relative_ldr_references": [],
+  "limitation": "Only PC-relative LDR literal forms are scanned; no absence claim is made for other address-construction paths."
+}

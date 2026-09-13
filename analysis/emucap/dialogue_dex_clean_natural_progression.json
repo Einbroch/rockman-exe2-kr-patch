@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "kind": "fresh_boot_natural_route_archive_dialogue_progression",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_dex_clean_poc.gba",
+    "sha256": "385577d84b06ee60910a8c18c833e47b4b51fe3bf09023a9e4f945b618fd1972"
+  },
+  "route": [
+    "fresh boot",
+    "PRESS START",
+    "はじめから",
+    "advance the opening dialogue",
+    "move through the classroom",
+    "talk to Dekao"
+  ],
+  "entry_0_breakpoint": {
+    "frame": 26440,
+    "kind": "read",
+    "memory_type": "gbaExtWorkRam",
+    "memory_offset": 231945,
+    "emulated_address": 33786377,
+    "pc": 134351986,
+    "snapshot_start_offset": 231934,
+    "snapshot_byte_length": 169,
+    "snapshot_contains_complete_rebuilt_entries_0_and_1": true
+  },
+  "screenshots": [
+    {"stage": "entry_0", "filename": "dex_clean_entry0_natural.png", "sha256": "1d5f7440403a4356c72466980ee337988e7f4106988193b122dbf95efb08c5ee"},
+    {"stage": "entry_1_page_1", "filename": "dex_clean_entry1_page1_natural.png", "sha256": "0fa94f701401839003c51adcabbba74f401437e350358ea0377262bf8921dd6d"},
+    {"stage": "entry_1_page_2", "filename": "dex_clean_entry1_page2_natural.png", "sha256": "38ca8383e8e4274400694f76f5f4171033dde3400479616c8387c7c912a9dacc"},
+    {"stage": "entry_1_page_3", "filename": "dex_clean_entry1_page3_natural.png", "sha256": "9b4627959e415c0ad79282d496eb5ff54f55b70514b1694faa86c2a41a402132"},
+    {"stage": "entry_1_page_4_wait", "filename": "dex_clean_entry1_page4_wait_natural.png", "sha256": "abadf7d1d906e45fe500edfb0fb4274c02adcc15e539f286a2d50aa8d2a091ca"},
+    {"stage": "entry_1_page_4_complete", "filename": "dex_clean_entry1_page4_natural.png", "sha256": "27123bf97787877837e5f6d875d8a17fb959f372ec9c594ba04d51052d601b03"},
+    {"stage": "post_dialogue_school_bell", "filename": "dex_clean_entry1_post_dialogue.png", "sha256": "bb6a661c515f9f01e07f0228856c12da00b747e285f7cf68a69145557ab365e1"}
+  ],
+  "verification": {
+    "entry_0_rendered": true,
+    "entry_1_all_four_pages_rendered": true,
+    "inline_30_frame_wait_observed": true,
+    "post_dialogue_progression_observed": true,
+    "clipping_observed": false,
+    "overlap_observed": false,
+    "ghosting_observed": false,
+    "progression_stall_observed": false
+  },
+  "passed": true
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "target_rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+  "glyph_prefixes": [
+    {
+      "opcode": 229,
+      "parameter_byte_count": 1,
+      "stream_byte_count": 2,
+      "font_record_index_formula": "0xE5 + parameter",
+      "policy": "verified_glyph_transport_only"
+    },
+    {
+      "opcode": 230,
+      "parameter_byte_count": 1,
+      "stream_byte_count": 2,
+      "font_record_index_formula": "0x1E5 + parameter",
+      "policy": "verified_glyph_transport_only"
+    }
+  ],
+  "control_codes": [
+    {
+      "opcode": 231,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 232,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 233,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 234,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 235,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 236,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 237,
+      "policy": "preserve_runtime_width_observed",
+      "selector_observations": [
+        {
+          "selector_value": 0,
+          "stream_byte_count": 3,
+          "runtime": {
+            "marker_visible": false,
+            "dialogue_progress_normal": true
+          }
+        },
+        {
+          "selector_value": 2,
+          "stream_byte_count": 3,
+          "runtime": {
+            "marker_visible": false,
+            "dialogue_progress_normal": true
+          }
+        }
+      ]
+    },
+    {
+      "opcode": 238,
+      "policy": "preserve_stateful",
+      "state_transfer_marker_count": 3
+    },
+    {
+      "opcode": 239,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 240,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 241,
+      "policy": "preserve_stateful",
+      "state_transfer_marker_count": 1
+    },
+    {
+      "opcode": 242,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 243,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 244,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 245,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 246,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 247,
+      "policy": "preserve_stateful",
+      "state_transfer_marker_count": 1
+    },
+    {
+      "opcode": 248,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 249,
+      "policy": "preserve_runtime_crash_observed",
+      "selector_observations": [
+        {
+          "selector_value": 0,
+          "runtime_outcome": "invalid_address_jump"
+        }
+      ]
+    },
+    {
+      "opcode": 250,
+      "policy": "preserve_runtime_cursor_observed",
+      "selector_observations": [
+        {
+          "selector_value": 24,
+          "direct_cursor_delta": 4,
+          "runtime": {
+            "direct_cursor_delta": 4,
+            "visible_layout_change": false
+          }
+        },
+        {
+          "selector_value": 28,
+          "direct_cursor_delta": 2,
+          "runtime": {
+            "direct_cursor_delta": 2,
+            "visible_layout_change": false
+          }
+        }
+      ]
+    },
+    {
+      "opcode": 251,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 252,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 253,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 254,
+      "policy": "blocked_control_spec"
+    },
+    {
+      "opcode": 255,
+      "policy": "blocked_control_spec"
+    }
+  ],
+  "build_rule": {
+    "allow_new_korean_glyph_bytes_only_via": [
+      229,
+      230
+    ],
+    "allow_new_E7_to_FF_command_frames": false,
+    "preserve_command_order_and_parameters": true
+  },
+  "limitations": [
+    "Verified glyph transport does not prove editable message boundaries or complete Korean code-page capacity.",
+    "A preserve policy never assigns a command name or authorizes rewriting its parameters.",
+    "The runtime observations cover one verified dialogue screen per listed selector only."
+  ]
+}

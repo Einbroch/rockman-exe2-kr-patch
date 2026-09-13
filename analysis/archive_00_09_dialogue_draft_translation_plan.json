@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "kind": "draft_archive_translation_capacity_plan",
+  "draft": {
+    "filename": "archive_00_09_dialogue_draft.json",
+    "sha256": "914cb18af229ce1dbec1e6f98b726378c6761128653fd4f6b6b5ad56c5a6797e"
+  },
+  "codepage": {
+    "filename": "korean_codepage_archive_00_09_dialogue_draft.json",
+    "sha256": "044c27d1d160945afae7ff77427acd592fc00a653f3ae61d507e76b7008f760a",
+    "mode": "candidate_catalog_unobserved_overlay",
+    "mapped_hangul_count": 70,
+    "remaining_capacity": 186
+  },
+  "draft_unique_hangul_count": 60,
+  "entries": [
+    {
+      "entry_index": 0,
+      "source_visible_text_byte_length": 10,
+      "estimated_replacement_stream_byte_length": 13,
+      "estimated_growth_bytes": 3,
+      "page_count": 1,
+      "line_count": 1,
+      "lines": [
+        {
+          "text": "여어! 데카오!",
+          "glyph_count": 8,
+          "estimated_stream_bytes": 13
+        }
+      ],
+      "status": "planned_not_reinserted"
+    },
+    {
+      "entry_index": 2,
+      "source_visible_text_byte_length": 9,
+      "estimated_replacement_stream_byte_length": 15,
+      "estimated_growth_bytes": 6,
+      "page_count": 1,
+      "line_count": 1,
+      "lines": [
+        {
+          "text": "좋은 아침, 넷토",
+          "glyph_count": 9,
+          "estimated_stream_bytes": 15
+        }
+      ],
+      "status": "planned_not_reinserted"
+    },
+    {
+      "entry_index": 13,
+      "source_visible_text_byte_length": 145,
+      "estimated_replacement_stream_byte_length": 185,
+      "estimated_growth_bytes": 40,
+      "page_count": 4,
+      "line_count": 11,
+      "lines": [
+        {
+          "text": "저기...",
+          "glyph_count": 5,
+          "estimated_stream_bytes": 7
+        },
+        {
+          "text": "PET의 START를 눌러",
+          "glyph_count": 14,
+          "estimated_stream_bytes": 18
+        },
+        {
+          "text": "서브 화면으로 들어가면...",
+          "glyph_count": 15,
+          "estimated_stream_bytes": 25
+        },
+        {
+          "text": "E메일을 읽거나,",
+          "glyph_count": 9,
+          "estimated_stream_bytes": 15
+        },
+        {
+          "text": "칩 폴더를 정리할 수도",
+          "glyph_count": 12,
+          "estimated_stream_bytes": 21
+        },
+        {
+          "text": "있지",
+          "glyph_count": 2,
+          "estimated_stream_bytes": 4
+        },
+        {
+          "text": "그리고 L버튼을 누르면",
+          "glyph_count": 12,
+          "estimated_stream_bytes": 21
+        },
+        {
+          "text": "PET 안의 내비와",
+          "glyph_count": 10,
+          "estimated_stream_bytes": 15
+        },
+        {
+          "text": "대화할 수도 있지",
+          "glyph_count": 9,
+          "estimated_stream_bytes": 16
+        },
+        {
+          "text": "난 좀 둔해서",
+          "glyph_count": 7,
+          "estimated_stream_bytes": 12
+        },
+        {
+          "text": "금방 잊어버리거든.",
+          "glyph_count": 10,
+          "estimated_stream_bytes": 18
+        }
+      ],
+      "status": "planned_not_reinserted"
+    }
+  ],
+  "total_estimated_growth_bytes": 49,
+  "decision": "capacity_available_but_control_preserving_reinsertion_and_runtime_layout_QA_required"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "kind": "translation_batch_policy",
+  "batch_size": 100,
+  "batch_unit": "text_bearing_archive_entries",
+  "override_reason": "The project user explicitly requested batches of 100 translations on 2026-08-28.",
+  "source_language": "Japanese",
+  "target_language": "Korean",
+  "runtime_policy": "static_first_user_deferred_emulator",
+  "review_state": "machine_draft_needs_human_review",
+  "effective_from": "archive_00_11_batch_0001"
+}

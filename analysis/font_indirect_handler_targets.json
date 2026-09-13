@@ -1,0 +1,732 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "entries": [
+    {
+      "opcode": 241,
+      "handler_rom_offset": 136196,
+      "parameter_offset": 1,
+      "selector_model": "parameter_aligned_down_to_multiple_of_4",
+      "table_literal_rom_offset": 136216,
+      "target_table_rom_offset": 136220,
+      "target_count": 2,
+      "targets": [
+        {
+          "selector_value": 0,
+          "target_thumb_cpu_address": 134353989,
+          "target_rom_offset": 136260,
+          "local_trace": {
+            "entry_rom_offset": 136260,
+            "explored_states": 49,
+            "instruction_steps": 49,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 4
+            },
+            "return_path_count": 4,
+            "return_direct_r4_delta_values": [
+              0,
+              2
+            ],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 1,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 4,
+          "target_thumb_cpu_address": 134354081,
+          "target_rom_offset": 136352,
+          "local_trace": {
+            "entry_rom_offset": 136352,
+            "explored_states": 6,
+            "instruction_steps": 6,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              3
+            ],
+            "return_paths_with_call": 0,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": 3,
+            "interpretation": "candidate"
+          }
+        }
+      ]
+    },
+    {
+      "opcode": 243,
+      "handler_rom_offset": 136436,
+      "parameter_offset": 1,
+      "selector_model": "parameter_byte_word_offset",
+      "table_literal_rom_offset": 136452,
+      "target_table_rom_offset": 136456,
+      "target_count": 10,
+      "targets": [
+        {
+          "selector_value": 0,
+          "target_thumb_cpu_address": 134354225,
+          "target_rom_offset": 136496,
+          "local_trace": {
+            "entry_rom_offset": 136496,
+            "explored_states": 21,
+            "instruction_steps": 21,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 2
+            },
+            "return_path_count": 2,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 4,
+          "target_thumb_cpu_address": 134354273,
+          "target_rom_offset": 136544,
+          "local_trace": {
+            "entry_rom_offset": 136544,
+            "explored_states": 30,
+            "instruction_steps": 30,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 4
+            },
+            "return_path_count": 4,
+            "return_direct_r4_delta_values": [
+              0,
+              6
+            ],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 8,
+          "target_thumb_cpu_address": 134354317,
+          "target_rom_offset": 136588,
+          "local_trace": {
+            "entry_rom_offset": 136588,
+            "explored_states": 18,
+            "instruction_steps": 18,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 2
+            },
+            "return_path_count": 2,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 12,
+          "target_thumb_cpu_address": 134354357,
+          "target_rom_offset": 136628,
+          "local_trace": {
+            "entry_rom_offset": 136628,
+            "explored_states": 33,
+            "instruction_steps": 33,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 2
+            },
+            "return_path_count": 2,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 16,
+          "target_thumb_cpu_address": 134354429,
+          "target_rom_offset": 136700,
+          "local_trace": {
+            "entry_rom_offset": 136700,
+            "explored_states": 22,
+            "instruction_steps": 22,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 2
+            },
+            "return_path_count": 2,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 20,
+          "target_thumb_cpu_address": 134354477,
+          "target_rom_offset": 136748,
+          "local_trace": {
+            "entry_rom_offset": 136748,
+            "explored_states": 30,
+            "instruction_steps": 30,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 4
+            },
+            "return_path_count": 4,
+            "return_direct_r4_delta_values": [
+              0,
+              6
+            ],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 24,
+          "target_thumb_cpu_address": 134354521,
+          "target_rom_offset": 136792,
+          "local_trace": {
+            "entry_rom_offset": 136792,
+            "explored_states": 22,
+            "instruction_steps": 22,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 2
+            },
+            "return_path_count": 2,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 28,
+          "target_thumb_cpu_address": 134354569,
+          "target_rom_offset": 136840,
+          "local_trace": {
+            "entry_rom_offset": 136840,
+            "explored_states": 30,
+            "instruction_steps": 30,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 4
+            },
+            "return_path_count": 4,
+            "return_direct_r4_delta_values": [
+              0,
+              6
+            ],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 32,
+          "target_thumb_cpu_address": 134354613,
+          "target_rom_offset": 136884,
+          "local_trace": {
+            "entry_rom_offset": 136884,
+            "explored_states": 26,
+            "instruction_steps": 26,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 2
+            },
+            "return_path_count": 2,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 36,
+          "target_thumb_cpu_address": 134354669,
+          "target_rom_offset": 136940,
+          "local_trace": {
+            "entry_rom_offset": 136940,
+            "explored_states": 30,
+            "instruction_steps": 30,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 4
+            },
+            "return_path_count": 4,
+            "return_direct_r4_delta_values": [
+              0,
+              6
+            ],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        }
+      ]
+    },
+    {
+      "opcode": 248,
+      "handler_rom_offset": 137712,
+      "parameter_offset": 1,
+      "selector_model": "parameter_byte_word_offset",
+      "table_literal_rom_offset": 137728,
+      "target_table_rom_offset": 137732,
+      "target_count": 5,
+      "targets": [
+        {
+          "selector_value": 0,
+          "target_thumb_cpu_address": 134355481,
+          "target_rom_offset": 137752,
+          "local_trace": {
+            "entry_rom_offset": 137752,
+            "explored_states": 24,
+            "instruction_steps": 24,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 2
+            },
+            "return_path_count": 2,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 4,
+          "target_thumb_cpu_address": 134355537,
+          "target_rom_offset": 137808,
+          "local_trace": {
+            "entry_rom_offset": 137808,
+            "explored_states": 20,
+            "instruction_steps": 20,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 1,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 8,
+          "target_thumb_cpu_address": 134355581,
+          "target_rom_offset": 137852,
+          "local_trace": {
+            "entry_rom_offset": 137852,
+            "explored_states": 7,
+            "instruction_steps": 7,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 1,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 12,
+          "target_thumb_cpu_address": 134355597,
+          "target_rom_offset": 137868,
+          "local_trace": {
+            "entry_rom_offset": 137868,
+            "explored_states": 17,
+            "instruction_steps": 17,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 2
+            },
+            "return_path_count": 2,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 2,
+            "return_paths_with_unknown_r4_write": 2,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 16,
+          "target_thumb_cpu_address": 134355637,
+          "target_rom_offset": 137908,
+          "local_trace": {
+            "entry_rom_offset": 137908,
+            "explored_states": 18,
+            "instruction_steps": 18,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 1,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        }
+      ]
+    },
+    {
+      "opcode": 250,
+      "handler_rom_offset": 138392,
+      "parameter_offset": 1,
+      "selector_model": "parameter_byte_word_offset",
+      "table_literal_rom_offset": 138408,
+      "target_table_rom_offset": 138412,
+      "target_count": 10,
+      "targets": [
+        {
+          "selector_value": 0,
+          "target_thumb_cpu_address": 134356181,
+          "target_rom_offset": 138452,
+          "local_trace": {
+            "entry_rom_offset": 138452,
+            "explored_states": 9,
+            "instruction_steps": 9,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              4
+            ],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 4,
+          "target_thumb_cpu_address": 134356201,
+          "target_rom_offset": 138472,
+          "local_trace": {
+            "entry_rom_offset": 138472,
+            "explored_states": 9,
+            "instruction_steps": 9,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              4
+            ],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 8,
+          "target_thumb_cpu_address": 134356221,
+          "target_rom_offset": 138492,
+          "local_trace": {
+            "entry_rom_offset": 138492,
+            "explored_states": 6,
+            "instruction_steps": 6,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              2
+            ],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 12,
+          "target_thumb_cpu_address": 134356237,
+          "target_rom_offset": 138508,
+          "local_trace": {
+            "entry_rom_offset": 138508,
+            "explored_states": 6,
+            "instruction_steps": 6,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              2
+            ],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 16,
+          "target_thumb_cpu_address": 134356253,
+          "target_rom_offset": 138524,
+          "local_trace": {
+            "entry_rom_offset": 138524,
+            "explored_states": 5,
+            "instruction_steps": 5,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              2
+            ],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 20,
+          "target_thumb_cpu_address": 134356265,
+          "target_rom_offset": 138536,
+          "local_trace": {
+            "entry_rom_offset": 138536,
+            "explored_states": 7,
+            "instruction_steps": 7,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              4
+            ],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 24,
+          "target_thumb_cpu_address": 134356281,
+          "target_rom_offset": 138552,
+          "local_trace": {
+            "entry_rom_offset": 138552,
+            "explored_states": 9,
+            "instruction_steps": 9,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              4
+            ],
+            "return_paths_with_call": 0,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": 4,
+            "interpretation": "candidate"
+          }
+        },
+        {
+          "selector_value": 28,
+          "target_thumb_cpu_address": 134356301,
+          "target_rom_offset": 138572,
+          "local_trace": {
+            "entry_rom_offset": 138572,
+            "explored_states": 6,
+            "instruction_steps": 6,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              2
+            ],
+            "return_paths_with_call": 0,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": 2,
+            "interpretation": "candidate"
+          }
+        },
+        {
+          "selector_value": 32,
+          "target_thumb_cpu_address": 134356313,
+          "target_rom_offset": 138584,
+          "local_trace": {
+            "entry_rom_offset": 138584,
+            "explored_states": 6,
+            "instruction_steps": 6,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              2
+            ],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        },
+        {
+          "selector_value": 36,
+          "target_thumb_cpu_address": 134356329,
+          "target_rom_offset": 138600,
+          "local_trace": {
+            "entry_rom_offset": 138600,
+            "explored_states": 6,
+            "instruction_steps": 6,
+            "limits": {
+              "max_states": 1024,
+              "max_span_bytes": 4096
+            },
+            "terminal_counts": {
+              "return": 1
+            },
+            "return_path_count": 1,
+            "return_direct_r4_delta_values": [
+              2
+            ],
+            "return_paths_with_call": 1,
+            "return_paths_with_unknown_r4_write": 0,
+            "local_static_width_candidate": null,
+            "interpretation": "unresolved"
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "local_static_width_candidate_count": 3,
+    "local_static_width_candidates": [
+      {
+        "opcode": 241,
+        "selector_value": 4,
+        "width": 3
+      },
+      {
+        "opcode": 250,
+        "selector_value": 24,
+        "width": 4
+      },
+      {
+        "opcode": 250,
+        "selector_value": 28,
+        "width": 2
+      }
+    ]
+  },
+  "interpretation_notice": "A target candidate is a bounded local result after the dispatcher selects that target. It is neither a confirmed command specification nor authorization to alter command bytes. Runtime validation is still required for selector reachability and state effects."
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "kind": "rev1_archive_entry_source_transcription",
+  "source": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "archive_rom_offset": 7644292,
+    "archive_decompressed_sha256": "92852d9c874fe0d5293d0c47920f2b987ff1de9fef232fa24489b7700a670667",
+    "entry_index": 13,
+    "entry_offset": 1405,
+    "entry_byte_length": 156,
+    "entry_raw_hex": "ed 00 09 f1 00 9c e5 02 ac 88 88 88 e8 6d 62 71 b1 00 70 71 5e 6f 71 c7 00 9d a4 ab e8 15 4c c9 ba c8 ae 00 e5 6e c1 ac 88 88 88 eb e9 62 2c 78 33 c7 00 be c8 d3 c0 85 e8 1b 59 51 26 58 33 45 b1 00 a6 9a c0 c7 00 a4 a8 c0 e8 d6 9f c1 b1 be b0 eb e9 a7 c2 ac 85 69 4e 1a 3a c7 00 9d a5 ac e8 6d 62 71 b1 00 e5 8a ae 9a c1 00 1f 4b ac e8 9d b2 ad a4 00 d6 9f c1 c8 d3 be b0 eb e9 99 a8 a4 85 49 3a d3 9e bf e8 a5 cb ae 00 c4 a5 c2 a9 e5 03 9b c8 d3 78 eb f2 00 0e 02 e7"
+  },
+  "decoding_reference": {
+    "project": "Prof9/TextPet",
+    "repository": "https://github.com/Prof9/TextPet",
+    "commit": "6c6d70561290b42d8261f6d76b03051d534c7032",
+    "path": "TextPet/plugins/exe2-utf8.tbl",
+    "raw_url": "https://raw.githubusercontent.com/Prof9/TextPet/6c6d70561290b42d8261f6d76b03051d534c7032/TextPet/plugins/exe2-utf8.tbl",
+    "sha256": "4c7940617c285f21d4655011c9f6a5f4b9625de788be67a310593c378bf0885c",
+    "use_boundary": "The table decodes only glyph tokens. Entry boundaries and E8/EB E9 control boundaries come from the verified Rev 1 archive and renderer analysis."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "source_span": [5, 43],
+      "line_break_offsets": [12, 28],
+      "page_end_control_span": [43, 45],
+      "page_end_control_hex": "eb e9",
+      "lines": ["えっと・・・", "PETの STARTを おして", "サブがめんに 入ると・・・"]
+    },
+    {
+      "page": 2,
+      "source_span": [45, 81],
+      "line_break_offsets": [56, 74],
+      "page_end_control_span": [81, 83],
+      "page_end_control_hex": "eb e9",
+      "lines": ["Eメールを よんだり、", "チップフォルダの せいりを したり", "できるのよね"]
+    },
+    {
+      "page": 3,
+      "source_span": [83, 124],
+      "line_break_offsets": [96, 111],
+      "page_end_control_span": [124, 126],
+      "page_end_control_hex": "eb e9",
+      "lines": ["それと、Lボタンを おすと", "PETの 中にいる ナビと", "おはなし できるんだよね"]
+    },
+    {
+      "page": 4,
+      "source_span": [126, 150],
+      "line_break_offsets": [135],
+      "page_end_control_span": [150, 156],
+      "page_end_control_hex": "eb f2 00 0e 02 e7",
+      "lines": ["あたし、ドンだから", "すぐに わすれちゃうんだー"]
+    }
+  ],
+  "verification": {
+    "all_visible_bytes_decoded": true,
+    "glyph_prefixes_consumed_as_two_byte_tokens": ["e5"],
+    "line_break_control": "e8",
+    "intermediate_page_break_control": "eb e9",
+    "terminal_control_sequence_preserved_raw": "eb f2 00 0e 02 e7"
+  }
+}

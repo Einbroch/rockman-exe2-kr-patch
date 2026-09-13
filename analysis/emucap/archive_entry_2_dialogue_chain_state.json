@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "kind": "intervened_mgba_archive_replacement_redraw_state",
+  "input": {
+    "filename": "exe2_rev1_active_block_nine_entry_catalog_screened_poc.ss1",
+    "sha256": "370411af284c605b1e9d959f84368fabadc8156a1359fd5c579dc16f163ff4ce"
+  },
+  "base_rom": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "patched_rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_chain_draft_poc.gba",
+    "sha256": "b9ecb369532b386d62a1a6db32ddd3af7235284e1c6858124092008392d438dd"
+  },
+  "archive_manifest": {
+    "filename": "archive_00_09_dialogue_chain_draft_manifest.json",
+    "sha256": "74176e2099125fadcfae6ffef25e41fff082823de5b1b0a228cb7c26abd81b9e"
+  },
+  "translation": {
+    "filename": "archive_00_09_dialogue_draft.json",
+    "sha256": "cf7f34b82a018afeda0f9ba2a6bb52203a70db1ab7a5bc4fbbbab44692de04d0"
+  },
+  "intervention": {
+    "ewram_pool_address": "0x02038800",
+    "original_pool_sha256": "92852d9c874fe0d5293d0c47920f2b987ff1de9fef232fa24489b7700a670667",
+    "replacement_pool_sha256": "d0c7683cd423cea7773a145201ee891e30b5ab5a07c73a5c7282928f895ea9bc",
+    "replacement_pool_byte_length": 6139,
+    "pool_growth_byte_length": 67,
+    "overwritten_growth_region_was_zero": true,
+    "renderer_state_address": "0x02008730",
+    "entry_index": 2,
+    "replacement_page": 1,
+    "replacement_page_count": 1,
+    "replacement_page_relative_offset": 0,
+    "source_span": [
+      11,
+      20
+    ],
+    "observed_cursor_relative_offset": 20,
+    "current_pointer_before": "0x02038A9E",
+    "current_pointer_after": "0x02038A98",
+    "entry_start_before": "0x02038A8A",
+    "entry_start_after": "0x02038A8D",
+    "renderer_counters_before": {
+      "total_glyph_count": 7,
+      "current_line_glyph_count": 7,
+      "current_line_index": 0
+    },
+    "renderer_counters_after": {
+      "total_glyph_count": 0,
+      "current_line_glyph_count": 0,
+      "current_line_index": 0
+    }
+  },
+  "output": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_chain_entry_2.ss1",
+    "sha256": "b5ac3521772b94dcd9938cd248065ce8522405d05a068f189f29b6bd8e19cf9b"
+  },
+  "evidence_boundary": "This explicit state intervention tests a clean redraw of the declared replacement with the actual game renderer. It does not prove that normal gameplay reaches or loads this exact ROM build; that requires a separate normal-route runtime observation."
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "kind": "expanded_archive_runtime_dump_verification",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_yai_clean_poc.gba",
+    "sha256": "f79aeabe272d06c2842b07fb6e723d6b94cf15f5f47f161c4cde8b38643193af",
+    "byte_length": 16777216
+  },
+  "archive": {
+    "rom_offset": 8388608,
+    "gba_address": "0x08800000",
+    "compressed_byte_length": 4504,
+    "decompressed_byte_length": 6171,
+    "decompressed_sha256": "972ab6355b72cb9beddcca8a69c24711e99a8ace6941f844448bf3d547c14571",
+    "entry_count": 254,
+    "edited_entries": [
+      {
+        "entry_index": 0,
+        "start": 510,
+        "end": 539,
+        "byte_length": 29,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 13,
+        "replacement_sha256": "f7a70a77439bfaf248f4e4a9ff45f2b8487f7f5dc1b3243d2e01fb641eba4aad"
+      },
+      {
+        "entry_index": 1,
+        "start": 539,
+        "end": 679,
+        "byte_length": 140,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 128,
+        "replacement_sha256": "97569b784d314bf573dc58af61bf7c8e7de0df13e74213072bc5db09db5042ba"
+      },
+      {
+        "entry_index": 2,
+        "start": 679,
+        "end": 710,
+        "byte_length": 31,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 15,
+        "replacement_sha256": "becd86f8fa307015b177dfb8ecfbde4b1213746e62999ea2d7125962b74e4e67"
+      },
+      {
+        "entry_index": 3,
+        "start": 710,
+        "end": 742,
+        "byte_length": 32,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 22,
+        "replacement_sha256": "9c4c5caaeb13e589f8f1875abd59eda7e92f2790cb1abecb812f810f3094befd"
+      },
+      {
+        "entry_index": 4,
+        "start": 742,
+        "end": 782,
+        "byte_length": 40,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 33,
+        "replacement_sha256": "01cb7134830f550e3131f4afad118d2a4246636049ed13824a64f191710f2661"
+      },
+      {
+        "entry_index": 5,
+        "start": 782,
+        "end": 811,
+        "byte_length": 29,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 13,
+        "replacement_sha256": "e570f18aeb041edb4191a0b28516dc2e5a647d92e9015bf32b480a323992fa3a"
+      },
+      {
+        "entry_index": 13,
+        "start": 1464,
+        "end": 1660,
+        "byte_length": 196,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 185,
+        "replacement_sha256": "7a4465331a71104e85d54992e95da0aabc62e57d5daa833b5234dee35d9f9dd8"
+      }
+    ]
+  },
+  "runtime_dump": {
+    "filename": "ewram.bin",
+    "file_sha256": "a63e3b9cb0d7a1a5e70b9625241f4a16a4c7615621c6d887da23eda5a1252ee9",
+    "ewram_offset": 231424,
+    "loaded_byte_length": 6171,
+    "loaded_sha256": "972ab6355b72cb9beddcca8a69c24711e99a8ace6941f844448bf3d547c14571",
+    "differing_byte_count": 0
+  },
+  "passed": true
+}

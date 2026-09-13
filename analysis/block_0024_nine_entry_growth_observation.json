@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "kind": "runtime_observation_state_observed_block_nine_entry_growth_poc",
+  "poc_manifest_filename": "block_0024_nine_entry_growth_manifest.json",
+  "poc_manifest_sha256": "2e03231f998752400f523cd9dd83afcb416159eb334d3fde52aabefce3649ca3",
+  "frames": [
+    {"filename": "43.PNG", "sha256": "fe187d6d66372b059dc5e29fe7679ad860f63d3324c681af48eb8c3594843c58", "observation": "declared_inserted_marker_visible"},
+    {"filename": "44.PNG", "sha256": "be6f718310f4709c1f511289b0b3da4d4e1d8e878e2e17d4d4bb940892dc6d1f", "observation": "declared_inserted_marker_visible"},
+    {"filename": "45.PNG", "sha256": "37f7ee3e5436862f6a84c9cc1cdf37d122dc465eab7e5f81a2b444d322cb7243", "observation": "declared_inserted_marker_visible"},
+    {"filename": "46.PNG", "sha256": "8033ca16748c71dd4a90ce6336466a28d3ac84912fc2f39eef497dc3461bb7a2", "observation": "declared_inserted_marker_visible"},
+    {"filename": "47.PNG", "sha256": "c1508697479e8c9190108107bfe21d4ea604addce548ed9d24e44f7ff2ccd2e0", "observation": "declared_inserted_marker_visible"},
+    {"filename": "48.PNG", "sha256": "0fdf68fcd8e629da438d6987a6cee5dba2672e54c15cfbcbe86bf95c63ca110f", "observation": "declared_inserted_marker_visible"},
+    {"filename": "49.PNG", "sha256": "baad947cef9183d8b0d3f977a6c0cd46e61a35c3f562c88883a58e913b3a66f6", "observation": "declared_inserted_marker_visible"},
+    {"filename": "50.PNG", "sha256": "a34b47d4cb23fd60b0f542ddf2fe629fce2e7c57b62ab5035d48ded5f89eb001", "observation": "declared_inserted_marker_visible"},
+    {"filename": "51.PNG", "sha256": "527d7d512900ec1a64fd28df7ffd9058bfa3c9fcbedaaa767284ba8b9013a2a8", "observation": "final_declared_inserted_marker_visible"},
+    {"filename": "52.PNG", "sha256": "9ff3dd6993c1329ca3cabc8a571be324ae39634ded23dbe88af52e8c66e63a18", "observation": "following_dialogue_frame_normal_after_complete_sequence"}
+  ],
+  "conclusion": "The inspected sequence contains all nine declared markers and then progresses to a normal following dialogue frame. This completes runtime coverage for the declared entries in this state-observed relocated block.",
+  "limitations": [
+    "This remains evidence for one additional runtime-observed block only.",
+    "It does not establish global font-slot safety or bulk-script eligibility."
+  ]
+}

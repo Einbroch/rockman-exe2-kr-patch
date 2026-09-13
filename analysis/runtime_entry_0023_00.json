@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "runtime_entry": {
+    "id": "pc-jap-map-0023/entry-00",
+    "source_rom_offset": 7840430,
+    "source_rom_address": 142058158,
+    "entry_index": 0,
+    "source_entry_byte_length": 59,
+    "source_entry_sha256": "e6d121a664d2014393c1787af7e9fa8716bf285754dc97a9af1b3a396f2f2138"
+  },
+  "cross_language": {
+    "languages": {
+      "jap": {
+        "package_offset": 111168,
+        "block_byte_length": 525,
+        "entry_relative_start": 22,
+        "entry_byte_length": 81
+      },
+      "chs": {
+        "package_offset": 85213,
+        "block_byte_length": 501,
+        "entry_relative_start": 22,
+        "entry_byte_length": 65
+      },
+      "cht": {
+        "package_offset": 85880,
+        "block_byte_length": 493,
+        "entry_relative_start": 22,
+        "entry_byte_length": 75
+      },
+      "eng": {
+        "package_offset": 157852,
+        "block_byte_length": 671,
+        "entry_relative_start": 22,
+        "entry_byte_length": 101
+      }
+    },
+    "all_representations_common_prefix_byte_length": 12,
+    "common_prefix_hex": "ed0012ed0201fa18f900f100",
+    "first_language_specific_byte_offset": 12,
+    "interpretation": "The common prefix is preserved in the GBA source and every PC language package. It is a control-sequence candidate; its opcode meanings and argument widths still require confirmation from the GBA consumer."
+  },
+  "source_offset_table": {
+    "entry_count": 11,
+    "entry_relative_start": 22,
+    "next_entry_relative_start": 81
+  }
+}

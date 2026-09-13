@@ -1,0 +1,7 @@
+-----------------------------
+File: Battle Network Rockman EXE 2 (Japan) (Rev 1).gba
+Title: ROCKMAN_EXE2
+Game Code: AE2J
+Maker Code: 08
+Save type: SRAM
+-----------------------------

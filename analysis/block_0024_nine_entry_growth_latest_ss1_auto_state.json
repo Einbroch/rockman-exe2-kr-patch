@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "exe2_rev1_block_0024_nine_entry_growth_poc.ss1",
+    "byte_length": 52145,
+    "sha256": "3ec0b0880c269860a107791349fafae14217a4788a385819a1a4e5089f38509b"
+  },
+  "image": {
+    "width": 240,
+    "height": 160
+  },
+  "png_chunks": [
+    {
+      "file_offset": 8,
+      "type": "IHDR",
+      "data_bytes": 13
+    },
+    {
+      "file_offset": 33,
+      "type": "IDAT",
+      "data_bytes": 8192
+    },
+    {
+      "file_offset": 8237,
+      "type": "IDAT",
+      "data_bytes": 3108
+    },
+    {
+      "file_offset": 11357,
+      "type": "gbAs",
+      "data_bytes": 40661
+    },
+    {
+      "file_offset": 52030,
+      "type": "gbAx",
+      "data_bytes": 60
+    },
+    {
+      "file_offset": 52102,
+      "type": "gbAx",
+      "data_bytes": 19
+    },
+    {
+      "file_offset": 52133,
+      "type": "IEND",
+      "data_bytes": 0
+    }
+  ],
+  "state_payload_present": true,
+  "gba_state_payload": {
+    "compression": "zlib",
+    "uncompressed_bytes": 397312,
+    "sha256": "60a3c20e5608e4cd1e8f126defbc60479615085e01e569ebadf1a809f9e76094",
+    "raw_state_version_magic": 16777223,
+    "known_gba_memory_layout": "mGBA GBA raw-state layout",
+    "exact_candidate_block_matches_minimum_32_bytes": [],
+    "candidate_source_pointer_occurrences": [],
+    "candidate_subentry_pointer_occurrences": [],
+    "candidate_catalog_fragment_matches_minimum_32_bytes": [],
+    "automatic_catalog_fragment_matches": [
+      {
+        "id": "pc-jap-map-0067",
+        "source_relative_offset": 1592,
+        "matched_byte_length": 35,
+        "matched_fragment_sha256": "9a4d75586c135f079dbdb6cc809f026d4f7bde04e2dcc41fd554857b151a8264",
+        "state_payload_offset": 371471,
+        "state_memory_mapping": {
+          "region": "ewram",
+          "region_offset": 236303,
+          "emulated_address": 33790735
+        },
+        "table_entry_index": 17,
+        "fragment_is_wholly_within_declared_table_entry": true
+      },
+      {
+        "id": "pc-jap-map-0216",
+        "source_relative_offset": 640,
+        "matched_byte_length": 63,
+        "matched_fragment_sha256": "c7723fa1e0127975e49e62e753db53924c1bd84b8ac1ac08df78d09270f3d971",
+        "state_payload_offset": 135351,
+        "state_memory_mapping": {
+          "region": "ewram",
+          "region_offset": 183,
+          "emulated_address": 33554615
+        },
+        "table_entry_index": null,
+        "fragment_is_wholly_within_declared_table_entry": false
+      }
+    ],
+    "interpretation_notice": "A match proves only that candidate bytes occur in the serialized state payload. Adjacent words are recorded only as pointer-value context; they do not establish field names or renderer consumption. For a 0x61000-byte GBA raw state, memory addresses are mapped from mGBA's documented fixed regions; this identifies the emulated RAM location but not game-structure semantics.",
+    "cpu_snapshot": {
+      "gprs": {
+        "r0": 33592864,
+        "r1": 33579848,
+        "r2": 0,
+        "r3": 15,
+        "r4": 0,
+        "r5": 33592880,
+        "r6": 688,
+        "r7": 134218908,
+        "r8": 141190739,
+        "r9": 33589136,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134218413,
+        "r15": 134218582
+      },
+      "cpsr": 2147483711,
+      "thumb_state_bit_set": true,
+      "interpretation_notice": "This is the CPU register snapshot serialized by mGBA. The stored r15 value is reported without inferring an instruction boundary or pipeline adjustment."
+    }
+  }
+}

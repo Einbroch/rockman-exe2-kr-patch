@@ -1,0 +1,709 @@
+{
+  "dropped": 0,
+  "events": [
+    {
+      "address": 141168364,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 60,
+        "r3": 1,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 286331153
+    },
+    {
+      "address": 141168360,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 56,
+        "r3": 286331153,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 823202065
+    },
+    {
+      "address": 141168356,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 52,
+        "r3": 823202065,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307409
+    },
+    {
+      "address": 141168352,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 48,
+        "r3": 825307409,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307409
+    },
+    {
+      "address": 141168348,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 44,
+        "r3": 825307409,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307409
+    },
+    {
+      "address": 141168344,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 40,
+        "r3": 825307409,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307409
+    },
+    {
+      "address": 141168340,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 36,
+        "r3": 825307409,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307409
+    },
+    {
+      "address": 141168336,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 32,
+        "r3": 825307409,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307409
+    },
+    {
+      "address": 141168332,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 28,
+        "r3": 825307409,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 858861841
+    },
+    {
+      "address": 141168328,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 24,
+        "r3": 858861841,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307409
+    },
+    {
+      "address": 141168324,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 20,
+        "r3": 825307409,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307409
+    },
+    {
+      "address": 141168320,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 16,
+        "r3": 825307409,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307409
+    },
+    {
+      "address": 141168316,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 12,
+        "r3": 825307409,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307409
+    },
+    {
+      "address": 141168312,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 8,
+        "r3": 825307409,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 825307953
+    },
+    {
+      "address": 141168308,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 4,
+        "r3": 825307953,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 823202065
+    },
+    {
+      "address": 141168304,
+      "breakpoint_id": 1,
+      "frame": 3287,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": true
+        },
+        "pc": 134352294,
+        "r0": 141168304,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 0,
+        "r3": 823202065,
+        "r4": 33787847,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 620,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 231424,
+          "hex": "fe011b02a702c602e6020e032b038203",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 286331153
+    }
+  ]
+}

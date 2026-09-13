@@ -1,0 +1,16 @@
+{
+  "rom_sha256": "8d6ed5473404d2dcaf6056297324e86a47d88b4c999324eb40ab8a7a5e8ac11a",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "selector": "00/366",
+  "entry": 5,
+  "skip_prefix_bytes": 18,
+  "audio_enabled": false,
+  "exit_code": 0,
+  "scope": "exact decompressed ROM archive injected at 02038800; renderer entry at mugshotShow; natural map and prefix checks bypassed",
+  "evidence": {
+    "after_confirm.png": "849991f00db30d18f04a485742270d22e37716a98f7260c38020cbdfee27034c",
+    "first_page.png": "22dbeb6a20923a9d351554431576d367ebe73b04da8f3c6d30cde551d42600f2",
+    "probe.lua": "07ec368a0414f35e76138b7dd3ce4f804024eab811bc73d1367e5ac99eaa19a0",
+    "second_page.png": "7eeca79705c1a1f3dbe86c408a9c85bf031e68ef3512e58048df4dd6c4242895"
+  }
+}

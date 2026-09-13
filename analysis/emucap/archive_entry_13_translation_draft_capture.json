@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "kind": "mgba_state_frame_capture",
+  "emulator": {
+    "filename": "mgba-sdl.exe",
+    "version": "0.10.5",
+    "runtime_process_id": 30192
+  },
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_translation_draft_poc.gba",
+    "sha256": "8f626f1151b8344432dc3b95144b8c9e5dbd6d5de944758eb62b6153b2308720"
+  },
+  "state": {
+    "filename": "exe2_rev1_archive_00_09_translation_draft_poc.ss2",
+    "sha256": "8e132ad340ed7d9e2cf6525dacd7d23a79c7ceb7e27a6052115c6d263cd2069c"
+  },
+  "capture": {
+    "settle_seconds": 4.0,
+    "method": "desktop_client_fallback",
+    "client_pixels": [
+      240,
+      160
+    ],
+    "filename": "archive_entry_13_translation_draft_render.png",
+    "sha256": "0722588d26214dbb7b16fe45c1c2cb0c90cce237f03e31198aee3df4abd3db55"
+  },
+  "notice": "The capture inherits the intervention boundary documented by the supplied state."
+}

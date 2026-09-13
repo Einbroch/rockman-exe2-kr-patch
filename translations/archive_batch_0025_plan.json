@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "kind": "multi_archive_translation_batch_plan",
+  "batch_number": 25,
+  "batch_size": 100,
+  "archives": [
+    {"selector":"00/127","archive_offset":7787696,"tpl_path":"../analysis/archive_00_127_textpet_full.tpl","text_entry_start":17,"text_entry_count":51},
+    {"selector":"00/128","archive_offset":7791040,"tpl_path":"../analysis/archive_00_128_textpet_full.tpl","text_entry_start":0,"text_entry_count":47},
+    {"selector":"00/129","archive_offset":7793816,"tpl_path":"../analysis/archive_00_129_textpet_full.tpl","text_entry_start":0,"text_entry_count":2}
+  ]
+}

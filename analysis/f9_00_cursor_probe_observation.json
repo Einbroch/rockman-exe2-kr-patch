@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "kind": "runtime_control_crash_observation",
+  "input": {
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "probe_manifest": {
+    "filename": "f9_00_cursor_probe_manifest.json",
+    "sha256": "6ca780a009ef779d619b4e07fc86c6a9c3df4724b7941ef60ea211ee168263f8"
+  },
+  "observation": {
+    "opcode": 249,
+    "selector_value": 0,
+    "dialogue_progress_normal": false,
+    "runtime_outcome": "invalid_address_jump"
+  },
+  "policy_consequence": "Preserve the original F9:00 frame verbatim; do not create or modify F9 frames.",
+  "limitations": [
+    "The crash proves the probe frame is unsafe, not a complete F9 specification.",
+    "No screenshot or source stream data is stored in this report."
+  ]
+}

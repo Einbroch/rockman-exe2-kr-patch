@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "kind": "archive_00_09_translation_batch",
+  "entries": [
+    {
+      "entry_index": 190,
+      "source_context": "A classroom girl opens a request to locate her unusually adventurous younger cousin",
+      "source_text_transcription": "いらいをうけてくれるのは / 光くんだったの? / オドロキ!! // さっそくなんだけどね / アタシのイトコの おんなのコが / あそびにきてたんだけど、 // かってに どこかあそびに / 行っちゃったみたいなの // それで、シンパイだから / さがしてきてほしいの // ドンなアタシとちがって / そのコはすんごい こうどうりょくがあって // へいきで メトロラインにのって / どこかに、行ったりするの // ほおっておいたら / ドコ行くか わからないのよ // どこにいるかだけ わかったらいいから / みつけたら おしえてちょうだい // ヨロシクね",
+      "source_visible_text_span": [27, 296],
+      "source_pages": [
+        {"page": 1, "source_span": [27, 57], "transcription": ["いらいをうけてくれるのは", "光くんだったの?", "オドロキ!!"]},
+        {"page": 2, "source_span": [59, 99], "transcription": ["さっそくなんだけどね", "アタシのイトコの おんなのコが", "あそびにきてたんだけど、"]},
+        {"page": 3, "source_span": [101, 130], "transcription": ["かってに どこかあそびに", "行っちゃったみたいなの"]},
+        {"page": 4, "source_span": [132, 154], "transcription": ["それで、シンパイだから", "さがしてきてほしいの"]},
+        {"page": 5, "source_span": [156, 191], "transcription": ["ドンなアタシとちがって", "そのコはすんごい こうどうりょくがあって"]},
+        {"page": 6, "source_span": [193, 224], "transcription": ["へいきで メトロラインにのって", "どこかに、行ったりするの"]},
+        {"page": 7, "source_span": [226, 250], "transcription": ["ほおっておいたら", "ドコ行くか わからないのよ"]},
+        {"page": 8, "source_span": [252, 288], "transcription": ["どこにいるかだけ わかったらいいから", "みつけたら おしえてちょうだい"]},
+        {"page": 9, "source_span": [290, 295], "transcription": ["ヨロシクね"]}
+      ],
+      "draft_translation": "의뢰를 맡아 주는 건 / 히카리였어? / 놀랐어!! // 그런데 말이야 / 내 사촌 여자아이가 / 놀러 와 있었는데, // 제멋대로 어디론가 / 놀러 가 버린 것 같아 // 그래서 걱정되니까 / 찾아 줬으면 해 // 둔한 나와는 다르게 / 그 애는 행동력이 대단해 // 혼자 메트로라인을 타고 / 어딘가 가 버리기도 해 // 내버려 두면 / 어디로 갈지 모르겠어 // 어디 있는지만 알면 되니까 / 찾으면 알려 줘 // 부탁할게",
+      "proposed_pages": [
+        ["의뢰를 맡아 주는 건", "히카리였어?", "놀랐어!!"],
+        ["그런데 말이야", "내 사촌 여자아이가", "놀러 와 있었는데,"],
+        ["제멋대로 어디론가", "놀러 가 버린 것 같아"],
+        ["그래서 걱정되니까", "찾아 줬으면 해"],
+        ["둔한 나와는 다르게", "그 애는 행동력이 대단해"],
+        ["혼자 메트로라인을 타고", "어딘가 가 버리기도 해"],
+        ["내버려 두면", "어디로 갈지 모르겠어"],
+        ["어디 있는지만 알면 되니까", "찾으면 알려 줘"],
+        ["부탁할게"]
+      ],
+      "replacement_segments": [
+        {"hangul": "의뢰를"}, {"direct_hex": "00"}, {"hangul": "맡아"}, {"direct_hex": "00"}, {"hangul": "주는"}, {"direct_hex": "00"}, {"hangul": "건"}, {"control_hex": "e8"},
+        {"hangul": "히카리였어"}, {"direct_hex": "7c"}, {"control_hex": "e8"}, {"hangul": "놀랐어"}, {"direct_hex": "81 81"}, {"control_hex": "eb e9"},
+        {"hangul": "그런데"}, {"direct_hex": "00"}, {"hangul": "말이야"}, {"control_hex": "e8"}, {"hangul": "내"}, {"direct_hex": "00"}, {"hangul": "사촌"}, {"direct_hex": "00"}, {"hangul": "여자아이가"}, {"control_hex": "e8"}, {"hangul": "놀러"}, {"direct_hex": "00"}, {"hangul": "와"}, {"direct_hex": "00"}, {"hangul": "있었는데"}, {"direct_hex": "85"}, {"control_hex": "eb e9"},
+        {"hangul": "제멋대로"}, {"direct_hex": "00"}, {"hangul": "어디론가"}, {"control_hex": "e8"}, {"hangul": "놀러"}, {"direct_hex": "00"}, {"hangul": "가"}, {"direct_hex": "00"}, {"hangul": "버린"}, {"direct_hex": "00"}, {"hangul": "것"}, {"direct_hex": "00"}, {"hangul": "같아"}, {"control_hex": "eb e9"},
+        {"hangul": "그래서"}, {"direct_hex": "00"}, {"hangul": "걱정되니까"}, {"control_hex": "e8"}, {"hangul": "찾아"}, {"direct_hex": "00"}, {"hangul": "줬으면"}, {"direct_hex": "00"}, {"hangul": "해"}, {"control_hex": "eb e9"},
+        {"hangul": "둔한"}, {"direct_hex": "00"}, {"hangul": "나와는"}, {"direct_hex": "00"}, {"hangul": "다르게"}, {"control_hex": "e8"}, {"hangul": "그"}, {"direct_hex": "00"}, {"hangul": "애는"}, {"direct_hex": "00"}, {"hangul": "행동력이"}, {"direct_hex": "00"}, {"hangul": "대단해"}, {"control_hex": "eb e9"},
+        {"hangul": "혼자"}, {"direct_hex": "00"}, {"hangul": "메트로라인을"}, {"direct_hex": "00"}, {"hangul": "타고"}, {"control_hex": "e8"}, {"hangul": "어딘가"}, {"direct_hex": "00"}, {"hangul": "가"}, {"direct_hex": "00"}, {"hangul": "버리기도"}, {"direct_hex": "00"}, {"hangul": "해"}, {"control_hex": "eb e9"},
+        {"hangul": "내버려"}, {"direct_hex": "00"}, {"hangul": "두면"}, {"control_hex": "e8"}, {"hangul": "어디로"}, {"direct_hex": "00"}, {"hangul": "갈지"}, {"direct_hex": "00"}, {"hangul": "모르겠어"}, {"control_hex": "eb e9"},
+        {"hangul": "어디"}, {"direct_hex": "00"}, {"hangul": "있는지만"}, {"direct_hex": "00"}, {"hangul": "알면"}, {"direct_hex": "00"}, {"hangul": "되니까"}, {"control_hex": "e8"}, {"hangul": "찾으면"}, {"direct_hex": "00"}, {"hangul": "알려"}, {"direct_hex": "00"}, {"hangul": "줘"}, {"control_hex": "eb e9"},
+        {"hangul": "부탁할게"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "e8", "eb e9", "e8", "e8", "eb e9", "e8", "eb e9", "e8", "eb e9", "e8", "eb e9", "e8", "eb e9", "e8", "eb e9", "e8", "eb e9", "eb"],
+      "preserved_page_end_control_span": [296, 297],
+      "protected_prefix_controls": ["f3 00 83 0c c3 ff", "f3 00 8d 00 c0 ff", "f3 00 8c 00 bf ff", "f2 00 8c 00", "ed 00 09", "f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; the girl's conversational voice and the cousin's description require human review.", "All nine message pages, flag checks, flag set, portrait command, and page boundaries remain structurally protected."]
+    },
+    {
+      "entry_index": 191,
+      "source_context": "The classroom girl repeats the active request to locate her younger cousin",
+      "source_text_transcription": "え? いらいの かくにん? / うん いいよ // アタシのイトコの おんなのコが / どこか行っちゃったから / さがしてきてほしいの // ドンなアタシとちがって / そのコはすんごい こうどうりょくがあって // へいきで メトロラインにのって / どこかに、行ったりするの // ハァ~、そうとおくにいってるとは / おもわないけど・・・ // ドコいっちゃったんだろ",
+      "source_visible_text_span": [5, 186],
+      "source_pages": [
+        {"page": 1, "source_span": [5, 25], "transcription": ["え? いらいの かくにん?", "うん いいよ"]},
+        {"page": 2, "source_span": [27, 69], "transcription": ["アタシのイトコの おんなのコが", "どこか行っちゃったから", "さがしてきてほしいの"]},
+        {"page": 3, "source_span": [71, 106], "transcription": ["ドンなアタシとちがって", "そのコはすんごい こうどうりょくがあって"]},
+        {"page": 4, "source_span": [108, 139], "transcription": ["へいきで メトロラインにのって", "どこかに、行ったりするの"]},
+        {"page": 5, "source_span": [141, 169], "transcription": ["ハァ~、そうとおくにいってるとは", "おもわないけど・・・"]},
+        {"page": 6, "source_span": [171, 185], "transcription": ["ドコいっちゃったんだろ"]}
+      ],
+      "draft_translation": "응? 의뢰 내용 확인? / 그래, 좋아 // 내 사촌 여자아이가 / 어디론가 가 버렸으니까 / 찾아 줬으면 해 // 둔한 나와는 다르게 / 그 애는 행동력이 대단해 // 혼자 메트로라인을 타고 / 어딘가 가 버리기도 해 // 하아~ 그렇게 멀리 갔을 것 같진 / 않지만... // 어디로 간 걸까",
+      "proposed_pages": [
+        ["응? 의뢰 내용 확인?", "그래, 좋아"],
+        ["내 사촌 여자아이가", "어디론가 가 버렸으니까", "찾아 줬으면 해"],
+        ["둔한 나와는 다르게", "그 애는 행동력이 대단해"],
+        ["혼자 메트로라인을 타고", "어딘가 가 버리기도 해"],
+        ["하아~ 그렇게 멀리 갔을 것 같진", "않지만..."],
+        ["어디로 간 걸까"]
+      ],
+      "replacement_segments": [
+        {"hangul": "응"}, {"direct_hex": "7c 00"}, {"hangul": "의뢰"}, {"direct_hex": "00"}, {"hangul": "내용"}, {"direct_hex": "00"}, {"hangul": "확인"}, {"direct_hex": "7c"}, {"control_hex": "e8"}, {"hangul": "그래"}, {"direct_hex": "85 00"}, {"hangul": "좋아"}, {"control_hex": "eb e9"},
+        {"hangul": "내"}, {"direct_hex": "00"}, {"hangul": "사촌"}, {"direct_hex": "00"}, {"hangul": "여자아이가"}, {"control_hex": "e8"}, {"hangul": "어디론가"}, {"direct_hex": "00"}, {"hangul": "가"}, {"direct_hex": "00"}, {"hangul": "버렸으니까"}, {"control_hex": "e8"}, {"hangul": "찾아"}, {"direct_hex": "00"}, {"hangul": "줬으면"}, {"direct_hex": "00"}, {"hangul": "해"}, {"control_hex": "eb e9"},
+        {"hangul": "둔한"}, {"direct_hex": "00"}, {"hangul": "나와는"}, {"direct_hex": "00"}, {"hangul": "다르게"}, {"control_hex": "e8"}, {"hangul": "그"}, {"direct_hex": "00"}, {"hangul": "애는"}, {"direct_hex": "00"}, {"hangul": "행동력이"}, {"direct_hex": "00"}, {"hangul": "대단해"}, {"control_hex": "eb e9"},
+        {"hangul": "혼자"}, {"direct_hex": "00"}, {"hangul": "메트로라인을"}, {"direct_hex": "00"}, {"hangul": "타고"}, {"control_hex": "e8"}, {"hangul": "어딘가"}, {"direct_hex": "00"}, {"hangul": "가"}, {"direct_hex": "00"}, {"hangul": "버리기도"}, {"direct_hex": "00"}, {"hangul": "해"}, {"control_hex": "eb e9"},
+        {"hangul": "하아"}, {"direct_hex": "8c 00"}, {"hangul": "그렇게"}, {"direct_hex": "00"}, {"hangul": "멀리"}, {"direct_hex": "00"}, {"hangul": "갔을"}, {"direct_hex": "00"}, {"hangul": "것"}, {"direct_hex": "00"}, {"hangul": "같진"}, {"control_hex": "e8"}, {"hangul": "않지만"}, {"direct_hex": "88 88 88"}, {"control_hex": "eb e9"},
+        {"hangul": "어디로"}, {"direct_hex": "00"}, {"hangul": "간"}, {"direct_hex": "00"}, {"hangul": "걸까"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "eb e9", "e8", "e8", "eb e9", "e8", "eb e9", "e8", "eb e9", "e8", "eb e9", "eb"],
+      "preserved_page_end_control_span": [186, 187],
+      "protected_prefix_controls": ["ed 00 09", "f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; this request reminder should be checked for the girl's established voice.", "All six message pages and boundaries remain byte-order equivalent."]
+    },
+    {
+      "entry_index": 192,
+      "source_context": "The classroom girl confirms that her cousin was found in Marine Harbor and gives a reward",
+      "source_text_transcription": "え? マリンハーバーに いたの? / ひとりでメトロにのっていくなんて / すえおそろしい ムスメだわ // 光くん、アリガトね / それじゃ、コレおれいね",
+      "source_visible_text_span": [13, 88],
+      "source_pages": [
+        {"page": 1, "source_span": [13, 61], "transcription": ["え? マリンハーバーに いたの?", "ひとりでメトロにのっていくなんて", "すえおそろしい ムスメだわ"]},
+        {"page": 2, "source_span": [63, 86], "transcription": ["光くん、アリガトね", "それじゃ、コレおれいね"]}
+      ],
+      "draft_translation": "응? 마린하버에 있었어? / 혼자 메트로를 타고 가다니 / 앞날이 무서운 아이네 // 히카리, 고마워 / 그럼 이건 답례야",
+      "proposed_pages": [["응? 마린하버에 있었어?", "혼자 메트로를 타고 가다니", "앞날이 무서운 아이네"], ["히카리, 고마워", "그럼 이건 답례야"]],
+      "replacement_segments": [
+        {"hangul": "응"}, {"direct_hex": "7c 00"}, {"hangul": "마린하버에"}, {"direct_hex": "00"}, {"hangul": "있었어"}, {"direct_hex": "7c"}, {"control_hex": "e8"},
+        {"hangul": "혼자"}, {"direct_hex": "00"}, {"hangul": "메트로를"}, {"direct_hex": "00"}, {"hangul": "타고"}, {"direct_hex": "00"}, {"hangul": "가다니"}, {"control_hex": "e8"},
+        {"hangul": "앞날이"}, {"direct_hex": "00"}, {"hangul": "무서운"}, {"direct_hex": "00"}, {"hangul": "아이네"}, {"control_hex": "eb e9"},
+        {"hangul": "히카리"}, {"direct_hex": "85 00"}, {"hangul": "고마워"}, {"control_hex": "e8"}, {"hangul": "그럼"}, {"direct_hex": "00"}, {"hangul": "이건"}, {"direct_hex": "00"}, {"hangul": "답례야"}, {"control_hex": "eb e9"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "e8", "eb e9", "e8", "eb e9"],
+      "preserved_page_end_control_span": [88, 91],
+      "direct_jump_target_entry": 193,
+      "protected_prefix_controls": ["f2 00 83 0c", "f2 04 52 00", "ed 00 09", "f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; the humorous description of the cousin and the reward line require human review.", "The final clear-message byte is kept in the replacement span so the protected F5 jump to entry 193 remains terminal and byte-identical."]
+    },
+    {
+      "entry_index": 193,
+      "source_context": "System reward text gives regular-memory expansion program item 98 and reports a one-megabyte capacity increase",
+      "source_text_transcription": "熱斗は、 / きょうかプログラム「[printItem buffer=0 item=98]」 / を ゲットした!! // レギュラーメモリの ようりょうが、 / 1メガ ふえた!!",
+      "source_visible_text_span": [13, 82],
+      "source_pages": [
+        {"page": 1, "source_span": [13, 50], "transcription": ["熱斗は、", "きょうかプログラム「[printItem buffer=0 item=98]」", "を ゲットした!!"]},
+        {"page": 2, "source_span": [52, 80], "transcription": ["レギュラーメモリの ようりょうが、", "1メガ ふえた!!"]}
+      ],
+      "draft_translation": "넷토는 / 강화 프로그램 「[printItem buffer=0 item=98]」 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!",
+      "proposed_pages": [["넷토는", "강화 프로그램 「[아이템명]」", "획득했다!!"], ["레귤러 메모리 용량이", "1메가 늘었다!!"]],
+      "replacement_segments": [
+        {"hangul": "넷토는"}, {"control_hex": "e8"},
+        {"hangul": "강화"}, {"direct_hex": "00"}, {"hangul": "프로그램"}, {"direct_hex": "00 90"}, {"control_hex": "f9 00 62 00"}, {"direct_hex": "91"}, {"control_hex": "e8"},
+        {"hangul": "획득했다"}, {"direct_hex": "81 81"}, {"control_hex": "f8 0c f8 08"}, {"control_hex": "eb e9"},
+        {"hangul": "레귤러"}, {"direct_hex": "00"}, {"hangul": "메모리"}, {"direct_hex": "00"}, {"hangul": "용량이"}, {"control_hex": "e8"},
+        {"direct_hex": "02"}, {"hangul": "메가"}, {"direct_hex": "00"}, {"hangul": "늘었다"}, {"direct_hex": "81 81"}, {"control_hex": "eb e9"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "f9 00 62 00", "e8", "f8 0c", "f8 08", "eb e9", "e8", "eb e9"],
+      "preserved_page_end_control_span": [82, 85],
+      "direct_jump_target_entry": 194,
+      "protected_prefix_controls": ["ed 01", "f1 00", "f8 00", "f8 04 18", "f6 00 62 01"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; system terminology and the omission of a variable-dependent object particle require human review.", "The item name print command, player-finish and player-unlock commands, two page boundaries, and terminal F5 jump are preserved byte-exactly."]
+    },
+    {
+      "entry_index": 194,
+      "source_context": "The classroom girl praises Hikari after the reward message",
+      "source_text_transcription": "やっぱり、光くんは たよりになるのね",
+      "source_visible_text_span": [5, 26],
+      "source_pages": [{"page": 1, "source_span": [5, 25], "transcription": ["やっぱり、光くんは たよりになるのね"]}],
+      "draft_translation": "역시 히카리는 믿음직하네",
+      "proposed_pages": [["역시 히카리는 믿음직하네"]],
+      "replacement_segments": [{"hangul": "역시"}, {"direct_hex": "00"}, {"hangul": "히카리는"}, {"direct_hex": "00"}, {"hangul": "믿음직하네"}, {"control_hex": "eb"}],
+      "protected_control_hex_in_replacement_span": ["eb"],
+      "preserved_page_end_control_span": [26, 27],
+      "protected_prefix_controls": ["ed 00 09", "f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; Hikari's name styling and the girl's praise require human review."]
+    },
+    {
+      "entry_index": 195,
+      "source_context": "The classroom girl thanks Hikari after the request has already been completed",
+      "source_text_transcription": "アリガトね / さすが光くんだね!!",
+      "source_visible_text_span": [5, 23],
+      "source_pages": [{"page": 1, "source_span": [5, 22], "transcription": ["アリガトね", "さすが光くんだね!!"]}],
+      "draft_translation": "고마워 / 역시 히카리야!!",
+      "proposed_pages": [["고마워", "역시 히카리야!!"]],
+      "replacement_segments": [{"hangul": "고마워"}, {"control_hex": "e8"}, {"hangul": "역시"}, {"direct_hex": "00"}, {"hangul": "히카리야"}, {"direct_hex": "81 81"}, {"control_hex": "eb"}],
+      "protected_control_hex_in_replacement_span": ["e8", "eb"],
+      "preserved_page_end_control_span": [23, 24],
+      "protected_prefix_controls": ["ed 00 09", "f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; this short thank-you line requires human review for voice consistency."]
+    }
+  ],
+  "limitations_replace": {
+    "old": "Entries 22 through 90 add the classroom search hint, hidden-chip response, mail notification, Dex-to-MegaMan Official Square event chain, and surrounding classroom and evacuation dialogue; zero-length entries remain untouched and all drafted text requires human review.",
+    "new": "Entries 22 through 195 add the classroom search hint, hidden-chip response, mail notification, Dex-to-MegaMan Official Square event chain, and surrounding classroom, evacuation, and request dialogue; zero-length entries remain untouched and all drafted text requires human review."
+  }
+}

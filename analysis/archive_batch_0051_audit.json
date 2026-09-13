@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "kind": "static_multi_archive_translation_batch_audit",
+  "source_rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+  "inputs": {
+    "plan_sha256": "ab1a4e5383d554090bd919ff00706780758c19fa2f81867b5943b87b4d71755d",
+    "authored_translation_sha256": "6bdbc2345db2e61b19053de04236a38fd008be4571c9f8eddbe3491da9cf86d0",
+    "protected_batch_sha256": "056a80d7a4a0a245220a664faedf6675810089c7528b4c79bcb17dded28202ba",
+    "batch_builder_sha256": "8eed9da6385caa7af8bcaf6172368f02bc2624460619c23d01b1eaea8b1853f4"
+  },
+  "scope": {
+    "requested_text_bearing_entry_count": 100,
+    "actual_text_bearing_entry_count": 100,
+    "archive_entry_counts": {
+      "00/333": 8,
+      "00/334": 40,
+      "00/336": 52
+    },
+    "remaining_text_entries": {
+      "00/333": 0,
+      "00/334": 0,
+      "00/336": 50
+    }
+  },
+  "archives": [
+    {
+      "selector": "00/333",
+      "rom_offset": 7928632,
+      "storage": "raw",
+      "stored_byte_length": 1153,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "76edb71f1e253a63b1ae8696c55bf5b70001edbcbb80d195bff5ab0ea1c80e7f",
+      "tpl_sha256": "8e98a4d7ce392d8f30b8c9e24dff8f4590b78fb87095cf65516b129d98b23ff8",
+      "selected_text_entry_count": 8,
+      "last_selected_entry_index": 19,
+      "remaining_text_entries": 0,
+      "textpet_roundtrip_byte_identical": true
+    },
+    {
+      "selector": "00/334",
+      "rom_offset": 7929796,
+      "storage": "raw",
+      "stored_byte_length": 1742,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "13270f7f152475a750d786d15bbd3d89b8c0bc02495de7ae3a11175b80744388",
+      "tpl_sha256": "b4d7339336671eab075887ec1a6c211016c28b667fcf2bebe65f0caa1e9df419",
+      "selected_text_entry_count": 40,
+      "last_selected_entry_index": 39,
+      "remaining_text_entries": 0,
+      "textpet_roundtrip_byte_identical": true
+    },
+    {
+      "selector": "00/336",
+      "rom_offset": 7931860,
+      "storage": "raw",
+      "stored_byte_length": 4335,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "fdb72ab8991d32a4e9d0a760d5405c6ae17fb582cc3efb45bd0dc79e3c1fc51b",
+      "tpl_sha256": "169b4bddf2accadee5193bc55c7da1415040c8db522e330b83a0356bc22f77b2",
+      "selected_text_entry_count": 52,
+      "last_selected_entry_index": 51,
+      "remaining_text_entries": 50,
+      "textpet_roundtrip_byte_identical": true
+    }
+  ],
+  "checks": {
+    "plan_count_matches_100": true,
+    "authored_keys_match_planned_source_order": true,
+    "protected_keys_match_planned_source_order": true,
+    "authored_keys_are_unique": true,
+    "stable_ids_across_all_100_entry_batches_are_unique": true,
+    "all_source_archive_roundtrips_are_byte_identical": true,
+    "source_entry_lengths_match_rom_archives": true,
+    "source_entry_raw_hex_matches_rom_archives": true,
+    "source_entry_sha256_values_match_rom_archives": true,
+    "source_tpl_block_sha256_values_match_byte_preserving_tpl_decode": true,
+    "all_draft_translations_are_nonempty": true,
+    "japanese_kana_residual_check_passed": true,
+    "all_authored_control_tags_are_recognized": true,
+    "all_tracked_inline_source_commands_are_exactly_represented": true,
+    "deterministic_rebuild_is_byte_identical": true
+  },
+  "control_mismatches": [],
+  "font_repertoire_projection": {
+    "batch_distinct_hangul_syllables": 343,
+    "completed_100_entry_batch_count": 51,
+    "projected_combined_distinct_hangul_syllables": 1104,
+    "contextual_font_bank_capacity": 713,
+    "projected_remaining_capacity": -391,
+    "capacity_check_passed": false,
+    "overflow_distinct_hangul_syllables": 391
+  },
+  "state": {
+    "translation_review": "machine_draft_needs_human_review",
+    "rom_reinsertion": "blocked_by_contextual_font_bank_capacity",
+    "emulator_test": "deferred_by_user_request",
+    "release_or_rom_build_eligible": false
+  },
+  "protected_translation_structure_passed": true,
+  "build_capacity_passed": false,
+  "passed": false
+}

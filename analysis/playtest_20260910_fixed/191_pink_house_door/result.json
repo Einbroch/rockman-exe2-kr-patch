@@ -1,0 +1,52 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba",
+  "rom_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-9s632y_2\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba"
+  ],
+  "input_checkpoint": "analysis\\playtest_20260910_fixed\\190_pink_house_north\\checkpoint.mss",
+  "timeline": [
+    {
+      "start": 0,
+      "release": 180,
+      "end": 200,
+      "keys": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "start": 200,
+      "release": 206,
+      "end": 386,
+      "keys": [
+        "a"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "d7176e8c9058e62d883e5b8c00412cf7e144b406ede43fbf680d50945d44c6de",
+    "complete.txt": "15a26c6fa5151c712acc7ee45a1fd525ab85b801f096847c7d5fdf49efeabb4d",
+    "input.mss": "9b2294a85d578bc8535bc0dff3564ddaa90ec1c4b8f0f4ef7c6d111768bb8c54",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "segment.lua": "4207c0083e432834936fe9e2750cf5b01972db438fc8217c877d8c2fdcc295de",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "be472896ed7c610e3225978476004ab3d6dcc771903663aef8e6e73539308310",
+    "step_001.json": "6e0a0965be6365d8e3794369e45d87da9e0f3f8d252c0738117ed202451bb596",
+    "step_001.png": "970fcaf3d661891cb3a489b81915896099408ce95bf35d9b1cdc6159b0c3d3a7",
+    "step_002.json": "405d988ebf3b8263ead09930451d712f5a3596eeb8603bfbbb41e4f7d650acf7",
+    "step_002.png": "970fcaf3d661891cb3a489b81915896099408ce95bf35d9b1cdc6159b0c3d3a7"
+  }
+}

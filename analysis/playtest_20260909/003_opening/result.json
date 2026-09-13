@@ -1,0 +1,41 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260909\\EXE2_KR_playtest_20260909.gba",
+  "rom_sha256": "8d6ed5473404d2dcaf6056297324e86a47d88b4c999324eb40ab8a7a5e8ac11a",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-aken91pq\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260909\\EXE2_KR_playtest_20260909.gba"
+  ],
+  "input_checkpoint": "analysis\\playtest_20260909\\002_title\\checkpoint.mss",
+  "timeline": [
+    {
+      "start": 0,
+      "release": 2,
+      "end": 242,
+      "keys": [
+        "a"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "c3749dd2f72d250189ae50881280c5a54f4ff2279ba4ba15e07074e682cb1933",
+    "complete.txt": "14063697603e22d600d336bee6cff12c8be93509ce84a0642918d89b2aef1753",
+    "input.mss": "d8b53ac57077047eca88329101b2f928800def2f154ed498cd7c3af974f38c4e",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "segment.lua": "0a197994e1cbfd2f2a9e13a9e9fc28ee39d79bef99950cebb7e53aba1236aecf",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "7e159e53d770ee165720f736a2a4cd5ec36416a085845139a33b2cbfeabe32e6",
+    "step_001.json": "b3699369bc80eb892e9a9d1c1d3c474023b594c0a688bd3122654cc56638111a",
+    "step_001.png": "a1e4a4d4a099cb4b0d8269604b965fdf72ea5f199bbfd5bc0632d0f5668c85f1"
+  }
+}

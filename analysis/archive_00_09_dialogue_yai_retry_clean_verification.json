@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "independent_archive_translation_draft_build_verification",
+  "original": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_yai_retry_clean_poc.gba",
+    "sha256": "e29e2890b48c5f0e008214b8026715e30dbb5eb28caa31595fe0490fae77ac59",
+    "byte_length": 16777216
+  },
+  "archive_manifest": {
+    "filename": "archive_00_09_dialogue_yai_retry_clean_manifest.json",
+    "sha256": "d5117251608430d44d1bf299ccd626963ae492b7b6b801ecb1ec2f77a97b5ea0"
+  },
+  "verification": {
+    "original_compressed_slot_preserved": true,
+    "all_untranslated_entries_byte_identical": true,
+    "translated_entries_match_structured_segments": true,
+    "rebuilt_table_matches_independent_offsets": true,
+    "required_font_records_match_rasterized_glyphs": true,
+    "required_hangul_glyph_count": 103,
+    "gba_header_complement_checksum_valid": true,
+    "relocated_stream_consumed_byte_length": 4520,
+    "expanded_tail_outside_archive_is_ff": true,
+    "entry_count": 254
+  },
+  "passed": true
+}

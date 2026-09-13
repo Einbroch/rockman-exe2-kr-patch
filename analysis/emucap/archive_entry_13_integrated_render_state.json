@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "kind": "intervened_mgba_archive_render_state",
+  "input": {
+    "filename": "exe2_rev1_active_block_nine_entry_catalog_screened_poc.ss2",
+    "sha256": "1e690282a79a084e29812ed6e7840cff21f624d68b80a2643b6e81a8920f8187"
+  },
+  "base_rom": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "patched_rom": {
+    "filename": "exe2_rev1_integrated_korean_poc.gba",
+    "sha256": "25a41bfb0c6aabd3c2bd30c07c06f157b3d77dc0a1ab5fed3f9867b309357509"
+  },
+  "intervention": {
+    "ewram_pool_address": "0x02038800",
+    "original_pool_sha256": "92852d9c874fe0d5293d0c47920f2b987ff1de9fef232fa24489b7700a670667",
+    "replacement_pool_sha256": "92ec323060e496f7f6e8aaffd1665d1e6cd024b9cf526f7cdff3496d22d2692e",
+    "replacement_pool_byte_length": 6084,
+    "renderer_state_address": "0x02008730",
+    "entry_index": 13,
+    "insertion_relative_offset": 43,
+    "current_pointer_before": "0x02038DA8",
+    "current_pointer_after": "0x02038DAE",
+    "entry_start_before": "0x02038D7D",
+    "entry_start_after": "0x02038D83"
+  },
+  "output": {
+    "filename": "archive_entry_13_integrated_render.ss2",
+    "sha256": "4deefc6c485d93d9054631419b6efda17295983feb9d4ff6f74a0fcce7a6859e"
+  },
+  "evidence_boundary": "This state intervention tests renderer consumption from the exact patched archive bytes at an already observed insertion boundary. It does not replace the separate proof that normal gameplay loads the relocated archive from ROM."
+}

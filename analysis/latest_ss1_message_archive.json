@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "kind": "state_selected_lz77_message_archive",
+  "input": {
+    "filename": "exe2_rev1_active_block_nine_entry_catalog_screened_poc.ss1",
+    "sha256": "370411af284c605b1e9d959f84368fabadc8156a1359fd5c579dc16f163ff4ce"
+  },
+  "state_payload": {
+    "sha256": "af9e1b6da0cc9e10b337528ca979f0c8205edad890f25bd830f7bb2841b51914",
+    "byte_length": 397312
+  },
+  "rom": {
+    "filename": "exe2_rev1_active_block_nine_entry_catalog_screened_poc.gba",
+    "sha256": "6fbf895d2ce778e061e89b95aa092204b110162b2dc0854ea82e613a2a014b86"
+  },
+  "selector": {
+    "major": 0,
+    "minor": 9,
+    "tertiary": 0,
+    "route": "primary"
+  },
+  "archive": {
+    "source_rom_offset": 7644292,
+    "source_rom_address": 141862020,
+    "compressed_byte_length": 4363,
+    "compressed_sha256": "31b4ac30e4a4be6828529ebbccc6b30d7cffd9966f859c3b31a31f33873a7096",
+    "decompressed_byte_length": 6072,
+    "decompressed_sha256": "92852d9c874fe0d5293d0c47920f2b987ff1de9fef232fa24489b7700a670667"
+  },
+  "observed_pool": {
+    "ewram_address": 33785856,
+    "byte_length": 6072,
+    "sha256": "92852d9c874fe0d5293d0c47920f2b987ff1de9fef232fa24489b7700a670667",
+    "exactly_matches_decompressed_archive": true,
+    "differing_byte_count": 0,
+    "first_differing_relative_offsets": []
+  },
+  "interpretation_notice": "An exact match proves that the saved EWRAM message pool is the BIOS-LZ77 output of the selected ROM archive. It does not by itself identify every entry's on-screen context or authorize growth beyond the compressed source range."
+}

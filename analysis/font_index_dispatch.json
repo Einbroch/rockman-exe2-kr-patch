@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "font_indexer_rom_offset": 134532,
+  "dispatch": {
+    "stream_pointer_load_rom_offset": 134252,
+    "current_byte_load_rom_offset": 134254,
+    "control_jump_table": {
+      "threshold_immediate": 231,
+      "comparison_rom_offset": 134256,
+      "index_subtract_rom_offset": 134262,
+      "index_scale_shift": 2,
+      "indirect_branch_rom_offset": 134272
+    },
+    "comparison_immediates": [
+      229,
+      230
+    ],
+    "default_path": {
+      "indexer_call_rom_offset": 134318,
+      "indexer_target_rom_offset": 134532,
+      "r4_advance_immediate": 1
+    },
+    "e5_extension": {
+      "next_byte_load_rom_offset": 134332,
+      "index_add_immediate": 229,
+      "indexer_call_rom_offset": 134336,
+      "indexer_target_rom_offset": 134532,
+      "r4_advance_immediate": 2
+    },
+    "e6_extension": {
+      "next_byte_load_rom_offset": 134350,
+      "index_add_immediates": [
+        230,
+        255
+      ],
+      "indexer_call_rom_offset": 134356,
+      "indexer_target_rom_offset": 134532,
+      "r4_advance_immediate": 2
+    }
+  },
+  "interpretation_notice": "This is a static Thumb-path observation. It shows three paths converge at the font indexer, but does not by itself prove r4 is the active message cursor, classify every opcode, or authorize editing."
+}

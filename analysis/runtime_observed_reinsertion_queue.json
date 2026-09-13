@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "kind": "runtime_observed_direct_literal_reinsertion_queue",
+  "catalog": {
+    "filename": "rev1_message_block_catalog.json",
+    "sha256": "860771a9029bbc73042e0ad02b6aecd473d6af2bf3890f5efd43628af7310a89"
+  },
+  "literal_audit": {
+    "filename": "catalog_block_literal_consumer_audit.json",
+    "sha256": "eb00b35805aad5612d7d19353393c8047c0e45d5988d37602b1bbf64cb2f8fe5"
+  },
+  "criteria": {
+    "required": [
+      "runtime state start-pointer occurrence",
+      "direct PC-relative literal consumer"
+    ],
+    "excluded_ids": [
+      "pc-jap-map-0023",
+      "pc-jap-map-0024",
+      "pc-jap-map-0067"
+    ],
+    "not_proven_by_queue": [
+      "specific state file availability",
+      "entry boundary suitability",
+      "relocation padding",
+      "font-slot safety",
+      "runtime rendering"
+    ]
+  },
+  "summary": {
+    "candidate_count": 0,
+    "rejected": {
+      "no_runtime_pointer": 426,
+      "no_direct_literal_consumer": 0,
+      "excluded": 1
+    }
+  },
+  "candidates": []
+}

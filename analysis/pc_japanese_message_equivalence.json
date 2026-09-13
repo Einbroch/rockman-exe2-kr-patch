@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "archive_filename": "exe2j.dat",
+    "archive_sha256": "47756a72a1e793b6b02e07cc16404ff4b2e6ca5ff4bc554edff2c38e6cc3debc",
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "map": {
+    "member": "exe2j/data/msg/message_jap.map",
+    "package_member": "exe2j/data/msg/message_jap.mpak",
+    "declared_record_count": 427,
+    "declared_source_cpu_range": [
+      141726160,
+      142549104
+    ],
+    "valid_record_count": 427,
+    "invalid_record_count": 0,
+    "package_byte_length": 904895,
+    "record_byte_equivalence": {
+      "different": 424,
+      "equal": 3
+    }
+  },
+  "active_entry_probe": {
+    "source_rom_offset": 7840430,
+    "source_byte_length": 59,
+    "source_sha256": "e6d121a664d2014393c1787af7e9fa8716bf285754dc97a9af1b3a396f2f2138",
+    "fully_covered_by_records": [
+      {
+        "record_index": 23,
+        "source_rom_offset": 7840408,
+        "source_byte_length": 525
+      },
+      {
+        "record_index": 419,
+        "source_rom_offset": 7837404,
+        "source_byte_length": 6169
+      },
+      {
+        "record_index": 420,
+        "source_rom_offset": 7840236,
+        "source_byte_length": 637
+      }
+    ],
+    "overlapping_records": [
+      {
+        "record_index": 23,
+        "source_rom_offset": 7840408,
+        "source_byte_length": 525
+      },
+      {
+        "record_index": 419,
+        "source_rom_offset": 7837404,
+        "source_byte_length": 6169
+      },
+      {
+        "record_index": 420,
+        "source_rom_offset": 7840236,
+        "source_byte_length": 637
+      }
+    ]
+  },
+  "interpretation_notice": "Equality establishes that a PC Japanese package record reproduces the corresponding bytes in this Rev 1 ROM. It does not decode text, assign control semantics, authorize insertion, or transfer PC assets into the GBA project."
+}

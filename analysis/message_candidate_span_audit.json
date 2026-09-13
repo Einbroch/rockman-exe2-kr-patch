@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "workspace_filename": "rev1_message_candidates.json",
+    "workspace_sha256": "bed12cd291cd593b2efc809a0fe190d2c94efa24bd7003dad5876a89adf13803"
+  },
+  "validation": {
+    "entry_source_hash_validation": "passed",
+    "entry_range_validation": "passed"
+  },
+  "candidate_entries": {
+    "total": 10360,
+    "status_counts": {
+      "blocked_control_spec": 10360
+    },
+    "unique_exact_source_spans": 5928,
+    "duplicate_entry_count": 4432,
+    "duplicate_group_size_counts": {
+      "2": 63,
+      "3": 68,
+      "4": 51,
+      "5": 23,
+      "6": 19,
+      "7": 27,
+      "8": 11,
+      "9": 11,
+      "10": 26,
+      "11": 3,
+      "12": 3,
+      "13": 12,
+      "15": 8,
+      "16": 1,
+      "17": 6,
+      "18": 4,
+      "19": 1,
+      "20": 3,
+      "23": 1,
+      "30": 1,
+      "33": 1,
+      "34": 1,
+      "35": 3,
+      "40": 1,
+      "45": 1,
+      "50": 1,
+      "60": 1,
+      "70": 1,
+      "71": 1,
+      "80": 1,
+      "130": 1,
+      "140": 1,
+      "150": 3,
+      "165": 1,
+      "179": 1,
+      "180": 2,
+      "240": 3
+    }
+  },
+  "distinct_span_overlap": {
+    "unique_spans_with_any_overlap": 1742,
+    "relationship_pair_counts": {
+      "contained": 1458,
+      "partial": 223
+    },
+    "interpretation": "Overlap counts concern distinct exact source spans only. Exact duplicate workspace entries are counted separately."
+  },
+  "policy": {
+    "translation_deduplication": "Translate only a canonical exact source span after control semantics and runtime reachability are verified.",
+    "partial_or_containment_overlap": "Do not independently translate intersecting spans; retain blocked status until a canonical GBA boundary is proven."
+  }
+}

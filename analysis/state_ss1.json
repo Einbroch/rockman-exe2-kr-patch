@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "byte_length": 42704,
+    "sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914"
+  },
+  "image": {
+    "width": 240,
+    "height": 160
+  },
+  "png_chunks": [
+    {
+      "file_offset": 8,
+      "type": "IHDR",
+      "data_bytes": 13
+    },
+    {
+      "file_offset": 33,
+      "type": "IDAT",
+      "data_bytes": 1416
+    },
+    {
+      "file_offset": 1461,
+      "type": "gbAs",
+      "data_bytes": 41116
+    },
+    {
+      "file_offset": 42589,
+      "type": "gbAx",
+      "data_bytes": 60
+    },
+    {
+      "file_offset": 42661,
+      "type": "gbAx",
+      "data_bytes": 19
+    },
+    {
+      "file_offset": 42692,
+      "type": "IEND",
+      "data_bytes": 0
+    }
+  ],
+  "state_payload_present": true,
+  "gba_state_payload": {
+    "compression": "zlib",
+    "uncompressed_bytes": 397312,
+    "sha256": "3468aba9293d00805b7a895fed4c4c440bc84dfaf87bac99fb79897171feeaf8",
+    "raw_state_version_magic": 16777223,
+    "known_gba_memory_layout": "mGBA GBA raw-state layout",
+    "exact_candidate_block_matches_minimum_32_bytes": [],
+    "candidate_source_pointer_occurrences": [
+      {
+        "id": "pc-jap-map-0023",
+        "source_pointer_le_occurrence_count": 1,
+        "state_payload_offsets": [
+          169816
+        ]
+      }
+    ],
+    "candidate_subentry_pointer_occurrences": [
+      {
+        "id": "pc-jap-map-0023/entry-00",
+        "source_pointer_le_occurrence_count": 1,
+        "state_payload_offsets": [
+          169820
+        ],
+        "pointer_neighborhood_words": [
+          [
+            {
+              "state_payload_offset": 169816,
+              "little_endian_u32": 142058136,
+              "state_memory_mapping": {
+                "region": "ewram",
+                "region_offset": 34648,
+                "emulated_address": 33589080
+              }
+            },
+            {
+              "state_payload_offset": 169820,
+              "little_endian_u32": 142058158,
+              "state_memory_mapping": {
+                "region": "ewram",
+                "region_offset": 34652,
+                "emulated_address": 33589084
+              }
+            },
+            {
+              "state_payload_offset": 169824,
+              "little_endian_u32": 33595824,
+              "state_memory_mapping": {
+                "region": "ewram",
+                "region_offset": 34656,
+                "emulated_address": 33589088
+              }
+            },
+            {
+              "state_payload_offset": 169828,
+              "little_endian_u32": 0,
+              "state_memory_mapping": {
+                "region": "ewram",
+                "region_offset": 34660,
+                "emulated_address": 33589092
+              }
+            },
+            {
+              "state_payload_offset": 169832,
+              "little_endian_u32": 0,
+              "state_memory_mapping": {
+                "region": "ewram",
+                "region_offset": 34664,
+                "emulated_address": 33589096
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "interpretation_notice": "A match proves only that candidate bytes occur in the serialized state payload. Adjacent words are recorded only as pointer-value context; they do not establish field names or renderer consumption. For a 0x61000-byte GBA raw state, memory addresses are mapped from mGBA's documented fixed regions; this identifies the emulated RAM location but not game-structure semantics.",
+    "cpu_snapshot": {
+      "gprs": {
+        "r0": 97,
+        "r1": 4294967254,
+        "r2": 181,
+        "r3": 135380865,
+        "r4": 10568712,
+        "r5": 2197836544,
+        "r6": 84148743,
+        "r7": 33620995,
+        "r8": 64,
+        "r9": 66,
+        "r10": 131072,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363812,
+        "r14": 6075024,
+        "r15": 50356264
+      },
+      "cpsr": 2415919135,
+      "thumb_state_bit_set": false,
+      "interpretation_notice": "This is the CPU register snapshot serialized by mGBA. The stored r15 value is reported without inferring an instruction boundary or pipeline adjustment."
+    },
+    "stored_r15_iwram_code_candidate": {
+      "iwram_address": 50356264,
+      "state_payload_offset": 127016,
+      "sample_byte_length": 32,
+      "sample_sha256": "7a720d7aee86d240d24a4d42a001ce024ddf45d55bcab1a260d39847e953cfb4",
+      "exact_rom_origin_offsets": [
+        944244
+      ],
+      "interpretation_notice": "An exact match means only that this IWRAM byte window also occurs in ROM. It does not establish copy direction, function identity, or current instruction boundary."
+    }
+  }
+}

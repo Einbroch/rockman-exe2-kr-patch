@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "kind": "expanded_archive_runtime_dump_verification",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_yai_retry_clean_poc.gba",
+    "sha256": "e29e2890b48c5f0e008214b8026715e30dbb5eb28caa31595fe0490fae77ac59",
+    "byte_length": 16777216
+  },
+  "archive": {
+    "rom_offset": 8388608,
+    "gba_address": "0x08800000",
+    "compressed_byte_length": 4520,
+    "decompressed_byte_length": 6195,
+    "decompressed_sha256": "7a3d0bd60eac7ff8c2f727eec988894d5137a1482f67318af33ac4f64043573a",
+    "entry_count": 254,
+    "edited_entries": [
+      {
+        "entry_index": 0,
+        "start": 510,
+        "end": 539,
+        "byte_length": 29,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 13,
+        "replacement_sha256": "f7a70a77439bfaf248f4e4a9ff45f2b8487f7f5dc1b3243d2e01fb641eba4aad"
+      },
+      {
+        "entry_index": 1,
+        "start": 539,
+        "end": 679,
+        "byte_length": 140,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 128,
+        "replacement_sha256": "97569b784d314bf573dc58af61bf7c8e7de0df13e74213072bc5db09db5042ba"
+      },
+      {
+        "entry_index": 2,
+        "start": 679,
+        "end": 710,
+        "byte_length": 31,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 15,
+        "replacement_sha256": "becd86f8fa307015b177dfb8ecfbde4b1213746e62999ea2d7125962b74e4e67"
+      },
+      {
+        "entry_index": 3,
+        "start": 710,
+        "end": 742,
+        "byte_length": 32,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 22,
+        "replacement_sha256": "9c4c5caaeb13e589f8f1875abd59eda7e92f2790cb1abecb812f810f3094befd"
+      },
+      {
+        "entry_index": 4,
+        "start": 742,
+        "end": 782,
+        "byte_length": 40,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 33,
+        "replacement_sha256": "01cb7134830f550e3131f4afad118d2a4246636049ed13824a64f191710f2661"
+      },
+      {
+        "entry_index": 5,
+        "start": 782,
+        "end": 811,
+        "byte_length": 29,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 13,
+        "replacement_sha256": "e570f18aeb041edb4191a0b28516dc2e5a647d92e9015bf32b480a323992fa3a"
+      },
+      {
+        "entry_index": 6,
+        "start": 811,
+        "end": 898,
+        "byte_length": 87,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 81,
+        "replacement_sha256": "cd12c9b4f0f915cc8f2604e4846885e29e8385b19c6c81bb6973619077bf0c1b"
+      },
+      {
+        "entry_index": 7,
+        "start": 898,
+        "end": 957,
+        "byte_length": 59,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 53,
+        "replacement_sha256": "9bf413c351acd9673f2ade48fce811bd3b75b708c9c9fe5f98e9d9e01c03a551"
+      },
+      {
+        "entry_index": 13,
+        "start": 1488,
+        "end": 1684,
+        "byte_length": 196,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 185,
+        "replacement_sha256": "7a4465331a71104e85d54992e95da0aabc62e57d5daa833b5234dee35d9f9dd8"
+      }
+    ]
+  },
+  "runtime_dump": {
+    "directory": "yai_retry_intervened_archive_dump",
+    "filename": "ewram.bin",
+    "file_sha256": "ca950eda5c003c3289a16d8fb71892a5195fce842df49777993c96153e00fa96",
+    "ewram_offset": 231424,
+    "loaded_byte_length": 6195,
+    "loaded_sha256": "7a3d0bd60eac7ff8c2f727eec988894d5137a1482f67318af33ac4f64043573a",
+    "differing_byte_count": 0
+  },
+  "passed": true
+}

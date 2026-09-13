@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "kind": "fresh_boot_natural_route_archive_entry_6_choice_progression",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_yai_choice_clean_poc.gba",
+    "sha256": "93cd24555d06618bb536823eba30f7b700cbfc48a5622b6049b107ae122e7fb8"
+  },
+  "route": [
+    "fresh boot",
+    "PRESS START",
+    "はじめから",
+    "advance the opening dialogue",
+    "manual classroom movement",
+    "talk to Yaito"
+  ],
+  "new_game_regression_checkpoint": {
+    "candidate_filename": "yai_choice_progress_01.png",
+    "candidate_sha256": "9b1b4c86b82199f87ba4fb27b47df4eac1bfada4734ab337dad9c1ae8574f313",
+    "reference_filename": "yai_clean_newgame_01.png",
+    "reference_sha256": "0a8440bb5c59249c784ffa270764d2723302b135eeefb747b4a62587f7139803",
+    "dimensions": [240, 160],
+    "differing_pixels": 0
+  },
+  "entry_6_breakpoint": {
+    "frame": 6907,
+    "kind": "read",
+    "memory_type": "gbaExtWorkRam",
+    "memory_offset": 232240,
+    "emulated_address": 33786672,
+    "pc": 134351986,
+    "snapshot_start_offset": 232235,
+    "snapshot_byte_length": 87,
+    "snapshot_sha256": "2512b063b7b7ddb23cdc4780a0810b62d66589eb9dbb5d97c8bfc822fc904d8b",
+    "snapshot_contains_complete_rebuilt_entry_6": true
+  },
+  "screenshots": [
+    {
+      "stage": "entry_5_preserved_predecessor",
+      "filename": "yai_choice_entry5_natural.png",
+      "sha256": "6e7c7b835db9ffd49c506f788e15215a27cca6b3b7f11cedca338850bc9d4ec6"
+    },
+    {
+      "stage": "entry_6_page_1",
+      "filename": "yai_choice_entry6_page1_natural.png",
+      "sha256": "8085cbac56f698adab6ebe5effbf0e17f8fc0878ebcb641603e16788bd41d93b"
+    },
+    {
+      "stage": "entry_6_translated_choice",
+      "filename": "yai_choice_entry6_choice_natural.png",
+      "sha256": "ee52a8102c4ae685317b7309a40815481c8518ea1b3d482003ef343d2de98707"
+    },
+    {
+      "stage": "entry_6_no_option_selected",
+      "filename": "yai_choice_entry6_no_selected.png",
+      "sha256": "2a71b988c5173ff4ef52ec14ab83a8d0f8a1c55bcc74c54b043b9ff8144dc9a9"
+    },
+    {
+      "stage": "yes_branch_entry_8",
+      "filename": "yai_choice_entry6_yes_branch_entry8.png",
+      "sha256": "c34f5218737433f10d441684cfc720070a92eb3a2e5280ced623467a3bf665b5"
+    },
+    {
+      "stage": "no_branch_entry_7",
+      "filename": "yai_choice_entry6_no_branch_entry7.png",
+      "sha256": "56edc22a2d58779e96680e3b05045e0f07859ef74046e36ebbd0dfdbfdede40c"
+    },
+    {
+      "stage": "b_continue_path",
+      "filename": "yai_choice_entry6_b_continue.png",
+      "sha256": "b3ddd9fc0aaff009b548bdb87af3c5c26ffc236d92e728f973d83de877c99f52"
+    }
+  ],
+  "verification": {
+    "entry_5_rendered": true,
+    "entry_6_both_pages_rendered": true,
+    "translated_choice_rendered": true,
+    "choice_cursor_moved": true,
+    "default_option_reached_entry_8": true,
+    "alternate_option_reached_entry_7": true,
+    "b_continuation_progressed": true,
+    "clipping_observed": false,
+    "overlap_observed": false,
+    "ghosting_observed": false,
+    "progression_stall_observed": false
+  },
+  "passed": true
+}

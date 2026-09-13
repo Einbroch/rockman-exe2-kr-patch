@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "input": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "workspace_filename": "rev1_message_candidates.json",
+    "workspace_sha256": "bed12cd291cd593b2efc809a0fe190d2c94efa24bd7003dad5876a89adf13803"
+  },
+  "scope": {
+    "verified_candidate_block_count": 242,
+    "unique_covered_range_count": 11,
+    "unique_covered_byte_count": 256623,
+    "opcode_range": [
+      231,
+      255
+    ]
+  },
+  "opcodes": [
+    {
+      "opcode": 231,
+      "block_footprint_occurrence_count": 4628,
+      "blocks_with_occurrence": 240,
+      "unique_rom_occurrence_count": 3889
+    },
+    {
+      "opcode": 232,
+      "block_footprint_occurrence_count": 7537,
+      "blocks_with_occurrence": 239,
+      "unique_rom_occurrence_count": 6055
+    },
+    {
+      "opcode": 233,
+      "block_footprint_occurrence_count": 4203,
+      "blocks_with_occurrence": 228,
+      "unique_rom_occurrence_count": 2967
+    },
+    {
+      "opcode": 234,
+      "block_footprint_occurrence_count": 2102,
+      "blocks_with_occurrence": 181,
+      "unique_rom_occurrence_count": 1706
+    },
+    {
+      "opcode": 235,
+      "block_footprint_occurrence_count": 6764,
+      "blocks_with_occurrence": 238,
+      "unique_rom_occurrence_count": 5108
+    },
+    {
+      "opcode": 236,
+      "block_footprint_occurrence_count": 1418,
+      "blocks_with_occurrence": 48,
+      "unique_rom_occurrence_count": 1366
+    },
+    {
+      "opcode": 237,
+      "block_footprint_occurrence_count": 4930,
+      "blocks_with_occurrence": 238,
+      "unique_rom_occurrence_count": 3578
+    },
+    {
+      "opcode": 238,
+      "block_footprint_occurrence_count": 2030,
+      "blocks_with_occurrence": 53,
+      "unique_rom_occurrence_count": 1968
+    },
+    {
+      "opcode": 239,
+      "block_footprint_occurrence_count": 1233,
+      "blocks_with_occurrence": 59,
+      "unique_rom_occurrence_count": 1167
+    },
+    {
+      "opcode": 240,
+      "block_footprint_occurrence_count": 352,
+      "blocks_with_occurrence": 61,
+      "unique_rom_occurrence_count": 308
+    },
+    {
+      "opcode": 241,
+      "block_footprint_occurrence_count": 7020,
+      "blocks_with_occurrence": 239,
+      "unique_rom_occurrence_count": 5612
+    },
+    {
+      "opcode": 242,
+      "block_footprint_occurrence_count": 385,
+      "blocks_with_occurrence": 112,
+      "unique_rom_occurrence_count": 298
+    },
+    {
+      "opcode": 243,
+      "block_footprint_occurrence_count": 1462,
+      "blocks_with_occurrence": 63,
+      "unique_rom_occurrence_count": 1085
+    },
+    {
+      "opcode": 244,
+      "block_footprint_occurrence_count": 127,
+      "blocks_with_occurrence": 62,
+      "unique_rom_occurrence_count": 82
+    },
+    {
+      "opcode": 245,
+      "block_footprint_occurrence_count": 2516,
+      "blocks_with_occurrence": 217,
+      "unique_rom_occurrence_count": 1759
+    },
+    {
+      "opcode": 246,
+      "block_footprint_occurrence_count": 294,
+      "blocks_with_occurrence": 55,
+      "unique_rom_occurrence_count": 234
+    },
+    {
+      "opcode": 247,
+      "block_footprint_occurrence_count": 41,
+      "blocks_with_occurrence": 29,
+      "unique_rom_occurrence_count": 28
+    },
+    {
+      "opcode": 248,
+      "block_footprint_occurrence_count": 227,
+      "blocks_with_occurrence": 63,
+      "unique_rom_occurrence_count": 166
+    },
+    {
+      "opcode": 249,
+      "block_footprint_occurrence_count": 402,
+      "blocks_with_occurrence": 92,
+      "unique_rom_occurrence_count": 328
+    },
+    {
+      "opcode": 250,
+      "block_footprint_occurrence_count": 658,
+      "blocks_with_occurrence": 115,
+      "unique_rom_occurrence_count": 491
+    },
+    {
+      "opcode": 251,
+      "block_footprint_occurrence_count": 72,
+      "blocks_with_occurrence": 44,
+      "unique_rom_occurrence_count": 45
+    },
+    {
+      "opcode": 252,
+      "block_footprint_occurrence_count": 47,
+      "blocks_with_occurrence": 27,
+      "unique_rom_occurrence_count": 34
+    },
+    {
+      "opcode": 253,
+      "block_footprint_occurrence_count": 45,
+      "blocks_with_occurrence": 39,
+      "unique_rom_occurrence_count": 25
+    },
+    {
+      "opcode": 254,
+      "block_footprint_occurrence_count": 119,
+      "blocks_with_occurrence": 52,
+      "unique_rom_occurrence_count": 65
+    },
+    {
+      "opcode": 255,
+      "block_footprint_occurrence_count": 2982,
+      "blocks_with_occurrence": 89,
+      "unique_rom_occurrence_count": 2520
+    }
+  ],
+  "interpretation_notice": "The block-footprint count includes overlapping candidate ranges; the unique-ROM count scans their merged physical coverage once. Neither count is a decoded command parse and neither may infer operand lengths, command names, or editable boundaries."
+}

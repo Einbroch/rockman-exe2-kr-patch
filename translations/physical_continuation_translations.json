@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "kind": "protected_exe2_physical_continuation_translation_set",
+  "records": [
+    {
+      "selector": "00/163",
+      "source_rom_offset": 7841071,
+      "source_byte_length": 65,
+      "source_sha256": "1150214408418b057a87d14da99530ce0ee2998b50f77114580147bbc0b4edbe",
+      "source_tpl_filename": "077A52F.tpl",
+      "source_tpl_sha256": "2c4b8844d8569dfb4b90619ddc320aba0e737f67a8b7f03969f8f0765204ebca",
+      "translated_tpl_filename": "physical_continuation_00_163.tpl",
+      "translated_tpl_sha256": "11bd102ed701556a56b101054172de0c08317f271524a036d72052e754198a06",
+      "translation": "정말일까? 뭐 됐어、 그치? 다들 방학 얘기로 신이 난 것 같아!",
+      "status": "machine_draft_needs_human_review"
+    },
+    {
+      "selector": "00/164",
+      "source_rom_offset": 7841784,
+      "source_byte_length": 24,
+      "source_sha256": "ebf3ff26f0c1facc4813d5f3b5622b6a6cd2a8b8f7324750d71dc9afef7ac0ba",
+      "source_tpl_filename": "077A7F8.tpl",
+      "source_tpl_sha256": "f90575ca097e2b177f6655f14334dbf59e6d24ec99fc841d5373bb8a3d69517d",
+      "translated_tpl_filename": "physical_continuation_00_164.tpl",
+      "translated_tpl_sha256": "fd4b081dfb57ac93f8d7bfa1113d37d47d665de1b18f6cd662278006aa9c14be",
+      "translation": "넷토、 역시...",
+      "status": "machine_draft_needs_human_review",
+      "context_evidence": "analysis/playtest_20260909/033_after_class/step_002.png",
+      "context": "MegaMan addresses Netto after the teacher observes that Netto and Dekao seem very anxious about their report cards. Preserve the trailing, unfinished remark and established Netto address form."
+    }
+  ]
+}

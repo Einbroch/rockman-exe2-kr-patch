@@ -1,0 +1,1027 @@
+{
+  "schema_version": 1,
+  "archive": {
+    "filename": "exe2j.dat",
+    "sha256": "47756a72a1e793b6b02e07cc16404ff4b2e6ca5ff4bc554edff2c38e6cc3debc",
+    "byte_length": 34507178,
+    "member_count": 122,
+    "uncompressed_byte_length": 694661860,
+    "encrypted_member_count": 0,
+    "compression_method_counts": {
+      "8": 118
+    }
+  },
+  "members": [
+    {
+      "path": "exe2j/data/msg/fixed_color_chs.txt",
+      "uncompressed_bytes": 160,
+      "compressed_bytes": 57,
+      "crc32": "c3e2701d"
+    },
+    {
+      "path": "exe2j/data/msg/fixed_color_cht.txt",
+      "uncompressed_bytes": 160,
+      "compressed_bytes": 57,
+      "crc32": "ebe2c8e3"
+    },
+    {
+      "path": "exe2j/data/msg/fixed_color_eng.txt",
+      "uncompressed_bytes": 133,
+      "compressed_bytes": 57,
+      "crc32": "5d4dde2e"
+    },
+    {
+      "path": "exe2j/data/msg/fixed_color_jap.txt",
+      "uncompressed_bytes": 133,
+      "compressed_bytes": 57,
+      "crc32": "5d4dde2e"
+    },
+    {
+      "path": "exe2j/data/msg/language_config.txt",
+      "uncompressed_bytes": 712,
+      "compressed_bytes": 241,
+      "crc32": "2493193f"
+    },
+    {
+      "path": "exe2j/data/msg/message_chs.map",
+      "uncompressed_bytes": 5136,
+      "compressed_bytes": 3855,
+      "crc32": "7db80e07"
+    },
+    {
+      "path": "exe2j/data/msg/message_chs.mpak",
+      "uncompressed_bytes": 738303,
+      "compressed_bytes": 272625,
+      "crc32": "cc15a922"
+    },
+    {
+      "path": "exe2j/data/msg/message_cht.map",
+      "uncompressed_bytes": 5136,
+      "compressed_bytes": 3839,
+      "crc32": "b5ca9c1e"
+    },
+    {
+      "path": "exe2j/data/msg/message_cht.mpak",
+      "uncompressed_bytes": 737013,
+      "compressed_bytes": 272298,
+      "crc32": "3b2896c6"
+    },
+    {
+      "path": "exe2j/data/msg/message_eng.map",
+      "uncompressed_bytes": 5148,
+      "compressed_bytes": 3939,
+      "crc32": "e650e4ff"
+    },
+    {
+      "path": "exe2j/data/msg/message_eng.mpak",
+      "uncompressed_bytes": 1301677,
+      "compressed_bytes": 297674,
+      "crc32": "97a8cf95"
+    },
+    {
+      "path": "exe2j/data/msg/message_jap.map",
+      "uncompressed_bytes": 5136,
+      "compressed_bytes": 3880,
+      "crc32": "1689acfd"
+    },
+    {
+      "path": "exe2j/data/msg/message_jap.mpak",
+      "uncompressed_bytes": 904895,
+      "compressed_bytes": 290066,
+      "crc32": "c30aba32"
+    },
+    {
+      "path": "exe2j/data/ui/battle_ctl_btn.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 163588,
+      "crc32": "daba1468"
+    },
+    {
+      "path": "exe2j/data/ui/battle_telop.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 89925,
+      "crc32": "9a4ef8ec"
+    },
+    {
+      "path": "exe2j/data/ui/bbs_cs.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 53393,
+      "crc32": "29d818e5"
+    },
+    {
+      "path": "exe2j/data/ui/bbs_ct.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 52920,
+      "crc32": "137edaff"
+    },
+    {
+      "path": "exe2j/data/ui/bbs_en.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 51569,
+      "crc32": "63d81cc0"
+    },
+    {
+      "path": "exe2j/data/ui/bbs_jp.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 48914,
+      "crc32": "1e2dcc2d"
+    },
+    {
+      "path": "exe2j/data/ui/btl_result_cs.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 16325,
+      "crc32": "91b0edc8"
+    },
+    {
+      "path": "exe2j/data/ui/btl_result_ct.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 17134,
+      "crc32": "e1150c4d"
+    },
+    {
+      "path": "exe2j/data/ui/btl_result_en.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 13415,
+      "crc32": "675c9b8d"
+    },
+    {
+      "path": "exe2j/data/ui/btl_result_jp.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 10848,
+      "crc32": "3175c31d"
+    },
+    {
+      "path": "exe2j/data/ui/chip_base_b_en.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 36552,
+      "crc32": "f792feca"
+    },
+    {
+      "path": "exe2j/data/ui/chip_base_b_jn.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 46763,
+      "crc32": "60ac8127"
+    },
+    {
+      "path": "exe2j/data/ui/chip_base_b_zs.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 41782,
+      "crc32": "e58946e5"
+    },
+    {
+      "path": "exe2j/data/ui/chip_base_b_zt.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 50526,
+      "crc32": "df1bebc7"
+    },
+    {
+      "path": "exe2j/data/ui/chip_base_d_en.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 31239,
+      "crc32": "51d1e14a"
+    },
+    {
+      "path": "exe2j/data/ui/chip_base_d_jn.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 47509,
+      "crc32": "1f70b4b8"
+    },
+    {
+      "path": "exe2j/data/ui/chip_base_d_zs.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 58354,
+      "crc32": "49b45367"
+    },
+    {
+      "path": "exe2j/data/ui/chip_base_d_zt.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 82886,
+      "crc32": "16a86722"
+    },
+    {
+      "path": "exe2j/data/ui/chip_select.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 4239,
+      "crc32": "debecc4e"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_advance.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 33983,
+      "crc32": "07bf2eda"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_chips_cs.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 194431,
+      "crc32": "1ccd2418"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_chips_ct.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 199801,
+      "crc32": "b89a4b16"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_chips_en.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 104138,
+      "crc32": "72938ade"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_chips_jp.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 226028,
+      "crc32": "9d48fcde"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_chs_00.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 220980,
+      "crc32": "76c1baed"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_chs_01.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 263604,
+      "crc32": "11e27c91"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_cht_00.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 227119,
+      "crc32": "0d137608"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_cht_01.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 276212,
+      "crc32": "3a9adbf0"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_eng_00.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 16199,
+      "crc32": "565ec4a7"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_jap_00.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 226794,
+      "crc32": "3e22de64"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_jap_01.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 263004,
+      "crc32": "f17645e3"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_jap_02.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 221961,
+      "crc32": "ecf22989"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_jap_03.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 337520,
+      "crc32": "9e6ae818"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_jap_04.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 301196,
+      "crc32": "8bad1a14"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_font_jap_05.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 126799,
+      "crc32": "40066a35"
+    },
+    {
+      "path": "exe2j/data/ui/cockpit_mess.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 113454,
+      "crc32": "6561b553"
+    },
+    {
+      "path": "exe2j/data/ui/controller_tags.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 62047,
+      "crc32": "25805783"
+    },
+    {
+      "path": "exe2j/data/ui/dl_chip_cs.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 9835,
+      "crc32": "901dd468"
+    },
+    {
+      "path": "exe2j/data/ui/dl_chip_ct.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 9695,
+      "crc32": "386b4448"
+    },
+    {
+      "path": "exe2j/data/ui/dl_chip_en.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 9347,
+      "crc32": "7b4fb2b3"
+    },
+    {
+      "path": "exe2j/data/ui/dl_chip_jp.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 10133,
+      "crc32": "c6bfe0ab"
+    },
+    {
+      "path": "exe2j/data/ui/Empty.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 32680,
+      "crc32": "dff59390"
+    },
+    {
+      "path": "exe2j/data/ui/Empty1024X1024.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 148824,
+      "crc32": "b2cbb48f"
+    },
+    {
+      "path": "exe2j/data/ui/Empty640X640.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 13776,
+      "crc32": "b701137e"
+    },
+    {
+      "path": "exe2j/data/ui/ending_cards.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 835492,
+      "crc32": "e3a03b92"
+    },
+    {
+      "path": "exe2j/data/ui/font_chs_00.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 268594,
+      "crc32": "78291ab1"
+    },
+    {
+      "path": "exe2j/data/ui/font_chs_01.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 290165,
+      "crc32": "bd3ce7bd"
+    },
+    {
+      "path": "exe2j/data/ui/font_chs_02.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 312642,
+      "crc32": "c9194d52"
+    },
+    {
+      "path": "exe2j/data/ui/font_chs_03.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 339849,
+      "crc32": "cd3432c8"
+    },
+    {
+      "path": "exe2j/data/ui/font_chs_04.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 343473,
+      "crc32": "08195e7f"
+    },
+    {
+      "path": "exe2j/data/ui/font_cht_00.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 285663,
+      "crc32": "505c2e98"
+    },
+    {
+      "path": "exe2j/data/ui/font_cht_01.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 312359,
+      "crc32": "1c63df04"
+    },
+    {
+      "path": "exe2j/data/ui/font_cht_02.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 338624,
+      "crc32": "a1986fa0"
+    },
+    {
+      "path": "exe2j/data/ui/font_cht_03.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 366610,
+      "crc32": "3cd8f7eb"
+    },
+    {
+      "path": "exe2j/data/ui/font_cht_04.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 388951,
+      "crc32": "f32fc2f3"
+    },
+    {
+      "path": "exe2j/data/ui/font_eng_00.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 73561,
+      "crc32": "a8777c9b"
+    },
+    {
+      "path": "exe2j/data/ui/font_jap_00.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 203339,
+      "crc32": "3a463e05"
+    },
+    {
+      "path": "exe2j/data/ui/font_jap_01.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 132040,
+      "crc32": "094a6786"
+    },
+    {
+      "path": "exe2j/data/ui/font_jap_02.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 110355,
+      "crc32": "fab682ab"
+    },
+    {
+      "path": "exe2j/data/ui/font_jap_03.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 176104,
+      "crc32": "07c8251a"
+    },
+    {
+      "path": "exe2j/data/ui/font_jap_04.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 158471,
+      "crc32": "94de6c1a"
+    },
+    {
+      "path": "exe2j/data/ui/font_jap_05.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 69131,
+      "crc32": "17162f33"
+    },
+    {
+      "path": "exe2j/data/ui/font_jap_oe_00.pak",
+      "uncompressed_bytes": 4325396,
+      "compressed_bytes": 166381,
+      "crc32": "1004cab1"
+    },
+    {
+      "path": "exe2j/data/ui/mail_new.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 46151,
+      "crc32": "a0863b89"
+    },
+    {
+      "path": "exe2j/data/ui/menu_base_cs.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 285380,
+      "crc32": "6663197e"
+    },
+    {
+      "path": "exe2j/data/ui/menu_base_ct.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 159630,
+      "crc32": "0b0b66d9"
+    },
+    {
+      "path": "exe2j/data/ui/menu_base_en.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 51414,
+      "crc32": "072bc302"
+    },
+    {
+      "path": "exe2j/data/ui/menu_base_jp.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 30924,
+      "crc32": "3ebe44f7"
+    },
+    {
+      "path": "exe2j/data/ui/press_start.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 118902,
+      "crc32": "e84027dd"
+    },
+    {
+      "path": "exe2j/data/ui/rock_style_cs.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 315556,
+      "crc32": "4117abcd"
+    },
+    {
+      "path": "exe2j/data/ui/rock_style_ct.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 290005,
+      "crc32": "b04f4ccd"
+    },
+    {
+      "path": "exe2j/data/ui/rock_style_en.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 68581,
+      "crc32": "c36c5da7"
+    },
+    {
+      "path": "exe2j/data/ui/rock_style_jp.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 158743,
+      "crc32": "33c30a72"
+    },
+    {
+      "path": "exe2j/data/ui/submenu_mess_moji_cs.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 69788,
+      "crc32": "5baaa249"
+    },
+    {
+      "path": "exe2j/data/ui/submenu_mess_moji_ct.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 69625,
+      "crc32": "e9e418c4"
+    },
+    {
+      "path": "exe2j/data/ui/submenu_mess_moji_en.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 71992,
+      "crc32": "2f8c92a2"
+    },
+    {
+      "path": "exe2j/data/ui/submenu_mess_moji_jp.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 74789,
+      "crc32": "349ce4be"
+    },
+    {
+      "path": "exe2j/data/ui/title_logo_bg_cs.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 2115882,
+      "crc32": "18f7833e"
+    },
+    {
+      "path": "exe2j/data/ui/title_logo_bg_ct.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 2115882,
+      "crc32": "18f7833e"
+    },
+    {
+      "path": "exe2j/data/ui/title_logo_bg_en.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 1734090,
+      "crc32": "fdb2503d"
+    },
+    {
+      "path": "exe2j/data/ui/title_logo_bg_jp.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 2115882,
+      "crc32": "18f7833e"
+    },
+    {
+      "path": "exe2j/data/ui/title_logo_cs.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 718712,
+      "crc32": "d8b454f8"
+    },
+    {
+      "path": "exe2j/data/ui/title_logo_en.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 658093,
+      "crc32": "eab143d6"
+    },
+    {
+      "path": "exe2j/data/ui/title_logo_jp.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 1096424,
+      "crc32": "222a010e"
+    },
+    {
+      "path": "exe2j/data/ui/title_logo_tc.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 718712,
+      "crc32": "d8b454f8"
+    },
+    {
+      "path": "exe2j/data/ui/title_maruct.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 78736,
+      "crc32": "f090ffe7"
+    },
+    {
+      "path": "exe2j/data/ui/title_moji.pak",
+      "uncompressed_bytes": 1769488,
+      "compressed_bytes": 52291,
+      "crc32": "1ff7de2c"
+    },
+    {
+      "path": "exe2j/data/ui/title_moji2.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 52673,
+      "crc32": "ccbe2f1a"
+    },
+    {
+      "path": "exe2j/data/ui/title_moji_cs.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 123268,
+      "crc32": "28d8766b"
+    },
+    {
+      "path": "exe2j/data/ui/title_moji_en.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 42896,
+      "crc32": "1eb0f668"
+    },
+    {
+      "path": "exe2j/data/ui/title_moji_hard_cs.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 151914,
+      "crc32": "2b07b090"
+    },
+    {
+      "path": "exe2j/data/ui/title_moji_hard_ct.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 118378,
+      "crc32": "a5802a90"
+    },
+    {
+      "path": "exe2j/data/ui/title_moji_hard_en.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 42924,
+      "crc32": "c6b94f7f"
+    },
+    {
+      "path": "exe2j/data/ui/title_moji_hard_jp.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 57645,
+      "crc32": "11461704"
+    },
+    {
+      "path": "exe2j/data/ui/title_moji_jp.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 56696,
+      "crc32": "d2c5323d"
+    },
+    {
+      "path": "exe2j/data/ui/title_moji_tc.pak",
+      "uncompressed_bytes": 4325392,
+      "compressed_bytes": 66885,
+      "crc32": "02b8f6b3"
+    },
+    {
+      "path": "exe2j/data/ui/title_tags_cs.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 450075,
+      "crc32": "cd652069"
+    },
+    {
+      "path": "exe2j/data/ui/title_tags_ct.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 472580,
+      "crc32": "0a8dc118"
+    },
+    {
+      "path": "exe2j/data/ui/title_tags_en.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 121885,
+      "crc32": "77ecfcd3"
+    },
+    {
+      "path": "exe2j/data/ui/title_tags_jp.pak",
+      "uncompressed_bytes": 16908320,
+      "compressed_bytes": 315369,
+      "crc32": "eb23de46"
+    },
+    {
+      "path": "exe2j/labels.bin",
+      "uncompressed_bytes": 607960,
+      "compressed_bytes": 157770,
+      "crc32": "1275ffb0"
+    },
+    {
+      "path": "exe2j/rom.dic",
+      "uncompressed_bytes": 94295,
+      "compressed_bytes": 56101,
+      "crc32": "5f9aa775"
+    },
+    {
+      "path": "exe2j/rom.srl",
+      "uncompressed_bytes": 8388608,
+      "compressed_bytes": 4063136,
+      "crc32": "046eed8d"
+    },
+    {
+      "path": "exe2j/rom_e.dic",
+      "uncompressed_bytes": 94207,
+      "compressed_bytes": 56131,
+      "crc32": "fc024fb9"
+    },
+    {
+      "path": "exe2j/rom_e.srl",
+      "uncompressed_bytes": 8388608,
+      "compressed_bytes": 3975732,
+      "crc32": "6d961f82"
+    }
+  ],
+  "message_maps": {
+    "exe2j/data/msg/message_chs.map": {
+      "byte_length": 5136,
+      "valid_little_endian_u32_table": true,
+      "u32_count": 1284,
+      "minimum": 0,
+      "maximum": 142549104,
+      "first_16_values": [
+        427,
+        141726160,
+        142549104,
+        141759136,
+        0,
+        140,
+        141759248,
+        140,
+        2640,
+        142509464,
+        2780,
+        97,
+        142514544,
+        2877,
+        7293,
+        142509564
+      ],
+      "three_word_record_layout": {
+        "declared_record_count": 427,
+        "header_source_start": 141726160,
+        "header_source_end": 142549104,
+        "record_word_count": 1281,
+        "record_count_matches_header": true,
+        "sample_records": [
+          {
+            "source_address": 141759136,
+            "package_offset": 0,
+            "byte_length": 140
+          },
+          {
+            "source_address": 141759248,
+            "package_offset": 140,
+            "byte_length": 2640
+          },
+          {
+            "source_address": 142509464,
+            "package_offset": 2780,
+            "byte_length": 97
+          },
+          {
+            "source_address": 142514544,
+            "package_offset": 2877,
+            "byte_length": 7293
+          },
+          {
+            "source_address": 142509564,
+            "package_offset": 10170,
+            "byte_length": 331
+          }
+        ]
+      },
+      "record_validation": {
+        "source_addresses_in_declared_range": 426,
+        "source_addresses_outside_declared_range": 1,
+        "package_member_bytes": 738303,
+        "records_within_package_bounds": 427,
+        "records_outside_package_bounds": 0
+      }
+    },
+    "exe2j/data/msg/message_cht.map": {
+      "byte_length": 5136,
+      "valid_little_endian_u32_table": true,
+      "u32_count": 1284,
+      "minimum": 0,
+      "maximum": 142549104,
+      "first_16_values": [
+        427,
+        141726160,
+        142549104,
+        141759136,
+        0,
+        140,
+        141759248,
+        140,
+        2640,
+        142509464,
+        2780,
+        97,
+        142514544,
+        2877,
+        7260,
+        142509564
+      ],
+      "three_word_record_layout": {
+        "declared_record_count": 427,
+        "header_source_start": 141726160,
+        "header_source_end": 142549104,
+        "record_word_count": 1281,
+        "record_count_matches_header": true,
+        "sample_records": [
+          {
+            "source_address": 141759136,
+            "package_offset": 0,
+            "byte_length": 140
+          },
+          {
+            "source_address": 141759248,
+            "package_offset": 140,
+            "byte_length": 2640
+          },
+          {
+            "source_address": 142509464,
+            "package_offset": 2780,
+            "byte_length": 97
+          },
+          {
+            "source_address": 142514544,
+            "package_offset": 2877,
+            "byte_length": 7260
+          },
+          {
+            "source_address": 142509564,
+            "package_offset": 10137,
+            "byte_length": 331
+          }
+        ]
+      },
+      "record_validation": {
+        "source_addresses_in_declared_range": 426,
+        "source_addresses_outside_declared_range": 1,
+        "package_member_bytes": 737013,
+        "records_within_package_bounds": 427,
+        "records_outside_package_bounds": 0
+      }
+    },
+    "exe2j/data/msg/message_eng.map": {
+      "byte_length": 5148,
+      "valid_little_endian_u32_table": true,
+      "u32_count": 1287,
+      "minimum": 0,
+      "maximum": 142549104,
+      "first_16_values": [
+        428,
+        141726160,
+        142549104,
+        141759136,
+        0,
+        140,
+        141759248,
+        140,
+        4438,
+        142509464,
+        4578,
+        241,
+        142514544,
+        4819,
+        16188,
+        142509564
+      ],
+      "three_word_record_layout": {
+        "declared_record_count": 428,
+        "header_source_start": 141726160,
+        "header_source_end": 142549104,
+        "record_word_count": 1284,
+        "record_count_matches_header": true,
+        "sample_records": [
+          {
+            "source_address": 141759136,
+            "package_offset": 0,
+            "byte_length": 140
+          },
+          {
+            "source_address": 141759248,
+            "package_offset": 140,
+            "byte_length": 4438
+          },
+          {
+            "source_address": 142509464,
+            "package_offset": 4578,
+            "byte_length": 241
+          },
+          {
+            "source_address": 142514544,
+            "package_offset": 4819,
+            "byte_length": 16188
+          },
+          {
+            "source_address": 142509564,
+            "package_offset": 21007,
+            "byte_length": 591
+          }
+        ]
+      },
+      "record_validation": {
+        "source_addresses_in_declared_range": 427,
+        "source_addresses_outside_declared_range": 1,
+        "package_member_bytes": 1301677,
+        "records_within_package_bounds": 428,
+        "records_outside_package_bounds": 0
+      }
+    },
+    "exe2j/data/msg/message_jap.map": {
+      "byte_length": 5136,
+      "valid_little_endian_u32_table": true,
+      "u32_count": 1284,
+      "minimum": 0,
+      "maximum": 142549104,
+      "first_16_values": [
+        427,
+        141726160,
+        142549104,
+        141759136,
+        0,
+        140,
+        141759248,
+        140,
+        3948,
+        142509464,
+        4088,
+        131,
+        142514544,
+        4219,
+        10039,
+        142509564
+      ],
+      "three_word_record_layout": {
+        "declared_record_count": 427,
+        "header_source_start": 141726160,
+        "header_source_end": 142549104,
+        "record_word_count": 1281,
+        "record_count_matches_header": true,
+        "sample_records": [
+          {
+            "source_address": 141759136,
+            "package_offset": 0,
+            "byte_length": 140
+          },
+          {
+            "source_address": 141759248,
+            "package_offset": 140,
+            "byte_length": 3948
+          },
+          {
+            "source_address": 142509464,
+            "package_offset": 4088,
+            "byte_length": 131
+          },
+          {
+            "source_address": 142514544,
+            "package_offset": 4219,
+            "byte_length": 10039
+          },
+          {
+            "source_address": 142509564,
+            "package_offset": 14258,
+            "byte_length": 445
+          }
+        ]
+      },
+      "record_validation": {
+        "source_addresses_in_declared_range": 426,
+        "source_addresses_outside_declared_range": 1,
+        "package_member_bytes": 904895,
+        "records_within_package_bounds": 427,
+        "records_outside_package_bounds": 0
+      }
+    }
+  },
+  "reference_boundary": "This report inventories metadata only. Do not extract, commit, or redistribute the archive's game assets. Reuse terminology and independently verified format ideas only; do not transfer PC offsets, fonts, or binary assets to the GBA project.",
+  "rom_comparison": {
+    "archive_member": "exe2j/rom.srl",
+    "archive_member_bytes": 8388608,
+    "local_rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "local_rom_bytes": 8388608,
+    "archive_member_sha256": "0603fd7e5a9afbdd615ed3bc1b77bb37707a986a80622931046fa1b3a5a99d4c",
+    "local_rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "byte_identical": false,
+    "archive_gba_header": {
+      "title": "ROCKMAN_EXE2",
+      "game_code": "AE2J",
+      "maker_code": "08",
+      "software_version": 0,
+      "header_checksum_valid": true
+    },
+    "local_gba_header": {
+      "title": "ROCKMAN_EXE2",
+      "game_code": "AE2J",
+      "maker_code": "08",
+      "software_version": 1,
+      "header_checksum_valid": true
+    }
+  },
+  "message_source_range_comparisons": [
+    {
+      "rom_offset_start": 7508432,
+      "rom_offset_end_exclusive": 8331376,
+      "byte_length": 822944,
+      "archive_sha256": "ab8cca3c26ca98ae75e094f8596119b2543467cde9f8e59cd693735ea4eaa60e",
+      "local_sha256": "ab8cca3c26ca98ae75e094f8596119b2543467cde9f8e59cd693735ea4eaa60e",
+      "byte_identical": true,
+      "different_byte_count": 0,
+      "first_difference_rom_offset": null,
+      "last_difference_rom_offset": null
+    }
+  ]
+}

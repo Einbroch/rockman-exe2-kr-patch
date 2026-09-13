@@ -1,0 +1,14 @@
+{
+  "status": "PASS (bench)",
+  "rom_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "baseline_sha256": "8d6ed5473404d2dcaf6056297324e86a47d88b4c999324eb40ab8a7a5e8ac11a",
+  "unchanged_archive_cores": 381,
+  "changed_tails": [
+    "00/164"
+  ],
+  "font_payload_unchanged": true,
+  "source_and_controls_verified": true,
+  "literal": "넷토、 역시...",
+  "literal_hex": "f9fc5601f9fcf9078500f9fc8b05f9fce804878787",
+  "runtime_status": "PENDING separate natural-play replay"
+}

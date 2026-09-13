@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "expanded_archive_runtime_dump_verification",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_draft_poc.gba",
+    "sha256": "708a7953db9caae7bb8ffc145337d4fd7eb2230359c2d64ecc7303eab76ac4f4",
+    "byte_length": 16777216
+  },
+  "archive": {
+    "rom_offset": 8388608,
+    "gba_address": "0x08800000",
+    "compressed_byte_length": 4448,
+    "decompressed_byte_length": 6121,
+    "decompressed_sha256": "8ab1c288bcd7326908912af667988aab78531a0080734b08acf9cc31faa711dc",
+    "entry_count": 254,
+    "edited_entries": [
+      {
+        "entry_index": 0,
+        "start": 510,
+        "end": 539,
+        "byte_length": 29,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 13,
+        "replacement_sha256": "f7a70a77439bfaf248f4e4a9ff45f2b8487f7f5dc1b3243d2e01fb641eba4aad"
+      },
+      {
+        "entry_index": 2,
+        "start": 653,
+        "end": 684,
+        "byte_length": 31,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 15,
+        "replacement_sha256": "becd86f8fa307015b177dfb8ecfbde4b1213746e62999ea2d7125962b74e4e67"
+      },
+      {
+        "entry_index": 13,
+        "start": 1414,
+        "end": 1610,
+        "byte_length": 196,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 185,
+        "replacement_sha256": "7a4465331a71104e85d54992e95da0aabc62e57d5daa833b5234dee35d9f9dd8"
+      }
+    ]
+  },
+  "runtime_dump": {
+    "filename": "ewram.bin",
+    "file_sha256": "fec90594855d143d0b4fd634e3ee31222af13b15f9a9b5a9240441508b7c497d",
+    "ewram_offset": 231424,
+    "loaded_byte_length": 6121,
+    "loaded_sha256": "8ab1c288bcd7326908912af667988aab78531a0080734b08acf9cc31faa711dc",
+    "differing_byte_count": 0
+  },
+  "passed": true
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "literals": [
+    {
+      "rom_offset": 10316,
+      "little_endian_u32": 33589200
+    },
+    {
+      "rom_offset": 11396,
+      "little_endian_u32": 33589200
+    },
+    {
+      "rom_offset": 11408,
+      "little_endian_u32": 33589200
+    },
+    {
+      "rom_offset": 11416,
+      "little_endian_u32": 33589200
+    },
+    {
+      "rom_offset": 11424,
+      "little_endian_u32": 33589200
+    },
+    {
+      "rom_offset": 11432,
+      "little_endian_u32": 33589200
+    },
+    {
+      "rom_offset": 11440,
+      "little_endian_u32": 33589200
+    },
+    {
+      "rom_offset": 11448,
+      "little_endian_u32": 33589200
+    },
+    {
+      "rom_offset": 942228,
+      "little_endian_u32": 33589200
+    }
+  ],
+  "requested_literal_value_occurrences": {
+    "02000DE8": [],
+    "02006380": [],
+    "020087D0": [
+      10316,
+      11396,
+      11408,
+      11416,
+      11424,
+      11432,
+      11440,
+      11448,
+      942228
+    ],
+    "020087F4": []
+  },
+  "thumb_pc_relative_ldr_references": [
+    {
+      "instruction_offset": 11068,
+      "destination_register": 5,
+      "literal_offset": 11396
+    },
+    {
+      "instruction_offset": 11146,
+      "destination_register": 5,
+      "literal_offset": 11408
+    },
+    {
+      "instruction_offset": 11188,
+      "destination_register": 0,
+      "literal_offset": 11416
+    },
+    {
+      "instruction_offset": 11216,
+      "destination_register": 1,
+      "literal_offset": 11424
+    },
+    {
+      "instruction_offset": 11238,
+      "destination_register": 5,
+      "literal_offset": 11432
+    },
+    {
+      "instruction_offset": 11270,
+      "destination_register": 5,
+      "literal_offset": 11440
+    },
+    {
+      "instruction_offset": 11366,
+      "destination_register": 5,
+      "literal_offset": 11448
+    },
+    {
+      "instruction_offset": 941638,
+      "destination_register": 6,
+      "literal_offset": 942228
+    }
+  ],
+  "arm_pc_relative_ldr_references": [],
+  "limitation": "Only PC-relative LDR literal forms are scanned; no absence claim is made for other address-construction paths."
+}

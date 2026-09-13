@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "kind": "muted_regular_weight_hangul_font_runtime_verification",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_yai_retry_regular_font_clean_poc.gba",
+    "sha256": "976c40e071addf0c949b7206f1048eb09f038bdea6ab9e2a95bb41ceb2e14f90"
+  },
+  "font_selection": {
+    "previous": {
+      "filename": "malgunbd.ttf",
+      "sha256": "a541834fb9cdde9bd6d2c3ff1565cb0bb5ccf7a15e4e9daf2cb58d9b1cf282aa",
+      "required_glyph_count": 103,
+      "average_foreground_pixels_per_8x16_glyph": 51.35
+    },
+    "selected": {
+      "filename": "malgun.ttf",
+      "sha256": "0086c19e81d293a542e7d75564c645fb58070cc850aefebf8fa1c397858e510c",
+      "required_glyph_count": 103,
+      "average_foreground_pixels_per_8x16_glyph": 39.72,
+      "foreground_pixel_reduction_percent": 22.65,
+      "embedded_in_project": false
+    },
+    "rejected_for_this_iteration": {
+      "filename": "malgunsl.ttf",
+      "sha256": "a7217a2e590c86141bddadc74a2bcdff2efe210db48469a77a749e0446d91ea9",
+      "average_foreground_pixels_per_8x16_glyph": 38.02,
+      "reason": "It is only slightly lighter on average than the regular face and produced less stable per-glyph stroke density in the fixed 8x16 rasterizer."
+    }
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "system": "gba",
+    "display": false,
+    "sound": false,
+    "launch_id": "launch-01m0wanzgsmgpr9gr5sg75fa56",
+    "audio_verification": "The successful emulator launch explicitly used sound:false."
+  },
+  "normal_load": {
+    "route": [
+      "fresh boot",
+      "PRESS START",
+      "はじめから",
+      "opening dialogue checkpoint"
+    ],
+    "memory_type": "gbaExtWorkRam",
+    "memory_offset": 231424,
+    "loaded_byte_length": 6195,
+    "loaded_sha256": "7a3d0bd60eac7ff8c2f727eec988894d5137a1482f67318af33ac4f64043573a",
+    "differing_byte_count": 0,
+    "report": "dialogue_yai_retry_regular_font_normal_load_verification.json",
+    "report_sha256": "4730f80ace0b067f575ef3a84bac64113f4f769ed097625b05dc0f10708ce825"
+  },
+  "focused_redraw_test": {
+    "base_state": {
+      "filename": "yai_retry_entry7_choice_muted.ss1",
+      "rom_sha256": "e29e2890b48c5f0e008214b8026715e30dbb5eb28caa31595fe0490fae77ac59",
+      "purpose": "Restore the same entry 7 choice screen with the prior bold glyph pixels resident, then trigger the original alternate-choice loop to redraw entry 7 from the current ROM."
+    },
+    "archive_memory_intervention": false,
+    "archive_equivalence": "The bold and regular candidates have the same rebuilt archive hash and codepage assignments; only the 103 font-record bytes differ.",
+    "current_state": {
+      "filename": "yai_regular_font_entry7_choice_muted.ss1",
+      "sha256": "a7139ba74fb63781076800e4255b39013b1130a8feacec36afea2d1f2776233e"
+    }
+  },
+  "font_record_read_trace": {
+    "character": "그",
+    "unicode_code_point": "U+ADF8",
+    "font_record_index": 354,
+    "memory_type": "gbaPrgRom",
+    "record_offset": 6933552,
+    "emulated_range": [141151280, 141151343],
+    "frame": 2746,
+    "consumer_pc": 134352294,
+    "consumer_pc_hex": "0x08020DA6",
+    "record_index_register": {
+      "name": "r8",
+      "value": 354
+    },
+    "snapshot_byte_length": 64,
+    "snapshot_sha256": "0e718342e0434de8cf78c45f70f8ad57c113909469f3852f0d40ea33002ab936",
+    "manifest_replacement_range_sha256": "0e718342e0434de8cf78c45f70f8ad57c113909469f3852f0d40ea33002ab936",
+    "snapshot_matches_current_regular_font_record": true
+  },
+  "visual_evidence": {
+    "comparison": {
+      "filename": "yai_font_bold_vs_regular_comparison.png",
+      "sha256": "b25be4e0c5ecada3d5b51c2415814bc603132a9ab68d0c121c7dc1c29bfbb619",
+      "dimensions": [240, 132],
+      "layout": "top: previous bold rendering; bottom: current regular rendering"
+    },
+    "dialogue_text_region_dark_pixels": {
+      "region": [56, 102, 235, 153],
+      "previous_bold": 752,
+      "current_regular": 561,
+      "reduction_percent": 25.4,
+      "notice": "This is a comparative screen-region indicator, not a typographic weight specification."
+    },
+    "screenshots": [
+      {
+        "stage": "regular_font_entry_7_redraw",
+        "filename": "yai_regular_font_entry7_redraw_muted.png",
+        "sha256": "3237d1e8e4d9447b5a2ca7abdde44cf7e67e70b08f6d35fb08a4cac26a1c57fc",
+        "dimensions": [240, 160]
+      },
+      {
+        "stage": "regular_font_entry_7_default_yes_branch_entry_8",
+        "filename": "yai_regular_font_entry7_yes_branch_entry8_muted.png",
+        "sha256": "ebf6e71e4eb69b6bb3882078b3d44cc6e5813a6a5db06f5058deeb4efc792b40",
+        "dimensions": [240, 160]
+      }
+    ]
+  },
+  "verification": {
+    "rebuilt_from_untouched_rev1": true,
+    "all_103_required_glyph_records_match_regular_font_rasterization": true,
+    "fresh_boot_current_archive_loaded_exactly": true,
+    "current_regular_font_record_was_read_by_dialogue_renderer": true,
+    "entry_7_redrew_with_thinner_hangul": true,
+    "entry_7_korean_text_remained_readable": true,
+    "entry_7_default_branch_reached_entry_8": true,
+    "clipping_observed": false,
+    "overlap_observed": false,
+    "ghosting_observed": false,
+    "progression_stall_observed": false,
+    "audio_enabled": false
+  },
+  "passed": true
+}

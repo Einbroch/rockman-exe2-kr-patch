@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "input": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "state_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "state_sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914",
+    "survey_filename": "survey.json"
+  },
+  "vram": {
+    "emulated_base_address": 100663296,
+    "byte_length": 98304
+  },
+  "tile_bytes": 32,
+  "minimum_contiguous_matching_tiles": 8,
+  "minimum_contiguous_matching_bytes": 256,
+  "minimum_distinct_matching_tile_patterns": 4,
+  "maximum_reported_runs_per_stream": 16,
+  "survey_stream_count": 1507,
+  "skipped_short_stream_count": 760,
+  "aligned_partial_or_full_tile_runs": [
+    {
+      "rom_offset": 4273912,
+      "rom_address": 138491640,
+      "packed_size": 2908,
+      "unpacked_size": 6336,
+      "source_tile_index": 0,
+      "source_byte_offset": 0,
+      "matching_tile_count": 198,
+      "matching_byte_count": 6336,
+      "distinct_matching_tile_pattern_count": 198,
+      "matching_run_sha256": "debe2dcec00152b66141f7df720fa209c3405d4fe2aa86c2022fb17b5dde352e",
+      "vram_offset": 6016,
+      "vram_address": 100669312
+    },
+    {
+      "rom_offset": 4271628,
+      "rom_address": 138489356,
+      "packed_size": 2284,
+      "unpacked_size": 6016,
+      "source_tile_index": 0,
+      "source_byte_offset": 0,
+      "matching_tile_count": 188,
+      "matching_byte_count": 6016,
+      "distinct_matching_tile_pattern_count": 188,
+      "matching_run_sha256": "6fc4057038ca6528734a0071fcfd42000c9d6a0490a8034b85238c6ec49aa1c4",
+      "vram_offset": 0,
+      "vram_address": 100663296
+    },
+    {
+      "rom_offset": 4276820,
+      "rom_address": 138494548,
+      "packed_size": 1189,
+      "unpacked_size": 2080,
+      "source_tile_index": 0,
+      "source_byte_offset": 0,
+      "matching_tile_count": 65,
+      "matching_byte_count": 2080,
+      "distinct_matching_tile_pattern_count": 65,
+      "matching_run_sha256": "89fdddc0950a73574bb5cce41ff662d390268dfc689417903db7e7e812da5f5f",
+      "vram_offset": 16384,
+      "vram_address": 100679680
+    }
+  ],
+  "interpretation_notice": "A matching run proves only that aligned decompressed bytes are resident in this state's VRAM. It does not identify glyph tiles, distinguish background from sprite graphics, or prove a loader path."
+}

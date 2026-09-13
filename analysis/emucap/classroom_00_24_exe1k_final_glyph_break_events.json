@@ -1,0 +1,49 @@
+{
+  "dropped": 0,
+  "events": [
+    {
+      "address": 141173100,
+      "breakpoint_id": 2,
+      "frame": 8363,
+      "kind": "read",
+      "pc": 134352294,
+      "regs": {
+        "cpsr": {
+          "carry": true,
+          "fiqDisable": false,
+          "irqDisable": false,
+          "negative": false,
+          "overflow": false,
+          "thumb": true,
+          "zero": false
+        },
+        "pc": 134352294,
+        "r0": 141173040,
+        "r1": 33574800,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 0,
+        "r13": 50363900,
+        "r14": 134352089,
+        "r15": 134352294,
+        "r2": 60,
+        "r3": 0,
+        "r4": 33788370,
+        "r5": 33589040,
+        "r6": 33614433,
+        "r7": 0,
+        "r8": 694,
+        "r9": 33582752
+      },
+      "snapshot": [
+        {
+          "address": 233933,
+          "hex": "ed0008f100e6d1e6cc888888ea011e00",
+          "memory_type": "gbaExtWorkRam"
+        }
+      ],
+      "type": "breakpoint_hit",
+      "value": 286331153
+    }
+  ]
+}

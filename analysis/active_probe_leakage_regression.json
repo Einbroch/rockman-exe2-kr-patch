@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "kind": "diagnostic_active_block_probe_leakage_regression",
+  "affected_rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_dex_draft_poc.gba",
+    "sha256": "f9f0c27de45f16024a24169e4f07c87249d6c8b4eeb27832c37dc9e746562d6f"
+  },
+  "reproduction": {
+    "route": "fresh boot, PRESS START, はじめから, first opening message",
+    "original_screenshot": {
+      "filename": "analysis/emucap/dex_visual_baseline_newgame_01.png",
+      "sha256": "0a8440bb5c59249c784ffa270764d2723302b135eeefb747b4a62587f7139803"
+    },
+    "affected_screenshot": {
+      "filename": "analysis/emucap/dex_visual_qa_newgame_01.png",
+      "sha256": "038f2031444be95fe07560c931a4942d1a7bb64247a0dd47f8647d196acf9a90"
+    },
+    "different_pixel_count": 240,
+    "unexpected_visible_text": "가나다"
+  },
+  "cause": {
+    "boundary": "integrated build composition",
+    "builder": "tools/build_integrated_archive_translation_draft_poc.py",
+    "historical_stage": "active_block_nine_entry_growth",
+    "inserted_text": "가나다",
+    "inserted_into_entry_count": 9,
+    "matched_rendered_glyphs": [
+      {"screen_x": 112, "unicode_code_point": "U+AC00", "encoded_bytes": [229, 27], "font_record_index": 256},
+      {"screen_x": 120, "unicode_code_point": "U+B098", "encoded_bytes": [229, 37], "font_record_index": 266},
+      {"screen_x": 128, "unicode_code_point": "U+B2E4", "encoded_bytes": [229, 39], "font_record_index": 268}
+    ],
+    "font_collision_rejected": true,
+    "explanation": "The glyphs exactly match the explicit active-block diagnostic insertion; they are not spontaneous uses of the selected blank font records."
+  },
+  "fix": {
+    "builder_option": "--omit-active-probe",
+    "clean_rom": {
+      "filename": "exe2_rev1_archive_00_09_dialogue_dex_clean_poc.gba",
+      "sha256": "385577d84b06ee60910a8c18c833e47b4b51fe3bf09023a9e4f945b618fd1972"
+    },
+    "clean_screenshot": {
+      "filename": "analysis/emucap/dex_clean_newgame_01.png",
+      "sha256": "0a8440bb5c59249c784ffa270764d2723302b135eeefb747b4a62587f7139803"
+    },
+    "clean_vs_original_different_pixel_count": 0
+  },
+  "passed": true
+}

@@ -1,0 +1,680 @@
+{
+  "schema_version": 1,
+  "input": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "state_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "state_sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914",
+    "attribution_filename": "state_dialogue_full_text_region_attribution.json"
+  },
+  "background": 0,
+  "character_base_vram_offset": 32768,
+  "tile_bytes": 32,
+  "visible_dark_tile_pattern_count": 34,
+  "patterns": [
+    {
+      "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc",
+      "tile_indices": [
+        577,
+        579,
+        581,
+        595,
+        597,
+        599,
+        627,
+        629,
+        631,
+        641,
+        643,
+        645
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 48,
+      "rom_occurrence_count_lower_bound": 2,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6918808,
+        6919632
+      ],
+      "rom_occurrence_addresses": [
+        141136536,
+        141137360
+      ]
+    },
+    {
+      "tile_pattern_sha256": "b24f46f30e91cffaee1bba033fa193809a3c336c1ed59e60b50c13b97b9e4d4e",
+      "tile_indices": [
+        611,
+        623
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 44,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6925840
+      ],
+      "rom_occurrence_addresses": [
+        141143568
+      ]
+    },
+    {
+      "tile_pattern_sha256": "48e373b20b3fde25284098136413d722efbdea68cb3dd2e7c6993522d1dcf658",
+      "tile_indices": [
+        583,
+        617
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 28,
+      "rom_occurrence_count_lower_bound": 2,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921360,
+        6924112
+      ],
+      "rom_occurrence_addresses": [
+        141139088,
+        141141840
+      ]
+    },
+    {
+      "tile_pattern_sha256": "91af2d934e657be731a1781d20a3e335f6e93104aa52ce2d9dff6b363f5ef79b",
+      "tile_indices": [
+        591,
+        619
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 26,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6920784
+      ],
+      "rom_occurrence_addresses": [
+        141138512
+      ]
+    },
+    {
+      "tile_pattern_sha256": "cb5248e59d2dbc07bf46724f9643f0a97e80e5969ab9b04372f4ab76d556b0a5",
+      "tile_indices": [
+        593,
+        633
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 24,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6922064
+      ],
+      "rom_occurrence_addresses": [
+        141139792
+      ]
+    },
+    {
+      "tile_pattern_sha256": "d24587ce64944e3e4bfb4ca98b642af3ed2db0d461b95673ae2506ea4d83a53d",
+      "tile_indices": [
+        582,
+        616
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 22,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921328
+      ],
+      "rom_occurrence_addresses": [
+        141139056
+      ]
+    },
+    {
+      "tile_pattern_sha256": "0f07b20e317e047a60489bf296969b178b2ab165fe6122597f59a227054ccb40",
+      "tile_indices": [
+        612,
+        624
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 22,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6920816
+      ],
+      "rom_occurrence_addresses": [
+        141138544
+      ]
+    },
+    {
+      "tile_pattern_sha256": "b43148eab71aafdaa65a9943adcdecc5d717e3d62c7f77a83b18757e68122b2d",
+      "tile_indices": [
+        614
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 20,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6923760
+      ],
+      "rom_occurrence_addresses": [
+        141141488
+      ]
+    },
+    {
+      "tile_pattern_sha256": "8116b6150b07dabdeea04e606ebb87dcd6fa4f851e5f0d11eb8a79cee8a89682",
+      "tile_indices": [
+        592,
+        632
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 18,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6922032
+      ],
+      "rom_occurrence_addresses": [
+        141139760
+      ]
+    },
+    {
+      "tile_pattern_sha256": "90c9a0fd26c76a6cd4345d48766be4e47f6bf710a8f1366eddbc953373f2355a",
+      "tile_indices": [
+        621,
+        647
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 18,
+      "rom_occurrence_count_lower_bound": 2,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921424,
+        6924176
+      ],
+      "rom_occurrence_addresses": [
+        141139152,
+        141141904
+      ]
+    },
+    {
+      "tile_pattern_sha256": "860d3df45c1f7b814bf03f3134ecfef19d888de7e83723b68fa5597b3bcc0fac",
+      "tile_indices": [
+        584
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 17,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6922608
+      ],
+      "rom_occurrence_addresses": [
+        141140336
+      ]
+    },
+    {
+      "tile_pattern_sha256": "f73ec48febff4cff5fb00c2653ce521372b3e0e7b2d33808b2059ca9268a5507",
+      "tile_indices": [
+        608
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 17,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921072
+      ],
+      "rom_occurrence_addresses": [
+        141138800
+      ]
+    },
+    {
+      "tile_pattern_sha256": "ffd372981a9caffd753510e01c71ab1da41f30a73341ad6d7a79673dfcc9c158",
+      "tile_indices": [
+        590,
+        618
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 16,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6920752
+      ],
+      "rom_occurrence_addresses": [
+        141138480
+      ]
+    },
+    {
+      "tile_pattern_sha256": "d063c05db6134ccfa7b479415cf6dd69e86df35b6a4d54392841a6762193643b",
+      "tile_indices": [
+        607
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 16,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6923728
+      ],
+      "rom_occurrence_addresses": [
+        141141456
+      ]
+    },
+    {
+      "tile_pattern_sha256": "112b7bfab1ba7a906d3b5f9075939425155514c958dec9bd2b7e5e136d446684",
+      "tile_indices": [
+        585
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 15,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6922640
+      ],
+      "rom_occurrence_addresses": [
+        141140368
+      ]
+    },
+    {
+      "tile_pattern_sha256": "1584e7159967da9092292d01d6ba755b1d5132aea2d5567738a1671d23d16a9a",
+      "tile_indices": [
+        601
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 15,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6922256
+      ],
+      "rom_occurrence_addresses": [
+        141139984
+      ]
+    },
+    {
+      "tile_pattern_sha256": "4204a366e75bd32636ce675e2adf2e343dc1c6a4df4f765db7082768b6763ffe",
+      "tile_indices": [
+        609
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 14,
+      "rom_occurrence_count_lower_bound": 2,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921104,
+        6923856
+      ],
+      "rom_occurrence_addresses": [
+        141138832,
+        141141584
+      ]
+    },
+    {
+      "tile_pattern_sha256": "0299fedf051dfee1e2a29d4e52f3cc290a3625ef5b19a8c02be3d95970b5699d",
+      "tile_indices": [
+        613,
+        625
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 14,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6920848
+      ],
+      "rom_occurrence_addresses": [
+        141138576
+      ]
+    },
+    {
+      "tile_pattern_sha256": "f514c6e5920c28872c581c492c3b911097827a52f767ad022bf224b1f25733d8",
+      "tile_indices": [
+        615
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 14,
+      "rom_occurrence_count_lower_bound": 2,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921040,
+        6923792
+      ],
+      "rom_occurrence_addresses": [
+        141138768,
+        141141520
+      ]
+    },
+    {
+      "tile_pattern_sha256": "da84b72007d22329b5c5572f10ccae3b03e2c2277bd4e455ddecd4c64e4597a5",
+      "tile_indices": [
+        604
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 13,
+      "rom_occurrence_count_lower_bound": 2,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921200,
+        6922288
+      ],
+      "rom_occurrence_addresses": [
+        141138928,
+        141140016
+      ]
+    },
+    {
+      "tile_pattern_sha256": "7e933587a0b0508b6a699b368341dbf5ba7373653fac683d39ff705a51d40b76",
+      "tile_indices": [
+        648
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 13,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921648
+      ],
+      "rom_occurrence_addresses": [
+        141139376
+      ]
+    },
+    {
+      "tile_pattern_sha256": "19847a482166f192fd757598632552f1cfb8fba043681d8069289ca4170b34a5",
+      "tile_indices": [
+        649
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 13,
+      "rom_occurrence_count_lower_bound": 2,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921680,
+        6924432
+      ],
+      "rom_occurrence_addresses": [
+        141139408,
+        141142160
+      ]
+    },
+    {
+      "tile_pattern_sha256": "6e0e0de1af60cb13254ce988444b8ead56410cf454c0b4113db12a69229ee485",
+      "tile_indices": [
+        600
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 12,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6922224
+      ],
+      "rom_occurrence_addresses": [
+        141139952
+      ]
+    },
+    {
+      "tile_pattern_sha256": "d09f4ea2fe5ea0766b389ec9ffd8c014aea25620cba7c1728e823f737061bc86",
+      "tile_indices": [
+        605
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 12,
+      "rom_occurrence_count_lower_bound": 2,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921232,
+        6923984
+      ],
+      "rom_occurrence_addresses": [
+        141138960,
+        141141712
+      ]
+    },
+    {
+      "tile_pattern_sha256": "aba0eac01aa5b5ae06944106c551b64db0f277b298f76db3576c6b9ad225704c",
+      "tile_indices": [
+        637
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 12,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6932624
+      ],
+      "rom_occurrence_addresses": [
+        141150352
+      ]
+    },
+    {
+      "tile_pattern_sha256": "d0158ba92884a8af682f960526003330f475134540f72ecd75cedb80581fb46f",
+      "tile_indices": [
+        638
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 11,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6923184
+      ],
+      "rom_occurrence_addresses": [
+        141140912
+      ]
+    },
+    {
+      "tile_pattern_sha256": "18dfb1e53d4e0847639c1dc020ab29e427c5cc7817cb44d4fd30dd05545eb969",
+      "tile_indices": [
+        620,
+        646
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 10,
+      "rom_occurrence_count_lower_bound": 6,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6914224,
+        6919149,
+        6921392,
+        6926641,
+        6931817,
+        6932521
+      ],
+      "rom_occurrence_addresses": [
+        141131952,
+        141136877,
+        141139120,
+        141144369,
+        141149545,
+        141150249
+      ]
+    },
+    {
+      "tile_pattern_sha256": "e08d260f31a4ea8be9da3f296f601c1e640e27bd97c71b25005dcaca07344958",
+      "tile_indices": [
+        636
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 10,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6932592
+      ],
+      "rom_occurrence_addresses": [
+        141150320
+      ]
+    },
+    {
+      "tile_pattern_sha256": "1902a51ed09548c77795f64a2ef288f10d63b593f797ab58527c4d6844815320",
+      "tile_indices": [
+        639
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 9,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6923216
+      ],
+      "rom_occurrence_addresses": [
+        141140944
+      ]
+    },
+    {
+      "tile_pattern_sha256": "9e39db0fab5a0fa2394671deed3f83268656373178e645a7c5260de482623eb3",
+      "tile_indices": [
+        588
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 7,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921776
+      ],
+      "rom_occurrence_addresses": [
+        141139504
+      ]
+    },
+    {
+      "tile_pattern_sha256": "708f1d64be5bb14c25b54e71a93a07d1a169d8cedfa69a8782fb9e3336c5ca6a",
+      "tile_indices": [
+        589
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 7,
+      "rom_occurrence_count_lower_bound": 2,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6921808,
+        6924560
+      ],
+      "rom_occurrence_addresses": [
+        141139536,
+        141142288
+      ]
+    },
+    {
+      "tile_pattern_sha256": "045e6ab09c28b582adc155d5f0f5f0cbf0345950c75a6a6d3d555bea1e5f960d",
+      "tile_indices": [
+        606
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 5,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6923696
+      ],
+      "rom_occurrence_addresses": [
+        141141424
+      ]
+    },
+    {
+      "tile_pattern_sha256": "0ce1a465bd275834ffe1208edad2a6d3ac938a00aaeaf78a956d963ef6f7631e",
+      "tile_indices": [
+        610,
+        622
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 4,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6925808
+      ],
+      "rom_occurrence_addresses": [
+        141143536
+      ]
+    },
+    {
+      "tile_pattern_sha256": "2cdab0603f6249974c34d360c056bea5c5ea4df70ecac5dc6707b1ac546d6453",
+      "tile_indices": [
+        587
+      ],
+      "palette_banks": [
+        15
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 2,
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "rom_occurrence_offsets": [
+        6919440
+      ],
+      "rom_occurrence_addresses": [
+        141137168
+      ]
+    }
+  ],
+  "interpretation_notice": "An exact byte-pattern occurrence is only a ROM-location lead. It does not prove this location is the loaded font source, establish a text encoding, or show a renderer path."
+}

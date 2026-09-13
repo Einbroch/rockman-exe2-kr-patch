@@ -1,0 +1,16 @@
+{
+  "rom_sha256": "8d6ed5473404d2dcaf6056297324e86a47d88b4c999324eb40ab8a7a5e8ac11a",
+  "exit_code": 0,
+  "audio_enabled": false,
+  "scope": "renderer intervention at frame 1800, then real input and rendering; not natural map entry",
+  "screenshots": [
+    "cancel_branch.png",
+    "choice_alternate.png",
+    "choice_cancel.png",
+    "choice_default.png",
+    "choice_repeat.png",
+    "first_page.png",
+    "no_branch.png",
+    "yes_branch.png"
+  ]
+}

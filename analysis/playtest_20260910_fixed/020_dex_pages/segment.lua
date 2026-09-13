@@ -1,0 +1,54 @@
+
+local root="C:/Users/Public/Documents/ESTsoft/CreatorTemp/exe2-play-gq0yjn4c"
+local actions={{start=0,release=6,finish=246,keys={"a"}},{start=246,release=252,finish=492,keys={"a"}},{start=492,release=498,finish=738,keys={"a"}},{start=738,release=744,finish=984,keys={"a"}},{start=984,release=990,finish=1230,keys={"a"}},{start=1230,release=1236,finish=1476,keys={"a"}},{start=1476,release=1482,finish=1722,keys={"a"}},{start=1722,release=1728,finish=1968,keys={"a"}},{start=1968,release=1974,finish=2214,keys={"a"}},{start=2214,release=2220,finish=2460,keys={"a"}},{start=2460,release=2466,finish=2706,keys={"a"}},{start=2706,release=2712,finish=2952,keys={"a"}}}
+local frame=0
+local ready=not true
+local final=false
+local function write(name,data)
+ local f=assert(io.open(root..'/'..name,'wb'));f:write(data);f:close()
+end
+local function capture(name)
+ write(name..'.png',emu.takeScreenshot())
+ local ram=emu.memType.gbaExtWorkRam
+ write(name..'.json',string.format('{"frame":%d,"renderer_state":%d,"entry":%d,"col":%d,"row":%d}',frame,emu.read(0x8730,ram),emu.read(0x8731,ram),emu.read(0x873e,ram),emu.read(0x873f,ram)))
+end
+local function onceExec(fn)
+ local id
+ id=emu.addMemoryCallback(function()
+  emu.removeMemoryCallback(id,emu.callbackType.exec,0,0x0fffffff)
+  fn()
+ end,emu.callbackType.exec,0,0x0fffffff)
+end
+if true then
+ onceExec(function()
+  local f=assert(io.open(root..'/input.mss','rb'));local data=f:read('*a');f:close()
+  assert(emu.loadSavestate(data),'State load failed')
+  write('loaded.txt','true');ready=true
+ end)
+end
+emu.addEventCallback(function()
+ local keys={a=false,b=false,l=false,r=false,start=false,select=false,up=false,down=false,left=false,right=false}
+ if ready and not final then
+  for _,a in ipairs(actions) do
+   if frame>=a.start and frame<a.release then
+    for _,k in ipairs(a.keys) do keys[k]=true end
+   end
+  end
+ end
+ emu.setInput(keys,0)
+end,emu.eventType.inputPolled)
+emu.addEventCallback(function()
+ if not ready or final then return end
+ frame=frame+1
+ for i,a in ipairs(actions) do
+  if frame==a.finish then capture(string.format('step_%03d',i)) end
+ end
+ if frame>=2952 then
+  final=true
+  onceExec(function()
+   write('checkpoint.mss',emu.createSavestate())
+   write('complete.txt',tostring(frame))
+   emu.stop(0)
+  end)
+ end
+end,emu.eventType.endFrame)

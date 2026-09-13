@@ -1,0 +1,2 @@
+# Local derivative ROMs and visual test artifacts are never source inputs.
+output/

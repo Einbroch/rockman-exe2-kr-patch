@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "kind": "static_multi_archive_translation_batch_audit",
+  "source_rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+  "inputs": {
+    "plan_sha256": "121d1a8e3bb9c6be72d50ff69b1a43bb797e190e5001f11eb5cd61b7e53b858d",
+    "authored_translation_sha256": "59b9116abae3cc5de3888fb7055a664c9101a7d5d652e770339009756a8b08ff",
+    "protected_batch_sha256": "7ee829ce4413d03ce68afd7fd790d6b29c54dbefe1451891ab26cb68dcc76f8c",
+    "batch_builder_sha256": "8eed9da6385caa7af8bcaf6172368f02bc2624460619c23d01b1eaea8b1853f4"
+  },
+  "scope": {
+    "requested_text_bearing_entry_count": 100,
+    "actual_text_bearing_entry_count": 100,
+    "archive_entry_counts": {
+      "00/250": 2,
+      "00/251": 14,
+      "00/252": 18,
+      "00/253": 8,
+      "00/254": 16,
+      "00/255": 15,
+      "00/256": 6,
+      "00/257": 3,
+      "00/258": 18
+    },
+    "remaining_text_entries": {
+      "00/250": 0,
+      "00/251": 0,
+      "00/252": 0,
+      "00/253": 0,
+      "00/254": 0,
+      "00/255": 0,
+      "00/256": 0,
+      "00/257": 0,
+      "00/258": 1
+    }
+  },
+  "archives": [
+    {
+      "selector": "00/250",
+      "rom_offset": 7881368,
+      "storage": "raw",
+      "stored_byte_length": 111,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "5c8286da90671cb0afb7cd9a98664cf4527af06066b31cd3da659d484b130149",
+      "tpl_sha256": "4289dfbb8233b586894ec0d8c0aa7f8fe79949df8f63008412412347abaa885d",
+      "selected_text_entry_count": 2,
+      "last_selected_entry_index": 1,
+      "remaining_text_entries": 0,
+      "textpet_roundtrip_byte_identical": true
+    },
+    {
+      "selector": "00/251",
+      "rom_offset": 7881520,
+      "storage": "raw",
+      "stored_byte_length": 603,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "0ad4f44951d62ea34f5c8c221369668e946533aeb8f5342622403cf9a581fa5c",
+      "tpl_sha256": "723c537ef57bd097c53b4cf8223de0862eec4ef92fbd5f56e281e6d25ae56e10",
+      "selected_text_entry_count": 14,
+      "last_selected_entry_index": 13,
+      "remaining_text_entries": 0,
+      "textpet_roundtrip_byte_identical": true
+    },
+    {
+      "selector": "00/252",
+      "rom_offset": 7882152,
+      "storage": "raw",
+      "stored_byte_length": 742,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "98b7d4d05da60005fc02fd16fc155f1205156b843f402aad8b4ec22b6af3f18e",
+      "tpl_sha256": "24273b02c7060b11acc1bd90e2a38ee86aa1f5ffc4e5bdd036a0fd41c7de6868",
+      "selected_text_entry_count": 18,
+      "last_selected_entry_index": 17,
+      "remaining_text_entries": 0,
+      "textpet_roundtrip_byte_identical": true
+    },
+    {
+      "selector": "00/253",
+      "rom_offset": 7882968,
+      "storage": "raw",
+      "stored_byte_length": 428,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "d224643f7117aa781fb7930f01ad3a5dbcf5ea9b6f24d242c190167ed57f5c08",
+      "tpl_sha256": "78cc0435d3cd2d27adc7f6f969b27647f78e269924dea348ef653e5652da6cee",
+      "selected_text_entry_count": 8,
+      "last_selected_entry_index": 7,
+      "remaining_text_entries": 0,
+      "textpet_roundtrip_byte_identical": true
+    },
+    {
+      "selector": "00/254",
+      "rom_offset": 7883424,
+      "storage": "raw",
+      "stored_byte_length": 1111,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "308a196505d359b3c87e9661223f8cf461ea93e31655c3ccb0fc324fe849d98c",
+      "tpl_sha256": "16f54de27f680a6918d3f170b78b717e9cc037beace977ab003a2e6a89c39916",
+      "selected_text_entry_count": 16,
+      "last_selected_entry_index": 15,
+      "remaining_text_entries": 0,
+      "textpet_roundtrip_byte_identical": true
+    },
+    {
+      "selector": "00/255",
+      "rom_offset": 7884588,
+      "storage": "raw",
+      "stored_byte_length": 753,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "4ce1e6350153218e45f9162e8297c164a3a479a7a654d5faf8bf0c052ad432b3",
+      "tpl_sha256": "749cd1546a271919007f420b16b0d6df21319489293c4d2423ad3930833a5e4e",
+      "selected_text_entry_count": 15,
+      "last_selected_entry_index": 14,
+      "remaining_text_entries": 0,
+      "textpet_roundtrip_byte_identical": true
+    },
+    {
+      "selector": "00/256",
+      "rom_offset": 7885384,
+      "storage": "raw",
+      "stored_byte_length": 238,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "e1edf5f2a568032d576d8f418c1d0451107370e9484a6db7eceda0bf54a7629c",
+      "tpl_sha256": "aac793a61e61fae6bd01677af5e0996b7982b0a0a3714bc614844d91117bda26",
+      "selected_text_entry_count": 6,
+      "last_selected_entry_index": 5,
+      "remaining_text_entries": 0,
+      "textpet_roundtrip_byte_identical": true
+    },
+    {
+      "selector": "00/257",
+      "rom_offset": 7885696,
+      "storage": "raw",
+      "stored_byte_length": 86,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "37c23f6bd04b9d9bb7e65cb3133ea3fc041ac553cedd542f456d1d2b5a5a2bbf",
+      "tpl_sha256": "14159f34665d70fed280864c24c1f5095482a65f694e7a8dca61085275d641c4",
+      "selected_text_entry_count": 3,
+      "last_selected_entry_index": 2,
+      "remaining_text_entries": 0,
+      "textpet_roundtrip_byte_identical": true
+    },
+    {
+      "selector": "00/258",
+      "rom_offset": 7885824,
+      "storage": "raw",
+      "stored_byte_length": 1157,
+      "compressed_byte_length": null,
+      "decompressed_sha256": "24a80be346ee40b7cf1efc3e7310fe203280de67eb3df35ac3c8fa6b641b5ab7",
+      "tpl_sha256": "7cbe767e5d4be1db18dd2b4f43ad4ea7a4fae03630f6212f4a8b02ea1c8e0fd4",
+      "selected_text_entry_count": 18,
+      "last_selected_entry_index": 17,
+      "remaining_text_entries": 1,
+      "textpet_roundtrip_byte_identical": true
+    }
+  ],
+  "checks": {
+    "plan_count_matches_100": true,
+    "authored_keys_match_planned_source_order": true,
+    "protected_keys_match_planned_source_order": true,
+    "authored_keys_are_unique": true,
+    "stable_ids_across_all_100_entry_batches_are_unique": true,
+    "all_source_archive_roundtrips_are_byte_identical": true,
+    "source_entry_lengths_match_rom_archives": true,
+    "source_entry_raw_hex_matches_rom_archives": true,
+    "source_entry_sha256_values_match_rom_archives": true,
+    "source_tpl_block_sha256_values_match_byte_preserving_tpl_decode": true,
+    "all_draft_translations_are_nonempty": true,
+    "japanese_kana_residual_check_passed": true,
+    "all_authored_control_tags_are_recognized": true,
+    "all_tracked_inline_source_commands_are_exactly_represented": true,
+    "deterministic_rebuild_is_byte_identical": true
+  },
+  "control_mismatches": [],
+  "font_repertoire_projection": {
+    "batch_distinct_hangul_syllables": 372,
+    "completed_100_entry_batch_count": 42,
+    "projected_combined_distinct_hangul_syllables": 1077,
+    "contextual_font_bank_capacity": 713,
+    "projected_remaining_capacity": -364,
+    "capacity_check_passed": false,
+    "overflow_distinct_hangul_syllables": 364
+  },
+  "state": {
+    "translation_review": "machine_draft_needs_human_review",
+    "rom_reinsertion": "blocked_by_contextual_font_bank_capacity",
+    "emulator_test": "deferred_by_user_request",
+    "release_or_rom_build_eligible": false
+  },
+  "protected_translation_structure_passed": true,
+  "build_capacity_passed": false,
+  "passed": false
+}

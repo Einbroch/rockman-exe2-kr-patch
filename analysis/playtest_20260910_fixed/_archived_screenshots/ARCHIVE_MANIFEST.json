@@ -1,0 +1,2731 @@
+{
+  "purpose": "Recoverable archive of inspected no-issue screenshots",
+  "created": "2026-09-10T22:45:23.7636253+09:00",
+  "updated": "2026-09-10T23:01:55.4048744+09:00",
+  "files": [
+    {
+      "original": "162_shop_npc\\step_001.png",
+      "archive": "_archived_screenshots\\162_shop_npc\\step_001.png",
+      "sha256": "f5441895a357365590c21b99876705d468b3997366b61e2977536354afd6225d",
+      "length": 8649
+    },
+    {
+      "original": "162_shop_npc\\step_002.png",
+      "archive": "_archived_screenshots\\162_shop_npc\\step_002.png",
+      "sha256": "fe458b35d833b283d0bf7e93f350d1b0ab18a6ac5d7bb7c6720a2bb487071a51",
+      "length": 8368
+    },
+    {
+      "original": "162_shop_npc\\step_003.png",
+      "archive": "_archived_screenshots\\162_shop_npc\\step_003.png",
+      "sha256": "5d143c753d5dc2c6cd21859ab81e288ac2411af7849513e83573dbe093aa470b",
+      "length": 8147
+    },
+    {
+      "original": "164_shop_npc_close\\step_001.png",
+      "archive": "_archived_screenshots\\164_shop_npc_close\\step_001.png",
+      "sha256": "13227e773fcbfdea41e79d9afb0ff41134993bdc9d25b50688364a7a401e398c",
+      "length": 7477
+    },
+    {
+      "original": "165_shop_entry\\step_001.png",
+      "archive": "_archived_screenshots\\165_shop_entry\\step_001.png",
+      "sha256": "7962c7b31b29c5a40f5e1388707d8d82c0f31815ca8b055d80061be5dcca78b9",
+      "length": 7186
+    },
+    {
+      "original": "165_shop_entry\\step_002.png",
+      "archive": "_archived_screenshots\\165_shop_entry\\step_002.png",
+      "sha256": "73eb7fee55f167197dba4e241c6df0709e3da6f81d50519fb23c41f28c61d3d4",
+      "length": 8579
+    },
+    {
+      "original": "166_shop_entry2\\step_001.png",
+      "archive": "_archived_screenshots\\166_shop_entry2\\step_001.png",
+      "sha256": "b48696d37e254ee3f98a34a15603a545a4505b9a77e3de54d26dae52ae475be2",
+      "length": 7170
+    },
+    {
+      "original": "166_shop_entry2\\step_002.png",
+      "archive": "_archived_screenshots\\166_shop_entry2\\step_002.png",
+      "sha256": "2cce594da8aeec8392c8d0134f664157487f8053c12da6c3196af77b4ab7ad4d",
+      "length": 7899
+    },
+    {
+      "original": "166_shop_entry2\\step_003.png",
+      "archive": "_archived_screenshots\\166_shop_entry2\\step_003.png",
+      "sha256": "6f84de13183ad7619e62a8708c160da0874a231cc9a1ec1a56c0dfe552d1095e",
+      "length": 8931
+    },
+    {
+      "original": "168_shop_inside\\step_001.png",
+      "archive": "_archived_screenshots\\168_shop_inside\\step_001.png",
+      "sha256": "a094f31aa30338f39366c22aaebcfcd5318f6b623523b1928e66c382bd71ea0b",
+      "length": 8855
+    },
+    {
+      "original": "169_shop_door_up\\step_001.png",
+      "archive": "_archived_screenshots\\169_shop_door_up\\step_001.png",
+      "sha256": "6f7aafc0cfabdcb2179dd6d10fec025db47bf8841cf9ac3401c3005c5908c47e",
+      "length": 8088
+    },
+    {
+      "original": "169_shop_door_up\\step_002.png",
+      "archive": "_archived_screenshots\\169_shop_door_up\\step_002.png",
+      "sha256": "b5f321ae7147f87981193a6e5d38787ea05451a47a6dc70af9e3fcb0e25bcd5e",
+      "length": 8091
+    },
+    {
+      "original": "170_shop_npc_blue\\step_001.png",
+      "archive": "_archived_screenshots\\170_shop_npc_blue\\step_001.png",
+      "sha256": "b64a24a4693ac54e598bcedb35ad89a93a750c31de2e1287ce76bdaa841139fe",
+      "length": 8086
+    },
+    {
+      "original": "171_street_npc\\step_001.png",
+      "archive": "_archived_screenshots\\171_street_npc\\step_001.png",
+      "sha256": "ba317283909ab945d60e54641f2dd0f42c72f3cf50f7e2f00eeaa39c508933ec",
+      "length": 8239
+    },
+    {
+      "original": "171_street_npc\\step_002.png",
+      "archive": "_archived_screenshots\\171_street_npc\\step_002.png",
+      "sha256": "fc8ae8ac534d8db795f478a418c105023157b527d40ac4dbbc03394a269a1e0e",
+      "length": 8513
+    },
+    {
+      "original": "172_street_statue\\step_001.png",
+      "archive": "_archived_screenshots\\172_street_statue\\step_001.png",
+      "sha256": "3cfe725f59ce56def0b33c41b8daff5942ebe12178a54b60d29d370355c8a3c7",
+      "length": 9013
+    },
+    {
+      "original": "172_street_statue\\step_002.png",
+      "archive": "_archived_screenshots\\172_street_statue\\step_002.png",
+      "sha256": "8df55b3670596410b460982d941820c652553d69991ece6037dad9c199c38549",
+      "length": 7818
+    },
+    {
+      "original": "172_street_statue\\step_003.png",
+      "archive": "_archived_screenshots\\172_street_statue\\step_003.png",
+      "sha256": "a3fb49be45bf7f38cbb91431e0a5e9e5b76e8f2f49986914f48acf4e53861f89",
+      "length": 7951
+    },
+    {
+      "original": "173_park_slide\\step_001.png",
+      "archive": "_archived_screenshots\\173_park_slide\\step_001.png",
+      "sha256": "475a705f48d5fedbac237319d6f98dbe1fcb88d22cea5a7d5dd50641de089d1a",
+      "length": 8238
+    },
+    {
+      "original": "173_park_slide\\step_002.png",
+      "archive": "_archived_screenshots\\173_park_slide\\step_002.png",
+      "sha256": "794ee7236f4681f2bedaec776fbf89e55e482586f07f30ce259e5e9714fa40ac",
+      "length": 8142
+    },
+    {
+      "original": "174_park_npc\\step_001.png",
+      "archive": "_archived_screenshots\\174_park_npc\\step_001.png",
+      "sha256": "0ddcee894e3805ebddd75e7a6b0bc31a02a9b8154e70261525908ad5d7eaeb84",
+      "length": 8170
+    },
+    {
+      "original": "174_park_npc\\step_002.png",
+      "archive": "_archived_screenshots\\174_park_npc\\step_002.png",
+      "sha256": "8050d845c80f8c6ffd2cc3a2833817f851f483f60504f00ae5b0be16c854023f",
+      "length": 8042
+    },
+    {
+      "original": "175_street_north\\step_001.png",
+      "archive": "_archived_screenshots\\175_street_north\\step_001.png",
+      "sha256": "1636b5edbad9300c1d4a08e4d2b32229cbfbbd08706dbe817be77aae6d9d5b43",
+      "length": 8750
+    },
+    {
+      "original": "176_street_south\\step_001.png",
+      "archive": "_archived_screenshots\\176_street_south\\step_001.png",
+      "sha256": "9f428acad8bd125f6bd8452592d85cccfe8cba499073d45e5025dc04d4662bcf",
+      "length": 8156
+    },
+    {
+      "original": "001_coldboot_continue\\step_001.png",
+      "archive": "_archived_screenshots\\001_coldboot_continue\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\001_coldboot_continue\\step_001.png",
+      "sha256": "604369a28161d09b505ad9d6e48094d4b8b8b3ae52196ed1aa40789ad47f1aa5",
+      "length": 14551
+    },
+    {
+      "original": "001_coldboot_continue\\step_002.png",
+      "archive": "_archived_screenshots\\001_coldboot_continue\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\001_coldboot_continue\\step_002.png",
+      "sha256": "47789268e6192cb8d7e96c9b40f513a9a70ef0b3b8b58d58026fb7518799bf91",
+      "length": 14333
+    },
+    {
+      "original": "002_route_dex\\step_001.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_001.png",
+      "sha256": "8588f142966039645b26cee55356e01404cb7cc951745d11f4eb0b82f299a00e",
+      "length": 5229
+    },
+    {
+      "original": "002_route_dex\\step_002.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_002.png",
+      "sha256": "0c602cf69c1b4b6330fd38f57b4df579281a861a6a868ab9f468abd03a532943",
+      "length": 6665
+    },
+    {
+      "original": "002_route_dex\\step_003.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_003.png",
+      "sha256": "3b4961d6a1cbd4dda7f75751a62f27281cd96f37687950d1b2c41a8aef193970",
+      "length": 7220
+    },
+    {
+      "original": "002_route_dex\\step_004.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_004.png",
+      "sha256": "6973f881a7d1e3b96df2dcb5dc409dae8ef4ad8b4186da712750629993942927",
+      "length": 8038
+    },
+    {
+      "original": "002_route_dex\\step_005.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_005.png",
+      "sha256": "6e0ab5eaa069c3c59264722385157b192f7a040ab22597843eeffed7e6b2e85b",
+      "length": 9183
+    },
+    {
+      "original": "002_route_dex\\step_006.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_006.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_006.png",
+      "sha256": "08db62e904d97f515d6ca293b1569d89ba987c80339d85c51f6423c13285ab62",
+      "length": 8533
+    },
+    {
+      "original": "002_route_dex\\step_007.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_007.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_007.png",
+      "sha256": "1b08d9f28ad2ef09307a40e551d3fb63fa6287ad034d0748e0ff859c2584fc21",
+      "length": 8155
+    },
+    {
+      "original": "002_route_dex\\step_008.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_008.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_008.png",
+      "sha256": "4ebdb6d20ff8bcf0b5de5679722c37eb2a8d8ac7370724ab95c2dde66d17167f",
+      "length": 7934
+    },
+    {
+      "original": "002_route_dex\\step_009.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_009.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_009.png",
+      "sha256": "c7a2b4528fe11b8f303ad7b032faa9fed9d93ca737b52f69170db23784cba2a2",
+      "length": 8552
+    },
+    {
+      "original": "002_route_dex\\step_010.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_010.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_010.png",
+      "sha256": "fad3966f4fe88b4ca68b5bb11a6e4173fa5c1cacf4f4c66a65da83640ca5e7ca",
+      "length": 9255
+    },
+    {
+      "original": "002_route_dex\\step_011.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_011.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_011.png",
+      "sha256": "2d44ebc7c744c4440509a2423d7b6ce930eba61adb08697fb5138a641e576865",
+      "length": 8749
+    },
+    {
+      "original": "002_route_dex\\step_012.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_012.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_012.png",
+      "sha256": "a7fb39375219152d515935c8e3c0cd3f42a4c4ff0bb74b2703b572479b89ae9e",
+      "length": 9763
+    },
+    {
+      "original": "002_route_dex\\step_013.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_013.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_013.png",
+      "sha256": "66a749ae80dfbb11b90953e28f9250530b87659a820ac06793370b0cce47c8b7",
+      "length": 8459
+    },
+    {
+      "original": "002_route_dex\\step_014.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_014.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_014.png",
+      "sha256": "ccd2dadeea150b56b47855f1c2817050355a1590a7b56abd4a873454e761be21",
+      "length": 7832
+    },
+    {
+      "original": "002_route_dex\\step_015.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_015.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_015.png",
+      "sha256": "5b395f1799f23a1aa1ab2d257073cd2e58b96295b481ce1fc4cc7d54b48bb317",
+      "length": 8364
+    },
+    {
+      "original": "002_route_dex\\step_016.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_016.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_016.png",
+      "sha256": "47f62c3558a9e5902a052cede49ce9127017303ad3405e2f26f6bc76f841976f",
+      "length": 7366
+    },
+    {
+      "original": "002_route_dex\\step_017.png",
+      "archive": "_archived_screenshots\\002_route_dex\\step_017.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\002_route_dex\\step_017.png",
+      "sha256": "46fd243e2f06374b996e7de00c8e0a58228eafbf136d93eb241c655e397436fd",
+      "length": 7151
+    },
+    {
+      "original": "003_teacher_replay\\step_001.png",
+      "archive": "_archived_screenshots\\003_teacher_replay\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\step_001.png",
+      "sha256": "e1fd1371762c6beee7428ee6bcd6f887434c463a092e824f5f35013c751cc43a",
+      "length": 7380
+    },
+    {
+      "original": "003_teacher_replay\\step_002.png",
+      "archive": "_archived_screenshots\\003_teacher_replay\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\step_002.png",
+      "sha256": "19f123ed9a2b48cc4a23e956a70fcb125fc68fab3d35a97e8cc080cd017a1e06",
+      "length": 7384
+    },
+    {
+      "original": "003_teacher_replay\\step_003.png",
+      "archive": "_archived_screenshots\\003_teacher_replay\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\step_003.png",
+      "sha256": "bffce0721e072befea9ee9e1d682b8453db3c378b152b2e17bd1a953193b561d",
+      "length": 7444
+    },
+    {
+      "original": "003_teacher_replay\\step_004.png",
+      "archive": "_archived_screenshots\\003_teacher_replay\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\step_004.png",
+      "sha256": "97ab80c82a854a48ddc23b633e6066e53d1d732e63c7072cc87c7b356af7de2f",
+      "length": 7376
+    },
+    {
+      "original": "003_teacher_replay\\step_005.png",
+      "archive": "_archived_screenshots\\003_teacher_replay\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\step_005.png",
+      "sha256": "1fdf47e437c2d6b8999d34d7776c56de3f861aa133ab6f3b7b9da1c0b2c073b5",
+      "length": 6498
+    },
+    {
+      "original": "003_teacher_replay\\step_006.png",
+      "archive": "_archived_screenshots\\003_teacher_replay\\step_006.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\step_006.png",
+      "sha256": "0409b255bd784a795d7546dce48920553af3ee48a2fc0964a063713171160b61",
+      "length": 6769
+    },
+    {
+      "original": "003_teacher_replay\\step_007.png",
+      "archive": "_archived_screenshots\\003_teacher_replay\\step_007.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\step_007.png",
+      "sha256": "84be3630b220e9a8ed3afbd6e9002e00b7e94c4f4b221d9392cc2cad4615ddee",
+      "length": 7047
+    },
+    {
+      "original": "003_teacher_replay\\step_008.png",
+      "archive": "_archived_screenshots\\003_teacher_replay\\step_008.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\step_008.png",
+      "sha256": "d53ee75c9024b7c17bae4814f808a4571a397187cc46e9b74f830e43ccbf7de0",
+      "length": 7227
+    },
+    {
+      "original": "003_teacher_replay\\step_009.png",
+      "archive": "_archived_screenshots\\003_teacher_replay\\step_009.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\step_009.png",
+      "sha256": "fcce4df16e5a11bfc1e50db7c1575f2fe0eb73432cc32a29568cc8535d1c5e0a",
+      "length": 6461
+    },
+    {
+      "original": "003_teacher_replay\\step_010.png",
+      "archive": "_archived_screenshots\\003_teacher_replay\\step_010.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\003_teacher_replay\\step_010.png",
+      "sha256": "e699ac5acf93e864f916c12c7c36c2887d07d2ad0ca0a18a8f5355f127639535",
+      "length": 6989
+    },
+    {
+      "original": "004_teacher_replay\\step_001.png",
+      "archive": "_archived_screenshots\\004_teacher_replay\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\step_001.png",
+      "sha256": "63af5c08bfce9f83ea661fe73702f9f2b9a4350b3d26ec84c302ed9210e8acd2",
+      "length": 6804
+    },
+    {
+      "original": "004_teacher_replay\\step_002.png",
+      "archive": "_archived_screenshots\\004_teacher_replay\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\step_002.png",
+      "sha256": "0974557ee61cfb83c67004b7a34536a2719e8c6ed5b662ce2d55d859c92d261a",
+      "length": 6850
+    },
+    {
+      "original": "004_teacher_replay\\step_003.png",
+      "archive": "_archived_screenshots\\004_teacher_replay\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\step_003.png",
+      "sha256": "31c67d5d7cf47a4b9ff874528734a91ce2e378025284033edce45882bdfe3d0d",
+      "length": 7047
+    },
+    {
+      "original": "004_teacher_replay\\step_004.png",
+      "archive": "_archived_screenshots\\004_teacher_replay\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\step_004.png",
+      "sha256": "28f8eac9549609722c1c98c07cff144d220607dbe2fbafd90705a437c3e1d082",
+      "length": 7016
+    },
+    {
+      "original": "004_teacher_replay\\step_005.png",
+      "archive": "_archived_screenshots\\004_teacher_replay\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\step_005.png",
+      "sha256": "316fce80d0483e78aca4ff6b4eb3b6938e924349478887caad1379c6ec02dc6c",
+      "length": 6631
+    },
+    {
+      "original": "004_teacher_replay\\step_006.png",
+      "archive": "_archived_screenshots\\004_teacher_replay\\step_006.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\step_006.png",
+      "sha256": "0e5ffd7699100e8a2d28ac568d4cec558d8105c69815518989bcc698a7624850",
+      "length": 7081
+    },
+    {
+      "original": "004_teacher_replay\\step_007.png",
+      "archive": "_archived_screenshots\\004_teacher_replay\\step_007.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\step_007.png",
+      "sha256": "fcbbbfbf0cd4521d78dbe114cdb197210606ba2f99e6ffc3ad09cbb6a6f072dc",
+      "length": 6433
+    },
+    {
+      "original": "004_teacher_replay\\step_008.png",
+      "archive": "_archived_screenshots\\004_teacher_replay\\step_008.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\step_008.png",
+      "sha256": "64c2a52f3536c2acd4f9d30eb4c43f2966f1b5bf8e31192f1d88e52445df1a98",
+      "length": 6573
+    },
+    {
+      "original": "004_teacher_replay\\step_009.png",
+      "archive": "_archived_screenshots\\004_teacher_replay\\step_009.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\step_009.png",
+      "sha256": "71d6f3620c1de2944cbdf9be63645640b8db1b223b88131d0676aa997787a8b1",
+      "length": 7004
+    },
+    {
+      "original": "004_teacher_replay\\step_010.png",
+      "archive": "_archived_screenshots\\004_teacher_replay\\step_010.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\004_teacher_replay\\step_010.png",
+      "sha256": "1ffb5ef9e2e9019931d8a2d1378fb3901483244fb424103a2d3ddd476bbca283",
+      "length": 7321
+    },
+    {
+      "original": "005_before_fixed_tail\\step_001.png",
+      "archive": "_archived_screenshots\\005_before_fixed_tail\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\005_before_fixed_tail\\step_001.png",
+      "sha256": "b6cea70fe4301284c899c95f8c05c8edafca5fd1c8c4e5550322e7fb7afa8e9d",
+      "length": 6641
+    },
+    {
+      "original": "005_before_fixed_tail\\step_002.png",
+      "archive": "_archived_screenshots\\005_before_fixed_tail\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\005_before_fixed_tail\\step_002.png",
+      "sha256": "e22a25715a5d30711864db97b5f325d25c02fb47eea10f4c483e00f259be34eb",
+      "length": 6413
+    },
+    {
+      "original": "005_before_fixed_tail\\step_003.png",
+      "archive": "_archived_screenshots\\005_before_fixed_tail\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\005_before_fixed_tail\\step_003.png",
+      "sha256": "6f5f5d239dc589b40c6266b440e7bbfaf20a263388e39d7f99c267eab497460a",
+      "length": 6541
+    },
+    {
+      "original": "005_before_fixed_tail\\step_004.png",
+      "archive": "_archived_screenshots\\005_before_fixed_tail\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\005_before_fixed_tail\\step_004.png",
+      "sha256": "04797c05c1485a7382652a78973c2428a333fe754710143612f605b8932484e2",
+      "length": 6401
+    },
+    {
+      "original": "005_before_fixed_tail\\step_005.png",
+      "archive": "_archived_screenshots\\005_before_fixed_tail\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\005_before_fixed_tail\\step_005.png",
+      "sha256": "f6cfaba2b0cc8e270fc4f87ead9107a0d87ebb8f7fe4984e6d264e05b8cf25bb",
+      "length": 7125
+    },
+    {
+      "original": "007_after_fix_field\\step_003.png",
+      "archive": "_archived_screenshots\\007_after_fix_field\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\007_after_fix_field\\step_003.png",
+      "sha256": "8988b0444ea667530784922c2f4b98aa8302ac02570ed73fa9ef30899a3d4d94",
+      "length": 7396
+    },
+    {
+      "original": "007_after_fix_field\\step_004.png",
+      "archive": "_archived_screenshots\\007_after_fix_field\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\007_after_fix_field\\step_004.png",
+      "sha256": "852fb4e05e22fe16584e9b4d6a6a34e74925a85d55fa1db4360087fcf3ae9b4f",
+      "length": 7394
+    },
+    {
+      "original": "007_after_fix_field\\step_005.png",
+      "archive": "_archived_screenshots\\007_after_fix_field\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\007_after_fix_field\\step_005.png",
+      "sha256": "713edba287acc1659e5e6d1c3b6595e0806fa0f53d30c1026b65278b63b8eb65",
+      "length": 7398
+    },
+    {
+      "original": "007_after_fix_field\\step_006.png",
+      "archive": "_archived_screenshots\\007_after_fix_field\\step_006.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\007_after_fix_field\\step_006.png",
+      "sha256": "4c23886b64c34041c10c9b8630afd44c7147c8efc332323c02cd78cc1c14e08f",
+      "length": 3384
+    },
+    {
+      "original": "008_saved_after_class\\step_001.png",
+      "archive": "_archived_screenshots\\008_saved_after_class\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\008_saved_after_class\\step_001.png",
+      "sha256": "0bf12c17749dab8ff80ac14b13c812ad963695e47ad8fd9a70556c39bd6db7af",
+      "length": 3671
+    },
+    {
+      "original": "008_saved_after_class\\step_003.png",
+      "archive": "_archived_screenshots\\008_saved_after_class\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\008_saved_after_class\\step_003.png",
+      "sha256": "1a048a02e387a49fb04147d586305208e9a7db2d9f2a54985170ac0cefd3bed9",
+      "length": 7330
+    },
+    {
+      "original": "008_saved_after_class\\step_004.png",
+      "archive": "_archived_screenshots\\008_saved_after_class\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\008_saved_after_class\\step_004.png",
+      "sha256": "1ffe5ad9ec68e21e11ff2ac3908b9101205aa79855c3742ee20c398face119c8",
+      "length": 7399
+    },
+    {
+      "original": "009_saved_coldboot\\step_001.png",
+      "archive": "_archived_screenshots\\009_saved_coldboot\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\009_saved_coldboot\\step_001.png",
+      "sha256": "604369a28161d09b505ad9d6e48094d4b8b8b3ae52196ed1aa40789ad47f1aa5",
+      "length": 14551
+    },
+    {
+      "original": "009_saved_coldboot\\step_002.png",
+      "archive": "_archived_screenshots\\009_saved_coldboot\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\009_saved_coldboot\\step_002.png",
+      "sha256": "0f5481dce5ac7d5eb63b92a5759255d6395d89d6c619edf5face6884599a5822",
+      "length": 14326
+    },
+    {
+      "original": "009_saved_coldboot\\step_004.png",
+      "archive": "_archived_screenshots\\009_saved_coldboot\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\009_saved_coldboot\\step_004.png",
+      "sha256": "2c9c3813812e043c8a810878502b70d8be3a22259bf9fcc44f708542a19420ab",
+      "length": 8267
+    },
+    {
+      "original": "010_resume_field\\step_001.png",
+      "archive": "_archived_screenshots\\010_resume_field\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\010_resume_field\\step_001.png",
+      "sha256": "2a56985738170cdc541c828a4a2446b13230de51921dd4faa3a8f229f37df933",
+      "length": 9640
+    },
+    {
+      "original": "011_after_class_walk\\step_001.png",
+      "archive": "_archived_screenshots\\011_after_class_walk\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\011_after_class_walk\\step_001.png",
+      "sha256": "4c18957a18af17c3892beb92b027939c8b77643ab4426df1ed0fdc19dd7bac7b",
+      "length": 9427
+    },
+    {
+      "original": "011_after_class_walk\\step_002.png",
+      "archive": "_archived_screenshots\\011_after_class_walk\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\011_after_class_walk\\step_002.png",
+      "sha256": "2409f85b4e9c7c7d90aed03ebf1dc5729597bb51da45e39512798c0a51cbda0c",
+      "length": 9119
+    },
+    {
+      "original": "012_dex_after_class\\step_001.png",
+      "archive": "_archived_screenshots\\012_dex_after_class\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\012_dex_after_class\\step_001.png",
+      "sha256": "58f09bdb1625c6810f90adf885fd98b112e268a911fb6598f361c313e139cf9d",
+      "length": 8249
+    },
+    {
+      "original": "012_dex_after_class\\step_002.png",
+      "archive": "_archived_screenshots\\012_dex_after_class\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\012_dex_after_class\\step_002.png",
+      "sha256": "1fccc7b041c2aecfd7698e350df58bc545bdc3acc141e67b0bc78aecb1f06276",
+      "length": 7279
+    },
+    {
+      "original": "012_dex_after_class\\step_003.png",
+      "archive": "_archived_screenshots\\012_dex_after_class\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\012_dex_after_class\\step_003.png",
+      "sha256": "01adf6464347e0f962d1f8e164f05e08883fc19c878fcee2c924bea8d43e38c8",
+      "length": 7922
+    },
+    {
+      "original": "013_dex_plan\\step_001.png",
+      "archive": "_archived_screenshots\\013_dex_plan\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\013_dex_plan\\step_001.png",
+      "sha256": "5604e5c3ce7cc8724c0130788af2419e380af80c3ee861dd6e4539b41d2b5814",
+      "length": 7460
+    },
+    {
+      "original": "013_dex_plan\\step_002.png",
+      "archive": "_archived_screenshots\\013_dex_plan\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\013_dex_plan\\step_002.png",
+      "sha256": "f4e63a7ca3adc15ecd8557d214caa5c285131462e2fa5584ae4dcf6aba0f7dc1",
+      "length": 7315
+    },
+    {
+      "original": "013_dex_plan\\step_003.png",
+      "archive": "_archived_screenshots\\013_dex_plan\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\013_dex_plan\\step_003.png",
+      "sha256": "a7b90c82ad54712e8520c643a9d1ba0dee5a609776b1178f283cec593891f89e",
+      "length": 7581
+    },
+    {
+      "original": "013_dex_plan\\step_004.png",
+      "archive": "_archived_screenshots\\013_dex_plan\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\013_dex_plan\\step_004.png",
+      "sha256": "b06156c32cd2ee36ff0201b10ddfa05e363a9ad500e1cde54eddf040393fe16c",
+      "length": 7598
+    },
+    {
+      "original": "013_dex_plan\\step_005.png",
+      "archive": "_archived_screenshots\\013_dex_plan\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\013_dex_plan\\step_005.png",
+      "sha256": "fcbc3885e7254683ae87b352511b67118d55371c8d8546a19dc39edbffd96c50",
+      "length": 7331
+    },
+    {
+      "original": "013_dex_plan\\step_006.png",
+      "archive": "_archived_screenshots\\013_dex_plan\\step_006.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\013_dex_plan\\step_006.png",
+      "sha256": "06e73d069f736fc39b6445a0ff5826c40a481692974aa663a9d19db95028283a",
+      "length": 7406
+    },
+    {
+      "original": "014_dex_end\\step_001.png",
+      "archive": "_archived_screenshots\\014_dex_end\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\014_dex_end\\step_001.png",
+      "sha256": "afee4143c08c2cb0a81fc99c09370f9f9dc811914f8699557b1983740200eaaf",
+      "length": 7289
+    },
+    {
+      "original": "014_dex_end\\step_002.png",
+      "archive": "_archived_screenshots\\014_dex_end\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\014_dex_end\\step_002.png",
+      "sha256": "6657faef75170a4d36abb0ccd0fc7cce99ce4257089354d5b1666c045c8373fa",
+      "length": 7756
+    },
+    {
+      "original": "014_dex_end\\step_003.png",
+      "archive": "_archived_screenshots\\014_dex_end\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\014_dex_end\\step_003.png",
+      "sha256": "6ad80174637424e808ce4a593cba5a39c939c0545a629415c6b55a9826085014",
+      "length": 7567
+    },
+    {
+      "original": "015_dex_end\\step_001.png",
+      "archive": "_archived_screenshots\\015_dex_end\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\015_dex_end\\step_001.png",
+      "sha256": "035cfb287cb4869bced7b0250a2d886beafa6d5cab5a907ce14282d3ec621236",
+      "length": 7090
+    },
+    {
+      "original": "015_dex_end\\step_002.png",
+      "archive": "_archived_screenshots\\015_dex_end\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\015_dex_end\\step_002.png",
+      "sha256": "1a02b3514c4f1328607088f7fec8a6eed1eb67d7e8f79e4fa5e800b6913f8489",
+      "length": 7581
+    },
+    {
+      "original": "015_dex_end\\step_003.png",
+      "archive": "_archived_screenshots\\015_dex_end\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\015_dex_end\\step_003.png",
+      "sha256": "b6f32f4590a80dc17b584078cd6ab1b65b0e4bb54be70ebda8a45c8ee703db4a",
+      "length": 7372
+    },
+    {
+      "original": "015_dex_end\\step_004.png",
+      "archive": "_archived_screenshots\\015_dex_end\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\015_dex_end\\step_004.png",
+      "sha256": "c1efc692ff4807d9a0e86b0c1ea8d3a6f5e0a9f4c3cd360d02eb4ab1969c4b7b",
+      "length": 7379
+    },
+    {
+      "original": "015_dex_end\\step_005.png",
+      "archive": "_archived_screenshots\\015_dex_end\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\015_dex_end\\step_005.png",
+      "sha256": "142f5c43e5d5ceb515adf7a750917b72cb5c8fe5655a36a76cc7d24aad19ce76",
+      "length": 7644
+    },
+    {
+      "original": "016_dex_end\\step_001.png",
+      "archive": "_archived_screenshots\\016_dex_end\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\016_dex_end\\step_001.png",
+      "sha256": "0cf28b0ac76a3901a11b393761bd04e74d97bfa03582f0c64e215dc298f1decf",
+      "length": 7957
+    },
+    {
+      "original": "016_dex_end\\step_002.png",
+      "archive": "_archived_screenshots\\016_dex_end\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\016_dex_end\\step_002.png",
+      "sha256": "e429b948b0454e6894a3566e001383fc40b0adbdde7c0a060565bcb2b541c9bc",
+      "length": 7391
+    },
+    {
+      "original": "016_dex_end\\step_003.png",
+      "archive": "_archived_screenshots\\016_dex_end\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\016_dex_end\\step_003.png",
+      "sha256": "8a1e4d76b1313908c582fedca8670f7740b29cc376b3af389382777317ed68e1",
+      "length": 7427
+    },
+    {
+      "original": "016_dex_end\\step_004.png",
+      "archive": "_archived_screenshots\\016_dex_end\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\016_dex_end\\step_004.png",
+      "sha256": "a7185eb71a7b7096e5fe44a82871345fc5125d26ccca998ab1a05fcf86f86000",
+      "length": 7481
+    },
+    {
+      "original": "016_dex_end\\step_005.png",
+      "archive": "_archived_screenshots\\016_dex_end\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\016_dex_end\\step_005.png",
+      "sha256": "4b5bd0d64bb5b37539797cece04d31cb4b89977baf848321e16d681d1555946c",
+      "length": 7856
+    },
+    {
+      "original": "017_dex_end\\step_001.png",
+      "archive": "_archived_screenshots\\017_dex_end\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\017_dex_end\\step_001.png",
+      "sha256": "bfef47d2949c3dc2383936541116bb72dcba291782d4cd79b6d0fd5a35ebad51",
+      "length": 7594
+    },
+    {
+      "original": "017_dex_end\\step_002.png",
+      "archive": "_archived_screenshots\\017_dex_end\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\017_dex_end\\step_002.png",
+      "sha256": "0f2052804296b2fd9092e695282e4bd2056179b658f791d5e865ea39213cbc05",
+      "length": 7088
+    },
+    {
+      "original": "017_dex_end\\step_003.png",
+      "archive": "_archived_screenshots\\017_dex_end\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\017_dex_end\\step_003.png",
+      "sha256": "855ead9fa59bfb45f6a251e3e708db11734795356fed08306aa444aa5bd05c4d",
+      "length": 7474
+    },
+    {
+      "original": "017_dex_end\\step_004.png",
+      "archive": "_archived_screenshots\\017_dex_end\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\017_dex_end\\step_004.png",
+      "sha256": "3ee850168120738659c28debfb33dcb95f286e5d47d07c77482610e5e7a73bbf",
+      "length": 7602
+    },
+    {
+      "original": "017_dex_end\\step_005.png",
+      "archive": "_archived_screenshots\\017_dex_end\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\017_dex_end\\step_005.png",
+      "sha256": "f4e63a7ca3adc15ecd8557d214caa5c285131462e2fa5584ae4dcf6aba0f7dc1",
+      "length": 7315
+    },
+    {
+      "original": "017_dex_end\\step_006.png",
+      "archive": "_archived_screenshots\\017_dex_end\\step_006.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\017_dex_end\\step_006.png",
+      "sha256": "9b6e0151b17efd74feac7576bb77b1955b9cc47e6203089d6fb086a612acfbb6",
+      "length": 7580
+    },
+    {
+      "original": "018_field_stable\\step_001.png",
+      "archive": "_archived_screenshots\\018_field_stable\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\018_field_stable\\step_001.png",
+      "sha256": "6cc98632db82a2369a955c99968807cd8b1099ba88e208398d2962b7d272d500",
+      "length": 7782
+    },
+    {
+      "original": "019_field_return\\step_001.png",
+      "archive": "_archived_screenshots\\019_field_return\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\019_field_return\\step_001.png",
+      "sha256": "18cdaa9ad51ec66d4bdbf2c08c82f1498d051c8c8eb8450bb11a195fae3d4506",
+      "length": 7491
+    },
+    {
+      "original": "019_field_return\\step_002.png",
+      "archive": "_archived_screenshots\\019_field_return\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\019_field_return\\step_002.png",
+      "sha256": "945f083eccc0d546ab36b3cd05cc360047ea5faf267fbd59db44e1b21eed90ce",
+      "length": 7519
+    },
+    {
+      "original": "020_dex_pages\\step_001.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_001.png",
+      "sha256": "e502ce308564a4e0fbd8b7eb752f42aa0cf93c2f09e8f9816a507e9b16b1e1c3",
+      "length": 7621
+    },
+    {
+      "original": "020_dex_pages\\step_002.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_002.png",
+      "sha256": "4c3e781f4ec83075c36e52491c6e6add9caecd6e45d94a4e0264ad0aa871a2f0",
+      "length": 7870
+    },
+    {
+      "original": "020_dex_pages\\step_003.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_003.png",
+      "sha256": "b4a1e9e8d13e6c32422a618abc2af9340f23814fb20d45b388a80182b27f03b3",
+      "length": 7506
+    },
+    {
+      "original": "020_dex_pages\\step_004.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_004.png",
+      "sha256": "0867e9eb9fad33ee35d069d49705f3bbe031e4c6cf4ef6033fa545352d9424c1",
+      "length": 7685
+    },
+    {
+      "original": "020_dex_pages\\step_005.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_005.png",
+      "sha256": "5ab68dabe56cb54edca19bb3478a419e64c4bbee7deec8809722b6d9de593206",
+      "length": 7629
+    },
+    {
+      "original": "020_dex_pages\\step_006.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_006.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_006.png",
+      "sha256": "005d95fe7c438a774be696fe4384d5646b3169995201e57a8a18d0791faea3f8",
+      "length": 7593
+    },
+    {
+      "original": "020_dex_pages\\step_007.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_007.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_007.png",
+      "sha256": "4372e9889bae44445b8df823aabe4d628a6fa2037935abe3ddda97d9669d803c",
+      "length": 7379
+    },
+    {
+      "original": "020_dex_pages\\step_008.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_008.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_008.png",
+      "sha256": "b6f32f4590a80dc17b584078cd6ab1b65b0e4bb54be70ebda8a45c8ee703db4a",
+      "length": 7372
+    },
+    {
+      "original": "020_dex_pages\\step_009.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_009.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_009.png",
+      "sha256": "a2c0e7a0cdd723664025345cd1001b558a7885611f6634a5c500dd08ba9a47d2",
+      "length": 7428
+    },
+    {
+      "original": "020_dex_pages\\step_010.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_010.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_010.png",
+      "sha256": "6bd0e3feb6922a62e763fd5caa008828daa842b14e345404dc96e420f1efc930",
+      "length": 7575
+    },
+    {
+      "original": "020_dex_pages\\step_011.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_011.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_011.png",
+      "sha256": "db2a8add9b344fc1354717ced9dcd5f2b3501ff92e5a774aec9bc30b96027afa",
+      "length": 7327
+    },
+    {
+      "original": "020_dex_pages\\step_012.png",
+      "archive": "_archived_screenshots\\020_dex_pages\\step_012.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\020_dex_pages\\step_012.png",
+      "sha256": "c4d48a03bb541790742772532da4eb3a4819dce8dd7e3ea4125cf7f92af58b4e",
+      "length": 7271
+    },
+    {
+      "original": "021_dex_pages\\step_001.png",
+      "archive": "_archived_screenshots\\021_dex_pages\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\021_dex_pages\\step_001.png",
+      "sha256": "e502ce308564a4e0fbd8b7eb752f42aa0cf93c2f09e8f9816a507e9b16b1e1c3",
+      "length": 7621
+    },
+    {
+      "original": "021_dex_pages\\step_002.png",
+      "archive": "_archived_screenshots\\021_dex_pages\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\021_dex_pages\\step_002.png",
+      "sha256": "4c3e781f4ec83075c36e52491c6e6add9caecd6e45d94a4e0264ad0aa871a2f0",
+      "length": 7870
+    },
+    {
+      "original": "021_dex_pages\\step_003.png",
+      "archive": "_archived_screenshots\\021_dex_pages\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\021_dex_pages\\step_003.png",
+      "sha256": "ec405c30d739058e6feca4e11306a59106d95cf4b9686deb93b8bfc62b1a08a1",
+      "length": 7267
+    },
+    {
+      "original": "021_dex_pages\\step_004.png",
+      "archive": "_archived_screenshots\\021_dex_pages\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\021_dex_pages\\step_004.png",
+      "sha256": "0867e9eb9fad33ee35d069d49705f3bbe031e4c6cf4ef6033fa545352d9424c1",
+      "length": 7685
+    },
+    {
+      "original": "021_dex_pages\\step_005.png",
+      "archive": "_archived_screenshots\\021_dex_pages\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\021_dex_pages\\step_005.png",
+      "sha256": "5ab68dabe56cb54edca19bb3478a419e64c4bbee7deec8809722b6d9de593206",
+      "length": 7629
+    },
+    {
+      "original": "021_dex_pages\\step_006.png",
+      "archive": "_archived_screenshots\\021_dex_pages\\step_006.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\021_dex_pages\\step_006.png",
+      "sha256": "78b97ddb77c274dd507cb162e17818b4094e8d253746705c503b8f1a09214779",
+      "length": 7083
+    },
+    {
+      "original": "022_walk_left\\step_001.png",
+      "archive": "_archived_screenshots\\022_walk_left\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\022_walk_left\\step_001.png",
+      "sha256": "5e7969bc9edae95358b150911e5011327c15ac0d33673b60f317a6029cdf4222",
+      "length": 7204
+    },
+    {
+      "original": "023_walk_left\\step_001.png",
+      "archive": "_archived_screenshots\\023_walk_left\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\023_walk_left\\step_001.png",
+      "sha256": "8f11e52963bb560ca25c38c97b757b000c82a24094b1459e8ee3a36e7a5b90f0",
+      "length": 7023
+    },
+    {
+      "original": "024_walk_up\\step_001.png",
+      "archive": "_archived_screenshots\\024_walk_up\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\024_walk_up\\step_001.png",
+      "sha256": "bf97fae63d63a6758e5ced3beee3064b61080d94f72897cf12cbea108624b899",
+      "length": 9363
+    },
+    {
+      "original": "025_walk_up\\step_001.png",
+      "archive": "_archived_screenshots\\025_walk_up\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\025_walk_up\\step_001.png",
+      "sha256": "d48cf431712d4c72b3389d352ce7cf3a1aa03242554d29ae2f9cfdfbcb6b9975",
+      "length": 9113
+    },
+    {
+      "original": "026_walk_down\\step_001.png",
+      "archive": "_archived_screenshots\\026_walk_down\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\026_walk_down\\step_001.png",
+      "sha256": "0b03c2b52ac79ecc524eee88cf75d34f6eea8f6b4145a6e3204a355864dc5392",
+      "length": 6054
+    },
+    {
+      "original": "027_walk_down\\step_001.png",
+      "archive": "_archived_screenshots\\027_walk_down\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\027_walk_down\\step_001.png",
+      "sha256": "ecc1febe4ec432d68a040a17916a999bdd2c63a4e8d55385a5be383afeba8c90",
+      "length": 4962
+    },
+    {
+      "original": "028_walk_right\\step_001.png",
+      "archive": "_archived_screenshots\\028_walk_right\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\028_walk_right\\step_001.png",
+      "sha256": "c9d12aa378e3d42c3155e6df6eb80645ce28aa1372f59a78a6e6cfa5fea86c89",
+      "length": 4366
+    },
+    {
+      "original": "029_map_transition\\step_001.png",
+      "archive": "_archived_screenshots\\029_map_transition\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\029_map_transition\\step_001.png",
+      "sha256": "0ea4672574c27c69ebfef9f970274b0ebe5238585cc7753cc542b9691ca1d4e4",
+      "length": 4892
+    },
+    {
+      "original": "030_exit_attempt\\step_001.png",
+      "archive": "_archived_screenshots\\030_exit_attempt\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\030_exit_attempt\\step_001.png",
+      "sha256": "49461e6916ae714339e17ba65ed39d679161a2645d4c735fa0e516686ec1a10b",
+      "length": 6246
+    },
+    {
+      "original": "031_school_exterior\\step_001.png",
+      "archive": "_archived_screenshots\\031_school_exterior\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\031_school_exterior\\step_001.png",
+      "sha256": "32ed814f0bf534782c65ee0012b3fd82c6a6dc5f18a21e022f66430b118f85d5",
+      "length": 7624
+    },
+    {
+      "original": "032_school_exterior\\step_001.png",
+      "archive": "_archived_screenshots\\032_school_exterior\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\032_school_exterior\\step_001.png",
+      "sha256": "8310ee541ef6c91149f4b0df6c3a32a82cd778119121c67c2894083948d54208",
+      "length": 6899
+    },
+    {
+      "original": "032_school_exterior\\step_002.png",
+      "archive": "_archived_screenshots\\032_school_exterior\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\032_school_exterior\\step_002.png",
+      "sha256": "d3921cfe63fc05e601670885df2d6d2a394c4797b9b8067a365c6e2e2e685d67",
+      "length": 6240
+    },
+    {
+      "original": "033_school_exterior\\step_001.png",
+      "archive": "_archived_screenshots\\033_school_exterior\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\033_school_exterior\\step_001.png",
+      "sha256": "57f853ea2f1fe9f6d80092ad4f7be6cb3c575bbe3a0346a145442ee770c9d852",
+      "length": 4021
+    },
+    {
+      "original": "034_city_route\\step_001.png",
+      "archive": "_archived_screenshots\\034_city_route\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\034_city_route\\step_001.png",
+      "sha256": "575cf8d4cd16d7e597b1054849d2e4cbc91ca9b901fdfeb3e1ce40befea92124",
+      "length": 2134
+    },
+    {
+      "original": "034_city_route\\step_002.png",
+      "archive": "_archived_screenshots\\034_city_route\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\034_city_route\\step_002.png",
+      "sha256": "575cf8d4cd16d7e597b1054849d2e4cbc91ca9b901fdfeb3e1ce40befea92124",
+      "length": 2134
+    },
+    {
+      "original": "035_pet_menu\\step_001.png",
+      "archive": "_archived_screenshots\\035_pet_menu\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\035_pet_menu\\step_001.png",
+      "sha256": "0ae51ad3f50e9609f072e1f78312913543d58cc10e240abae5cd058c490065e6",
+      "length": 3539
+    },
+    {
+      "original": "036_pet_hint\\step_001.png",
+      "archive": "_archived_screenshots\\036_pet_hint\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\036_pet_hint\\step_001.png",
+      "sha256": "575cf8d4cd16d7e597b1054849d2e4cbc91ca9b901fdfeb3e1ce40befea92124",
+      "length": 2134
+    },
+    {
+      "original": "036_pet_hint\\step_002.png",
+      "archive": "_archived_screenshots\\036_pet_hint\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\036_pet_hint\\step_002.png",
+      "sha256": "575cf8d4cd16d7e597b1054849d2e4cbc91ca9b901fdfeb3e1ce40befea92124",
+      "length": 2134
+    },
+    {
+      "original": "037_school_return\\step_001.png",
+      "archive": "_archived_screenshots\\037_school_return\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\037_school_return\\step_001.png",
+      "sha256": "235be750cdd86d73d21336bc2e9794bf2ec539ccb9034b2b90abf83c77c6e4d0",
+      "length": 3938
+    },
+    {
+      "original": "037_school_return\\step_002.png",
+      "archive": "_archived_screenshots\\037_school_return\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\037_school_return\\step_002.png",
+      "sha256": "c97204b3efc862f61c6f495465e354a534ce3127edf3ca87f22c67143962877a",
+      "length": 2952
+    },
+    {
+      "original": "038_school_return\\step_001.png",
+      "archive": "_archived_screenshots\\038_school_return\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\038_school_return\\step_001.png",
+      "sha256": "b6cf209e8834078fe46046131300ac5a28c95eabf299efbc06f8ae49a6e7d8ed",
+      "length": 4265
+    },
+    {
+      "original": "038_school_return\\step_002.png",
+      "archive": "_archived_screenshots\\038_school_return\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\038_school_return\\step_002.png",
+      "sha256": "733cccdc68c22ecbb79f5ef65e590b276454b7d726fd891364435b7f1ac0bc5c",
+      "length": 6166
+    },
+    {
+      "original": "039_city_walk\\step_001.png",
+      "archive": "_archived_screenshots\\039_city_walk\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\039_city_walk\\step_001.png",
+      "sha256": "47cc8454d33f7ce9da030c3e94dc5c1075da5e7faa886d8302a3a26df7496acf",
+      "length": 4529
+    },
+    {
+      "original": "039_city_walk\\step_002.png",
+      "archive": "_archived_screenshots\\039_city_walk\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\039_city_walk\\step_002.png",
+      "sha256": "bb17ab90c76ef5e1f19fe916b069f432c7f7ed6b3f746ff676491dad8936378f",
+      "length": 6025
+    },
+    {
+      "original": "040_city_walk\\step_001.png",
+      "archive": "_archived_screenshots\\040_city_walk\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\040_city_walk\\step_001.png",
+      "sha256": "7a168c30776cb9eb92baf2339f9d1bf03cc06dcba2b1c6df20c916488cad2d19",
+      "length": 7795
+    },
+    {
+      "original": "040_city_walk\\step_002.png",
+      "archive": "_archived_screenshots\\040_city_walk\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\040_city_walk\\step_002.png",
+      "sha256": "71a111f30f7edfedb06768d3fcc8d3de4973703023d32a1ef2366681d9a39813",
+      "length": 7393
+    },
+    {
+      "original": "041_terminal\\step_001.png",
+      "archive": "_archived_screenshots\\041_terminal\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\041_terminal\\step_001.png",
+      "sha256": "05202335d28cc4a04e942a760d20abf2d85b4e10209732e20b4e532751e6966a",
+      "length": 6438
+    },
+    {
+      "original": "041_terminal\\step_002.png",
+      "archive": "_archived_screenshots\\041_terminal\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\041_terminal\\step_002.png",
+      "sha256": "71a111f30f7edfedb06768d3fcc8d3de4973703023d32a1ef2366681d9a39813",
+      "length": 7393
+    },
+    {
+      "original": "042_terminal\\step_001.png",
+      "archive": "_archived_screenshots\\042_terminal\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\042_terminal\\step_001.png",
+      "sha256": "05202335d28cc4a04e942a760d20abf2d85b4e10209732e20b4e532751e6966a",
+      "length": 6438
+    },
+    {
+      "original": "042_terminal\\step_002.png",
+      "archive": "_archived_screenshots\\042_terminal\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\042_terminal\\step_002.png",
+      "sha256": "71a111f30f7edfedb06768d3fcc8d3de4973703023d32a1ef2366681d9a39813",
+      "length": 7393
+    },
+    {
+      "original": "042_terminal\\step_003.png",
+      "archive": "_archived_screenshots\\042_terminal\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\042_terminal\\step_003.png",
+      "sha256": "26a5feeebbfa400b601ec3ca26fc999082c92a4055e22f50429fcb414a695bac",
+      "length": 6490
+    },
+    {
+      "original": "043_terminal\\step_001.png",
+      "archive": "_archived_screenshots\\043_terminal\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\043_terminal\\step_001.png",
+      "sha256": "588e32afe13b96e3ce12d979a41e25470752b522fa4735651fd3e0810726e506",
+      "length": 6438
+    },
+    {
+      "original": "043_terminal\\step_002.png",
+      "archive": "_archived_screenshots\\043_terminal\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\043_terminal\\step_002.png",
+      "sha256": "71a111f30f7edfedb06768d3fcc8d3de4973703023d32a1ef2366681d9a39813",
+      "length": 7393
+    },
+    {
+      "original": "044_terminal\\step_001.png",
+      "archive": "_archived_screenshots\\044_terminal\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\044_terminal\\step_001.png",
+      "sha256": "71a111f30f7edfedb06768d3fcc8d3de4973703023d32a1ef2366681d9a39813",
+      "length": 7393
+    },
+    {
+      "original": "044_terminal\\step_002.png",
+      "archive": "_archived_screenshots\\044_terminal\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\044_terminal\\step_002.png",
+      "sha256": "2d2acab4de5ba34510f7b5b19b072bc4be6c8315e5ac87beee8251691cc56336",
+      "length": 6432
+    },
+    {
+      "original": "045_terminal\\step_001.png",
+      "archive": "_archived_screenshots\\045_terminal\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\045_terminal\\step_001.png",
+      "sha256": "2d2acab4de5ba34510f7b5b19b072bc4be6c8315e5ac87beee8251691cc56336",
+      "length": 6432
+    },
+    {
+      "original": "046_terminal\\step_001.png",
+      "archive": "_archived_screenshots\\046_terminal\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\046_terminal\\step_001.png",
+      "sha256": "588e32afe13b96e3ce12d979a41e25470752b522fa4735651fd3e0810726e506",
+      "length": 6438
+    },
+    {
+      "original": "047_terminal\\step_001.png",
+      "archive": "_archived_screenshots\\047_terminal\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\047_terminal\\step_001.png",
+      "sha256": "2d2acab4de5ba34510f7b5b19b072bc4be6c8315e5ac87beee8251691cc56336",
+      "length": 6432
+    },
+    {
+      "original": "047_terminal\\step_002.png",
+      "archive": "_archived_screenshots\\047_terminal\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\047_terminal\\step_002.png",
+      "sha256": "71a111f30f7edfedb06768d3fcc8d3de4973703023d32a1ef2366681d9a39813",
+      "length": 7393
+    },
+    {
+      "original": "047_terminal\\step_003.png",
+      "archive": "_archived_screenshots\\047_terminal\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\047_terminal\\step_003.png",
+      "sha256": "2d2acab4de5ba34510f7b5b19b072bc4be6c8315e5ac87beee8251691cc56336",
+      "length": 6432
+    },
+    {
+      "original": "048_terminal\\step_001.png",
+      "archive": "_archived_screenshots\\048_terminal\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\048_terminal\\step_001.png",
+      "sha256": "588e32afe13b96e3ce12d979a41e25470752b522fa4735651fd3e0810726e506",
+      "length": 6438
+    },
+    {
+      "original": "048_terminal\\step_002.png",
+      "archive": "_archived_screenshots\\048_terminal\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\048_terminal\\step_002.png",
+      "sha256": "26a5feeebbfa400b601ec3ca26fc999082c92a4055e22f50429fcb414a695bac",
+      "length": 6490
+    },
+    {
+      "original": "048_terminal\\step_003.png",
+      "archive": "_archived_screenshots\\048_terminal\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\048_terminal\\step_003.png",
+      "sha256": "2d2acab4de5ba34510f7b5b19b072bc4be6c8315e5ac87beee8251691cc56336",
+      "length": 6432
+    },
+    {
+      "original": "048_terminal\\step_004.png",
+      "archive": "_archived_screenshots\\048_terminal\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\048_terminal\\step_004.png",
+      "sha256": "05202335d28cc4a04e942a760d20abf2d85b4e10209732e20b4e532751e6966a",
+      "length": 6438
+    },
+    {
+      "original": "048_terminal\\step_005.png",
+      "archive": "_archived_screenshots\\048_terminal\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\048_terminal\\step_005.png",
+      "sha256": "588e32afe13b96e3ce12d979a41e25470752b522fa4735651fd3e0810726e506",
+      "length": 6438
+    },
+    {
+      "original": "049_terminal_fresh\\step_001.png",
+      "archive": "_archived_screenshots\\049_terminal_fresh\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\049_terminal_fresh\\step_001.png",
+      "sha256": "05202335d28cc4a04e942a760d20abf2d85b4e10209732e20b4e532751e6966a",
+      "length": 6438
+    },
+    {
+      "original": "049_terminal_fresh\\step_002.png",
+      "archive": "_archived_screenshots\\049_terminal_fresh\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\049_terminal_fresh\\step_002.png",
+      "sha256": "71a111f30f7edfedb06768d3fcc8d3de4973703023d32a1ef2366681d9a39813",
+      "length": 7393
+    },
+    {
+      "original": "050_city_npc\\step_001.png",
+      "archive": "_archived_screenshots\\050_city_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\050_city_npc\\step_001.png",
+      "sha256": "b98790b300e793ed87587b9f41136f8ef12a04f34b9204aa6d472e5ebbf1d025",
+      "length": 7381
+    },
+    {
+      "original": "050_city_npc\\step_002.png",
+      "archive": "_archived_screenshots\\050_city_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\050_city_npc\\step_002.png",
+      "sha256": "db21b4a7253210d1501356aad8646685bc3c16e86306585c5a6fe2fdaa126315",
+      "length": 7979
+    },
+    {
+      "original": "051_city_npc_dialogue\\step_001.png",
+      "archive": "_archived_screenshots\\051_city_npc_dialogue\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\051_city_npc_dialogue\\step_001.png",
+      "sha256": "7b8882419fea5d69cfb8c416a66186aaf1c7db9a6cf1b15b95f430d8d265c1b2",
+      "length": 8505
+    },
+    {
+      "original": "051_city_npc_dialogue\\step_002.png",
+      "archive": "_archived_screenshots\\051_city_npc_dialogue\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\051_city_npc_dialogue\\step_002.png",
+      "sha256": "7b8882419fea5d69cfb8c416a66186aaf1c7db9a6cf1b15b95f430d8d265c1b2",
+      "length": 8505
+    },
+    {
+      "original": "051_city_npc_dialogue\\step_003.png",
+      "archive": "_archived_screenshots\\051_city_npc_dialogue\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\051_city_npc_dialogue\\step_003.png",
+      "sha256": "7b8882419fea5d69cfb8c416a66186aaf1c7db9a6cf1b15b95f430d8d265c1b2",
+      "length": 8505
+    },
+    {
+      "original": "052_map_left\\step_001.png",
+      "archive": "_archived_screenshots\\052_map_left\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\052_map_left\\step_001.png",
+      "sha256": "f0561b24e78fff7e95572bd5d70918b890b0692e0cf7a50fb0558030aabb7efb",
+      "length": 8469
+    },
+    {
+      "original": "053_map_down\\step_001.png",
+      "archive": "_archived_screenshots\\053_map_down\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\053_map_down\\step_001.png",
+      "sha256": "f57b98159a98d593e5f403cbeab17ddacc4d50df2850d29bc588e4299fcb6422",
+      "length": 7108
+    },
+    {
+      "original": "054_map_right\\step_001.png",
+      "archive": "_archived_screenshots\\054_map_right\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\054_map_right\\step_001.png",
+      "sha256": "97788ce99efc8e7aea65ec8a8b14cdc83d7456313799d81606fdd7c1dc42908f",
+      "length": 5135
+    },
+    {
+      "original": "055_city_route\\step_001.png",
+      "archive": "_archived_screenshots\\055_city_route\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\055_city_route\\step_001.png",
+      "sha256": "4afb23ba061bfc47bd99720bb78421e4e6cddf49fcb6300d09a8aa064bcb6288",
+      "length": 3411
+    },
+    {
+      "original": "056_city_route\\step_001.png",
+      "archive": "_archived_screenshots\\056_city_route\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\056_city_route\\step_001.png",
+      "sha256": "db6d2cb39ec3a8c262b9cd169b531fff7f41fbe64814e042c0d794d35065a3e0",
+      "length": 2856
+    },
+    {
+      "original": "057_city_route\\step_001.png",
+      "archive": "_archived_screenshots\\057_city_route\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\057_city_route\\step_001.png",
+      "sha256": "d001b1a128d5e80da48faab4a4349a3f9246690af20b109cd04f5e4e5ff1ae3d",
+      "length": 6995
+    },
+    {
+      "original": "058_access_point\\step_001.png",
+      "archive": "_archived_screenshots\\058_access_point\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\058_access_point\\step_001.png",
+      "sha256": "3ad695a8c905fe4f2612e6ed35c22dc822e1f6a6525ae39f2bfdd56d5ac69d41",
+      "length": 5581
+    },
+    {
+      "original": "058_access_point\\step_002.png",
+      "archive": "_archived_screenshots\\058_access_point\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\058_access_point\\step_002.png",
+      "sha256": "379c4f5c8ea3be401fb2f9e022576db41165ef22b4c90804fbe94483b5e25c5e",
+      "length": 5203
+    },
+    {
+      "original": "058_access_point\\step_003.png",
+      "archive": "_archived_screenshots\\058_access_point\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\058_access_point\\step_003.png",
+      "sha256": "379c4f5c8ea3be401fb2f9e022576db41165ef22b4c90804fbe94483b5e25c5e",
+      "length": 5203
+    },
+    {
+      "original": "059_access_point\\step_001.png",
+      "archive": "_archived_screenshots\\059_access_point\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\059_access_point\\step_001.png",
+      "sha256": "b2098d91c70f35bebbfaa4aa7cb311a6ea3bdfa50ac8d02758c32b3e9a9fcdb6",
+      "length": 4723
+    },
+    {
+      "original": "059_access_point\\step_002.png",
+      "archive": "_archived_screenshots\\059_access_point\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\059_access_point\\step_002.png",
+      "sha256": "b2098d91c70f35bebbfaa4aa7cb311a6ea3bdfa50ac8d02758c32b3e9a9fcdb6",
+      "length": 4723
+    },
+    {
+      "original": "060_access_point\\step_001.png",
+      "archive": "_archived_screenshots\\060_access_point\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\060_access_point\\step_001.png",
+      "sha256": "0e019d52093145413aa58fe06642542da3694aa22f28fa5ed130e755198f1569",
+      "length": 5403
+    },
+    {
+      "original": "060_access_point\\step_002.png",
+      "archive": "_archived_screenshots\\060_access_point\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\060_access_point\\step_002.png",
+      "sha256": "0e019d52093145413aa58fe06642542da3694aa22f28fa5ed130e755198f1569",
+      "length": 5403
+    },
+    {
+      "original": "061_access_point\\step_001.png",
+      "archive": "_archived_screenshots\\061_access_point\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\061_access_point\\step_001.png",
+      "sha256": "7a3cc456f93189aaae865740f1183f87397b345e9febdd0e759f8de26251ff7f",
+      "length": 6194
+    },
+    {
+      "original": "062_building\\step_001.png",
+      "archive": "_archived_screenshots\\062_building\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\062_building\\step_001.png",
+      "sha256": "7a3cc456f93189aaae865740f1183f87397b345e9febdd0e759f8de26251ff7f",
+      "length": 6194
+    },
+    {
+      "original": "062_building\\step_002.png",
+      "archive": "_archived_screenshots\\062_building\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\062_building\\step_002.png",
+      "sha256": "7a3cc456f93189aaae865740f1183f87397b345e9febdd0e759f8de26251ff7f",
+      "length": 6194
+    },
+    {
+      "original": "063_close_hint\\step_001.png",
+      "archive": "_archived_screenshots\\063_close_hint\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\063_close_hint\\step_001.png",
+      "sha256": "0e019d52093145413aa58fe06642542da3694aa22f28fa5ed130e755198f1569",
+      "length": 5403
+    },
+    {
+      "original": "064_building\\step_001.png",
+      "archive": "_archived_screenshots\\064_building\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\064_building\\step_001.png",
+      "sha256": "da93bfb06410439730a1c76fc9b46c8d79790944858e1559d5bf3388bcf6fe09",
+      "length": 6138
+    },
+    {
+      "original": "064_building\\step_002.png",
+      "archive": "_archived_screenshots\\064_building\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\064_building\\step_002.png",
+      "sha256": "782eb3c79b7a89f189d6fbd61f9c70b7a1b29af12195d4717b81209876449e35",
+      "length": 6475
+    },
+    {
+      "original": "065_building_event\\step_001.png",
+      "archive": "_archived_screenshots\\065_building_event\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\065_building_event\\step_001.png",
+      "sha256": "8ef0abf1c7fc24397486d6dabff7156de21178a6034eb8f87bea322d561930de",
+      "length": 6542
+    },
+    {
+      "original": "065_building_event\\step_002.png",
+      "archive": "_archived_screenshots\\065_building_event\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\065_building_event\\step_002.png",
+      "sha256": "8ef0abf1c7fc24397486d6dabff7156de21178a6034eb8f87bea322d561930de",
+      "length": 6542
+    },
+    {
+      "original": "065_building_event\\step_003.png",
+      "archive": "_archived_screenshots\\065_building_event\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\065_building_event\\step_003.png",
+      "sha256": "8ef0abf1c7fc24397486d6dabff7156de21178a6034eb8f87bea322d561930de",
+      "length": 6542
+    },
+    {
+      "original": "065_building_event\\step_004.png",
+      "archive": "_archived_screenshots\\065_building_event\\step_004.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\065_building_event\\step_004.png",
+      "sha256": "8ef0abf1c7fc24397486d6dabff7156de21178a6034eb8f87bea322d561930de",
+      "length": 6542
+    },
+    {
+      "original": "065_building_event\\step_005.png",
+      "archive": "_archived_screenshots\\065_building_event\\step_005.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\065_building_event\\step_005.png",
+      "sha256": "8ef0abf1c7fc24397486d6dabff7156de21178a6034eb8f87bea322d561930de",
+      "length": 6542
+    },
+    {
+      "original": "066_building_entry\\step_001.png",
+      "archive": "_archived_screenshots\\066_building_entry\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\066_building_entry\\step_001.png",
+      "sha256": "6da3341da9a419a21f77bdc27530fa16faa1faa8b3c01775ccd65984fcbd6e19",
+      "length": 7139
+    },
+    {
+      "original": "066_building_entry\\step_002.png",
+      "archive": "_archived_screenshots\\066_building_entry\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\066_building_entry\\step_002.png",
+      "sha256": "6da3341da9a419a21f77bdc27530fa16faa1faa8b3c01775ccd65984fcbd6e19",
+      "length": 7139
+    },
+    {
+      "original": "067_building_entry\\step_001.png",
+      "archive": "_archived_screenshots\\067_building_entry\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\067_building_entry\\step_001.png",
+      "sha256": "6a93013f09d03ce9977224e0420e4ee6a52666eb62f86746070f79a8e93ecdf6",
+      "length": 6182
+    },
+    {
+      "original": "067_building_entry\\step_002.png",
+      "archive": "_archived_screenshots\\067_building_entry\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\067_building_entry\\step_002.png",
+      "sha256": "132630017ee06766abf0eceff8647441a364cf50be25aff25667efc2cd7b023c",
+      "length": 6458
+    },
+    {
+      "original": "067_building_entry\\step_003.png",
+      "archive": "_archived_screenshots\\067_building_entry\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\067_building_entry\\step_003.png",
+      "sha256": "7e4b4ae4c05bcc056475d594b94651dc28d12d380f805759b7322002ee6c5a7c",
+      "length": 6575
+    },
+    {
+      "original": "068_home_npc\\step_001.png",
+      "archive": "_archived_screenshots\\068_home_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\068_home_npc\\step_001.png",
+      "sha256": "06f61d2bfc23462a5aa4c0fa2995b0002f055e84798584dfaf96b198fec48602",
+      "length": 4099
+    },
+    {
+      "original": "068_home_npc\\step_002.png",
+      "archive": "_archived_screenshots\\068_home_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\068_home_npc\\step_002.png",
+      "sha256": "409e821255e19dc04c40b71a2d669f036eefb2e8128ae118a30b8a41c05b8fe1",
+      "length": 5157
+    },
+    {
+      "original": "068_home_npc\\step_003.png",
+      "archive": "_archived_screenshots\\068_home_npc\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\068_home_npc\\step_003.png",
+      "sha256": "409e821255e19dc04c40b71a2d669f036eefb2e8128ae118a30b8a41c05b8fe1",
+      "length": 5157
+    },
+    {
+      "original": "069_home_npc\\step_001.png",
+      "archive": "_archived_screenshots\\069_home_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\069_home_npc\\step_001.png",
+      "sha256": "c1f267632d8c6ff353a7b05f117991a156d124dadbf5d2da8d9069fe1db60322",
+      "length": 6702
+    },
+    {
+      "original": "069_home_npc\\step_002.png",
+      "archive": "_archived_screenshots\\069_home_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\069_home_npc\\step_002.png",
+      "sha256": "103062b60b2fa1351c7d591dd37dcec922ae17d175455878b91f45cde5cdb3ed",
+      "length": 6125
+    },
+    {
+      "original": "070_home_npc\\step_001.png",
+      "archive": "_archived_screenshots\\070_home_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\070_home_npc\\step_001.png",
+      "sha256": "c1f267632d8c6ff353a7b05f117991a156d124dadbf5d2da8d9069fe1db60322",
+      "length": 6702
+    },
+    {
+      "original": "070_home_npc\\step_002.png",
+      "archive": "_archived_screenshots\\070_home_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\070_home_npc\\step_002.png",
+      "sha256": "103062b60b2fa1351c7d591dd37dcec922ae17d175455878b91f45cde5cdb3ed",
+      "length": 6125
+    },
+    {
+      "original": "070_home_npc\\step_003.png",
+      "archive": "_archived_screenshots\\070_home_npc\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\070_home_npc\\step_003.png",
+      "sha256": "c1f267632d8c6ff353a7b05f117991a156d124dadbf5d2da8d9069fe1db60322",
+      "length": 6702
+    },
+    {
+      "original": "071_home_entry\\step_001.png",
+      "archive": "_archived_screenshots\\071_home_entry\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\071_home_entry\\step_001.png",
+      "sha256": "e5ed0138775a5e85952a2b4b7acd5c1cfa8df16645051b78661e8274262bfa97",
+      "length": 7490
+    },
+    {
+      "original": "071_home_entry\\step_002.png",
+      "archive": "_archived_screenshots\\071_home_entry\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\071_home_entry\\step_002.png",
+      "sha256": "ccbdf0097611c61f0e5b0c8a902bafde845c3798813bc0d753bb27ee1bf207ff",
+      "length": 7433
+    },
+    {
+      "original": "071_home_entry\\step_003.png",
+      "archive": "_archived_screenshots\\071_home_entry\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\071_home_entry\\step_003.png",
+      "sha256": "ccbdf0097611c61f0e5b0c8a902bafde845c3798813bc0d753bb27ee1bf207ff",
+      "length": 7433
+    },
+    {
+      "original": "072_home_entry\\step_001.png",
+      "archive": "_archived_screenshots\\072_home_entry\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\072_home_entry\\step_001.png",
+      "sha256": "64e94001ac1ca7dcee7db94b20ac74b77efea9cdebb32c9fc5bb812358c66337",
+      "length": 7461
+    },
+    {
+      "original": "073_home_entry\\step_001.png",
+      "archive": "_archived_screenshots\\073_home_entry\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\073_home_entry\\step_001.png",
+      "sha256": "64e94001ac1ca7dcee7db94b20ac74b77efea9cdebb32c9fc5bb812358c66337",
+      "length": 7461
+    },
+    {
+      "original": "073_home_entry\\step_002.png",
+      "archive": "_archived_screenshots\\073_home_entry\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\073_home_entry\\step_002.png",
+      "sha256": "64e94001ac1ca7dcee7db94b20ac74b77efea9cdebb32c9fc5bb812358c66337",
+      "length": 7461
+    },
+    {
+      "original": "074_home_entry\\step_001.png",
+      "archive": "_archived_screenshots\\074_home_entry\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\074_home_entry\\step_001.png",
+      "sha256": "5c441f9464dd41324937d59526da5587da7ef16368b6fb33a7784d8540cb0dcc",
+      "length": 7643
+    },
+    {
+      "original": "074_home_entry\\step_002.png",
+      "archive": "_archived_screenshots\\074_home_entry\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\074_home_entry\\step_002.png",
+      "sha256": "64e94001ac1ca7dcee7db94b20ac74b77efea9cdebb32c9fc5bb812358c66337",
+      "length": 7461
+    },
+    {
+      "original": "074_home_entry\\step_003.png",
+      "archive": "_archived_screenshots\\074_home_entry\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\074_home_entry\\step_003.png",
+      "sha256": "64e94001ac1ca7dcee7db94b20ac74b77efea9cdebb32c9fc5bb812358c66337",
+      "length": 7461
+    },
+    {
+      "original": "075_home_entry\\step_001.png",
+      "archive": "_archived_screenshots\\075_home_entry\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\075_home_entry\\step_001.png",
+      "sha256": "4c6e29da92c74a9181345304d3709e684e559c3eebb98e6d57f4c525caa25175",
+      "length": 7285
+    },
+    {
+      "original": "075_home_entry\\step_002.png",
+      "archive": "_archived_screenshots\\075_home_entry\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\075_home_entry\\step_002.png",
+      "sha256": "4c6e29da92c74a9181345304d3709e684e559c3eebb98e6d57f4c525caa25175",
+      "length": 7285
+    },
+    {
+      "original": "076_left_map\\step_001.png",
+      "archive": "_archived_screenshots\\076_left_map\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\076_left_map\\step_001.png",
+      "sha256": "0ef501a11d26976c8c307ed9bbdc7cdf621021b50892ccac7d41f8d36e662f01",
+      "length": 8436
+    },
+    {
+      "original": "077_left_map\\step_001.png",
+      "archive": "_archived_screenshots\\077_left_map\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\077_left_map\\step_001.png",
+      "sha256": "fcf9fa983744384291e2277e21df11d6d30d0db3bc87015dbcb29c8332d6d549",
+      "length": 6614
+    },
+    {
+      "original": "077_left_map\\step_002.png",
+      "archive": "_archived_screenshots\\077_left_map\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\077_left_map\\step_002.png",
+      "sha256": "11a14c6df17e164714c6d7a8400ac9528f9190bae73f76f43d7e88a08ef09be9",
+      "length": 6388
+    },
+    {
+      "original": "078_left_map\\step_001.png",
+      "archive": "_archived_screenshots\\078_left_map\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\078_left_map\\step_001.png",
+      "sha256": "3e2419198f20509f68af3c16fbaf3629ed41552a70e3a776503e692925da342e",
+      "length": 8337
+    },
+    {
+      "original": "078_left_map\\step_002.png",
+      "archive": "_archived_screenshots\\078_left_map\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\078_left_map\\step_002.png",
+      "sha256": "343279b1276192865bc1b3adb9da71e4f5e692904dc9cce20867adcc42c29687",
+      "length": 7791
+    },
+    {
+      "original": "079_neighborhood_npc\\step_001.png",
+      "archive": "_archived_screenshots\\079_neighborhood_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\079_neighborhood_npc\\step_001.png",
+      "sha256": "0cbaf71566f0f80acf473e4451118708afb547cd092ce576ef44c8e4ae11cdf4",
+      "length": 7979
+    },
+    {
+      "original": "079_neighborhood_npc\\step_002.png",
+      "archive": "_archived_screenshots\\079_neighborhood_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\079_neighborhood_npc\\step_002.png",
+      "sha256": "0af2b5ee05ffaf57bb88d576a799ac238f1c1733e9f514e49e4bd9db2bdf143f",
+      "length": 8297
+    },
+    {
+      "original": "079_neighborhood_npc\\step_003.png",
+      "archive": "_archived_screenshots\\079_neighborhood_npc\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\079_neighborhood_npc\\step_003.png",
+      "sha256": "0af2b5ee05ffaf57bb88d576a799ac238f1c1733e9f514e49e4bd9db2bdf143f",
+      "length": 8297
+    },
+    {
+      "original": "080_neighborhood_npc\\step_001.png",
+      "archive": "_archived_screenshots\\080_neighborhood_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\080_neighborhood_npc\\step_001.png",
+      "sha256": "395e6815e6ebfa5bfa0aecdd19c3d1b849d508a54218576a1ce87ac14221b5af",
+      "length": 7967
+    },
+    {
+      "original": "080_neighborhood_npc\\step_002.png",
+      "archive": "_archived_screenshots\\080_neighborhood_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\080_neighborhood_npc\\step_002.png",
+      "sha256": "6ce700771483f1554dd9fb474b12f2c9b24c7bbd2cbfcf090213cb2804b10fcf",
+      "length": 8122
+    },
+    {
+      "original": "080_neighborhood_npc\\step_003.png",
+      "archive": "_archived_screenshots\\080_neighborhood_npc\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\080_neighborhood_npc\\step_003.png",
+      "sha256": "6ce700771483f1554dd9fb474b12f2c9b24c7bbd2cbfcf090213cb2804b10fcf",
+      "length": 8122
+    },
+    {
+      "original": "081_neighborhood_npc\\step_001.png",
+      "archive": "_archived_screenshots\\081_neighborhood_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\081_neighborhood_npc\\step_001.png",
+      "sha256": "7367786b03256168280f0f99346fbb2408292b71fa51ca796f302e016596a103",
+      "length": 191
+    },
+    {
+      "original": "081_neighborhood_npc\\step_002.png",
+      "archive": "_archived_screenshots\\081_neighborhood_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\081_neighborhood_npc\\step_002.png",
+      "sha256": "24b4e8d5679e923e4cf3c51cf395c5d8d0cfc36e9412814578dd6aebb8db0cb4",
+      "length": 4126
+    },
+    {
+      "original": "082_indoor\\step_001.png",
+      "archive": "_archived_screenshots\\082_indoor\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\082_indoor\\step_001.png",
+      "sha256": "24b4e8d5679e923e4cf3c51cf395c5d8d0cfc36e9412814578dd6aebb8db0cb4",
+      "length": 4126
+    },
+    {
+      "original": "082_indoor\\step_002.png",
+      "archive": "_archived_screenshots\\082_indoor\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\082_indoor\\step_002.png",
+      "sha256": "24b4e8d5679e923e4cf3c51cf395c5d8d0cfc36e9412814578dd6aebb8db0cb4",
+      "length": 4126
+    },
+    {
+      "original": "083_indoor_object\\step_001.png",
+      "archive": "_archived_screenshots\\083_indoor_object\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\083_indoor_object\\step_001.png",
+      "sha256": "41442c4c150e27ec2a68d717add7e38eff79c6c0fc22de8dc51469f3dcecd26e",
+      "length": 4233
+    },
+    {
+      "original": "083_indoor_object\\step_002.png",
+      "archive": "_archived_screenshots\\083_indoor_object\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\083_indoor_object\\step_002.png",
+      "sha256": "940a70374513d4d9c685e1b72997e57f09a22c713f0b11e6a80a88719ce136a9",
+      "length": 5522
+    },
+    {
+      "original": "083_indoor_object\\step_003.png",
+      "archive": "_archived_screenshots\\083_indoor_object\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\083_indoor_object\\step_003.png",
+      "sha256": "3b6ee3e819f61e4db1f8145b02d4db6639a428922919666086208c7054022efe",
+      "length": 5580
+    },
+    {
+      "original": "084_indoor_npc\\step_001.png",
+      "archive": "_archived_screenshots\\084_indoor_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\084_indoor_npc\\step_001.png",
+      "sha256": "7cfae25c4d64cdb5f5c294366d9a2f4c8cf75b338d4f760df582873ce990e78b",
+      "length": 7163
+    },
+    {
+      "original": "084_indoor_npc\\step_002.png",
+      "archive": "_archived_screenshots\\084_indoor_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\084_indoor_npc\\step_002.png",
+      "sha256": "48cad89a9e20e147409a939e78ab2f3748778afb19ba79eeaf75825e6c9b8969",
+      "length": 7390
+    },
+    {
+      "original": "084_indoor_npc\\step_003.png",
+      "archive": "_archived_screenshots\\084_indoor_npc\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\084_indoor_npc\\step_003.png",
+      "sha256": "dc5c71eb01f30531cfe7309ffa550bdfe1022a1b4e77e9a1c2f6d2edda4a0b03",
+      "length": 7558
+    },
+    {
+      "original": "085_indoor_north\\step_001.png",
+      "archive": "_archived_screenshots\\085_indoor_north\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\085_indoor_north\\step_001.png",
+      "sha256": "45e2bc93c6abaf4567328efeece5b8250205a86391c11801f3269bd5e68ba632",
+      "length": 7370
+    },
+    {
+      "original": "086_indoor_interact\\step_001.png",
+      "archive": "_archived_screenshots\\086_indoor_interact\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\086_indoor_interact\\step_001.png",
+      "sha256": "0be93b8dcaf1126f496f8362b243763aa5bf869bd77e9505070282ef8f3202e0",
+      "length": 7371
+    },
+    {
+      "original": "087_indoor_left\\step_001.png",
+      "archive": "_archived_screenshots\\087_indoor_left\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\087_indoor_left\\step_001.png",
+      "sha256": "7583d3d57832b6b1647ae45fff58bef9b44ec56f02e152e61b4f5c2d2d8cfeb8",
+      "length": 7456
+    },
+    {
+      "original": "088_indoor_kitchen\\step_001.png",
+      "archive": "_archived_screenshots\\088_indoor_kitchen\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\088_indoor_kitchen\\step_001.png",
+      "sha256": "4dafc5a0f2d1e8e1417a722b15335efedd271f5b64e14f0779bae5ab8ac2adce",
+      "length": 7415
+    },
+    {
+      "original": "088_indoor_kitchen\\step_002.png",
+      "archive": "_archived_screenshots\\088_indoor_kitchen\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\088_indoor_kitchen\\step_002.png",
+      "sha256": "7a476063a12e986eae2f35dad2ecbb86f23a3c74eb5627dacba859b0036dbe1f",
+      "length": 7247
+    },
+    {
+      "original": "088_indoor_kitchen\\step_003.png",
+      "archive": "_archived_screenshots\\088_indoor_kitchen\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\088_indoor_kitchen\\step_003.png",
+      "sha256": "bc0daf293afe65ceb04cafe62b897e3b9bbc13176950ed04129e2bed68bcf12c",
+      "length": 5198
+    },
+    {
+      "original": "089_indoor_exit\\step_002.png",
+      "archive": "_archived_screenshots\\089_indoor_exit\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\089_indoor_exit\\step_002.png",
+      "sha256": "bc0daf293afe65ceb04cafe62b897e3b9bbc13176950ed04129e2bed68bcf12c",
+      "length": 5198
+    },
+    {
+      "original": "089_indoor_exit\\step_003.png",
+      "archive": "_archived_screenshots\\089_indoor_exit\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\089_indoor_exit\\step_003.png",
+      "sha256": "7a476063a12e986eae2f35dad2ecbb86f23a3c74eb5627dacba859b0036dbe1f",
+      "length": 7247
+    },
+    {
+      "original": "090_clock_dialogue\\step_001.png",
+      "archive": "_archived_screenshots\\090_clock_dialogue\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\090_clock_dialogue\\step_001.png",
+      "sha256": "bc0daf293afe65ceb04cafe62b897e3b9bbc13176950ed04129e2bed68bcf12c",
+      "length": 5198
+    },
+    {
+      "original": "091_clock_dialogue_page2\\step_001.png",
+      "archive": "_archived_screenshots\\091_clock_dialogue_page2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\091_clock_dialogue_page2\\step_001.png",
+      "sha256": "7a476063a12e986eae2f35dad2ecbb86f23a3c74eb5627dacba859b0036dbe1f",
+      "length": 7247
+    },
+    {
+      "original": "092_indoor_exitdoor\\step_001.png",
+      "archive": "_archived_screenshots\\092_indoor_exitdoor\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\092_indoor_exitdoor\\step_001.png",
+      "sha256": "f30f2850128f76f1e5ecfa6442ddd694a26439e6c24aa5571e79daf54cf9009b",
+      "length": 5494
+    },
+    {
+      "original": "092_indoor_exitdoor\\step_002.png",
+      "archive": "_archived_screenshots\\092_indoor_exitdoor\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\092_indoor_exitdoor\\step_002.png",
+      "sha256": "53e0b95e278afcd7b3af4be7be48e87b3ed88d4718d68079c8b6cd2b78bbaa5c",
+      "length": 5744
+    },
+    {
+      "original": "093_mom_dialogue_page2\\step_001.png",
+      "archive": "_archived_screenshots\\093_mom_dialogue_page2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\093_mom_dialogue_page2\\step_001.png",
+      "sha256": "70584e6b3c614814627ca6ffee17dd70a4c99fd2688a4c880bbbfa10283612f6",
+      "length": 7080
+    },
+    {
+      "original": "094_home_exit\\step_001.png",
+      "archive": "_archived_screenshots\\094_home_exit\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\094_home_exit\\step_001.png",
+      "sha256": "b4d092f19342ac25377a0cac308dd144d6a91445555223e488f64beffee9fee3",
+      "length": 5055
+    },
+    {
+      "original": "094_home_exit\\step_002.png",
+      "archive": "_archived_screenshots\\094_home_exit\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\094_home_exit\\step_002.png",
+      "sha256": "d81a95fd5cede7ccb3ffb156cfdf27305fb24ee7e39e080a2e10dcc6b6f5ef76",
+      "length": 5483
+    },
+    {
+      "original": "094_home_exit\\step_003.png",
+      "archive": "_archived_screenshots\\094_home_exit\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\094_home_exit\\step_003.png",
+      "sha256": "2447d086a77677c7770123f90b1d2cd4eb92b125da1982e9eecb85170e083163",
+      "length": 6708
+    },
+    {
+      "original": "095_mom_dialogue_page3\\step_001.png",
+      "archive": "_archived_screenshots\\095_mom_dialogue_page3\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\095_mom_dialogue_page3\\step_001.png",
+      "sha256": "144cbf50710d96d70cf39cfcd956912e5b2c432c2cd5ef9267f5faa44680f294",
+      "length": 6719
+    },
+    {
+      "original": "096_home_picture\\step_001.png",
+      "archive": "_archived_screenshots\\096_home_picture\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\096_home_picture\\step_001.png",
+      "sha256": "38f35d979b61bafa20d92981f7f9a4be5aae52b30f1e11c67383ea11a681ddf7",
+      "length": 5443
+    },
+    {
+      "original": "096_home_picture\\step_002.png",
+      "archive": "_archived_screenshots\\096_home_picture\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\096_home_picture\\step_002.png",
+      "sha256": "19bf44039f7aeb8bfc6a0eb0e254c4a0cfb510545403eb73d57e571620dceed3",
+      "length": 4520
+    },
+    {
+      "original": "097_home_picture_interact\\step_002.png",
+      "archive": "_archived_screenshots\\097_home_picture_interact\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\097_home_picture_interact\\step_002.png",
+      "sha256": "442ad0af88adb7f604457fb7b2ec842cfcef5b0e52260ddf19c665f4abd98aa9",
+      "length": 5384
+    },
+    {
+      "original": "098_home_picture_page2\\step_001.png",
+      "archive": "_archived_screenshots\\098_home_picture_page2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\098_home_picture_page2\\step_001.png",
+      "sha256": "1e36a4df14334167c4916a6cd1230c97b8737966a23acd6f36cce6ce4a4b1184",
+      "length": 4521
+    },
+    {
+      "original": "099_home_picture_close\\step_001.png",
+      "archive": "_archived_screenshots\\099_home_picture_close\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\099_home_picture_close\\step_001.png",
+      "sha256": "332bc4b6524233d011589689a26f976552a195b055b0653d4d2c634ac0d37fce",
+      "length": 5379
+    },
+    {
+      "original": "100_home_kitchen\\step_001.png",
+      "archive": "_archived_screenshots\\100_home_kitchen\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\100_home_kitchen\\step_001.png",
+      "sha256": "4c037e72400e1191d9f703df273a3c0073ff80775397a5ef8c7d2056eca70d69",
+      "length": 7190
+    },
+    {
+      "original": "100_home_kitchen\\step_002.png",
+      "archive": "_archived_screenshots\\100_home_kitchen\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\100_home_kitchen\\step_002.png",
+      "sha256": "7cb1bd9e36568841d690635c0056c92ad5a0c7034632ed6e3e92f120ea65cb2d",
+      "length": 7130
+    },
+    {
+      "original": "101_home_frontdoor\\step_001.png",
+      "archive": "_archived_screenshots\\101_home_frontdoor\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\101_home_frontdoor\\step_001.png",
+      "sha256": "9b03cfc2ac5ea7f9b831a37d1b327340d80ff204f0c0687dcf54d6bb4f33c469",
+      "length": 7692
+    },
+    {
+      "original": "101_home_frontdoor\\step_002.png",
+      "archive": "_archived_screenshots\\101_home_frontdoor\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\101_home_frontdoor\\step_002.png",
+      "sha256": "20c44bbbca2ca38af6dab98213e25b6c16e1f5497e3c815fab18c3c3944acbb4",
+      "length": 7240
+    },
+    {
+      "original": "101_home_frontdoor\\step_003.png",
+      "archive": "_archived_screenshots\\101_home_frontdoor\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\101_home_frontdoor\\step_003.png",
+      "sha256": "31ba20592ee5a2d505a175593e1e33e20fd5aefe9f3048ed095687b7931a9ec7",
+      "length": 5057
+    },
+    {
+      "original": "102_home_door\\step_001.png",
+      "archive": "_archived_screenshots\\102_home_door\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\102_home_door\\step_001.png",
+      "sha256": "c2e9ee8cbd34a16b4707b7782c0274ffef6e7fa1e5b509789d581893c7cde5b8",
+      "length": 5056
+    },
+    {
+      "original": "102_home_door\\step_002.png",
+      "archive": "_archived_screenshots\\102_home_door\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\102_home_door\\step_002.png",
+      "sha256": "a246371575b3a98397da9ad560b9e5de1dd6fd9bf609cb0c16c59e7df55218c1",
+      "length": 5050
+    },
+    {
+      "original": "102_home_door\\step_003.png",
+      "archive": "_archived_screenshots\\102_home_door\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\102_home_door\\step_003.png",
+      "sha256": "9e6013a1a423ff33c3ba9e27f52ea160b6ae67f4f82cdda7f43327ad629d3d76",
+      "length": 7050
+    },
+    {
+      "original": "103_home_leave_try\\step_001.png",
+      "archive": "_archived_screenshots\\103_home_leave_try\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\103_home_leave_try\\step_001.png",
+      "sha256": "3eab01b9e53c43085764f0d85073855d75479cbd6d3f2ced448f6a5cb0756f51",
+      "length": 4896
+    },
+    {
+      "original": "104_home_door_walk\\step_001.png",
+      "archive": "_archived_screenshots\\104_home_door_walk\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\104_home_door_walk\\step_001.png",
+      "sha256": "ac47d05425b07bddd08edf9a2446475842031d4afd1290ce16c577ff73f6f9cc",
+      "length": 5826
+    },
+    {
+      "original": "104_home_door_walk\\step_002.png",
+      "archive": "_archived_screenshots\\104_home_door_walk\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\104_home_door_walk\\step_002.png",
+      "sha256": "502276d04abfa73ac1286811b2676365b20a717c13f2229b810d8ec20e99de04",
+      "length": 5597
+    },
+    {
+      "original": "106_home_mom_close\\step_001.png",
+      "archive": "_archived_screenshots\\106_home_mom_close\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\106_home_mom_close\\step_001.png",
+      "sha256": "5da3d331db83fa1d1dcbe2f47bd002904ec708a2f9d67e8dfd2c232af8f38efc",
+      "length": 6922
+    },
+    {
+      "original": "107_home_exit_after_mom\\step_001.png",
+      "archive": "_archived_screenshots\\107_home_exit_after_mom\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\107_home_exit_after_mom\\step_001.png",
+      "sha256": "4ece04dd4fac13e4ca9c07d51b36dd5ba4c5db6413a5927661dd8025db54efc1",
+      "length": 5684
+    },
+    {
+      "original": "108_home_leave_down\\step_001.png",
+      "archive": "_archived_screenshots\\108_home_leave_down\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\108_home_leave_down\\step_001.png",
+      "sha256": "37d0b3cbe08f50abdb89fe4d4c5d99f0f6f135c171b79f225276dd61de498bc9",
+      "length": 6947
+    },
+    {
+      "original": "108_home_leave_down\\step_002.png",
+      "archive": "_archived_screenshots\\108_home_leave_down\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\108_home_leave_down\\step_002.png",
+      "sha256": "c278b0e181b7c5e9a5c863230aa7def3c874542f7d6b84b181c5d85e2d01b8f6",
+      "length": 6720
+    },
+    {
+      "original": "109_home_exit_lower\\step_001.png",
+      "archive": "_archived_screenshots\\109_home_exit_lower\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\109_home_exit_lower\\step_001.png",
+      "sha256": "085c0a5e238e6a41b098e63322e5aad1f04788ed797fd1efe5c2bf9e275fc7eb",
+      "length": 4377
+    },
+    {
+      "original": "109_home_exit_lower\\step_002.png",
+      "archive": "_archived_screenshots\\109_home_exit_lower\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\109_home_exit_lower\\step_002.png",
+      "sha256": "7100b3b1c3d1bc565c24a8886c686ee02979c05a60aa27731731c626de388c9e",
+      "length": 4772
+    },
+    {
+      "original": "110_home_exit_lower2\\step_001.png",
+      "archive": "_archived_screenshots\\110_home_exit_lower2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\110_home_exit_lower2\\step_001.png",
+      "sha256": "de93fa8e0e006d79d182855b3ad50bbf79064ea6d87858591fb93165235295ce",
+      "length": 4745
+    },
+    {
+      "original": "110_home_exit_lower2\\step_002.png",
+      "archive": "_archived_screenshots\\110_home_exit_lower2\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\110_home_exit_lower2\\step_002.png",
+      "sha256": "500da1e37d56d97b2002aaa67192a125380b64441be382f8f24c24ba45955850",
+      "length": 5192
+    },
+    {
+      "original": "111_home_outside\\step_001.png",
+      "archive": "_archived_screenshots\\111_home_outside\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\111_home_outside\\step_001.png",
+      "sha256": "739745f00cc8ad7681a78d651c94df00d51b8007be6ea0dfc6dc7f2865291761",
+      "length": 5197
+    },
+    {
+      "original": "112_pet_object\\step_001.png",
+      "archive": "_archived_screenshots\\112_pet_object\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\112_pet_object\\step_001.png",
+      "sha256": "940a70374513d4d9c685e1b72997e57f09a22c713f0b11e6a80a88719ce136a9",
+      "length": 5522
+    },
+    {
+      "original": "113_pet_object_face\\step_001.png",
+      "archive": "_archived_screenshots\\113_pet_object_face\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\113_pet_object_face\\step_001.png",
+      "sha256": "4c9ad2d8f240f6423b70fbdebae3dbfd9505ca5fe88e2dd73b53c38746079691",
+      "length": 5530
+    },
+    {
+      "original": "113_pet_object_face\\step_002.png",
+      "archive": "_archived_screenshots\\113_pet_object_face\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\113_pet_object_face\\step_002.png",
+      "sha256": "50a4a258c69988177a886268b4108ad752df5249dfa12a8594e84d54ca5c595d",
+      "length": 5504
+    },
+    {
+      "original": "114_home_wait\\step_001.png",
+      "archive": "_archived_screenshots\\114_home_wait\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\114_home_wait\\step_001.png",
+      "sha256": "00de7477d63d9b0f6ebb5ddc12c770238f9190f1b5d524d02592736afa104dee",
+      "length": 6907
+    },
+    {
+      "original": "115_home_bdoor\\step_001.png",
+      "archive": "_archived_screenshots\\115_home_bdoor\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\115_home_bdoor\\step_001.png",
+      "sha256": "00de7477d63d9b0f6ebb5ddc12c770238f9190f1b5d524d02592736afa104dee",
+      "length": 6907
+    },
+    {
+      "original": "115_home_bdoor\\step_002.png",
+      "archive": "_archived_screenshots\\115_home_bdoor\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\115_home_bdoor\\step_002.png",
+      "sha256": "b29cbc5109bf6baf310bc846889e5d0ac8ff70174a491628df0768b54d1785b6",
+      "length": 5075
+    },
+    {
+      "original": "115_home_bdoor\\step_003.png",
+      "archive": "_archived_screenshots\\115_home_bdoor\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\115_home_bdoor\\step_003.png",
+      "sha256": "4846627a51c5e999e6dbeac3a9735d9944433d1ba4dd22230127b97c220b39dc",
+      "length": 5496
+    },
+    {
+      "original": "116_home_door_left\\step_001.png",
+      "archive": "_archived_screenshots\\116_home_door_left\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\116_home_door_left\\step_001.png",
+      "sha256": "d3447dff2e29a2567d7b65e8db20b6b98ecf4085f1cfb1178687456efb44a71c",
+      "length": 5494
+    },
+    {
+      "original": "117_home_mom_sequence\\step_001.png",
+      "archive": "_archived_screenshots\\117_home_mom_sequence\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\117_home_mom_sequence\\step_001.png",
+      "sha256": "00de7477d63d9b0f6ebb5ddc12c770238f9190f1b5d524d02592736afa104dee",
+      "length": 6907
+    },
+    {
+      "original": "117_home_mom_sequence\\step_002.png",
+      "archive": "_archived_screenshots\\117_home_mom_sequence\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\117_home_mom_sequence\\step_002.png",
+      "sha256": "00de7477d63d9b0f6ebb5ddc12c770238f9190f1b5d524d02592736afa104dee",
+      "length": 6907
+    },
+    {
+      "original": "118_home_mom_down\\step_001.png",
+      "archive": "_archived_screenshots\\118_home_mom_down\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\118_home_mom_down\\step_001.png",
+      "sha256": "bf0743d81cd094ebda4905fba041d04263544d3caaca992c0a5c248ec1abcedd",
+      "length": 5759
+    },
+    {
+      "original": "118_home_mom_down\\step_002.png",
+      "archive": "_archived_screenshots\\118_home_mom_down\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\118_home_mom_down\\step_002.png",
+      "sha256": "00de7477d63d9b0f6ebb5ddc12c770238f9190f1b5d524d02592736afa104dee",
+      "length": 6907
+    },
+    {
+      "original": "119_home_mom_long\\step_001.png",
+      "archive": "_archived_screenshots\\119_home_mom_long\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\119_home_mom_long\\step_001.png",
+      "sha256": "9b5421869c0d885d001e6999255ee18ee343747d70aa297db466aae25972a4c4",
+      "length": 6910
+    },
+    {
+      "original": "119_home_mom_long\\step_002.png",
+      "archive": "_archived_screenshots\\119_home_mom_long\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\119_home_mom_long\\step_002.png",
+      "sha256": "7e3b9420b990bc3f6132c3c763d61ccca0c1ed90ad28c2c50f8f732a896dc30e",
+      "length": 6930
+    },
+    {
+      "original": "119_home_mom_long\\step_003.png",
+      "archive": "_archived_screenshots\\119_home_mom_long\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\119_home_mom_long\\step_003.png",
+      "sha256": "5da3d331db83fa1d1dcbe2f47bd002904ec708a2f9d67e8dfd2c232af8f38efc",
+      "length": 6922
+    },
+    {
+      "original": "120_home_mom_waitnext\\step_001.png",
+      "archive": "_archived_screenshots\\120_home_mom_waitnext\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\120_home_mom_waitnext\\step_001.png",
+      "sha256": "00de7477d63d9b0f6ebb5ddc12c770238f9190f1b5d524d02592736afa104dee",
+      "length": 6907
+    },
+    {
+      "original": "120_home_mom_waitnext\\step_002.png",
+      "archive": "_archived_screenshots\\120_home_mom_waitnext\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\120_home_mom_waitnext\\step_002.png",
+      "sha256": "00de7477d63d9b0f6ebb5ddc12c770238f9190f1b5d524d02592736afa104dee",
+      "length": 6907
+    },
+    {
+      "original": "120_home_mom_waitnext\\step_003.png",
+      "archive": "_archived_screenshots\\120_home_mom_waitnext\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\120_home_mom_waitnext\\step_003.png",
+      "sha256": "00de7477d63d9b0f6ebb5ddc12c770238f9190f1b5d524d02592736afa104dee",
+      "length": 6907
+    },
+    {
+      "original": "121_home_exit_diag\\step_001.png",
+      "archive": "_archived_screenshots\\121_home_exit_diag\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\121_home_exit_diag\\step_001.png",
+      "sha256": "fdc648fffea31bc06c74739cf466c1a8c684799876e46c5134ca2bf196a775a3",
+      "length": 5661
+    },
+    {
+      "original": "121_home_exit_diag\\step_002.png",
+      "archive": "_archived_screenshots\\121_home_exit_diag\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\121_home_exit_diag\\step_002.png",
+      "sha256": "1c1fa4b5504e30204409eec445ae99df19eb377b1c20269eaf0bb6fd0408dccb",
+      "length": 5688
+    },
+    {
+      "original": "122_home_door_around\\step_001.png",
+      "archive": "_archived_screenshots\\122_home_door_around\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\122_home_door_around\\step_001.png",
+      "sha256": "a21be9a6ff6e3789e086ca3cb71b4346876c6d96ebf3dd00ce0de2439eb7c88a",
+      "length": 5236
+    },
+    {
+      "original": "122_home_door_around\\step_002.png",
+      "archive": "_archived_screenshots\\122_home_door_around\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\122_home_door_around\\step_002.png",
+      "sha256": "9a35a4d4fe5c9f692dce6a8d128012d866cc36374391bff2be1424856908d5f6",
+      "length": 5199
+    },
+    {
+      "original": "123_home_mom_from_side\\step_001.png",
+      "archive": "_archived_screenshots\\123_home_mom_from_side\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\123_home_mom_from_side\\step_001.png",
+      "sha256": "2a6caec57257aa12026970357d96a4c237d1d3133b74501dbb305a4319a616fc",
+      "length": 7083
+    },
+    {
+      "original": "123_home_mom_from_side\\step_002.png",
+      "archive": "_archived_screenshots\\123_home_mom_from_side\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\123_home_mom_from_side\\step_002.png",
+      "sha256": "2a6caec57257aa12026970357d96a4c237d1d3133b74501dbb305a4319a616fc",
+      "length": 7083
+    },
+    {
+      "original": "124_home_mom_side2\\step_001.png",
+      "archive": "_archived_screenshots\\124_home_mom_side2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\124_home_mom_side2\\step_001.png",
+      "sha256": "1ae701c3d00879e9b79944770b75f1be7ec0b0bf463056438acc01be77bec89d",
+      "length": 7626
+    },
+    {
+      "original": "124_home_mom_side2\\step_002.png",
+      "archive": "_archived_screenshots\\124_home_mom_side2\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\124_home_mom_side2\\step_002.png",
+      "sha256": "99b03023e90f35bc799f99bdc914e367b464ea3e121425c1661abec1c370c176",
+      "length": 7606
+    },
+    {
+      "original": "125_home_exit_clear\\step_001.png",
+      "archive": "_archived_screenshots\\125_home_exit_clear\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\125_home_exit_clear\\step_001.png",
+      "sha256": "af22748c4f84548b727a6100d845c0da427f77e22ba7bbf8e1fcd765ef385e1a",
+      "length": 7602
+    },
+    {
+      "original": "126_home_left_exit\\step_001.png",
+      "archive": "_archived_screenshots\\126_home_left_exit\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\126_home_left_exit\\step_001.png",
+      "sha256": "661cf3dd75ad83d2f80ddd648e067adac5a09d270c4805881d598ed6d378a6fd",
+      "length": 7765
+    },
+    {
+      "original": "126_home_left_exit\\step_002.png",
+      "archive": "_archived_screenshots\\126_home_left_exit\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\126_home_left_exit\\step_002.png",
+      "sha256": "14c0f568c4200c01c01566c88f856068d254dcc053e81aa30c90c9ac5f3953a5",
+      "length": 6658
+    },
+    {
+      "original": "127_home_left_mat\\step_001.png",
+      "archive": "_archived_screenshots\\127_home_left_mat\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\127_home_left_mat\\step_001.png",
+      "sha256": "9472a2c0e4161bede829e8a8d3542ee7bb465e59d60f81b35dca4bed55e4f540",
+      "length": 6180
+    },
+    {
+      "original": "127_home_left_mat\\step_002.png",
+      "archive": "_archived_screenshots\\127_home_left_mat\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\127_home_left_mat\\step_002.png",
+      "sha256": "2514715911e511dffc2d101f3d226f561432da1e50f04382b6ed446be9074af7",
+      "length": 5959
+    },
+    {
+      "original": "128_home_stairs\\step_001.png",
+      "archive": "_archived_screenshots\\128_home_stairs\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\128_home_stairs\\step_001.png",
+      "sha256": "0ad34ca510964787830229e607cce5fd4f95047f1db7a9585ad162c937325416",
+      "length": 3850
+    },
+    {
+      "original": "129_home_stairs_down\\step_001.png",
+      "archive": "_archived_screenshots\\129_home_stairs_down\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\129_home_stairs_down\\step_001.png",
+      "sha256": "e21ca514a3632f228987c400db1cfd22d6ebe52fd414b0602c9dd0c9765989e8",
+      "length": 8157
+    },
+    {
+      "original": "131_housefront_npc_close\\step_001.png",
+      "archive": "_archived_screenshots\\131_housefront_npc_close\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\131_housefront_npc_close\\step_001.png",
+      "sha256": "dbeb1287167371161d47234b8357743987d6a3c8fe41d1ca8356035cbee35e2d",
+      "length": 7798
+    },
+    {
+      "original": "132_housefront_npc_page3\\step_001.png",
+      "archive": "_archived_screenshots\\132_housefront_npc_page3\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\132_housefront_npc_page3\\step_001.png",
+      "sha256": "0c5b5b74f13b1aa380720fea02ffa839ce030084a119d9857f140f9eaf9682a7",
+      "length": 7868
+    },
+    {
+      "original": "133_housefront_npc_close2\\step_001.png",
+      "archive": "_archived_screenshots\\133_housefront_npc_close2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\133_housefront_npc_close2\\step_001.png",
+      "sha256": "e21ca514a3632f228987c400db1cfd22d6ebe52fd414b0602c9dd0c9765989e8",
+      "length": 8157
+    },
+    {
+      "original": "134_home_area_up\\step_001.png",
+      "archive": "_archived_screenshots\\134_home_area_up\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\134_home_area_up\\step_001.png",
+      "sha256": "bcfafbf80142bb2fa2e5bbfeb1604d19a1b7996a763de3561ccb74b43261eae8",
+      "length": 8630
+    },
+    {
+      "original": "135_home_area_north\\step_001.png",
+      "archive": "_archived_screenshots\\135_home_area_north\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\135_home_area_north\\step_001.png",
+      "sha256": "848479b6aacb77c1bdf6588144cbfe3f3957d3aff440c102989e3b09607ce8bd",
+      "length": 9128
+    },
+    {
+      "original": "136_home_area_npc\\step_001.png",
+      "archive": "_archived_screenshots\\136_home_area_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\136_home_area_npc\\step_001.png",
+      "sha256": "76d7d5f9075aa2b30cb8af49b6e0319b1e41df0d5b7668e9ad1c37ac52fa3580",
+      "length": 9102
+    },
+    {
+      "original": "136_home_area_npc\\step_002.png",
+      "archive": "_archived_screenshots\\136_home_area_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\136_home_area_npc\\step_002.png",
+      "sha256": "9eb85002d4de617f8ca875faa41a3228075798d8b44e8719923e70276b3dcb55",
+      "length": 8303
+    },
+    {
+      "original": "136_home_area_npc\\step_003.png",
+      "archive": "_archived_screenshots\\136_home_area_npc\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\136_home_area_npc\\step_003.png",
+      "sha256": "ea9f911931ac1866850ba140665848ad40264eb9023ef2fef1f76f4a5558be58",
+      "length": 8271
+    },
+    {
+      "original": "137_home_area_npc2\\step_001.png",
+      "archive": "_archived_screenshots\\137_home_area_npc2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\137_home_area_npc2\\step_001.png",
+      "sha256": "ee69fb7f195d1dd09d9848f6e7e5aeffe2bbf54eeb3298013134359030b05c5d",
+      "length": 9326
+    },
+    {
+      "original": "137_home_area_npc2\\step_002.png",
+      "archive": "_archived_screenshots\\137_home_area_npc2\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\137_home_area_npc2\\step_002.png",
+      "sha256": "474b5fd000ede0ac7c549fb6a14d6064d78d649c1847ed218e977e06070d2eeb",
+      "length": 9143
+    },
+    {
+      "original": "137_home_area_npc2\\step_003.png",
+      "archive": "_archived_screenshots\\137_home_area_npc2\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\137_home_area_npc2\\step_003.png",
+      "sha256": "51976b0229639cc3ee0e4796bd7c4e585486d82dd59511d462e83f6e144b7293",
+      "length": 8932
+    },
+    {
+      "original": "138_home_area_npc3\\step_001.png",
+      "archive": "_archived_screenshots\\138_home_area_npc3\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\138_home_area_npc3\\step_001.png",
+      "sha256": "4887bf656e3e1e3364662f2f57aec23895524b63a5fbf8c959ff7ea675ebe10d",
+      "length": 8476
+    },
+    {
+      "original": "138_home_area_npc3\\step_002.png",
+      "archive": "_archived_screenshots\\138_home_area_npc3\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\138_home_area_npc3\\step_002.png",
+      "sha256": "542ea93ef591afa01c69f0482fa7098d779333ec93f3cb16c27f7d6b71d210b2",
+      "length": 8475
+    },
+    {
+      "original": "139_home_area_npc4\\step_001.png",
+      "archive": "_archived_screenshots\\139_home_area_npc4\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\139_home_area_npc4\\step_001.png",
+      "sha256": "9b7669b876f4af19451c3c344a3d5834569a0d69121b91a68224e66ce1e028c4",
+      "length": 8137
+    },
+    {
+      "original": "139_home_area_npc4\\step_002.png",
+      "archive": "_archived_screenshots\\139_home_area_npc4\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\139_home_area_npc4\\step_002.png",
+      "sha256": "ec31c49df2092ab516c0e62d77ee63f849b6cbc75897dd6b217830e48f84ad20",
+      "length": 8191
+    },
+    {
+      "original": "139_home_area_npc4\\step_003.png",
+      "archive": "_archived_screenshots\\139_home_area_npc4\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\139_home_area_npc4\\step_003.png",
+      "sha256": "5bc645844e4bc7ac5309fd86579ad4ef4101a7a7d9a60c8893349344b25d0103",
+      "length": 8167
+    },
+    {
+      "original": "140_home_area_npc5\\step_001.png",
+      "archive": "_archived_screenshots\\140_home_area_npc5\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\140_home_area_npc5\\step_001.png",
+      "sha256": "48547ecac7218bcf6e839bf8199e8999ebe2bd9e82a7fa04358afc56a2f67dc7",
+      "length": 8430
+    },
+    {
+      "original": "140_home_area_npc5\\step_002.png",
+      "archive": "_archived_screenshots\\140_home_area_npc5\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\140_home_area_npc5\\step_002.png",
+      "sha256": "92c2e63cd96c924caa88cfb9120de06d0be223ce247856e4fe2613a8b16037f4",
+      "length": 7177
+    },
+    {
+      "original": "142_home_area_npc_page2\\step_001.png",
+      "archive": "_archived_screenshots\\142_home_area_npc_page2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\142_home_area_npc_page2\\step_001.png",
+      "sha256": "4f7705c32857c375ea3c8ccd2d33ee7329e260bc99586ab966340599223cf1ac",
+      "length": 7575
+    },
+    {
+      "original": "143_home_area_npc_close\\step_001.png",
+      "archive": "_archived_screenshots\\143_home_area_npc_close\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\143_home_area_npc_close\\step_001.png",
+      "sha256": "8829da3469412c7d0d60156069df4d4170d6d97e4279a70679e1aa4274e79564",
+      "length": 7388
+    },
+    {
+      "original": "144_home_area_npc_page4\\step_001.png",
+      "archive": "_archived_screenshots\\144_home_area_npc_page4\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\144_home_area_npc_page4\\step_001.png",
+      "sha256": "750c711e73bdf704d2c860eb0ad3a54e1e11f2b0175dc9200acdd1c009a39d4d",
+      "length": 8421
+    },
+    {
+      "original": "145_home_area_exit_north\\step_001.png",
+      "archive": "_archived_screenshots\\145_home_area_exit_north\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\145_home_area_exit_north\\step_001.png",
+      "sha256": "86b7ab14bb9ef15f1a56bc8f291f63f9b6f82b0e3bb4340c5d7560361691348b",
+      "length": 8806
+    },
+    {
+      "original": "146_home_area_exit_north2\\step_001.png",
+      "archive": "_archived_screenshots\\146_home_area_exit_north2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\146_home_area_exit_north2\\step_001.png",
+      "sha256": "4231bc3d0a04d3cc20be6633b7c2870968a3e9583cf09d977c0634c688a32efe",
+      "length": 4150
+    },
+    {
+      "original": "147_home_area_road\\step_001.png",
+      "archive": "_archived_screenshots\\147_home_area_road\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\147_home_area_road\\step_001.png",
+      "sha256": "77c29917d4b2c49ad0d32bfdb8e52ffd6fe1fd410fd43c502f41cc7acf139cfb",
+      "length": 4930
+    },
+    {
+      "original": "147_home_area_road\\step_002.png",
+      "archive": "_archived_screenshots\\147_home_area_road\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\147_home_area_road\\step_002.png",
+      "sha256": "9020a4bcdae201c797564a2773c030c4c2dfedc0b8d102bf76b6df249851e1d4",
+      "length": 7979
+    },
+    {
+      "original": "148_home_area_road_right\\step_001.png",
+      "archive": "_archived_screenshots\\148_home_area_road_right\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\148_home_area_road_right\\step_001.png",
+      "sha256": "f0ce35c5eca4896ff1e574121afac42925776069878b5622821b564f396372d8",
+      "length": 5681
+    },
+    {
+      "original": "149_home_area_road_right2\\step_001.png",
+      "archive": "_archived_screenshots\\149_home_area_road_right2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\149_home_area_road_right2\\step_001.png",
+      "sha256": "626c0738be24b032d8cd0f9194accbd799c10c7e2cc039829736d9512b06880c",
+      "length": 5519
+    },
+    {
+      "original": "150_home_area_end\\step_001.png",
+      "archive": "_archived_screenshots\\150_home_area_end\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\150_home_area_end\\step_001.png",
+      "sha256": "2d8fd08a3dc478679ecb25391ffb8dbb337b5a09c771d81633ab98788ad93508",
+      "length": 5587
+    },
+    {
+      "original": "151_home_area_exit\\step_001.png",
+      "archive": "_archived_screenshots\\151_home_area_exit\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\151_home_area_exit\\step_001.png",
+      "sha256": "d9170badc18593d2c6667c00fd3a8a7e1aecf67d9ded9779db3e894e381cf223",
+      "length": 2448
+    },
+    {
+      "original": "152_home_area_exit_right\\step_001.png",
+      "archive": "_archived_screenshots\\152_home_area_exit_right\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\152_home_area_exit_right\\step_001.png",
+      "sha256": "f2bcb114705850faddd539b6c48b12ad176479b3fb81f9cfddba551f27764233",
+      "length": 2078
+    },
+    {
+      "original": "153_waterfront_down\\step_001.png",
+      "archive": "_archived_screenshots\\153_waterfront_down\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\153_waterfront_down\\step_001.png",
+      "sha256": "4b35cae1af230b7d4a3eae748b98a6a8d22b0d2cc68b0d2d68fc305408e5b0bb",
+      "length": 2857
+    },
+    {
+      "original": "154_waterfront_down2\\step_001.png",
+      "archive": "_archived_screenshots\\154_waterfront_down2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\154_waterfront_down2\\step_001.png",
+      "sha256": "65c3360872dcec79b0b1d4378dfd5b18cec31d60e3d2d04bd19f898f10f6aa08",
+      "length": 3097
+    },
+    {
+      "original": "155_waterfront_left\\step_001.png",
+      "archive": "_archived_screenshots\\155_waterfront_left\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\155_waterfront_left\\step_001.png",
+      "sha256": "f960ea146cc1dfabc016812f4ed102a9b595011f7e8be0528644141aed23dcca",
+      "length": 5404
+    },
+    {
+      "original": "156_waterfront_park\\step_001.png",
+      "archive": "_archived_screenshots\\156_waterfront_park\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\156_waterfront_park\\step_001.png",
+      "sha256": "f47ab364c6499cbb981246e0821b65d6e5ff4642b81bf8dfee0bd9db43e8133e",
+      "length": 5947
+    },
+    {
+      "original": "156_waterfront_park\\step_002.png",
+      "archive": "_archived_screenshots\\156_waterfront_park\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\156_waterfront_park\\step_002.png",
+      "sha256": "48afb6b8517a2817d09f7fc4cccb245cd6f26eec23fe0968ed016d6827d61a18",
+      "length": 7422
+    },
+    {
+      "original": "156_waterfront_park\\step_003.png",
+      "archive": "_archived_screenshots\\156_waterfront_park\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\156_waterfront_park\\step_003.png",
+      "sha256": "48afb6b8517a2817d09f7fc4cccb245cd6f26eec23fe0968ed016d6827d61a18",
+      "length": 7422
+    },
+    {
+      "original": "157_waterfront_park2\\step_001.png",
+      "archive": "_archived_screenshots\\157_waterfront_park2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\157_waterfront_park2\\step_001.png",
+      "sha256": "44e770fcf1448a27ffae433fe69cb9561fa2854786a2301f553f71ea5f26a989",
+      "length": 8318
+    },
+    {
+      "original": "158_waterfront_park_npc\\step_001.png",
+      "archive": "_archived_screenshots\\158_waterfront_park_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\158_waterfront_park_npc\\step_001.png",
+      "sha256": "9958f6dfb364b768aa60624eaf091e4225379e653f8145564e9ad92a0a4e0c1b",
+      "length": 7248
+    },
+    {
+      "original": "158_waterfront_park_npc\\step_002.png",
+      "archive": "_archived_screenshots\\158_waterfront_park_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\158_waterfront_park_npc\\step_002.png",
+      "sha256": "9958f6dfb364b768aa60624eaf091e4225379e653f8145564e9ad92a0a4e0c1b",
+      "length": 7248
+    },
+    {
+      "original": "159_waterfront_park_npc2\\step_001.png",
+      "archive": "_archived_screenshots\\159_waterfront_park_npc2\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\159_waterfront_park_npc2\\step_001.png",
+      "sha256": "ebeeb234ec07027f3041312ccb49b2d5cd3c5ff2ca8dc0dd9b539d3ca2c25732",
+      "length": 8246
+    },
+    {
+      "original": "159_waterfront_park_npc2\\step_002.png",
+      "archive": "_archived_screenshots\\159_waterfront_park_npc2\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\159_waterfront_park_npc2\\step_002.png",
+      "sha256": "ebeeb234ec07027f3041312ccb49b2d5cd3c5ff2ca8dc0dd9b539d3ca2c25732",
+      "length": 8246
+    },
+    {
+      "original": "160_waterfront_park_top\\step_001.png",
+      "archive": "_archived_screenshots\\160_waterfront_park_top\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\160_waterfront_park_top\\step_001.png",
+      "sha256": "5b52501d2c3bf6435383b318e3901ee6be21f92cd0ce139d151d83236cda80de",
+      "length": 8775
+    },
+    {
+      "original": "161_waterfront_park_top_npc\\step_001.png",
+      "archive": "_archived_screenshots\\161_waterfront_park_top_npc\\step_001.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\161_waterfront_park_top_npc\\step_001.png",
+      "sha256": "25048afc366130732df0cf96540b6c099e11f842285bf947149dc23c03503422",
+      "length": 8465
+    },
+    {
+      "original": "161_waterfront_park_top_npc\\step_002.png",
+      "archive": "_archived_screenshots\\161_waterfront_park_top_npc\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\161_waterfront_park_top_npc\\step_002.png",
+      "sha256": "f824d71c13ede3ac3730c08f6c93a1f4848e1ff834a8aa2a0866c3c0f1189fad",
+      "length": 9123
+    },
+    {
+      "original": "163_shop_npc2\\step_002.png",
+      "archive": "_archived_screenshots\\163_shop_npc2\\step_002.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\163_shop_npc2\\step_002.png",
+      "sha256": "77256ad7b42503fb2d965db4043fe17bb166967ff68098e1b25756c70b2eafe4",
+      "length": 8010
+    },
+    {
+      "original": "163_shop_npc2\\step_003.png",
+      "archive": "_archived_screenshots\\163_shop_npc2\\step_003.png",
+      "original_relative": "analysis\\playtest_20260910_fixed\\163_shop_npc2\\step_003.png",
+      "sha256": "89fa5c3485030a05c108144d6e74fbbf4722bbb02b9221b7fd874643385fbe94",
+      "length": 9146
+    },
+    {
+      "original": "177_park_west\\step_001.png",
+      "archive": "_archived_screenshots\\177_park_west\\step_001.png",
+      "sha256": "373ef1313c3cfe691692639bee74196cc4c886fe8385b2032c3387bba2be76b0",
+      "length": 9027
+    },
+    {
+      "original": "178_park_west2\\step_001.png",
+      "archive": "_archived_screenshots\\178_park_west2\\step_001.png",
+      "sha256": "3d1752dc3e726681767b2c3313402a23a69262dfac303b76d3abd644b172b029",
+      "length": 8613
+    },
+    {
+      "original": "179_shop_black_npc\\step_001.png",
+      "archive": "_archived_screenshots\\179_shop_black_npc\\step_001.png",
+      "sha256": "0809b3b674485503310e0110d931af04e22220833c6d13cca3363bc83b2e9c13",
+      "length": 8764
+    },
+    {
+      "original": "180_building_north\\step_001.png",
+      "archive": "_archived_screenshots\\180_building_north\\step_001.png",
+      "sha256": "1dd0f58b5bc34351da27c99521d39a0df96a99bbaea2a38d895271c8ea219cc5",
+      "length": 9154
+    },
+    {
+      "original": "181_building_west\\step_001.png",
+      "archive": "_archived_screenshots\\181_building_west\\step_001.png",
+      "sha256": "2b842c040841380296b60e13fda7fdffb23346c28a4e3e37e9b0c762f891f35e",
+      "length": 8929
+    },
+    {
+      "original": "182_west_npc\\step_001.png",
+      "archive": "_archived_screenshots\\182_west_npc\\step_001.png",
+      "sha256": "5c2b31a1a2b58e65d46264c4101ee7f98964714be2b63c248028d55eb456b8b2",
+      "length": 8937
+    },
+    {
+      "original": "183_west_building\\step_001.png",
+      "archive": "_archived_screenshots\\183_west_building\\step_001.png",
+      "sha256": "9300bc2039f743af5b3f8cfd61485a7428fb4c9a4851f6444b45f7df54d28b10",
+      "length": 8904
+    },
+    {
+      "original": "183_west_building\\step_002.png",
+      "archive": "_archived_screenshots\\183_west_building\\step_002.png",
+      "sha256": "aa035489bbb4ae538abfc39e1cbbae13f387614f40943d351f1e046ff3daebb2",
+      "length": 8423
+    },
+    {
+      "original": "184_building_door\\step_001.png",
+      "archive": "_archived_screenshots\\184_building_door\\step_001.png",
+      "sha256": "e49a44950e5883d1b2dc94b533852a5b98344e79eba77a3a31373570ae0c6b16",
+      "length": 8149
+    },
+    {
+      "original": "185_building_entry\\step_001.png",
+      "archive": "_archived_screenshots\\185_building_entry\\step_001.png",
+      "sha256": "d3d61e5d8926919aeaf491bfa7a12fc6898dece7f371373c2188cd8bded48e66",
+      "length": 9073
+    },
+    {
+      "original": "185_building_entry\\step_002.png",
+      "archive": "_archived_screenshots\\185_building_entry\\step_002.png",
+      "sha256": "4cac79656fd3390749effbf83a87d9230d7857288cd9924bd0176d041d2a1426",
+      "length": 8904
+    },
+    {
+      "original": "186_building_south\\step_001.png",
+      "archive": "_archived_screenshots\\186_building_south\\step_001.png",
+      "sha256": "876303341d1677c3b67d7124ede8e1405e3f30e6ba2f6e7561e9105d660d213c",
+      "length": 8191
+    },
+    {
+      "original": "186_building_south\\step_002.png",
+      "archive": "_archived_screenshots\\186_building_south\\step_002.png",
+      "sha256": "a6d000bb60141147957b090e273cdc68c2bb90a1ed788839f0171c0186b6b6d5",
+      "length": 8866
+    },
+    {
+      "original": "187_blue_building\\step_001.png",
+      "archive": "_archived_screenshots\\187_blue_building\\step_001.png",
+      "sha256": "0733f8e3f305955c9abe9b2484fd7a780170bd63014391796e8e74682e0b510a",
+      "length": 8450
+    },
+    {
+      "original": "187_blue_building\\step_002.png",
+      "archive": "_archived_screenshots\\187_blue_building\\step_002.png",
+      "sha256": "0733f8e3f305955c9abe9b2484fd7a780170bd63014391796e8e74682e0b510a",
+      "length": 8450
+    },
+    {
+      "original": "188_blue_building_door\\step_001.png",
+      "archive": "_archived_screenshots\\188_blue_building_door\\step_001.png",
+      "sha256": "560bc701365964aa4f656024b698beb8444a49c2ccc18299ea7c03f97e33410c",
+      "length": 8718
+    },
+    {
+      "original": "188_blue_building_door\\step_002.png",
+      "archive": "_archived_screenshots\\188_blue_building_door\\step_002.png",
+      "sha256": "560bc701365964aa4f656024b698beb8444a49c2ccc18299ea7c03f97e33410c",
+      "length": 8718
+    },
+    {
+      "original": "189_pink_house\\step_001.png",
+      "archive": "_archived_screenshots\\189_pink_house\\step_001.png",
+      "sha256": "32eef2f2fd9da530faf2272a94143d115a1761ed4f19451b0965c16984d150d3",
+      "length": 6477
+    },
+    {
+      "original": "189_pink_house\\step_002.png",
+      "archive": "_archived_screenshots\\189_pink_house\\step_002.png",
+      "sha256": "47d97a082dd529574e6eddabbd7b4619402e0612de963ce3eac6e5cda16c0c64",
+      "length": 8002
+    },
+    {
+      "original": "190_pink_house_north\\step_001.png",
+      "archive": "_archived_screenshots\\190_pink_house_north\\step_001.png",
+      "sha256": "e4d5525dd083549235449c6aea93fb2caef6eea6ba6ca3ada687a42688959442",
+      "length": 8291
+    },
+    {
+      "original": "191_pink_house_door\\step_001.png",
+      "archive": "_archived_screenshots\\191_pink_house_door\\step_001.png",
+      "sha256": "970fcaf3d661891cb3a489b81915896099408ce95bf35d9b1cdc6159b0c3d3a7",
+      "length": 7990
+    },
+    {
+      "original": "191_pink_house_door\\step_002.png",
+      "archive": "_archived_screenshots\\191_pink_house_door\\step_002.png",
+      "sha256": "970fcaf3d661891cb3a489b81915896099408ce95bf35d9b1cdc6159b0c3d3a7",
+      "length": 7990
+    },
+    {
+      "original": "192_pink_house_edge\\step_001.png",
+      "archive": "_archived_screenshots\\192_pink_house_edge\\step_001.png",
+      "sha256": "1d33e94d17d17ca28352f93ed74b1e1e71c4dc721fa1b116ed0a7b3840ac6c8a",
+      "length": 4652
+    },
+    {
+      "original": "192_pink_house_edge\\step_002.png",
+      "archive": "_archived_screenshots\\192_pink_house_edge\\step_002.png",
+      "sha256": "00b22036a044493e930d4ec7658606246fd7f28a568bed0c113ce9535ea6d6d8",
+      "length": 7427
+    }
+  ]
+}

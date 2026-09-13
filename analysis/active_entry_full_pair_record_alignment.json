@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "input": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "entry_rom_offset": 7840430,
+    "entry_length": 59,
+    "entry_sha256": "e6d121a664d2014393c1787af7e9fa8716bf285754dc97a9af1b3a396f2f2138",
+    "record_match_report": "dialogue_bg0_full_pair_record_matches.json"
+  },
+  "visible_paired_cache_record_count": 37,
+  "unambiguous_aligned_font_record_count": 35,
+  "records_without_unambiguous_font_candidate_count": 2,
+  "unique_unambiguous_font_record_index_count": 18,
+  "one_byte_range_font_record_index_count": 17,
+  "one_byte_range_font_record_indices_present_somewhere_in_active_entry_count": 17,
+  "one_byte_range_font_record_appearance_count": 34,
+  "one_byte_range_indices_with_exact_record_to_byte_frequency_match_count": 16,
+  "one_byte_range_indices_with_record_count_not_exceeding_byte_frequency_count": 16,
+  "interpretation_notice": "This is an opaque count comparison: no byte values, text, or graphics are emitted. It does not establish byte positions, exclude commands, define the exceptional record, or authorize reinsertion."
+}

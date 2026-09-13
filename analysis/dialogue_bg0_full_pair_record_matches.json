@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "input": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "state_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "state_sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914"
+  },
+  "region": {
+    "x0": 64,
+    "y0": 104,
+    "x1_exclusive": 208,
+    "y1_exclusive": 152
+  },
+  "bg0_control_register": 7176,
+  "character_base_vram_offset": 32768,
+  "font_base_rom_offset": 6910896,
+  "record_bytes": 64,
+  "paired_cache_record_count": 37,
+  "records": [
+    {
+      "top_bg0_tile_index": 576,
+      "bottom_bg0_tile_index": 577,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 578,
+      "bottom_bg0_tile_index": 579,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 580,
+      "bottom_bg0_tile_index": 581,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 582,
+      "bottom_bg0_tile_index": 583,
+      "region_pair_cell_count": 1,
+      "record_sha256": "c07f18644b3b2bda5e24aaa57e5ef8bd03e44eefcda6b444656c19ce7f2141c6",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6921328,
+          "font_record_index": 163
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 584,
+      "bottom_bg0_tile_index": 585,
+      "region_pair_cell_count": 1,
+      "record_sha256": "4de041c8da34c952b01132cd7910f87538ddbfb989c5e52ff67e2ddc88d3a0ff",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6922608,
+          "font_record_index": 183
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 586,
+      "bottom_bg0_tile_index": 587,
+      "region_pair_cell_count": 1,
+      "record_sha256": "af6d088d6654b3778947828da1792e96e83df330a17c1fb254cb8dd3ea850cc2",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919408,
+          "font_record_index": 133
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 588,
+      "bottom_bg0_tile_index": 589,
+      "region_pair_cell_count": 1,
+      "record_sha256": "f144402460a8e30cf6b8186bfbf6672d3677e7764e8eed9df322cf118ed6172b",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6921776,
+          "font_record_index": 170
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 590,
+      "bottom_bg0_tile_index": 591,
+      "region_pair_cell_count": 1,
+      "record_sha256": "5a907e88b0f869d4da3167214d48fb29cc7fdda4e438c161732799368c5b72dd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6920752,
+          "font_record_index": 154
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 592,
+      "bottom_bg0_tile_index": 593,
+      "region_pair_cell_count": 1,
+      "record_sha256": "6ebaf3a19441a767f4837cbda5e7f59eb59321b38152000e6ea02b8720c033d2",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6922032,
+          "font_record_index": 174
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 594,
+      "bottom_bg0_tile_index": 595,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 596,
+      "bottom_bg0_tile_index": 597,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 598,
+      "bottom_bg0_tile_index": 599,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 600,
+      "bottom_bg0_tile_index": 601,
+      "region_pair_cell_count": 1,
+      "record_sha256": "f3e0c8ce630cec6211e3bf959cf1bddf94884baffff564c04b0bc2d20b440653",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6922224,
+          "font_record_index": 177
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 602,
+      "bottom_bg0_tile_index": 603,
+      "region_pair_cell_count": 1,
+      "record_sha256": "9aed5fce4bb60c40cb8a2983b43540adb4c8ac8aa1ef1f20de57526f9ed86e38",
+      "rom_occurrence_count_lower_bound": 16,
+      "rom_occurrence_count_truncated": true,
+      "aligned_font_record_candidates": []
+    },
+    {
+      "top_bg0_tile_index": 604,
+      "bottom_bg0_tile_index": 605,
+      "region_pair_cell_count": 1,
+      "record_sha256": "ac3fcd529738a2dbf27165cdb03ab8471f12c3170ea2d8ca9c27ca9339bee61f",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6921200,
+          "font_record_index": 161
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 606,
+      "bottom_bg0_tile_index": 607,
+      "region_pair_cell_count": 1,
+      "record_sha256": "647ae57888b0bd2df26506a6b81b52f1823261ad940459cdce99c1fffedea172",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6923696,
+          "font_record_index": 200
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 608,
+      "bottom_bg0_tile_index": 609,
+      "region_pair_cell_count": 1,
+      "record_sha256": "e646c9b365a049310c8ddcd5c95c8a5dfdc20d01555cca60d42a72c46d6bc140",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6921072,
+          "font_record_index": 159
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 610,
+      "bottom_bg0_tile_index": 611,
+      "region_pair_cell_count": 1,
+      "record_sha256": "e09ed9c2ceb83450fd789539c1663c616fac9e145e365cfcbae48dbf0a0310e5",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6925808,
+          "font_record_index": 233
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 612,
+      "bottom_bg0_tile_index": 613,
+      "region_pair_cell_count": 1,
+      "record_sha256": "58a330b13245aabfc30d5802daec57263b8a908d89946058506d0e3b5daa79d9",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6920816,
+          "font_record_index": 155
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 614,
+      "bottom_bg0_tile_index": 615,
+      "region_pair_cell_count": 1,
+      "record_sha256": "3990c571d8a92140e85f2cdc4d00132c7d54da0270ac37bfb639b77f92890a18",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6923760,
+          "font_record_index": 201
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 616,
+      "bottom_bg0_tile_index": 617,
+      "region_pair_cell_count": 1,
+      "record_sha256": "c07f18644b3b2bda5e24aaa57e5ef8bd03e44eefcda6b444656c19ce7f2141c6",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6921328,
+          "font_record_index": 163
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 618,
+      "bottom_bg0_tile_index": 619,
+      "region_pair_cell_count": 1,
+      "record_sha256": "5a907e88b0f869d4da3167214d48fb29cc7fdda4e438c161732799368c5b72dd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6920752,
+          "font_record_index": 154
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 620,
+      "bottom_bg0_tile_index": 621,
+      "region_pair_cell_count": 1,
+      "record_sha256": "918cd5176863c8553be16d115745b0fc82ef35818882cd55a749f74e22dc8929",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6921392,
+          "font_record_index": 164
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 622,
+      "bottom_bg0_tile_index": 623,
+      "region_pair_cell_count": 1,
+      "record_sha256": "e09ed9c2ceb83450fd789539c1663c616fac9e145e365cfcbae48dbf0a0310e5",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6925808,
+          "font_record_index": 233
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 624,
+      "bottom_bg0_tile_index": 625,
+      "region_pair_cell_count": 1,
+      "record_sha256": "58a330b13245aabfc30d5802daec57263b8a908d89946058506d0e3b5daa79d9",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6920816,
+          "font_record_index": 155
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 626,
+      "bottom_bg0_tile_index": 627,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 628,
+      "bottom_bg0_tile_index": 629,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 630,
+      "bottom_bg0_tile_index": 631,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 632,
+      "bottom_bg0_tile_index": 633,
+      "region_pair_cell_count": 1,
+      "record_sha256": "6ebaf3a19441a767f4837cbda5e7f59eb59321b38152000e6ea02b8720c033d2",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6922032,
+          "font_record_index": 174
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 634,
+      "bottom_bg0_tile_index": 635,
+      "region_pair_cell_count": 1,
+      "record_sha256": "9aed5fce4bb60c40cb8a2983b43540adb4c8ac8aa1ef1f20de57526f9ed86e38",
+      "rom_occurrence_count_lower_bound": 16,
+      "rom_occurrence_count_truncated": true,
+      "aligned_font_record_candidates": []
+    },
+    {
+      "top_bg0_tile_index": 636,
+      "bottom_bg0_tile_index": 637,
+      "region_pair_cell_count": 1,
+      "record_sha256": "ec8d7462781e78dee3102a62ade7c18099e2a8a956149e62e050b102b68c26f7",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6932592,
+          "font_record_index": 339
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 638,
+      "bottom_bg0_tile_index": 639,
+      "region_pair_cell_count": 1,
+      "record_sha256": "0a442cb63fe8a8cd41c859c9b7823e112bfbcd3dc4c35d5a81347638b2671831",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6923184,
+          "font_record_index": 192
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 640,
+      "bottom_bg0_tile_index": 641,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 642,
+      "bottom_bg0_tile_index": 643,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 644,
+      "bottom_bg0_tile_index": 645,
+      "region_pair_cell_count": 1,
+      "record_sha256": "141ee2cba8887c29c018e58345cbfe71b78251d1a05a79edb8c3a51cdc0a2edd",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6919600,
+          "font_record_index": 136
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 646,
+      "bottom_bg0_tile_index": 647,
+      "region_pair_cell_count": 1,
+      "record_sha256": "918cd5176863c8553be16d115745b0fc82ef35818882cd55a749f74e22dc8929",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6921392,
+          "font_record_index": 164
+        }
+      ]
+    },
+    {
+      "top_bg0_tile_index": 648,
+      "bottom_bg0_tile_index": 649,
+      "region_pair_cell_count": 1,
+      "record_sha256": "348f2cf544e11298869faf4fd29188542ea13b6b2e3a9f416ab487f624bf8e8f",
+      "rom_occurrence_count_lower_bound": 1,
+      "rom_occurrence_count_truncated": false,
+      "aligned_font_record_candidates": [
+        {
+          "rom_offset": 6921648,
+          "font_record_index": 168
+        }
+      ]
+    }
+  ],
+  "interpretation_notice": "A complete-record match is a structural source lead for this state's BG0 cache. It does not establish character values, controls, or a writable patch format."
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "kind": "muted_contextual_full_bank_runtime_verification",
+  "date": "2026-08-27",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_40_contextual_full_bank_poc.gba",
+    "sha256": "9fedcfdc70d7caa59e038e709bb0c27e6b699b2cad8f5f46704fad2db5e32d82",
+    "byte_length": 16777216
+  },
+  "build_manifest": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_40_contextual_full_bank_poc_manifest.json",
+    "sha256": "fa4b3a38ec9f990f600324202ac31408fe04de637771fddc6b2ff8e6e52f92b2"
+  },
+  "codepage": {
+    "filename": "korean_codepage_archive_00_09_dialogue_classroom_00_40_contextual_full_bank.json",
+    "sha256": "3888ac3ba7fed97149a09fe4406a0bb911969f85eeb368cbbe6271ef499b1595",
+    "mode": "contextual_full_bank",
+    "assignable_capacity": 715,
+    "assignment_count": 263,
+    "remaining_capacity": 452
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "system": "gba",
+    "launch_id": "launch-01m11c57netdk6xjjhv9v7nk6v",
+    "display": false,
+    "sound": false,
+    "stopped": true
+  },
+  "interventions": {
+    "base_state": "analysis/emucap/yai_fan_exe1k_font_entry8_choice_muted.ss1",
+    "renderer_preparation": "Loaded the baseline state, tapped A for one frame, and advanced 180 frames before each focused cursor injection.",
+    "archive_input": "poc/output/archive_00_09_dialogue_classroom_00_40_contextual_full_bank_decompressed.bin",
+    "archive_input_sha256": "5593853bcfa86d590049abc74e89c55ed18646eb2d5bdf8d7583b257c748e419",
+    "archive_input_byte_length": 5764,
+    "archive_memory_offset": "0x00038800",
+    "renderer_cursor_field": "0x02008754",
+    "renderer_entry_start_field": "0x0200875C",
+    "renderer_reset_addresses": ["0x02008732", "0x0200873E"]
+  },
+  "context_predicate": {
+    "cursor_start_inclusive": "0x020389FE",
+    "cursor_end_exclusive": "0x02039323",
+    "translated_entries": "0 through 40; entries 18 through 21, 32 through 34, and 37 through 39 are zero-length",
+    "zero_length_entries_after_context": [41, 42, 43, 44],
+    "first_nonempty_outside_entry": 45
+  },
+  "cases": [
+    {
+      "name": "inside_context_entry_40",
+      "cursor": "0x02039312",
+      "expected_bank": "expanded_context_korean_bank",
+      "expected_text": "다들 벌써 돌아갔어",
+      "screenshot": "analysis/emucap/contextual_full_bank_entry40_ko_verified.png",
+      "screenshot_sha256": "bc2a53657564103e974210b678c6fe249be73a7a40b2a3c77a40947cb45e39a3",
+      "passed": true
+    },
+    {
+      "name": "outside_context_entry_45",
+      "cursor": "0x02039323",
+      "expected_bank": "restored_original_rev1_bank",
+      "expected_source_text": ["きょうは ここで えいごの", "しゅくだいを やっちゃおうと おもって", "・・・ゴメンね"],
+      "screenshot": "analysis/emucap/contextual_full_bank_entry45_ja_boundary_verified.png",
+      "screenshot_sha256": "35c63ba2130b001214627cc9b27b1395f62508c2d8083eaed54de31799d47e7a",
+      "passed": true
+    }
+  ],
+  "verification": {
+    "inside_context_selects_korean_bank": true,
+    "outside_context_selects_original_bank": true,
+    "audio_enabled": false,
+    "managed_emulator_stopped": true
+  },
+  "limitations": [
+    "The renderer cursor and archive payload were explicitly injected for focused testing; normal NPC routing is not claimed by this evidence.",
+    "All Korean wording remains a machine draft pending independent review and human approval.",
+    "Other archives require separately proven context ranges or a generalized selector before sharing this bank."
+  ],
+  "passed": true
+}

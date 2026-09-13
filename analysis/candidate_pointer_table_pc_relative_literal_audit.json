@@ -1,0 +1,920 @@
+{
+  "schema_version": 1,
+  "kind": "candidate_pointer_table_pc_relative_literal_audit",
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "byte_length": 8388608
+  },
+  "pointer_census": {
+    "filename": "catalog_block_start_pointer_word_census.json",
+    "sha256": "3bfda4f3f69420bf7024f3d6f6390c8ba1693077b9912dabf92d7f6ea2e61fd5"
+  },
+  "summary": {
+    "candidate_table_count": 30,
+    "tables_with_pc_relative_literal_consumer": 23,
+    "pc_relative_literal_consumer_total": 25
+  },
+  "tables": [
+    {
+      "start_rom_offset": 29544,
+      "end_rom_offset_exclusive": 29556,
+      "word_count": 3,
+      "target_block_ids": [
+        "pc-jap-map-0211",
+        "pc-jap-map-0212",
+        "pc-jap-map-0213"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 29528,
+          "literal_word_rom_offset": 29540,
+          "destination_register": 2,
+          "loaded_table_rom_offset": 29544,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 45360,
+      "end_rom_offset_exclusive": 45368,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0017",
+        "pc-jap-map-0018"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 45288,
+          "literal_word_rom_offset": 45356,
+          "destination_register": 0,
+          "loaded_table_rom_offset": 45360,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 46364,
+      "end_rom_offset_exclusive": 46376,
+      "word_count": 3,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022",
+        "pc-jap-map-0000"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 46258,
+          "literal_word_rom_offset": 46360,
+          "destination_register": 1,
+          "loaded_table_rom_offset": 46364,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 46684,
+      "end_rom_offset_exclusive": 46692,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 46642,
+          "literal_word_rom_offset": 46680,
+          "destination_register": 1,
+          "loaded_table_rom_offset": 46684,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 50700,
+      "end_rom_offset_exclusive": 50708,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 50670,
+          "literal_word_rom_offset": 50696,
+          "destination_register": 6,
+          "loaded_table_rom_offset": 50700,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 55624,
+      "end_rom_offset_exclusive": 55632,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 2,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 55572,
+          "literal_word_rom_offset": 55620,
+          "destination_register": 3,
+          "loaded_table_rom_offset": 55624,
+          "loaded_table_relative_offset": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 55692,
+          "literal_word_rom_offset": 55768,
+          "destination_register": 2,
+          "loaded_table_rom_offset": 55624,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 57076,
+      "end_rom_offset_exclusive": 57084,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 57018,
+          "literal_word_rom_offset": 57072,
+          "destination_register": 5,
+          "loaded_table_rom_offset": 57076,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 74056,
+      "end_rom_offset_exclusive": 74064,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 73968,
+          "literal_word_rom_offset": 74052,
+          "destination_register": 4,
+          "loaded_table_rom_offset": 74056,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 75036,
+      "end_rom_offset_exclusive": 75060,
+      "word_count": 6,
+      "target_block_ids": [
+        "pc-jap-map-0421",
+        "pc-jap-map-0424",
+        "pc-jap-map-0422",
+        "pc-jap-map-0421",
+        "pc-jap-map-0423",
+        "pc-jap-map-0425"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 75018,
+          "literal_word_rom_offset": 75032,
+          "destination_register": 3,
+          "loaded_table_rom_offset": 75036,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 138116,
+      "end_rom_offset_exclusive": 138132,
+      "word_count": 4,
+      "target_block_ids": [
+        "pc-jap-map-0220",
+        "pc-jap-map-0021",
+        "pc-jap-map-0022",
+        "pc-jap-map-0000"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 138028,
+          "literal_word_rom_offset": 138112,
+          "destination_register": 4,
+          "loaded_table_rom_offset": 138116,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 141440,
+      "end_rom_offset_exclusive": 141508,
+      "word_count": 17,
+      "target_block_ids": [
+        "pc-jap-map-0255",
+        "pc-jap-map-0257",
+        "pc-jap-map-0258",
+        "pc-jap-map-0259",
+        "pc-jap-map-0260",
+        "pc-jap-map-0261",
+        "pc-jap-map-0262",
+        "pc-jap-map-0263",
+        "pc-jap-map-0264",
+        "pc-jap-map-0265",
+        "pc-jap-map-0266",
+        "pc-jap-map-0267",
+        "pc-jap-map-0268",
+        "pc-jap-map-0269",
+        "pc-jap-map-0270",
+        "pc-jap-map-0271",
+        "pc-jap-map-0272"
+      ],
+      "pc_relative_literal_consumer_count": 0,
+      "consumers": []
+    },
+    {
+      "start_rom_offset": 141512,
+      "end_rom_offset_exclusive": 142092,
+      "word_count": 145,
+      "target_block_ids": [
+        "pc-jap-map-0273",
+        "pc-jap-map-0274",
+        "pc-jap-map-0275",
+        "pc-jap-map-0276",
+        "pc-jap-map-0277",
+        "pc-jap-map-0278",
+        "pc-jap-map-0279",
+        "pc-jap-map-0280",
+        "pc-jap-map-0281",
+        "pc-jap-map-0282",
+        "pc-jap-map-0283",
+        "pc-jap-map-0284",
+        "pc-jap-map-0285",
+        "pc-jap-map-0286",
+        "pc-jap-map-0287",
+        "pc-jap-map-0288",
+        "pc-jap-map-0289",
+        "pc-jap-map-0290",
+        "pc-jap-map-0291",
+        "pc-jap-map-0292",
+        "pc-jap-map-0293",
+        "pc-jap-map-0294",
+        "pc-jap-map-0295",
+        "pc-jap-map-0296",
+        "pc-jap-map-0297",
+        "pc-jap-map-0298",
+        "pc-jap-map-0299",
+        "pc-jap-map-0300",
+        "pc-jap-map-0301",
+        "pc-jap-map-0302",
+        "pc-jap-map-0303",
+        "pc-jap-map-0304",
+        "pc-jap-map-0305",
+        "pc-jap-map-0306",
+        "pc-jap-map-0307",
+        "pc-jap-map-0308",
+        "pc-jap-map-0309",
+        "pc-jap-map-0310",
+        "pc-jap-map-0311",
+        "pc-jap-map-0312",
+        "pc-jap-map-0313",
+        "pc-jap-map-0314",
+        "pc-jap-map-0315",
+        "pc-jap-map-0316",
+        "pc-jap-map-0318",
+        "pc-jap-map-0319",
+        "pc-jap-map-0320",
+        "pc-jap-map-0321",
+        "pc-jap-map-0322",
+        "pc-jap-map-0323",
+        "pc-jap-map-0324",
+        "pc-jap-map-0325",
+        "pc-jap-map-0326",
+        "pc-jap-map-0327",
+        "pc-jap-map-0328",
+        "pc-jap-map-0329",
+        "pc-jap-map-0330",
+        "pc-jap-map-0331",
+        "pc-jap-map-0332",
+        "pc-jap-map-0333",
+        "pc-jap-map-0334",
+        "pc-jap-map-0335",
+        "pc-jap-map-0336",
+        "pc-jap-map-0337",
+        "pc-jap-map-0338",
+        "pc-jap-map-0339",
+        "pc-jap-map-0341",
+        "pc-jap-map-0342",
+        "pc-jap-map-0343",
+        "pc-jap-map-0344",
+        "pc-jap-map-0345",
+        "pc-jap-map-0346",
+        "pc-jap-map-0347",
+        "pc-jap-map-0348",
+        "pc-jap-map-0349",
+        "pc-jap-map-0350",
+        "pc-jap-map-0352",
+        "pc-jap-map-0353",
+        "pc-jap-map-0354",
+        "pc-jap-map-0355",
+        "pc-jap-map-0356",
+        "pc-jap-map-0357",
+        "pc-jap-map-0358",
+        "pc-jap-map-0359",
+        "pc-jap-map-0360",
+        "pc-jap-map-0361",
+        "pc-jap-map-0362",
+        "pc-jap-map-0363",
+        "pc-jap-map-0364",
+        "pc-jap-map-0365",
+        "pc-jap-map-0366",
+        "pc-jap-map-0367",
+        "pc-jap-map-0368",
+        "pc-jap-map-0369",
+        "pc-jap-map-0370",
+        "pc-jap-map-0371",
+        "pc-jap-map-0372",
+        "pc-jap-map-0373",
+        "pc-jap-map-0374",
+        "pc-jap-map-0375",
+        "pc-jap-map-0376",
+        "pc-jap-map-0377",
+        "pc-jap-map-0378",
+        "pc-jap-map-0379",
+        "pc-jap-map-0380",
+        "pc-jap-map-0381",
+        "pc-jap-map-0382",
+        "pc-jap-map-0383",
+        "pc-jap-map-0384",
+        "pc-jap-map-0385",
+        "pc-jap-map-0386",
+        "pc-jap-map-0387",
+        "pc-jap-map-0388",
+        "pc-jap-map-0389",
+        "pc-jap-map-0390",
+        "pc-jap-map-0391",
+        "pc-jap-map-0392",
+        "pc-jap-map-0393",
+        "pc-jap-map-0394",
+        "pc-jap-map-0395",
+        "pc-jap-map-0396",
+        "pc-jap-map-0397",
+        "pc-jap-map-0398",
+        "pc-jap-map-0399",
+        "pc-jap-map-0400",
+        "pc-jap-map-0401",
+        "pc-jap-map-0402",
+        "pc-jap-map-0403",
+        "pc-jap-map-0404",
+        "pc-jap-map-0405",
+        "pc-jap-map-0406",
+        "pc-jap-map-0407",
+        "pc-jap-map-0408",
+        "pc-jap-map-0409",
+        "pc-jap-map-0410",
+        "pc-jap-map-0411",
+        "pc-jap-map-0412",
+        "pc-jap-map-0413",
+        "pc-jap-map-0414",
+        "pc-jap-map-0415",
+        "pc-jap-map-0416",
+        "pc-jap-map-0417",
+        "pc-jap-map-0418",
+        "pc-jap-map-0419",
+        "pc-jap-map-0420"
+      ],
+      "pc_relative_literal_consumer_count": 0,
+      "consumers": []
+    },
+    {
+      "start_rom_offset": 142220,
+      "end_rom_offset_exclusive": 142236,
+      "word_count": 4,
+      "target_block_ids": [
+        "pc-jap-map-0227",
+        "pc-jap-map-0227",
+        "pc-jap-map-0227",
+        "pc-jap-map-0227"
+      ],
+      "pc_relative_literal_consumer_count": 0,
+      "consumers": []
+    },
+    {
+      "start_rom_offset": 142240,
+      "end_rom_offset_exclusive": 142396,
+      "word_count": 39,
+      "target_block_ids": [
+        "pc-jap-map-0227",
+        "pc-jap-map-0227",
+        "pc-jap-map-0227",
+        "pc-jap-map-0227",
+        "pc-jap-map-0227",
+        "pc-jap-map-0227",
+        "pc-jap-map-0228",
+        "pc-jap-map-0228",
+        "pc-jap-map-0228",
+        "pc-jap-map-0228",
+        "pc-jap-map-0228",
+        "pc-jap-map-0228",
+        "pc-jap-map-0228",
+        "pc-jap-map-0228",
+        "pc-jap-map-0229",
+        "pc-jap-map-0229",
+        "pc-jap-map-0229",
+        "pc-jap-map-0229",
+        "pc-jap-map-0229",
+        "pc-jap-map-0229",
+        "pc-jap-map-0230",
+        "pc-jap-map-0230",
+        "pc-jap-map-0230",
+        "pc-jap-map-0231",
+        "pc-jap-map-0231",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232",
+        "pc-jap-map-0232"
+      ],
+      "pc_relative_literal_consumer_count": 0,
+      "consumers": []
+    },
+    {
+      "start_rom_offset": 142400,
+      "end_rom_offset_exclusive": 142440,
+      "word_count": 10,
+      "target_block_ids": [
+        "pc-jap-map-0233",
+        "pc-jap-map-0233",
+        "pc-jap-map-0233",
+        "pc-jap-map-0233",
+        "pc-jap-map-0233",
+        "pc-jap-map-0234",
+        "pc-jap-map-0234",
+        "pc-jap-map-0234",
+        "pc-jap-map-0234",
+        "pc-jap-map-0234"
+      ],
+      "pc_relative_literal_consumer_count": 0,
+      "consumers": []
+    },
+    {
+      "start_rom_offset": 142444,
+      "end_rom_offset_exclusive": 142600,
+      "word_count": 39,
+      "target_block_ids": [
+        "pc-jap-map-0234",
+        "pc-jap-map-0234",
+        "pc-jap-map-0234",
+        "pc-jap-map-0234",
+        "pc-jap-map-0234",
+        "pc-jap-map-0234",
+        "pc-jap-map-0235",
+        "pc-jap-map-0235",
+        "pc-jap-map-0235",
+        "pc-jap-map-0235",
+        "pc-jap-map-0235",
+        "pc-jap-map-0235",
+        "pc-jap-map-0235",
+        "pc-jap-map-0235",
+        "pc-jap-map-0235",
+        "pc-jap-map-0235",
+        "pc-jap-map-0235",
+        "pc-jap-map-0236",
+        "pc-jap-map-0236",
+        "pc-jap-map-0237",
+        "pc-jap-map-0237",
+        "pc-jap-map-0237",
+        "pc-jap-map-0237",
+        "pc-jap-map-0238",
+        "pc-jap-map-0238",
+        "pc-jap-map-0238",
+        "pc-jap-map-0238",
+        "pc-jap-map-0238",
+        "pc-jap-map-0239",
+        "pc-jap-map-0239",
+        "pc-jap-map-0239",
+        "pc-jap-map-0239",
+        "pc-jap-map-0239",
+        "pc-jap-map-0240",
+        "pc-jap-map-0240",
+        "pc-jap-map-0240",
+        "pc-jap-map-0240",
+        "pc-jap-map-0240",
+        "pc-jap-map-0241"
+      ],
+      "pc_relative_literal_consumer_count": 0,
+      "consumers": []
+    },
+    {
+      "start_rom_offset": 142604,
+      "end_rom_offset_exclusive": 142916,
+      "word_count": 78,
+      "target_block_ids": [
+        "pc-jap-map-0241",
+        "pc-jap-map-0241",
+        "pc-jap-map-0241",
+        "pc-jap-map-0241",
+        "pc-jap-map-0242",
+        "pc-jap-map-0242",
+        "pc-jap-map-0242",
+        "pc-jap-map-0242",
+        "pc-jap-map-0242",
+        "pc-jap-map-0242",
+        "pc-jap-map-0242",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0243",
+        "pc-jap-map-0244",
+        "pc-jap-map-0244",
+        "pc-jap-map-0244",
+        "pc-jap-map-0244",
+        "pc-jap-map-0244",
+        "pc-jap-map-0244",
+        "pc-jap-map-0245",
+        "pc-jap-map-0245",
+        "pc-jap-map-0245",
+        "pc-jap-map-0245",
+        "pc-jap-map-0245",
+        "pc-jap-map-0245",
+        "pc-jap-map-0246",
+        "pc-jap-map-0246",
+        "pc-jap-map-0246",
+        "pc-jap-map-0246",
+        "pc-jap-map-0246",
+        "pc-jap-map-0247",
+        "pc-jap-map-0247",
+        "pc-jap-map-0247",
+        "pc-jap-map-0247",
+        "pc-jap-map-0247",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248",
+        "pc-jap-map-0248"
+      ],
+      "pc_relative_literal_consumer_count": 0,
+      "consumers": []
+    },
+    {
+      "start_rom_offset": 154808,
+      "end_rom_offset_exclusive": 154816,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 154636,
+          "literal_word_rom_offset": 155616,
+          "destination_register": 4,
+          "loaded_table_rom_offset": 154808,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 156132,
+      "end_rom_offset_exclusive": 156140,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 155892,
+          "literal_word_rom_offset": 156740,
+          "destination_register": 3,
+          "loaded_table_rom_offset": 156132,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 158756,
+      "end_rom_offset_exclusive": 158772,
+      "word_count": 4,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022",
+        "pc-jap-map-0017",
+        "pc-jap-map-0018"
+      ],
+      "pc_relative_literal_consumer_count": 2,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 158430,
+          "literal_word_rom_offset": 159184,
+          "destination_register": 4,
+          "loaded_table_rom_offset": 158756,
+          "loaded_table_relative_offset": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 158672,
+          "literal_word_rom_offset": 159224,
+          "destination_register": 1,
+          "loaded_table_rom_offset": 158764,
+          "loaded_table_relative_offset": 8
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 159136,
+      "end_rom_offset_exclusive": 159144,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0017",
+        "pc-jap-map-0018"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 159072,
+          "literal_word_rom_offset": 159292,
+          "destination_register": 6,
+          "loaded_table_rom_offset": 159136,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 168568,
+      "end_rom_offset_exclusive": 168576,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 168358,
+          "literal_word_rom_offset": 169152,
+          "destination_register": 6,
+          "loaded_table_rom_offset": 168568,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 168880,
+      "end_rom_offset_exclusive": 168888,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 168742,
+          "literal_word_rom_offset": 169188,
+          "destination_register": 7,
+          "loaded_table_rom_offset": 168880,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 184880,
+      "end_rom_offset_exclusive": 184888,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 184772,
+          "literal_word_rom_offset": 185532,
+          "destination_register": 5,
+          "loaded_table_rom_offset": 184880,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 192532,
+      "end_rom_offset_exclusive": 192596,
+      "word_count": 16,
+      "target_block_ids": [
+        "pc-jap-map-0004",
+        "pc-jap-map-0003",
+        "pc-jap-map-0006",
+        "pc-jap-map-0005",
+        "pc-jap-map-0008",
+        "pc-jap-map-0007",
+        "pc-jap-map-0010",
+        "pc-jap-map-0009",
+        "pc-jap-map-0012",
+        "pc-jap-map-0011",
+        "pc-jap-map-0014",
+        "pc-jap-map-0013",
+        "pc-jap-map-0016",
+        "pc-jap-map-0015",
+        "pc-jap-map-0004",
+        "pc-jap-map-0003"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 193170,
+          "literal_word_rom_offset": 193196,
+          "destination_register": 6,
+          "loaded_table_rom_offset": 192532,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 195440,
+      "end_rom_offset_exclusive": 195448,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0021",
+        "pc-jap-map-0022"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 195378,
+          "literal_word_rom_offset": 196196,
+          "destination_register": 4,
+          "loaded_table_rom_offset": 195440,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 195648,
+      "end_rom_offset_exclusive": 195656,
+      "word_count": 2,
+      "target_block_ids": [
+        "pc-jap-map-0019",
+        "pc-jap-map-0020"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 195616,
+          "literal_word_rom_offset": 196224,
+          "destination_register": 7,
+          "loaded_table_rom_offset": 195648,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 851632,
+      "end_rom_offset_exclusive": 851648,
+      "word_count": 4,
+      "target_block_ids": [
+        "pc-jap-map-0090",
+        "pc-jap-map-0091",
+        "pc-jap-map-0092",
+        "pc-jap-map-0093"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 851610,
+          "literal_word_rom_offset": 851628,
+          "destination_register": 4,
+          "loaded_table_rom_offset": 851632,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 926448,
+      "end_rom_offset_exclusive": 926460,
+      "word_count": 3,
+      "target_block_ids": [
+        "pc-jap-map-0202",
+        "pc-jap-map-0204",
+        "pc-jap-map-0206"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 926426,
+          "literal_word_rom_offset": 926716,
+          "destination_register": 0,
+          "loaded_table_rom_offset": 926448,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    },
+    {
+      "start_rom_offset": 927452,
+      "end_rom_offset_exclusive": 927464,
+      "word_count": 3,
+      "target_block_ids": [
+        "pc-jap-map-0201",
+        "pc-jap-map-0203",
+        "pc-jap-map-0205"
+      ],
+      "pc_relative_literal_consumer_count": 1,
+      "consumers": [
+        {
+          "architecture": "thumb",
+          "instruction_rom_offset": 927430,
+          "literal_word_rom_offset": 927628,
+          "destination_register": 1,
+          "loaded_table_rom_offset": 927452,
+          "loaded_table_relative_offset": 0
+        }
+      ]
+    }
+  ],
+  "interpretation_notice": "A PC-relative load naming a candidate table range establishes only a static address-flow candidate. It does not prove the table is live, that every entry is consumed as a pointer, or that all consumers are found."
+}

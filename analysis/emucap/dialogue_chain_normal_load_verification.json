@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "kind": "expanded_archive_runtime_dump_verification",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_chain_draft_poc.gba",
+    "sha256": "b9ecb369532b386d62a1a6db32ddd3af7235284e1c6858124092008392d438dd",
+    "byte_length": 16777216
+  },
+  "archive": {
+    "rom_offset": 8388608,
+    "gba_address": "0x08800000",
+    "compressed_byte_length": 4458,
+    "decompressed_byte_length": 6139,
+    "decompressed_sha256": "d0c7683cd423cea7773a145201ee891e30b5ab5a07c73a5c7282928f895ea9bc",
+    "entry_count": 254,
+    "edited_entries": [
+      {
+        "entry_index": 0,
+        "start": 510,
+        "end": 539,
+        "byte_length": 29,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 13,
+        "replacement_sha256": "f7a70a77439bfaf248f4e4a9ff45f2b8487f7f5dc1b3243d2e01fb641eba4aad"
+      },
+      {
+        "entry_index": 2,
+        "start": 653,
+        "end": 684,
+        "byte_length": 31,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 15,
+        "replacement_sha256": "becd86f8fa307015b177dfb8ecfbde4b1213746e62999ea2d7125962b74e4e67"
+      },
+      {
+        "entry_index": 3,
+        "start": 684,
+        "end": 716,
+        "byte_length": 32,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 22,
+        "replacement_sha256": "9c4c5caaeb13e589f8f1875abd59eda7e92f2790cb1abecb812f810f3094befd"
+      },
+      {
+        "entry_index": 4,
+        "start": 716,
+        "end": 756,
+        "byte_length": 40,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 33,
+        "replacement_sha256": "01cb7134830f550e3131f4afad118d2a4246636049ed13824a64f191710f2661"
+      },
+      {
+        "entry_index": 13,
+        "start": 1432,
+        "end": 1628,
+        "byte_length": 196,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 185,
+        "replacement_sha256": "7a4465331a71104e85d54992e95da0aabc62e57d5daa833b5234dee35d9f9dd8"
+      }
+    ]
+  },
+  "runtime_dump": {
+    "filename": "ewram.bin",
+    "file_sha256": "34837690ff75d7da75a52dab305ccb0c9a81178186e2aaea0637aa6033718725",
+    "ewram_offset": 231424,
+    "loaded_byte_length": 6139,
+    "loaded_sha256": "d0c7683cd423cea7773a145201ee891e30b5ab5a07c73a5c7282928f895ea9bc",
+    "differing_byte_count": 0
+  },
+  "passed": true
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "dispatch": {
+    "function_offset": 820252,
+    "handler_table_offset": 820264,
+    "handler_thumb_addresses": [
+      135038017,
+      135038033,
+      135038059,
+      135038099,
+      135038115,
+      135038133
+    ],
+    "selected_handler_table_index": 2,
+    "selected_handler_offset": 820330
+  },
+  "active_block_call_argument": {
+    "ldr_instruction_offset": 820344,
+    "literal_offset": 820452,
+    "rom_address": 142058136,
+    "rom_file_offset": 7840408,
+    "following_instruction": "MOVS r1, #0"
+  },
+  "direct_call": {
+    "bl_instruction_offset": 820348,
+    "target_offset": 133984,
+    "target_prologue": "PUSH {r5, lr}"
+  },
+  "ingest_function_ram_context": {
+    "ldr_instruction_offset": 134046,
+    "literal_offset": 134980,
+    "ram_address": 33595824
+  },
+  "entry_resolution": {
+    "source_block_base_state_offset": 40,
+    "parser_current_state_offset": 36,
+    "parser_end_state_offset": 44,
+    "caller_selector_width_bits": 8,
+    "block_entry_offset_width_bits": 16,
+    "instruction_rom_offsets": {
+      "store_block_base": 134020,
+      "load_entry_offset": 134026,
+      "add_entry_offset": 134028,
+      "store_parser_current": 134030,
+      "store_parser_end": 134032
+    }
+  },
+  "verified_conclusion": "The runtime-observed block start 0x0877A298 is statically loaded into r0 by a state-handler table entry immediately before a direct call to ROM offset 0x020B60. That function stores the passed block base, resolves the passed selector through the block's u16 entry-offset table, and initializes parser current/end pointers from the resolved entry start.",
+  "not_yet_proven": [
+    "all callers and all block pointer consumers beyond this exact handler route",
+    "whether every catalog block uses the same initializer and offset-table shape",
+    "the role or layout of RAM at 0x0200A1B0",
+    "the meanings and widths of ED, FA, F9, and F1 control candidates",
+    "the character-code to glyph mapping"
+  ]
+}

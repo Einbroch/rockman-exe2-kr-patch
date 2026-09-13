@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "regular_weight_font_poc_final_audit",
+  "passed": true,
+  "rom_sha256": "976c40e071addf0c949b7206f1048eb09f038bdea6ab9e2a95bb41ceb2e14f90",
+  "font_sha256": "0086c19e81d293a542e7d75564c645fb58070cc850aefebf8fa1c397858e510c",
+  "archive_manifest_sha256": "f82704fd7e16ab9388f9da028458262564bbc31d95f5caf4387efc8fd9173fbe",
+  "integrated_manifest_sha256": "e7c43216e99cbc024e48d03507918b694f8a4dee018cc819393ba926a890ec6e",
+  "static_verification_sha256": "407ef41ca1fbf0406e3eea3ca69c6fa3b2f693ea155cf012062b205c04e5c156",
+  "runtime_progression_sha256": "c516f52d7785de0fe681b98b53e5d9af2693d7c31071e621246dfbfa9fb50089",
+  "normal_load_verification_sha256": "4730f80ace0b067f575ef3a84bac64113f4f769ed097625b05dc0f10708ce825",
+  "bold_to_regular_changed_byte_count": 1529,
+  "changed_font_record_count": 100,
+  "raster_identical_font_records": [
+    "U+B97C",
+    "U+C751",
+    "U+C744"
+  ],
+  "checks": {
+    "manifest_rom_hashes_match": true,
+    "selected_font_identity_matches": true,
+    "static_verification_passed": true,
+    "bold_to_regular_differences_confined_to_declared_font_records": true,
+    "intercandidate_record_accounting_complete": true,
+    "all_103_required_records_match_selected_regular_font_rasterization": true,
+    "relocated_archive_identical_between_font_candidates": true,
+    "fresh_boot_normal_load_exact": true,
+    "muted_runtime_progression_passed": true,
+    "dialogue_renderer_read_current_regular_font_record": true,
+    "visual_evidence_hashes_and_dimensions_match": true,
+    "regular_font_raster_metric_reproduced": true
+  }
+}

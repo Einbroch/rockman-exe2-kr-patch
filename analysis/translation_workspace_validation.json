@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "workspace_filename": "rev1_message_candidates.json",
+  "workspace_entry_count": 10360,
+  "unique_entry_id_count": 10360,
+  "status_counts": {
+    "blocked_control_spec": 10360
+  },
+  "protected_source_hash_validation": "passed",
+  "build_eligible_entry_count": 0
+}

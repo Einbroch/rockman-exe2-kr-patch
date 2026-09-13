@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "input": {
+    "state_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "state_sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914",
+    "vram_match_report": "state_vram_lz77_matches.json"
+  },
+  "display_control_register": 8000,
+  "display_mode": 0,
+  "backgrounds": [
+    {
+      "background": 0,
+      "enabled": true,
+      "control_register": 7176,
+      "character_base_vram_offset": 32768,
+      "screen_base_vram_offset": 57344,
+      "color_mode": "4bpp",
+      "tilemap_dimensions": [
+        32,
+        32
+      ],
+      "tilemap_available": true,
+      "distinct_tile_indices": 88,
+      "candidate_usage": []
+    },
+    {
+      "background": 1,
+      "enabled": true,
+      "control_register": 7427,
+      "character_base_vram_offset": 0,
+      "screen_base_vram_offset": 59392,
+      "color_mode": "4bpp",
+      "tilemap_dimensions": [
+        32,
+        32
+      ],
+      "tilemap_available": true,
+      "distinct_tile_indices": 73,
+      "candidate_usage": [
+        {
+          "rom_offset": 4271628,
+          "candidate_first_tile_index": 0,
+          "candidate_tile_count": 188,
+          "tilemap_reference_count": 1024,
+          "distinct_referenced_candidate_tile_count": 73
+        },
+        {
+          "rom_offset": 4273912,
+          "candidate_first_tile_index": 188,
+          "candidate_tile_count": 198,
+          "tilemap_reference_count": 0,
+          "distinct_referenced_candidate_tile_count": 0
+        },
+        {
+          "rom_offset": 4276820,
+          "candidate_first_tile_index": 512,
+          "candidate_tile_count": 65,
+          "tilemap_reference_count": 0,
+          "distinct_referenced_candidate_tile_count": 0
+        }
+      ]
+    },
+    {
+      "background": 2,
+      "enabled": true,
+      "control_register": 15874,
+      "character_base_vram_offset": 0,
+      "screen_base_vram_offset": 61440,
+      "color_mode": "4bpp",
+      "tilemap_dimensions": [
+        32,
+        32
+      ],
+      "tilemap_available": true,
+      "distinct_tile_indices": 139,
+      "candidate_usage": [
+        {
+          "rom_offset": 4271628,
+          "candidate_first_tile_index": 0,
+          "candidate_tile_count": 188,
+          "tilemap_reference_count": 0,
+          "distinct_referenced_candidate_tile_count": 0
+        },
+        {
+          "rom_offset": 4273912,
+          "candidate_first_tile_index": 188,
+          "candidate_tile_count": 198,
+          "tilemap_reference_count": 1024,
+          "distinct_referenced_candidate_tile_count": 139
+        },
+        {
+          "rom_offset": 4276820,
+          "candidate_first_tile_index": 512,
+          "candidate_tile_count": 65,
+          "tilemap_reference_count": 0,
+          "distinct_referenced_candidate_tile_count": 0
+        }
+      ]
+    },
+    {
+      "background": 3,
+      "enabled": true,
+      "control_register": 16133,
+      "character_base_vram_offset": 16384,
+      "screen_base_vram_offset": 63488,
+      "color_mode": "4bpp",
+      "tilemap_dimensions": [
+        32,
+        32
+      ],
+      "tilemap_available": true,
+      "distinct_tile_indices": 65,
+      "candidate_usage": [
+        {
+          "rom_offset": 4276820,
+          "candidate_first_tile_index": 0,
+          "candidate_tile_count": 65,
+          "tilemap_reference_count": 1024,
+          "distinct_referenced_candidate_tile_count": 65
+        }
+      ]
+    }
+  ],
+  "interpretation_notice": "Tilemap references show which exact-VRAM-match candidate ranges are used by an enabled text background in this savestate. They do not identify a range as font glyphs or prove a particular screen region contains dialogue text."
+}

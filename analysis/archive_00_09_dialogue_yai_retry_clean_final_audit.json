@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "kind": "archive_translation_poc_final_audit",
+  "passed": true,
+  "rom_sha256": "e29e2890b48c5f0e008214b8026715e30dbb5eb28caa31595fe0490fae77ac59",
+  "translation_sha256": "dd7e763f0115d812c77363a55084f62dc309c8928a349e11a9237eee3a63173d",
+  "codepage_sha256": "f371c01675af3a477cfabb9f1bb777fa69fa991910404a0f9c46957b5a46fdef",
+  "archive_manifest_sha256": "d5117251608430d44d1bf299ccd626963ae492b7b6b801ecb1ec2f77a97b5ea0",
+  "integrated_manifest_sha256": "58d9b194625f26951dfc80bfc8d388f2e8cc272f601a1e6cdb73f11434c18ac5",
+  "static_verification_sha256": "25e65314d9fecc866cb493fa5352a59a165a578c3b44d1d6899735bcd740d194",
+  "checks": {
+    "manifest_rom_hashes": true,
+    "translation_hash_bound": true,
+    "codepage_hash_bound": true,
+    "translated_entries_0_through_7_and_13": true,
+    "untranslated_entry_count_245": true,
+    "archive_stats_match": true,
+    "static_verification_passed": true,
+    "fresh_boot_normal_load_exact": true,
+    "focused_intervention_readback_exact": true,
+    "emulator_launch_muted": true,
+    "entry_7_progression_passed": true,
+    "runtime_report_hashes_match": true,
+    "screenshot_hashes_and_dimensions_match": true,
+    "entry_7_evidence_bound_to_rom": true,
+    "codepage_capacity_109_of_256": true
+  }
+}

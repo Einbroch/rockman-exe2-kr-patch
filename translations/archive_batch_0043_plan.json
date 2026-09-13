@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "kind": "multi_archive_translation_batch_plan",
+  "batch_number": 43,
+  "batch_size": 100,
+  "unit": "text-bearing archive entries",
+  "archives": [
+    {"selector":"00/258","archive_offset":7885824,"storage":"raw","raw_byte_length":1157,"tpl_path":"../analysis/archive_00_258_textpet_full.tpl","text_entry_start":18,"text_entry_count":1},
+    {"selector":"00/259","archive_offset":7887004,"storage":"raw","raw_byte_length":1006,"tpl_path":"../analysis/archive_00_259_textpet_full.tpl","text_entry_start":0,"text_entry_count":18},
+    {"selector":"00/260","archive_offset":7888024,"storage":"raw","raw_byte_length":40,"tpl_path":"../analysis/archive_00_260_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/261","archive_offset":7888124,"storage":"raw","raw_byte_length":271,"tpl_path":"../analysis/archive_00_261_textpet_full.tpl","text_entry_start":0,"text_entry_count":8},
+    {"selector":"00/262","archive_offset":7888424,"storage":"raw","raw_byte_length":328,"tpl_path":"../analysis/archive_00_262_textpet_full.tpl","text_entry_start":0,"text_entry_count":8},
+    {"selector":"00/263","archive_offset":7888788,"storage":"raw","raw_byte_length":792,"tpl_path":"../analysis/archive_00_263_textpet_full.tpl","text_entry_start":0,"text_entry_count":19},
+    {"selector":"00/264","archive_offset":7889612,"storage":"raw","raw_byte_length":447,"tpl_path":"../analysis/archive_00_264_textpet_full.tpl","text_entry_start":0,"text_entry_count":12},
+    {"selector":"00/265","archive_offset":7890080,"storage":"raw","raw_byte_length":461,"tpl_path":"../analysis/archive_00_265_textpet_full.tpl","text_entry_start":0,"text_entry_count":12},
+    {"selector":"00/266","archive_offset":7890596,"storage":"raw","raw_byte_length":513,"tpl_path":"../analysis/archive_00_266_textpet_full.tpl","text_entry_start":0,"text_entry_count":9},
+    {"selector":"00/267","archive_offset":7891124,"storage":"raw","raw_byte_length":696,"tpl_path":"../analysis/archive_00_267_textpet_full.tpl","text_entry_start":0,"text_entry_count":11}
+  ]
+}

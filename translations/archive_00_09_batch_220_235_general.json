@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "kind": "archive_00_09_translation_batch",
+  "entries": [
+    {
+      "entry_index": 220,
+      "source_context": "Classroom blackboard examination during the school break, after an early-chapter redirect check",
+      "source_text_transcription": "ブラックボードだ // 休み中も / プラグイン できるように なっている",
+      "source_visible_text_span": [8, 45],
+      "draft_translation": "칠판이다 // 쉬는 동안에도 / 플러그인할 수 있게 되어 있다",
+      "proposed_pages": [["칠판이다"], ["쉬는 동안에도", "플러그인할 수 있게 되어 있다"]],
+      "replacement_segments": [
+        {"hangul": "칠판이다"}, {"control_hex": "eb e9"},
+        {"hangul": "쉬는"}, {"direct_hex": "00"}, {"hangul": "동안에도"}, {"control_hex": "e8"},
+        {"hangul": "플러그인할"}, {"direct_hex": "00"}, {"hangul": "수"}, {"direct_hex": "00"}, {"hangul": "있게"}, {"direct_hex": "00"}, {"hangul": "되어"}, {"direct_hex": "00"}, {"hangul": "있다"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["eb e9", "e8", "eb"],
+      "preserved_page_end_control_span": [45, 46],
+      "protected_prefix_controls": ["f3 04 00 01 e9 ff", "f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; classroom object wording requires human review."]
+    },
+    {
+      "entry_index": 221,
+      "source_context": "Classroom timetable examination during the school break",
+      "source_text_transcription": "じかんわりひょうだ // しかし、休み中は / このひょうに こうそく されることはない",
+      "source_visible_text_span": [2, 47],
+      "draft_translation": "시간표다 // 하지만 쉬는 동안에는 / 이 표에 얽매일 일도 없다",
+      "proposed_pages": [["시간표다"], ["하지만 쉬는 동안에는", "이 표에 얽매일 일도 없다"]],
+      "replacement_segments": [
+        {"hangul": "시간표다"}, {"control_hex": "eb e9"},
+        {"hangul": "하지만"}, {"direct_hex": "00"}, {"hangul": "쉬는"}, {"direct_hex": "00"}, {"hangul": "동안에는"}, {"control_hex": "e8"},
+        {"hangul": "이"}, {"direct_hex": "00"}, {"hangul": "표에"}, {"direct_hex": "00"}, {"hangul": "얽매일"}, {"direct_hex": "00"}, {"hangul": "일도"}, {"direct_hex": "00"}, {"hangul": "없다"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["eb e9", "e8", "eb"],
+      "preserved_page_end_control_span": [47, 48],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; the narrator's lightly humorous tone requires human review."]
+    },
+    {
+      "entry_index": 223,
+      "source_context": "Examination of books likely to dry out in sunlight before the break ends",
+      "source_text_transcription": "休みあけには、このあたりの 本は / 日にあたって パリパリに / なっているだろう",
+      "source_visible_text_span": [2, 46],
+      "draft_translation": "방학이 끝날 무렵엔 이 근처 책들이 / 햇볕을 받아 바싹 / 말라 있겠지",
+      "proposed_pages": [["방학이 끝날 무렵엔 이 근처 책들이", "햇볕을 받아 바싹", "말라 있겠지"]],
+      "replacement_segments": [
+        {"hangul": "방학이"}, {"direct_hex": "00"}, {"hangul": "끝날"}, {"direct_hex": "00"}, {"hangul": "무렵엔"}, {"direct_hex": "00"}, {"hangul": "이"}, {"direct_hex": "00"}, {"hangul": "근처"}, {"direct_hex": "00"}, {"hangul": "책들이"}, {"control_hex": "e8"},
+        {"hangul": "햇볕을"}, {"direct_hex": "00"}, {"hangul": "받아"}, {"direct_hex": "00"}, {"hangul": "바싹"}, {"control_hex": "e8"},
+        {"hangul": "말라"}, {"direct_hex": "00"}, {"hangul": "있겠지"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "e8", "eb"],
+      "preserved_page_end_control_span": [46, 47],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; the dry-book description requires human review."]
+    },
+    {
+      "entry_index": 224,
+      "source_context": "Examination of a soil-filled breeding box whose contents move beneath the surface",
+      "source_text_transcription": "なにかが かわれている / しいくバコだ・・・ // ・・・!! // 土の ひょうめんが / モゾモゾと うごいた! // いったい、ナニが / しいく されているのだろうか",
+      "source_visible_text_span": [2, 82],
+      "draft_translation": "무언가를 기르고 있는 / 사육 상자다... // ...!! // 흙 표면이 / 꿈틀꿈틀 움직였다! // 도대체 무엇을 / 기르고 있는 걸까",
+      "proposed_pages": [["무언가를 기르고 있는", "사육 상자다..."], ["...!!"], ["흙 표면이", "꿈틀꿈틀 움직였다!"], ["도대체 무엇을", "기르고 있는 걸까"]],
+      "replacement_segments": [
+        {"hangul": "무언가를"}, {"direct_hex": "00"}, {"hangul": "기르고"}, {"direct_hex": "00"}, {"hangul": "있는"}, {"control_hex": "e8"},
+        {"hangul": "사육"}, {"direct_hex": "00"}, {"hangul": "상자다"}, {"direct_hex": "88 88 88"}, {"control_hex": "eb e9"},
+        {"direct_hex": "88 88 88 81 81"}, {"control_hex": "eb e9"},
+        {"hangul": "흙"}, {"direct_hex": "00"}, {"hangul": "표면이"}, {"control_hex": "e8"},
+        {"hangul": "꿈틀꿈틀"}, {"direct_hex": "00"}, {"hangul": "움직였다"}, {"direct_hex": "81"}, {"control_hex": "eb e9"},
+        {"hangul": "도대체"}, {"direct_hex": "00"}, {"hangul": "무엇을"}, {"control_hex": "e8"},
+        {"hangul": "기르고"}, {"direct_hex": "00"}, {"hangul": "있는"}, {"direct_hex": "00"}, {"hangul": "걸까"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "eb e9", "eb e9", "e8", "eb e9", "e8", "eb"],
+      "preserved_page_end_control_span": [82, 83],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; suspense and sound-symbol wording require human review."]
+    },
+    {
+      "entry_index": 225,
+      "source_context": "Examination of a frog glaring as if protesting the hot enclosure",
+      "source_text_transcription": "カエルが キビシいカオで / こちらを みている・・・ // 「こんな、アツいトコロに とじこめて / オレを ヒモノに するキか!」 // と、いわんばかりの ぎょうそうだ",
+      "source_visible_text_span": [2, 84],
+      "draft_translation": "개구리가 험상궂은 얼굴로 / 이쪽을 보고 있다... // 「이렇게 더운 곳에 가둬 놓고 / 날 말려 죽일 셈이냐!」 // 라고 말하는 듯한 표정이다",
+      "proposed_pages": [["개구리가 험상궂은 얼굴로", "이쪽을 보고 있다..."], ["「이렇게 더운 곳에 가둬 놓고", "날 말려 죽일 셈이냐!」"], ["라고 말하는 듯한 표정이다"]],
+      "replacement_segments": [
+        {"hangul": "개구리가"}, {"direct_hex": "00"}, {"hangul": "험상궂은"}, {"direct_hex": "00"}, {"hangul": "얼굴로"}, {"control_hex": "e8"},
+        {"hangul": "이쪽을"}, {"direct_hex": "00"}, {"hangul": "보고"}, {"direct_hex": "00"}, {"hangul": "있다"}, {"direct_hex": "88 88 88"}, {"control_hex": "eb e9"},
+        {"direct_hex": "90"}, {"hangul": "이렇게"}, {"direct_hex": "00"}, {"hangul": "더운"}, {"direct_hex": "00"}, {"hangul": "곳에"}, {"direct_hex": "00"}, {"hangul": "가둬"}, {"direct_hex": "00"}, {"hangul": "놓고"}, {"control_hex": "e8"},
+        {"hangul": "날"}, {"direct_hex": "00"}, {"hangul": "말려"}, {"direct_hex": "00"}, {"hangul": "죽일"}, {"direct_hex": "00"}, {"hangul": "셈이냐"}, {"direct_hex": "81 91"}, {"control_hex": "eb e9"},
+        {"hangul": "라고"}, {"direct_hex": "00"}, {"hangul": "말하는"}, {"direct_hex": "00"}, {"hangul": "듯한"}, {"direct_hex": "00"}, {"hangul": "표정이다"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "eb e9", "e8", "eb e9", "eb"],
+      "preserved_page_end_control_span": [84, 85],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; the frog's imagined complaint and comic tone require human review."]
+    },
+    {
+      "entry_index": 226,
+      "source_context": "Examination of an apparently empty breeding box with three timed suspense dots",
+      "source_text_transcription": "ナニも かわれては いない・・・ // ・[wait 20]・[wait 20]・[wait 20]たぶん",
+      "source_visible_text_span": [2, 39],
+      "draft_translation": "아무것도 기르고 있지 않다... // .[wait 20].[wait 20].[wait 20]아마도",
+      "proposed_pages": [["아무것도 기르고 있지 않다..."], ["...아마도"]],
+      "replacement_segments": [
+        {"hangul": "아무것도"}, {"direct_hex": "00"}, {"hangul": "기르고"}, {"direct_hex": "00"}, {"hangul": "있지"}, {"direct_hex": "00"}, {"hangul": "않다"}, {"direct_hex": "88 88 88"}, {"control_hex": "eb e9"},
+        {"direct_hex": "88"}, {"control_hex": "ea 01 14 00"}, {"direct_hex": "88"}, {"control_hex": "ea 01 14 00"}, {"direct_hex": "88"}, {"control_hex": "ea 01 14 00"}, {"hangul": "아마도"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["eb e9", "ea 01 14 00", "ea 01 14 00", "ea 01 14 00", "eb"],
+      "preserved_page_end_control_span": [39, 40],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; all three 20-frame waits remain byte-identical."]
+    },
+    {
+      "entry_index": 227,
+      "source_context": "Examination of Netto's freshly cleaned classroom desk",
+      "source_text_transcription": "熱斗の つくえだ // 大そうじで ピカピカに みがいたので / とても キレイだ",
+      "source_visible_text_span": [2, 43],
+      "draft_translation": "넷토의 책상이다 // 대청소 때 반짝반짝 닦아서 / 아주 깨끗하다",
+      "proposed_pages": [["넷토의 책상이다"], ["대청소 때 반짝반짝 닦아서", "아주 깨끗하다"]],
+      "replacement_segments": [
+        {"hangul": "넷토의"}, {"direct_hex": "00"}, {"hangul": "책상이다"}, {"control_hex": "eb e9"},
+        {"hangul": "대청소"}, {"direct_hex": "00"}, {"hangul": "때"}, {"direct_hex": "00"}, {"hangul": "반짝반짝"}, {"direct_hex": "00"}, {"hangul": "닦아서"}, {"control_hex": "e8"},
+        {"hangul": "아주"}, {"direct_hex": "00"}, {"hangul": "깨끗하다"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["eb e9", "e8", "eb"],
+      "preserved_page_end_control_span": [43, 44],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; narrator wording requires human review."]
+    },
+    {
+      "entry_index": 228,
+      "source_context": "Examination of Mayl's exceptionally polished classroom desk",
+      "source_text_transcription": "メイルの つくえだ // おそろしく きあいを 入れて / そうじ したのか、 / カオが うつりそうだ",
+      "source_visible_text_span": [2, 50],
+      "draft_translation": "메이루의 책상이다 // 엄청나게 기합을 넣고 / 청소한 건지, / 얼굴이 비칠 것 같다",
+      "proposed_pages": [["메이루의 책상이다"], ["엄청나게 기합을 넣고", "청소한 건지,", "얼굴이 비칠 것 같다"]],
+      "replacement_segments": [
+        {"hangul": "메이루의"}, {"direct_hex": "00"}, {"hangul": "책상이다"}, {"control_hex": "eb e9"},
+        {"hangul": "엄청나게"}, {"direct_hex": "00"}, {"hangul": "기합을"}, {"direct_hex": "00"}, {"hangul": "넣고"}, {"control_hex": "e8"},
+        {"hangul": "청소한"}, {"direct_hex": "00"}, {"hangul": "건지"}, {"direct_hex": "85"}, {"control_hex": "e8"},
+        {"hangul": "얼굴이"}, {"direct_hex": "00"}, {"hangul": "비칠"}, {"direct_hex": "00"}, {"hangul": "것"}, {"direct_hex": "00"}, {"hangul": "같다"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["eb e9", "e8", "e8", "eb"],
+      "preserved_page_end_control_span": [50, 51],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; Mayl's established Korean name styling requires human review."]
+    },
+    {
+      "entry_index": 229,
+      "source_context": "Examination of Dex's desk and the surviving GutsMan graffiti",
+      "source_text_transcription": "デカオの つくえだ // ラクガキが きえずに のこっている // 「ガッツマンだいすき」",
+      "source_visible_text_span": [2, 45],
+      "draft_translation": "데카오의 책상이다 // 낙서가 지워지지 않고 남아 있다 // 「거츠맨 정말 좋아」",
+      "proposed_pages": [["데카오의 책상이다"], ["낙서가 지워지지 않고 남아 있다"], ["「거츠맨 정말 좋아」"]],
+      "replacement_segments": [
+        {"hangul": "데카오의"}, {"direct_hex": "00"}, {"hangul": "책상이다"}, {"control_hex": "eb e9"},
+        {"hangul": "낙서가"}, {"direct_hex": "00"}, {"hangul": "지워지지"}, {"direct_hex": "00"}, {"hangul": "않고"}, {"direct_hex": "00"}, {"hangul": "남아"}, {"direct_hex": "00"}, {"hangul": "있다"}, {"control_hex": "eb e9"},
+        {"direct_hex": "90"}, {"hangul": "거츠맨"}, {"direct_hex": "00"}, {"hangul": "정말"}, {"direct_hex": "00"}, {"hangul": "좋아"}, {"direct_hex": "91"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["eb e9", "eb e9", "eb"],
+      "preserved_page_end_control_span": [45, 46],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; GutsMan's Korean name styling and graffiti tone require human review."]
+    },
+    {
+      "entry_index": 230,
+      "source_context": "Examination of Yai's classroom desk, which is still too large for her",
+      "source_text_transcription": "やいとの つくえだ // このつくえは、やいとには / まだ 大きいようだ",
+      "source_visible_text_span": [2, 37],
+      "draft_translation": "야이토의 책상이다 // 이 책상은 야이토에게 / 아직 큰 것 같다",
+      "proposed_pages": [["야이토의 책상이다"], ["이 책상은 야이토에게", "아직 큰 것 같다"]],
+      "replacement_segments": [
+        {"hangul": "야이토의"}, {"direct_hex": "00"}, {"hangul": "책상이다"}, {"control_hex": "eb e9"},
+        {"hangul": "이"}, {"direct_hex": "00"}, {"hangul": "책상은"}, {"direct_hex": "00"}, {"hangul": "야이토에게"}, {"control_hex": "e8"},
+        {"hangul": "아직"}, {"direct_hex": "00"}, {"hangul": "큰"}, {"direct_hex": "00"}, {"hangul": "것"}, {"direct_hex": "00"}, {"hangul": "같다"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["eb e9", "e8", "eb"],
+      "preserved_page_end_control_span": [37, 38],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; Yai's established Korean name styling requires human review."]
+    },
+    {
+      "entry_index": 232,
+      "source_context": "Examination of the teacher's polished classroom desk",
+      "source_text_transcription": "せんせいの つくえだ // これも、ピカピカに みがいてある",
+      "source_visible_text_span": [2, 31],
+      "draft_translation": "선생님의 책상이다 // 이것도 반짝반짝 닦여 있다",
+      "proposed_pages": [["선생님의 책상이다"], ["이것도 반짝반짝 닦여 있다"]],
+      "replacement_segments": [
+        {"hangul": "선생님의"}, {"direct_hex": "00"}, {"hangul": "책상이다"}, {"control_hex": "eb e9"},
+        {"hangul": "이것도"}, {"direct_hex": "00"}, {"hangul": "반짝반짝"}, {"direct_hex": "00"}, {"hangul": "닦여"}, {"direct_hex": "00"}, {"hangul": "있다"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["eb e9", "eb"],
+      "preserved_page_end_control_span": [31, 32],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; narrator wording requires human review."]
+    },
+    {
+      "entry_index": 233,
+      "source_context": "Early-chapter blackboard examination where Netto does not feel like plugging in",
+      "source_text_transcription": "ブラックボードだ / プラグイン できるつくりだが / 今は そんなきぶん じゃなかった・・・",
+      "source_visible_text_span": [2, 49],
+      "draft_translation": "칠판이다 / 플러그인할 수 있는 구조지만 / 지금은 그럴 기분이 아니었다...",
+      "proposed_pages": [["칠판이다", "플러그인할 수 있는 구조지만", "지금은 그럴 기분이 아니었다..."]],
+      "replacement_segments": [
+        {"hangul": "칠판이다"}, {"control_hex": "e8"},
+        {"hangul": "플러그인할"}, {"direct_hex": "00"}, {"hangul": "수"}, {"direct_hex": "00"}, {"hangul": "있는"}, {"direct_hex": "00"}, {"hangul": "구조지만"}, {"control_hex": "e8"},
+        {"hangul": "지금은"}, {"direct_hex": "00"}, {"hangul": "그럴"}, {"direct_hex": "00"}, {"hangul": "기분이"}, {"direct_hex": "00"}, {"hangul": "아니었다"}, {"direct_hex": "88 88 88"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "e8", "eb"],
+      "preserved_page_end_control_span": [49, 50],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; the scene-dependent past-tense narration requires human review."]
+    },
+    {
+      "entry_index": 235,
+      "source_context": "Six-page classroom book explanation of PET devices and MegaMan as Netto's navigation program",
+      "source_text_transcription": "こじん用の / 「けいたいじょうほうたんまつ」、 / それが 「PET」です // 「PErsonal Terminal」 / を ちぢめて「PET」とよんでいます // 「PET」は、「けいたいでんわ」が / しんかして もっと いろんなきのうが / ついたものです // 電子メールは もちろん、 / 電子マネーで かいものができたり、 / きょうかしょのデータも 入っています // でも ややこしいそうさは いりません / 中に入っている ナビゲーションプログラム / と話せば、なんでも やってくれるのです // たとえば、5年A組 光熱斗くんの / PETには、「ロックマン」という ナビが / 入っています",
+      "source_visible_text_span": [2, 317],
+      "draft_translation": "개인용 / 「휴대 정보 단말기」, / 그것이 「PET」입니다 // 「PErsonal Terminal」을 / 줄여서 「PET」라고 부릅니다 // 「PET」는 「휴대전화」가 / 진화해서 더 다양한 기능이 / 추가된 기기입니다 // 전자메일은 물론, / 전자화폐로 쇼핑할 수 있고, / 교과서 데이터도 들어 있습니다 // 하지만 복잡한 조작은 필요 없습니다 / 안에 들어 있는 내비게이션 프로그램과 / 말하면 뭐든 해 줍니다 // 예를 들어 5학년 A반 히카리 넷토의 / PET에는 「록맨」이라는 내비가 / 들어 있습니다",
+      "proposed_pages": [
+        ["개인용", "「휴대 정보 단말기」,", "그것이 「PET」입니다"],
+        ["「PErsonal Terminal」을", "줄여서 「PET」라고 부릅니다"],
+        ["「PET」는 「휴대전화」가", "진화해서 더 다양한 기능이", "추가된 기기입니다"],
+        ["전자메일은 물론,", "전자화폐로 쇼핑할 수 있고,", "교과서 데이터도 들어 있습니다"],
+        ["하지만 복잡한 조작은 필요 없습니다", "안에 들어 있는 내비게이션 프로그램과", "말하면 뭐든 해 줍니다"],
+        ["예를 들어 5학년 A반 히카리 넷토의", "PET에는 「록맨」이라는 내비가", "들어 있습니다"]
+      ],
+      "replacement_segments": [
+        {"hangul": "개인용"}, {"control_hex": "e8"},
+        {"direct_hex": "90"}, {"hangul": "휴대"}, {"direct_hex": "00"}, {"hangul": "정보"}, {"direct_hex": "00"}, {"hangul": "단말기"}, {"direct_hex": "91 85"}, {"control_hex": "e8"},
+        {"hangul": "그것이"}, {"direct_hex": "00 90 6d 62 71 91"}, {"hangul": "입니다"}, {"control_hex": "eb e9"},
+        {"direct_hex": "90 6d 62"}, {"source_glyph_hex": "e5 17 e5 18 e5 14 e5 13 e5 06 e5 11"}, {"direct_hex": "00 71"}, {"source_glyph_hex": "e5 0a e5 17 e5 12 e5 0e e5 13 e5 06 e5 11"}, {"direct_hex": "91"}, {"hangul": "을"}, {"control_hex": "e8"},
+        {"hangul": "줄여서"}, {"direct_hex": "00 90 6d 62 71 91"}, {"hangul": "라고"}, {"direct_hex": "00"}, {"hangul": "부릅니다"}, {"control_hex": "eb e9"},
+        {"direct_hex": "90 6d 62 71 91"}, {"hangul": "는"}, {"direct_hex": "00 90"}, {"hangul": "휴대전화"}, {"direct_hex": "91"}, {"hangul": "가"}, {"control_hex": "e8"},
+        {"hangul": "진화해서"}, {"direct_hex": "00"}, {"hangul": "더"}, {"direct_hex": "00"}, {"hangul": "다양한"}, {"direct_hex": "00"}, {"hangul": "기능이"}, {"control_hex": "e8"},
+        {"hangul": "추가된"}, {"direct_hex": "00"}, {"hangul": "기기입니다"}, {"control_hex": "eb e9"},
+        {"hangul": "전자메일은"}, {"direct_hex": "00"}, {"hangul": "물론"}, {"direct_hex": "85"}, {"control_hex": "e8"},
+        {"hangul": "전자화폐로"}, {"direct_hex": "00"}, {"hangul": "쇼핑할"}, {"direct_hex": "00"}, {"hangul": "수"}, {"direct_hex": "00"}, {"hangul": "있고"}, {"direct_hex": "85"}, {"control_hex": "e8"},
+        {"hangul": "교과서"}, {"direct_hex": "00"}, {"hangul": "데이터도"}, {"direct_hex": "00"}, {"hangul": "들어"}, {"direct_hex": "00"}, {"hangul": "있습니다"}, {"control_hex": "eb e9"},
+        {"hangul": "하지만"}, {"direct_hex": "00"}, {"hangul": "복잡한"}, {"direct_hex": "00"}, {"hangul": "조작은"}, {"direct_hex": "00"}, {"hangul": "필요"}, {"direct_hex": "00"}, {"hangul": "없습니다"}, {"control_hex": "e8"},
+        {"hangul": "안에"}, {"direct_hex": "00"}, {"hangul": "들어"}, {"direct_hex": "00"}, {"hangul": "있는"}, {"direct_hex": "00"}, {"hangul": "내비게이션"}, {"direct_hex": "00"}, {"hangul": "프로그램과"}, {"control_hex": "e8"},
+        {"hangul": "말하면"}, {"direct_hex": "00"}, {"hangul": "뭐든"}, {"direct_hex": "00"}, {"hangul": "해"}, {"direct_hex": "00"}, {"hangul": "줍니다"}, {"control_hex": "eb e9"},
+        {"hangul": "예를"}, {"direct_hex": "00"}, {"hangul": "들어"}, {"direct_hex": "00 06"}, {"hangul": "학년"}, {"direct_hex": "00 5e"}, {"hangul": "반"}, {"direct_hex": "00"}, {"hangul": "히카리"}, {"direct_hex": "00"}, {"hangul": "넷토의"}, {"control_hex": "e8"},
+        {"direct_hex": "6d 62 71"}, {"hangul": "에는"}, {"direct_hex": "00 90"}, {"hangul": "록맨"}, {"direct_hex": "91"}, {"hangul": "이라는"}, {"direct_hex": "00"}, {"hangul": "내비가"}, {"control_hex": "e8"},
+        {"hangul": "들어"}, {"direct_hex": "00"}, {"hangul": "있습니다"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "e8", "eb e9", "e8", "eb e9", "e8", "e8", "eb e9", "e8", "e8", "eb e9", "e8", "e8", "eb e9", "e8", "e8", "eb"],
+      "preserved_page_end_control_span": [317, 318],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; PET terminology, product explanation, names, and formal instructional tone require human review.", "The mixed one-byte and E5 source glyph sequence for PErsonal Terminal is preserved byte-identically."]
+    }
+  ],
+  "limitations_replace": {
+    "old": "Entries 22 through 195 add the classroom search hint, hidden-chip response, mail notification, Dex-to-MegaMan Official Square event chain, and surrounding classroom, evacuation, and request dialogue; zero-length entries remain untouched and all drafted text requires human review.",
+    "new": "Entries 22 through 235 include the classroom event, evacuation, request, classroom-object, and PET tutorial text; entries 222 and 231 remain original, zero-length entries remain untouched, and all drafted text requires human review."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "kind": "muted_gulim_hangul_font_and_yaito_fan_dialogue_runtime_verification",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_yai_fan_gulim_clean_poc.gba",
+    "sha256": "de5aa4266617bcd4d96dc8b03cf17e0108c50a69f2f6d48bf8649063149f1dfd"
+  },
+  "font_selection": {
+    "filename": "gulim.ttc",
+    "sha256": "4b9ac63e8920ed1bae29c068025ed30493464c18ee18617887daa18e59189226",
+    "face_index": 0,
+    "family": "Gulim",
+    "style": "Regular",
+    "embedded_in_project": false,
+    "required_glyph_count": 135,
+    "average_foreground_pixels_per_8x16_glyph": 41.42,
+    "previous_malgun_regular_average": 40.12
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "system": "gba",
+    "display": false,
+    "sound": false,
+    "launch_id": "launch-01m0wberzdgs36pete11ca77qr",
+    "audio_verification": "The successful emulator launch explicitly used sound:false."
+  },
+  "normal_load": {
+    "route": ["fresh boot", "PRESS START", "はじめから", "opening dialogue checkpoint"],
+    "memory_type": "gbaExtWorkRam",
+    "memory_offset": 231424,
+    "loaded_byte_length": 6238,
+    "loaded_sha256": "c6802368852d4617d7ce80ec5a0a1dd1b94682f10da648a1991e25ef417f9fde",
+    "differing_byte_count": 0,
+    "report": "dialogue_yai_fan_gulim_normal_load_verification.json",
+    "report_sha256": "c61f1b71cee535301022590380e79ab5906e991a39e29db4f65844dfd7409e64"
+  },
+  "focused_test": {
+    "base_state": "yai_regular_font_entry7_choice_muted.ss1",
+    "archive_intervention": {
+      "operation": "write_memory",
+      "memory_type": "gbaExtWorkRam",
+      "memory_offset": 231424,
+      "input_byte_length": 6238,
+      "input_sha256": "c6802368852d4617d7ce80ec5a0a1dd1b94682f10da648a1991e25ef417f9fde",
+      "reason": "Loading the prior entry 7 state restored its older EWRAM archive; the complete fresh-boot-verified current archive was written before entering entry 8."
+    },
+    "entry_8_choice_state": {
+      "filename": "yai_fan_gulim_entry8_choice_muted.ss1",
+      "sha256": "33898b755993a278b04b678dd3dcc257ec2edfa5bdf11e3aaaa186c83ba9c70f"
+    }
+  },
+  "font_record_read_trace": {
+    "character": "요",
+    "unicode_code_point": "U+C694",
+    "font_record_index": 581,
+    "memory_type": "gbaPrgRom",
+    "record_offset": 6948080,
+    "record_offset_hex": "0x006A04F0",
+    "emulated_range": [141165808, 141165871],
+    "frame": 8194,
+    "consumer_pc": 134352294,
+    "consumer_pc_hex": "0x08020DA6",
+    "record_index_register": {"name": "r8", "value": 581},
+    "snapshot_byte_length": 64,
+    "snapshot_sha256": "b555d317a69813b997e85dcb3d5ec12d285e62f184d9491b8d9feb50562c2d47",
+    "rom_record_sha256": "b555d317a69813b997e85dcb3d5ec12d285e62f184d9491b8d9feb50562c2d47",
+    "snapshot_matches_current_gulim_record": true
+  },
+  "screenshots": [
+    {"stage": "fresh_boot_opening_checkpoint", "filename": "yai_fan_gulim_opening_checkpoint_muted.png", "sha256": "9b1b4c86b82199f87ba4fb27b47df4eac1bfada4734ab337dad9c1ae8574f313"},
+    {"stage": "entry_8_page_1", "filename": "yai_fan_gulim_entry8_page1_muted.png", "sha256": "38d478a57df3e3ac7ecba311dee26ecc116830da7f04ed8891c16cf54e8ac566"},
+    {"stage": "entry_8_page_2", "filename": "yai_fan_gulim_entry8_page2_muted.png", "sha256": "279d79a3476eb4c06c1ec57aa594dc6257db238f305fc0963ac660c267d8b572"},
+    {"stage": "entry_8_page_3", "filename": "yai_fan_gulim_entry8_page3_muted.png", "sha256": "8115cfd739351d92ef265e250e6419787d36ba6a461d1ce692c6cdb8d68045d7"},
+    {"stage": "entry_8_page_4_choice", "filename": "yai_fan_gulim_entry8_choice_muted.png", "sha256": "bb67f97f20987747be725a9a86a7f95a8945d3edc0c12fa61efae833ec1a9970"},
+    {"stage": "entry_8_default_affirmative", "filename": "yai_fan_gulim_entry8_yes_branch_muted.png", "sha256": "543ad106646710659602e498ae97676bc1d9094784d2539df135d657637e66f5"},
+    {"stage": "entry_8_negative_selected", "filename": "yai_fan_gulim_entry8_no_selected_muted.png", "sha256": "2743700739b5d376fa3812fdc8409c373bfc77d22e3a99fcdd587155150a4af3"},
+    {"stage": "entry_9_negative_branch", "filename": "yai_fan_gulim_entry9_no_branch_muted.png", "sha256": "2f169cc2008bd2ed2f9d96dfa0c22d87559b774e595b79c4fda60b15d8c4fd03"},
+    {"stage": "entry_8_b_input_choice_remains_active", "filename": "yai_fan_gulim_entry8_b_continue_muted.png", "sha256": "e8aed15ca2650f29837ce2626043fd84c30a7c940695062dd5f6233810c26572"}
+  ],
+  "verification": {
+    "rebuilt_from_untouched_rev1": true,
+    "all_135_required_glyph_records_match_gulim_face_0_rasterization": true,
+    "fresh_boot_current_archive_loaded_exactly": true,
+    "current_gulim_font_record_was_read_by_dialogue_renderer": true,
+    "entry_8_all_four_pages_rendered": true,
+    "entry_8_both_explicit_option_branches_rendered": true,
+    "entry_9_preserved_inline_wait_and_rendered": true,
+    "b_input_left_choice_active": true,
+    "clipping_observed": false,
+    "overlap_observed": false,
+    "ghosting_observed": false,
+    "explicit_option_progression_stall_observed": false,
+    "audio_enabled": false
+  },
+  "passed": true
+}

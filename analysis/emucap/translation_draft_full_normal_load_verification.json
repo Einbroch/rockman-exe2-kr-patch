@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "kind": "expanded_archive_runtime_dump_verification",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_translation_draft_full_poc.gba",
+    "sha256": "f06eab70f6c76992a38ccf0371362e379dd3e6c785f682b6004dc597857558d6",
+    "byte_length": 16777216
+  },
+  "archive": {
+    "rom_offset": 8388608,
+    "gba_address": "0x08800000",
+    "compressed_byte_length": 4440,
+    "decompressed_byte_length": 6118,
+    "decompressed_sha256": "06160d572e185b57d8c6acc40f09a430b7d9b79657f10a8e0eefa3457b7b8953",
+    "entry_count": 254,
+    "edited_entries": [
+      {
+        "entry_index": 2,
+        "start": 650,
+        "end": 681,
+        "byte_length": 31,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 15,
+        "replacement_sha256": "becd86f8fa307015b177dfb8ecfbde4b1213746e62999ea2d7125962b74e4e67"
+      },
+      {
+        "entry_index": 13,
+        "start": 1411,
+        "end": 1607,
+        "byte_length": 196,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 185,
+        "replacement_sha256": "7a4465331a71104e85d54992e95da0aabc62e57d5daa833b5234dee35d9f9dd8"
+      }
+    ]
+  },
+  "runtime_dump": {
+    "filename": "ewram.bin",
+    "file_sha256": "e285e3c6eb98d26752ae89d1b9e83aac796efca6e84a354015eda185567f49c0",
+    "ewram_offset": 231424,
+    "loaded_byte_length": 6118,
+    "loaded_sha256": "06160d572e185b57d8c6acc40f09a430b7d9b79657f10a8e0eefa3457b7b8953",
+    "differing_byte_count": 0
+  },
+  "passed": true
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "kind": "muted_contextual_full_bank_runtime_verification",
+  "date": "2026-08-27",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_46_contextual_full_bank_poc.gba",
+    "sha256": "dbc72cf88b56a4a13428ce3d952482017fc0b1e2263352847d0d73dbe6a14864",
+    "byte_length": 16777216
+  },
+  "build_manifest": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_46_contextual_full_bank_poc_manifest.json",
+    "sha256": "a54525811ace67809daa0629074522739529448027a3adfa79e6c70a75daccb5"
+  },
+  "codepage": {
+    "filename": "korean_codepage_archive_00_09_dialogue_classroom_00_46_contextual_full_bank.json",
+    "sha256": "63c4a910ec70869c6a4656556ef0bbead390726bbf83bad2d71dd70776efa06e",
+    "mode": "contextual_full_bank",
+    "assignable_capacity": 715,
+    "assignment_count": 271,
+    "remaining_capacity": 444
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "system": "gba",
+    "launch_id": "launch-01m11mtrc7ganga3v0c38d0w8f",
+    "display": false,
+    "sound": false,
+    "stopped": true
+  },
+  "interventions": {
+    "base_state": "analysis/emucap/yai_fan_exe1k_font_entry8_choice_muted.ss1",
+    "renderer_preparation": "Loaded the baseline state, tapped A for one frame, and advanced 180 frames before each focused cursor injection.",
+    "archive_input": "poc/output/archive_00_09_dialogue_classroom_00_46_contextual_full_bank_decompressed.bin",
+    "archive_input_sha256": "1c8f3acbedefd01947eb20e871ef5dab3d0c96ba1ede546deb87dc147c03f93a",
+    "archive_input_byte_length": 5750,
+    "archive_memory_offset": "0x00038800",
+    "renderer_cursor_field": "0x02008754",
+    "renderer_entry_start_field": "0x0200875C",
+    "renderer_reset_addresses": ["0x02008732", "0x0200873E"]
+  },
+  "context_predicate": {
+    "cursor_start_inclusive": "0x020389FE",
+    "cursor_end_exclusive": "0x020393AC",
+    "translated_entries": "0 through 46; entries 18 through 21, 32 through 34, 37 through 39, and 41 through 44 are zero-length",
+    "zero_length_entries_after_context": [47, 48, 49],
+    "first_nonempty_outside_entry": 50
+  },
+  "cases": [
+    {
+      "name": "inside_context_entry_46_baseline_chapter",
+      "cursor": "0x0203935F",
+      "expected_bank": "expanded_context_korean_bank",
+      "expected_text": ["난 자유 연구 숙제를", "하고 있어", "주제는 「생물 관찰」이야"],
+      "preserved_prefix": "six byte-exact checkChapter commands",
+      "screenshot": "analysis/emucap/contextual_full_bank_entry46_ko_chapter_checks_verified.png",
+      "screenshot_sha256": "6ce6bb352cb58ac2e43bd7b177b9390476b3f61a91396a6532bacd0607d1078c",
+      "passed": true
+    },
+    {
+      "name": "outside_context_entry_50",
+      "cursor": "0x020393AC",
+      "expected_bank": "restored_original_rev1_bank",
+      "expected_source_text": ["え~と、", "「カエルは 今日も しんどそうです」"],
+      "screenshot": "analysis/emucap/contextual_full_bank_entry50_ja_boundary_verified.png",
+      "screenshot_sha256": "5e9bf1cb607fffeb68b7eecef41f529a57320d1bd31a3ba44d0ad199ae1f6cfc",
+      "passed": true
+    }
+  ],
+  "verification": {
+    "inside_context_selects_korean_bank": true,
+    "outside_context_selects_original_bank": true,
+    "six_chapter_checks_preserved_statically": true,
+    "baseline_chapter_falls_through_to_translated_body": true,
+    "alternate_chapter_jump_targets_runtime_verified": false,
+    "audio_enabled": false,
+    "managed_emulator_stopped": true
+  },
+  "limitations": [
+    "The renderer cursor and archive payload were explicitly injected for focused testing; normal NPC routing is not claimed by this evidence.",
+    "The six chapter checks are proven byte-identical by static verification, but only the baseline state's fall-through path was exercised at runtime.",
+    "All Korean wording remains a machine draft pending independent review and human approval.",
+    "Other archives require separately proven context ranges or a generalized selector before sharing this bank."
+  ],
+  "passed": true
+}

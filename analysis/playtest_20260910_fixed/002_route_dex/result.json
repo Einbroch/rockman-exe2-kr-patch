@@ -1,0 +1,201 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba",
+  "rom_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-ff12n3_e\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba"
+  ],
+  "input_checkpoint": "analysis\\playtest_20260910_fixed\\001_coldboot_continue\\checkpoint.mss",
+  "timeline": [
+    {
+      "start": 0,
+      "release": 6,
+      "end": 16,
+      "keys": [
+        "up"
+      ]
+    },
+    {
+      "start": 16,
+      "release": 61,
+      "end": 81,
+      "keys": [
+        "left"
+      ]
+    },
+    {
+      "start": 81,
+      "release": 126,
+      "end": 146,
+      "keys": [
+        "up"
+      ]
+    },
+    {
+      "start": 146,
+      "release": 191,
+      "end": 211,
+      "keys": [
+        "left"
+      ]
+    },
+    {
+      "start": 211,
+      "release": 247,
+      "end": 257,
+      "keys": [
+        "left"
+      ]
+    },
+    {
+      "start": 257,
+      "release": 263,
+      "end": 273,
+      "keys": [
+        "up"
+      ]
+    },
+    {
+      "start": 273,
+      "release": 283,
+      "end": 293,
+      "keys": [
+        "left"
+      ]
+    },
+    {
+      "start": 293,
+      "release": 299,
+      "end": 309,
+      "keys": [
+        "up"
+      ]
+    },
+    {
+      "start": 309,
+      "release": 354,
+      "end": 364,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 364,
+      "release": 404,
+      "end": 414,
+      "keys": [
+        "left"
+      ]
+    },
+    {
+      "start": 414,
+      "release": 454,
+      "end": 464,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 464,
+      "release": 519,
+      "end": 529,
+      "keys": [
+        "left"
+      ]
+    },
+    {
+      "start": 529,
+      "release": 564,
+      "end": 574,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 574,
+      "release": 640,
+      "end": 650,
+      "keys": [
+        "left"
+      ]
+    },
+    {
+      "start": 650,
+      "release": 656,
+      "end": 666,
+      "keys": [
+        "up"
+      ]
+    },
+    {
+      "start": 666,
+      "release": 674,
+      "end": 684,
+      "keys": [
+        "left"
+      ]
+    },
+    {
+      "start": 684,
+      "release": 690,
+      "end": 870,
+      "keys": [
+        "a"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "76ece918e58e334e7c60853374d4a1182ceb96ce1da1cee9b19d5f88ae50f6d2",
+    "complete.txt": "8a9a02d73aeefd97306a08c30969a9e8d5ef03960978a1c5db4447558d40f689",
+    "input.mss": "c4145c7fda2e1e31e7998d48e3ac94c2a41975e005677301b2a4d95cbe396308",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "segment.lua": "625a33a9023685f08d9a2a5b1f2c504b77f47ff0f666ffcbc7d76fd82a488943",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "15cd38c40fe901255d08b9c655fab43db5efa43200eed223492113d865f8ff47",
+    "step_001.json": "626e8954b1d90833c7e8060aec9994ec72080f141f86d272a9e8a02bfe515670",
+    "step_001.png": "8588f142966039645b26cee55356e01404cb7cc951745d11f4eb0b82f299a00e",
+    "step_002.json": "f92306621d37bdf7c7b35c030cd9c649a0bc9732eff87adc05c89b63deed3c76",
+    "step_002.png": "0c602cf69c1b4b6330fd38f57b4df579281a861a6a868ab9f468abd03a532943",
+    "step_003.json": "1c9a307e2c2ed9dd764eb4aa07ccd0f912ee2853b66c97dbe6b7bd5109f7e96e",
+    "step_003.png": "3b4961d6a1cbd4dda7f75751a62f27281cd96f37687950d1b2c41a8aef193970",
+    "step_004.json": "8b44e63c4aee05ee2ce5399244f502705f649c9d4d2a8e7ffba8c20d0e8ca83a",
+    "step_004.png": "6973f881a7d1e3b96df2dcb5dc409dae8ef4ad8b4186da712750629993942927",
+    "step_005.json": "c1d09e1cde0676f885214643e44be8fa5ef1c33c77d75a78ab7c4162e362efbf",
+    "step_005.png": "6e0ab5eaa069c3c59264722385157b192f7a040ab22597843eeffed7e6b2e85b",
+    "step_006.json": "ba8873576ab2ee7344fed6ea45413b1f65ae094a10a6e18827d27cdb952b47fd",
+    "step_006.png": "08db62e904d97f515d6ca293b1569d89ba987c80339d85c51f6423c13285ab62",
+    "step_007.json": "87699845230ad14519b34cbaa3dfb76b1b7ca0e204a1723ae02e343ef70b3a5e",
+    "step_007.png": "1b08d9f28ad2ef09307a40e551d3fb63fa6287ad034d0748e0ff859c2584fc21",
+    "step_008.json": "a113f574c00f4188b6bca8216c0f668705fa64ed44a9186f8d5299c2ed7a2375",
+    "step_008.png": "4ebdb6d20ff8bcf0b5de5679722c37eb2a8d8ac7370724ab95c2dde66d17167f",
+    "step_009.json": "a4010931ea6b8c78dbb639e7268c5979f488644e6d79b69c7cf7b9f9df545e1d",
+    "step_009.png": "c7a2b4528fe11b8f303ad7b032faa9fed9d93ca737b52f69170db23784cba2a2",
+    "step_010.json": "6688ebef6fc1120b710b442796d7f09053b18858bb6f386101f2fbea922c3ec6",
+    "step_010.png": "fad3966f4fe88b4ca68b5bb11a6e4173fa5c1cacf4f4c66a65da83640ca5e7ca",
+    "step_011.json": "64ab4734721bfdccdd3cd5e4bb41842eb026b56c2bb57abfb1bff538f832653e",
+    "step_011.png": "2d44ebc7c744c4440509a2423d7b6ce930eba61adb08697fb5138a641e576865",
+    "step_012.json": "bbd3191b8b99c44b9596c648e9913d9490e96b52ef4a79451ed11b317b3e644e",
+    "step_012.png": "a7fb39375219152d515935c8e3c0cd3f42a4c4ff0bb74b2703b572479b89ae9e",
+    "step_013.json": "8e0dc26b66b53d71c2ea2b7b252fc39c2cfccb2db6786dd3c64740ab4380760a",
+    "step_013.png": "66a749ae80dfbb11b90953e28f9250530b87659a820ac06793370b0cce47c8b7",
+    "step_014.json": "33e993c3c53a7599ec0b74810de01647af76a6d9ad8994347645b4b889c5d595",
+    "step_014.png": "ccd2dadeea150b56b47855f1c2817050355a1590a7b56abd4a873454e761be21",
+    "step_015.json": "3d347f5da7fc6f052b77fb840cf73e7d38f41b71e4f417c24c46ca931b95e7f2",
+    "step_015.png": "5b395f1799f23a1aa1ab2d257073cd2e58b96295b481ce1fc4cc7d54b48bb317",
+    "step_016.json": "924bc8db8df2463dbad369fee09329e72d6e16dbd82c2b6428268ea4c5fa37a4",
+    "step_016.png": "47f62c3558a9e5902a052cede49ce9127017303ad3405e2f26f6bc76f841976f",
+    "step_017.json": "d7cf2f0c8bfaf9081429ed80305430d79b128052f88ee19d8c112c2a014c0af3",
+    "step_017.png": "46fd243e2f06374b996e7de00c8e0a58228eafbf136d93eb241c655e397436fd"
+  }
+}

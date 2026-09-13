@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "kind": "muted_exact_rom_runtime_verification",
+  "date": "2026-08-25",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_13_exe1k_font_clean_poc.gba",
+    "sha256": "6f2e62545979fc3526cdf083df43d0264d0e02596fe2d0130bc8e63b86e97dda",
+    "byte_length": 16777216
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "launch_ids": [
+      "launch-01m0wd8ftyaxdb4z172dvetwg5",
+      "launch-01m0wdsntm49varmtmbn74j77z"
+    ],
+    "display": false,
+    "sound": false,
+    "stopped": true
+  },
+  "fresh_boot_archive_load": {
+    "route": "reset -> title -> start -> new game -> classroom opening",
+    "dump_directory": "analysis/emucap/classroom_00_13_exe1k_fresh_newgame_memory",
+    "verification": "analysis/classroom_00_13_exe1k_fresh_newgame_runtime_archive_verification.json",
+    "loaded_byte_length": 6326,
+    "loaded_sha256": "5c2c61d024fecc313d2932fefe76770a28ba8625b71c0090a7cece2c7ed10939",
+    "differing_byte_count": 0,
+    "passed": true
+  },
+  "focused_renderer_intervention": {
+    "base_state": "analysis/emucap/yai_fan_exe1k_font_entry8_choice_muted.ss1",
+    "entry_10_full_control_choice_state": "analysis/emucap/classroom_entry10_exe1k_choice_full_control_intervened.ss1",
+    "ewram_pool_address": "0x02038800",
+    "replacement_pool_byte_length": 6326,
+    "replacement_pool_sha256": "5c2c61d024fecc313d2932fefe76770a28ba8625b71c0090a7cece2c7ed10939",
+    "renderer_state_address": "0x02008730",
+    "evidence_boundary": "These captures prove rendering, layout, page progression, and branch behavior with the exact ROM and game renderer after an explicit save-state/archive/cursor intervention. They do not by themselves prove a natural gameplay route to entries 10 through 12.",
+    "entries": [
+      {
+        "entry_index": 10,
+        "page_count": 2,
+        "choice_default_target": 16,
+        "choice_alternate_result": "continued to the Korean post-choice response",
+        "b_result": "continued to the same Korean post-choice response",
+        "screenshots": [
+          "analysis/emucap/classroom_entry10_exe1k_page1_full_control_intervened.png",
+          "analysis/emucap/classroom_entry10_exe1k_choice_intervened.png",
+          "analysis/emucap/classroom_entry10_exe1k_no_branch_intervened.png",
+          "analysis/emucap/classroom_entry10_exe1k_b_branch_intervened.png"
+        ],
+        "passed": true
+      },
+      {
+        "entry_index": 11,
+        "page_count": 2,
+        "screenshots": [
+          "analysis/emucap/classroom_entry11_exe1k_page1_intervened.png",
+          "analysis/emucap/classroom_entry11_exe1k_page2_intervened.png"
+        ],
+        "passed": true
+      },
+      {
+        "entry_index": 12,
+        "page_count": 1,
+        "screenshots": [
+          "analysis/emucap/classroom_entry12_exe1k_page1_intervened.png"
+        ],
+        "passed": true
+      }
+    ]
+  },
+  "new_glyph_trace": {
+    "character": "휴",
+    "encoded_bytes": [230, 132],
+    "target_font_record_index": 617,
+    "target_rom_offset": "0x006A0DF0",
+    "target_cpu_address": "0x086A0DF0",
+    "source_font_record_index": 2829,
+    "source_rom_offset": "0x0082C4AC",
+    "record_sha256": "4fdcf15403ebf912cc656124ed4d0c6f1ea9f234ab16def0d751cb5fec17d182",
+    "breakpoint_frame": 2920,
+    "renderer_pc": "0x08020DA6",
+    "renderer_r8": 617,
+    "source_and_target_records_equal": true,
+    "passed": true
+  },
+  "limitations": [
+    "All Korean wording remains a machine draft that needs independent human review.",
+    "The EXE1 Korean ROM font is a local reference only; its authorship, license, and redistribution permission are not verified.",
+    "Natural gameplay entry selection for chapter-gated entries 10 through 12 remains to be recorded separately."
+  ],
+  "passed": true
+}

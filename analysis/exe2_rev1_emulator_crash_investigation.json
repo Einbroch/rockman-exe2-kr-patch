@@ -1,0 +1,93 @@
+{
+  "schema_version": 2,
+  "recorded_at": "2026-09-05",
+  "status": "FIX_VERIFIED_TARGETED_RUNTIME_FULL_QA_PENDING",
+  "reported_failure": {
+    "message": "Jumped to invalid address: 71683800",
+    "emulator_format_string": "Jumped to invalid address: %08X",
+    "reported_hex_address": "0x71683800",
+    "screenshots": [
+      {"sha256": "b2d8621b38c423ee01bc152d202cb292f91ea2bc45ac10cd91a8a0feb017d976", "role": "initial user report"},
+      {"sha256": "75d247b89e94b8ef779e20067dcf94358e4342328d0e5cdefe427cb12880f0b9", "role": "exact dialogue-location confirmation"}
+    ],
+    "dialogue": "응! 나만 믿으라니까!",
+    "selector": "00/163",
+    "entry": 8
+  },
+  "root_cause": {
+    "kind": "raw_archive_physical_continuation_dropped_during_relocation",
+    "source_core_rom_offset": 7840772,
+    "source_core_byte_length": 299,
+    "source_terminal_jump_target": 9,
+    "source_entry_count": 9,
+    "source_continuation_rom_offset": 7841071,
+    "source_continuation_byte_length": 65,
+    "source_continuation_sha256": "1150214408418b057a87d14da99530ce0ee2998b50f77114580147bbc0b4edbe",
+    "explanation": "The terminal table boundary is intentionally used as entry 9 and leads to a physical continuation before archive 00/164. The old builder relocated only the formal archive, so the jump entered expanded-ROM fill bytes.",
+    "scope_audit": {
+      "report": "analysis/exe2_rev1_out_of_table_jump_audit.json",
+      "catalog_archives_checked": 382,
+      "affected_raw_archives": 158,
+      "compressed_archives_affected": 0,
+      "targets_greater_than_terminal_boundary": 0
+    }
+  },
+  "old_candidate": {
+    "path": "poc/output/exe2_rev1_semantic_translation_emulator_test.gba",
+    "sha256": "d5f234f41a438c30f6870334041663b4fc14edd34b7dd39c72a14d11ac11d427",
+    "targeted_probe": {
+      "result": "FAIL_REPRODUCED",
+      "fatal_window_detected": true,
+      "input_pulses": 4,
+      "report": "analysis/entry_00_163_8_old_runtime_probe.json"
+    }
+  },
+  "fixed_candidate": {
+    "path": "poc/output/exe2_rev1_semantic_translation_emulator_test_continuation_fix.gba",
+    "size": 16777216,
+    "sha256": "d5617308a910231ab43a7a64a451f33120f6d18798d5abebde59c98bef7e5139",
+    "manifest": "poc/output/exe2_rev1_semantic_translation_emulator_test_continuation_fix_manifest.json",
+    "static_qa": "analysis/exe2_rev1_semantic_translation_emulator_test_continuation_fix_static_qa.json",
+    "preserved_physical_continuations": 158,
+    "translated_physical_continuations": 1,
+    "targeted_probe": {
+      "result": "PASS_DIALOGUE_CLOSED_TO_FIELD",
+      "fatal_window_detected": false,
+      "input_pulses": 4,
+      "report": "analysis/entry_00_163_8_fixed_runtime_probe.json",
+      "before_screenshot": "analysis/emucap/entry_00_163_8_fixed_before.png",
+      "before_screenshot_sha256": "5af86c674c120a0e1c46df6c3d0ed856cc1b005c5b35af166bab5976b58d0429",
+      "one_pulse_result": "PASS_KOREAN_PHYSICAL_CONTINUATION_RENDERED",
+      "one_pulse_screenshot": "analysis/emucap/entry_00_163_8_fixed_one_pulse_after.png",
+      "one_pulse_screenshot_sha256": "ff91bd814c51deb4ce2c72020c20469b17224d7265062ceaf333217208e741bf",
+      "after_screenshot": "analysis/emucap/entry_00_163_8_fixed_after.png",
+      "after_screenshot_sha256": "f0eb98d8b289d60b0fc94f024f779aaa5b725767e893392ec83a86bc87ed2057"
+    },
+    "mesen_progression": {
+      "mode": "testrunner_noaudio_scripted_progression",
+      "frames": 1800,
+      "result": "PASS",
+      "main_custom": 69,
+      "scanner_custom": 5738,
+      "font_custom": 69,
+      "result_file": "analysis/exe2_rev1_continuation_fix_mesen_progression_result.txt",
+      "trace_file": "analysis/exe2_rev1_continuation_fix_mesen_progression_trace.txt"
+    },
+    "mgba_clean_boot": {
+      "mode": "mute_no_autoload_no_autosave",
+      "observed_seconds": 8,
+      "process_alive": true,
+      "process_responding": true,
+      "result": "PASS_PROCESS_ALIVE"
+    }
+  },
+  "clean_launcher": {
+    "entrypoint": "RUN_MGBA_CLEAN_MUTED.cmd",
+    "script": "tools/launch_mgba_clean_validation.ps1",
+    "candidate_sha256_locked": "d5617308a910231ab43a7a64a451f33120f6d18798d5abebde59c98bef7e5139",
+    "mute": true,
+    "state_autoload": false,
+    "state_autosave": false
+  },
+  "conclusion": "The reported failure is reproduced on the old candidate and does not occur on the fixed candidate at the same renderer state and input sequence. Full-game runtime QA remains open."
+}

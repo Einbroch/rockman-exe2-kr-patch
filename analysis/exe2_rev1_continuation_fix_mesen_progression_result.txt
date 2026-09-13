@@ -1,0 +1,8 @@
+frames=1800
+pc=nil
+main_hook=846
+scanner_hook=15673
+font_hook=165
+main_custom=69
+scanner_custom=5738
+font_custom=69

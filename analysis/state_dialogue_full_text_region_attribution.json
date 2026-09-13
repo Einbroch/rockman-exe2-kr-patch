@@ -1,0 +1,602 @@
+{
+  "schema_version": 1,
+  "input": {
+    "state_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "state_sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914"
+  },
+  "region": {
+    "x0": 64,
+    "y0": 104,
+    "x1_exclusive": 208,
+    "y1_exclusive": 152,
+    "pixel_count": 6912
+  },
+  "display_control_register": 8000,
+  "backgrounds": [
+    {
+      "background": 0,
+      "enabled": true,
+      "priority": 0,
+      "control_register": 7176,
+      "horizontal_offset": 0,
+      "vertical_offset": 0,
+      "nontransparent_region_pixel_count": 6912,
+      "topmost_region_pixel_count": 6912,
+      "topmost_dark_screenshot_pixel_count": 548,
+      "distinct_region_tile_index_count": 75,
+      "distinct_region_palette_index_count": 3,
+      "topmost_region_tile_usage": [
+        {
+          "tile_index": 611,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 22,
+          "tile_pattern_sha256": "b24f46f30e91cffaee1bba033fa193809a3c336c1ed59e60b50c13b97b9e4d4e"
+        },
+        {
+          "tile_index": 623,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 22,
+          "tile_pattern_sha256": "b24f46f30e91cffaee1bba033fa193809a3c336c1ed59e60b50c13b97b9e4d4e"
+        },
+        {
+          "tile_index": 614,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 20,
+          "tile_pattern_sha256": "b43148eab71aafdaa65a9943adcdecc5d717e3d62c7f77a83b18757e68122b2d"
+        },
+        {
+          "tile_index": 584,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 17,
+          "tile_pattern_sha256": "860d3df45c1f7b814bf03f3134ecfef19d888de7e83723b68fa5597b3bcc0fac"
+        },
+        {
+          "tile_index": 608,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 17,
+          "tile_pattern_sha256": "f73ec48febff4cff5fb00c2653ce521372b3e0e7b2d33808b2059ca9268a5507"
+        },
+        {
+          "tile_index": 607,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 16,
+          "tile_pattern_sha256": "d063c05db6134ccfa7b479415cf6dd69e86df35b6a4d54392841a6762193643b"
+        },
+        {
+          "tile_index": 585,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 15,
+          "tile_pattern_sha256": "112b7bfab1ba7a906d3b5f9075939425155514c958dec9bd2b7e5e136d446684"
+        },
+        {
+          "tile_index": 601,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 15,
+          "tile_pattern_sha256": "1584e7159967da9092292d01d6ba755b1d5132aea2d5567738a1671d23d16a9a"
+        },
+        {
+          "tile_index": 583,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 14,
+          "tile_pattern_sha256": "48e373b20b3fde25284098136413d722efbdea68cb3dd2e7c6993522d1dcf658"
+        },
+        {
+          "tile_index": 609,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 14,
+          "tile_pattern_sha256": "4204a366e75bd32636ce675e2adf2e343dc1c6a4df4f765db7082768b6763ffe"
+        },
+        {
+          "tile_index": 615,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 14,
+          "tile_pattern_sha256": "f514c6e5920c28872c581c492c3b911097827a52f767ad022bf224b1f25733d8"
+        },
+        {
+          "tile_index": 617,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 14,
+          "tile_pattern_sha256": "48e373b20b3fde25284098136413d722efbdea68cb3dd2e7c6993522d1dcf658"
+        },
+        {
+          "tile_index": 591,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 13,
+          "tile_pattern_sha256": "91af2d934e657be731a1781d20a3e335f6e93104aa52ce2d9dff6b363f5ef79b"
+        },
+        {
+          "tile_index": 604,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 13,
+          "tile_pattern_sha256": "da84b72007d22329b5c5572f10ccae3b03e2c2277bd4e455ddecd4c64e4597a5"
+        },
+        {
+          "tile_index": 619,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 13,
+          "tile_pattern_sha256": "91af2d934e657be731a1781d20a3e335f6e93104aa52ce2d9dff6b363f5ef79b"
+        },
+        {
+          "tile_index": 648,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 13,
+          "tile_pattern_sha256": "7e933587a0b0508b6a699b368341dbf5ba7373653fac683d39ff705a51d40b76"
+        },
+        {
+          "tile_index": 649,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 13,
+          "tile_pattern_sha256": "19847a482166f192fd757598632552f1cfb8fba043681d8069289ca4170b34a5"
+        },
+        {
+          "tile_index": 593,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 12,
+          "tile_pattern_sha256": "cb5248e59d2dbc07bf46724f9643f0a97e80e5969ab9b04372f4ab76d556b0a5"
+        },
+        {
+          "tile_index": 600,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 12,
+          "tile_pattern_sha256": "6e0e0de1af60cb13254ce988444b8ead56410cf454c0b4113db12a69229ee485"
+        },
+        {
+          "tile_index": 605,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 12,
+          "tile_pattern_sha256": "d09f4ea2fe5ea0766b389ec9ffd8c014aea25620cba7c1728e823f737061bc86"
+        },
+        {
+          "tile_index": 633,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 12,
+          "tile_pattern_sha256": "cb5248e59d2dbc07bf46724f9643f0a97e80e5969ab9b04372f4ab76d556b0a5"
+        },
+        {
+          "tile_index": 637,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 12,
+          "tile_pattern_sha256": "aba0eac01aa5b5ae06944106c551b64db0f277b298f76db3576c6b9ad225704c"
+        },
+        {
+          "tile_index": 582,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 11,
+          "tile_pattern_sha256": "d24587ce64944e3e4bfb4ca98b642af3ed2db0d461b95673ae2506ea4d83a53d"
+        },
+        {
+          "tile_index": 612,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 11,
+          "tile_pattern_sha256": "0f07b20e317e047a60489bf296969b178b2ab165fe6122597f59a227054ccb40"
+        },
+        {
+          "tile_index": 616,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 11,
+          "tile_pattern_sha256": "d24587ce64944e3e4bfb4ca98b642af3ed2db0d461b95673ae2506ea4d83a53d"
+        },
+        {
+          "tile_index": 624,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 11,
+          "tile_pattern_sha256": "0f07b20e317e047a60489bf296969b178b2ab165fe6122597f59a227054ccb40"
+        },
+        {
+          "tile_index": 638,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 11,
+          "tile_pattern_sha256": "d0158ba92884a8af682f960526003330f475134540f72ecd75cedb80581fb46f"
+        },
+        {
+          "tile_index": 636,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 10,
+          "tile_pattern_sha256": "e08d260f31a4ea8be9da3f296f601c1e640e27bd97c71b25005dcaca07344958"
+        },
+        {
+          "tile_index": 592,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 9,
+          "tile_pattern_sha256": "8116b6150b07dabdeea04e606ebb87dcd6fa4f851e5f0d11eb8a79cee8a89682"
+        },
+        {
+          "tile_index": 621,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 9,
+          "tile_pattern_sha256": "90c9a0fd26c76a6cd4345d48766be4e47f6bf710a8f1366eddbc953373f2355a"
+        },
+        {
+          "tile_index": 632,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 9,
+          "tile_pattern_sha256": "8116b6150b07dabdeea04e606ebb87dcd6fa4f851e5f0d11eb8a79cee8a89682"
+        },
+        {
+          "tile_index": 639,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 9,
+          "tile_pattern_sha256": "1902a51ed09548c77795f64a2ef288f10d63b593f797ab58527c4d6844815320"
+        },
+        {
+          "tile_index": 647,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 9,
+          "tile_pattern_sha256": "90c9a0fd26c76a6cd4345d48766be4e47f6bf710a8f1366eddbc953373f2355a"
+        },
+        {
+          "tile_index": 590,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 8,
+          "tile_pattern_sha256": "ffd372981a9caffd753510e01c71ab1da41f30a73341ad6d7a79673dfcc9c158"
+        },
+        {
+          "tile_index": 618,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 8,
+          "tile_pattern_sha256": "ffd372981a9caffd753510e01c71ab1da41f30a73341ad6d7a79673dfcc9c158"
+        },
+        {
+          "tile_index": 588,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 7,
+          "tile_pattern_sha256": "9e39db0fab5a0fa2394671deed3f83268656373178e645a7c5260de482623eb3"
+        },
+        {
+          "tile_index": 589,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 7,
+          "tile_pattern_sha256": "708f1d64be5bb14c25b54e71a93a07d1a169d8cedfa69a8782fb9e3336c5ca6a"
+        },
+        {
+          "tile_index": 613,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 7,
+          "tile_pattern_sha256": "0299fedf051dfee1e2a29d4e52f3cc290a3625ef5b19a8c02be3d95970b5699d"
+        },
+        {
+          "tile_index": 625,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 7,
+          "tile_pattern_sha256": "0299fedf051dfee1e2a29d4e52f3cc290a3625ef5b19a8c02be3d95970b5699d"
+        },
+        {
+          "tile_index": 606,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 5,
+          "tile_pattern_sha256": "045e6ab09c28b582adc155d5f0f5f0cbf0345950c75a6a6d3d555bea1e5f960d"
+        },
+        {
+          "tile_index": 620,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 5,
+          "tile_pattern_sha256": "18dfb1e53d4e0847639c1dc020ab29e427c5cc7817cb44d4fd30dd05545eb969"
+        },
+        {
+          "tile_index": 646,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 5,
+          "tile_pattern_sha256": "18dfb1e53d4e0847639c1dc020ab29e427c5cc7817cb44d4fd30dd05545eb969"
+        },
+        {
+          "tile_index": 577,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 579,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 581,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 595,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 597,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 599,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 627,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 629,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 631,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 641,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 643,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 645,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 4,
+          "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc"
+        },
+        {
+          "tile_index": 587,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 2,
+          "tile_pattern_sha256": "2cdab0603f6249974c34d360c056bea5c5ea4df70ecac5dc6707b1ac546d6453"
+        },
+        {
+          "tile_index": 610,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 2,
+          "tile_pattern_sha256": "0ce1a465bd275834ffe1208edad2a6d3ac938a00aaeaf78a956d963ef6f7631e"
+        },
+        {
+          "tile_index": 622,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 2,
+          "tile_pattern_sha256": "0ce1a465bd275834ffe1208edad2a6d3ac938a00aaeaf78a956d963ef6f7631e"
+        },
+        {
+          "tile_index": 700,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 2176,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 576,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 578,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 580,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 586,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 594,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 596,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 598,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 602,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 603,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 626,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 628,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 630,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 634,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 635,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 640,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 642,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        },
+        {
+          "tile_index": 644,
+          "palette_bank": 15,
+          "topmost_region_pixel_count": 64,
+          "topmost_dark_screenshot_pixel_count": 0,
+          "tile_pattern_sha256": "02d449a31fbb267c8f352e9968a79e3e5fc95c1bbeaa502fd6454ebde5a4bedc"
+        }
+      ]
+    },
+    {
+      "background": 1,
+      "enabled": true,
+      "priority": 3,
+      "control_register": 7427,
+      "horizontal_offset": 0,
+      "vertical_offset": 0,
+      "nontransparent_region_pixel_count": 6912,
+      "topmost_region_pixel_count": 0,
+      "topmost_dark_screenshot_pixel_count": 0,
+      "distinct_region_tile_index_count": 13,
+      "distinct_region_palette_index_count": 10,
+      "topmost_region_tile_usage": []
+    },
+    {
+      "background": 2,
+      "enabled": true,
+      "priority": 2,
+      "control_register": 15874,
+      "horizontal_offset": 0,
+      "vertical_offset": 0,
+      "nontransparent_region_pixel_count": 2240,
+      "topmost_region_pixel_count": 0,
+      "topmost_dark_screenshot_pixel_count": 0,
+      "distinct_region_tile_index_count": 25,
+      "distinct_region_palette_index_count": 10,
+      "topmost_region_tile_usage": []
+    },
+    {
+      "background": 3,
+      "enabled": true,
+      "priority": 1,
+      "control_register": 16133,
+      "horizontal_offset": 0,
+      "vertical_offset": 0,
+      "nontransparent_region_pixel_count": 0,
+      "topmost_region_pixel_count": 0,
+      "topmost_dark_screenshot_pixel_count": 0,
+      "distinct_region_tile_index_count": 0,
+      "distinct_region_palette_index_count": 0,
+      "topmost_region_tile_usage": []
+    }
+  ],
+  "background_only_composited_region_pixel_count": 6912,
+  "background_only_screenshot_rgb_exact_match_count": 548,
+  "interpretation_notice": "Attribution uses only mode-0 text backgrounds and ignores OBJ, windows, blending, and backdrop effects. It identifies a candidate contributing layer in this state, not a proven dialogue renderer or font source."
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS_TEST_PACKAGE",
+  "zip_path": "D:\\Games\\Kor Patch\\CLude\\\ub85d\ub9e8 \uc5d0\uadf8\uc81c 2\\dist\\EXE2_Rev1_KR_Emulator_TEST_20260905.zip",
+  "zip_sha256": "280b86a8fa4f9cd7611d7d85a4dce1316f084db7702f112e3b28037c24eb348f",
+  "zip_size": 929373,
+  "patch_sha256": "44684cf37a80e890e3e7a7d35ab82fd135ca092a434bcf632e167ea197510798",
+  "patch_size": 394725,
+  "applied_rom_sha256": "8d6ed5473404d2dcaf6056297324e86a47d88b4c999324eb40ab8a7a5e8ac11a",
+  "byte_identical_to_current_candidate": true,
+  "wrong_source_rejected": true,
+  "existing_output_not_overwritten": true,
+  "no_rom_or_saves_in_package": true,
+  "stage_directory": "analysis\\test-patch-29vcll7l",
+  "members_sha256": {
+    "APPLY_PATCH.cmd": "215d84a55ca42909a66216a176847eea8005a9619b094aa2ebbaeb8a54f733d6",
+    "apply_patch.ps1": "1e59378669b6da3d1c708929ee0cad1eb2e2c4e04f2dbb8c55c64907c6cd2b7d",
+    "EXE2_Rev1_KR_TEST.bps": "44684cf37a80e890e3e7a7d35ab82fd135ca092a434bcf632e167ea197510798",
+    "manifest.json": "2876e5a7c70610747ea4ca46d737a6366c23cc85e870636b5d96cd6a2a521d41",
+    "README_KO.txt": "de55498048346594b6760142fc0f7a98c45da6349e2a2cc4e4c9c157ab616db9",
+    "tools/COPYING": "759de06c3329988ac8cbc16b7991426659a893e8b36b5ebb0aafb9009ebf5af9",
+    "tools/COPYING.gpl3": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+    "tools/flips-source-v198.zip": "414113f98ed54151232af017f7e731accdb1e062c3f719cf2abafb0436fe3d45",
+    "tools/flips.exe": "ca6b364ccb23ab83ff0f4458f589eac001e7baf74315decde73c878a8eb519fd"
+  },
+  "release_ready": false
+}

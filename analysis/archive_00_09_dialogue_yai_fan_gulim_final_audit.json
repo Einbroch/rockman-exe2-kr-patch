@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "kind": "archive_00_09_yaito_fan_dialogue_gulim_final_audit",
+  "supported_source": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "output": {
+    "filename": "poc/output/exe2_rev1_archive_00_09_dialogue_yai_fan_gulim_clean_poc.gba",
+    "byte_length": 16777216,
+    "sha256": "de5aa4266617bcd4d96dc8b03cf17e0108c50a69f2f6d48bf8649063149f1dfd",
+    "distribution_eligible": false
+  },
+  "scope": {
+    "archive": "00/09",
+    "entry_count": 254,
+    "translated_entry_indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 13],
+    "translated_entry_count": 11,
+    "required_hangul_glyph_count": 135
+  },
+  "font": {
+    "filename": "gulim.ttc",
+    "sha256": "4b9ac63e8920ed1bae29c068025ed30493464c18ee18617887daa18e59189226",
+    "face_index": 0,
+    "family": "Gulim",
+    "style": "Regular",
+    "embedded_in_project": false
+  },
+  "artifacts": {
+    "translation": {"path": "translations/archive_00_09_dialogue_draft.json", "sha256": "d1f5c492f8d5fda86565a4e07e0821e601e057853d468bba6b0af28f92d9eb73"},
+    "codepage": {"path": "poc/output/korean_codepage_archive_00_09_dialogue_yai_fan_draft.json", "sha256": "88b6a243b6d6a1c5464a416ebe3285e9348e72f7de7bf40e55fe51238c474779"},
+    "archive_manifest": {"path": "poc/output/archive_00_09_dialogue_yai_fan_gulim_clean_manifest.json", "sha256": "5d4c0bc3ff2c0f54f5e49937708992361bbec8877e0c8154cf2a9b620e3ab662"},
+    "integrated_manifest": {"path": "poc/output/integrated_archive_00_09_dialogue_yai_fan_gulim_clean_manifest.json", "sha256": "bb18cd53e163845b70c8a12c91773da1adba9960b115aa638117fdc02b9ee6c6"},
+    "static_verification": {"path": "analysis/archive_00_09_dialogue_yai_fan_gulim_clean_verification.json", "sha256": "edeaf6cac064095dec957526be7278231f838e5063b02f4c9ccdd95621e6507e"},
+    "normal_load_verification": {"path": "analysis/emucap/dialogue_yai_fan_gulim_normal_load_verification.json", "sha256": "c61f1b71cee535301022590380e79ab5906e991a39e29db4f65844dfd7409e64"},
+    "runtime_progression": {"path": "analysis/emucap/dialogue_yai_fan_gulim_progression.json", "sha256": "6447e133684b18ffcea384a44d01f30ad9a388f5cd85292efb123fe25d79e924"},
+    "build_report": {"path": "analysis/archive_00_09_dialogue_yai_fan_gulim_clean_build.md", "sha256": "07a2930f2da9f45359d17d5efc6db219c5240ae501c8504261f856ef5426be46"}
+  },
+  "verification": {
+    "rebuilt_from_untouched_supported_rev1": true,
+    "diagnostic_active_block_edits_omitted": true,
+    "protected_source_fields_match_extraction": true,
+    "source_control_sequences_preserved": true,
+    "all_untranslated_entries_byte_identical": true,
+    "all_translated_entries_match_structured_segments": true,
+    "all_required_font_records_match_gulim_face_0": true,
+    "fresh_boot_normal_load_exact": true,
+    "current_gulim_record_consumed_by_dialogue_renderer": true,
+    "entry_8_all_pages_rendered": true,
+    "entry_8_affirmative_branch_rendered": true,
+    "entry_8_negative_branch_reached_entry_9": true,
+    "clipping_overlap_or_ghosting_observed": false,
+    "explicit_option_progression_stall_observed": false,
+    "emulator_sound_enabled": false,
+    "gba_header_complement_checksum_valid": true
+  },
+  "limitations": [
+    "The Korean wording remains a machine draft that needs independent human review.",
+    "The full ROM output is a local non-distributable development artifact.",
+    "A release still requires broader script coverage, full natural-play regression, and a patch format that contains no original ROM data."
+  ],
+  "passed": true
+}

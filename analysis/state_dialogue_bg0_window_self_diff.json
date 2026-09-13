@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "input": {
+    "state_before_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "state_before_sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914",
+    "state_after_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "state_after_sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914"
+  },
+  "vram_window": {
+    "vram_offset": 51200,
+    "vram_address": 100714496,
+    "byte_length": 4864,
+    "tile_count": 152
+  },
+  "changed_tile_count": 0,
+  "changed_tiles": [],
+  "interpretation_notice": "A changed tile proves only that the two saved states differ in this VRAM slot. It does not establish a character-code mapping, a renderer, or a source asset."
+}

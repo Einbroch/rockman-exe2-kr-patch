@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "input": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "state_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "state_sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914",
+    "entry_rom_offset": 7840430,
+    "entry_length": 59,
+    "entry_sha256": "e6d121a664d2014393c1787af7e9fa8716bf285754dc97a9af1b3a396f2f2138",
+    "entry_prefix_byte_count": 12,
+    "record_match_report": "dialogue_bg0_full_pair_record_matches.json"
+  },
+  "visible_record_order_count": 35,
+  "one_byte_range_visible_record_order_count": 34,
+  "longest_common_subsequence_length_against_full_entry": 32,
+  "longest_common_subsequence_length_against_entry_after_prefix": 32,
+  "one_byte_visible_records_unmatched_by_one_lcs_after_prefix_count": 2,
+  "distinct_font_record_indices_among_unmatched_visible_records_count": 1,
+  "single_record_gap_stats_after_prefix": {
+    "single_unmatched_visible_record_internal_gap_count": 2,
+    "distinct_unmatched_raw_span_length_and_hash_count": 1,
+    "largest_identical_unmatched_raw_span_group_count": 2,
+    "unmatched_raw_span_total_byte_count": 4
+  },
+  "interpretation_notice": "This reports only an opaque order statistic. A full-length subsequence supports ordered single-byte rendering, but it does not assign positions, identify skipped controls, or prove a complete parser."
+}

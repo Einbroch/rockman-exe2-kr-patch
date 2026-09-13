@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "kind": "mgba_dialogue_page_progression_verification",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_translation_draft_full_poc.gba",
+    "sha256": "f06eab70f6c76992a38ccf0371362e379dd3e6c785f682b6004dc597857558d6"
+  },
+  "intervention_state": {
+    "filename": "exe2_rev1_archive_00_09_translation_draft_full_page_1.ss2",
+    "sha256": "9d03714bca7ac11696cff729e5703b387e6e76c968bd40d8ad9e9db02cd5f3b9",
+    "scope": "The decompressed EWRAM archive pool and entry-13 page-1 pointers were installed before rendering."
+  },
+  "progression": {
+    "emulator": "mGBA 0.10.5",
+    "start_page": 1,
+    "advance_input": "configured GBA A button (host VK_X)",
+    "direct_later_page_pointer_states_used": false,
+    "captures": [
+      {
+        "page": 1,
+        "advance_count": 0,
+        "filename": "archive_entry_13_translation_draft_full_page_1.png",
+        "sha256": "7d92c59aec369a5c4c8897f3f3208eb92fedadd3a9e55cb7b77d051173586316"
+      },
+      {
+        "page": 2,
+        "advance_count": 1,
+        "filename": "archive_entry_13_translation_draft_full_page_2.png",
+        "sha256": "b66a5647a79f95d4db34127671769e12ebe4acffed79a822fb550fe036fc203b"
+      },
+      {
+        "page": 3,
+        "advance_count": 2,
+        "filename": "archive_entry_13_translation_draft_full_page_3.png",
+        "sha256": "c38bed0039a0ccc3a1202c5af39ce9587704c601d6d3241dcb1100fd23bbe447"
+      },
+      {
+        "page": 4,
+        "advance_count": 3,
+        "filename": "archive_entry_13_translation_draft_full_page_4.png",
+        "sha256": "8d1e8d9fb621b27762a9ea0294d001a9dd42c07b1677571eeae48a2d4c6f9f89"
+      }
+    ]
+  },
+  "visual_checks": {
+    "all_pages_rendered": true,
+    "line_clipping_observed": false,
+    "line_overlap_observed": false,
+    "button_progression_reached_pages_2_through_4": true
+  },
+  "rejected_evidence_directory": "rejected",
+  "passed": true
+}

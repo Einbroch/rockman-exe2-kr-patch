@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "kind": "third_party_font_permission_record",
+  "decision_id": "exe1_k_font_reuse_permission_2026_08_26",
+  "source_asset": {
+    "filename": "Battle Network Rockman EXE 1 [K].gba",
+    "sha256": "c0753c1d3170f69e1eb8b03a02875ec63c5622185ac4afbb2b8688c53209d865",
+    "font_identity": "EXE1_K_KS_X_1001_pixel_font"
+  },
+  "human_attestation": {
+    "provided_by": "project_user",
+    "provided_on": "2026-08-26",
+    "statement": "에그제 1의 폰트는 허락받았어.",
+    "interpreted_scope": "Use of the EXE 1 Korean pixel-font glyph records in this Rockman EXE 2 Korean-patch project, including the patch work the user requested to continue.",
+    "documentary_permission_copy_stored_in_workspace": false
+  },
+  "adopted_effect": {
+    "font_reuse_permission_status": "permission_received_user_attested",
+    "font_rights_no_longer_a_project_blocker": true,
+    "does_not_approve_translation_wording": true,
+    "does_not_make_patched_rom_distribution_permissible": true
+  },
+  "reassessment": [
+    "The asserted permission scope is later shown not to include redistribution of patch-contained font data.",
+    "The identified source font or source ROM hash changes.",
+    "The permission is withdrawn or superseded."
+  ],
+  "state": "adopted"
+}

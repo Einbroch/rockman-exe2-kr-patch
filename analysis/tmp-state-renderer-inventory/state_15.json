@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "kind": "verified_renderer_state_pointer_snapshot",
+  "input": {
+    "filename": "exe2_rev1_active_block_nine_entry_catalog_screened_poc.ss1",
+    "sha256": "370411af284c605b1e9d959f84368fabadc8156a1359fd5c579dc16f163ff4ce"
+  },
+  "state_payload": {
+    "sha256": "af9e1b6da0cc9e10b337528ca979f0c8205edad890f25bd830f7bb2841b51914",
+    "byte_length": 397312
+  },
+  "rom": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "catalog": {
+    "filename": "rev1_message_block_catalog.json",
+    "sha256": "860771a9029bbc73042e0ad02b6aecd473d6af2bf3890f5efd43628af7310a89"
+  },
+  "saved_r10": 134218908,
+  "renderer_global_rom_offset": 1252,
+  "renderer_state_address": 33589040,
+  "fields": {
+    "current_text_pointer": {
+      "value": 33786526,
+      "rom_catalog_owner": null,
+      "ewram_window": {
+        "ewram_region_offset": 232094,
+        "sample_byte_length": 32,
+        "sample_sha256": "b22ffff38cf0525dddc2dd6471d8b50aa7d930ecc44becc238ccd36f382662d0",
+        "exact_rom_origin_offsets": [],
+        "catalog_owners": []
+      }
+    },
+    "source_block_base": {
+      "value": 33785856,
+      "rom_catalog_owner": null,
+      "ewram_window": {
+        "ewram_region_offset": 231424,
+        "sample_byte_length": 32,
+        "sample_sha256": "a3c72e7d90079ec566992243f08aabf4d56878d90c655c9fc51190bebf61db4e",
+        "exact_rom_origin_offsets": [],
+        "catalog_owners": []
+      }
+    },
+    "current_entry_end": {
+      "value": 33786506,
+      "rom_catalog_owner": null,
+      "ewram_window": {
+        "ewram_region_offset": 232074,
+        "sample_byte_length": 32,
+        "sample_sha256": "d460a4dd6ea5d6d408cabcdb51c4097fee773c0dcaff9a6308b192185e017336",
+        "exact_rom_origin_offsets": [],
+        "catalog_owners": []
+      }
+    }
+  },
+  "interpretation_notice": "The state address and field offsets come from the verified renderer path. A catalog owner or exact 32-byte ROM origin links the serialized pointer value to a source range, but does not alone prove that every visible glyph was consumed after the snapshot boundary."
+}

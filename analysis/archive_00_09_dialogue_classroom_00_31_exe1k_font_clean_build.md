@@ -1,0 +1,13 @@
+# Archive 00/09 classroom entries 25 and 31 development build
+
+The clean development ROM now adds the complete entry-25-to-entry-31 classroom event chain to the existing Korean draft. Entry 25 contains Dex's seven-page explanation and ends with the original `F5 00 1F` direct jump. Entry 31 contains MegaMan's three-page continuation. The translation asset now selects 23 non-empty entries in total: 0 through 17, 22 through 25, and 31. Original entries 18 through 21 remain zero-length.
+
+The build was regenerated from the untouched Rev 1 ROM with SHA-256 `1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8`. The resulting 16 MiB development ROM is `poc/output/exe2_rev1_archive_00_09_dialogue_classroom_00_31_exe1k_font_clean_poc.gba`, SHA-256 `de2b97050083497407110544d591538502b8d755ff3c74092c079feecba7a067`.
+
+The Korean codepage contains 239 mapped syllables and retains 17 free records. The selected dialogue uses 236 syllables. The rebuilt archive is 6,603 bytes decompressed and 4,921 bytes compressed. The independent verifier confirmed that all unselected entries stayed byte-identical, all selected entries match their typed translation segments, every required font record matches the declared EXE1 Korean font source, and the GBA header complement checksum is valid.
+
+Entry 25 exposed one previously unsupported but structurally verified script shape: its visible replacement ends in `EB E9` and the protected suffix immediately jumps with `F5 00 1F`. The builder now permits a terminal page break only when the translation asset declares a three-byte protected F5 jump at exactly that boundary and the encoded target equals the declared entry. In that case it does not count a nonexistent empty local page. Every other terminal `EB E9` remains a build error.
+
+Muted runtime verification used `display:false` and `sound:false`. A fresh new-game route loaded the exact 6,603-byte rebuilt archive into EWRAM at `0x02038800`, with zero differing bytes. Focused renderer testing then displayed all seven pages of entry 25 without clipping, Japanese residue, or broken glyphs. The final page executed the preserved jump and reached entry 31, whose three pages also displayed correctly. The focused test entered entry 25 at its original mugshot command so its three leading flag commands were not applied to the test save; the static build still preserves those commands exactly.
+
+This remains a non-distributable development PoC. The Korean prose and provisional terminology need independent human review, and the EXE1 Korean font source has no verified redistribution permission. Natural map interaction selection of entry 25 is not yet runtime evidence.

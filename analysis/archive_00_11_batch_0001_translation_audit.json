@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "kind": "static_textpet_translation_batch_audit",
+  "archive": {
+    "selector": "00/11",
+    "rom_offset": 7650248,
+    "decompressed_sha256": "e0a7f06ccb4c35bb25913a2270aab15a1dbb89a15aed24829675dd2b0fd28c89",
+    "tpl_sha256": "ef3fc56913dccee9373ec46b482a1c2611ca52cd0a7f5d11fcf8e670b38628d2"
+  },
+  "inputs": {
+    "batch_policy_sha256": "202b76b4871c23d7017017b9e0c84f1a2e07db7cccb30f914bdbe25bcfadc598",
+    "authored_translation_sha256": "687916f6a7d00da07b122cad46aa5bf9470a4dd37b6ed0748234b986142c8f4e",
+    "protected_batch_sha256": "12fa880ec32a0a95f9a2157949e813eb6876c329f5c39b16fcd8a3e21d8f44fa",
+    "batch_builder_sha256": "8aa602f9f1ef2a3a9537cdb5953bce87d9f8d41d1b6210330c764a487cede73a"
+  },
+  "scope": {
+    "requested_text_bearing_entry_count": 100,
+    "actual_text_bearing_entry_count": 100,
+    "first_entry_index": 0,
+    "last_entry_index": 199,
+    "control_only_entries_excluded": [6, 11, 13, 14],
+    "remaining_text_bearing_entries_in_archive": 11
+  },
+  "checks": {
+    "entry_ids_match_first_100_text_bearing_tpl_scripts": true,
+    "entry_ids_are_unique_and_source_ordered": true,
+    "source_entry_lengths_match_rom_archive": true,
+    "source_entry_raw_hex_matches_rom_archive": true,
+    "source_entry_sha256_values_match_rom_archive": true,
+    "source_tpl_block_sha256_values_match_byte_preserving_tpl_decode": true,
+    "all_draft_translations_are_nonempty": true,
+    "all_draft_translations_contain_hangul": true,
+    "all_authored_control_tags_are_recognized": true,
+    "all_authored_control_tags_match_commands_in_their_source_tpl_blocks": true
+  },
+  "font_repertoire_projection": {
+    "existing_00_09_mapped_hangul_syllables": 396,
+    "batch_00_11_distinct_hangul_syllables": 426,
+    "new_syllables_beyond_existing_mapping": 150,
+    "projected_combined_distinct_hangul_syllables": 546,
+    "contextual_font_bank_capacity": 713,
+    "projected_remaining_capacity": 167,
+    "capacity_check_passed": true
+  },
+  "state": {
+    "translation_review": "machine_draft_needs_human_review",
+    "rom_reinsertion": "not_yet_performed",
+    "emulator_test": "deferred_by_user_request"
+  },
+  "passed": true
+}

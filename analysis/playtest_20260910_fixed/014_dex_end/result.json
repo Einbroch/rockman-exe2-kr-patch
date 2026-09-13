@@ -1,0 +1,61 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba",
+  "rom_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-z78deoqw\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba"
+  ],
+  "input_checkpoint": "analysis\\playtest_20260910_fixed\\013_dex_plan\\checkpoint.mss",
+  "timeline": [
+    {
+      "start": 0,
+      "release": 6,
+      "end": 186,
+      "keys": [
+        "a"
+      ]
+    },
+    {
+      "start": 186,
+      "release": 192,
+      "end": 372,
+      "keys": [
+        "a"
+      ]
+    },
+    {
+      "start": 372,
+      "release": 378,
+      "end": 558,
+      "keys": [
+        "a"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "b4699327fbd676366d23c52ab248e5f6aa8f7cab5a4408e1820b291da693a668",
+    "complete.txt": "dd8e8c8c9dae8978f122d7bcf3d0d49f6a0e86b9fc35528f55e78f7408927bb1",
+    "input.mss": "7d76c00fef16d66d82c7a9a7b7bc4414c4eb857e8be470d0418ba7d71031a9b2",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "segment.lua": "d7405275b9d2c1f0e8607faca931834ad768ebf5e713043af52f3b913a5f1e15",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "13eb39fd8b9702f607247789a8cf83fd4080cad4fe0ca7c2c7f97105bcb1d115",
+    "step_001.json": "5f71abcfe185b452cdbefe12db7d2b8475f18e2728dff8f03ceacb7ee2a98e5e",
+    "step_001.png": "afee4143c08c2cb0a81fc99c09370f9f9dc811914f8699557b1983740200eaaf",
+    "step_002.json": "8553c05e267fb253acdfa49f4fe3175f7f31ddabb09eb2b790fd319b72f13f74",
+    "step_002.png": "6657faef75170a4d36abb0ccd0fc7cce99ce4257089354d5b1666c045c8373fa",
+    "step_003.json": "0a89cd979d4330652d97eb1c95421ed84cf87930ed52cd75e114cc100ce47e1c",
+    "step_003.png": "6ad80174637424e808ce4a593cba5a39c939c0545a629415c6b55a9826085014"
+  }
+}

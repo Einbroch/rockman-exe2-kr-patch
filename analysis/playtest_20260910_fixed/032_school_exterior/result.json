@@ -1,0 +1,51 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba",
+  "rom_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-zmb4iqiw\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba"
+  ],
+  "input_checkpoint": "analysis\\playtest_20260910_fixed\\031_school_exterior\\checkpoint.mss",
+  "timeline": [
+    {
+      "start": 0,
+      "release": 100,
+      "end": 120,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 120,
+      "release": 220,
+      "end": 240,
+      "keys": [
+        "right"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "6e3d1d85f93d6b273449ea6bf45ffd045c59e04a4dbe02c24163b57a9c9de87b",
+    "complete.txt": "6af1f692e9496c6d0b668316eccb93276ae6b6774fa728aac31ff40a38318760",
+    "input.mss": "221b26f4e1aa12c0f9ee072a1cb086e557a8c607a3b02347f6218d70f85924c2",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "segment.lua": "e8f021c4c17007c716b01ae652bae7088cfa407fa3cacd2c8e9868428bd3b10c",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "284f2e59a71d4df79547981152aa962be46c2daa161e1bd6b903d2704db81fab",
+    "step_001.json": "7269719c4895106d4721e5adc2a309d48634af1dd1bd491bb7aa5a9a34113d23",
+    "step_001.png": "8310ee541ef6c91149f4b0df6c3a32a82cd778119121c67c2894083948d54208",
+    "step_002.json": "cea49d23c1e466b9de0439c1c219ce53d5dbbed4d6496cc2f4d9e67c5d998f32",
+    "step_002.png": "d3921cfe63fc05e601670885df2d6d2a394c4797b9b8067a365c6e2e2e685d67"
+  }
+}

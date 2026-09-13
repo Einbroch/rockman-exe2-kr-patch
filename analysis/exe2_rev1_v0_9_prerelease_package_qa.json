@@ -1,0 +1,52 @@
+{
+  "status": "PASS_V0_9_PRERELEASE_PACKAGE_PARTIAL_QA",
+  "release_ready": false,
+  "version": "V0.9",
+  "zip_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\dist\\EXE2_Rev1_KR_V0.9.zip",
+  "zip_sha256": "0800b3577b81d523205f252ded8a29f8759ae10304a0957d67ada72e12217753",
+  "zip_size": 929877,
+  "patch_sha256": "57b1eb52415aaad5704016635bb2d1c5f013fd4b26c1c94f4ef1314b2477f65f",
+  "patch_size": 394735,
+  "source_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+  "applied_rom_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "byte_identical_to_current_candidate": true,
+  "patch_deterministic": true,
+  "zip_deterministic": true,
+  "wrong_source_rejected": true,
+  "existing_output_not_overwritten": true,
+  "no_rom_or_saves_in_package": true,
+  "final_zip_extracted_apply_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "final_zip_applied_byte_identical": true,
+  "runtime_smoke": {
+    "emulator": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+    "mcp_used": false,
+    "audio_enabled": false,
+    "result_sha256": "6a953d139d02303e1304893964ab2ea4332c8c6b307787c1d920522830c241d8",
+    "screenshot_sha256": "5dd8e36e1f559f3b4a979ada8c97df2323da4de4268d88954f0a4a7e81cea496",
+    "status": "PASS_DIRECT_MESEN_COLD_BOOT_SMOKE"
+  },
+  "qa_evidence": {
+    "analysis/exe2_rev1_semantic_translation_playtest_fix_v2_static_qa.json": "b7077a4f7e1dfe97e64f5ea7ea670984b85ebf94921a53bbb290913a40106242",
+    "analysis/exe2_rev1_playtest_continuation_static_qa.json": "f4ae21c603eafbdd0698a7b650eb3924d743a7638cf5fe052c182c42032b549a",
+    "analysis/exe2_rev1_natural_play_qa.json": "258ea2a28148690496f6d289ddc59b674e81c285e524a506c3097ecc1089c7de"
+  },
+  "members_sha256": {
+    "APPLY_PATCH.cmd": "215d84a55ca42909a66216a176847eea8005a9619b094aa2ebbaeb8a54f733d6",
+    "apply_patch.ps1": "6807604aad4509107c9b627ba19f79240d193e7803d0d5336882d41e280f2d12",
+    "EXE2_Rev1_KR_V0.9.bps": "57b1eb52415aaad5704016635bb2d1c5f013fd4b26c1c94f4ef1314b2477f65f",
+    "INSTALL.md": "268664e442b10e84a53f946f108e2cb6f42b16a84449040b0e950956c0f4b8c8",
+    "manifest.json": "b417c99a7e31915b11a5a08f967592ab00f432691ef38b4b344b0efe603e35bc",
+    "RELEASE_NOTES.md": "2b20e26e446ad4f0969b41286e2db3ecc51de109374a627ce0fd116b52be758b",
+    "tools/COPYING": "759de06c3329988ac8cbc16b7991426659a893e8b36b5ebb0aafb9009ebf5af9",
+    "tools/COPYING.gpl3": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+    "tools/flips-source-v198.zip": "414113f98ed54151232af017f7e731accdb1e062c3f719cf2abafb0436fe3d45",
+    "tools/flips.exe": "ca6b364ccb23ab83ff0f4458f589eac001e7baf74315decde73c878a8eb519fd"
+  },
+  "stage_directory": "analysis\\exe2-v0-9-agrcbnwr",
+  "limitations": [
+    "Partial natural-play QA",
+    "Full-game and mGBA-specific replay incomplete",
+    "Known untranslated/deferred entries listed in RELEASE_NOTES.md"
+  ]
+}

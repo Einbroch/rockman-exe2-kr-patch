@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "kind": "direct_literal_state_capture_target_queue",
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "catalog": {
+    "filename": "rev1_message_block_catalog.json",
+    "sha256": "860771a9029bbc73042e0ad02b6aecd473d6af2bf3890f5efd43628af7310a89"
+  },
+  "literal_audit": {
+    "filename": "catalog_block_literal_consumer_audit.json",
+    "sha256": "eb00b35805aad5612d7d19353393c8047c0e45d5988d37602b1bbf64cb2f8fe5"
+  },
+  "criteria": {
+    "required": [
+      "direct PC-relative literal consumer",
+      "valid u16 entry-offset table",
+      "at least one direct-glyph/control insertion boundary"
+    ],
+    "excluded_ids": [
+      "pc-jap-map-0023",
+      "pc-jap-map-0024",
+      "pc-jap-map-0067"
+    ],
+    "state_capture_requirement": "A future state must independently show this block's source pointer or exact catalog fragment before a PoC is built."
+  },
+  "summary": {
+    "eligible_before_limit": 189,
+    "returned": 20
+  },
+  "candidates": [
+    {
+      "id": "pc-jap-map-0426",
+      "source_rom_offset": 8265320,
+      "byte_length": 5838,
+      "entry_count": 142,
+      "direct_literal_consumer_count": 73,
+      "verified_direct_glyph_control_boundary_count": 596,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0216",
+      "source_rom_offset": 8331376,
+      "byte_length": 940,
+      "entry_count": 66,
+      "direct_literal_consumer_count": 15,
+      "verified_direct_glyph_control_boundary_count": 100,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0095",
+      "source_rom_offset": 7870208,
+      "byte_length": 1430,
+      "entry_count": 28,
+      "direct_literal_consumer_count": 12,
+      "verified_direct_glyph_control_boundary_count": 138,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0191",
+      "source_rom_offset": 7925292,
+      "byte_length": 2748,
+      "entry_count": 41,
+      "direct_literal_consumer_count": 11,
+      "verified_direct_glyph_control_boundary_count": 253,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0001",
+      "source_rom_offset": 7541520,
+      "byte_length": 3948,
+      "entry_count": 44,
+      "direct_literal_consumer_count": 10,
+      "verified_direct_glyph_control_boundary_count": 359,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0195",
+      "source_rom_offset": 7929796,
+      "byte_length": 2561,
+      "entry_count": 40,
+      "direct_literal_consumer_count": 10,
+      "verified_direct_glyph_control_boundary_count": 217,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0177",
+      "source_rom_offset": 7916752,
+      "byte_length": 2080,
+      "entry_count": 33,
+      "direct_literal_consumer_count": 9,
+      "verified_direct_glyph_control_boundary_count": 174,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0188",
+      "source_rom_offset": 7921708,
+      "byte_length": 2729,
+      "entry_count": 45,
+      "direct_literal_consumer_count": 8,
+      "verified_direct_glyph_control_boundary_count": 223,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0192",
+      "source_rom_offset": 7927200,
+      "byte_length": 1863,
+      "entry_count": 25,
+      "direct_literal_consumer_count": 8,
+      "verified_direct_glyph_control_boundary_count": 161,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0109",
+      "source_rom_offset": 7880060,
+      "byte_length": 1089,
+      "entry_count": 16,
+      "direct_literal_consumer_count": 8,
+      "verified_direct_glyph_control_boundary_count": 96,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0119",
+      "source_rom_offset": 7885824,
+      "byte_length": 1713,
+      "entry_count": 19,
+      "direct_literal_consumer_count": 7,
+      "verified_direct_glyph_control_boundary_count": 115,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0101",
+      "source_rom_offset": 7872924,
+      "byte_length": 1084,
+      "entry_count": 19,
+      "direct_literal_consumer_count": 7,
+      "verified_direct_glyph_control_boundary_count": 82,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0131",
+      "source_rom_offset": 7893100,
+      "byte_length": 507,
+      "entry_count": 11,
+      "direct_literal_consumer_count": 7,
+      "verified_direct_glyph_control_boundary_count": 48,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0217",
+      "source_rom_offset": 8288952,
+      "byte_length": 1851,
+      "entry_count": 23,
+      "direct_literal_consumer_count": 6,
+      "verified_direct_glyph_control_boundary_count": 179,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0134",
+      "source_rom_offset": 7894984,
+      "byte_length": 1999,
+      "entry_count": 24,
+      "direct_literal_consumer_count": 6,
+      "verified_direct_glyph_control_boundary_count": 157,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0189",
+      "source_rom_offset": 7923640,
+      "byte_length": 1932,
+      "entry_count": 21,
+      "direct_literal_consumer_count": 6,
+      "verified_direct_glyph_control_boundary_count": 138,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0104",
+      "source_rom_offset": 7874468,
+      "byte_length": 1776,
+      "entry_count": 30,
+      "direct_literal_consumer_count": 6,
+      "verified_direct_glyph_control_boundary_count": 130,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0167",
+      "source_rom_offset": 7909904,
+      "byte_length": 1460,
+      "entry_count": 14,
+      "direct_literal_consumer_count": 6,
+      "verified_direct_glyph_control_boundary_count": 102,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0159",
+      "source_rom_offset": 7904984,
+      "byte_length": 1097,
+      "entry_count": 15,
+      "direct_literal_consumer_count": 6,
+      "verified_direct_glyph_control_boundary_count": 82,
+      "runtime_state_source_pointer_occurrence_count": 0
+    },
+    {
+      "id": "pc-jap-map-0129",
+      "source_rom_offset": 7891832,
+      "byte_length": 840,
+      "entry_count": 7,
+      "direct_literal_consumer_count": 6,
+      "verified_direct_glyph_control_boundary_count": 62,
+      "runtime_state_source_pointer_occurrence_count": 0
+    }
+  ]
+}

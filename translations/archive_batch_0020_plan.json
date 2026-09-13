@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "multi_archive_translation_batch_plan",
+  "batch_number": 20,
+  "batch_size": 100,
+  "archives": [
+    {"selector":"00/60","archive_offset":7756764,"tpl_path":"../analysis/archive_00_60_textpet_full.tpl","text_entry_start":0,"text_entry_count":1},
+    {"selector":"00/61","archive_offset":7756884,"tpl_path":"../analysis/archive_00_61_textpet_full.tpl","text_entry_start":0,"text_entry_count":7},
+    {"selector":"00/62","archive_offset":7757196,"tpl_path":"../analysis/archive_00_62_textpet_full.tpl","text_entry_start":0,"text_entry_count":3},
+    {"selector":"00/63","archive_offset":7757416,"tpl_path":"../analysis/archive_00_63_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/64","archive_offset":7757544,"tpl_path":"../analysis/archive_00_64_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/65","archive_offset":7757672,"tpl_path":"../analysis/archive_00_65_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/66","archive_offset":7757800,"tpl_path":"../analysis/archive_00_66_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/67","archive_offset":7757928,"tpl_path":"../analysis/archive_00_67_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/68","archive_offset":7758056,"tpl_path":"../analysis/archive_00_68_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/69","archive_offset":7758184,"tpl_path":"../analysis/archive_00_69_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/70","archive_offset":7758312,"tpl_path":"../analysis/archive_00_70_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/71","archive_offset":7758440,"tpl_path":"../analysis/archive_00_71_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/72","archive_offset":7758568,"tpl_path":"../analysis/archive_00_72_textpet_full.tpl","text_entry_start":0,"text_entry_count":20},
+    {"selector":"00/73","archive_offset":7759624,"tpl_path":"../analysis/archive_00_73_textpet_full.tpl","text_entry_start":0,"text_entry_count":13},
+    {"selector":"00/74","archive_offset":7760216,"tpl_path":"../analysis/archive_00_74_textpet_full.tpl","text_entry_start":0,"text_entry_count":12},
+    {"selector":"00/75","archive_offset":7760824,"tpl_path":"../analysis/archive_00_75_textpet_full.tpl","text_entry_start":0,"text_entry_count":10},
+    {"selector":"00/76","archive_offset":7761392,"tpl_path":"../analysis/archive_00_76_textpet_full.tpl","text_entry_start":0,"text_entry_count":12},
+    {"selector":"00/77","archive_offset":7762060,"tpl_path":"../analysis/archive_00_77_textpet_full.tpl","text_entry_start":0,"text_entry_count":4}
+  ]
+}

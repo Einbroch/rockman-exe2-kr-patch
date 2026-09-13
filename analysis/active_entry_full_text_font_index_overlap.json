@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "input": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "entry_rom_offset": 7840430,
+    "entry_length": 59,
+    "entry_sha256": "e6d121a664d2014393c1787af7e9fa8716bf285754dc97a9af1b3a396f2f2138",
+    "correlation_filename": "dialogue_bg0_full_text_font_entry_correlation.json"
+  },
+  "consecutive_tile_pair_derived_entry_index_count": 16,
+  "one_byte_range_entry_index_count": 15,
+  "one_byte_range_entry_indices_present_somewhere_in_active_entry_count": 15,
+  "one_byte_range_pair_record_appearance_count": 21,
+  "one_byte_range_entry_indices_with_exact_pair_to_byte_frequency_match_count": 14,
+  "one_byte_range_entry_indices_with_pair_count_not_exceeding_byte_frequency_count": 14,
+  "interpretation_notice": "This is an opaque membership and frequency measurement. It neither reports nor assigns bytes, does not exclude controls, and does not establish byte positions, widths, text grammar, or a complete character-to-glyph mapping."
+}

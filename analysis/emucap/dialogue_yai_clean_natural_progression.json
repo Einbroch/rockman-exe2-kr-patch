@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "fresh_boot_natural_route_archive_entry_5_progression",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_yai_clean_poc.gba",
+    "sha256": "f79aeabe272d06c2842b07fb6e723d6b94cf15f5f47f161c4cde8b38643193af"
+  },
+  "route": [
+    "fresh boot",
+    "PRESS START",
+    "はじめから",
+    "advance the opening dialogue",
+    "move through the classroom",
+    "talk to Yaito"
+  ],
+  "entry_5_breakpoint": {
+    "frame": 15079,
+    "kind": "read",
+    "memory_type": "gbaExtWorkRam",
+    "memory_offset": 232217,
+    "emulated_address": 33786649,
+    "pc": 134351986,
+    "snapshot_start_offset": 232206,
+    "snapshot_byte_length": 29,
+    "snapshot_contains_complete_rebuilt_entry_5": true
+  },
+  "screenshots": [
+    {"stage": "unmodified_new_game_regression_checkpoint", "filename": "yai_clean_newgame_01.png", "sha256": "0a8440bb5c59249c784ffa270764d2723302b135eeefb747b4a62587f7139803"},
+    {"stage": "entry_5", "filename": "yai_clean_entry5_natural.png", "sha256": "9c9389aa12fa03c5cfb14187f271d8aeb6d976c9f59c28a795b29e529cb11aac"},
+    {"stage": "preserved_jump_to_entry_6", "filename": "yai_clean_entry6_jump_natural.png", "sha256": "f375a66f042574466665122e9b9e685244ae72003eb71c541a45fd8f62a186de"},
+    {"stage": "untranslated_entry_6_choice", "filename": "yai_clean_entry6_choice_natural.png", "sha256": "b18e63d166160680fad5169dcea614c903090e6360a65c82d11fc43c42f597bf"}
+  ],
+  "verification": {
+    "entry_5_rendered": true,
+    "entry_5_layout_clean": true,
+    "preserved_jump_reached_entry_6": true,
+    "entry_6_remained_untranslated": true,
+    "entry_6_choice_rendered": true,
+    "progression_stall_observed": false
+  },
+  "passed": true
+}

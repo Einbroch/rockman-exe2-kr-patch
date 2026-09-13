@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "kind": "multi_archive_translation_batch_plan",
+  "batch_number": 35,
+  "batch_size": 100,
+  "unit": "text-bearing archive entries",
+  "archives": [
+    {"selector":"00/168","archive_offset":7843132,"storage":"raw","raw_byte_length":258,"tpl_path":"../analysis/archive_00_168_textpet_full.tpl","text_entry_start":2,"text_entry_count":2},
+    {"selector":"00/169","archive_offset":7843400,"storage":"raw","raw_byte_length":351,"tpl_path":"../analysis/archive_00_169_textpet_full.tpl","text_entry_start":0,"text_entry_count":4},
+    {"selector":"00/170","archive_offset":7843844,"storage":"raw","raw_byte_length":604,"tpl_path":"../analysis/archive_00_170_textpet_full.tpl","text_entry_start":0,"text_entry_count":13},
+    {"selector":"00/171","archive_offset":7844460,"storage":"raw","raw_byte_length":361,"tpl_path":"../analysis/archive_00_171_textpet_full.tpl","text_entry_start":0,"text_entry_count":6},
+    {"selector":"00/172","archive_offset":7844844,"storage":"raw","raw_byte_length":467,"tpl_path":"../analysis/archive_00_172_textpet_full.tpl","text_entry_start":0,"text_entry_count":12},
+    {"selector":"00/173","archive_offset":7845328,"storage":"raw","raw_byte_length":241,"tpl_path":"../analysis/archive_00_173_textpet_full.tpl","text_entry_start":0,"text_entry_count":7},
+    {"selector":"00/174","archive_offset":7845600,"storage":"raw","raw_byte_length":136,"tpl_path":"../analysis/archive_00_174_textpet_full.tpl","text_entry_start":0,"text_entry_count":4},
+    {"selector":"00/175","archive_offset":7845756,"storage":"raw","raw_byte_length":172,"tpl_path":"../analysis/archive_00_175_textpet_full.tpl","text_entry_start":0,"text_entry_count":3},
+    {"selector":"00/176","archive_offset":7845956,"storage":"raw","raw_byte_length":53,"tpl_path":"../analysis/archive_00_176_textpet_full.tpl","text_entry_start":0,"text_entry_count":2},
+    {"selector":"00/177","archive_offset":7846032,"storage":"raw","raw_byte_length":846,"tpl_path":"../analysis/archive_00_177_textpet_full.tpl","text_entry_start":0,"text_entry_count":22},
+    {"selector":"00/178","archive_offset":7846892,"storage":"raw","raw_byte_length":573,"tpl_path":"../analysis/archive_00_178_textpet_full.tpl","text_entry_start":0,"text_entry_count":16},
+    {"selector":"00/179","archive_offset":7847488,"storage":"raw","raw_byte_length":328,"tpl_path":"../analysis/archive_00_179_textpet_full.tpl","text_entry_start":0,"text_entry_count":9}
+  ]
+}

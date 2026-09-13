@@ -1,0 +1,23 @@
+{
+    "rom":  "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_semantic_translation_emulator_test_continuation_fix.gba",
+    "state":  "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\emucap\\entry_00_163_8_continuation_fix_probe.ss1",
+    "mute":  true,
+    "input_key":  "X (GBA A)",
+    "input_pulses":  1,
+    "process_alive":  true,
+    "fatal_window_detected":  false,
+    "window_titles":  [
+                          "mGBA",
+                          "mGBA - ROCKMAN_EXE2 (59.9 fps) - 0.10.5",
+                          "NVOGLDC invisible",
+                          "__wglDummyWindowFodder",
+                          "NVOGLDC invisible",
+                          "MSCTFIME UI",
+                          "Default IME",
+                          "Default IME",
+                          "Default IME",
+                          "Default IME"
+                      ],
+    "before_screenshot":  "analysis/emucap/entry_00_163_8_fixed_one_pulse_before.png",
+    "after_screenshot":  "analysis/emucap/entry_00_163_8_fixed_one_pulse_after.png"
+}

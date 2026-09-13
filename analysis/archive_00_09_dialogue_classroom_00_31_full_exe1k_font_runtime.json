@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "kind": "muted_exact_rom_focused_runtime_verification",
+  "date": "2026-08-27",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_31_full_exe1k_font_clean_poc.gba",
+    "sha256": "fd487f4c2d1200346fb29ad9f77597258139cfee1fbccc2c8e50534362f5c551",
+    "byte_length": 16777216
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "system": "gba",
+    "launch_id": "launch-01m0yt0452evzdxh08bbajyx0m",
+    "display": false,
+    "sound": false,
+    "stopped": true,
+    "stop_result": "completed (managed emulator process was already exited)"
+  },
+  "archive_intervention": {
+    "input_file": "poc/output/archive_00_09_dialogue_classroom_00_31_full_exe1k_font_clean_decompressed.bin",
+    "input_sha256": "05f480d84ff82e89b6313288a86f10b0f8058741e9898e82f9444362908966f4",
+    "input_byte_length": 6673,
+    "memory_type": "gbaExtWorkRam",
+    "memory_offset": "0x00038800",
+    "emulated_address": "0x02038800",
+    "runtime_dump_directory": "analysis/emucap/classroom_00_31_full_runtime_memory",
+    "runtime_readback_sha256": "05f480d84ff82e89b6313288a86f10b0f8058741e9898e82f9444362908966f4",
+    "runtime_readback_differing_byte_count": 0
+  },
+  "renderer_intervention": {
+    "base_state": "analysis/emucap/yai_fan_exe1k_font_entry8_choice_muted.ss1",
+    "preparation_capture": "analysis/emucap/classroom_00_31_full_renderer_preparation.png",
+    "renderer_state_address": "0x02008730",
+    "cursor_address": "0x02008754",
+    "entry_start_address_field": "0x0200875C",
+    "line_state_reset_addresses": ["0x02008732", "0x0200873E"],
+    "claim_boundary": "The focused test proves exact-build rendering and progression after explicit archive and renderer-cursor intervention. It does not prove the bypassed NPC selection, map interaction, or chapter gate."
+  },
+  "entries": [
+    {
+      "entry_index": 26,
+      "ewram_address": "0x020393D0",
+      "page_count": 2,
+      "screenshots": [
+        {"page": 1, "filename": "analysis/emucap/classroom_entry26_full_page1.png", "sha256": "9f2cf5d61c257e79c15bc82586789dcabc3ee976e5c0333fb07ec396ce78785b"},
+        {"page": 2, "filename": "analysis/emucap/classroom_entry26_full_page2.png", "sha256": "550c532aac93e8f666358dbbbfac30af2e0bac601f422dac9427bf1b58c8bfdf"}
+      ],
+      "wait_skip_30_frames_consumed": true,
+      "passed": true
+    },
+    {
+      "entry_index": 27,
+      "ewram_address": "0x02039451",
+      "page_count": 3,
+      "screenshots": [
+        {"page": 1, "filename": "analysis/emucap/classroom_entry27_full_page1.png", "sha256": "b9b9397dcaeeda86241db66008da9b61de4d8f5dc7b3e06c85a6e75db721a70b"},
+        {"page": 2, "filename": "analysis/emucap/classroom_entry27_full_page2.png", "sha256": "56f06f1af44527f6fb85f19ab0b6ec66e4636870057ab30ee9a6560e13231c11"},
+        {"page": 3, "filename": "analysis/emucap/classroom_entry27_full_page3.png", "sha256": "f17c6db814c7139822ee7e8ee70a047d54dcbb4630bcc9d4baa5c2fc358c12dd"}
+      ],
+      "passed": true
+    },
+    {
+      "entry_index": 28,
+      "ewram_address": "0x020394F3",
+      "page_count": 1,
+      "screenshots": [
+        {"page": 1, "filename": "analysis/emucap/classroom_entry28_full_page1.png", "sha256": "c98b8557df347ce929447763f612c23c132a1a334014945e716f7d134feea06c"}
+      ],
+      "passed": true
+    },
+    {
+      "entry_index": 29,
+      "ewram_address": "0x02039513",
+      "page_count": 1,
+      "screenshots": [
+        {"page": 1, "filename": "analysis/emucap/classroom_entry29_full_page1.png", "sha256": "e80bf94133c0d79ad3887b0771c4b6f5aa6f782fa0f8c0dc02a1cf91487b61d8"}
+      ],
+      "four_wait_skip_30_frame_commands_consumed": true,
+      "passed": true
+    },
+    {
+      "entry_index": 30,
+      "entry_start_address": "0x02039552",
+      "focused_renderer_address": "0x02039558",
+      "focused_renderer_note": "The original six-byte chapter check was preserved in the build but skipped in the focused renderer test.",
+      "page_count": 1,
+      "screenshots": [
+        {"page": 1, "filename": "analysis/emucap/classroom_entry30_full_page1.png", "sha256": "9503d5c08308f1562d8ccdf9b9a8552250afe66c37231420e0cc3281353738b2"},
+        {"stage": "after_end", "filename": "analysis/emucap/classroom_entry30_full_after_end.png", "sha256": "7c69cf1797975c9b62e78f3ad4094d9ea8c13c72da26a2d559a0da2094583df3"}
+      ],
+      "dialogue_closed_after_end": true,
+      "passed": true
+    }
+  ],
+  "verification": {
+    "all_eight_pages_rendered": true,
+    "page_progression_passed": true,
+    "dialogue_end_passed": true,
+    "clipping_observed": false,
+    "japanese_residue_observed": false,
+    "broken_glyph_observed": false,
+    "audio_enabled": false
+  },
+  "limitations": [
+    "All Korean wording remains a machine draft pending independent review and human approval.",
+    "The focused renderer intervention does not establish normal NPC selection or entry 30's chapter-gated route.",
+    "The current candidate codepage uses all 256 catalog-screened overlay slots; further corpus growth requires a font-capacity redesign or a separately proven safe supply."
+  ],
+  "passed": true
+}

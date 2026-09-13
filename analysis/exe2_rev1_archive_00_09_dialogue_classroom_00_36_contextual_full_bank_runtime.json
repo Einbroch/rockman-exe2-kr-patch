@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "kind": "muted_contextual_full_bank_runtime_verification",
+  "date": "2026-08-27",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_36_contextual_full_bank_poc.gba",
+    "sha256": "7b0da003ab08fa524b6f14fadca93bc374a4ccab4febe00a376d5bc868f51e7d",
+    "byte_length": 16777216
+  },
+  "build_manifest": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_36_contextual_full_bank_poc_manifest.json",
+    "sha256": "a83b9b878ada8907081df6ebad20c7fc7635b1513fa2fe25d365763a7ccfeb7b"
+  },
+  "codepage": {
+    "filename": "korean_codepage_archive_00_09_dialogue_classroom_00_36_contextual_full_bank.json",
+    "sha256": "93617f21600d5376ee33cf261110641de9dfb351edc31fb256e12345d8b5fd3e",
+    "mode": "contextual_full_bank",
+    "assignable_capacity": 715,
+    "assignment_count": 263,
+    "remaining_capacity": 452
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "system": "gba",
+    "launch_id": "launch-01m11bks8pa81xyh4rsvnjgk9s",
+    "display": false,
+    "sound": false,
+    "stopped": true
+  },
+  "interventions": {
+    "base_state": "analysis/emucap/yai_fan_exe1k_font_entry8_choice_muted.ss1",
+    "renderer_preparation_screenshot": "analysis/emucap/contextual_full_bank_renderer_preparation.png",
+    "renderer_preparation_screenshot_sha256": "ae3c5c737f9f3d69412d789495bc56f7b7efa41356e93cfb93554485d40849b7",
+    "archive_input": "poc/output/archive_00_09_dialogue_classroom_00_36_contextual_full_bank_decompressed.bin",
+    "archive_input_sha256": "e0e55bcee08d975484f37389a10a77c827a3ea7e05f5e574d5a6a8e917935c39",
+    "archive_input_byte_length": 5771,
+    "archive_memory_offset": "0x00038800",
+    "renderer_cursor_field": "0x02008754",
+    "renderer_entry_start_field": "0x0200875C",
+    "renderer_reset_addresses": ["0x02008732", "0x0200873E"]
+  },
+  "context_predicate": {
+    "cursor_start_inclusive": "0x020389FE",
+    "cursor_end_exclusive": "0x02039312",
+    "translated_entries": "0 through 36; entries 18 through 21 and 32 through 34 are zero-length",
+    "zero_length_entries_after_context": [37, 38, 39],
+    "first_nonempty_outside_entry": 40
+  },
+  "cases": [
+    {
+      "name": "inside_context_entry_35_page_1",
+      "cursor": "0x020392C3",
+      "expected_bank": "expanded_context_korean_bank",
+      "expected_text": ["사쿠라이 씨랑 데카오 일행은", "벌써 돌아갔단다"],
+      "screenshot": "analysis/emucap/contextual_full_bank_entry35_ko_page1_verified.png",
+      "screenshot_sha256": "0dcc214394c7a77ee87ebf94cb393eebaefbceda04e870b9f3c0ddf00cfc39bf",
+      "passed": true
+    },
+    {
+      "name": "inside_context_entry_35_page_2",
+      "cursor": "0x020392C3",
+      "expected_bank": "expanded_context_korean_bank",
+      "expected_text": ["히카리,", "약속했던 거 아니었니?"],
+      "screenshot": "analysis/emucap/contextual_full_bank_entry35_ko_page2_verified.png",
+      "screenshot_sha256": "69361f392842280594818fba01e6d21987037d7c0f7b9eba0cc5b9b152eac0f6",
+      "passed": true
+    },
+    {
+      "name": "inside_context_entry_36",
+      "cursor": "0x020392FB",
+      "expected_bank": "expanded_context_korean_bank",
+      "expected_text": ["메이루 일행?", "여긴 안 왔어"],
+      "screenshot": "analysis/emucap/contextual_full_bank_entry36_ko_verified.png",
+      "screenshot_sha256": "2879fae7127d4d6734e5cd86d634d0911f9b7f7924c2989cb4d4d28010f9fa26",
+      "passed": true
+    },
+    {
+      "name": "outside_context_entry_40",
+      "cursor": "0x02039312",
+      "expected_bank": "restored_original_rev1_bank",
+      "expected_source_text": "みんな もうかえっちゃったよ",
+      "screenshot": "analysis/emucap/contextual_full_bank_entry40_ja_boundary_verified.png",
+      "screenshot_sha256": "fcd8393a080fff67597462d4210f42b0572b4aac6767113881af57b59d901116",
+      "passed": true
+    }
+  ],
+  "excluded_attempts": [
+    "One entry-36 capture made after a rejected state-load was excluded; the final case was reproduced after a successful state restore."
+  ],
+  "verification": {
+    "inside_context_selects_korean_bank": true,
+    "outside_context_selects_original_bank": true,
+    "multi_page_progression_preserves_control_flow": true,
+    "audio_enabled": false,
+    "managed_emulator_stopped": true
+  },
+  "limitations": [
+    "The renderer cursor and archive payload were explicitly injected for focused testing; normal NPC routing is not claimed by this evidence.",
+    "All Korean wording remains a machine draft pending independent review and human approval.",
+    "Other archives require separately proven context ranges or a generalized selector before sharing this bank."
+  ],
+  "passed": true
+}

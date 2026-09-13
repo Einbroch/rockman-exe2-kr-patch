@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914",
+    "raw_state_bytes": 397312
+  },
+  "target_ewram_range": [
+    33589088,
+    33589136
+  ],
+  "references": [],
+  "interpretation_notice": "This identifies EWRAM words whose numeric value points into the selected address range. It does not establish allocation boundaries, pointer ownership, reachability, or code use."
+}

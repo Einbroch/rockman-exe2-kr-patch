@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "kind": "multi_archive_translation_batch_plan",
+  "batch_number": 76,
+  "batch_size": 100,
+  "unit": "text_bearing_archive_entries",
+  "archives": [
+    {"selector": "00/397", "archive_offset": 7635956, "storage": "lz77", "tpl_path": "../analysis/archive_00_397_textpet_full.tpl", "text_entry_start": 21, "text_entry_count": 14},
+    {"selector": "00/398", "archive_offset": 7637748, "storage": "lz77", "tpl_path": "../analysis/archive_00_398_textpet_full.tpl", "text_entry_start": 0, "text_entry_count": 12},
+    {"selector": "00/399", "archive_offset": 7638404, "storage": "lz77", "tpl_path": "../analysis/archive_00_399_textpet_full.tpl", "text_entry_start": 0, "text_entry_count": 13},
+    {"selector": "00/400", "archive_offset": 7639148, "storage": "lz77", "tpl_path": "../analysis/archive_00_400_textpet_full.tpl", "text_entry_start": 0, "text_entry_count": 17},
+    {"selector": "00/401", "archive_offset": 7640068, "storage": "lz77", "tpl_path": "../analysis/archive_00_401_textpet_full.tpl", "text_entry_start": 0, "text_entry_count": 33},
+    {"selector": "00/402", "archive_offset": 7641792, "storage": "lz77", "tpl_path": "../analysis/archive_00_402_textpet_full.tpl", "text_entry_start": 0, "text_entry_count": 11}
+  ]
+}

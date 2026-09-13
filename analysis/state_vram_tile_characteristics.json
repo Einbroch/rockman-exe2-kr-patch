@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "input": {
+    "state_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "state_sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914",
+    "vram_match_report": "state_vram_lz77_matches.json"
+  },
+  "candidates": [
+    {
+      "rom_offset": 4271628,
+      "vram_offset": 0,
+      "tile_count_4bpp": 188,
+      "palette_index_histogram": {
+        "0": 476,
+        "1": 946,
+        "2": 836,
+        "3": 840,
+        "4": 1900,
+        "5": 386,
+        "6": 135,
+        "7": 545,
+        "8": 1905,
+        "9": 532,
+        "10": 294,
+        "11": 311,
+        "12": 367,
+        "13": 655,
+        "14": 870,
+        "15": 1034
+      },
+      "distinct_palette_index_count": 16,
+      "blank_tile_count": 1,
+      "mean_nonzero_pixels_per_tile": 61.46808510638298,
+      "tile_unique_palette_index_count_histogram": {
+        "1": 6,
+        "2": 29,
+        "3": 36,
+        "4": 42,
+        "5": 21,
+        "6": 20,
+        "7": 20,
+        "8": 9,
+        "9": 2,
+        "10": 2,
+        "11": 1
+      },
+      "distinct_tile_byte_pattern_count": 188,
+      "interpretation_notice": "Sparse or low-palette tiles can occur in fonts, UI, sprites, and backgrounds. These statistics are prioritization signals, not a font identification."
+    },
+    {
+      "rom_offset": 4273912,
+      "vram_offset": 6016,
+      "tile_count_4bpp": 198,
+      "palette_index_histogram": {
+        "0": 1570,
+        "1": 1292,
+        "2": 1465,
+        "3": 226,
+        "4": 915,
+        "5": 741,
+        "6": 2016,
+        "7": 1009,
+        "8": 762,
+        "9": 311,
+        "10": 376,
+        "11": 239,
+        "12": 438,
+        "13": 406,
+        "14": 713,
+        "15": 193
+      },
+      "distinct_palette_index_count": 16,
+      "blank_tile_count": 1,
+      "mean_nonzero_pixels_per_tile": 56.07070707070707,
+      "tile_unique_palette_index_count_histogram": {
+        "1": 2,
+        "2": 10,
+        "3": 24,
+        "4": 46,
+        "5": 35,
+        "6": 38,
+        "7": 23,
+        "8": 12,
+        "9": 4,
+        "10": 3,
+        "14": 1
+      },
+      "distinct_tile_byte_pattern_count": 198,
+      "interpretation_notice": "Sparse or low-palette tiles can occur in fonts, UI, sprites, and backgrounds. These statistics are prioritization signals, not a font identification."
+    },
+    {
+      "rom_offset": 4276820,
+      "vram_offset": 16384,
+      "tile_count_4bpp": 65,
+      "palette_index_histogram": {
+        "0": 821,
+        "1": 324,
+        "2": 617,
+        "3": 78,
+        "4": 461,
+        "5": 236,
+        "6": 386,
+        "7": 121,
+        "8": 141,
+        "9": 88,
+        "10": 158,
+        "11": 148,
+        "12": 75,
+        "13": 288,
+        "14": 141,
+        "15": 77
+      },
+      "distinct_palette_index_count": 16,
+      "blank_tile_count": 1,
+      "mean_nonzero_pixels_per_tile": 51.36923076923077,
+      "tile_unique_palette_index_count_histogram": {
+        "1": 1,
+        "2": 4,
+        "3": 10,
+        "4": 14,
+        "5": 13,
+        "6": 13,
+        "7": 5,
+        "8": 4,
+        "9": 1
+      },
+      "distinct_tile_byte_pattern_count": 65,
+      "interpretation_notice": "Sparse or low-palette tiles can occur in fonts, UI, sprites, and backgrounds. These statistics are prioritization signals, not a font identification."
+    }
+  ]
+}

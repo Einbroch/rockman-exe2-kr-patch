@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "exe2_rev1_block_0024_nine_entry_growth_poc.ss1",
+    "byte_length": 50220,
+    "sha256": "45e9ed87fcf5c9ea8ae70e198ab04bab1158b8ada171ee4327fe963f16453c18"
+  },
+  "image": {
+    "width": 240,
+    "height": 160
+  },
+  "png_chunks": [
+    {
+      "file_offset": 8,
+      "type": "IHDR",
+      "data_bytes": 13
+    },
+    {
+      "file_offset": 33,
+      "type": "IDAT",
+      "data_bytes": 8192
+    },
+    {
+      "file_offset": 8237,
+      "type": "IDAT",
+      "data_bytes": 1464
+    },
+    {
+      "file_offset": 9713,
+      "type": "gbAs",
+      "data_bytes": 40380
+    },
+    {
+      "file_offset": 50105,
+      "type": "gbAx",
+      "data_bytes": 60
+    },
+    {
+      "file_offset": 50177,
+      "type": "gbAx",
+      "data_bytes": 19
+    },
+    {
+      "file_offset": 50208,
+      "type": "IEND",
+      "data_bytes": 0
+    }
+  ],
+  "state_payload_present": true,
+  "gba_state_payload": {
+    "compression": "zlib",
+    "uncompressed_bytes": 397312,
+    "sha256": "214d1dbc91494040ce8d59c1c8635c1f2ba1cb837be71af5a9441d6ad9e82c10",
+    "raw_state_version_magic": 16777223,
+    "known_gba_memory_layout": "mGBA GBA raw-state layout",
+    "exact_candidate_block_matches_minimum_32_bytes": [],
+    "candidate_source_pointer_occurrences": [],
+    "candidate_subentry_pointer_occurrences": [],
+    "interpretation_notice": "A match proves only that candidate bytes occur in the serialized state payload. Adjacent words are recorded only as pointer-value context; they do not establish field names or renderer consumption. For a 0x61000-byte GBA raw state, memory addresses are mapped from mGBA's documented fixed regions; this identifies the emulated RAM location but not game-structure semantics.",
+    "cpu_snapshot": {
+      "gprs": {
+        "r0": 33566116,
+        "r1": 4293328762,
+        "r2": 33615904,
+        "r3": 537264128,
+        "r4": 65536,
+        "r5": 33604048,
+        "r6": 33566164,
+        "r7": 33593984,
+        "r8": 4294901759,
+        "r9": 33596352,
+        "r10": 134218908,
+        "r11": 0,
+        "r12": 50340416,
+        "r13": 50363872,
+        "r14": 134341773,
+        "r15": 134341402
+      },
+      "cpsr": 63,
+      "thumb_state_bit_set": true,
+      "interpretation_notice": "This is the CPU register snapshot serialized by mGBA. The stored r15 value is reported without inferring an instruction boundary or pipeline adjustment."
+    }
+  }
+}

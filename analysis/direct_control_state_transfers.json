@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "scope": {
+    "opcode_range": [
+      231,
+      255
+    ],
+    "entry_window_bytes": 16
+  },
+  "direct_parameter_to_r5_byte_transfer_entries": [
+    {
+      "opcode": 238,
+      "handler_rom_offset": 135736,
+      "transfers": [
+        {
+          "parameter_rom_offset": 135742,
+          "parameter_offset": 2,
+          "state_write_rom_offset": 135744,
+          "state_base_register": 5,
+          "state_byte_offset": 26
+        },
+        {
+          "parameter_rom_offset": 135742,
+          "parameter_offset": 2,
+          "state_write_rom_offset": 135748,
+          "state_base_register": 5,
+          "state_byte_offset": 27
+        },
+        {
+          "parameter_rom_offset": 135746,
+          "parameter_offset": 3,
+          "state_write_rom_offset": 135748,
+          "state_base_register": 5,
+          "state_byte_offset": 27
+        }
+      ]
+    },
+    {
+      "opcode": 241,
+      "handler_rom_offset": 136196,
+      "transfers": [
+        {
+          "parameter_rom_offset": 136200,
+          "parameter_offset": 1,
+          "state_write_rom_offset": 136208,
+          "state_base_register": 5,
+          "state_byte_offset": 23
+        }
+      ]
+    },
+    {
+      "opcode": 247,
+      "handler_rom_offset": 137696,
+      "transfers": [
+        {
+          "parameter_rom_offset": 137696,
+          "parameter_offset": 1,
+          "state_write_rom_offset": 137698,
+          "state_base_register": 5,
+          "state_byte_offset": 19
+        }
+      ]
+    }
+  ],
+  "interpretation_notice": "A marker proves only that a byte read from r4 at handler entry is subsequently stored through r5 in the same bounded entry window. The r5 field meaning and full command semantics are not assigned."
+}

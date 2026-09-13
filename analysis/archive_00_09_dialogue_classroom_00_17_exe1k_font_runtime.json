@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "kind": "muted_exact_rom_runtime_verification",
+  "date": "2026-08-25",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_17_exe1k_font_clean_poc.gba",
+    "sha256": "ba857911c6a027e6fa5615296b979bef2342c933b67c777d116f7b7fc29bcd3e",
+    "byte_length": 16777216
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "launch_id": "launch-01m0wecr5ah3c2ajzm9m9pytg8",
+    "display": false,
+    "sound": false,
+    "stopped": true
+  },
+  "fresh_boot_archive_load": {
+    "route": "reset -> title -> start -> new game -> classroom progression",
+    "dump_directory": "analysis/emucap/classroom_00_17_exe1k_fresh_newgame_memory",
+    "verification": "analysis/classroom_00_17_exe1k_fresh_newgame_runtime_archive_verification.json",
+    "loaded_byte_length": 6460,
+    "loaded_sha256": "dfb3bb8c1207b86704801b149159ac66686435b43457c33b4469c7213f67c777",
+    "differing_byte_count": 0,
+    "passed": true
+  },
+  "focused_renderer_intervention": {
+    "base_states": [
+      "analysis/emucap/yai_fan_exe1k_font_entry8_choice_muted.ss1",
+      "analysis/emucap/classroom_entry16_exe1k_choice.ss1"
+    ],
+    "ewram_pool_address": "0x02038800",
+    "replacement_pool_byte_length": 6460,
+    "replacement_pool_sha256": "dfb3bb8c1207b86704801b149159ac66686435b43457c33b4469c7213f67c777",
+    "renderer_state_address": "0x02008730",
+    "evidence_boundary": "These captures prove rendering, layout, page progression, and branch behavior with the exact final ROM and game renderer after an explicit save-state/archive/cursor intervention. They do not by themselves prove natural gameplay selection of entries 14 through 17.",
+    "entries": [
+      {
+        "entry_index": 14,
+        "page_count": 1,
+        "screenshots": ["analysis/emucap/classroom_entry14_exe1k_final.png"],
+        "passed": true
+      },
+      {
+        "entry_index": 15,
+        "page_count": 1,
+        "screenshots": ["analysis/emucap/classroom_entry15_exe1k_final.png"],
+        "passed": true
+      },
+      {
+        "entry_index": 16,
+        "page_count": 1,
+        "choice_default_target": 17,
+        "choice_alternate_result": "dialogue closed and classroom control resumed",
+        "b_result": "dialogue closed and classroom control resumed",
+        "screenshots": [
+          "analysis/emucap/classroom_entry16_exe1k_final_alternate_selected.png",
+          "analysis/emucap/classroom_entry16_exe1k_alternate_exit.png",
+          "analysis/emucap/classroom_entry16_exe1k_b_exit.png"
+        ],
+        "passed": true
+      },
+      {
+        "entry_index": 17,
+        "page_count": 6,
+        "screenshots": [
+          "analysis/emucap/classroom_entry17_exe1k_final_page1.png",
+          "analysis/emucap/classroom_entry17_exe1k_final_page2.png",
+          "analysis/emucap/classroom_entry17_exe1k_final_page3.png",
+          "analysis/emucap/classroom_entry17_exe1k_final_page4.png",
+          "analysis/emucap/classroom_entry17_exe1k_final_page5.png",
+          "analysis/emucap/classroom_entry17_exe1k_final_page6.png"
+        ],
+        "latin_source_glyph_text_visible": "PErsonal Terminal",
+        "hangul_name_visible": "록맨",
+        "clipping_observed": false,
+        "japanese_residue_observed": false,
+        "passed": true
+      }
+    ]
+  },
+  "new_glyph_trace": {
+    "character": "개",
+    "encoded_bytes": [230, 135],
+    "target_font_record_index": 620,
+    "target_rom_offset": "0x006A0EB0",
+    "target_cpu_address": "0x086A0EB0",
+    "source_font_record_index": 530,
+    "source_rom_offset": "0x008085EC",
+    "record_sha256": "c9f1e623f7ba7e47a132482d3bfa22d75d7e4f922f3e4a72ecee523d92b24141",
+    "breakpoint_frame": 3287,
+    "renderer_pc": "0x08020DA6",
+    "renderer_r8": 620,
+    "event_log": "analysis/emucap/classroom_00_17_exe1k_final_glyph_break_events.json",
+    "source_and_target_records_equal": true,
+    "passed": true
+  },
+  "superseded_defect": {
+    "description": "An earlier intermediate build preserved the Japanese glyph bytes for the character name and visibly rendered ロックマン on entry 17 page 6.",
+    "resolution": "The name segment was changed to encoded Hangul 록맨; the final output was rebuilt from the untouched supported Rev 1 ROM and page 6 was recaptured.",
+    "present_in_final_rom": false
+  },
+  "limitations": [
+    "All Korean wording remains a machine draft that needs independent human review.",
+    "The EXE1 Korean ROM font is a local reference only; its authorship, license, and redistribution permission are not verified.",
+    "Natural gameplay entry selection for entries 14 through 17 remains to be recorded separately."
+  ],
+  "passed": true
+}

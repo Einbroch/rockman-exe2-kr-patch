@@ -1,0 +1,52 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba",
+  "rom_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-k8fjlcr4\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba"
+  ],
+  "input_checkpoint": "analysis\\playtest_20260910_fixed\\158_waterfront_park_npc\\checkpoint.mss",
+  "timeline": [
+    {
+      "start": 0,
+      "release": 30,
+      "end": 50,
+      "keys": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "start": 50,
+      "release": 56,
+      "end": 236,
+      "keys": [
+        "a"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "99b74b6a0043a0f76b5fc870331c484339dc0c02b28334370d819c4ad0526e9d",
+    "complete.txt": "9a049b03f6fc40bfcf2f136320359257ed4af8513f71aa6fef47f17059bbae23",
+    "input.mss": "62cc7b1d038e5b97a18464915bf96d029a5fb2a8e3405074bfb88a81a1551c8b",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "segment.lua": "f89c5b88662c1f9f14fbd8e40d6f749cf9da207f54b3790212f7e81694127b39",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "22dcfc7d668085a87e9a1202b5f124d3d21f2847e2eab770749b2d284c1957b9",
+    "step_001.json": "d1cad801c5a4fe34419a95b76fd44864921409fd2bd0867808f1bb001214af5c",
+    "step_001.png": "ebeeb234ec07027f3041312ccb49b2d5cd3c5ff2ca8dc0dd9b539d3ca2c25732",
+    "step_002.json": "aee5d3780269d325d5b14d9aa0d8a949ddf2ae68caf451feb95e91ae0a08a2b7",
+    "step_002.png": "ebeeb234ec07027f3041312ccb49b2d5cd3c5ff2ca8dc0dd9b539d3ca2c25732"
+  }
+}

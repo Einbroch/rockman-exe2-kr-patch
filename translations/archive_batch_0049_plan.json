@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "kind": "multi_archive_translation_batch_plan",
+  "batch_number": 49,
+  "batch_size": 100,
+  "unit": "text_bearing_archive_entries",
+  "archives": [
+    {"selector":"00/319","archive_offset":7918784,"storage":"raw","raw_byte_length":310,"tpl_path":"../analysis/archive_00_319_textpet_full.tpl","text_entry_start":6,"text_entry_count":2},
+    {"selector":"00/320","archive_offset":7919108,"storage":"raw","raw_byte_length":70,"tpl_path":"../analysis/archive_00_320_textpet_full.tpl","text_entry_start":0,"text_entry_count":1},
+    {"selector":"00/321","archive_offset":7919276,"storage":"raw","raw_byte_length":191,"tpl_path":"../analysis/archive_00_321_textpet_full.tpl","text_entry_start":0,"text_entry_count":3},
+    {"selector":"00/322","archive_offset":7919484,"storage":"raw","raw_byte_length":297,"tpl_path":"../analysis/archive_00_322_textpet_full.tpl","text_entry_start":0,"text_entry_count":8},
+    {"selector":"00/323","archive_offset":7919820,"storage":"raw","raw_byte_length":98,"tpl_path":"../analysis/archive_00_323_textpet_full.tpl","text_entry_start":0,"text_entry_count":1},
+    {"selector":"00/324","archive_offset":7919936,"storage":"raw","raw_byte_length":165,"tpl_path":"../analysis/archive_00_324_textpet_full.tpl","text_entry_start":0,"text_entry_count":4},
+    {"selector":"00/325","archive_offset":7920112,"storage":"raw","raw_byte_length":241,"tpl_path":"../analysis/archive_00_325_textpet_full.tpl","text_entry_start":0,"text_entry_count":6},
+    {"selector":"00/326","archive_offset":7920376,"storage":"raw","raw_byte_length":1310,"tpl_path":"../analysis/archive_00_326_textpet_full.tpl","text_entry_start":0,"text_entry_count":20},
+    {"selector":"00/327","archive_offset":7921708,"storage":"raw","raw_byte_length":1912,"tpl_path":"../analysis/archive_00_327_textpet_full.tpl","text_entry_start":0,"text_entry_count":45},
+    {"selector":"00/328","archive_offset":7923640,"storage":"raw","raw_byte_length":1259,"tpl_path":"../analysis/archive_00_328_textpet_full.tpl","text_entry_start":0,"text_entry_count":10}
+  ]
+}

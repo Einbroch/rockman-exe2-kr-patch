@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "kind": "muted_contextual_full_bank_runtime_verification",
+  "date": "2026-08-27",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_31_contextual_full_bank_poc.gba",
+    "sha256": "7f05973b267426a1c939a912afd163ec10dab7f6107c564287cf19465f6072db",
+    "byte_length": 16777216
+  },
+  "codepage": {
+    "filename": "korean_codepage_archive_00_09_dialogue_classroom_00_31_contextual_full_bank.json",
+    "sha256": "041c7295ba1602d979257638231f0239bf9f3d8114838a4b11312ef90e630e9b",
+    "mode": "contextual_full_bank",
+    "assignable_capacity": 715,
+    "assignment_count": 256,
+    "remaining_capacity": 459
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "system": "gba",
+    "launch_id": "launch-01m0zbjanc13cey61jywe79vej",
+    "display": false,
+    "sound": false,
+    "stopped": true
+  },
+  "interventions": {
+    "base_state": "analysis/emucap/yai_fan_exe1k_font_entry8_choice_muted.ss1",
+    "archive_input": "poc/output/archive_00_09_dialogue_classroom_00_31_contextual_full_bank_decompressed.bin",
+    "archive_input_sha256": "638069e2cf7128dce28df10a6297f8fe7d634817f621bcfbce0d7f73d19e44db",
+    "archive_input_byte_length": 5761,
+    "archive_memory_offset": "0x00038800",
+    "renderer_cursor_field": "0x02008754",
+    "renderer_entry_start_field": "0x0200875C",
+    "renderer_reset_addresses": ["0x02008732", "0x0200873E"]
+  },
+  "context_predicate": {
+    "cursor_start_inclusive": "0x020389FE",
+    "cursor_end_exclusive": "0x020392AD",
+    "translated_entries": "0 through 31; entries 18 through 21 are zero-length",
+    "boundary_outside_entry": 35
+  },
+  "cases": [
+    {
+      "name": "inside_context_entry_26",
+      "cursor": "0x02039100",
+      "expected_bank": "expanded_context_korean_bank",
+      "screenshot": "analysis/emucap/contextual_full_bank_entry26_page1.png",
+      "screenshot_sha256": "40074d6cf914535ed9976938f02fefe285a880b09821e3502b85fcf5fc4c08a7",
+      "reference_pixel_hash_unchanged_from_256_slot_poc": true,
+      "passed": true
+    },
+    {
+      "name": "outside_context_entry_35",
+      "cursor": "0x020392AD",
+      "expected_bank": "restored_original_rev1_bank",
+      "screenshot": "analysis/emucap/contextual_full_bank_entry35_original_page1.png",
+      "screenshot_sha256": "8d4c162a73a178522086f6ea5e90e2785c208023eb7e0ece7ab78fbe009053fc",
+      "reference_pixel_hash_unchanged_from_256_slot_poc": true,
+      "passed": true
+    }
+  ],
+  "verification": {
+    "inside_context_selects_korean_bank": true,
+    "outside_context_selects_original_bank": true,
+    "direct_one_byte_reencoding_preserves_reference_pixels": true,
+    "audio_enabled": false,
+    "managed_emulator_stopped": true
+  },
+  "limitations": [
+    "The renderer cursor and archive payload were explicitly injected for focused testing; normal NPC routing is not claimed by this evidence.",
+    "All Korean wording remains a machine draft pending independent review and human approval.",
+    "Other archives require separately proven context ranges or a generalized selector before sharing this bank."
+  ],
+  "passed": true
+}

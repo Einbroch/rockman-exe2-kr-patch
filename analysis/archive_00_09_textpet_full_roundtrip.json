@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "kind": "local_textpet_archive_extraction_roundtrip",
+  "source": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "archive_selector": [
+      0,
+      9,
+      0
+    ],
+    "archive_rom_offset": 7644292,
+    "compressed_byte_length": 4363,
+    "decompressed_byte_length": 6072,
+    "decompressed_sha256": "92852d9c874fe0d5293d0c47920f2b987ff1de9fef232fa24489b7700a670667",
+    "entry_count": 254,
+    "empty_entry_count": 183
+  },
+  "external_component": {
+    "name": "TextPet",
+    "release": "v1.0.0",
+    "executable_filename": "TextPet.exe",
+    "executable_sha256": "1a92681bc423869816cd7db0c94ad9b25da23abc0461f45784a06d5236216658",
+    "plugin_commit": "6c6d70561290b42d8261f6d76b03051d534c7032",
+    "table_filename": "exe2-utf8.tbl",
+    "table_sha256": "163ed236bf61966353d0621e7c3fd1b57692cff1129db4e8e317bb102b8037f5",
+    "command_database_filename": "mmbn2.ini",
+    "command_database_sha256": "9dd059e195bb5a64f9e370bda5e1bb1eb459b6344d1b6df2a984c505015e0ebc"
+  },
+  "output": {
+    "tpl_filename": "archive_00_09_textpet_full.tpl",
+    "tpl_sha256": "9d9205753f3da6c1ec17ee3426f463d57a2f54a73157e6646a6d6dd591d4508f",
+    "non_empty_script_count": 71,
+    "non_empty_script_ids_match_table": true
+  },
+  "roundtrip": {
+    "textpet_extract_completed": true,
+    "textpet_rebuild_completed": true,
+    "rebuilt_byte_length": 6072,
+    "rebuilt_sha256": "92852d9c874fe0d5293d0c47920f2b987ff1de9fef232fa24489b7700a670667",
+    "source_byte_identical": true
+  },
+  "distribution": {
+    "local_analysis_only": true,
+    "contains_rom_derived_source_text": true,
+    "eligible_for_distribution": false
+  },
+  "passed": true
+}

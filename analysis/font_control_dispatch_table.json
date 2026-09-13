@@ -1,0 +1,1602 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "table": {
+    "opcode_range": [
+      231,
+      255
+    ],
+    "entry_count": 25,
+    "literal_rom_offset": 134996,
+    "table_rom_offset": 135052,
+    "font_indexer_rom_offset": 134532
+  },
+  "entries": [
+    {
+      "opcode": 231,
+      "table_entry_rom_offset": 135052,
+      "handler_thumb_cpu_address": 134352957,
+      "handler_rom_offset": 135228,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135298,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135304,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135322,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135336,
+            "immediate": 1
+          }
+        ],
+        "r4_byte_loads": [],
+        "bl_targets": [
+          {
+            "rom_offset": 135248,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135268,
+            "target_rom_offset": 134924
+          },
+          {
+            "rom_offset": 135332,
+            "target_rom_offset": 134872
+          }
+        ],
+        "unconditional_branch_targets": [],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 232,
+      "table_entry_rom_offset": 135056,
+      "handler_thumb_cpu_address": 134353033,
+      "handler_rom_offset": 135304,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135304,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135322,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135336,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135356,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135430,
+            "immediate": 4
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135362,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135392,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135394,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135332,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135382,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135422,
+            "target_rom_offset": 134884
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135378,
+            "target_rom_offset": 135420
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 233,
+      "table_entry_rom_offset": 135060,
+      "handler_thumb_cpu_address": 134353057,
+      "handler_rom_offset": 135328,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135336,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135356,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135430,
+            "immediate": 4
+          },
+          {
+            "rom_offset": 135452,
+            "immediate": 4
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135362,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135392,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135394,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135332,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135382,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135422,
+            "target_rom_offset": 134884
+          },
+          {
+            "rom_offset": 135438,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135444,
+            "target_rom_offset": 134908
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135378,
+            "target_rom_offset": 135420
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 234,
+      "table_entry_rom_offset": 135064,
+      "handler_thumb_cpu_address": 134353089,
+      "handler_rom_offset": 135360,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135430,
+            "immediate": 4
+          },
+          {
+            "rom_offset": 135452,
+            "immediate": 4
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135362,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135392,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135394,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135382,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135422,
+            "target_rom_offset": 134884
+          },
+          {
+            "rom_offset": 135438,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135444,
+            "target_rom_offset": 134908
+          },
+          {
+            "rom_offset": 135460,
+            "target_rom_offset": 134872
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135378,
+            "target_rom_offset": 135420
+          },
+          {
+            "rom_offset": 135482,
+            "target_rom_offset": 135550
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 235,
+      "table_entry_rom_offset": 135068,
+      "handler_thumb_cpu_address": 134353185,
+      "handler_rom_offset": 135456,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135544,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135556,
+            "immediate": 1
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135562,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135574,
+            "immediate": 2
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135460,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135534,
+            "target_rom_offset": 134884
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135482,
+            "target_rom_offset": 135550
+          },
+          {
+            "rom_offset": 135494,
+            "target_rom_offset": 135550
+          },
+          {
+            "rom_offset": 135530,
+            "target_rom_offset": 135550
+          },
+          {
+            "rom_offset": 135572,
+            "target_rom_offset": 135600
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 236,
+      "table_entry_rom_offset": 135072,
+      "handler_thumb_cpu_address": 134353289,
+      "handler_rom_offset": 135560,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135584,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 135596,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135608,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135676,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 135686,
+            "immediate": 2
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135562,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135574,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135614,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135634,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135654,
+            "immediate": 2
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135590,
+            "target_rom_offset": 134884
+          },
+          {
+            "rom_offset": 135602,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135650,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135672,
+            "target_rom_offset": 134648
+          },
+          {
+            "rom_offset": 135682,
+            "target_rom_offset": 134884
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135572,
+            "target_rom_offset": 135600
+          },
+          {
+            "rom_offset": 135678,
+            "target_rom_offset": 135712
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 237,
+      "table_entry_rom_offset": 135076,
+      "handler_thumb_cpu_address": 134353361,
+      "handler_rom_offset": 135632,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135676,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 135686,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135694,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 135710,
+            "immediate": 3
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135634,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135654,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135690,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135698,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135718,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135736,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135742,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135746,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 135752,
+            "immediate": 1
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135650,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135672,
+            "target_rom_offset": 134648
+          },
+          {
+            "rom_offset": 135682,
+            "target_rom_offset": 134884
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135678,
+            "target_rom_offset": 135712
+          },
+          {
+            "rom_offset": 135688,
+            "target_rom_offset": 135712
+          },
+          {
+            "rom_offset": 135696,
+            "target_rom_offset": 135712
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 238,
+      "table_entry_rom_offset": 135080,
+      "handler_thumb_cpu_address": 134353465,
+      "handler_rom_offset": 135736,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135792,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 135800,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 135804,
+            "immediate": 4
+          },
+          {
+            "rom_offset": 135824,
+            "immediate": 3
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135736,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135742,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135746,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 135752,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135772,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135784,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135796,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135852,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135854,
+            "immediate": 2
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135816,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135844,
+            "target_rom_offset": 134896
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135782,
+            "target_rom_offset": 135804
+          },
+          {
+            "rom_offset": 135794,
+            "target_rom_offset": 135806
+          },
+          {
+            "rom_offset": 135802,
+            "target_rom_offset": 135806
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 239,
+      "table_entry_rom_offset": 135084,
+      "handler_thumb_cpu_address": 134353537,
+      "handler_rom_offset": 135808,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135824,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 135930,
+            "immediate": 3
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135852,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135854,
+            "immediate": 2
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135816,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135844,
+            "target_rom_offset": 134896
+          },
+          {
+            "rom_offset": 135904,
+            "target_rom_offset": 1432
+          },
+          {
+            "rom_offset": 135918,
+            "target_rom_offset": 140304
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135880,
+            "target_rom_offset": 135866
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 240,
+      "table_entry_rom_offset": 135088,
+      "handler_thumb_cpu_address": 134353677,
+      "handler_rom_offset": 135948,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135956,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135986,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 136014,
+            "immediate": 2
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135952,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 136000,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 136044,
+            "target_rom_offset": 134896
+          },
+          {
+            "rom_offset": 136054,
+            "target_rom_offset": 1432
+          },
+          {
+            "rom_offset": 136060,
+            "target_rom_offset": 134884
+          },
+          {
+            "rom_offset": 136066,
+            "target_rom_offset": 134924
+          },
+          {
+            "rom_offset": 136072,
+            "target_rom_offset": 134908
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135974,
+            "target_rom_offset": 136038
+          },
+          {
+            "rom_offset": 136004,
+            "target_rom_offset": 136038
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 241,
+      "table_entry_rom_offset": 135092,
+      "handler_thumb_cpu_address": 134353925,
+      "handler_rom_offset": 136196,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 136200,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 136232,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 136262,
+            "immediate": 1
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 136286,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 136306,
+            "target_rom_offset": 134872
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 136302,
+            "target_rom_offset": 136338
+          },
+          {
+            "rom_offset": 136322,
+            "target_rom_offset": 136338
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 242,
+      "table_entry_rom_offset": 135096,
+      "handler_thumb_cpu_address": 134354097,
+      "handler_rom_offset": 136368,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 136392,
+            "immediate": 4
+          },
+          {
+            "rom_offset": 136432,
+            "immediate": 4
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 136372,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 136376,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 136378,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 136440,
+            "immediate": 1
+          }
+        ],
+        "bl_targets": [],
+        "unconditional_branch_targets": [],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 243,
+      "table_entry_rom_offset": 135100,
+      "handler_thumb_cpu_address": 134354165,
+      "handler_rom_offset": 136436,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 136536,
+            "immediate": 6
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 136440,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 136498,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 136500,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 136546,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 136548,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 136510,
+            "target_rom_offset": 114460
+          },
+          {
+            "rom_offset": 136528,
+            "target_rom_offset": 140752
+          }
+        ],
+        "unconditional_branch_targets": [],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 244,
+      "table_entry_rom_offset": 135104,
+      "handler_thumb_cpu_address": 134354769,
+      "handler_rom_offset": 137040,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 137062,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 137068,
+            "immediate": 2
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 137042,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 137074,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 137080,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 137106,
+            "immediate": 1
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 137050,
+            "target_rom_offset": 134924
+          },
+          {
+            "rom_offset": 137058,
+            "target_rom_offset": 134908
+          },
+          {
+            "rom_offset": 137086,
+            "target_rom_offset": 140772
+          },
+          {
+            "rom_offset": 137096,
+            "target_rom_offset": 5248
+          },
+          {
+            "rom_offset": 137116,
+            "target_rom_offset": 114456
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 137054,
+            "target_rom_offset": 137062
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 245,
+      "table_entry_rom_offset": 135108,
+      "handler_thumb_cpu_address": 134354801,
+      "handler_rom_offset": 137072,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 137074,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 137080,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 137106,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 137184,
+            "immediate": 1
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 137086,
+            "target_rom_offset": 140772
+          },
+          {
+            "rom_offset": 137096,
+            "target_rom_offset": 5248
+          },
+          {
+            "rom_offset": 137116,
+            "target_rom_offset": 114456
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 137198,
+            "target_rom_offset": 137082
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 246,
+      "table_entry_rom_offset": 135112,
+      "handler_thumb_cpu_address": 134354961,
+      "handler_rom_offset": 137232,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 137296,
+            "immediate": 4
+          },
+          {
+            "rom_offset": 137314,
+            "immediate": 4
+          },
+          {
+            "rom_offset": 137338,
+            "immediate": 4
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 137234,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 137286,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 137288,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 137304,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 137306,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 137328,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 137330,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 137346,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 137354,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 137244,
+            "target_rom_offset": 137444
+          },
+          {
+            "rom_offset": 137252,
+            "target_rom_offset": 139908
+          },
+          {
+            "rom_offset": 137260,
+            "target_rom_offset": 140076
+          },
+          {
+            "rom_offset": 137282,
+            "target_rom_offset": 1432
+          },
+          {
+            "rom_offset": 137290,
+            "target_rom_offset": 149256
+          },
+          {
+            "rom_offset": 137308,
+            "target_rom_offset": 149336
+          },
+          {
+            "rom_offset": 137324,
+            "target_rom_offset": 1432
+          },
+          {
+            "rom_offset": 137332,
+            "target_rom_offset": 149320
+          },
+          {
+            "rom_offset": 137348,
+            "target_rom_offset": 149364
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 137276,
+            "target_rom_offset": 137344
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 247,
+      "table_entry_rom_offset": 135116,
+      "handler_thumb_cpu_address": 134355425,
+      "handler_rom_offset": 137696,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 137700,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 137708,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 137796,
+            "immediate": 2
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 137696,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 137716,
+            "immediate": 1
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 137756,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 137768,
+            "target_rom_offset": 534972
+          },
+          {
+            "rom_offset": 137782,
+            "target_rom_offset": 535056
+          },
+          {
+            "rom_offset": 137812,
+            "target_rom_offset": 134872
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 137778,
+            "target_rom_offset": 137802
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 248,
+      "table_entry_rom_offset": 135120,
+      "handler_thumb_cpu_address": 134355441,
+      "handler_rom_offset": 137712,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 137796,
+            "immediate": 2
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 137716,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 137832,
+            "immediate": 2
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 137756,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 137768,
+            "target_rom_offset": 534972
+          },
+          {
+            "rom_offset": 137782,
+            "target_rom_offset": 535056
+          },
+          {
+            "rom_offset": 137812,
+            "target_rom_offset": 134872
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 137778,
+            "target_rom_offset": 137802
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 249,
+      "table_entry_rom_offset": 135124,
+      "handler_thumb_cpu_address": 134355713,
+      "handler_rom_offset": 137984,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 138100,
+            "immediate": 4
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 137988,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 138030,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 138032,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 138080,
+            "target_rom_offset": 2868
+          }
+        ],
+        "unconditional_branch_targets": [],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 250,
+      "table_entry_rom_offset": 135128,
+      "handler_thumb_cpu_address": 134356121,
+      "handler_rom_offset": 138392,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 138466,
+            "immediate": 4
+          },
+          {
+            "rom_offset": 138486,
+            "immediate": 4
+          },
+          {
+            "rom_offset": 138500,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 138516,
+            "immediate": 2
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 138396,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 138454,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 138456,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 138474,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 138476,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 138462,
+            "target_rom_offset": 1432
+          },
+          {
+            "rom_offset": 138482,
+            "target_rom_offset": 1448
+          },
+          {
+            "rom_offset": 138496,
+            "target_rom_offset": 134884
+          },
+          {
+            "rom_offset": 138512,
+            "target_rom_offset": 134872
+          }
+        ],
+        "unconditional_branch_targets": [],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 251,
+      "table_entry_rom_offset": 135132,
+      "handler_thumb_cpu_address": 134356401,
+      "handler_rom_offset": 138672,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 138676,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 138764,
+            "immediate": 2
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 138754,
+            "target_rom_offset": 1432
+          },
+          {
+            "rom_offset": 138758,
+            "target_rom_offset": 5248
+          }
+        ],
+        "unconditional_branch_targets": [],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 252,
+      "table_entry_rom_offset": 135136,
+      "handler_thumb_cpu_address": 134357585,
+      "handler_rom_offset": 139856,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 139896,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 139904,
+            "immediate": 3
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 139926,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 139928,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 139958,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 139960,
+            "immediate": 3
+          },
+          {
+            "rom_offset": 139976,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 139978,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 139860,
+            "target_rom_offset": 199600
+          },
+          {
+            "rom_offset": 139874,
+            "target_rom_offset": 1432
+          },
+          {
+            "rom_offset": 139888,
+            "target_rom_offset": 140772
+          },
+          {
+            "rom_offset": 139930,
+            "target_rom_offset": 149256
+          },
+          {
+            "rom_offset": 139944,
+            "target_rom_offset": 1432
+          },
+          {
+            "rom_offset": 139962,
+            "target_rom_offset": 149336
+          },
+          {
+            "rom_offset": 139980,
+            "target_rom_offset": 149320
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 139922,
+            "target_rom_offset": 140006
+          },
+          {
+            "rom_offset": 139954,
+            "target_rom_offset": 140036
+          },
+          {
+            "rom_offset": 139972,
+            "target_rom_offset": 140036
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 253,
+      "table_entry_rom_offset": 135140,
+      "handler_thumb_cpu_address": 134353013,
+      "handler_rom_offset": 135284,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135298,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135304,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135322,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135336,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135356,
+            "immediate": 1
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135362,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135392,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135394,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135332,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135382,
+            "target_rom_offset": 134872
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135378,
+            "target_rom_offset": 135420
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 254,
+      "table_entry_rom_offset": 135144,
+      "handler_thumb_cpu_address": 134353041,
+      "handler_rom_offset": 135312,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135322,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135336,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135356,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135430,
+            "immediate": 4
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135362,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135392,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135394,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135332,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135382,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135422,
+            "target_rom_offset": 134884
+          },
+          {
+            "rom_offset": 135438,
+            "target_rom_offset": 134872
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135378,
+            "target_rom_offset": 135420
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    },
+    {
+      "opcode": 255,
+      "table_entry_rom_offset": 135148,
+      "handler_thumb_cpu_address": 134353085,
+      "handler_rom_offset": 135356,
+      "local_structure": {
+        "scan_window_bytes": 128,
+        "r4_add_immediates": [
+          {
+            "rom_offset": 135356,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135430,
+            "immediate": 4
+          },
+          {
+            "rom_offset": 135452,
+            "immediate": 4
+          }
+        ],
+        "r4_byte_loads": [
+          {
+            "rom_offset": 135362,
+            "immediate": 1
+          },
+          {
+            "rom_offset": 135392,
+            "immediate": 2
+          },
+          {
+            "rom_offset": 135394,
+            "immediate": 3
+          }
+        ],
+        "bl_targets": [
+          {
+            "rom_offset": 135382,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135422,
+            "target_rom_offset": 134884
+          },
+          {
+            "rom_offset": 135438,
+            "target_rom_offset": 134872
+          },
+          {
+            "rom_offset": 135444,
+            "target_rom_offset": 134908
+          },
+          {
+            "rom_offset": 135460,
+            "target_rom_offset": 134872
+          }
+        ],
+        "unconditional_branch_targets": [
+          {
+            "rom_offset": 135378,
+            "target_rom_offset": 135420
+          },
+          {
+            "rom_offset": 135482,
+            "target_rom_offset": 135550
+          }
+        ],
+        "direct_font_indexer_call_offsets": []
+      }
+    }
+  ],
+  "interpretation_notice": "Each entry is a verified indirect branch target. The bounded local scan records instruction syntax only; r4-related markers do not by themselves establish a message-cursor advance, handler extent, or opcode meaning."
+}

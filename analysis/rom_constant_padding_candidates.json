@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "byte_length": 8388608
+  },
+  "minimum_length": 1024,
+  "constant_padding_candidates": [
+    {
+      "rom_offset": 1628413,
+      "byte_length": 1821,
+      "fill_byte": "00",
+      "aligned_4": false
+    },
+    {
+      "rom_offset": 1770627,
+      "byte_length": 1038,
+      "fill_byte": "00",
+      "aligned_4": false
+    },
+    {
+      "rom_offset": 1994176,
+      "byte_length": 2624,
+      "fill_byte": "FF",
+      "aligned_4": true
+    },
+    {
+      "rom_offset": 6952079,
+      "byte_length": 1923,
+      "fill_byte": "00",
+      "aligned_4": false
+    },
+    {
+      "rom_offset": 8386928,
+      "byte_length": 1680,
+      "fill_byte": "FF",
+      "aligned_4": true
+    }
+  ],
+  "interpretation": "A constant run is not proof of unused space. Any relocation target requires independent consumer-reference and runtime validation."
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "runtime_observation_state_observed_block_growth_poc",
+  "poc_manifest_filename": "block_0024_entry_growth_manifest.json",
+  "poc_manifest_sha256": "8a15567df4d305790da44f6db5f9be499f87ff32e6bf3561d0a1b9b9144661e4",
+  "state_evidence_filename": "active_block_nine_entry_growth_state_40.json",
+  "state_evidence_sha256": "7589b9baa80205890ed1b25e0a9fd33f09ac2c15de409fa84e455b0e7e9354a2",
+  "frames": [
+    {
+      "filename": "42.PNG",
+      "sha256": "a5c91d09e38b5db8275df62807feb5fea6e0fd4bf958c159d17495f41f7a96fa",
+      "observation": "state_restored_dialogue_frame_normal_and_declared_inserted_marker_visible"
+    },
+    {
+      "filename": "41.PNG",
+      "sha256": "823234c101781deac224ce4d76be479b4557d073ec8e34fd12e75985e766de12",
+      "observation": "following_dialogue_frame_normal_after_progression"
+    }
+  ],
+  "conclusion": "The state-observed block's declared first-entry insertion renders after restoring the supplied state, and dialogue progresses to the following frame.",
+  "limitations": [
+    "Only the declared first-entry insertion is runtime-covered for this block.",
+    "Every additional entry and every other block requires independent runtime coverage.",
+    "This does not establish global font-slot safety or bulk-script eligibility."
+  ]
+}

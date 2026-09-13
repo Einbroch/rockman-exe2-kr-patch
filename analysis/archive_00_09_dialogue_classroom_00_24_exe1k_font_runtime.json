@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "kind": "muted_exact_rom_runtime_verification",
+  "date": "2026-08-25",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_24_exe1k_font_clean_poc.gba",
+    "sha256": "9a1fa743f5dd2f9e0c2d833f4dd704956ba2b00d90706699dff9f5fad25acd21",
+    "byte_length": 16777216
+  },
+  "emulator": {
+    "adapter": "mesen2",
+    "launch_id": "launch-01m0wfr65kmbwj0bm8z71fdagw",
+    "display": false,
+    "sound": false,
+    "stopped": true
+  },
+  "fresh_boot_archive_load": {
+    "route": "reset -> title -> start -> new game -> classroom progression",
+    "dump_directory": "analysis/emucap/classroom_00_24_exe1k_fresh_newgame_memory",
+    "verification": "analysis/classroom_00_24_exe1k_fresh_newgame_runtime_archive_verification.json",
+    "loaded_byte_length": 6490,
+    "loaded_sha256": "cddaf60f06b26a0319e933192ce5c96371abaa2545742871592c31f199df5d02",
+    "differing_byte_count": 0,
+    "passed": true
+  },
+  "focused_renderer_cursor_intervention": {
+    "archive_source": "The archive was loaded naturally by the exact final ROM before the renderer cursor was redirected.",
+    "ewram_pool_address": "0x02038800",
+    "renderer_state_address": "0x02008730",
+    "evidence_boundary": "These captures prove exact-build rendering, page progression, and timing-control consumption after a natural archive load plus explicit renderer-cursor intervention. They do not prove natural map interaction selection of entries 22 through 24.",
+    "entries": [
+      {
+        "entry_index": 22,
+        "ewram_address": "0x0203916D",
+        "page_count": 2,
+        "screenshots": [
+          "analysis/emucap/classroom_entry22_exe1k_final_page1.png",
+          "analysis/emucap/classroom_entry22_exe1k_final_page2.png"
+        ],
+        "clipping_observed": false,
+        "japanese_residue_observed": false,
+        "passed": true
+      },
+      {
+        "entry_index": 23,
+        "ewram_address": "0x020391CD",
+        "page_count": 2,
+        "wait_skip_frames_preserved": [30, 10],
+        "screenshots": [
+          "analysis/emucap/classroom_entry23_exe1k_final_page1.png",
+          "analysis/emucap/classroom_entry23_exe1k_final_page2.png"
+        ],
+        "clipping_observed": false,
+        "japanese_residue_observed": false,
+        "passed": true
+      },
+      {
+        "entry_index": 24,
+        "ewram_address": "0x0203923C",
+        "page_count": 1,
+        "mail_flag_control_preserved": "f2 0c 00 07",
+        "screenshots": ["analysis/emucap/classroom_entry24_exe1k_final_page1.png"],
+        "clipping_observed": false,
+        "japanese_residue_observed": false,
+        "passed": true
+      }
+    ]
+  },
+  "new_glyph_trace": {
+    "character": "혹",
+    "encoded_bytes": [230, 209],
+    "target_font_record_index": 694,
+    "target_rom_offset": "0x006A2130",
+    "target_cpu_address": "0x086A2130",
+    "source_font_record_index": 2771,
+    "source_rom_offset": "0x0082B62C",
+    "record_sha256": "572b931f909bafe35699366e62d116f2777bee1051ddc872251ba56bcc918732",
+    "breakpoint_frame": 8363,
+    "renderer_pc": "0x08020DA6",
+    "renderer_r8": 694,
+    "event_log": "analysis/emucap/classroom_00_24_exe1k_final_glyph_break_events.json",
+    "trace_intervention": "A verified classroom renderer state was loaded and the exact 6490-byte archive from the final ROM's fresh-boot EWRAM dump was injected before redirecting the cursor to entry 23.",
+    "source_and_target_records_equal": true,
+    "passed": true
+  },
+  "limitations": [
+    "All Korean wording remains a machine draft that needs independent human review.",
+    "The EXE1 Korean ROM font is a local reference only; its authorship, license, and redistribution permission are not verified.",
+    "Natural map-interaction routes for entries 22 through 24 remain to be recorded separately."
+  ],
+  "passed": true
+}

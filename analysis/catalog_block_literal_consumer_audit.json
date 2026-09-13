@@ -1,0 +1,5246 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "rom_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "rom_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "catalog_filename": "rev1_message_block_catalog.json",
+    "catalog_sha256": "860771a9029bbc73042e0ad02b6aecd473d6af2bf3890f5efd43628af7310a89"
+  },
+  "validation": {
+    "script_like_record_range_validation": "passed",
+    "script_like_record_hash_validation": "passed"
+  },
+  "summary": {
+    "catalog_script_like_block_count": 242,
+    "unique_script_like_block_address_count": 242,
+    "blocks_with_direct_pc_relative_literal_load": 194,
+    "literal_load_reference_count": 612
+  },
+  "blocks_with_direct_pc_relative_literal_load": [
+    {
+      "id": "pc-jap-map-0001",
+      "block_rom_offset": 7541520,
+      "block_byte_length": 3948,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 24674,
+          "literal_offset": 24688,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 25482,
+          "literal_offset": 25496,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 45166,
+          "literal_offset": 45196,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 45620,
+          "literal_offset": 45696,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 45766,
+          "literal_offset": 45796,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 45780,
+          "literal_offset": 45796,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 57798,
+          "literal_offset": 57836,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 73638,
+          "literal_offset": 73780,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 73712,
+          "literal_offset": 73780,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 73750,
+          "literal_offset": 73780,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0214",
+      "block_rom_offset": 7557388,
+      "block_byte_length": 2264,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 55878,
+          "literal_offset": 55924,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0220",
+      "block_rom_offset": 7559132,
+      "block_byte_length": 1780,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 165868,
+          "literal_offset": 166168,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 174448,
+          "literal_offset": 175312,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 195314,
+          "literal_offset": 196176,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0219",
+      "block_rom_offset": 7560600,
+      "block_byte_length": 6643,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 165548,
+          "literal_offset": 165796,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 165916,
+          "literal_offset": 166184,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 173684,
+          "literal_offset": 174344,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 174280,
+          "literal_offset": 174344,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 195636,
+          "literal_offset": 196228,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0225",
+      "block_rom_offset": 7569716,
+      "block_byte_length": 913,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 931066,
+          "literal_offset": 931408,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0226",
+      "block_rom_offset": 7570412,
+      "block_byte_length": 472,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 929452,
+          "literal_offset": 929684,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 929644,
+          "literal_offset": 929684,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0227",
+      "block_rom_offset": 7570720,
+      "block_byte_length": 5997,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 141640,
+          "literal_offset": 142236,
+          "destination_register": 7
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0232",
+      "block_rom_offset": 7586428,
+      "block_byte_length": 3897,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 142024,
+          "literal_offset": 142396,
+          "destination_register": 5
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0234",
+      "block_rom_offset": 7591956,
+      "block_byte_length": 1266,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 142020,
+          "literal_offset": 142440,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0241",
+      "block_rom_offset": 7596988,
+      "block_byte_length": 1130,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 141636,
+          "literal_offset": 142600,
+          "destination_register": 3
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0023",
+      "block_rom_offset": 7840408,
+      "block_byte_length": 525,
+      "runtime_pointer_observed": true,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 820344,
+          "literal_offset": 820452,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0024",
+      "block_rom_offset": 7840772,
+      "block_byte_length": 500,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 820590,
+          "literal_offset": 820920,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 820704,
+          "literal_offset": 820920,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0025",
+      "block_rom_offset": 7841136,
+      "block_byte_length": 907,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 821032,
+          "literal_offset": 821428,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 821144,
+          "literal_offset": 821428,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 821224,
+          "literal_offset": 821428,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0026",
+      "block_rom_offset": 7841808,
+      "block_byte_length": 640,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 821574,
+          "literal_offset": 821920,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 821684,
+          "literal_offset": 821920,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 821718,
+          "literal_offset": 821920,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0027",
+      "block_rom_offset": 7842300,
+      "block_byte_length": 295,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 822012,
+          "literal_offset": 822176,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0028",
+      "block_rom_offset": 7842512,
+      "block_byte_length": 829,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 822346,
+          "literal_offset": 822732,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 822470,
+          "literal_offset": 822732,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0029",
+      "block_rom_offset": 7843132,
+      "block_byte_length": 398,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 822828,
+          "literal_offset": 823020,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0030",
+      "block_rom_offset": 7843400,
+      "block_byte_length": 644,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 823126,
+          "literal_offset": 823376,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0031",
+      "block_rom_offset": 7843844,
+      "block_byte_length": 942,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 823554,
+          "literal_offset": 823768,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 823610,
+          "literal_offset": 823768,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0032",
+      "block_rom_offset": 7844460,
+      "block_byte_length": 521,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 823932,
+          "literal_offset": 824248,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 823994,
+          "literal_offset": 824248,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 824074,
+          "literal_offset": 824248,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0033",
+      "block_rom_offset": 7844844,
+      "block_byte_length": 667,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 824346,
+          "literal_offset": 824632,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 824468,
+          "literal_offset": 824632,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0034",
+      "block_rom_offset": 7845328,
+      "block_byte_length": 386,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 824776,
+          "literal_offset": 824992,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 824836,
+          "literal_offset": 824992,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0035",
+      "block_rom_offset": 7845600,
+      "block_byte_length": 229,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 825100,
+          "literal_offset": 825204,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0036",
+      "block_rom_offset": 7845756,
+      "block_byte_length": 311,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 825430,
+          "literal_offset": 825716,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 825496,
+          "literal_offset": 825716,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 825540,
+          "literal_offset": 825716,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0037",
+      "block_rom_offset": 7845956,
+      "block_byte_length": 93,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 825800,
+          "literal_offset": 825948,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0038",
+      "block_rom_offset": 7846032,
+      "block_byte_length": 1225,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 826102,
+          "literal_offset": 826556,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 826190,
+          "literal_offset": 826556,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 826250,
+          "literal_offset": 826556,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 826334,
+          "literal_offset": 826556,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 826398,
+          "literal_offset": 826556,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0039",
+      "block_rom_offset": 7846892,
+      "block_byte_length": 911,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 826658,
+          "literal_offset": 826952,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 826782,
+          "literal_offset": 826952,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0040",
+      "block_rom_offset": 7847488,
+      "block_byte_length": 474,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 827170,
+          "literal_offset": 827788,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 827238,
+          "literal_offset": 827788,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 827304,
+          "literal_offset": 827788,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 827418,
+          "literal_offset": 827788,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 827478,
+          "literal_offset": 827788,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 827560,
+          "literal_offset": 827788,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0041",
+      "block_rom_offset": 7847828,
+      "block_byte_length": 305,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 827986,
+          "literal_offset": 828236,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 828048,
+          "literal_offset": 828236,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0042",
+      "block_rom_offset": 7848040,
+      "block_byte_length": 978,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 828398,
+          "literal_offset": 828576,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0043",
+      "block_rom_offset": 7848692,
+      "block_byte_length": 376,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 828708,
+          "literal_offset": 828936,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 828778,
+          "literal_offset": 828936,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0044",
+      "block_rom_offset": 7848976,
+      "block_byte_length": 745,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 829162,
+          "literal_offset": 829364,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0045",
+      "block_rom_offset": 7849536,
+      "block_byte_length": 877,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 829564,
+          "literal_offset": 829932,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 829606,
+          "literal_offset": 829932,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 829704,
+          "literal_offset": 829932,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0046",
+      "block_rom_offset": 7850176,
+      "block_byte_length": 610,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 830008,
+          "literal_offset": 830248,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 830070,
+          "literal_offset": 830248,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0047",
+      "block_rom_offset": 7850624,
+      "block_byte_length": 838,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 830402,
+          "literal_offset": 830680,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 830450,
+          "literal_offset": 830680,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 830492,
+          "literal_offset": 830680,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0048",
+      "block_rom_offset": 7851224,
+      "block_byte_length": 374,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 830746,
+          "literal_offset": 830840,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0050",
+      "block_rom_offset": 7851492,
+      "block_byte_length": 225,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 831330,
+          "literal_offset": 831484,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0052",
+      "block_rom_offset": 7851656,
+      "block_byte_length": 911,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 831628,
+          "literal_offset": 831900,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 831708,
+          "literal_offset": 831900,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 831758,
+          "literal_offset": 831900,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0053",
+      "block_rom_offset": 7852276,
+      "block_byte_length": 460,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 832020,
+          "literal_offset": 832248,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 832082,
+          "literal_offset": 832248,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0054",
+      "block_rom_offset": 7852628,
+      "block_byte_length": 169,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 832442,
+          "literal_offset": 832912,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 832712,
+          "literal_offset": 832912,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0055",
+      "block_rom_offset": 7852760,
+      "block_byte_length": 842,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 833174,
+          "literal_offset": 833804,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 833306,
+          "literal_offset": 833804,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 833476,
+          "literal_offset": 833804,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 833580,
+          "literal_offset": 833804,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0056",
+      "block_rom_offset": 7853372,
+      "block_byte_length": 667,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 833936,
+          "literal_offset": 834500,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 834162,
+          "literal_offset": 834500,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 834282,
+          "literal_offset": 834500,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0057",
+      "block_rom_offset": 7853848,
+      "block_byte_length": 559,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 834636,
+          "literal_offset": 835064,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 834764,
+          "literal_offset": 835064,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 834814,
+          "literal_offset": 835064,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0058",
+      "block_rom_offset": 7854248,
+      "block_byte_length": 555,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 835196,
+          "literal_offset": 835588,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 835332,
+          "literal_offset": 835588,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 835408,
+          "literal_offset": 835588,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0059",
+      "block_rom_offset": 7854648,
+      "block_byte_length": 227,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 835696,
+          "literal_offset": 835880,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0060",
+      "block_rom_offset": 7854816,
+      "block_byte_length": 148,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 835996,
+          "literal_offset": 836304,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 836120,
+          "literal_offset": 836304,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0061",
+      "block_rom_offset": 7854928,
+      "block_byte_length": 1191,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 836492,
+          "literal_offset": 836984,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 836584,
+          "literal_offset": 836984,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 836706,
+          "literal_offset": 836984,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0062",
+      "block_rom_offset": 7855776,
+      "block_byte_length": 1150,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 837080,
+          "literal_offset": 837392,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 837150,
+          "literal_offset": 837392,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 837206,
+          "literal_offset": 837392,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0063",
+      "block_rom_offset": 7856556,
+      "block_byte_length": 252,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 837454,
+          "literal_offset": 837548,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0064",
+      "block_rom_offset": 7856736,
+      "block_byte_length": 401,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 837730,
+          "literal_offset": 837908,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0065",
+      "block_rom_offset": 7857016,
+      "block_byte_length": 1200,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 838106,
+          "literal_offset": 838716,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 838160,
+          "literal_offset": 838716,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 838310,
+          "literal_offset": 838716,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 838388,
+          "literal_offset": 838716,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0066",
+      "block_rom_offset": 7857892,
+      "block_byte_length": 1013,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 838934,
+          "literal_offset": 839396,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 838996,
+          "literal_offset": 839396,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 839028,
+          "literal_offset": 839396,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 839080,
+          "literal_offset": 839396,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0067",
+      "block_rom_offset": 7858604,
+      "block_byte_length": 2522,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 830942,
+          "literal_offset": 831216,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 840226,
+          "literal_offset": 840308,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0068",
+      "block_rom_offset": 7860364,
+      "block_byte_length": 423,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 844052,
+          "literal_offset": 844208,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0069",
+      "block_rom_offset": 7860636,
+      "block_byte_length": 1944,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 844340,
+          "literal_offset": 844780,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 844400,
+          "literal_offset": 844780,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 844484,
+          "literal_offset": 844780,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 844570,
+          "literal_offset": 844780,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0070",
+      "block_rom_offset": 7861984,
+      "block_byte_length": 532,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 844854,
+          "literal_offset": 845044,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0071",
+      "block_rom_offset": 7862328,
+      "block_byte_length": 726,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 845114,
+          "literal_offset": 845308,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0072",
+      "block_rom_offset": 7862816,
+      "block_byte_length": 99,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 845382,
+          "literal_offset": 845488,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0073",
+      "block_rom_offset": 7862892,
+      "block_byte_length": 359,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 845554,
+          "literal_offset": 845660,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0074",
+      "block_rom_offset": 7863140,
+      "block_byte_length": 349,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 845738,
+          "literal_offset": 845932,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0075",
+      "block_rom_offset": 7863388,
+      "block_byte_length": 755,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 845996,
+          "literal_offset": 846152,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0076",
+      "block_rom_offset": 7863944,
+      "block_byte_length": 180,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 846230,
+          "literal_offset": 846372,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0077",
+      "block_rom_offset": 7864080,
+      "block_byte_length": 1591,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 846584,
+          "literal_offset": 847252,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 846716,
+          "literal_offset": 847252,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 846784,
+          "literal_offset": 847252,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 846840,
+          "literal_offset": 847252,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 846922,
+          "literal_offset": 847252,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0078",
+      "block_rom_offset": 7865172,
+      "block_byte_length": 357,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 847414,
+          "literal_offset": 847648,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 847438,
+          "literal_offset": 847648,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 847462,
+          "literal_offset": 847648,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0079",
+      "block_rom_offset": 7865424,
+      "block_byte_length": 143,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 847724,
+          "literal_offset": 847844,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 847748,
+          "literal_offset": 847844,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0080",
+      "block_rom_offset": 7865524,
+      "block_byte_length": 165,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 847980,
+          "literal_offset": 848176,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 848014,
+          "literal_offset": 848176,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0081",
+      "block_rom_offset": 7865644,
+      "block_byte_length": 1260,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 848328,
+          "literal_offset": 848636,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 848352,
+          "literal_offset": 848636,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 848398,
+          "literal_offset": 848636,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 848422,
+          "literal_offset": 848636,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 848458,
+          "literal_offset": 848636,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0082",
+      "block_rom_offset": 7866492,
+      "block_byte_length": 709,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 848846,
+          "literal_offset": 849504,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 848990,
+          "literal_offset": 849504,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 849052,
+          "literal_offset": 849504,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0083",
+      "block_rom_offset": 7866988,
+      "block_byte_length": 1262,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 849650,
+          "literal_offset": 850080,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 849742,
+          "literal_offset": 850080,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 849814,
+          "literal_offset": 850080,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 849838,
+          "literal_offset": 850080,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 849890,
+          "literal_offset": 850080,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0084",
+      "block_rom_offset": 7867880,
+      "block_byte_length": 123,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 850162,
+          "literal_offset": 850272,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0085",
+      "block_rom_offset": 7867968,
+      "block_byte_length": 1643,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 850360,
+          "literal_offset": 850572,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0086",
+      "block_rom_offset": 7869044,
+      "block_byte_length": 424,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 850646,
+          "literal_offset": 850756,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0087",
+      "block_rom_offset": 7869332,
+      "block_byte_length": 78,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 850826,
+          "literal_offset": 851012,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0088",
+      "block_rom_offset": 7869392,
+      "block_byte_length": 46,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 851082,
+          "literal_offset": 851180,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0089",
+      "block_rom_offset": 7869428,
+      "block_byte_length": 509,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 851284,
+          "literal_offset": 851504,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 851348,
+          "literal_offset": 851504,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0094",
+      "block_rom_offset": 7870052,
+      "block_byte_length": 262,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 851960,
+          "literal_offset": 852152,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0095",
+      "block_rom_offset": 7870208,
+      "block_byte_length": 1430,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852414,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852474,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852516,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852576,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852612,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852648,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852684,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852720,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852756,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852792,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852832,
+          "literal_offset": 853076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 852856,
+          "literal_offset": 853076,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0096",
+      "block_rom_offset": 7871272,
+      "block_byte_length": 318,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 853172,
+          "literal_offset": 853372,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0097",
+      "block_rom_offset": 7871512,
+      "block_byte_length": 98,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 853466,
+          "literal_offset": 853560,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0098",
+      "block_rom_offset": 7871572,
+      "block_byte_length": 344,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 853648,
+          "literal_offset": 853864,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0099",
+      "block_rom_offset": 7871828,
+      "block_byte_length": 235,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 854154,
+          "literal_offset": 854368,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0100",
+      "block_rom_offset": 7871980,
+      "block_byte_length": 1237,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 854524,
+          "literal_offset": 855156,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 854734,
+          "literal_offset": 855156,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 854780,
+          "literal_offset": 855156,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 854824,
+          "literal_offset": 855156,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0101",
+      "block_rom_offset": 7872924,
+      "block_byte_length": 1084,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 855438,
+          "literal_offset": 855976,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 855486,
+          "literal_offset": 855976,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 855576,
+          "literal_offset": 855976,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 855600,
+          "literal_offset": 855976,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 855652,
+          "literal_offset": 855976,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 855760,
+          "literal_offset": 855976,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 856030,
+          "literal_offset": 856124,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0102",
+      "block_rom_offset": 7873676,
+      "block_byte_length": 387,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 856310,
+          "literal_offset": 856828,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 856412,
+          "literal_offset": 856828,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 856464,
+          "literal_offset": 856828,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 856500,
+          "literal_offset": 856828,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0103",
+      "block_rom_offset": 7873964,
+      "block_byte_length": 744,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 857248,
+          "literal_offset": 857536,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0104",
+      "block_rom_offset": 7874468,
+      "block_byte_length": 1776,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 858330,
+          "literal_offset": 859180,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 858418,
+          "literal_offset": 859180,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 858536,
+          "literal_offset": 859180,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 858620,
+          "literal_offset": 859180,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 858830,
+          "literal_offset": 859180,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 858928,
+          "literal_offset": 859180,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0105",
+      "block_rom_offset": 7875716,
+      "block_byte_length": 1233,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 859458,
+          "literal_offset": 860384,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 859608,
+          "literal_offset": 860384,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 859790,
+          "literal_offset": 860384,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 859852,
+          "literal_offset": 860384,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 859970,
+          "literal_offset": 860384,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0106",
+      "block_rom_offset": 7876580,
+      "block_byte_length": 2234,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 860494,
+          "literal_offset": 860640,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 860746,
+          "literal_offset": 860828,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0107",
+      "block_rom_offset": 7878152,
+      "block_byte_length": 1361,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 861652,
+          "literal_offset": 861900,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0108",
+      "block_rom_offset": 7879112,
+      "block_byte_length": 1338,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862006,
+          "literal_offset": 862288,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862098,
+          "literal_offset": 862288,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862128,
+          "literal_offset": 862288,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0109",
+      "block_rom_offset": 7880060,
+      "block_byte_length": 1089,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862484,
+          "literal_offset": 863188,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862566,
+          "literal_offset": 863188,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862638,
+          "literal_offset": 863188,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862724,
+          "literal_offset": 863188,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862796,
+          "literal_offset": 863188,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862874,
+          "literal_offset": 863188,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862914,
+          "literal_offset": 863188,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 862946,
+          "literal_offset": 863188,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0110",
+      "block_rom_offset": 7880808,
+      "block_byte_length": 803,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 863386,
+          "literal_offset": 863840,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 863448,
+          "literal_offset": 863840,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 863538,
+          "literal_offset": 863840,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 863582,
+          "literal_offset": 863840,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 863632,
+          "literal_offset": 863840,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0111",
+      "block_rom_offset": 7881368,
+      "block_byte_length": 220,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 863954,
+          "literal_offset": 864252,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 864058,
+          "literal_offset": 864252,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0112",
+      "block_rom_offset": 7881520,
+      "block_byte_length": 892,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 864452,
+          "literal_offset": 865164,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 864612,
+          "literal_offset": 865164,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 864894,
+          "literal_offset": 865164,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0113",
+      "block_rom_offset": 7882152,
+      "block_byte_length": 1136,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 865444,
+          "literal_offset": 865904,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 865644,
+          "literal_offset": 865904,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0114",
+      "block_rom_offset": 7882968,
+      "block_byte_length": 652,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 866196,
+          "literal_offset": 866680,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0115",
+      "block_rom_offset": 7883424,
+      "block_byte_length": 1625,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 866796,
+          "literal_offset": 866964,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0116",
+      "block_rom_offset": 7884588,
+      "block_byte_length": 1043,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 867028,
+          "literal_offset": 867280,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0117",
+      "block_rom_offset": 7885384,
+      "block_byte_length": 433,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 867414,
+          "literal_offset": 867684,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 867488,
+          "literal_offset": 867684,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0118",
+      "block_rom_offset": 7885696,
+      "block_byte_length": 192,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 867838,
+          "literal_offset": 868024,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 867908,
+          "literal_offset": 868024,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0119",
+      "block_rom_offset": 7885824,
+      "block_byte_length": 1713,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 868158,
+          "literal_offset": 868800,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 868318,
+          "literal_offset": 868800,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 868368,
+          "literal_offset": 868800,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 868404,
+          "literal_offset": 868800,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 868464,
+          "literal_offset": 868800,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 868520,
+          "literal_offset": 868800,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 868614,
+          "literal_offset": 868800,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0120",
+      "block_rom_offset": 7887004,
+      "block_byte_length": 1496,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 868942,
+          "literal_offset": 869340,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 869000,
+          "literal_offset": 869340,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 869084,
+          "literal_offset": 869340,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 869162,
+          "literal_offset": 869340,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0121",
+      "block_rom_offset": 7888024,
+      "block_byte_length": 156,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 869438,
+          "literal_offset": 869704,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 869466,
+          "literal_offset": 869704,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 869552,
+          "literal_offset": 869704,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0122",
+      "block_rom_offset": 7888124,
+      "block_byte_length": 406,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 869804,
+          "literal_offset": 870092,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 869892,
+          "literal_offset": 870092,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0123",
+      "block_rom_offset": 7888424,
+      "block_byte_length": 502,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 870372,
+          "literal_offset": 870672,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 870456,
+          "literal_offset": 870672,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0124",
+      "block_rom_offset": 7888788,
+      "block_byte_length": 1187,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 870878,
+          "literal_offset": 871364,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 870964,
+          "literal_offset": 871364,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 871012,
+          "literal_offset": 871364,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 871088,
+          "literal_offset": 871364,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 871180,
+          "literal_offset": 871364,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0125",
+      "block_rom_offset": 7889612,
+      "block_byte_length": 647,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 871742,
+          "literal_offset": 872144,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 871816,
+          "literal_offset": 872144,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 871858,
+          "literal_offset": 872144,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 871956,
+          "literal_offset": 872144,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0126",
+      "block_rom_offset": 7890080,
+      "block_byte_length": 744,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 872256,
+          "literal_offset": 872356,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0127",
+      "block_rom_offset": 7890596,
+      "block_byte_length": 805,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 872526,
+          "literal_offset": 872860,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 872588,
+          "literal_offset": 872860,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 872640,
+          "literal_offset": 872860,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 872682,
+          "literal_offset": 872860,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0128",
+      "block_rom_offset": 7891124,
+      "block_byte_length": 1026,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 873008,
+          "literal_offset": 873384,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 873074,
+          "literal_offset": 873384,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 873124,
+          "literal_offset": 873384,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 873174,
+          "literal_offset": 873384,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 873222,
+          "literal_offset": 873384,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0129",
+      "block_rom_offset": 7891832,
+      "block_byte_length": 840,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 873652,
+          "literal_offset": 874448,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 873714,
+          "literal_offset": 874448,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 873772,
+          "literal_offset": 874448,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 873866,
+          "literal_offset": 874448,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 874068,
+          "literal_offset": 874448,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 874172,
+          "literal_offset": 874448,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0130",
+      "block_rom_offset": 7892400,
+      "block_byte_length": 1058,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 874606,
+          "literal_offset": 874800,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0131",
+      "block_rom_offset": 7893100,
+      "block_byte_length": 507,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 874992,
+          "literal_offset": 875656,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 875110,
+          "literal_offset": 875656,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 875142,
+          "literal_offset": 875656,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 875222,
+          "literal_offset": 875656,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 875284,
+          "literal_offset": 875656,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 875346,
+          "literal_offset": 875656,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 875470,
+          "literal_offset": 875656,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0132",
+      "block_rom_offset": 7893480,
+      "block_byte_length": 1826,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 875814,
+          "literal_offset": 876268,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 875866,
+          "literal_offset": 876268,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 875924,
+          "literal_offset": 876268,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0133",
+      "block_rom_offset": 7894704,
+      "block_byte_length": 428,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 877790,
+          "literal_offset": 877936,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0134",
+      "block_rom_offset": 7894984,
+      "block_byte_length": 1999,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 878128,
+          "literal_offset": 878900,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 878302,
+          "literal_offset": 878900,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 878338,
+          "literal_offset": 878900,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 878412,
+          "literal_offset": 878900,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 878464,
+          "literal_offset": 878900,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 878530,
+          "literal_offset": 878900,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0135",
+      "block_rom_offset": 7896308,
+      "block_byte_length": 481,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 879072,
+          "literal_offset": 879392,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 879200,
+          "literal_offset": 879392,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0136",
+      "block_rom_offset": 7896644,
+      "block_byte_length": 327,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 879492,
+          "literal_offset": 879656,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0137",
+      "block_rom_offset": 7896844,
+      "block_byte_length": 82,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 879720,
+          "literal_offset": 879864,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0138",
+      "block_rom_offset": 7896908,
+      "block_byte_length": 361,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 879984,
+          "literal_offset": 880260,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 880064,
+          "literal_offset": 880260,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 880116,
+          "literal_offset": 880260,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0139",
+      "block_rom_offset": 7897144,
+      "block_byte_length": 560,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 880526,
+          "literal_offset": 880792,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 880622,
+          "literal_offset": 880792,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0140",
+      "block_rom_offset": 7897524,
+      "block_byte_length": 1039,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 880878,
+          "literal_offset": 881140,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 880954,
+          "literal_offset": 881140,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0141",
+      "block_rom_offset": 7898224,
+      "block_byte_length": 235,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 881346,
+          "literal_offset": 881600,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0142",
+      "block_rom_offset": 7898384,
+      "block_byte_length": 1037,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 881814,
+          "literal_offset": 882316,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 881932,
+          "literal_offset": 882316,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 881964,
+          "literal_offset": 882316,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 881996,
+          "literal_offset": 882316,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 882028,
+          "literal_offset": 882316,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0143",
+      "block_rom_offset": 7899060,
+      "block_byte_length": 801,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 882434,
+          "literal_offset": 882644,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0144",
+      "block_rom_offset": 7899636,
+      "block_byte_length": 313,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 882852,
+          "literal_offset": 883072,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0145",
+      "block_rom_offset": 7899864,
+      "block_byte_length": 611,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 883260,
+          "literal_offset": 883828,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 883406,
+          "literal_offset": 883828,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 883442,
+          "literal_offset": 883828,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 883554,
+          "literal_offset": 883828,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 883590,
+          "literal_offset": 883828,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 883630,
+          "literal_offset": 883828,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0146",
+      "block_rom_offset": 7900256,
+      "block_byte_length": 373,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 883952,
+          "literal_offset": 884380,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 884010,
+          "literal_offset": 884380,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 884066,
+          "literal_offset": 884380,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 884114,
+          "literal_offset": 884380,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 884178,
+          "literal_offset": 884380,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0147",
+      "block_rom_offset": 7900528,
+      "block_byte_length": 324,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 884518,
+          "literal_offset": 884696,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0148",
+      "block_rom_offset": 7900756,
+      "block_byte_length": 219,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 884812,
+          "literal_offset": 885008,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0149",
+      "block_rom_offset": 7900920,
+      "block_byte_length": 311,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 885142,
+          "literal_offset": 885264,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0150",
+      "block_rom_offset": 7901132,
+      "block_byte_length": 454,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 885388,
+          "literal_offset": 885668,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 885462,
+          "literal_offset": 885668,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 885520,
+          "literal_offset": 885668,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0151",
+      "block_rom_offset": 7901456,
+      "block_byte_length": 287,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 885874,
+          "literal_offset": 886204,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 885962,
+          "literal_offset": 886204,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0152",
+      "block_rom_offset": 7901648,
+      "block_byte_length": 529,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 886324,
+          "literal_offset": 886544,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0153",
+      "block_rom_offset": 7902008,
+      "block_byte_length": 492,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 886648,
+          "literal_offset": 886928,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 886688,
+          "literal_offset": 886928,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0154",
+      "block_rom_offset": 7902348,
+      "block_byte_length": 804,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 887124,
+          "literal_offset": 887332,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0155",
+      "block_rom_offset": 7902876,
+      "block_byte_length": 1881,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 887514,
+          "literal_offset": 887720,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0156",
+      "block_rom_offset": 7904092,
+      "block_byte_length": 676,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 887912,
+          "literal_offset": 888388,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 888048,
+          "literal_offset": 888388,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0157",
+      "block_rom_offset": 7904584,
+      "block_byte_length": 257,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 888528,
+          "literal_offset": 888704,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0158",
+      "block_rom_offset": 7904760,
+      "block_byte_length": 311,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 888932,
+          "literal_offset": 889256,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 888990,
+          "literal_offset": 889256,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 889068,
+          "literal_offset": 889256,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0159",
+      "block_rom_offset": 7904984,
+      "block_byte_length": 1097,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 889458,
+          "literal_offset": 890108,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 889530,
+          "literal_offset": 890108,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 889618,
+          "literal_offset": 890108,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 889722,
+          "literal_offset": 890108,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 889792,
+          "literal_offset": 890108,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 889858,
+          "literal_offset": 890108,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0160",
+      "block_rom_offset": 7905748,
+      "block_byte_length": 680,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 890260,
+          "literal_offset": 890512,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 890352,
+          "literal_offset": 890512,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0161",
+      "block_rom_offset": 7906228,
+      "block_byte_length": 2017,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 890724,
+          "literal_offset": 891076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 890760,
+          "literal_offset": 891076,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 890832,
+          "literal_offset": 891076,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0162",
+      "block_rom_offset": 7907600,
+      "block_byte_length": 472,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 891200,
+          "literal_offset": 891528,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 891266,
+          "literal_offset": 891528,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 891358,
+          "literal_offset": 891528,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0163",
+      "block_rom_offset": 7907908,
+      "block_byte_length": 374,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 891602,
+          "literal_offset": 891792,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0164",
+      "block_rom_offset": 7908180,
+      "block_byte_length": 707,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 892020,
+          "literal_offset": 892412,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 892108,
+          "literal_offset": 892412,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 892180,
+          "literal_offset": 892412,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0165",
+      "block_rom_offset": 7908624,
+      "block_byte_length": 1002,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 892552,
+          "literal_offset": 892832,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 892606,
+          "literal_offset": 892832,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0166",
+      "block_rom_offset": 7909296,
+      "block_byte_length": 907,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 892980,
+          "literal_offset": 893168,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0167",
+      "block_rom_offset": 7909904,
+      "block_byte_length": 1460,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 893396,
+          "literal_offset": 894228,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 893532,
+          "literal_offset": 894228,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 893596,
+          "literal_offset": 894228,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 893652,
+          "literal_offset": 894228,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 893772,
+          "literal_offset": 894228,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 893824,
+          "literal_offset": 894228,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0168",
+      "block_rom_offset": 7910864,
+      "block_byte_length": 752,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 894432,
+          "literal_offset": 894604,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0169",
+      "block_rom_offset": 7911396,
+      "block_byte_length": 965,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 894798,
+          "literal_offset": 895024,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 895134,
+          "literal_offset": 895216,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0170",
+      "block_rom_offset": 7912084,
+      "block_byte_length": 224,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 895896,
+          "literal_offset": 896640,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 896100,
+          "literal_offset": 896640,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 896132,
+          "literal_offset": 896640,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 896252,
+          "literal_offset": 896640,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 896348,
+          "literal_offset": 896640,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0171",
+      "block_rom_offset": 7912252,
+      "block_byte_length": 1485,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 896874,
+          "literal_offset": 897136,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 896942,
+          "literal_offset": 897136,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0172",
+      "block_rom_offset": 7913280,
+      "block_byte_length": 528,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 897398,
+          "literal_offset": 897760,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 897492,
+          "literal_offset": 897760,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0173",
+      "block_rom_offset": 7913664,
+      "block_byte_length": 643,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 898092,
+          "literal_offset": 898964,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 898288,
+          "literal_offset": 898964,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 898484,
+          "literal_offset": 898964,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 898546,
+          "literal_offset": 898964,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 898614,
+          "literal_offset": 898964,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0174",
+      "block_rom_offset": 7914124,
+      "block_byte_length": 3152,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 899130,
+          "literal_offset": 899644,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 899264,
+          "literal_offset": 899644,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 899328,
+          "literal_offset": 899644,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 899396,
+          "literal_offset": 899644,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0175",
+      "block_rom_offset": 7916256,
+      "block_byte_length": 368,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 899834,
+          "literal_offset": 900052,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 899896,
+          "literal_offset": 900052,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0176",
+      "block_rom_offset": 7916488,
+      "block_byte_length": 353,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 900290,
+          "literal_offset": 900616,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 900336,
+          "literal_offset": 900616,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0177",
+      "block_rom_offset": 7916752,
+      "block_byte_length": 2080,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 900868,
+          "literal_offset": 901696,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 900968,
+          "literal_offset": 901696,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 901036,
+          "literal_offset": 901696,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 901110,
+          "literal_offset": 901696,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 901206,
+          "literal_offset": 901696,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 901304,
+          "literal_offset": 901696,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 901348,
+          "literal_offset": 901696,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 901382,
+          "literal_offset": 901696,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 901472,
+          "literal_offset": 901696,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0178",
+      "block_rom_offset": 7918220,
+      "block_byte_length": 273,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 901820,
+          "literal_offset": 902048,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 901860,
+          "literal_offset": 902048,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0179",
+      "block_rom_offset": 7918420,
+      "block_byte_length": 512,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 902138,
+          "literal_offset": 902404,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 902316,
+          "literal_offset": 902404,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0180",
+      "block_rom_offset": 7918784,
+      "block_byte_length": 466,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 902574,
+          "literal_offset": 903032,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 902652,
+          "literal_offset": 903032,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 902796,
+          "literal_offset": 903032,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0181",
+      "block_rom_offset": 7919108,
+      "block_byte_length": 241,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 903750,
+          "literal_offset": 904088,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 903806,
+          "literal_offset": 904088,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0182",
+      "block_rom_offset": 7919276,
+      "block_byte_length": 294,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 904318,
+          "literal_offset": 904440,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0183",
+      "block_rom_offset": 7919484,
+      "block_byte_length": 479,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 904622,
+          "literal_offset": 905128,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 904746,
+          "literal_offset": 905128,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 904816,
+          "literal_offset": 905128,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 904904,
+          "literal_offset": 905128,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0184",
+      "block_rom_offset": 7919820,
+      "block_byte_length": 167,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 905252,
+          "literal_offset": 905472,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0185",
+      "block_rom_offset": 7919936,
+      "block_byte_length": 224,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 905696,
+          "literal_offset": 905928,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 905828,
+          "literal_offset": 905928,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0186",
+      "block_rom_offset": 7920112,
+      "block_byte_length": 349,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 906044,
+          "literal_offset": 906412,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 906208,
+          "literal_offset": 906412,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0187",
+      "block_rom_offset": 7920376,
+      "block_byte_length": 1991,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 906746,
+          "literal_offset": 907232,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 906834,
+          "literal_offset": 907232,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 906898,
+          "literal_offset": 907232,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 906962,
+          "literal_offset": 907232,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0188",
+      "block_rom_offset": 7921708,
+      "block_byte_length": 2729,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 908144,
+          "literal_offset": 909136,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 908212,
+          "literal_offset": 909136,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 908248,
+          "literal_offset": 909136,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 908436,
+          "literal_offset": 909136,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 908586,
+          "literal_offset": 909136,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 908658,
+          "literal_offset": 909136,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 908732,
+          "literal_offset": 909136,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 908866,
+          "literal_offset": 909136,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0189",
+      "block_rom_offset": 7923640,
+      "block_byte_length": 1932,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 909320,
+          "literal_offset": 909928,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 909380,
+          "literal_offset": 909928,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 909434,
+          "literal_offset": 909928,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 909520,
+          "literal_offset": 909928,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 909644,
+          "literal_offset": 909928,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 909742,
+          "literal_offset": 909928,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0190",
+      "block_rom_offset": 7924916,
+      "block_byte_length": 533,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 910390,
+          "literal_offset": 910788,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 910468,
+          "literal_offset": 910788,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 910544,
+          "literal_offset": 910788,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0191",
+      "block_rom_offset": 7925292,
+      "block_byte_length": 2748,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 911548,
+          "literal_offset": 912552,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 911592,
+          "literal_offset": 912552,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 911634,
+          "literal_offset": 912552,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 911686,
+          "literal_offset": 912552,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 911750,
+          "literal_offset": 912552,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 911874,
+          "literal_offset": 912552,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 911932,
+          "literal_offset": 912552,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 911990,
+          "literal_offset": 912552,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 912048,
+          "literal_offset": 912552,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 912172,
+          "literal_offset": 912552,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 912304,
+          "literal_offset": 912552,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0192",
+      "block_rom_offset": 7927200,
+      "block_byte_length": 1863,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 912830,
+          "literal_offset": 913808,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 912930,
+          "literal_offset": 913808,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 912990,
+          "literal_offset": 913808,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 913178,
+          "literal_offset": 913808,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 913338,
+          "literal_offset": 913808,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 913396,
+          "literal_offset": 913808,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 913436,
+          "literal_offset": 913808,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 913590,
+          "literal_offset": 913808,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0193",
+      "block_rom_offset": 7928508,
+      "block_byte_length": 177,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 914248,
+          "literal_offset": 914592,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0194",
+      "block_rom_offset": 7928632,
+      "block_byte_length": 1645,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 914806,
+          "literal_offset": 915312,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 914866,
+          "literal_offset": 915312,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 915004,
+          "literal_offset": 915312,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 915132,
+          "literal_offset": 915312,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0195",
+      "block_rom_offset": 7929796,
+      "block_byte_length": 2561,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 915588,
+          "literal_offset": 916404,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 915630,
+          "literal_offset": 916404,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 915708,
+          "literal_offset": 916404,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 915772,
+          "literal_offset": 916404,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 915866,
+          "literal_offset": 916404,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 915902,
+          "literal_offset": 916404,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 915956,
+          "literal_offset": 916404,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 916040,
+          "literal_offset": 916404,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 916128,
+          "literal_offset": 916404,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 916186,
+          "literal_offset": 916404,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0196",
+      "block_rom_offset": 7931584,
+      "block_byte_length": 420,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 916510,
+          "literal_offset": 916632,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0197",
+      "block_rom_offset": 7931860,
+      "block_byte_length": 6121,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 919402,
+          "literal_offset": 920364,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 919510,
+          "literal_offset": 920364,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 919628,
+          "literal_offset": 920364,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0199",
+      "block_rom_offset": 7936504,
+      "block_byte_length": 1935,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 921202,
+          "literal_offset": 921424,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 921534,
+          "literal_offset": 921616,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0200",
+      "block_rom_offset": 7937836,
+      "block_byte_length": 2102,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 922478,
+          "literal_offset": 922700,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 922810,
+          "literal_offset": 922892,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0317",
+      "block_rom_offset": 7939264,
+      "block_byte_length": 14682,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 920688,
+          "literal_offset": 921096,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0207",
+      "block_rom_offset": 7953616,
+      "block_byte_length": 1097,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 925422,
+          "literal_offset": 925984,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 925484,
+          "literal_offset": 925984,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 925692,
+          "literal_offset": 925984,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0208",
+      "block_rom_offset": 7954408,
+      "block_byte_length": 506,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 924922,
+          "literal_offset": 925272,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 925084,
+          "literal_offset": 925272,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0210",
+      "block_rom_offset": 7954780,
+      "block_byte_length": 612,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 839620,
+          "literal_offset": 840104,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 839756,
+          "literal_offset": 840104,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0340",
+      "block_rom_offset": 7959928,
+      "block_byte_length": 450,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 877262,
+          "literal_offset": 877648,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 877286,
+          "literal_offset": 877648,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 877300,
+          "literal_offset": 877648,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 877368,
+          "literal_offset": 877648,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0351",
+      "block_rom_offset": 7960240,
+      "block_byte_length": 4515,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 928274,
+          "literal_offset": 928332,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 928650,
+          "literal_offset": 928928,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0223",
+      "block_rom_offset": 8231124,
+      "block_byte_length": 3003,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 152018,
+          "literal_offset": 152040,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0426",
+      "block_rom_offset": 8265320,
+      "block_byte_length": 5838,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 154600,
+          "literal_offset": 155600,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 156072,
+          "literal_offset": 156776,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 158612,
+          "literal_offset": 159212,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 159488,
+          "literal_offset": 160020,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 159880,
+          "literal_offset": 160020,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 159930,
+          "literal_offset": 160020,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 159986,
+          "literal_offset": 160020,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 160110,
+          "literal_offset": 160576,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 160516,
+          "literal_offset": 160576,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 160542,
+          "literal_offset": 160576,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 161782,
+          "literal_offset": 162728,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 163684,
+          "literal_offset": 163776,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 164508,
+          "literal_offset": 164808,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 164682,
+          "literal_offset": 164808,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 168368,
+          "literal_offset": 169168,
+          "destination_register": 7
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 168442,
+          "literal_offset": 169168,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 168752,
+          "literal_offset": 169168,
+          "destination_register": 7
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 168824,
+          "literal_offset": 169168,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 169880,
+          "literal_offset": 170528,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 169980,
+          "literal_offset": 170528,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 170008,
+          "literal_offset": 170528,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 170150,
+          "literal_offset": 170528,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 170222,
+          "literal_offset": 170528,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 170410,
+          "literal_offset": 170528,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 171474,
+          "literal_offset": 171588,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 172710,
+          "literal_offset": 172972,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 172814,
+          "literal_offset": 172972,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 172876,
+          "literal_offset": 172972,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 172896,
+          "literal_offset": 172972,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 173048,
+          "literal_offset": 173292,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 173148,
+          "literal_offset": 173292,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 173182,
+          "literal_offset": 173292,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 173212,
+          "literal_offset": 173292,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 173246,
+          "literal_offset": 173292,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 173696,
+          "literal_offset": 174352,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 173844,
+          "literal_offset": 174352,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 173998,
+          "literal_offset": 174352,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 174112,
+          "literal_offset": 174352,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 174290,
+          "literal_offset": 174352,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 174458,
+          "literal_offset": 175328,
+          "destination_register": 7
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 175364,
+          "literal_offset": 175664,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 176558,
+          "literal_offset": 176916,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 176576,
+          "literal_offset": 176916,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 176588,
+          "literal_offset": 176916,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 176714,
+          "literal_offset": 176916,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 176772,
+          "literal_offset": 176916,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 176792,
+          "literal_offset": 176916,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 176864,
+          "literal_offset": 176916,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 177006,
+          "literal_offset": 177672,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 177026,
+          "literal_offset": 177672,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 177060,
+          "literal_offset": 177672,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 177096,
+          "literal_offset": 177672,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 177462,
+          "literal_offset": 177472,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 177778,
+          "literal_offset": 178572,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 178072,
+          "literal_offset": 178572,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 178188,
+          "literal_offset": 178572,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 179540,
+          "literal_offset": 180488,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 179674,
+          "literal_offset": 180488,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 179924,
+          "literal_offset": 180488,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 180118,
+          "literal_offset": 180488,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 180406,
+          "literal_offset": 180488,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 180734,
+          "literal_offset": 181612,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 180924,
+          "literal_offset": 181612,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 180992,
+          "literal_offset": 181612,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 181158,
+          "literal_offset": 181612,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 181896,
+          "literal_offset": 182640,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 182074,
+          "literal_offset": 182640,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 182196,
+          "literal_offset": 182640,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 182350,
+          "literal_offset": 182640,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 182612,
+          "literal_offset": 182640,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 182770,
+          "literal_offset": 182888,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 184650,
+          "literal_offset": 185508,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 931776,
+          "literal_offset": 931828,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0224",
+      "block_rom_offset": 8276232,
+      "block_byte_length": 4224,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 159028,
+          "literal_offset": 159280,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0217",
+      "block_rom_offset": 8288952,
+      "block_byte_length": 1851,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 185288,
+          "literal_offset": 185576,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 939606,
+          "literal_offset": 939636,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 940150,
+          "literal_offset": 940784,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 940332,
+          "literal_offset": 940784,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 940766,
+          "literal_offset": 940784,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 940964,
+          "literal_offset": 941188,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0002",
+      "block_rom_offset": 8291736,
+      "block_byte_length": 131,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 192786,
+          "literal_offset": 193232,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 193078,
+          "literal_offset": 193232,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0215",
+      "block_rom_offset": 8327808,
+      "block_byte_length": 1483,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 202324,
+          "literal_offset": 202704,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 202434,
+          "literal_offset": 202704,
+          "destination_register": 0
+        }
+      ]
+    },
+    {
+      "id": "pc-jap-map-0216",
+      "block_rom_offset": 8331376,
+      "block_byte_length": 940,
+      "runtime_pointer_observed": false,
+      "literal_load_references": [
+        {
+          "architecture": "thumb",
+          "instruction_offset": 211382,
+          "literal_offset": 212088,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 211468,
+          "literal_offset": 212088,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 211494,
+          "literal_offset": 212088,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 211524,
+          "literal_offset": 212088,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 211566,
+          "literal_offset": 212088,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 211668,
+          "literal_offset": 212088,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 213484,
+          "literal_offset": 214040,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 213556,
+          "literal_offset": 214040,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 213598,
+          "literal_offset": 214040,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 213640,
+          "literal_offset": 214040,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 213676,
+          "literal_offset": 214040,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 213706,
+          "literal_offset": 214040,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 213746,
+          "literal_offset": 214040,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 213796,
+          "literal_offset": 214040,
+          "destination_register": 0
+        },
+        {
+          "architecture": "thumb",
+          "instruction_offset": 213854,
+          "literal_offset": 214040,
+          "destination_register": 0
+        }
+      ]
+    }
+  ],
+  "interpretation": "A PC-relative literal load is a relocation-research lead only. The audit does not prove consumer semantics, absence of constructed pointers, message boundaries, or relocation safety."
+}

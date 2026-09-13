@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "kind": "expanded_archive_runtime_dump_verification",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_translation_draft_poc.gba",
+    "sha256": "8f626f1151b8344432dc3b95144b8c9e5dbd6d5de944758eb62b6153b2308720",
+    "byte_length": 16777216
+  },
+  "archive": {
+    "rom_offset": 8388608,
+    "gba_address": "0x08800000",
+    "compressed_byte_length": 4401,
+    "decompressed_byte_length": 6092,
+    "decompressed_sha256": "1e0bf665369814f9162d6e42cf3983ebbb9bfdd09fa56437859fede36f64fc8f",
+    "entry_count": 254,
+    "edited_entries": [
+      {
+        "entry_index": 2,
+        "start": 650,
+        "end": 681,
+        "byte_length": 31,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 11,
+        "replacement_byte_length": 15,
+        "replacement_sha256": "becd86f8fa307015b177dfb8ecfbde4b1213746e62999ea2d7125962b74e4e67"
+      },
+      {
+        "entry_index": 13,
+        "start": 1411,
+        "end": 1581,
+        "byte_length": 170,
+        "verified_span_kind": "structured_translation_replacement",
+        "replacement_relative_offset": 5,
+        "replacement_byte_length": 52,
+        "replacement_sha256": "9789dd5e4fc4572ceb4690a067aae5bbac91144f39f5d3d8b8984feafa256d50"
+      }
+    ]
+  },
+  "runtime_dump": {
+    "filename": "ewram.bin",
+    "file_sha256": "7375828e01f9c2e0fbe28faa125fc13d3ec9e48c2cee961b4ea2018318cad819",
+    "ewram_offset": 231424,
+    "loaded_byte_length": 6092,
+    "loaded_sha256": "1e0bf665369814f9162d6e42cf3983ebbb9bfdd09fa56437859fede36f64fc8f",
+    "differing_byte_count": 0
+  },
+  "passed": true
+}

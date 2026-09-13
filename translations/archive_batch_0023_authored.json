@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "kind": "authored_multi_archive_translation_batch",
+  "batch_number": 23,
+  "entries": [
+    {"selector":"00/92","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「1800제니」를 / 획득했다!!"},
+    {"selector":"00/92","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=112] [printCode code=L]」를 / 획득했다!!"},
+    {"selector":"00/92","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「1000제니」를 / 획득했다!!"},
+
+    {"selector":"00/93","entry_index":0,"draft_translation":"여기는 맨션 전체를 / 이어 주는 네트워크입니다. // 평소라면 1층부터 30층까지 / 네트워크 어디든 / 갈 수 있지만, // 전자파 이상 때문에 엉뚱한 곳으로 / 날아가 버리는 구간이 있습니다!"},
+    {"selector":"00/93","entry_index":1,"draft_translation":"그쪽에서 왔다는 건 / 전자파 교란이 고쳐졌다는 거구나! // 이제 여기서 나갈 수 있겠어!"},
+    {"selector":"00/93","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=51]」을 / 획득했다!!"},
+    {"selector":"00/93","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=127] [printCode code=T]」를 / 획득했다!!"},
+    {"selector":"00/93","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「1200제니」를 / 획득했다!!"},
+    {"selector":"00/93","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"},
+
+    {"selector":"00/94","entry_index":0,"draft_translation":"어제부터 전자파가 / 지나치게 강해져서, // 전자파를 제어하던 / 프로그램 조각이 / 어딘가로 사라졌습니다!! // 그것이 없으면 / 이곳의 전자파 이상은 / 고칠 수 없습니다!"},
+    {"selector":"00/94","entry_index":1,"draft_translation":"전자파 이상을 고칠 때 / 부작용으로 에너지가 / 발생합니다. // 그 에너지 때문에 당신은 / 원래 있던 곳으로 / 날아가게 될 겁니다. // 그러면 다시 이곳에 오려면 / 해당하는 층에서 플러그인해 / 들어와야 합니다."},
+    {"selector":"00/94","entry_index":2,"draft_translation":"사라진 프로그램 조각은 / 「전자기 비트」라고 합니다. // 주소에 대응하는 / 번호가 붙어 있으니 / 찾으면 알아볼 수 있을 겁니다."},
+    {"selector":"00/94","entry_index":3,"draft_translation":"「전자기 비트」를 / 가져오셨군요! // 저쪽 스위치에서 사용하면 / 전자파 이상을 / 고칠 수 있습니다!!"},
+    {"selector":"00/94","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=44]」을 / 획득했다!!"},
+    {"selector":"00/94","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=50]」을 / 획득했다!!"},
+    {"selector":"00/94","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=45]」을 / 획득했다!!"},
+    {"selector":"00/94","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=2] [printCode code=*]」를 / 획득했다!!"},
+    {"selector":"00/94","entry_index":234,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「3000제니」를 / 획득했다!!"},
+    {"selector":"00/94","entry_index":235,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=96]」을 / 획득했다!!"},
+
+    {"selector":"00/95","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=47]」을 / 획득했다!!"},
+    {"selector":"00/95","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=48]」을 / 획득했다!!"},
+    {"selector":"00/95","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=46]」을 / 획득했다!!"},
+    {"selector":"00/95","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「2000제니」를 / 획득했다!!"},
+    {"selector":"00/95","entry_index":234,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=97]」을 / 획득했다!!"},
+    {"selector":"00/95","entry_index":235,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
+
+    {"selector":"00/96","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=49]」을 / 획득했다!!"},
+    {"selector":"00/96","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=43]」을 / 획득했다!!"},
+    {"selector":"00/96","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「2000제니」를 / 획득했다!!"},
+    {"selector":"00/96","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 서브칩 「[printItem item=113]」을 / 획득했다!!"},
+    {"selector":"00/96","entry_index":234,"draft_translation":"「[printItem item=113]」 / 보유량이 가득 차서 / 더 가질 수 없다!"},
+
+    {"selector":"00/97","entry_index":0,"draft_translation":"비틀비틀... // 이 앞은 전자파가 강해서 / PET의 일부 기능을 / 사용할 수 없게 됩니다... // 지금, 또는 플러그아웃한 직후 / 저장해 두시길 / 강력히 권합니다. // 비틀비틀..."},
+    {"selector":"00/97","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=131] [printCode code=*]」를 / 획득했다!!"},
+    {"selector":"00/97","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"},
+    {"selector":"00/97","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「10000제니」를 / 획득했다!!"},
+    {"selector":"00/97","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=127] [printCode code=T]」를 / 획득했다!!"},
+
+    {"selector":"00/99","entry_index":0,"draft_translation":"여기는 넷토 씨의 / 컴퓨터 안입니다. // 이곳에서 인터넷과 / 여러 친구의 단말기로 / 이어져 있습니다. // 록맨 씨는 언제 어디서든 / R 버튼으로 플러그아웃할 수 있습니다. // 또는 저기처럼 파란색과 초록색 / 불빛이 반짝이는 곳에서도 / 플러그아웃할 수 있습니다."},
+    {"selector":"00/99","entry_index":1,"draft_translation":"「플러그아웃」이란 / 록맨 씨가 전뇌 세계에서 / PET 안으로 돌아가는 것을 말합니다. // 플러그아웃하면 / HP가 회복됩니다. // 바이러스에게 당해 위험해지면 / 무리하지 말고 플러그아웃하는 게 / 좋습니다."},
+    {"selector":"00/99","entry_index":2,"draft_translation":"넷토, 메일이야!!"},
+    {"selector":"00/99","entry_index":3,"draft_translation":"오늘도 건강해 보이시네요, / 록맨 씨! // 저희는 컴퓨터 안에서 / 일하는 프로그램입니다!"},
+    {"selector":"00/99","entry_index":10,"draft_translation":"영차, 으쌰! // 저는 언제나 성실하게 / 일한답니다. // 록맨 씨도 / 힘내세요!"},
+    {"selector":"00/99","entry_index":11,"draft_translation":"으쌰! 자, 영차! / 옆에 있는 녀석한테는 안 질 거야!!"},
+    {"selector":"00/99","entry_index":12,"draft_translation":"저희는 0과 1로 / 모든 일을 판단합니다. // 그래서 어중간한 건 / 싫어합니다."},
+
+    {"selector":"00/100","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 서브칩 「[printItem item=112]」을 / 획득했다!!"},
+    {"selector":"00/100","entry_index":231,"draft_translation":"「[printItem item=112]」 / 보유량이 가득 차서 / 더 가질 수 없다!"},
+    {"selector":"00/100","entry_index":232,"draft_translation":"「[printItem item=112]」 / 보유량이 가득 찼다!"},
+
+    {"selector":"00/101","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=45] [printCode code=B]」를 / 획득했다!!"},
+    {"selector":"00/101","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「800제니」를 / 획득했다!!"},
+    {"selector":"00/101","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
+
+    {"selector":"00/102","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=96]」을 / 획득했다!!"},
+
+    {"selector":"00/103","entry_index":190,"draft_translation":"제가 의뢰인입니다. // 그럼 바로 연구를 / 시작해 볼까요? // 지금부터 바이러스를 / 다섯 번 연속 발생시키겠습니다. // 오퍼레이션 중인 당신과 / 오퍼레이터의 싱크로율, // 오퍼레이션 반응 속도 등의 / 수치를 측정하겠습니다. // 그럼 시작하죠. / 준비되셨습니까? // 예 // 아니요 // 준비되면 / 다시 찾아와 주십시오."},
+    {"selector":"00/103","entry_index":191,"draft_translation":"배틀이 끝날 때까지 / 체력을 회복할 수 없습니다. // 가능한 한 딜리트되지 않도록 / 힘내 주십시오."},
+    {"selector":"00/103","entry_index":192,"draft_translation":"...!? / 이게 무슨 수치지!! // 우리의 예상을 / 훨씬 뛰어넘는 결과다. // 하지만 안타깝게도 / 이 데이터는 일반 내비와는 / 비교도 되지 않아. // 범용적인 데이터로는 / 쓸 수 없겠군... // 그래도 대단히 귀중한 / 데이터인 건 틀림없다! // 자, 이것은 당신에게 줄 / 보수다. 받아 주게."},
+    {"selector":"00/103","entry_index":193,"draft_translation":"록맨은 / 강화 프로그램 「[printItem item=97]」을 / 획득했다!!"},
+    {"selector":"00/103","entry_index":194,"draft_translation":"당신들은 훌륭한 힘을 / 지니고 있습니다... // 부디 그 힘을 / 잘못 사용하지 마십시오..."},
+    {"selector":"00/103","entry_index":195,"draft_translation":"바이러스 버스팅 준비는 / 끝났습니까? // 슬슬 시작하죠! / 바이러스 버스팅 5연전 // 예 // 아니요 // 준비되면 / 다시 찾아와 주십시오."},
+    {"selector":"00/103","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=28] [printCode code=E]」를 / 획득했다!!"},
+    {"selector":"00/103","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「1000제니」를 / 획득했다!!"},
+
+    {"selector":"00/104","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=193] [printCode code=*]」를 / 획득했다!!"},
+    {"selector":"00/104","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
+
+    {"selector":"00/105","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=191] [printCode code=*]」를 / 획득했다!!"},
+
+    {"selector":"00/106","entry_index":0,"draft_translation":"하아, 방학 중에는 / 수업이 없어서 / 심심합니다. // 여름 보충 수업이라도 / 없을까요?"},
+    {"selector":"00/106","entry_index":1,"draft_translation":"평소에는 떠들썩한 / 교실이지만, // 방학이 되면 / 조금 쓸쓸하네요."},
+    {"selector":"00/106","entry_index":32,"draft_translation":"쳇! 들켜 버렸나. / 너희들, 해치워 버려!!"},
+    {"selector":"00/106","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=23] [printCode code=L]」를 / 획득했다!!"},
+
+    {"selector":"00/107","entry_index":0,"draft_translation":"이런 망가진 장난감에 / 플러그인해 오다니 / 별난 사람도 다 있군요. // 저도 멀쩡했을 때는 / 아이들이 온종일 / 놀아 주곤 했지만, // 이제는 아무도 / 놀아 주지 않습니다. // 그래도 저는 기다리고 있습니다. / 아이들이 다시 한번 / 저와 놀아 줄 날을요."},
+    {"selector":"00/107","entry_index":1,"draft_translation":"하아, 여기에 버려진 지 / 며칠이나 지났을까... // 설마... 버려진 걸까... / 우리들..."},
+    {"selector":"00/107","entry_index":32,"draft_translation":"젠장! 들켜 버렸나! / 이렇게 된 이상 어쩔 수 없지. / 가라!! 바이러스들아!!"},
+    {"selector":"00/107","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"},
+    {"selector":"00/107","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「3000제니」를 / 획득했다!!"},
+
+    {"selector":"00/108","entry_index":0,"draft_translation":"이미 아실지도 모르지만 / 저는 개집형 방범 장치의 / 프로그램입니다. // 오늘도 악의 손길로부터 / 히카리 가족을 지키고 있습니다!"},
+    {"selector":"00/108","entry_index":1,"draft_translation":"으르르, 컹컹컹컹컹컹컹컹! / 컹컹컹컹컹컹컹컹컹컹! / 컹컹컹컹컹컹컹컹컹컹! // 비상시에는 이런 사이렌으로 / 알려 드립니다."},
+    {"selector":"00/108","entry_index":32,"draft_translation":"젠장! 들켜 버렸나! / 이렇게 된 이상 어쩔 수 없지. / 가라!! 바이러스들아!!"},
+    {"selector":"00/108","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 서브칩 「[printItem item=113]」을 / 획득했다!!"},
+    {"selector":"00/108","entry_index":231,"draft_translation":"「[printItem item=113]」 / 보유량이 가득 차서 / 더 가질 수 없다!"},
+    {"selector":"00/108","entry_index":232,"draft_translation":"「[printItem item=113]」 / 보유량이 가득 찼다!"},
+
+    {"selector":"00/109","entry_index":0,"draft_translation":"저희는 이 집의 / 가전제품을 관리합니다. // 에어컨부터 욕실까지 / 생활을 철저히 지원합니다!"},
+    {"selector":"00/109","entry_index":1,"draft_translation":"오늘도 열심히 일합니다!! / 내일도 열심히 일합니다!! // 매일매일 / 열심히 일합니다!! // 저희의 노력이 / 이 집에 사는 분들의 / 편안함으로 바뀝니다."},
+    {"selector":"00/109","entry_index":32,"draft_translation":"젠장! 들켜 버렸나! / 이렇게 된 이상 어쩔 수 없지. / 가라!! 바이러스들아!!"},
+    {"selector":"00/109","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 서브칩 「[printItem item=117]」을 / 획득했다!!"},
+    {"selector":"00/109","entry_index":231,"draft_translation":"「[printItem item=117]」 / 보유량이 가득 차서 / 더 가질 수 없다!"},
+    {"selector":"00/109","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
+
+    {"selector":"00/110","entry_index":0,"draft_translation":"따라라 딴따따 딴따따 따라라란, / 따라란란란란란♪ // 저는 전자 피아노의 / 프로그램입니다. // 언제나 진짜 피아노에 가까운 / 음질을 내려고 / 연습하고 있습니다."},
+    {"selector":"00/110","entry_index":1,"draft_translation":"하나 둘 셋 넷, 하나 둘 셋 넷... // 저는 메트로놈을 / 담당하는 프로그램입니다. // 정확한 리듬을 새기기 위해 / 연습하고 있습니다."},
+    {"selector":"00/110","entry_index":32,"draft_translation":"젠장! 들켜 버렸나! / 이렇게 된 이상 어쩔 수 없지. / 가라!! 바이러스들아!!"},
+    {"selector":"00/110","entry_index":190,"draft_translation":"SSS 라이선스 시험 / 응시자시군요. // 제 키워드는 이것입니다. // 「나를 만든 부모」 // 벌써 아시겠습니까?","review_notes":["원문 키워드 'ワタシの ウみの オヤ'의 수수께끼 기능을 보존한 초안이며 실제 정답 입력·선택지와 통합 검수가 필요함."]},
+    {"selector":"00/110","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"},
+    {"selector":"00/110","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=96]」을 / 획득했다!!"},
+
+    {"selector":"00/111","entry_index":0,"draft_translation":"차가운 아이스커피를 / 만드는 것이 제 일입니다. // 더운 계절은 바로 제 차례죠!! / 당신도 한 잔 어떠십니까? // 아, 내비는 커피를 못 마시죠. / 죄송합니다."},
+    {"selector":"00/111","entry_index":1,"draft_translation":"저는 따뜻한 커피를 / 만드는 프로그램입니다. // 하지만 더운 계절에는 / 모두 아이스커피만 마셔서 / 무척 심심합니다. // 아이스커피 프로그램 녀석, / 조금 인기가 있다고 / 우쭐대고 있습니다. // 아이스커피 담당 주제에!"},
+    {"selector":"00/111","entry_index":32,"draft_translation":"프로그램 도둑이구나!! / 훔친 프로그램을 돌려줘!"},
+    {"selector":"00/111","entry_index":33,"draft_translation":"뭐야? 벌써 여기까지 왔다고!? / 알았어, 돌려주면 되잖아! / 돌려주면!! // 자, 받아!!"},
+    {"selector":"00/111","entry_index":34,"draft_translation":"록맨은 / 「[printItem item=15]」을 / 획득했다!!"},
+    {"selector":"00/111","entry_index":35,"draft_translation":"빈틈을 보였구나!! / 이 악당 녀석!! // 이것이나 받아라!!"},
+    {"selector":"00/111","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"},
+
+    {"selector":"00/112","entry_index":0,"draft_translation":"휴대용 게임기는 아이들의 / 친구 관계를 넓혀 주는 / 힘이 있습니다. // PET와 아주 비슷하네요."},
+    {"selector":"00/112","entry_index":1,"draft_translation":"저희의 일은 / 여러 게임 소프트를 / 작동시키는 것입니다. // 힘든 일이지만, // 다양한 게임 소프트에 들어 있는 / 프로그램과 이야기할 수 있어서 / 즐겁습니다."},
+    {"selector":"00/112","entry_index":32,"draft_translation":"헉, 여길 어떻게 알아냈지? / 으윽, 잡힐 수는 없어! / 이것이나 받아라!!"},
+    {"selector":"00/112","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=16] [printCode code=*]」를 / 획득했다!!"},
+
+    {"selector":"00/113","entry_index":0,"draft_translation":"요즘 사람들은 / 모두 PET를 사용해서 // 저희가 나설 일이 / 점점 줄어들고 있습니다..."},
+    {"selector":"00/113","entry_index":1,"draft_translation":"지금 전화 회사 직원이 와서 / 수리해 주고 있습니다. // 좀처럼 사용해 주지 않다 보니 / 몸 상태가 조금 / 나빠지고 말았습니다."}
+  ]
+}

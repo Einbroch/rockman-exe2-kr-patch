@@ -1,0 +1,693 @@
+source	reading	korean	category	evidence	confidence	notes
+ロックマン	ロックマン	록맨	character_name	00/353:0	high	일본판 표기 기준
+メットール	メットール	메톨	enemy_name	00/353:1	high	계열 공통 어근
+メットール2	メットール2	메톨2	enemy_name	00/353:2	high	
+メットール3	メットール3	메톨3	enemy_name	00/353:3	high	
+キャノーダム	キャノーダム	캐노덤	enemy_name	00/353:4	medium	일본판 독음 기준
+キャノーダム2	キャノーダム2	캐노덤2	enemy_name	00/353:5	medium	
+キャノーダム3	キャノーダム3	캐노덤3	enemy_name	00/353:6	medium	
+カブタンク	カブタンク	카부탱크	enemy_name	00/353:7	high	
+カブタンク2	カブタンク2	카부탱크2	enemy_name	00/353:8	high	
+カブタンク3	カブタンク3	카부탱크3	enemy_name	00/353:9	high	
+キオルシン	キオルシン	키오루신	enemy_name	00/353:10	medium	고유 조어 음역
+バドラフト	バドラフト	바드래프트	enemy_name	00/353:11	medium	고유 조어 음역
+クモンペ	クモンペ	쿠몬페	enemy_name	00/353:12	medium	
+クモンペ2	クモンペ2	쿠몬페2	enemy_name	00/353:13	medium	
+クモンペ3	クモンペ3	쿠몬페3	enemy_name	00/353:14	medium	
+ゴースラー	ゴースラー	고슬러	enemy_name	00/353:15	medium	
+ゴースラー2	ゴースラー2	고슬러2	enemy_name	00/353:16	medium	
+ゴースラー3	ゴースラー3	고슬러3	enemy_name	00/353:17	medium	
+ハンディース	ハンディース	핸디스	enemy_name	00/353:18	medium	
+ハンディース2	ハンディース2	핸디스2	enemy_name	00/353:19	medium	
+ハンディース3	ハンディース3	핸디스3	enemy_name	00/353:20	medium	
+ラビリー	ラビリー	라빌리	enemy_name	00/353:21	medium	
+ハイラビリー	ハイラビリー	하이라빌리	enemy_name	00/353:22	medium	
+メガラビリー	メガラビリー	메가라빌리	enemy_name	00/353:23	medium	
+メテファイア	メテファイア	메테파이어	enemy_name	00/353:24	medium	
+フルファイア	フルファイア	풀파이어	enemy_name	00/353:25	high	
+デスファイア	デスファイア	데스파이어	enemy_name	00/353:26	high	
+プクール	プクール	푸쿨	enemy_name	00/353:27	medium	
+プクールボウ	プクールボウ	푸쿨보우	enemy_name	00/353:28	medium	
+ハルドボルズ	ハルドボルズ	하르도볼즈	enemy_name	00/353:29	medium	고유 조어 음역
+ハルドボルズ2	ハルドボルズ2	하르도볼즈2	enemy_name	00/353:30	medium	
+ハルドボルズ3	ハルドボルズ3	하르도볼즈3	enemy_name	00/353:31	medium	
+キャンデービル	キャンデービル	캔디데빌	enemy_name	00/353:32	medium	Candy Devil 조어로 해석
+キャンデービル2	キャンデービル2	캔디데빌2	enemy_name	00/353:33	medium	
+キャンデービル3	キャンデービル3	캔디데빌3	enemy_name	00/353:34	medium	
+チャマッシュ	チャマッシュ	차머시	enemy_name	00/353:35	medium	
+キマッシュ	キマッシュ	키머시	enemy_name	00/353:36	medium	
+クロマッシュ	クロマッシュ	크로머시	enemy_name	00/353:37	medium	
+スウォーディン	スウォーディン	스워딘	enemy_name	00/353:38	medium	
+スウォードラ	スウォードラ	스워드라	enemy_name	00/353:39	medium	
+スウォータル	スウォータル	스워탈	enemy_name	00/353:40	medium	
+ラッシュ	ラッシュ	러시	enemy_name	00/353:41	high	
+ホンキノラッシュ	ホンキノラッシュ	진심의 러시	enemy_name	00/353:42	medium	의미 번역
+プクールバブ	プクールバブ	푸쿨바브	enemy_name	00/353:43	medium	
+ヘルコンドル	ヘルコンドル	헬콘도르	enemy_name	00/353:44	high	
+ポワルド	ポワルド	포와르도	enemy_name	00/353:45	medium	
+ポワルド2	ポワルド2	포와르도2	enemy_name	00/353:46	medium	
+ポワルド3	ポワルド3	포와르도3	enemy_name	00/353:47	medium	
+チュートン	チュートン	츄톤	enemy_name	00/353:48	medium	
+チュートン2	チュートン2	츄톤2	enemy_name	00/353:49	medium	
+チュートン3	チュートン3	츄톤3	enemy_name	00/353:50	medium	
+パララ	パララ	파라라	enemy_name	00/353:51	high	
+パララ2	パララ2	파라라2	enemy_name	00/353:52	high	
+パララ3	パララ3	파라라3	enemy_name	00/353:53	high	
+ミノゴロモン	ミノゴロモン	미노고로몬	enemy_name	00/353:54	medium	
+ミノゴロモン2	ミノゴロモン2	미노고로몬2	enemy_name	00/353:55	medium	
+ミノゴロモン3	ミノゴロモン3	미노고로몬3	enemy_name	00/353:56	medium	
+ガルー	ガルー	가루	enemy_name	00/353:57	medium	
+ガルーバー	ガルーバー	가루바	enemy_name	00/353:58	medium	
+ガルードラ	ガルードラ	가루드라	enemy_name	00/353:59	medium	
+フレイボー	フレイボー	플레이보	enemy_name	00/353:60	medium	
+フレイボー2	フレイボー2	플레이보2	enemy_name	00/353:61	medium	
+フレイボー3	フレイボー3	플레이보3	enemy_name	00/353:62	medium	
+エビロン	エビロン	에비론	enemy_name	00/353:63	medium	
+エビデル	エビデル	에비델	enemy_name	00/353:64	medium	
+エビクロス	エビクロス	에비크로스	enemy_name	00/353:65	medium	
+バジリコ	バジリコ	바질리코	enemy_name	00/353:66	medium	
+アボリコ	アボリコ	아보리코	enemy_name	00/353:67	medium	
+ナタリコ	ナタリコ	나타리코	enemy_name	00/353:68	medium	
+ユラ	ユラ	유라	enemy_name	00/353:69	high	
+ユラユラ	ユラユラ	유라유라	enemy_name	00/353:70	high	
+ユラリオン	ユラリオン	유라리온	enemy_name	00/353:71	medium	
+タコバル	タコバル	타코발	enemy_name	00/353:72	medium	
+タコバリン	タコバリン	타코바린	enemy_name	00/353:73	medium	
+タコバレー	タコバレー	타코발레	enemy_name	00/353:74	medium	
+ヨーヨット	ヨーヨット	요요트	enemy_name	00/353:75	medium	
+ヨーシップ	ヨーシップ	요십	enemy_name	00/353:76	medium	
+ヨーランド	ヨーランド	요랜드	enemy_name	00/353:77	medium	
+シェルキー	シェルキー	셸키	enemy_name	00/353:78	medium	
+シェルニー	シェルニー	셸니	enemy_name	00/353:79	medium	
+シェルジー	シェルジー	셸지	enemy_name	00/353:80	medium	
+キルプラント	キルプラント	킬플랜트	enemy_name	00/353:81	high	
+キルウィード	キルウィード	킬위드	enemy_name	00/353:82	high	
+キルフラワー	キルフラワー	킬플라워	enemy_name	00/353:83	high	
+カーズ	カーズ	커즈	enemy_name	00/353:84	medium	
+カーズナ	カーズナ	커즈나	enemy_name	00/353:85	medium	
+カーズド	カーズド	커즈드	enemy_name	00/353:86	medium	
+プロテクト	プロテクト	프로텍트	enemy_name	00/353:87	high	
+メガプロテクト	メガプロテクト	메가프로텍트	enemy_name	00/353:88	high	
+ギガプロテクト	ギガプロテクト	기가프로텍트	enemy_name	00/353:89	high	
+ヌール	ヌール	누르	enemy_name	00/353:90	medium	
+ヌメリー	ヌメリー	누메리	enemy_name	00/353:91	medium	
+ヌメルタ	ヌメルタ	누메루타	enemy_name	00/353:92	medium	
+マグニッカー	マグニッカー	마그니커	enemy_name	00/353:93	medium	
+マグニルド	マグニルド	마그니르드	enemy_name	00/353:94	medium	
+マグタイガー	マグタイガー	마그타이거	enemy_name	00/353:95	medium	
+ダークシャドー	ダークシャドー	다크섀도	enemy_name	00/353:96	high	
+レッドデビル	レッドデビル	레드데빌	enemy_name	00/353:97	high	
+ブルーデーモン	ブルーデーモン	블루데몬	enemy_name	00/353:98	high	
+ウインドボックス	ウインドボックス	윈드박스	enemy_name	00/353:99	high	
+バキュームファン	バキュームファン	배큠팬	enemy_name	00/353:100	high	
+ストームボックス	ストームボックス	스톰박스	enemy_name	00/353:101	high	
+UFOサニー	UFOサニー	UFO서니	enemy_name	00/353:102	medium	
+UFOトニー	UFOトニー	UFO토니	enemy_name	00/353:103	medium	
+UFOジェニー	UFOジェニー	UFO제니	enemy_name	00/353:104	medium	
+ゲニン	ゲニン	게닌	enemy_name	00/353:105	medium	닌자 계급명 음역
+チューニン	チューニン	츄닌	enemy_name	00/353:106	medium	닌자 계급명 음역
+ジョーニン	ジョーニン	죠닌	enemy_name	00/353:107	medium	닌자 계급명 음역
+フデロー	フデロー	후데로	enemy_name	00/353:108	medium	
+フデロー2	フデロー2	후데로2	enemy_name	00/353:109	medium	
+フデロー3	フデロー3	후데로3	enemy_name	00/353:110	medium	
+マグマドラゴン	マグマドラゴン	마그마드래곤	enemy_name	00/353:111	high	
+ブルードラゴン	ブルードラゴン	블루드래곤	enemy_name	00/353:112	high	
+イエロードラゴン	イエロードラゴン	옐로드래곤	enemy_name	00/353:113	high	
+ドリームメラル	ドリームメラル	드림메랄	enemy_name	00/353:114	medium	고유 조어 음역
+ドリームラピア	ドリームラピア	드림라피아	enemy_name	00/353:115	medium	고유 조어 음역
+ドリームボルト	ドリームボルト	드림볼트	enemy_name	00/353:116	high	
+ドリームモス	ドリームモス	드림모스	enemy_name	00/353:117	medium	
+ドリームビット	ドリームビット	드림비트	enemy_name	00/353:118	medium	
+メガリアA	メガリアA	메가리아A	enemy_name	00/353:119	medium	
+メガリアH	メガリアH	메가리아H	enemy_name	00/353:120	medium	
+メガリアW	メガリアW	메가리아W	enemy_name	00/353:121	medium	
+メガリアE	メガリアE	메가리아E	enemy_name	00/353:122	medium	
+エアーマン	エアーマン	에어맨	navi_name	00/353:128	high	기존 번역 용례 유지
+エアーマンV2	エアーマンV2	에어맨V2	navi_name	00/353:129	high	
+エアーマンV3	エアーマンV3	에어맨V3	navi_name	00/353:130	high	
+クイックマン	クイックマン	퀵맨	navi_name	00/353:131	high	기존 번역 용례 유지
+クイックマンV2	クイックマンV2	퀵맨V2	navi_name	00/353:132	high	
+クイックマンV3	クイックマンV3	퀵맨V3	navi_name	00/353:133	high	
+カットマン	カットマン	컷맨	navi_name	00/353:134	high	기존 번역 용례 유지
+カットマンV2	カットマンV2	컷맨V2	navi_name	00/353:135	high	
+カットマンV3	カットマンV3	컷맨V3	navi_name	00/353:136	high	
+シャドーマン	シャドーマン	섀도맨	navi_name	00/353:137	high	기존 번역 용례 유지
+シャドーマンV2	シャドーマンV2	섀도맨V2	navi_name	00/353:138	high	
+シャドーマンV3	シャドーマンV3	섀도맨V3	navi_name	00/353:139	high	
+ナイトマン	ナイトマン	나이트맨	navi_name	00/353:140	high	기존 번역 용례 유지
+ナイトマンV2	ナイトマンV2	나이트맨V2	navi_name	00/353:141	high	
+ナイトマンV3	ナイトマンV3	나이트맨V3	navi_name	00/353:142	high	
+マグネットマン	マグネットマン	마그넷맨	navi_name	00/353:143	high	기존 번역 용례 유지
+マグネットマンV2	マグネットマンV2	마그넷맨V2	navi_name	00/353:144	high	
+マグネットマンV3	マグネットマンV3	마그넷맨V3	navi_name	00/353:145	high	
+フリーズマン	フリーズマン	프리즈맨	navi_name	00/353:146	high	기존 번역 용례 유지
+フリーズマンV2	フリーズマンV2	프리즈맨V2	navi_name	00/353:147	high	
+フリーズマンV3	フリーズマンV3	프리즈맨V3	navi_name	00/353:148	high	
+ゴスペル	ゴスペル	고스펠	proper_name	00/353:149	high	기존 번역 용례 유지
+ヒートマン	ヒートマン	히트맨	navi_name	00/353:152	high	기존 번역 용례 유지
+ヒートマンV2	ヒートマンV2	히트맨V2	navi_name	00/353:153	high	
+ヒートマンV3	ヒートマンV3	히트맨V3	navi_name	00/353:154	high	
+トードマン	トードマン	토드맨	navi_name	00/353:155	high	
+トードマンV2	トードマンV2	토드맨V2	navi_name	00/353:156	high	
+トードマンV3	トードマンV3	토드맨V3	navi_name	00/353:157	high	
+サンダーマン	サンダーマン	선더맨	navi_name	00/353:158	high	기존 번역 용례 유지
+サンダーマンV2	サンダーマンV2	선더맨V2	navi_name	00/353:159	high	
+サンダーマンV3	サンダーマンV3	선더맨V3	navi_name	00/353:160	high	
+スネークマン	スネークマン	스네이크맨	navi_name	00/353:161	high	기존 번역 용례 유지
+スネークマンV2	スネークマンV2	스네이크맨V2	navi_name	00/353:162	high	
+スネークマンV3	スネークマンV3	스네이크맨V3	navi_name	00/353:163	high	
+ガッツマン	ガッツマン	거츠맨	navi_name	00/353:164	high	기존 번역 용례 유지
+ガッツマンV2	ガッツマンV2	거츠맨V2	navi_name	00/353:165	high	
+ガッツマンV3	ガッツマンV3	거츠맨V3	navi_name	00/353:166	high	
+ブルース	ブルース	블루스	navi_name	00/353:167	high	기존 번역 용례 유지
+ブルースV2	ブルースV2	블루스V2	navi_name	00/353:168	high	
+ブルースV3	ブルースV3	블루스V3	navi_name	00/353:169	high	
+ゲートマン	ゲートマン	게이트맨	navi_name	00/353:170	high	기존 번역 용례 유지
+ゲートマンV2	ゲートマンV2	게이트맨V2	navi_name	00/353:171	high	
+ゲートマンV3	ゲートマンV3	게이트맨V3	navi_name	00/353:172	high	
+プラネットマン	プラネットマン	플래닛맨	navi_name	00/353:173	high	기존 번역 용례 유지
+プラネットマンV2	プラネットマンV2	플래닛맨V2	navi_name	00/353:174	high	
+プラネットマンV3	プラネットマンV3	플래닛맨V3	navi_name	00/353:175	high	
+ナパームマン	ナパームマン	나팜맨	navi_name	00/353:176	high	기존 번역 용례 유지
+ナパームマンV2	ナパームマンV2	나팜맨V2	navi_name	00/353:177	high	
+ナパームマンV3	ナパームマンV3	나팜맨V3	navi_name	00/353:178	high	
+ファラオマン	ファラオマン	파라오맨	navi_name	00/353:179	high	기존 번역 용례 유지
+ファラオマンV2	ファラオマンV2	파라오맨V2	navi_name	00/353:180	high	
+ファラオマンV3	ファラオマンV3	파라오맨V3	navi_name	00/353:181	high	
+フォルテ	フォルテ	포르테	navi_name	00/353:182,183	high	기존 번역 용례 유지
+フォルテSP	フォルテSP	포르테SP	navi_name	00/353:184	high	
+きかく	きかく	기획	credit_role	00/354:10	high	
+やすま まさひろ	やすま まさひろ	야스마 마사히로	staff_name	00/354:12	medium	원문 독음 기준
+シナリオ	シナリオ	시나리오	credit_role	00/354:14	high	
+くろさわ しん	くろさわ しん	쿠로사와 신	staff_name	00/354:16	medium	원문 독음 기준
+えぐち まさかず	えぐち まさかず	에구치 마사카즈	staff_name	00/354:17	medium	원문 독음 기준
+キャラクターデザイン	キャラクターデザイン	캐릭터 디자인	credit_role	00/354:20	high	
+いしはら ゆうじ	いしはら ゆうじ	이시하라 유지	staff_name	00/354:22	medium	원문 독음 기준
+かじ はやと	かじ はやと	카지 하야토	staff_name	00/354:23	medium	원문 독음 기준
+ゲートマンデザイン	ゲートマンデザイン	게이트맨 디자인	credit_role	00/354:25	high	
+さとかわ	さとかわ	사토카와	staff_name	00/354:26	medium	다음 엔트리와 한 이름을 이룸
+しょういちろう	しょういちろう	쇼이치로	staff_name	00/354:27	medium	앞 엔트리와 한 이름을 이룸
+オブジェクト	オブジェクト	오브젝트	credit_role	00/354:32	high	
+はしなが ともゆき	はしなが ともゆき	하시나가 토모유키	staff_name	00/354:34	medium	원문 독음 기준
+さとう かずたか	さとう かずたか	사토 카즈타카	staff_name	00/354:35	medium	원문 독음 기준
+スクロール	スクロール	스크롤	credit_role	00/354:41	high	
+きじま みき	きじま みき	키지마 미키	staff_name	00/354:43	medium	원문 독음 기준
+よしおか まゆみ	よしおか まゆみ	요시오카 마유미	staff_name	00/354:44	medium	원문 독음 기준
+なべしま もとき	なべしま もとき	나베시마 모토키	staff_name	00/354:45	medium	원문 독음 기준
+プログラム	プログラム	프로그램	credit_role	00/354:51	high	
+まつだ こうえつ	まつだ こうえつ	마츠다 코에츠	staff_name	00/354:53	medium	원문 독음 기준
+しんがき ひでかず	しんがき ひでかず	신가키 히데카즈	staff_name	00/354:54	medium	원문 독음 기준
+かたおか みちのり	かたおか みちのり	카타오카 미치노리	staff_name	00/354:55	medium	원문 독음 기준
+さかの みつのり	さかの みつのり	사카노 미츠노리	staff_name	00/354:56	medium	원문 독음 기준
+おんがく	おんがく	음악	credit_role	00/354:60	high	
+あおき よしの	あおき よしの	아오키 요시노	staff_name	00/354:62	medium	원문 독음 기준
+こうかおん	こうかおん	효과음	credit_role	00/354:64	high	
+あまぎし しんじ	あまぎし しんじ	아마기시 신지	staff_name	00/354:66	medium	원문 독음 기준
+オフィシャルイラスト	オフィシャルイラスト	공식 일러스트	credit_role	00/354:72	high	
+こまき しんすけ	こまき しんすけ	코마키 신스케	staff_name	00/354:74	medium	원문 독음 기준
+ひぐらし りゅうじ	ひぐらし りゅうじ	히구라시 류지	staff_name	00/354:75	medium	원문 독음 기준
+マニュアルせいさく	マニュアルせいさく	매뉴얼 제작	credit_role	00/354:80	high	
+いわさき あけみ	いわさき あけみ	이와사키 아케미	staff_name	00/354:82	medium	원문 독음 기준
+バグチェックとうかつ	バグチェックとうかつ	버그 체크 총괄	credit_role	00/354:84	high	
+むかい まさやす	むかい まさやす	무카이 마사야스	staff_name	00/354:86	medium	원문 독음 기준
+スペシャルサンクス!	スペシャルサンクス!	스페셜 땡스!	credit_role	00/354:91,100,110,121	high	반복 크레딧 표기
+かわの よしのり	かわの よしのり	카와노 요시노리	staff_name	00/354:93	medium	원문 독음 기준
+なかむら ひろこ	なかむら ひろこ	나카무라 히로코	staff_name	00/354:95	medium	원문 독음 기준
+たなか さら	たなか さら	타나카 사라	staff_name	00/354:96	medium	원문 독음 기준
+さわだ よしみ	さわだ よしみ	사와다 요시미	staff_name	00/354:102	medium	원문 독음 기준
+ふなはら くにお	ふなはら くにお	후나하라 쿠니오	staff_name	00/354:103	medium	원문 독음 기준
+わたなべ ゆうすけ	わたなべ ゆうすけ	와타나베 유스케	staff_name	00/354:104	medium	원문 독음 기준
+うかい さとし	うかい さとし	우카이 사토시	staff_name	00/354:105	medium	원문 독음 기준
+やすだ ゆうこ	やすだ ゆうこ	야스다 유코	staff_name	00/354:106	medium	원문 독음 기준
+きたはら たかし	きたはら たかし	키타하라 타카시	staff_name	00/354:112	medium	원문 독음 기준
+みなみで なおと	みなみで なおと	미나미데 나오토	staff_name	00/354:113	medium	원문 독음 기준
+おやま あきら	おやま あきら	오야마 아키라	staff_name	00/354:114	medium	원문 독음 기준
+いりえ ひろゆき	いりえ ひろゆき	이리에 히로유키	staff_name	00/354:115	medium	원문 독음 기준
+ほんやくぶたいの	ほんやくぶたいの	번역 부대	credit_text	00/354:116	high	다음 엔트리와 자연스럽게 연결되도록 조사 생략
+みんな	みんな	여러분	credit_text	00/354:117	high	앞 엔트리와 이어짐
+だい2かいはつぶのみんな	だい2かいはつぶのみんな	제2개발부 여러분	credit_text	00/354:123	high	
+カプコンのみんな	カプコンのみんな	캡콤 여러분	credit_text	00/354:125	high	
+プロデューサー	プロデューサー	프로듀서	credit_role	00/354:132	high	
+いなふね けいじ	いなふね けいじ	이나후네 케이지	staff_name	00/354:134	high	공식적으로 널리 쓰이는 독음
+クリアじかん	クリアじかん	클리어 시간	ui_term	00/354:143	high	동적 시간 값 앞 표기
+データライブラリ	データライブラリ	데이터 라이브러리	ui_term	00/354:144;00/355:46	high	
+ロックマンLV.	ロックマンLV.	록맨 LV.	ui_term	00/354:146	high	동적 레벨 값 앞 표기
+デリートタイム	デリートタイム	딜리트 타임	ui_term	00/355:0	high	
+バスティングレベル	バスティングレベル	버스팅 레벨	ui_term	00/355:2	high	
+エアーマン戦	エアーマン戦	에어맨전	battle_label	00/355:20	high	
+ガッツマン戦	ガッツマン戦	거츠맨전	battle_label	00/355:21	high	
+トードマン戦	トードマン戦	토드맨전	battle_label	00/355:22	high	
+クイックマン戦	クイックマン戦	퀵맨전	battle_label	00/355:23	high	
+ゲートマン戦	ゲートマン戦	게이트맨전	battle_label	00/355:24	high	
+カットマン戦	カットマン戦	컷맨전	battle_label	00/355:25	high	
+シャドーマン戦	シャドーマン戦	섀도맨전	battle_label	00/355:26	high	
+サンダーマン戦	サンダーマン戦	선더맨전	battle_label	00/355:27	high	
+スネークマン戦	スネークマン戦	스네이크맨전	battle_label	00/355:28	high	
+ブルース戦	ブルース戦	블루스전	battle_label	00/355:29	high	
+ナイトマン戦	ナイトマン戦	나이트맨전	battle_label	00/355:30	high	
+マグネットマン戦	マグネットマン戦	마그넷맨전	battle_label	00/355:31	high	
+ヒートマン戦	ヒートマン戦	히트맨전	battle_label	00/355:32	high	
+フリーズマン戦	フリーズマン戦	프리즈맨전	battle_label	00/355:33	high	
+ゴスペル戦	ゴスペル戦	고스펠전	battle_label	00/355:34	high	
+フォルテ戦	フォルテ戦	포르테전	battle_label	00/355:35	high	
+ファラオマン戦	ファラオマン戦	파라오맨전	battle_label	00/355:36	high	
+ナパームマン戦	ナパームマン戦	나팜맨전	battle_label	00/355:37	high	
+プラネットマン戦	プラネットマン戦	플래닛맨전	battle_label	00/355:38	high	
+真フォルテ戦	真フォルテ戦	진 포르테전	battle_label	00/355:39	high	
+そうプレイじかん	そうプレイじかん	총 플레이 시간	ui_term	00/355:40	high	
+そうせんとう回数	そうせんとうかいすう	총 전투 횟수	ui_term	00/355:41	high	
+たおしたテキの数	たおしたテキのかず	쓰러뜨린 적 수	ui_term	00/355:42	high	
+へいきんデリートタイム	へいきんデリートタイム	평균 딜리트 타임	ui_term	00/355:43	high	
+へいきんバスティングレベル	へいきんバスティングレベル	평균 버스팅 레벨	ui_term	00/355:44	high	
+にげた回数	にげたかいすう	도망친 횟수	ui_term	00/355:45	high	
+P・Aメモ	P・Aメモ	P・A 메모	ui_term	00/355:47	high	
+はい	はい	예	choice	00/356:0	high	공통 긍정 선택지
+いいえ	いいえ	아니요	choice	00/356:0	high	공통 부정 선택지
+バトルチップ	バトルチップ	배틀칩	game_term	00/356:0	high	
+チップデータ	チップデータ	칩 데이터	game_term	00/356:3	high	
+チップトレーダー	チップトレーダー	칩 트레이더	device	00/356:0	high	
+チップトレーダースペシャル	チップトレーダースペシャル	칩 트레이더 스페셜	device	00/356:6	high	
+レトロチップ	レトロチップ	레트로 칩	game_term	00/356:12	high	EXE1에서 가져오는 칩
+レトロチップトレーダー	レトロチップトレーダー	레트로 칩 트레이더	device	00/356:12	high	
+ロックマンエグゼ	ロックマンエグゼ	록맨 에그제	game_title	00/356:13	high	전작 게임 제목
+つうしんエラー	つうしんエラー	통신 오류	system_message	00/356:14	high	
+フィストシリーズ	フィストシリーズ	피스트 시리즈	chip_series	00/357:71	high	
+サテライト1	サテライトワン	새틀라이트1	chip_name	00/357:72	high	칩 코드 G는 본문에서 별도 유지
+SSSしけん	エスエスエスしけん	SSS 시험	exam_name	00/357:73	high	
+SSしけん	エスエスしけん	SS 시험	exam_name	00/357:74	high	
+ミニエネルギー	ミニエネルギー	미니 에너지	item_name	00/357:76	high	
+フルエネルギー	フルエネルギー	풀 에너지	item_name	00/357:76	high	
+キャノン	キャノン	캐논	chip_name	00/357:77	high	
+メットガード	メットガード	메트가드	chip_name	00/357:79	high	
+ゼニー	ゼニー	제니	currency	00/357:78	high	
+熱斗	ねっと	넷토	character_name	00/358:0	high	
+ロックマン.EXE	ロックマンエグゼ	록맨.EXE	character_name	00/358:0	high	표시 문자열의 점 표기 유지
+PET	ピーイーティー	PET	device	00/358:18	high	
+やいと	やいと	야이토	character_name	00/358:3	high	
+ジャンボーズ	ジャンボーズ	점보즈	baseball_team	00/358:7	high	기존 번역 표기
+きよまつ	きよまつ	키요마츠	character_name	00/358:7	high	기존 번역 표기
+おくデンだに	おくデンだに	오쿠덴 계곡	location	00/358:8	high	기존 번역 표기
+アジーナ	アジーナ	아지나	location	00/358:14	high	
+アメロッパ	アメロッパ	아메롭파	location	00/358:22	high	
+コトブキ町	コトブキちょう	코토부키 마을	location	00/358:41	high	
+マリンハーバー	マリンハーバー	마린하버	location	00/358:41	high	
+メトロライン	メトロライン	메트로라인	transport	00/358:41	high	
+オフィシャルセンター	オフィシャルセンター	오피셜 센터	location	00/358:59	high	
+オフィシャルスクエア	オフィシャルスクエア	오피셜 스퀘어	location	00/358:65	high	
+アジーナスクエア	アジーナスクエア	아지나 스퀘어	location	00/358:66	high	
+アメロッパスクエア	アメロッパスクエア	아메롭파 스퀘어	location	00/358:67	high	
+コトブキスクエア	コトブキスクエア	코토부키 스퀘어	location	00/358:68	high	
+ネットバトラー	ネットバトラー	넷배틀러	game_term	00/358:59	high	
+オペレータ	オペレータ	오퍼레이터	game_term	00/358:58	high	
+Bライセンス	ビーライセンス	B 라이선스	license	00/358:4	high	
+Aライセンス	エーライセンス	A 라이선스	license	00/358:60	high	
+Sライセンス	エスライセンス	S 라이선스	license	00/358:61	high	
+SSライセンス	エスエスライセンス	SS 라이선스	license	00/358:62	high	
+SSSライセンス	エスエスエスライセンス	SSS 라이선스	license	00/358:63	high	
+メイル	メイル	메일	character_name	00/358:24	high	
+デカオ	デカオ	데카오	character_name	00/358:81	high	
+ケロ	ケロ	케로	character_name	00/358:83	high	
+ラウル	ラウル	라울	character_name	00/358:84	high	
+ミリオネア	ミリオネア	밀리어네어	character_name	00/358:85	high	기존 번역 표기
+オフィシャルネットバトラー	オフィシャルネットバトラー	오피셜 넷배틀러	game_term	00/358:86	high	
+セキュリティキューブ	セキュリティキューブ	보안 큐브	game_term	00/358:87	high	
+秋原町	あきはらちょう	아키하라 마을	location	00/358:88	high	
+マリンえき	マリンえき	마린역	location	00/358:89	high	원문 표기 유지
+おくデンえき	おくデンえき	오쿠덴역	location	00/358:90	high	원문 표기 유지
+くうこうえき	くうこうえき	공항역	location	00/358:91	high	원문 표기 유지
+レギュラーシステム	レギュラーシステム	레귤러 시스템	game_term	00/358:98	high	
+ミステリーデータ	ミステリーデータ	미스터리 데이터	game_term	00/358:115	high	
+ゆうきのデータ	ゆうきのデータ	용기 데이터	item_name	00/359:1	high	
+きぼうのデータ	きぼうのデータ	희망 데이터	item_name	00/359:2	high	
+せんす	せんす	부채	item_name	00/359:3	high	문맥상 접는 부채
+じゅけんひょう	じゅけんひょう	수험표	item_name	00/359:4	high	
+あるきプログラム	あるきプログラム	걷기 프로그램	item_name	00/359:5	high	
+やさしさのデータ	やさしさのデータ	상냥함 데이터	item_name	00/359:6	high	
+しんぶんし	しんぶんし	신문	item_name	00/359:7	high	
+ライター	ライター	라이터	item_name	00/359:8	high	
+ぼうきれ	ぼうきれ	나뭇가지	item_name	00/359:9	high	
+オペラグラス	オペラグラス	오페라글라스	item_name	00/359:10	high	
+ほうちょう	ほうちょう	식칼	item_name	00/359:11	high	
+まき木	まきぎ	장작	item_name	00/359:12	high	
+サカナ	サカナ	물고기	item_name	00/359:13	high	
+フウセン	フウセン	풍선	item_name	00/359:14	high	
+ナゾのプログラム	ナゾのプログラム	수수께끼 프로그램	item_name	00/359:15	high	
+ワルのデータA	ワルのデータエー	악당 데이터 A	item_name	00/359:16	high	
+ワルのデータB	ワルのデータビー	악당 데이터 B	item_name	00/359:17	high	A와 짝을 이루는 명칭
+じゅうでんでんち	じゅうでんでんち	충전지	item_name	00/359:18	high	기존 대사 용례 유지
+アジーナのカギ	アジーナのカギ	아지나의 열쇠	item_name	00/359:19	high	
+メッセージデータ	メッセージデータ	메시지 데이터	item_name	00/359:20	high	
+チェンジ.bat	チェンジドットバット	체인지.bat	item_name	00/359:21	high	파일 확장자 보존
+こうくうけん	こうくうけん	항공권	item_name	00/359:22	high	
+パスポート	パスポート	여권	item_name	00/359:23	high	
+ワイヤレスプラグ	ワイヤレスプラグ	무선 플러그	item_name	00/359:24	high	기존 대사 용례 유지
+ミニPET	ミニペット	미니 PET	item_name	00/359:25	high	PET 표기 보존
+電脳カギ	でんのうカギ	전뇌 열쇠	item_name	00/359:26	high	
+ヒスイのブローチ	ヒスイのブローチ	비취 브로치	item_name	00/359:27	high	
+アメロンガーX	アメロンガーエックス	아메론가 X	item_name	00/359:28	high	00/37 기존 번역 용례 유지
+カルティーリング	カルティーリング	칼티 링	item_name	00/359:29	medium	고유 상품명 음역
+きちょうのぼうし	きちょうのぼうし	기장 모자	item_name	00/359:30	high	설명문 문맥 반영
+わりばし	わりばし	나무젓가락	item_name	00/359:31	high	
+ウイスキー	ウイスキー	위스키	item_name	00/359:32	high	
+さいほういと	さいほういと	재봉실	item_name	00/359:33	high	
+あかのかけら	あかのかけら	붉은 조각	item_name	00/359:34	high	
+あかワクチン	あかワクチン	적색 백신	item_name	00/359:35	high	색상 계열 명칭 통일
+しゃくねつデータ	しゃくねつデータ	작열 데이터	item_name	00/359:36	high	기존 대사 용례 유지
+きいろワクチン	きいろワクチン	황색 백신	item_name	00/359:37	high	색상 계열 명칭 통일
+あおのかけらA	あおのかけらエー	푸른 조각 A	item_name	00/359:38	high	
+あおのかけらB	あおのかけらビー	푸른 조각 B	item_name	00/359:39	high	
+ゴスペルのあかし	ゴスペルのあかし	고스펠의 증표	item_name	00/359:40	high	
+コトブキパス	コトブキパス	코토부키 패스	item_name	00/359:41	high	기존 대사 용례 유지
+ぼうじスーツ	ぼうじスーツ	방자 슈트	item_name	00/359:42	high	기존 대사 용례 유지
+電磁ビット042	でんじビットゼロヨンニ	전자 비트 042	item_name	00/359:43	high	연번 형식 보존
+電磁ビット082	でんじビットゼロハチニ	전자 비트 082	item_name	00/359:44	high	연번 형식 보존
+電磁ビット093	でんじビットゼロキュウサン	전자 비트 093	item_name	00/359:45	high	연번 형식 보존
+電磁ビット201	でんじビットニゼロイチ	전자 비트 201	item_name	00/359:46	high	연번 형식 보존
+電磁ビット232	でんじビットニサンニ	전자 비트 232	item_name	00/359:47	high	연번 형식 보존
+電磁ビット243	でんじビットニヨンサン	전자 비트 243	item_name	00/359:48	high	연번 형식 보존
+電磁ビット253	でんじビットニゴサン	전자 비트 253	item_name	00/359:49	high	연번 형식 보존
+電磁ビット271	でんじビットニナナイチ	전자 비트 271	item_name	00/359:50	high	연번 형식 보존
+電磁ビットEV	でんじビットイーブイ	전자 비트 EV	item_name	00/359:51	high	엘리베이터용 식별자 보존
+ラヴレター	ラヴレター	러브레터	item_name	00/359:52	high	기존 대사 용례 유지
+オオゲンゴロウ	オオゲンゴロウ	왕물방개	item_name	00/359:53	high	기존 덴산 왕물방개 용례와 통일
+アジーナのなみだ	アジーナのなみだ	아지나의 눈물	item_name	00/359:54	high	
+キングストーン	キングストーン	킹 스톤	item_name	00/359:55	high	
+びじょのたそがれ	びじょのたそがれ	미녀의 황혼	item_name	00/359:56	high	
+つわもののデータ	つわもののデータ	강자 데이터	item_name	00/359:57	high	설명문의 강자 표현과 통일
+サブライセンス	サブライセンス	서브 라이선스	item_name	00/359:58	high	
+フリーパス	フリーパス	프리 패스	item_name	00/359:64	high	
+ゲートキーA	ゲートキーエー	게이트 키 A	item_name	00/359:65	high	
+ゲートキーB	ゲートキービー	게이트 키 B	item_name	00/359:66	high	
+ゲートキーC	ゲートキーシー	게이트 키 C	item_name	00/359:67	high	
+ゲートキーD	ゲートキーディー	게이트 키 D	item_name	00/359:68	high	
+バグのかけら	バグのかけら	버그 조각	item_name	00/359:69	high	기존 대사 용례 유지
+メイルのPコード	メイルのピーコード	메일 P코드	item_name	00/359:80	high	
+デカオのPコード	デカオのピーコード	데카오 P코드	item_name	00/359:81	high	
+やいとのPコード	やいとのピーコード	야이토 P코드	item_name	00/359:82	high	
+ケロのPコード	ケロのピーコード	케로 P코드	item_name	00/359:83	high	
+ラウルのPコード	ラウルのピーコード	라울 P코드	item_name	00/359:84	high	
+ミリオネPコード	ミリオネピーコード	밀리어네어 P코드	item_name	00/359:85	high	표시 폭 때문에 축약된 원문을 정식 인명으로 번역
+ONBAPコード	オーエヌビーエーピーコード	ONBA P코드	item_name	00/359:86	high	영문 약자 보존
+ゴスペルPコード	ゴスペルピーコード	고스펠 P코드	item_name	00/359:87	high	
+あきはらきっぷ	あきはらきっぷ	아키하라 표	item_name	00/359:88	high	
+マリンきっぷ	マリンきっぷ	마린 표	item_name	00/359:89	high	
+おくデンきっぷ	おくデンきっぷ	오쿠덴 표	item_name	00/359:90	high	
+くうこうきっぷ	くうこうきっぷ	공항 표	item_name	00/359:91	high	
+HPメモリ	エイチピーメモリ	HP 메모리	item_name	00/359:96	high	
+バスターUP	バスターアップ	버스터 UP	item_name	00/359:97	high	
+レギュラーUP1	レギュラーアップワン	레귤러 UP1	item_name	00/359:98	high	숫자 접미사 보존
+レギュラーUP2	レギュラーアップツー	레귤러 UP2	item_name	00/359:99	high	숫자 접미사 보존
+レギュラーUP3	レギュラーアップスリー	레귤러 UP3	item_name	00/359:100	high	숫자 접미사 보존
+サブメモリ	サブメモリ	서브 메모리	item_name	00/359:101	high	
+シノビダッシュ	シノビダッシュ	시노비 대시	item_name	00/359:114	high	
+アントラップ	アントラップ	언트랩	item_name	00/359:115	high	기능 의미가 드러나는 영어 Untrap 음역
+エネミーサーチ	エネミーサーチ	에너미 서치	item_name	00/359:116	high	
+オープンロック	オープンロック	오픈 록	item_name	00/359:117	high	
+ノーマルスタイル	ノーマルスタイル	노멀 스타일	style_name	00/359:128	high	
+エレキガッツ	エレキガッツ	일렉 거츠	style_name	00/359:134	high	속성·스타일 계열 표기
+ヒートガッツ	ヒートガッツ	히트 거츠	style_name	00/359:135	high	속성·스타일 계열 표기
+アクアガッツ	アクアガッツ	아쿠아 거츠	style_name	00/359:136	high	속성·스타일 계열 표기
+ウッドガッツ	ウッドガッツ	우드 거츠	style_name	00/359:137	high	속성·스타일 계열 표기
+エレキカスタム	エレキカスタム	일렉 커스텀	style_name	00/359:139	high	속성·스타일 계열 표기
+ヒートカスタム	ヒートカスタム	히트 커스텀	style_name	00/359:140	high	속성·스타일 계열 표기
+アクアカスタム	アクアカスタム	아쿠아 커스텀	style_name	00/359:141	high	속성·스타일 계열 표기
+ウッドカスタム	ウッドカスタム	우드 커스텀	style_name	00/359:142	high	속성·스타일 계열 표기
+エレキブラザー	エレキブラザー	일렉 브라더	style_name	00/359:144	high	속성·스타일 계열 표기
+ヒートブラザー	ヒートブラザー	히트 브라더	style_name	00/359:145	high	속성·스타일 계열 표기
+アクアブラザー	アクアブラザー	아쿠아 브라더	style_name	00/359:146	high	속성·스타일 계열 표기
+ウッドブラザー	ウッドブラザー	우드 브라더	style_name	00/359:147	high	속성·스타일 계열 표기
+エレキシールド	エレキシールド	일렉 실드	style_name	00/359:149	high	속성·스타일 계열 표기
+ヒートシールド	ヒートシールド	히트 실드	style_name	00/359:150	high	속성·스타일 계열 표기
+アクアシールド	アクアシールド	아쿠아 실드	style_name	00/359:151	high	속성·스타일 계열 표기
+ウッドシールド	ウッドシールド	우드 실드	style_name	00/359:152	high	속성·스타일 계열 표기
+サイトスタイル	サイトスタイル	사이토 스타일	style_name	00/359:153	high	히카리 사이토의 이름에서 유래
+うそメッセージです	うそメッセージです	거짓 메시지입니다	system_label	00/362:0	high	더미 메시지 표기
+メトロ秋原駅	メトロあきはらえき	메트로 아키하라역	location_name	00/362:2	high	
+熱斗のリビング	ねっとのリビング	넷토의 거실	location_name	00/362:3	high	
+熱斗のへや	ねっとのへや	넷토의 방	location_name	00/362:4	high	
+メイルのリビング	メイルのリビング	메일의 거실	location_name	00/362:5	high	
+メイルのへや	メイルのへや	메일의 방	location_name	00/362:6	high	
+デカオのへや	デカオのへや	데카오의 방	location_name	00/362:7	high	
+やいとのへや	やいとのへや	야이토의 방	location_name	00/362:8	high	
+やいとのおフロ	やいとのおフロ	야이토의 욕실	location_name	00/362:9	high	
+5A教室	ごエーきょうしつ	5A 교실	location_name	00/362:10	high	
+やいとのいえろうか	やいとのいえろうか	야이토네 복도	location_name	00/362:11	high	
+メトロマリン駅	メトロマリンえき	메트로 마린역	location_name	00/362:14	high	
+ロビー	ロビー	로비	location_name	00/362:15	high	
+ライセンス じむきょく	ライセンス じむきょく	라이선스 사무국	location_name	00/362:16	high	
+しけんべや	しけんべや	시험실	location_name	00/362:17	high	
+パパの研究室	パパのけんきゅうしつ	아빠의 연구실	location_name	00/362:18	high	
+マザーコンピュータべや	マザーコンピュータべや	마더 컴퓨터실	location_name	00/362:20	high	기존 마더 컴퓨터실 용례 유지
+メトロおくデンだに駅	メトロおくデンだにえき	메트로 오쿠덴 계곡역	location_name	00/362:21	high	
+キャンプじょう入口	キャンプじょういりぐち	캠핑장 입구	location_name	00/362:22	high	
+キャンプじょうへのみち1	キャンプじょうへのみちいち	캠핑장 가는 길 1	location_name	00/362:23	high	
+キャンプじょうへのみち2	キャンプじょうへのみちに	캠핑장 가는 길 2	location_name	00/362:24	high	
+キャンプじょう	キャンプじょう	캠핑장	location_name	00/362:25	high	
+おくデンダム	おくデンダム	오쿠덴 댐	location_name	00/362:26	high	
+デンサンくうこう入口	デンサンくうこういりぐち	덴산 공항 입구	location_name	00/362:27	high	
+とうじょうフロア	とうじょうフロア	탑승장	location_name	00/362:28,34	high	두 공항의 공통 장소명
+メトロデンサンくうこう駅	メトロデンサンくうこうえき	메트로 덴산 공항역	location_name	00/362:29	high	
+アメロッパくうこう入口	アメロッパくうこういりぐち	아메롭파 공항 입구	location_name	00/362:33	high	
+アメロッパーク	アメロッパーク	아메롭파크	location_name	00/362:38	high	기존 대사 용례 유지
+アメロッパタウン	アメロッパタウン	아메롭파 타운	location_name	00/362:39	high	
+うらどおり	うらどおり	뒷골목	location_name	00/362:40	high	
+ホテルのへや	ホテルのへや	호텔방	location_name	00/362:41	high	
+ほうせきてん	ほうせきてん	보석점	location_name	00/362:42	high	
+アメロッパじょう	アメロッパじょう	아메롭파 성	location_name	00/362:43	high	
+バンサンの間	バンサンのま	만찬장	location_name	00/362:44	high	기존 대사 용례 유지
+ならくの間	ならくのま	나락의 방	location_name	00/362:45	high	
+やじりの間	やじりのま	화살촉의 방	location_name	00/362:46	high	
+つりてんじょうの間	つりてんじょうのま	낙하 천장의 방	location_name	00/362:47	medium	성의 낙하 천장 함정 문맥
+おしろ ちかかいだん	おしろ ちかかいだん	성 지하 계단	location_name	00/362:48	high	
+かえんの間	かえんのま	화염의 방	location_name	00/362:49	high	
+とまどいの間	とまどいのま	미혹의 방	location_name	00/362:50	high	
+おしろ ちじょうかいだん	おしろ ちじょうかいだん	성 지상 계단	location_name	00/362:51	high	
+おしろ ものみのとう	おしろ ものみのとう	성 전망탑	location_name	00/362:52	high	
+じょうむいんべや まえ	じょうむいんべや まえ	승무원실 앞	location_name	00/362:53	high	
+エコノミークラス	エコノミークラス	이코노미 클래스	location_name	00/362:54	high	
+ビジネスクラス	ビジネスクラス	비즈니스 클래스	location_name	00/362:55	high	
+ファーストクラス	ファーストクラス	퍼스트 클래스	location_name	00/362:56	high	
+コクピット	コクピット	조종실	location_name	00/362:57	high	
+ガスゆわかしきの電脳1	ガスゆわかしきのでんのういち	가스 온수기의 전뇌 1	location_name	00/362:69	high	
+ガスゆわかしきの電脳2	ガスゆわかしきのでんのうに	가스 온수기의 전뇌 2	location_name	00/362:70	high	
+きばくそうちの電脳1	きばくそうちのでんのういち	기폭 장치의 전뇌 1	location_name	00/362:71	high	
+きばくそうちの電脳2	きばくそうちのでんのうに	기폭 장치의 전뇌 2	location_name	00/362:72	high	
+きばくそうちの電脳3	きばくそうちのでんのうさん	기폭 장치의 전뇌 3	location_name	00/362:73	high	
+きばくそうちの電脳4	きばくそうちのでんのうよん	기폭 장치의 전뇌 4	location_name	00/362:74	high	
+マザーコンピュータ電脳1	マザーコンピュータでんのういち	마더 컴퓨터의 전뇌 1	location_name	00/362:75	high	
+マザーコンピュータ電脳2	マザーコンピュータでんのうに	마더 컴퓨터의 전뇌 2	location_name	00/362:76	high	
+マザーコンピュータ電脳3	マザーコンピュータでんのうさん	마더 컴퓨터의 전뇌 3	location_name	00/362:77	high	
+マザーコンピュータ電脳4	マザーコンピュータでんのうよん	마더 컴퓨터의 전뇌 4	location_name	00/362:78	high	
+マザーコンピュータ電脳5	マザーコンピュータでんのうご	마더 컴퓨터의 전뇌 5	location_name	00/362:79	high	
+おしろの電脳1	おしろのでんのういち	성의 전뇌 1	location_name	00/362:80	high	
+おしろの電脳2	おしろのでんのうに	성의 전뇌 2	location_name	00/362:81	high	
+おしろの電脳3	おしろのでんのうさん	성의 전뇌 3	location_name	00/362:82	high	
+おしろの電脳4	おしろのでんのうよん	성의 전뇌 4	location_name	00/362:83	high	
+おしろの電脳5	おしろのでんのうご	성의 전뇌 5	location_name	00/362:84	high	
+ひこうきの電脳1	ひこうきのでんのういち	비행기의 전뇌 1	location_name	00/362:88	high	
+ひこうきの電脳2	ひこうきのでんのうに	비행기의 전뇌 2	location_name	00/362:89	high	
+ひこうきの電脳3	ひこうきのでんのうさん	비행기의 전뇌 3	location_name	00/362:90	high	
+ひこうきの電脳4	ひこうきのでんのうよん	비행기의 전뇌 4	location_name	00/362:91	high	
+ひこうきの電脳5	ひこうきのでんのうご	비행기의 전뇌 5	location_name	00/362:92	high	
+マンションの電脳1	マンションの電脳1	맨션의 전뇌 1	location_name	00/362:95	high	
+マンションの電脳2	マンションの電脳2	맨션의 전뇌 2	location_name	00/362:96	high	
+マンションの電脳3	マンションの電脳3	맨션의 전뇌 3	location_name	00/362:97	high	
+マンションの電脳4	マンションの電脳4	맨션의 전뇌 4	location_name	00/362:98	high	
+ゴスペルサーバーの電脳1	ゴスペルサーバーの電脳1	고스펠 서버의 전뇌 1	location_name	00/362:99	high	
+ゴスペルサーバーの電脳2	ゴスペルサーバーの電脳2	고스펠 서버의 전뇌 2	location_name	00/362:100	high	
+熱斗のパソコン	熱斗のパソコン	넷토의 컴퓨터	location_name	00/362:102	high	
+メイルのパソコン	メイルのパソコン	메일의 컴퓨터	location_name	00/362:103	high	
+デカオのパソコン	デカオのパソコン	데카오의 컴퓨터	location_name	00/362:104	high	
+やいとのパソコン	やいとのパソコン	야이토의 컴퓨터	location_name	00/362:105	high	
+ケロのちゅうけいしゃ	ケロのちゅうけいしゃ	케로의 중계차	location_name	00/362:106	high	
+ラウルのラジカセ	ラウルのラジカセ	라울의 라디오	location_name	00/362:107	high	
+ミリオネアのカバン	ミリオネアのカバン	밀리어네어의 가방	location_name	00/362:108	high	
+デンサンエリア1	デンサンエリア1	덴산 에어리어 1	location_name	00/362:112	high	
+デンサンエリア2	デンサンエリア2	덴산 에어리어 2	location_name	00/362:113	high	
+デンサンエリア3	デンサンエリア3	덴산 에어리어 3	location_name	00/362:114	high	
+オフィシャルスクエア入口	オフィシャルスクエア入口	오피셜 스퀘어 입구	location_name	00/362:115	high	
+けいじばんべや	けいじばんべや	게시판실	location_name	00/362:117	high	
+コトブキエリア	コトブキエリア	코토부키 에어리어	location_name	00/362:118	high	
+ウラコトブキエリア	ウラコトブキエリア	우라 코토부키 에어리어	location_name	00/362:119	high	
+コトブキスクエア入口	コトブキスクエア入口	코토부키 스퀘어 입구	location_name	00/362:120	high	
+コトブキスクエア1	コトブキスクエア1	코토부키 스퀘어 1	location_name	00/362:121	high	
+コトブキスクエア2	コトブキスクエア2	코토부키 스퀘어 2	location_name	00/362:122	high	
+ゴスペルほんぶ	ゴスペルほんぶ	고스펠 본부	location_name	00/362:123	high	
+アジーナエリア1	アジーナエリア1	아지나 에어리어 1	location_name	00/362:124	high	
+アジーナエリア2	アジーナエリア2	아지나 에어리어 2	location_name	00/362:125	high	
+アジーナスクエア入口	アジーナスクエア入口	아지나 스퀘어 입구	location_name	00/362:126	high	
+こくほうの間	こくほうの間	국보의 방	location_name	00/362:128	high	
+アメロッパエリア1	アメロッパエリア1	아메롭파 에어리어 1	location_name	00/362:129	high	
+アメロッパエリア2	アメロッパエリア2	아메롭파 에어리어 2	location_name	00/362:130	high	
+アメロッパエリア3	アメロッパエリア3	아메롭파 에어리어 3	location_name	00/362:131	high	
+アメロッパスクエア入口	アメロッパスクエア入口	아메롭파 스퀘어 입구	location_name	00/362:132	high	
+ウラインターネット1	ウラインターネット1	우라 인터넷 1	location_name	00/362:134	high	
+ウラインターネット2	ウラインターネット2	우라 인터넷 2	location_name	00/362:135	high	
+ウラインターネット3	ウラインターネット3	우라 인터넷 3	location_name	00/362:136	high	
+ウラインターネット4	ウラインターネット4	우라 인터넷 4	location_name	00/362:137	high	
+ウラインターネット5	ウラインターネット5	우라 인터넷 5	location_name	00/362:138	high	
+ウラインターネット6	ウラインターネット6	우라 인터넷 6	location_name	00/362:139	high	
+ウラインターネット7	ウラインターネット7	우라 인터넷 7	location_name	00/362:140	high	
+WWWエリア1	WWWエリア1	WWW 에어리어 1	location_name	00/362:141	high	
+WWWエリア2	WWWエリア2	WWW 에어리어 2	location_name	00/362:142	high	
+WWWエリア3	WWWエリア3	WWW 에어리어 3	location_name	00/362:143	high	
+ウラスクエア入口	ウラスクエア入口	우라 스퀘어 입구	location_name	00/362:144	high	
+ウラスクエア	ウラスクエア	우라 스퀘어	location_name	00/362:145	high	
+ウラけいじばんべや	ウラけいじばんべや	우라 게시판실	location_name	00/362:146	high	
+ブラックボードの電脳	ブラックボードの電脳	칠판의 전뇌	location_name	00/362:147	high	
+こわれたオモチャの電脳	こわれたオモチャの電脳	고장 난 장난감의 전뇌	location_name	00/362:148	high	
+イヌごやの電脳	イヌごやの電脳	개집의 전뇌	location_name	00/362:149	high	
+コントロールパネルの電脳	コントロールパネルの電脳	컨트롤 패널의 전뇌	location_name	00/362:150	high	
+ピアノの電脳	ピアノの電脳	피아노의 전뇌	location_name	00/362:151	high	
+コーヒーサーバーの電脳	コーヒーサーバーの電脳	커피 서버의 전뇌	location_name	00/362:152	high	
+けいたいゲームきの電脳	けいたいゲームきの電脳	휴대용 게임기의 전뇌	location_name	00/362:153	high	
+でんわの電脳	でんわの電脳	전화기의 전뇌	location_name	00/362:154	high	
+おじぞうさんの電脳	おじぞうさんの電脳	지장보살의 전뇌	location_name	00/362:155	high	
+コンロの電脳	コンロの電脳	가스레인지의 전뇌	location_name	00/362:156	high	
+クマの電脳	クマの電脳	곰 인형의 전뇌	location_name	00/362:157	high	
+モニターの電脳	モニターの電脳	모니터의 전뇌	location_name	00/362:158	high	
+ワイドモニターの電脳	ワイドモニターの電脳	와이드 모니터의 전뇌	location_name	00/362:159	high	
+フライトボードの電脳	フライトボードの電脳	운항 안내판의 전뇌	location_name	00/362:160	high	
+めんぜいてんの電脳	めんぜいてんの電脳	면세점의 전뇌	location_name	00/362:161	high	
+どうぞうの電脳	どうぞうの電脳	동상의 전뇌	location_name	00/362:162	high	
+れいぞうこの電脳	れいぞうこの電脳	냉장고의 전뇌	location_name	00/362:163	high	
+めがみぞうの電脳	めがみぞうの電脳	여신상의 전뇌	location_name	00/362:164	high	
+テレビの電脳	テレビの電脳	TV의 전뇌	location_name	00/362:165	high	
+じはんきの電脳	じはんきの電脳	자판기의 전뇌	location_name	00/362:166	high	
+オートロックの電脳	オートロックの電脳	자동 잠금장치의 전뇌	location_name	00/362:167	high	
+マンション1かい	マンション1かい	맨션 1층	location_name	00/362:171	high	
+マンション2かい	マンション2かい	맨션 2층	location_name	00/362:172	high	
+マンション8かい	マンション8かい	맨션 8층	location_name	00/362:173	high	
+マンション25かい	マンション25かい	맨션 25층	location_name	00/362:174	high	
+マンション27かい	マンション27かい	맨션 27층	location_name	00/362:175	high	
+マンション4かい	マンション4かい	맨션 4층	location_name	00/362:176	high	
+マンション9かい	マンション9かい	맨션 9층	location_name	00/362:177	high	
+マンション20かい	マンション20かい	맨션 20층	location_name	00/362:178	high	
+マンション23かい	マンション23かい	맨션 23층	location_name	00/362:179	high	
+マンション24かい	マンション24かい	맨션 24층	location_name	00/362:180	high	
+マンション30かい	マンション30かい	맨션 30층	location_name	00/362:181	high	
+さいじょうかいのへや	さいじょうかいのへや	최상층 방	location_name	00/362:182	high	
+さいごのへや	さいごのへや	마지막 방	location_name	00/362:183	high	
+021ごうしつ	021ごうしつ	021호실	location_name	00/362:184	high	
+082ごうしつ	082ごうしつ	082호실	location_name	00/362:185	high	
+253ごうしつ	253ごうしつ	253호실	location_name	00/362:186	high	
+271ごうしつ	271ごうしつ	271호실	location_name	00/362:187	high	
+042ごうしつ	042ごうしつ	042호실	location_name	00/362:188	high	
+093ごうしつ	093ごうしつ	093호실	location_name	00/362:189	high	
+201ごうしつ	201ごうしつ	201호실	location_name	00/362:190	high	
+232ごうしつ	232ごうしつ	232호실	location_name	00/362:191	high	
+ハイキャノン	ハイキャノン	하이캐논	chip_name	00/363:5-7	high	
+メガキャノン	メガキャノン	메가캐논	chip_name	00/363:10-12	high	
+スプレッドガン	スプレッドガン	스프레드건	chip_name	00/363:15	high	프로그램 어드밴스 조합 표기
+ホウガン	ホウガン	호우건	chip_name	00/363:20	high	프로그램 어드밴스 조합 표기
+ラットン1	ラットン1	라톤1	chip_name	00/363:25	high	프로그램 어드밴스 조합 표기
+ラットン2	ラットン2	라톤2	chip_name	00/363:30	high	프로그램 어드밴스 조합 표기
+ラットン3	ラットン3	라톤3	chip_name	00/363:35	high	프로그램 어드밴스 조합 표기
+ダブルニードル	ダブルニードル	더블니들	chip_name	00/363:80	high	프로그램 어드밴스 조합 표기
+トリプルニードル	トリプルニードル	트리플니들	chip_name	00/363:80	high	프로그램 어드밴스 조합 표기
+テトラニードル	テトラニードル	테트라니들	chip_name	00/363:80	high	프로그램 어드밴스 조합 표기
+スモールボム	スモールボム	스몰봄	chip_name	00/363:85	high	프로그램 어드밴스 조합 표기
+クロスボム	クロスボム	크로스봄	chip_name	00/363:85	high	프로그램 어드밴스 조합 표기
+ビッグボム	ビッグボム	빅봄	chip_name	00/363:85	high	프로그램 어드밴스 조합 표기
+ソード	ソード	소드	chip_name	00/363:90	high	프로그램 어드밴스 조합 표기
+ワイドソード	ワイドソード	와이드소드	chip_name	00/363:90	high	프로그램 어드밴스 조합 표기
+ロングソード	ロングソード	롱소드	chip_name	00/363:90	high	프로그램 어드밴스 조합 표기
+フレイムソード	フレイムソード	플레임소드	chip_name	00/363:95	high	프로그램 어드밴스 조합 표기
+アクアソード	アクアソード	아쿠아소드	chip_name	00/363:95	high	프로그램 어드밴스 조합 표기
+エレキソード	エレキソード	일렉소드	chip_name	00/363:95	high	프로그램 어드밴스 조합 표기
+フレイムブレード	フレイムブレード	플레임블레이드	chip_name	00/363:100	high	프로그램 어드밴스 조합 표기
+アクアブレード	アクアブレード	아쿠아블레이드	chip_name	00/363:100	high	프로그램 어드밴스 조합 표기
+エレキブレード	エレキブレード	일렉블레이드	chip_name	00/363:100	high	프로그램 어드밴스 조합 표기
+ガッツパンチ	ガッツパンチ	거츠펀치	chip_name	00/363:105	high	프로그램 어드밴스 조합 표기
+コールドパンチ	コールドパンチ	콜드펀치	chip_name	00/363:105	high	프로그램 어드밴스 조합 표기
+ダッシュアタック	ダッシュアタック	대시어택	chip_name	00/363:105	high	프로그램 어드밴스 조합 표기
+カースシールド1	カースシールド1	커스실드1	chip_name	00/363:110	high	프로그램 어드밴스 조합 표기
+カースシールド2	カースシールド2	커스실드2	chip_name	00/363:110	high	프로그램 어드밴스 조합 표기
+カースシールド3	カースシールド3	커스실드3	chip_name	00/363:110	high	프로그램 어드밴스 조합 표기
+カウントボム1	カウントボム1	카운트봄1	chip_name	00/363:115	high	프로그램 어드밴스 조합 표기
+カウントボム2	カウントボム2	카운트봄2	chip_name	00/363:115	high	프로그램 어드밴스 조합 표기
+カウントボム3	カウントボム3	카운트봄3	chip_name	00/363:115	high	프로그램 어드밴스 조합 표기
+アースクエイク1	アースクエイク1	어스퀘이크1	chip_name	00/363:120	high	프로그램 어드밴스 조합 표기
+アースクエイク2	アースクエイク2	어스퀘이크2	chip_name	00/363:120	high	프로그램 어드밴스 조합 표기
+アースクエイク3	アースクエイク3	어스퀘이크3	chip_name	00/363:120	high	프로그램 어드밴스 조합 표기
+ポイズンマスク	ポイズンマスク	포이즌마스크	chip_name	00/363:125	high	프로그램 어드밴스 조합 표기
+ポイズンフェイス	ポイズンフェイス	포이즌페이스	chip_name	00/363:125	high	프로그램 어드밴스 조합 표기
+ポイズンアヌビス	ポイズンアヌビス	포이즌아누비스	chip_name	00/363:125	high	프로그램 어드밴스 조합 표기
+トップウ	トップウ	돌풍	chip_name	00/363:130	high	프로그램 어드밴스 조합 표기
+スイコミ	スイコミ	흡입	chip_name	00/363:130	high	프로그램 어드밴스 조합 표기
+ホーリーパネル	ホーリーパネル	홀리패널	chip_name	00/363:140	high	프로그램 어드밴스 조합 표기
+リカバリー300	リカバリー300	리커버리300	chip_name	00/363:140	high	프로그램 어드밴스 조합 표기
+ロール	ロール	롤	chip_name	00/363:140	high	프로그램 어드밴스 조합 표기
+ロールV2	ロールV2	롤V2	chip_name	00/363:141	high	프로그램 어드밴스 조합 표기
+ロールV3	ロールV3	롤V3	chip_name	00/363:142	high	프로그램 어드밴스 조합 표기
+テンジョウウラ	テンジョウウラ	천장뒤	chip_name	00/363:145	high	프로그램 어드밴스 조합 표기
+カワリミ	カワリミ	카와리미	chip_name	00/363:145	high	프로그램 어드밴스 조합 표기
+カスタムソード	カスタムソード	커스텀소드	chip_name	00/363:150	high	프로그램 어드밴스 조합 표기
+バリアブルソード	バリアブルソード	배리어블소드	chip_name	00/363:150	high	프로그램 어드밴스 조합 표기
+フォルテV3	フォルテV3	포르테V3	chip_name	00/363:155	high	프로그램 어드밴스 조합 표기
+ナビスカウト	ナビスカウト	내비스카우트	chip_name	00/363:155	high	프로그램 어드밴스 조합 표기
+ファイアゴスペル	ファイアゴスペル	파이어고스펠	chip_name	00/363:155	high	프로그램 어드밴스 조합 표기
+アクアゴスペル	アクアゴスペル	아쿠아고스펠	chip_name	00/363:156	high	프로그램 어드밴스 조합 표기
+エレキゴスペル	エレキゴスペル	일렉고스펠	chip_name	00/363:157	high	프로그램 어드밴스 조합 표기
+ウッドゴスペル	ウッドゴスペル	우드고스펠	chip_name	00/363:158	high	프로그램 어드밴스 조합 표기
+アジーナこく	アジーナこく	아지나국	location	00/366:80	high	국가명 표기
+ヤミいしゃ	ヤミいしゃ	암흑 의사	character_title	00/366:204	high	00/145의 기존 서사 용례 유지
+ウラけいじばん	ウラけいじばん	우라 게시판	location_feature	00/366:207	high	게시판실과 구분
+あおのかけら	あおのかけら	파란 조각	story_item	00/366:216	high	00/303~00/306의 서사 용례 유지
+マザーコンピュータ	マザーコンピュータ	마더 컴퓨터	device	00/367:123	high	전뇌 명칭과 표기 통일
+メインシステム	メインシステム	메인 시스템	device	00/367:131	high	
+アジーナエリア	アジーナエリア	아지나 에어리어	location	00/366:200	high	번호 없는 범용 지역명
+炎山	えんざん	엔잔	character_name	00/366:221	high	기존 대사 용례 유지
+きばくそうち	きばくそうち	기폭 장치	device	00/368:71	high	전뇌 지역명의 기존 표기와 통일
+きばくプログラム	きばくプログラム	기폭 프로그램	program	00/368:71	high	사건 장치 제어 프로그램
+ジム	ジム	짐	character_name	00/370:157	high	기존 아메롭파 대사 용례 유지
+プリンセスさん	プリンセスさん	프린세스 씨	character_title	00/371:169	high	프린세스 프라이드의 호칭
+ギアせいぎょプログラム	ギアせいぎょプログラム	기어 제어 프로그램	device_program	00/372:187	high	항공기 장치 제어 프로그램
+うよくエンジンプログラム	うよくエンジンプログラム	오른쪽 날개 엔진 프로그램	device_program	00/372:196	high	항공기 장치 제어 프로그램
+びよくプログラム	びよくプログラム	꼬리 날개 프로그램	device_program	00/372:197	high	항공기 장치 제어 프로그램
+きあつちょうせいプログラム	きあつちょうせいプログラム	기압 조절 프로그램	device_program	00/372:198	high	항공기 장치 제어 프로그램
+スロットルプログラム	スロットルプログラム	스로틀 프로그램	device_program	00/372:199	high	항공기 장치 제어 프로그램
+ガスゆわかしき	ガスゆわかしき	가스 온수기	device	00/375:33	high	가정용 가스 장치
+かんきせん	かんきせん	환풍기	device	00/375:33	high	환기 장치
+セキュリティトビラ	セキュリティトビラ	보안문	device	00/377:130	high	잠금 해제 대상 문
+しみんネットバトラー	しみんネットバトラー	시민 넷배틀러	license_title	00/381:16	high	오피셜 시험 명칭
+じょうほうけいじばん	じょうほうけいじばん	정보 게시판	location_feature	00/381:106	high	일반 정보 수집 게시판
+コンパネ	コンパネ	제어판	device	00/382:30	high	컨트롤 패널의 구어형 약칭
+電子ピアノ	でんしピアノ	전자 피아노	device	00/382:40	high	가정용 전자 악기
+じこくひょう	じこくひょう	시간표	information_display	00/382:130	high	공항 운항 시간표
+ようどうさくせん	ようどうさくせん	양동 작전	operation	00/383:122	high	적의 주의를 돌리는 작전
+ゴスペルのほんきょち	ゴスペルのほんきょち	고스펠의 본거지	location	00/384:223	high	고스펠 조직의 근거지
+ゴスペルのアジト	ゴスペルのアジト	고스펠의 아지트	location	00/384:224	high	본거지 내부를 가리키는 표현
+でんのうのき	でんのうのき	전뇌 나무	world_feature	00/385:92	high	전뇌 세계에 우거진 나무
+光さん	ひかりさん	히카리 씨	character_reference	00/394:1	high	히카리 가문을 성으로 부르는 호칭
+さくらいさん	さくらいさん	사쿠라이 씨	character_reference	00/394:1	high	메일의 가문을 성으로 부르는 호칭
+デンサンシティ	デンサンシティ	덴산 시티	location	00/394:2	high	아키하라 마을이 속한 도시
+チップフォルダ	チップフォルダ	칩 폴더	game_term	00/394:4	high	배틀칩을 구성하는 폴더
+ウイルスバスティング	ウイルスバスティング	바이러스 버스팅	game_term	00/394:7	high	내비로 바이러스를 제거하는 행위
+プラグイン	プラグイン	플러그인	game_term	00/394:7	high	PET에서 전자 기기로 내비를 전송하는 접속 행위
+デリート	デリート	딜리트	game_term	00/394:7	high	바이러스나 내비를 삭제하는 행위
+ライセンス	ライセンス	라이선스	license_term	00/394:8	high	오피셜 센터가 발급하는 자격증
+デンサンガス	デンサンガス	덴산 가스	organization	00/394:9	high	가스 공사를 담당하는 회사
+あやのこうじさん	あやのこうじさん	아야노코지 씨	character_reference	00/394:9	high	야이토의 가문을 성으로 부르는 호칭
+きょうかプログラム	きょうかプログラム	강화 프로그램	game_term	00/394:54	high	내비 능력치를 높이는 장착 프로그램의 총칭
+レギュラーチップ	レギュラーチップ	레귤러 칩	game_term	00/394:37	high	커스텀 화면에 항상 등장하도록 지정한 칩
+パネルアウト1	パネルアウトワン	패널아웃1	chip_name	00/394:37	high	숫자 접미사를 붙여 쓰는 배틀칩 이름
+ネットショウニン	ネットしょうにん	넷 상인	role	00/394:54	high	전뇌 세계에서 상품을 파는 상인
+ネットマフィア	ネットマフィア	넷 마피아	organization	00/394:50	high	네트워크 범죄 조직의 일반 명칭
+メルとも	メルとも	메일 친구	relationship_term	00/394:78	high	메일을 주고받으며 사귄 친구
+レギュラーメモリ	レギュラーメモリ	레귤러 메모리	game_term	00/394:102	high	레귤러 칩으로 지정할 수 있는 칩 용량
+プラグアウト	プラグアウト	플러그아웃	game_term	00/394:137	high	내비를 전뇌 세계에서 PET로 귀환시키는 행위
+オフィシャルナビ	オフィシャルナビ	오피셜 내비	role	00/394:127	high	오피셜 소속 내비
+PETのじゅうでんでんち	PETのじゅうでんでんち	PET 충전지	item_name	00/394:139	high	산속에서 사용할 PET용 충전 배터리
+日暮	ひぐれ	히구레	character_name	00/394:153	high	전 점장으로 언급되는 인물명
+サブチップ	サブチップ	서브칩	game_term	00/394:180	high	필드에서 사용하는 보조 소비 아이템
+ボスナビ	ボスナビ	보스 내비	navi_class	00/395:100	high	보스급 넷내비를 가리키는 총칭
+あきはらえき	あきはらえき	아키하라역	location	00/396:0	high	메트로라인의 아키하라 마을 역
+ゆういちろうさん	ゆういちろうさん	유이치로 씨	character_reference	00/397:44	high	넷토의 어머니가 남편을 부르는 호칭
+それいけ! ボーンいっか!	それいけ! ボーンいっか!	출동! 본 일가!	fictional_title	00/400:220	high	인게임 인기 애니메이션 제목
+コブン	コブン	코분	mascot_name	00/400:220	high	본 일가 애니메이션의 마스코트 캐릭터
+ロケットガッツパンチ	ロケットガッツパンチ	로켓 거츠 펀치	special_move	00/401:7	high	거츠맨의 새 필살기 프로그램
+グライド	グライド	글라이드	navi_name	00/402:20	high	야이토의 넷내비 이름
+データ	データ	데이터	mascot_name	00/402:220	high	코분의 라이벌 캐릭터를 가리키는 문맥에만 적용
+メルポポスぶんめい	メルポポスぶんめい	멜포포스 문명	fictional_civilization	00/402:226	high	야이토의 방에 있는 고대 신상 설정
+アフタヌーンバス	アフタヌーンバス	애프터눈 배스	wordplay	00/404:27	high	영어 bath와 일본어 버스의 동음 말장난

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "kind": "draft_archive_translation_capacity_plan",
+  "draft": {
+    "filename": "archive_00_09_entries_2_13_draft.json",
+    "sha256": "93a5faf2818d35f08d3008abcd1cbbe90f94ad372e48620452553434587ecfef"
+  },
+  "codepage": {
+    "filename": "korean_codepage_archive_00_09_draft.json",
+    "sha256": "b998080d617dfefcbeb3f7ab5c9fa49ce3a572f2c79a42832e029ab98c0e9684",
+    "mode": "candidate_catalog_unobserved_overlay",
+    "mapped_hangul_count": 33,
+    "remaining_capacity": 223
+  },
+  "draft_unique_hangul_count": 21,
+  "entries": [
+    {
+      "entry_index": 2,
+      "source_visible_text_byte_length": 9,
+      "estimated_replacement_stream_byte_length": 15,
+      "estimated_growth_bytes": 6,
+      "line_count": 1,
+      "lines": [
+        {
+          "text": "좋은 아침, 넷토",
+          "glyph_count": 9,
+          "estimated_stream_bytes": 15
+        }
+      ],
+      "status": "planned_not_reinserted"
+    },
+    {
+      "entry_index": 13,
+      "source_visible_text_byte_length": 38,
+      "estimated_replacement_stream_byte_length": 52,
+      "estimated_growth_bytes": 14,
+      "line_count": 3,
+      "lines": [
+        {
+          "text": "저기...",
+          "glyph_count": 5,
+          "estimated_stream_bytes": 7
+        },
+        {
+          "text": "PET의 START를 눌러",
+          "glyph_count": 14,
+          "estimated_stream_bytes": 18
+        },
+        {
+          "text": "서브 화면으로 들어가면...",
+          "glyph_count": 15,
+          "estimated_stream_bytes": 25
+        }
+      ],
+      "status": "planned_not_reinserted"
+    }
+  ],
+  "total_estimated_growth_bytes": 20,
+  "decision": "capacity_available_but_control_preserving_reinsertion_and_runtime_layout_QA_required"
+}

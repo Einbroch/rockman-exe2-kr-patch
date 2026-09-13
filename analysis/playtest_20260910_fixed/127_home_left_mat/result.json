@@ -1,0 +1,52 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba",
+  "rom_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-um1mofmm\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\playtest_20260910_fixed\\EXE2_KR_playtest_20260910_fixed.gba"
+  ],
+  "input_checkpoint": "analysis\\playtest_20260910_fixed\\126_home_left_exit\\checkpoint.mss",
+  "timeline": [
+    {
+      "start": 0,
+      "release": 40,
+      "end": 60,
+      "keys": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "start": 60,
+      "release": 66,
+      "end": 246,
+      "keys": [
+        "a"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "fd549e75f00f4fab89c92cff4e994b99fa4215dc8a9cac23283abd2a92a073b8",
+    "complete.txt": "37c20f19f3272b5ccc3a5d80587eb9deb3f4afcf568c4280fb195568da8eb1a2",
+    "input.mss": "9e25982ae61aecf174c6b402f68a14f17ebc2f26e31c896d32ecc9b662d6c4ba",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "segment.lua": "8d763077031dc1b5c5946b2525a8f17a6b863efec183b86ed59d5575cf1ec39a",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "4610c52ba7987938539f00ffe883e9a5bd65407ee27fbf59a1190300d92ed0db",
+    "step_001.json": "b09a8935bd0dd1559901e96f45ff19d984e661224fea04ba5de4042cdb296948",
+    "step_001.png": "9472a2c0e4161bede829e8a8d3542ee7bb465e59d60f81b35dca4bed55e4f540",
+    "step_002.json": "274410a92754480f718f4bc1f542b487af3fa7a1f3a2c3b7e138817e0d6d46fd",
+    "step_002.png": "2514715911e511dffc2d101f3d226f561432da1e50f04382b6ed446be9074af7"
+  }
+}

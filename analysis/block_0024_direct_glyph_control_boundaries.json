@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "kind": "catalog_block_direct_glyph_control_boundary_inventory",
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "catalog": {
+    "filename": "rev1_message_block_catalog.json",
+    "sha256": "860771a9029bbc73042e0ad02b6aecd473d6af2bf3890f5efd43628af7310a89"
+  },
+  "block": {
+    "id": "pc-jap-map-0024",
+    "source_rom_offset": 7840772,
+    "byte_length": 500,
+    "entry_count": 9
+  },
+  "entries": [
+    {
+      "entry_index": 0,
+      "byte_length": 40,
+      "verified_direct_glyph_control_relative_offsets": [
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        26,
+        33,
+        38
+      ]
+    },
+    {
+      "entry_index": 1,
+      "byte_length": 32,
+      "verified_direct_glyph_control_relative_offsets": [
+        3,
+        5,
+        7,
+        12,
+        15,
+        22,
+        27
+      ]
+    },
+    {
+      "entry_index": 2,
+      "byte_length": 21,
+      "verified_direct_glyph_control_relative_offsets": [
+        3,
+        16
+      ]
+    },
+    {
+      "entry_index": 3,
+      "byte_length": 43,
+      "verified_direct_glyph_control_relative_offsets": [
+        3,
+        8,
+        10,
+        14,
+        25,
+        38
+      ]
+    },
+    {
+      "entry_index": 4,
+      "byte_length": 34,
+      "verified_direct_glyph_control_relative_offsets": [
+        3,
+        12,
+        20,
+        23,
+        29
+      ]
+    },
+    {
+      "entry_index": 5,
+      "byte_length": 20,
+      "verified_direct_glyph_control_relative_offsets": [
+        3,
+        15
+      ]
+    },
+    {
+      "entry_index": 6,
+      "byte_length": 45,
+      "verified_direct_glyph_control_relative_offsets": [
+        4,
+        7,
+        12,
+        14,
+        18,
+        20,
+        27,
+        40
+      ]
+    },
+    {
+      "entry_index": 7,
+      "byte_length": 21,
+      "verified_direct_glyph_control_relative_offsets": [
+        3,
+        9,
+        16
+      ]
+    },
+    {
+      "entry_index": 8,
+      "byte_length": 23,
+      "verified_direct_glyph_control_relative_offsets": [
+        3,
+        14,
+        18
+      ]
+    }
+  ],
+  "interpretation_notice": "Offsets identify verified byte-boundary shape only; they do not disclose source text or prove semantic insertion suitability."
+}

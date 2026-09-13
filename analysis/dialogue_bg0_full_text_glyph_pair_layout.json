@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "input": {
+    "state_filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).ss1",
+    "state_sha256": "819619baf8bef2360c6e2c55fa9adc6fc669932478cb6f20bc2b1907113f6914",
+    "correlation_filename": "dialogue_bg0_full_text_font_entry_correlation.json"
+  },
+  "region": {
+    "x0": 64,
+    "y0": 104,
+    "x1_exclusive": 208,
+    "y1_exclusive": 152
+  },
+  "bg0_control_register": 7176,
+  "candidate_pairs": [
+    {
+      "first_bg0_tile_index": 582,
+      "second_bg0_tile_index": 583,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 584,
+      "second_bg0_tile_index": 585,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 588,
+      "second_bg0_tile_index": 589,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 590,
+      "second_bg0_tile_index": 591,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 592,
+      "second_bg0_tile_index": 593,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 600,
+      "second_bg0_tile_index": 601,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 604,
+      "second_bg0_tile_index": 605,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 606,
+      "second_bg0_tile_index": 607,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 608,
+      "second_bg0_tile_index": 609,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 610,
+      "second_bg0_tile_index": 611,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 612,
+      "second_bg0_tile_index": 613,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 614,
+      "second_bg0_tile_index": 615,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 616,
+      "second_bg0_tile_index": 617,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 618,
+      "second_bg0_tile_index": 619,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 620,
+      "second_bg0_tile_index": 621,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 622,
+      "second_bg0_tile_index": 623,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 624,
+      "second_bg0_tile_index": 625,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 632,
+      "second_bg0_tile_index": 633,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 636,
+      "second_bg0_tile_index": 637,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 638,
+      "second_bg0_tile_index": 639,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 646,
+      "second_bg0_tile_index": 647,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    },
+    {
+      "first_bg0_tile_index": 648,
+      "second_bg0_tile_index": 649,
+      "first_component_region_cell_count": 1,
+      "second_component_region_cell_count": 1,
+      "vertical_adjacency_count": 1,
+      "horizontal_adjacency_count": 0
+    }
+  ],
+  "pairs_with_vertical_adjacency_count": 22,
+  "interpretation_notice": "Vertical tile adjacency supports a two-tile screen layout for these cached records. It does not prove glyph semantics, source-code mapping, or rendering behavior outside this state."
+}

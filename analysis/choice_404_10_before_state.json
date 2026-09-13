@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "kind": "intervened_mgba_raw_archive_entry_probe",
+  "evidence_scope": "renderer-only; does not prove normal gameplay loading or event prerequisites",
+  "input_state": {
+    "filename": "archive_entry_2_integrated_render.ss1",
+    "sha256": "5d10c2895ce843b89bffbd77b86393c762c3401f4d14f355979cd3cb1cb23c1d"
+  },
+  "rom": {
+    "filename": "exe2_rev1_semantic_translation_emulator_test_continuation_fix.gba",
+    "sha256": "d5617308a910231ab43a7a64a451f33120f6d18798d5abebde59c98bef7e5139"
+  },
+  "build_manifest": {
+    "filename": "exe2_rev1_semantic_translation_emulator_test_continuation_fix_manifest.json",
+    "sha256": "225cf04a08abe070483734a80373ffaa8748d7ceb02317604e65f21343dbbd6d"
+  },
+  "archive": {
+    "selector": "00/404",
+    "entry": 10,
+    "relocated_rom_offset": 8983312,
+    "raw_core_byte_length": 12727,
+    "raw_core_sha256": "1abc1096b027fc4cbe23c098f61b50c6bd57aa38dee25b94e93bb4a5a5fb2b56",
+    "stored_byte_length": 5670,
+    "stored_sha256": "d7013403cb5e2a43f10d14eac2f4f6e02bd85527cac49da9b921f14aaa337fe8",
+    "successor_byte_length": 256,
+    "probe_window_sha256": "56834da41978893056f9bdd45afed7d2413154357f64c5fe649d3470165af3f0",
+    "entry_relative_start": 1702,
+    "entry_relative_end": 2054
+  },
+  "intervention": {
+    "renderer_state_address": "0x02008730",
+    "ewram_pool_address": "0x02038800",
+    "entry_address": "0x02038EA6",
+    "pointers_before": {
+      "current_pointer": 33786526,
+      "base_pointer": 33785856,
+      "entry_start_pointer": 33786506
+    }
+  },
+  "output_state": {
+    "filename": "choice_404_10_before.ss1",
+    "sha256": "db89a0c92b93c94ddf7608e7820e7b99b9be68f75a7f720b558ed6385feac1f0"
+  }
+}

@@ -1,0 +1,7 @@
+-----------------------------
+File: exe2_rev1_semantic_translation_emulator_test_continuation_fix.gba
+Title: ROCKMAN_EXE2
+Game Code: AE2J
+Maker Code: 08
+Save type: SRAM
+-----------------------------

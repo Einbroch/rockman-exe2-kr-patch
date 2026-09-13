@@ -1,0 +1,801 @@
+{
+  "schema_version": 1,
+  "input": {
+    "tile_occurrence_report": "dialogue_bg0_full_text_dark_tile_rom_occurrences.json",
+    "font_base_rom_offset": 6910896,
+    "entry_bytes": 64,
+    "tile_bytes": 32
+  },
+  "pattern_count": 34,
+  "patterns": [
+    {
+      "tile_pattern_sha256": "3d3153d0bebf4880cdd978fc14100ea7b3b93cd85866cbd162c48599d3dc1ddc",
+      "tile_indices": [
+        577,
+        579,
+        581,
+        595,
+        597,
+        599,
+        627,
+        629,
+        631,
+        641,
+        643,
+        645
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 48,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6919632,
+          "entry_index": 136,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "b24f46f30e91cffaee1bba033fa193809a3c336c1ed59e60b50c13b97b9e4d4e",
+      "tile_indices": [
+        611,
+        623
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 44,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6925840,
+          "entry_index": 233,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "48e373b20b3fde25284098136413d722efbdea68cb3dd2e7c6993522d1dcf658",
+      "tile_indices": [
+        583,
+        617
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 28,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921360,
+          "entry_index": 163,
+          "component_index": 1
+        },
+        {
+          "rom_offset": 6924112,
+          "entry_index": 206,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "91af2d934e657be731a1781d20a3e335f6e93104aa52ce2d9dff6b363f5ef79b",
+      "tile_indices": [
+        591,
+        619
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 26,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6920784,
+          "entry_index": 154,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "cb5248e59d2dbc07bf46724f9643f0a97e80e5969ab9b04372f4ab76d556b0a5",
+      "tile_indices": [
+        593,
+        633
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 24,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6922064,
+          "entry_index": 174,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "d24587ce64944e3e4bfb4ca98b642af3ed2db0d461b95673ae2506ea4d83a53d",
+      "tile_indices": [
+        582,
+        616
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 22,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921328,
+          "entry_index": 163,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "0f07b20e317e047a60489bf296969b178b2ab165fe6122597f59a227054ccb40",
+      "tile_indices": [
+        612,
+        624
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 22,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6920816,
+          "entry_index": 155,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "b43148eab71aafdaa65a9943adcdecc5d717e3d62c7f77a83b18757e68122b2d",
+      "tile_indices": [
+        614
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 20,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6923760,
+          "entry_index": 201,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "8116b6150b07dabdeea04e606ebb87dcd6fa4f851e5f0d11eb8a79cee8a89682",
+      "tile_indices": [
+        592,
+        632
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 18,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6922032,
+          "entry_index": 174,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "90c9a0fd26c76a6cd4345d48766be4e47f6bf710a8f1366eddbc953373f2355a",
+      "tile_indices": [
+        621,
+        647
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 18,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921424,
+          "entry_index": 164,
+          "component_index": 1
+        },
+        {
+          "rom_offset": 6924176,
+          "entry_index": 207,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "860d3df45c1f7b814bf03f3134ecfef19d888de7e83723b68fa5597b3bcc0fac",
+      "tile_indices": [
+        584
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 17,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6922608,
+          "entry_index": 183,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "f73ec48febff4cff5fb00c2653ce521372b3e0e7b2d33808b2059ca9268a5507",
+      "tile_indices": [
+        608
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 17,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921072,
+          "entry_index": 159,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "ffd372981a9caffd753510e01c71ab1da41f30a73341ad6d7a79673dfcc9c158",
+      "tile_indices": [
+        590,
+        618
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 16,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6920752,
+          "entry_index": 154,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "d063c05db6134ccfa7b479415cf6dd69e86df35b6a4d54392841a6762193643b",
+      "tile_indices": [
+        607
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 16,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6923728,
+          "entry_index": 200,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "112b7bfab1ba7a906d3b5f9075939425155514c958dec9bd2b7e5e136d446684",
+      "tile_indices": [
+        585
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 15,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6922640,
+          "entry_index": 183,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "1584e7159967da9092292d01d6ba755b1d5132aea2d5567738a1671d23d16a9a",
+      "tile_indices": [
+        601
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 15,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6922256,
+          "entry_index": 177,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "4204a366e75bd32636ce675e2adf2e343dc1c6a4df4f765db7082768b6763ffe",
+      "tile_indices": [
+        609
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 14,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921104,
+          "entry_index": 159,
+          "component_index": 1
+        },
+        {
+          "rom_offset": 6923856,
+          "entry_index": 202,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "0299fedf051dfee1e2a29d4e52f3cc290a3625ef5b19a8c02be3d95970b5699d",
+      "tile_indices": [
+        613,
+        625
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 14,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6920848,
+          "entry_index": 155,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "f514c6e5920c28872c581c492c3b911097827a52f767ad022bf224b1f25733d8",
+      "tile_indices": [
+        615
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 14,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921040,
+          "entry_index": 158,
+          "component_index": 1
+        },
+        {
+          "rom_offset": 6923792,
+          "entry_index": 201,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "da84b72007d22329b5c5572f10ccae3b03e2c2277bd4e455ddecd4c64e4597a5",
+      "tile_indices": [
+        604
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 13,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921200,
+          "entry_index": 161,
+          "component_index": 0
+        },
+        {
+          "rom_offset": 6922288,
+          "entry_index": 178,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "7e933587a0b0508b6a699b368341dbf5ba7373653fac683d39ff705a51d40b76",
+      "tile_indices": [
+        648
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 13,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921648,
+          "entry_index": 168,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "19847a482166f192fd757598632552f1cfb8fba043681d8069289ca4170b34a5",
+      "tile_indices": [
+        649
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 13,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921680,
+          "entry_index": 168,
+          "component_index": 1
+        },
+        {
+          "rom_offset": 6924432,
+          "entry_index": 211,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "6e0e0de1af60cb13254ce988444b8ead56410cf454c0b4113db12a69229ee485",
+      "tile_indices": [
+        600
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 12,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6922224,
+          "entry_index": 177,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "d09f4ea2fe5ea0766b389ec9ffd8c014aea25620cba7c1728e823f737061bc86",
+      "tile_indices": [
+        605
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 12,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921232,
+          "entry_index": 161,
+          "component_index": 1
+        },
+        {
+          "rom_offset": 6923984,
+          "entry_index": 204,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "aba0eac01aa5b5ae06944106c551b64db0f277b298f76db3576c6b9ad225704c",
+      "tile_indices": [
+        637
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 12,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6932624,
+          "entry_index": 339,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "d0158ba92884a8af682f960526003330f475134540f72ecd75cedb80581fb46f",
+      "tile_indices": [
+        638
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 11,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6923184,
+          "entry_index": 192,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "18dfb1e53d4e0847639c1dc020ab29e427c5cc7817cb44d4fd30dd05545eb969",
+      "tile_indices": [
+        620,
+        646
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 10,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6914224,
+          "entry_index": 52,
+          "component_index": 0
+        },
+        {
+          "rom_offset": 6921392,
+          "entry_index": 164,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "e08d260f31a4ea8be9da3f296f601c1e640e27bd97c71b25005dcaca07344958",
+      "tile_indices": [
+        636
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 10,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6932592,
+          "entry_index": 339,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "1902a51ed09548c77795f64a2ef288f10d63b593f797ab58527c4d6844815320",
+      "tile_indices": [
+        639
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 9,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6923216,
+          "entry_index": 192,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "9e39db0fab5a0fa2394671deed3f83268656373178e645a7c5260de482623eb3",
+      "tile_indices": [
+        588
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 7,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921776,
+          "entry_index": 170,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "708f1d64be5bb14c25b54e71a93a07d1a169d8cedfa69a8782fb9e3336c5ca6a",
+      "tile_indices": [
+        589
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 7,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6921808,
+          "entry_index": 170,
+          "component_index": 1
+        },
+        {
+          "rom_offset": 6924560,
+          "entry_index": 213,
+          "component_index": 1
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "045e6ab09c28b582adc155d5f0f5f0cbf0345950c75a6a6d3d555bea1e5f960d",
+      "tile_indices": [
+        606
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 5,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6923696,
+          "entry_index": 200,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "0ce1a465bd275834ffe1208edad2a6d3ac938a00aaeaf78a956d963ef6f7631e",
+      "tile_indices": [
+        610,
+        622
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 4,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6925808,
+          "entry_index": 233,
+          "component_index": 0
+        }
+      ]
+    },
+    {
+      "tile_pattern_sha256": "2cdab0603f6249974c34d360c056bea5c5ea4df70ecac5dc6707b1ac546d6453",
+      "tile_indices": [
+        587
+      ],
+      "combined_topmost_dark_screenshot_pixel_count": 2,
+      "aligned_64_byte_entry_candidates": [
+        {
+          "rom_offset": 6919440,
+          "entry_index": 133,
+          "component_index": 1
+        }
+      ]
+    }
+  ],
+  "consecutive_bg0_tile_pairs_matching_entry_components": [
+    {
+      "first_bg0_tile_index": 582,
+      "second_bg0_tile_index": 583,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 163,
+          "first_component_rom_offset": 6921328,
+          "second_component_rom_offset": 6921360
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 584,
+      "second_bg0_tile_index": 585,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 183,
+          "first_component_rom_offset": 6922608,
+          "second_component_rom_offset": 6922640
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 588,
+      "second_bg0_tile_index": 589,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 170,
+          "first_component_rom_offset": 6921776,
+          "second_component_rom_offset": 6921808
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 590,
+      "second_bg0_tile_index": 591,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 154,
+          "first_component_rom_offset": 6920752,
+          "second_component_rom_offset": 6920784
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 592,
+      "second_bg0_tile_index": 593,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 174,
+          "first_component_rom_offset": 6922032,
+          "second_component_rom_offset": 6922064
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 600,
+      "second_bg0_tile_index": 601,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 177,
+          "first_component_rom_offset": 6922224,
+          "second_component_rom_offset": 6922256
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 604,
+      "second_bg0_tile_index": 605,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 161,
+          "first_component_rom_offset": 6921200,
+          "second_component_rom_offset": 6921232
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 606,
+      "second_bg0_tile_index": 607,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 200,
+          "first_component_rom_offset": 6923696,
+          "second_component_rom_offset": 6923728
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 608,
+      "second_bg0_tile_index": 609,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 159,
+          "first_component_rom_offset": 6921072,
+          "second_component_rom_offset": 6921104
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 610,
+      "second_bg0_tile_index": 611,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 233,
+          "first_component_rom_offset": 6925808,
+          "second_component_rom_offset": 6925840
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 612,
+      "second_bg0_tile_index": 613,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 155,
+          "first_component_rom_offset": 6920816,
+          "second_component_rom_offset": 6920848
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 614,
+      "second_bg0_tile_index": 615,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 201,
+          "first_component_rom_offset": 6923760,
+          "second_component_rom_offset": 6923792
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 616,
+      "second_bg0_tile_index": 617,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 163,
+          "first_component_rom_offset": 6921328,
+          "second_component_rom_offset": 6921360
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 618,
+      "second_bg0_tile_index": 619,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 154,
+          "first_component_rom_offset": 6920752,
+          "second_component_rom_offset": 6920784
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 620,
+      "second_bg0_tile_index": 621,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 164,
+          "first_component_rom_offset": 6921392,
+          "second_component_rom_offset": 6921424
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 622,
+      "second_bg0_tile_index": 623,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 233,
+          "first_component_rom_offset": 6925808,
+          "second_component_rom_offset": 6925840
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 624,
+      "second_bg0_tile_index": 625,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 155,
+          "first_component_rom_offset": 6920816,
+          "second_component_rom_offset": 6920848
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 632,
+      "second_bg0_tile_index": 633,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 174,
+          "first_component_rom_offset": 6922032,
+          "second_component_rom_offset": 6922064
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 636,
+      "second_bg0_tile_index": 637,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 339,
+          "first_component_rom_offset": 6932592,
+          "second_component_rom_offset": 6932624
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 638,
+      "second_bg0_tile_index": 639,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 192,
+          "first_component_rom_offset": 6923184,
+          "second_component_rom_offset": 6923216
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 646,
+      "second_bg0_tile_index": 647,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 164,
+          "first_component_rom_offset": 6921392,
+          "second_component_rom_offset": 6921424
+        }
+      ]
+    },
+    {
+      "first_bg0_tile_index": 648,
+      "second_bg0_tile_index": 649,
+      "shared_entry_candidates": [
+        {
+          "entry_index": 168,
+          "first_component_rom_offset": 6921648,
+          "second_component_rom_offset": 6921680
+        }
+      ]
+    }
+  ],
+  "interpretation_notice": "A 64-byte alignment and a consecutive-tile pair are structural evidence for a two-component raw graphics record. They do not prove a character encoding, glyph dimensions, or a ROM modification strategy."
+}

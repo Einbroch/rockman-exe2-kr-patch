@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "expanded_archive_runtime_dump_verification",
+  "rom": {
+    "filename": "exe2_rev1_integrated_korean_poc.gba",
+    "sha256": "25a41bfb0c6aabd3c2bd30c07c06f157b3d77dc0a1ab5fed3f9867b309357509",
+    "byte_length": 16777216
+  },
+  "archive": {
+    "rom_offset": 8388608,
+    "gba_address": "0x08800000",
+    "compressed_byte_length": 4369,
+    "decompressed_byte_length": 6084,
+    "decompressed_sha256": "92ec323060e496f7f6e8aaffd1665d1e6cd024b9cf526f7cdff3496d22d2692e",
+    "entry_count": 254,
+    "edited_entries": [
+      {
+        "entry_index": 2,
+        "start": 650,
+        "end": 681,
+        "byte_length": 31,
+        "marker_relative_offset": 20
+      },
+      {
+        "entry_index": 13,
+        "start": 1411,
+        "end": 1573,
+        "byte_length": 162,
+        "marker_relative_offset": 43
+      }
+    ]
+  },
+  "runtime_dump": {
+    "filename": "ewram.bin",
+    "file_sha256": "0cca39058bc1e7aa7bb15ddab7b51e1bcc4f2a2fe1e9c47982a522b237240442",
+    "ewram_offset": 231424,
+    "loaded_byte_length": 6084,
+    "loaded_sha256": "92ec323060e496f7f6e8aaffd1665d1e6cd024b9cf526f7cdff3496d22d2692e",
+    "differing_byte_count": 0
+  },
+  "passed": true
+}

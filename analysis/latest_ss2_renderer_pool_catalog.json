@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "kind": "renderer_ewram_pool_catalog_correlation",
+  "input": {
+    "filename": "exe2_rev1_active_block_nine_entry_catalog_screened_poc.ss2",
+    "sha256": "1e690282a79a084e29812ed6e7840cff21f624d68b80a2643b6e81a8920f8187"
+  },
+  "state_payload_sha256": "c271637038faba85a4a8a79960cf9df5a6f443ba3bd83da63650971eac7cc1b4",
+  "rom": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "catalog": {
+    "filename": "rev1_message_block_catalog.json",
+    "sha256": "860771a9029bbc73042e0ad02b6aecd473d6af2bf3890f5efd43628af7310a89"
+  },
+  "renderer_state_address": 33589040,
+  "pool": {
+    "base_address": 33785856,
+    "current_pointer_relative_offset": 1448,
+    "entry_end_relative_offset": 1405,
+    "window_byte_length": 1512,
+    "seed_byte_length": 16
+  },
+  "ranked_catalog_matches": [
+    {
+      "id": "pc-jap-map-0217",
+      "matched_byte_length": 23,
+      "source_relative_offset": 803,
+      "pool_relative_offset": 801
+    },
+    {
+      "id": "pc-jap-map-0225",
+      "matched_byte_length": 23,
+      "source_relative_offset": 298,
+      "pool_relative_offset": 801
+    },
+    {
+      "id": "pc-jap-map-0351",
+      "matched_byte_length": 23,
+      "source_relative_offset": 443,
+      "pool_relative_offset": 801
+    },
+    {
+      "id": "pc-jap-map-0426",
+      "matched_byte_length": 23,
+      "source_relative_offset": 2616,
+      "pool_relative_offset": 846
+    },
+    {
+      "id": "pc-jap-map-0106",
+      "matched_byte_length": 22,
+      "source_relative_offset": 877,
+      "pool_relative_offset": 801
+    },
+    {
+      "id": "pc-jap-map-0226",
+      "matched_byte_length": 22,
+      "source_relative_offset": 39,
+      "pool_relative_offset": 801
+    },
+    {
+      "id": "pc-jap-map-0249",
+      "matched_byte_length": 22,
+      "source_relative_offset": 180,
+      "pool_relative_offset": 801
+    },
+    {
+      "id": "pc-jap-map-0250",
+      "matched_byte_length": 22,
+      "source_relative_offset": 180,
+      "pool_relative_offset": 801
+    },
+    {
+      "id": "pc-jap-map-0251",
+      "matched_byte_length": 22,
+      "source_relative_offset": 180,
+      "pool_relative_offset": 801
+    },
+    {
+      "id": "pc-jap-map-0252",
+      "matched_byte_length": 22,
+      "source_relative_offset": 180,
+      "pool_relative_offset": 801
+    },
+    {
+      "id": "pc-jap-map-0253",
+      "matched_byte_length": 22,
+      "source_relative_offset": 180,
+      "pool_relative_offset": 801
+    },
+    {
+      "id": "pc-jap-map-0254",
+      "matched_byte_length": 22,
+      "source_relative_offset": 186,
+      "pool_relative_offset": 801
+    }
+  ],
+  "interpretation_notice": "Matches show exact byte runs shared by the active EWRAM pool and catalogued ROM ranges. Short runs can occur by chance; a block still needs pointer/call-site and runtime checks before reinsertion."
+}

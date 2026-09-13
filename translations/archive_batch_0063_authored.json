@@ -1,0 +1,507 @@
+{
+  "schema_version": 1,
+  "kind": "authored_multi_archive_translation_batch",
+  "batch_number": 63,
+  "entries": [
+    {
+      "selector": "00/363",
+      "entry_index": 15,
+      "draft_translation": "스프레드건 M / 스프레드건 N / 스프레드건 O"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 16,
+      "draft_translation": "스프레드건 N / 스프레드건 O / 스프레드건 P"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 17,
+      "draft_translation": "스프레드건 O / 스프레드건 P / 스프레드건 Q"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 20,
+      "draft_translation": "호우건 O / 호우건 P / 호우건 Q"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 21,
+      "draft_translation": "호우건 P / 호우건 Q / 호우건 R"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 22,
+      "draft_translation": "호우건 Q / 호우건 R / 호우건 S"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 25,
+      "draft_translation": "라톤1 H / 라톤1 I / 라톤1 J"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 26,
+      "draft_translation": "라톤1 I / 라톤1 J / 라톤1 K"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 27,
+      "draft_translation": "라톤1 J / 라톤1 K / 라톤1 L"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 30,
+      "draft_translation": "라톤2 J / 라톤2 K / 라톤2 L"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 31,
+      "draft_translation": "라톤2 K / 라톤2 L / 라톤2 M"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 32,
+      "draft_translation": "라톤2 L / 라톤2 M / 라톤2 N"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 35,
+      "draft_translation": "라톤3 L / 라톤3 M / 라톤3 N"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 36,
+      "draft_translation": "라톤3 M / 라톤3 N / 라톤3 O"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 37,
+      "draft_translation": "라톤3 N / 라톤3 O / 라톤3 P"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 40,
+      "draft_translation": "캐논 A / 캐논 B / 캐논 C / 캐논 D / 캐논 E"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 45,
+      "draft_translation": "하이캐논 C / 하이캐논 D / 하이캐논 E / 하이캐논 F / 하이캐논 G"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 50,
+      "draft_translation": "메가캐논 E / 메가캐논 F / 메가캐논 G / 메가캐논 H / 메가캐논 I"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 55,
+      "draft_translation": "스프레드건 M / 스프레드건 N / 스프레드건 O / 스프레드건 P / 스프레드건 Q"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 60,
+      "draft_translation": "호우건 O / 호우건 P / 호우건 Q / 호우건 R / 호우건 S"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 65,
+      "draft_translation": "라톤1 H / 라톤1 I / 라톤1 J / 라톤1 K / 라톤1 L"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 70,
+      "draft_translation": "라톤2 J / 라톤2 K / 라톤2 L / 라톤2 M / 라톤2 N"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 75,
+      "draft_translation": "라톤3 L / 라톤3 M / 라톤3 N / 라톤3 O / 라톤3 P"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 80,
+      "draft_translation": "더블니들 C / 트리플니들 C / 테트라니들 C"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 81,
+      "draft_translation": "더블니들 I / 트리플니들 I / 테트라니들 I"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 85,
+      "draft_translation": "스몰봄 O / 크로스봄 O / 빅봄 O"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 86,
+      "draft_translation": "스몰봄 Q / 크로스봄 Q / 빅봄 Q"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 87,
+      "draft_translation": "스몰봄 T / 크로스봄 T / 빅봄 T"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 90,
+      "draft_translation": "소드 A / 와이드소드 A / 롱소드 A"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 91,
+      "draft_translation": "소드 L / 와이드소드 L / 롱소드 L"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 92,
+      "draft_translation": "소드 Y / 와이드소드 Y / 롱소드 Y"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 95,
+      "draft_translation": "플레임소드 H / 아쿠아소드 H / 일렉소드 H"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 96,
+      "draft_translation": "플레임소드 N / 아쿠아소드 N / 일렉소드 N"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 97,
+      "draft_translation": "플레임소드 R / 아쿠아소드 R / 일렉소드 R"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 100,
+      "draft_translation": "플레임블레이드 F / 아쿠아블레이드 F / 일렉블레이드 F"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 101,
+      "draft_translation": "플레임블레이드 R / 아쿠아블레이드 R / 일렉블레이드 R"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 105,
+      "draft_translation": "거츠펀치 B / 콜드펀치 B / 대시어택 B"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 106,
+      "draft_translation": "거츠펀치 D / 콜드펀치 D / 대시어택 D"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 110,
+      "draft_translation": "커스실드1 A / 커스실드2 A / 커스실드3 A"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 111,
+      "draft_translation": "커스실드1 O / 커스실드2 O / 커스실드3 O"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 112,
+      "draft_translation": "커스실드1 P / 커스실드2 P / 커스실드3 P"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 115,
+      "draft_translation": "카운트봄1 G / 카운트봄2 G / 카운트봄3 G"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 116,
+      "draft_translation": "카운트봄1 K / 카운트봄2 K / 카운트봄3 K"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 117,
+      "draft_translation": "카운트봄1 Z / 카운트봄2 Z / 카운트봄3 Z"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 120,
+      "draft_translation": "어스퀘이크1 Q / 어스퀘이크2 Q / 어스퀘이크3 Q"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 121,
+      "draft_translation": "어스퀘이크1 W / 어스퀘이크2 W / 어스퀘이크3 W"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 125,
+      "draft_translation": "포이즌마스크 U / 포이즌페이스 U / 포이즌아누비스 U"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 126,
+      "draft_translation": "포이즌마스크 W / 포이즌페이스 W / 포이즌아누비스 W"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 130,
+      "draft_translation": "돌풍 G / 흡입 G / 게이트맨 G"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 131,
+      "draft_translation": "돌풍 G / 흡입 G / 게이트맨V2 G"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 132,
+      "draft_translation": "돌풍 G / 흡입 G / 게이트맨V3 G"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 135,
+      "draft_translation": "메트가드 * / 대시어택 G / 거츠맨 G"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 136,
+      "draft_translation": "메트가드 * / 대시어택 G / 거츠맨V2 G"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 137,
+      "draft_translation": "메트가드 * / 대시어택 G / 거츠맨V3 G"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 140,
+      "draft_translation": "홀리패널 R / 리커버리300 R / 롤 R"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 141,
+      "draft_translation": "홀리패널 R / 리커버리300 R / 롤V2 R"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 142,
+      "draft_translation": "홀리패널 R / 리커버리300 R / 롤V3 R"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 145,
+      "draft_translation": "천장뒤 S / 카와리미 S / 섀도맨 S"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 146,
+      "draft_translation": "천장뒤 S / 카와리미 S / 섀도맨V2 S"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 147,
+      "draft_translation": "천장뒤 S / 카와리미 S / 섀도맨V3 S"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 150,
+      "draft_translation": "커스텀소드 B / 배리어블소드 B / 블루스 B"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 151,
+      "draft_translation": "커스텀소드 B / 배리어블소드 B / 블루스V2 B"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 152,
+      "draft_translation": "커스텀소드 B / 배리어블소드 B / 블루스V3 B"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 155,
+      "draft_translation": "포르테V3 X / 내비스카우트 X / 파이어고스펠 X"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 156,
+      "draft_translation": "포르테V3 X / 내비스카우트 X / 아쿠아고스펠 X"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 157,
+      "draft_translation": "포르테V3 X / 내비스카우트 X / 일렉고스펠 X"
+    },
+    {
+      "selector": "00/363",
+      "entry_index": 158,
+      "draft_translation": "포르테V3 X / 내비스카우트 X / 우드고스펠 X"
+    },
+    {
+      "selector": "00/364",
+      "entry_index": 1,
+      "draft_translation": "OK! 그럼 내가 / 가스 온수기 프로그램을 / 조사하고 올게! // 부탁해!"
+    },
+    {
+      "selector": "00/364",
+      "entry_index": 2,
+      "draft_translation": "록맨은 이미 / 전뇌 세계 안에 있어!"
+    },
+    {
+      "selector": "00/364",
+      "entry_index": 3,
+      "draft_translation": "[textSpeed delay=1]플러그인!![wait 10] // 록맨.EXE,[wait 10] // 트랜스미션![wait 30]"
+    },
+    {
+      "selector": "00/364",
+      "entry_index": 5,
+      "draft_translation": "이런 곳에 / PET가 떨어져 있다니 수상해! // 플러그인해서 안을 조사해 볼까? // 예 // 아니요"
+    },
+    {
+      "selector": "00/364",
+      "entry_index": 6,
+      "draft_translation": "이건 물통 모양의 / 기폭 장치인 것 같아! // 플러그인해서 안을 조사해 볼까? // 예 // 아니요"
+    },
+    {
+      "selector": "00/364",
+      "entry_index": 7,
+      "draft_translation": "이런 곳에 PET가 떨어져 있어! / 아까까지만 해도 없었는데... // 플러그인해서 안을 조사해 볼까? // 예 // 아니요"
+    },
+    {
+      "selector": "00/364",
+      "entry_index": 9,
+      "draft_translation": "넷토, / 지금은 시험 중이 아니라서 / 플러그인할 수 없어."
+    },
+    {
+      "selector": "00/364",
+      "entry_index": 10,
+      "draft_translation": "빨리 메인 시스템을 / 조사하고 와!"
+    },
+    {
+      "selector": "00/365",
+      "entry_index": 0,
+      "draft_translation": "록맨, 플러그아웃할까? // 예 // 아니요"
+    },
+    {
+      "selector": "00/365",
+      "entry_index": 1,
+      "draft_translation": "OK! 알겠어!"
+    },
+    {
+      "selector": "00/365",
+      "entry_index": 5,
+      "draft_translation": "넷토, 뭔가 엄청난 힘이 / 작용하고 있어서 플러그아웃할 / 수가 없어!"
+    },
+    {
+      "selector": "00/365",
+      "entry_index": 6,
+      "draft_translation": "넷토, 마음은 알겠지만 / 지금 플러그아웃하는 건 위험해! / 폭탄이 터지고 말 거야!!"
+    },
+    {
+      "selector": "00/365",
+      "entry_index": 7,
+      "draft_translation": "서두르지 않으면 궁극의 내비가 / 활동을 시작하고 말 거야! / 플러그아웃할 틈이 없어!!"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 0,
+      "draft_translation": "L 버튼을 누르면 / 넷토와 록맨이 대화할 수 있다! / (여기는 아직 안 들어갔습니다)"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 5,
+      "draft_translation": "왜 그래, 넷토? // 있지? 모두와 이야기해 보자.[waitSkip 15] // 휴일 이야기로 들뜬 / 모양이잖아!"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 6,
+      "draft_translation": "아까 누가 「할 말이 있다」고 / 하지 않았어?"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 7,
+      "draft_translation": "어떻게 할래? 슬슬 집에 갈까?"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 8,
+      "draft_translation": "여기가 넷토가 사는 아키하라 마을이네.[waitSkip 30] // 응? 알고 있다고?"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 9,
+      "draft_translation": "엄마가 있네. / 간식이라도 만들어 주시려나?"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 10,
+      "draft_translation": "넷토, 숙제부터 끝내자! / R 버튼으로 나를 / 컴퓨터 안에 보내 줘."
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 15,
+      "draft_translation": "넷토, / 오피셜 스퀘어에 갈 거면 / 인터넷에서 가야지?"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 16,
+      "draft_translation": "오피셜 스퀘어에 / 가는 거 아니었어?"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 20,
+      "draft_translation": "넷토, / [printItem item=58] 시험 중이잖아~"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 21,
+      "draft_translation": "모처럼 「[printItem item=1]」와 / 「[printItem item=2]」를 얻었으니 / 인터넷으로 돌아가자."
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 26,
+      "draft_translation": "넷토! 꾸물거릴 틈이 없어! / 빨리 야이토네 집으로!"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 30,
+      "draft_translation": "야이토뿐만 아니라 / 데카오까지...[waitSkip 30] // 대체 안은 어떻게 된 거지!?"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 31,
+      "draft_translation": "넷토! 들어갈 곳은 / 야이토네 집이야!"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 32,
+      "draft_translation": "두 사람을 찾자!"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 33,
+      "draft_translation": "먼저 데카오를 구하자!"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 34,
+      "draft_translation": "야이토를 구하는 것도 / 서둘러야 해!"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 35,
+      "draft_translation": "부채는 / 분명 이 집 어딘가에 있을 거야!"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 36,
+      "draft_translation": "부채로 가스를 날려 보내면 / 어떻게든 될 거야![waitSkip 30] // 아마도!"
+    },
+    {
+      "selector": "00/366",
+      "entry_index": 37,
+      "draft_translation": "아까 그 녀석을 딜리트해야 해! / 전뇌 세계로 돌아가자!"
+    }
+  ]
+}

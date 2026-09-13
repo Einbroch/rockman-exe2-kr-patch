@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "independent_context_selected_full_font_bank_verification",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_235_contextual_full_bank_poc.gba",
+    "sha256": "4593d3904365d33de983903bdf4c0ccbfee79051eaf324e7d90c4e6c0286b7f1",
+    "byte_length": 16777216
+  },
+  "manifest": {
+    "filename": "exe2_rev1_archive_00_09_dialogue_classroom_00_235_contextual_full_bank_poc_manifest.json",
+    "sha256": "2dc4d84234cdd3a26fee0919ff30b392440472033b4da55b5b75a567d1e4dbb6"
+  },
+  "context": {
+    "cursor_start_inclusive": "0x020389FE",
+    "cursor_end_exclusive": "0x0203A066"
+  },
+  "codepage_mapped_record_count": 396,
+  "verification": {
+    "supported_lengths": true,
+    "ordinary_font_bank_matches_original": true,
+    "alternate_font_bank_matches_prior_development_bank": true,
+    "hook_bytes_match_independent_encoding": true,
+    "trampoline_matches_independent_encoding": true,
+    "context_bounds_are_ordered": true,
+    "archive_at_expanded_rom_start_unchanged": true,
+    "gba_header_complement_checksum_valid": true,
+    "codepage_indices_unique_and_in_range": true,
+    "all_codepage_records_match_alternate_bank": true,
+    "prefix_differences_confined": true,
+    "tail_differences_confined": true
+  },
+  "passed": true
+}

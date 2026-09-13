@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "textpet_sha256": "1a92681bc423869816cd7db0c94ad9b25da23abc0461f45784a06d5236216658",
+  "fixture_count": 5,
+  "leading_interior_trailing_newlines_compiled_to_e8": true,
+  "module_sha256": "166e9aabdcbd05c2bcbe40c844c1d752837e82599f6c8116ba7a57652da02e8a",
+  "runtime_dir": "analysis\\textpet-layout-wutewkho"
+}

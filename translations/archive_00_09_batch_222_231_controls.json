@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "kind": "archive_00_09_translation_batch",
+  "entries": [
+    {
+      "entry_index": 222,
+      "source_context": "Classroom bookshelf examination with a two-option choice to read the PET explanation or stop",
+      "source_text_transcription": "本だなだ / PETについて かかれた 本がある / よみますか? // [option] よむ / [option] やめとく [select targets=235,continue,continue]",
+      "source_visible_text_span": [2, 60],
+      "draft_translation": "책장이다 / PET에 대해 적힌 책이 있다 / 읽을까? // [선택지] 읽는다 / [선택지] 그만둔다",
+      "proposed_pages": [["책장이다", "PET에 대해 적힌 책이 있다", "읽을까?"], ["읽는다", "그만둔다"]],
+      "replacement_segments": [
+        {"hangul": "책장이다"}, {"control_hex": "e8"},
+        {"direct_hex": "6d 62 71"}, {"hangul": "에"}, {"direct_hex": "00"}, {"hangul": "대해"}, {"direct_hex": "00"}, {"hangul": "적힌"}, {"direct_hex": "00"}, {"hangul": "책이"}, {"direct_hex": "00"}, {"hangul": "있다"}, {"control_hex": "e8"},
+        {"hangul": "읽을까"}, {"direct_hex": "7c"}, {"control_hex": "eb e9"},
+        {"control_hex": "ef 00 11"}, {"control_hex": "ee 00 02"}, {"hangul": "읽는다"}, {"control_hex": "e8"},
+        {"control_hex": "ef 00 00"}, {"control_hex": "ee 00 02"}, {"hangul": "그만둔다"}, {"control_hex": "f0 06 80 eb ff ff"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "e8", "eb e9", "ef 00 11", "ee 00 02", "e8", "ef 00 00", "ee 00 02", "f0 06 80 eb ff ff"],
+      "preserved_page_end_control_span": [60, 61],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; PET terminology and option wording require human review.", "Both option layout commands and all three select targets remain byte-identical."]
+    },
+    {
+      "entry_index": 231,
+      "source_context": "Classroom desk-row examination with a one-time hidden chip P reward and an already-collected branch",
+      "source_text_transcription": "つぎの しぎょうしきまで / つくえやイスも、しばしの お休みだ [checkFlag 315 -> 240] // ん・・・つくえの中に なにかがある! // [flagSet 315][playerAnimate 24][itemGiveChip 130 P] 熱斗は、 / チップデータ「[printChip 130] [printCode P]」 / を ゲットした!!",
+      "source_visible_text_span": [2, 115],
+      "draft_translation": "다음 개학식까지 / 책상과 의자도 잠시 쉬는 중이다 [수령 확인 분기] // 응... 책상 안에 뭔가 있다! // [칩 P 획득] 넷토는 / 칩 데이터 「[칩명 P]」 / 획득했다!!",
+      "replacement_segments": [
+        {"hangul": "다음"}, {"direct_hex": "00"}, {"hangul": "개학식까지"}, {"control_hex": "e8"},
+        {"hangul": "책상과"}, {"direct_hex": "00"}, {"hangul": "의자도"}, {"direct_hex": "00"}, {"hangul": "잠시"}, {"direct_hex": "00"}, {"hangul": "쉬는"}, {"direct_hex": "00"}, {"hangul": "중이다"}, {"control_hex": "eb"},
+        {"control_hex": "f3 00 3b 01 f0 ff"}, {"control_hex": "e9"},
+        {"hangul": "응"}, {"direct_hex": "88 88 88"}, {"hangul": "책상"}, {"direct_hex": "00"}, {"hangul": "안에"}, {"direct_hex": "00"}, {"hangul": "뭔가"}, {"direct_hex": "00"}, {"hangul": "있다"}, {"direct_hex": "81"}, {"control_hex": "eb e9"},
+        {"control_hex": "f2 00 3b 01"}, {"control_hex": "f8 04 18"}, {"control_hex": "f6 10 82 00 0f 01"},
+        {"hangul": "넷토는"}, {"direct_hex": "85"}, {"control_hex": "e8"},
+        {"hangul": "칩"}, {"direct_hex": "00"}, {"hangul": "데이터"}, {"direct_hex": "00 90"}, {"control_hex": "f9 00 82 01 00"}, {"direct_hex": "00"}, {"control_hex": "f9 00 0f 03"}, {"direct_hex": "91"}, {"control_hex": "e8"},
+        {"hangul": "획득했다"}, {"direct_hex": "81 81"}, {"control_hex": "f8 0c f8 10"}, {"control_hex": "eb"}
+      ],
+      "protected_control_hex_in_replacement_span": ["e8", "eb", "f3 00 3b 01 f0 ff", "e9", "eb e9", "f2 00 3b 01", "f8 04 18", "f6 10 82 00 0f 01", "e8", "f9 00 82 01 00", "f9 00 0f 03", "e8", "f8 0c", "f8 10", "eb"],
+      "preserved_page_end_control_span": [115, 116],
+      "protected_prefix_controls": ["f1 00"],
+      "status": "needs_human_review",
+      "review_notes": ["Machine draft only; hidden-item narration, chip terminology, and variable-dependent particle avoidance require human review.", "The already-collected branch, flag set, animation, chip grant, chip/code print commands, and player state commands remain byte-identical."]
+    }
+  ],
+  "limitations_replace": {
+    "old": "Entries 22 through 235 include the classroom event, evacuation, request, classroom-object, and PET tutorial text; entries 222 and 231 remain original, zero-length entries remain untouched, and all drafted text requires human review.",
+    "new": "Every non-empty entry selected from 0 through 235 is now represented by a Korean machine draft; zero-length entries remain untouched and all drafted text requires human review."
+  }
+}

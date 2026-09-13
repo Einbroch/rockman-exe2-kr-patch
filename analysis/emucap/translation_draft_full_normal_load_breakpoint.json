@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "kind": "normal_boot_relocated_archive_read_breakpoint",
+  "emulator": "MesenCE via emucap",
+  "rom": {
+    "filename": "exe2_rev1_archive_00_09_translation_draft_full_poc.gba",
+    "sha256": "f06eab70f6c76992a38ccf0371362e379dd3e6c785f682b6004dc597857558d6"
+  },
+  "launch": {
+    "system": "gba",
+    "display": false,
+    "input_sequence": ["start", "a"]
+  },
+  "breakpoint": {
+    "kind": "read",
+    "memory_type": "gbaPrgRom",
+    "start_offset": 8388608,
+    "end_offset": 8388611,
+    "pause_on_hit": true
+  },
+  "hit": {
+    "frame": 1437,
+    "gba_address": "0x08800000",
+    "pc": "0x00001108",
+    "r0": "0x08800000",
+    "r1": "0x02038800"
+  },
+  "runtime_dump_directory": "translation_draft_full_normal_load_dump",
+  "verification_report": "translation_draft_full_normal_load_verification.json",
+  "passed": true
+}

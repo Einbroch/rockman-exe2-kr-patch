@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "input": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "font_record_format": {
+    "base_rom_offset": 6910896,
+    "record_bytes": 64,
+    "display_layout": "two_vertical_8x8_4bpp_tiles",
+    "observed_dialogue_palette_index_ceiling": 3
+  },
+  "static_indexer_ranges": {
+    "direct": [
+      0,
+      228
+    ],
+    "e5_extended": [
+      229,
+      484
+    ],
+    "e6_extended": [
+      485,
+      740
+    ],
+    "combined_contiguous_range": [
+      0,
+      740
+    ],
+    "combined_record_count": 741
+  },
+  "simple_palette_run_measurement": {
+    "max_palette_index_histogram": {
+      "0": 30,
+      "1": 72,
+      "3": 542,
+      "4": 27,
+      "5": 1,
+      "6": 1,
+      "8": 5,
+      "9": 1,
+      "10": 4,
+      "11": 18,
+      "12": 2,
+      "13": 14,
+      "15": 24
+    },
+    "same_palette_record_runs": [
+      {
+        "first_record_index": 0,
+        "last_record_index": 511,
+        "record_count": 512
+      },
+      {
+        "first_record_index": 514,
+        "last_record_index": 552,
+        "record_count": 39
+      },
+      {
+        "first_record_index": 554,
+        "last_record_index": 554,
+        "record_count": 1
+      },
+      {
+        "first_record_index": 558,
+        "last_record_index": 559,
+        "record_count": 2
+      },
+      {
+        "first_record_index": 561,
+        "last_record_index": 571,
+        "record_count": 11
+      },
+      {
+        "first_record_index": 592,
+        "last_record_index": 595,
+        "record_count": 4
+      },
+      {
+        "first_record_index": 597,
+        "last_record_index": 605,
+        "record_count": 9
+      },
+      {
+        "first_record_index": 607,
+        "last_record_index": 672,
+        "record_count": 66
+      }
+    ],
+    "conservative_leading_candidate_range": [
+      0,
+      511
+    ],
+    "conservative_leading_candidate_record_count": 512,
+    "first_record_after_leading_run": {
+      "record_index": 512,
+      "max_palette_index": 15
+    },
+    "e6_parameters_inside_conservative_range": [
+      0,
+      26
+    ]
+  },
+  "runtime_expanded_record_probes": {
+    "probe_method": "replace one target record with dialogue-format Korean glyph data and call it through existing E6 transport",
+    "successful_record_indices": [
+      512,
+      740
+    ],
+    "endpoint_inference": "The static E6 mapping is contiguous from 485 through 740; successful first-expanded and maximum-index probes establish addressability and renderer compatibility for supplied format-valid glyph data across that range.",
+    "production_constraint": "This does not establish that original data at records 512 through 740 is unreferenced or safe to replace."
+  },
+  "interpretation_notice": "The indexer arithmetic addresses 741 records. The leading 512-record palette run remains a source-data observation, while runtime probes at records 512 and 740 establish that the full reachable range accepts supplied dialogue-format glyph data. Occupancy and consumer analysis remains required before using later original records in production."
+}
