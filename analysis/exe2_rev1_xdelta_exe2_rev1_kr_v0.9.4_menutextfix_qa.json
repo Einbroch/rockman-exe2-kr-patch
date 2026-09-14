@@ -1,0 +1,21 @@
+{
+  "status": "PASS_XDELTA_PATCH",
+  "patch_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\dist\\EXE2_Rev1_KR_V0.9.4_MenuTextFix.xdelta",
+  "patch_sha256": "9c6eb4164d71e490e9ebe91d10c4a9aa1d7c75575164824ae8e25e7a9f1ed25b",
+  "patch_size": 383738,
+  "source": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "size": 8388608,
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
+  },
+  "target": {
+    "filename": "exe2_rev1_kr_v0_9_4_menu_textfix.gba",
+    "size": 16777216,
+    "sha256": "fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f"
+  },
+  "format": "xdelta3 (VCDIFF)",
+  "deterministic": true,
+  "round_trip_byte_identical": true,
+  "wrong_source_rejected": true,
+  "rom_included": false
+}
