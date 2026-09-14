@@ -41,6 +41,11 @@ from exe1_k_font_source import (
 from gba_lz77 import compress, decompress
 from dialogue_layout import layout_script, literal as layout_literal
 from layout_byte_verifier import table_mapping, verify_changed_literals
+from menu_hangul_hook import planned_writes as menu_hook_writes, HOOK_OFFSET as MENU_HOOK_OFFSET
+from reviewed_choice_layout import REVIEWED_IDS, validate_choice_layout
+from pet_menu_graphics import planned_writes as pet_graphics_writes
+from static_submenu_tables import planned_writes as static_submenu_writes
+from submenu_title_graphics import planned_writes as submenu_graphics_writes
 
 
 SOURCE_SHA256 = "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
@@ -177,6 +182,20 @@ def find_raw_physical_continuations(
                 if target >= entry_count:
                     outbound.append({"entry_index": entry_index, "jump_target": target})
         if not outbound:
+            # Native menu callers can select the table's final index directly,
+            # without a script jump. In 00/359 the empty subchip slot selects
+            # index 159, whose E7 is physically just outside the formal archive.
+            # Preserve this exact empty-script terminator wherever the same raw
+            # boundary exists; never invent a universal padding/control byte.
+            boundary = int(metadata["archive_offset"]) + len(source_raw[selector])
+            if metadata["storage"] == "raw" and rom[boundary:boundary+1] == b"\xe7":
+                continuations[selector] = {
+                    "payload": b"\xe7", "source_rom_offset": boundary,
+                    "source_sha256": sha256(b"\xe7"),
+                    "next_catalog_selector": ordered[position+1][0] if position+1 < len(ordered) else None,
+                    "outbound_entries": [],
+                    "reason": "native caller can select terminal empty script; exact source E7 retained",
+                }
             continue
         if metadata["storage"] != "raw":
             raise ValueError(f"{selector}: out-of-table jump in compressed archive")
@@ -753,6 +772,7 @@ def main() -> None:
     parser.add_argument("--output-rom", type=Path, required=True)
     parser.add_argument("--manifest", type=Path, required=True)
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--legacy-menu-renderer", action="store_true", help="Diagnostic only: reproduce pre-MyBoy-fix renderer")
     args = parser.parse_args()
 
     for output in (args.output_rom, args.manifest):
@@ -932,9 +952,12 @@ def main() -> None:
                         source_block = block
                         block, detail = transform_script(
                             block, entry["draft_translation"], entry["entry_id"],
-                            preserve_option_layout=(selector, entry_index) == ("00/404", 10),
+                            preserve_option_layout=entry['entry_id'] in REVIEWED_IDS,
                         )
-                        block, layout_detail = layout_script(source_block, block, entry["entry_id"])
+                        if entry['entry_id'] in REVIEWED_IDS:
+                            layout_detail = validate_choice_layout(source_block, block, entry['entry_id'])
+                        else:
+                            block, layout_detail = layout_script(source_block, block, entry["entry_id"])
                         detail["dialogue_layout"] = layout_detail
                     except (ValueError, AssertionError) as error:
                         raise type(error)(f"{entry['entry_id']}: {error}") from error
@@ -1083,7 +1106,7 @@ def main() -> None:
             }
             if continuation is not None:
                 archive_report["physical_continuation"] = {
-                    "reason": "terminal jump target resolves to bytes immediately after the formal raw archive",
+                    "reason": continuation.get("reason", "terminal jump target resolves to bytes immediately after the formal raw archive"),
                     "source_rom_offset": continuation["source_rom_offset"],
                     "source_byte_length": len(continuation["payload"]),
                     "source_sha256": continuation["source_sha256"],
@@ -1165,11 +1188,60 @@ def main() -> None:
             "replacement_hex": replacement.hex(" "),
         })
 
+    menu_hook = None
+    if not args.legacy_menu_renderer:
+        menu_writes, menu_code, menu_hook = menu_hook_writes(source, clean_base)
+        # The new allocation and copied pointer slot must not overlap any prior writer.
+        from verify_semantic_translation_emulator_rom import expected_range
+        prior_ranges = [expected_range(w) for w in expected_writes]
+        for write in menu_writes:
+            lo, hi, _ = expected_range(write)
+            if any(lo < b and a < hi for a, b, _ in prior_ranges):
+                raise ValueError("menu renderer overlaps another Expected Write")
+        for write in menu_writes:
+            start = write["rom_offset"]
+            payload = menu_code if start == MENU_HOOK_OFFSET else bytes.fromhex(write["replacement_hex"])
+            output[start:start + len(payload)] = payload
+        expected_writes.extend(menu_writes)
+
+    pet_writes, pet_graphics = pet_graphics_writes(source, master_font)
+    for write in pet_writes:
+        start = write['rom_offset']
+        payload = bytes.fromhex(write['replacement_hex'])
+        output[start:start+len(payload)] = payload
+    expected_writes.extend(pet_writes)
+
+    # Chip Folder/Library names, descriptions, and the shared PET submenu UI
+    # are static 16-bit relative tables outside TextPet archives.  Relocate
+    # them into clean expanded-ROM space and patch every aligned consumer.
+    static_writes, static_submenus = static_submenu_writes(source)
+    title_writes, submenu_graphics = submenu_graphics_writes(source, master_font)
+    static_writes.extend(title_writes)
+    from verify_semantic_translation_emulator_rom import expected_range
+    prior_ranges = [expected_range(w) for w in expected_writes]
+    for write in static_writes:
+        lo, hi, _ = expected_range(write)
+        if any(lo < b and a < hi for a, b, _ in prior_ranges):
+            raise ValueError("static submenu table overlaps another Expected Write")
+        if write["kind"] == "static_table_asset":
+            start = write["rom_offset"]
+            payload = bytes.fromhex(write["replacement_hex"])
+            if any(value != 0xFF for value in clean_base[start:start + len(payload)]):
+                raise ValueError(f"static submenu target 0x{start:X} is not clean expanded fill")
+            output[start:start + len(payload)] = payload
+        else:
+            start = write["rom_offset"]
+            replacement = bytes.fromhex(write["replacement_hex"])
+            output[start:start + len(replacement)] = replacement
+    expected_writes.extend(static_writes)
+
     output_bytes = bytes(output)
     if len(output_bytes) != OUTPUT_SIZE:
         raise AssertionError("final ROM size changed")
     if output_bytes[0xA0:0xC0] != source[0xA0:0xC0]:
         raise AssertionError("GBA header changed unexpectedly")
+    from verify_semantic_translation_emulator_rom import verify_final_write_plan
+    verify_final_write_plan(source, output_bytes, expected_writes)
     args.output_rom.write_bytes(output_bytes)
 
     applied_entries = len(entries) - skipped_entries
@@ -1193,6 +1265,13 @@ def main() -> None:
             "shared_archive_source_rom_offset": int(archives[shared_selector]["archive_offset"]),
         },
         "translation_batches": batches,
+        "pet_menu_graphics": pet_graphics,
+        "static_submenu_tables": static_submenus,
+        "submenu_title_graphics": submenu_graphics,
+        "reviewed_choice_layout": {
+            "module_sha256": sha256(Path(__file__).with_name('reviewed_choice_layout.py').read_bytes()),
+            "entry_ids": sorted(REVIEWED_IDS),
+        },
         "dialogue_layout": {
             "policy": "whitespace_only_standard_dialogue_21_cells_3_rows",
             "module_sha256": sha256(Path(__file__).with_name("dialogue_layout.py").read_bytes()),
@@ -1257,6 +1336,7 @@ def main() -> None:
         },
         "archives": archive_reports,
         "hooks": {
+            "shared_menu_renderer": menu_hook,
             "isa": "ARM7TDMI Thumb-1 little-endian",
             "marker_intercepted_before_original_F9_handler": True,
             "ordinary_F9_frames_preserved": True,

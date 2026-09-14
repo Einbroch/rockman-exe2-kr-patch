@@ -47,3 +47,11 @@ __pycache__/
 *.tmp
 Thumbs.db
 desktop.ini
+
+# ---------------------------------------------------------------------------
+# 임시 패키징·검증 작업 폴더 (배포본은 GitHub Releases 로 올린다)
+# ---------------------------------------------------------------------------
+analysis/*-package-*/
+analysis/package_check*/
+analysis/*.previous.*.zip
+dist/

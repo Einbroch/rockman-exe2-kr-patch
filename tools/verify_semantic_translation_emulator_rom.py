@@ -35,9 +35,9 @@ def archive_offsets(raw: bytes) -> list[int]:
 def expected_range(write: dict) -> tuple[int, int, str]:
     start = int(write["rom_offset"])
     kind = write["kind"]
-    if kind == "archive_pointer":
+    if kind in ("archive_pointer", "static_table_pointer"):
         length = len(bytes.fromhex(write["replacement_hex"]))
-    elif kind == "relocated_archive":
+    elif kind in ("relocated_archive", "graphics_asset", "static_table_asset"):
         length = int(write["byte_length"])
     elif kind == "master_hangul_font":
         length = int(write["record_count"]) * int(write["record_byte_length"])
@@ -48,6 +48,37 @@ def expected_range(write: dict) -> tuple[int, int, str]:
     else:
         raise ValueError(f"unsupported Expected Write kind: {kind}")
     return start, start + length, kind
+
+
+def verify_final_write_plan(source: bytes, candidate: bytes, writes: list[dict]) -> None:
+    """Fail before artifact output on overlaps, undeclared bytes or wrong payloads."""
+    intervals = sorted(expected_range(w) for w in writes)
+    clean = source + b"\xff" * (len(candidate) - len(source))
+    for previous, current in zip(intervals, intervals[1:]):
+        if current[0] < previous[1]:
+            raise ValueError(f"overlapping Expected Writes: {previous} and {current}")
+    for write in writes:
+        start, end, _ = expected_range(write)
+        if not 0 <= start < end <= len(candidate):
+            raise ValueError("Expected Write outside candidate")
+        expected = write.get("expected_source_hex") or write.get("expected_immutable_source_hex")
+        if expected and source[start:start+len(bytes.fromhex(expected))] != bytes.fromhex(expected):
+            raise ValueError("Expected Write source mismatch")
+        source_hash_start = int(write.get("source_rom_offset", start))
+        source_hash_end = source_hash_start + int(write.get("source_byte_length", end - start))
+        if "expected_source_sha256" in write and sha256(source[source_hash_start:source_hash_end]) != write["expected_source_sha256"]:
+            raise ValueError("Expected Write source hash mismatch")
+        if "replacement_hex" in write and candidate[start:end] != bytes.fromhex(write["replacement_hex"]):
+            raise ValueError("Expected Write replacement mismatch")
+        if "sha256" in write and sha256(candidate[start:end]) != write["sha256"]:
+            raise ValueError("Expected Write payload hash mismatch")
+    cursor = 0
+    for start, end, _ in intervals:
+        if candidate[cursor:start] != clean[cursor:start]:
+            raise ValueError(f"unexplained final bytes before 0x{start:X}")
+        cursor = end
+    if candidate[cursor:] != clean[cursor:]:
+        raise ValueError("unexplained final tail")
 
 
 def main() -> None:
@@ -143,7 +174,7 @@ def main() -> None:
     for write in manifest["expected_writes"]:
         start = int(write["rom_offset"])
         kind = write["kind"]
-        if kind in {"archive_pointer", "thumb_hook"}:
+        if kind in {"archive_pointer", "thumb_hook", "static_table_pointer"}:
             replacement = bytes.fromhex(write["replacement_hex"])
             if candidate[start:start + len(replacement)] != replacement:
                 raise ValueError(f"{kind} final bytes mismatch at 0x{start:X}")
@@ -151,7 +182,7 @@ def main() -> None:
             expected_bytes = bytes.fromhex(expected)
             if source[start:start + len(expected_bytes)] != expected_bytes:
                 raise ValueError(f"{kind} source bytes mismatch at 0x{start:X}")
-        elif kind in {"relocated_archive", "thumb_trampoline"}:
+        elif kind in {"relocated_archive", "thumb_trampoline", "graphics_asset", "static_table_asset"}:
             length = int(write["byte_length"])
             if sha256(candidate[start:start + length]) != write["sha256"]:
                 raise ValueError(f"{kind} payload mismatch at 0x{start:X}")
@@ -166,6 +197,29 @@ def main() -> None:
                 raise ValueError("Expected Write font payload mismatch")
         else:
             raise ValueError(f"unknown Expected Write kind: {kind}")
+
+    verify_final_write_plan(source, candidate, manifest['expected_writes'])
+    if 'pet_menu_graphics' in manifest:
+        from pet_menu_graphics import planned_writes
+        planned, graphics = planned_writes(source, candidate[font_start:font_start+font_length])
+        if graphics != manifest['pet_menu_graphics']:
+            raise ValueError('PET graphics reproduction or source provenance mismatch')
+        for write in planned:
+            payload = bytes.fromhex(write['replacement_hex'])
+            start = write['rom_offset']
+            if candidate[start:start+len(payload)] != payload:
+                raise ValueError('PET graphics not reproduced from authorized font')
+
+    if 'submenu_title_graphics' in manifest:
+        from submenu_title_graphics import planned_writes
+        planned, graphics = planned_writes(source, candidate[font_start:font_start+font_length])
+        if graphics != manifest['submenu_title_graphics']:
+            raise ValueError('Submenu graphics provenance mismatch')
+        for write in planned:
+            payload = bytes.fromhex(write['replacement_hex'])
+            start = write['rom_offset']
+            if candidate[start:start+len(payload)] != payload:
+                raise ValueError('Submenu graphics reproduction failed')
 
     intervals = sorted(expected_range(write) for write in manifest["expected_writes"])
     for previous, current in zip(intervals, intervals[1:]):

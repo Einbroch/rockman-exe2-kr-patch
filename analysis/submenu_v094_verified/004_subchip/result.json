@@ -1,0 +1,74 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_kr_v0_9_4_menu_textfix.gba",
+  "rom_sha256": "fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-5j3vuy8p\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_kr_v0_9_4_menu_textfix.gba"
+  ],
+  "input_checkpoint": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\submenu_v094_verified\\002_diagnostic_menu\\checkpoint.mss",
+  "checkpoint_provenance": {
+    "cross_rom_diagnostic_seed": false,
+    "source_rom_sha256": "fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f",
+    "input_state_sha256": "1a03e0622205114343ab8f32729b20fb4f47a4d6e86aef534a4cb0645c24c1a3",
+    "fresh_boot": false
+  },
+  "timeline": [
+    {
+      "start": 0,
+      "release": 6,
+      "end": 26,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 26,
+      "release": 32,
+      "end": 182,
+      "keys": [
+        "a"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "3ca1f6457b16c7b9b54be47bd27370113a1b7dd3c6ceffba12f6cd919b972606",
+    "complete.txt": "bfa7634640c53da7cb5e9c39031128c4e583399f936896f27f999f1d58d7b37e",
+    "input.mss": "1a03e0622205114343ab8f32729b20fb4f47a4d6e86aef534a4cb0645c24c1a3",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "menu_cpu_events.json": "56bcfa86894de0f429a07a518f241e81249cf70eb26bf84d00f228949beee5db",
+    "menu_trace.json": "9a648c5442259bbf85a8e21934332e1450a06fbf1c4532819cc9df608ce07cfe",
+    "pet_asset_trace.json": "5da33c7c06e620d36ec4a0971b8e3467d0a0fba56772c4f583a3fe5f465f3824",
+    "segment.lua": "ada0791b40d58a8b8ee2598598d2ae713cc8ae4fa6e4e6720521843457cb76a9",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "cb38d383e0eef014bb5aa0ca9ba21b7e71567d457a5e8fe97140fe247c175c1e",
+    "step_001.json": "c0b53ee6300e56a73ce82a9b8af50bd43de622156bc73230efcb751101ff1671",
+    "step_001.png": "d15665a9b2538a139c7f472dec10972aa227ff3c4fdef89339e5345a3dbca554",
+    "step_001_bg0_map.bin": "7bfe46c4983addd0a013d04706b27438cb7765e686c48baa84648ff4e9f407b5",
+    "step_001_bg1_map.bin": "090c41c461433c358af6037d517fe56c7c436db021ade96de079e336b59a5628",
+    "step_001_bg2_map.bin": "0a4540c922a118e372805422f4066ce0b92f43f02e339aae672ff5eef8fe2cc1",
+    "step_001_bg3_map.bin": "08e08b845cc0c1500fe3cfa54275c573f05f1f5a859706fec4e593f64d9bd2fc",
+    "step_001_cpu.json": "e5154b5510fe06e04b03c16f7c59d575445435dcd786f7e7d6335ad8932e141c",
+    "step_001_pet_tiles.bin": "dc8786e42df5448a7aa3ed1dd53a8552a82703e8002086044929491acccc09c5",
+    "step_001_vram.bin": "683902cb830d04b31dfb9635e8c534303b42820a0428d66cfb558fec9124e820",
+    "step_002.json": "1f47bb9c626108b6b2e73e171125f4ef7f41459670339a529f33b5b2f7a3b41d",
+    "step_002.png": "5ecda48a8b5ba600b846fb5a4b5a5b751ee11e5ba5d3059eb7d7af63ab86d620",
+    "step_002_bg0_map.bin": "5fb312e7dca719464fd3f232d3411ae20ac907d3ec4c6650e4598d85ffcfd5cc",
+    "step_002_bg1_map.bin": "c6680682b540a7253f19da76383407e9bed2b5fc817d5d2dc6854821f3a5d068",
+    "step_002_bg2_map.bin": "2969ba014af2f850a97bceae258f162e0a4fe2b8468dbaa365a5dd206c3f86dc",
+    "step_002_bg3_map.bin": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+    "step_002_cpu.json": "61cdf364bfa5e3629abddda1e1e4d8ed20abb9e8c5a28f98af9b47d9bf9ab7af",
+    "step_002_pet_tiles.bin": "c51904f0d3ac21662c9c62e69c630019b571a922000eaa321a256841b0b522bd",
+    "step_002_vram.bin": "6e69992589d94e6061fb8242422ae383723d1f37bd19f121e82b227e2c66dda9"
+  }
+}

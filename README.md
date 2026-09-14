@@ -16,6 +16,34 @@
 
 ## 현재 에뮬레이터 검증 후보
 
+2026-09-14 최신 메뉴·칩 설명 수정본 **V0.9.4 MenuTextFix**:
+`poc/output/exe2_rev1_kr_v0_9_4_menu_textfix.gba`
+(SHA-256 `fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f`).
+차분 패키지는 `dist/EXE2_Rev1_KR_V0.9.4_MenuTextFix.zip`이다.
+칩 설명 255개에서 남아 있던 일본어 본문을 제거하고 10칸×3줄 검사를 적용했다.
+하위 메뉴 제목, 폴더 편집·배낭·P.A 메모와 전환 화살표, 통신 고정 문구도 한글화했다.
+숫자 필드 제어값을 번역하지 않도록 보호해 시간 및 칩 개수 형식을 보존한다.
+음소거 Mesen의 15개 구간과 실제 화면 14장을 검토했고, 새 일반 저장 후
+새 에뮬레이터 프로세스에서 이어하기·메뉴 재진입까지 확인했다.
+초기 접근은 명시적으로 기록한 구 ROM 진단용 체크포인트이며 자연 진행 증거가 아니다.
+Android My Boy! 기기 테스트와 전체 게임 QA는 미완료다. 영어 표기는 일부 유지했다.
+기존 상태 저장 대신 새 ROM을 완전히 다시 실행한 뒤 일반 게임 저장을 사용한다.
+검증은 `analysis/exe2_rev1_menu_textfix_{static_qa,content_qa,runtime_review,package_qa}.json`에 기록했다.
+아래 버전들과 `v0_9_4_submenu_fix`, `v0_9_4_submenu_final`, `v0_9_4_submenu`는 이전/중간 후보다.
+
+2026-09-13 My Boy! 메뉴 오류 수정 후보:
+`poc/output/exe2_rev1_kr_v0_9_1_myboy_fix2.gba` (SHA-256
+`106f7ab463faf8141d6fb5ed126c81ae5dfd8cc55d278a9151847c5d511c2110`).
+확인용 차분 패치는 `dist/EXE2_Rev1_KR_V0.9.1_MyBoyFix.zip`이다.
+메뉴의 별도 출력기에 빠져 있던 F9 FC 한글 처리를 추가하고, 빈 서브칩 칸 등
+3개 raw 아카이브의 마지막 E7 종료 코드를 함께 보존했다. V0.9의 381개 formal
+아카이브 번역과 폰트는 동일하다. 162개 한글 메뉴 라벨 CPU 검증 및 음소거 Mesen의
+메뉴·하위 화면·저장·새 부팅·반복 열기 테스트를 통과했다. **My Boy! 기기 실행은
+아직 확인 전**이다. 구 상태 저장을 불러오지 말고 새 부팅 후 게임 내 저장으로
+이어 한다. 원인/증거는 `analysis/exe2_rev1_myboy_menu_investigation.md`,
+런타임 검토는 `analysis/exe2_rev1_myboy_menu_runtime_review.json`을 참고한다.
+아래의 V0.9 및 `playtest_fix_v2` 기록은 수정 전 기준선이다.
+
 2026-09-10: 정상 버튼 입력만으로 오프닝부터 교실 종업식까지 플레이했다.
 교실 마지막의 일본어 후속 대사 `00/164`를 한글로 추가하고, 새 ROM을 게임 내
 저장에서 부팅해 같은 장면의 한글 표시·필드 복귀·재저장·새 부팅 복원을 확인했다.
@@ -23,7 +51,7 @@
 다음은 종업식 후 데카오 대화다. 기록은 `analysis/exe2_rev1_natural_play_qa.json`과
 해당 playtest 폴더의 README를 참고한다. 전체 게임 QA는 진행 중이다.
 
-현재 배포용 차분 패키지는 `dist/EXE2_Rev1_KR_V0.9.zip`이다. 최신
+기존 V0.9 차분 패키지는 `dist/EXE2_Rev1_KR_V0.9.zip`이다. 당시의
 `playtest_fix_v2` 후보를 재현하는 BPS 패치, Windows 적용기, 설치 안내,
 릴리스 노트와 Floating IPS 도구·라이선스·소스를 포함한다. 원본 ROM, 패치된
 ROM, 저장 파일은 포함하지 않는다. 압축 해제 후 깨끗한 일본판 Rev 1 ROM을
@@ -152,3 +180,13 @@ python tools/survey_rom.py --rom "<원본-ROM-경로>" --output analysis/survey.
 5. 그 결과를 재현 가능한 빌드와 차분 패치로 승격한다.
 
 원본 게임의 저작권 자료는 커밋하거나 배포하지 않는다.
+
+## V0.9.2 선택창·PET 메뉴 수정 후보
+
+사용자 화면에서 재현된 교실 선택창의 줄바꿈/선택지 겹침을 검토된 네 엔트리에 수정했고, PET 첫 메뉴의 9개 그래픽 항목을 한글화했다. 배포용 BPS 패키지는 [EXE2_Rev1_KR_V0.9.2_ChoiceMenuFix.zip](dist/EXE2_Rev1_KR_V0.9.2_ChoiceMenuFix.zip), 에뮬레이터 확인용 전체 ROM은 `poc/output/exe2_rev1_kr_v0_9_2_choice_menu.gba`다. 두 파일 모두 깨끗한 일본판 Rev 1 원본을 기준으로 한다.
+
+## V0.9.3 하위 메뉴 정적 번역 후보
+
+칩 폴더·서브칩·데이터 라이브러리·록맨·이메일·키 아이템·통신·저장의 칩 이름/설명과 공용 본문 문구를 확장 ROM 테이블로 한글화했다. [배포용 BPS 패키지](dist/EXE2_Rev1_KR_V0.9.3_SubmenuFix.zip)와 [에뮬레이터 확인용 ROM](poc/output/exe2_rev1_kr_v0_9_3_submenu.gba)을 사용한다. 후보 ROM SHA-256은 `694ffab7a654f2070667d8bb1a964280534dccf087b0e46c1cd434022dcfa623`이다. 최신 ZIP SHA-256은 `c5e0d12ced0e399050df19a9a5ae9ca7f0986fde22768d1354a252ebd508bcb2`이다.
+
+정적 검증과 음소거 Mesen 2의 8개 하위 메뉴 경로는 통과했으며, 패치 적용 결과도 후보 ROM과 일치한다. 다만 상단 제목 그래픽과 일부 통신 고정 라벨은 별도 타일맵 자산이라 일본어/영어 잔여가 있을 수 있다. My Boy!에서는 이전 상태 저장을 불러오지 말고 패치된 새 ROM을 콜드부팅한 뒤 새 일반 저장을 사용한다.

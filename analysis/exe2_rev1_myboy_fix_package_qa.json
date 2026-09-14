@@ -1,0 +1,26 @@
+{
+  "status": "PASS_MYBOY_FIX_PACKAGE_DEVICE_CONFIRMATION_PENDING",
+  "zip_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\dist\\EXE2_Rev1_KR_V0.9.1_MyBoyFix.zip",
+  "zip_sha256": "04c8b14cdee5d96896234ad12ab2cdccdf0eae75e57adf416ef0245ccc5f58bf",
+  "zip_size": 930079,
+  "patch_sha256": "91408aefc474dee79f867ebebc36b07caac3e0ecfe82522d1fa4997c621615fa",
+  "target_sha256": "106f7ab463faf8141d6fb5ed126c81ae5dfd8cc55d278a9151847c5d511c2110",
+  "source_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+  "applied_from_final_zip_byte_identical": true,
+  "bps_and_zip_deterministic": true,
+  "wrong_source_and_overwrite_rejected": true,
+  "no_rom_or_saves": true,
+  "runtime_review_sha256": "dc2f69f5774f8cb9298b5d3e20ab591428237b7406c0fd9ba44ee7d10290a86e",
+  "members": {
+    "APPLY_PATCH.cmd": "215d84a55ca42909a66216a176847eea8005a9619b094aa2ebbaeb8a54f733d6",
+    "apply_patch.ps1": "14061336ff898bfb6980ded2948ec5f076ac5327aed902b843b1c3ac081d3a94",
+    "EXE2_Rev1_KR_V0.9.1_MyBoyFix.bps": "91408aefc474dee79f867ebebc36b07caac3e0ecfe82522d1fa4997c621615fa",
+    "INSTALL.md": "65a7141eb9471a078a7ff2e24d3892485e96f091207a7c3b7370425e12a06343",
+    "manifest.json": "b347dbc4aca904866fdd0c703cef9d72e2967f00970d6f8f1537acb6cec9e12e",
+    "VERIFICATION.json": "dc2f69f5774f8cb9298b5d3e20ab591428237b7406c0fd9ba44ee7d10290a86e",
+    "tools/COPYING": "759de06c3329988ac8cbc16b7991426659a893e8b36b5ebb0aafb9009ebf5af9",
+    "tools/COPYING.gpl3": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+    "tools/flips-source-v198.zip": "414113f98ed54151232af017f7e731accdb1e062c3f719cf2abafb0436fe3d45",
+    "tools/flips.exe": "ca6b364ccb23ab83ff0f4458f589eac001e7baf74315decde73c878a8eb519fd"
+  }
+}

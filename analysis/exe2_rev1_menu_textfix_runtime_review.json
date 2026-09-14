@@ -1,0 +1,237 @@
+{
+  "status": "PASS_SCOPED_MENU_REGRESSION",
+  "candidate_sha256": "fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f",
+  "emulator": "Mesen 2",
+  "audio_enabled": false,
+  "segments": [
+    "001_cold_boot",
+    "002_diagnostic_menu",
+    "003_folder",
+    "004_subchip",
+    "005_library",
+    "006_rockman",
+    "007_email",
+    "008_keyitems",
+    "009_communication",
+    "010_save",
+    "011_library_switch",
+    "012_folder_edit",
+    "013_save_confirm",
+    "014_after_save_boot",
+    "015_backpack"
+  ],
+  "visual_review": {
+    "003_folder/step_001.png": "Korean folder heading and names; list remains operable.",
+    "004_subchip/step_002.png": "Korean subchip heading and empty-inventory message.",
+    "005_library/step_003.png": "Korean library title, PA arrow, names; Cannon description only Korean and within three rows.",
+    "006_rockman/step_004.png": "Korean status message; original English labels retained.",
+    "007_email/step_005.png": "Korean email heading and empty-inbox message.",
+    "008_keyitems/step_006.png": "Korean key-item heading and PET description.",
+    "009_communication/step_007.png": "Korean fixed labels fully visible above numeric background strips; units and modes legible.",
+    "010_save/step_008.png": "Korean save title and fields, preserved time separator and numeric counts.",
+    "011_library_switch/step_001.png": "PA memo title and return arrow localized; original English PA notation retained.",
+    "011_library_switch/step_005.png": "Shotgun description has only Korean, contained in three rows.",
+    "012_folder_edit/step_002.png": "Korean folder-edit heading, unit and backpack arrow; Korean chip description.",
+    "013_save_confirm/step_002.png": "Game reports successful save.",
+    "014_after_save_boot/step_006.png": "Fresh emulator process continued from normal battery save and reopened PET menu.",
+    "015_backpack/step_003.png": "Korean backpack header and folder return arrow."
+  },
+  "evidence": [
+    {
+      "path": "analysis/submenu_v094_verified/001_cold_boot/result.json",
+      "sha256": "82d22c7f542a3ec9ad3a1f93a80eede92d5a3c3ff090ca1749c6fc867b872241"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/002_diagnostic_menu/result.json",
+      "sha256": "7426a67c10d48dd55ef344406e215d7e1eea65fbfa88a60bb38de9529981489d"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/003_folder/result.json",
+      "sha256": "daf5a249d2dcce007089a6d4039e13b2d48263bd7df2c5927ca5c01ad1935fd0"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/004_subchip/result.json",
+      "sha256": "e9f8753215d9565eb731525091cca7e47099629c4d6171c66be8cdf6ab37e79f"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/005_library/result.json",
+      "sha256": "c8cade042a58389638b05eb82c1cab522401a3ec29de3d7c390f5e362d1de8c5"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/006_rockman/result.json",
+      "sha256": "89946cff3bcde390e110c6c90adf5e2d390a0bdf188e00c0c313511832159e33"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/007_email/result.json",
+      "sha256": "252779b2f563fd74cf252baf6bc276c4bd74055b295b052ae628a9fff0a13728"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/008_keyitems/result.json",
+      "sha256": "c34fb5b7ab837e29bb9767675add3c5b28c51bd10320da82a6f997110ca9d336"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/009_communication/result.json",
+      "sha256": "146eef626cd985ec7db382e0082c20167361fac1e201c0ca14ef17a8d91aab1c"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/010_save/result.json",
+      "sha256": "597d48c4e8c59475c04702a52bba403986b0d1f6a63f89a5d3746d5aa27d2d5b"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/011_library_switch/result.json",
+      "sha256": "f79bec162edf82ed17fff784432db6c366cc683e52008bfdcf66e77a3a59d155"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/012_folder_edit/result.json",
+      "sha256": "547ae3f0a857410bf74ba956612bc0613f1c5ec4315b770dbe276f758cf53e37"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/013_save_confirm/result.json",
+      "sha256": "12f6ea6bac48b53a3944c7cc31a3e80acaa1ca22c43ba5d29706303f7465f46c"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/014_after_save_boot/result.json",
+      "sha256": "4102bbb5e3b063c702d4542d441d9d3b28217bb8dbc40f7d923aa7841b46b243"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/015_backpack/result.json",
+      "sha256": "b58444c74dc33cdc3bbf9fd674b2d7460e345f633e91ffac26ee2319a3bac685"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/003_folder/step_001_vram.bin",
+      "sha256": "38be8e1d7dfa4f706121b3fdec72fc4902eaef412e36a51426208f6d0e603353"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/003_folder/pet_asset_trace.json",
+      "sha256": "bdce114f57a679a42a954269146dcead40840e5fde5719ed52f189065604ccd5"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/004_subchip/step_002_vram.bin",
+      "sha256": "6e69992589d94e6061fb8242422ae383723d1f37bd19f121e82b227e2c66dda9"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/004_subchip/pet_asset_trace.json",
+      "sha256": "5da33c7c06e620d36ec4a0971b8e3467d0a0fba56772c4f583a3fe5f465f3824"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/005_library/step_003_vram.bin",
+      "sha256": "47e9b0e117dab29810243d9e64515a8ee0366c95449625ec6fe96bbe51379943"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/005_library/pet_asset_trace.json",
+      "sha256": "1806af083a49182ea505db27bd3c37579b233e7f40454264413b957c5714f43f"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/006_rockman/step_004_vram.bin",
+      "sha256": "0c0d90aff43f212a16ca7d62268757b5ace2efe99ed649aae17b3d971a1a8f9c"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/006_rockman/pet_asset_trace.json",
+      "sha256": "526f04e93cdc399b2fdf92dd9ed78848aa968903d7f95fb8142532b8aeeb4c57"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/007_email/step_005_vram.bin",
+      "sha256": "e2c6973826a0c6e5c526ca6ab3c9b551a23fa50f8c827b36b679560d1d3e578f"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/007_email/pet_asset_trace.json",
+      "sha256": "55db0ac31c7fab1161d8143a31397171bd12a90235cd6ee7e453e72e0f32bf3e"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/008_keyitems/step_006_vram.bin",
+      "sha256": "f042ceb0c6b69588d5358cd443a2a92fa551c2c9e6e385c06435511d53f0c533"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/008_keyitems/pet_asset_trace.json",
+      "sha256": "9cf1baa128ab018a3aed5cc0009d13fcc9e7611d21df9dd78ee7496b14930b56"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/009_communication/step_007_vram.bin",
+      "sha256": "6694a5387c4469f29cd849cd7db16091dec0cbc371ca6de10a9ffd919c3b6a70"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/009_communication/pet_asset_trace.json",
+      "sha256": "6a9995e590fd2bf69f79f0618d5de497a0bc154bc60389f053ef5191a3348a3a"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/010_save/step_008_vram.bin",
+      "sha256": "e072d9d8d84a6e10db56f339149abd1338717a59aa89e5203c0d45b3b44cc317"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/010_save/pet_asset_trace.json",
+      "sha256": "66137d552a61b34d39b849d2c4299cb43775ef44c9c8ef441ee9bf2a22592250"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/003_folder/step_001.png",
+      "sha256": "e479375409d71d66aee7421adfb390138b01ff37318124a343718891c4714424"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/004_subchip/step_002.png",
+      "sha256": "5ecda48a8b5ba600b846fb5a4b5a5b751ee11e5ba5d3059eb7d7af63ab86d620"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/005_library/step_003.png",
+      "sha256": "33e26aeb7a1e9da938687d9e84c79abd5fad36b6848a8cb1d820dc74fe880ee7"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/006_rockman/step_004.png",
+      "sha256": "d376d5d379e55a2ac54956da16c1c4d4864d2404bd4716e0d7865c086641f6b2"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/007_email/step_005.png",
+      "sha256": "c4f55c4015dfd67fc58b6f9372be0ac07f10b4a0a9c5638302afae65d23c3d28"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/008_keyitems/step_006.png",
+      "sha256": "39b9d502feb5ff608aed248af0191d3cadc331ca75d20a19879bb33a4fbaac94"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/009_communication/step_007.png",
+      "sha256": "a4b377afa0cd8144f5007daa4a5a50a9eecdc136b0f66a7533f85b093805c7f8"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/010_save/step_008.png",
+      "sha256": "5e671eb99d1896b245a6283451f91759edba00cd71d51234a1694338c53f0266"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/011_library_switch/step_001.png",
+      "sha256": "9f261ccd28d1b29d6d4067430c316c546d5007cc1b086f80ac9a978188a27481"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/011_library_switch/step_005.png",
+      "sha256": "775a33103a60a5b9672a2091152cd2885c145451929a1ec041b17ae962395fb9"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/012_folder_edit/step_002.png",
+      "sha256": "c8e967ad5707d0dc1558c7a75fce3c2f06231ec3e83411f02b57988e4e768707"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/013_save_confirm/step_002.png",
+      "sha256": "91e7f3bfb2cb9292de308c5b74e9577deb3581e64a4364a8bc31e0a631e9c52d"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/014_after_save_boot/step_006.png",
+      "sha256": "89b5586bd0689d2b092ead13e935f8fec6dfa3b9dd42d5fd92a0aabc34feac68"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/015_backpack/step_003.png",
+      "sha256": "adef4f7f60046a3e7003a7df21b2fb788cecc90455ee6d1aa830d4e600fc696f"
+    },
+    {
+      "path": "analysis/submenu_v094_verified/battery_verified.sav",
+      "sha256": "0dc297da7f1b44d6568ba443ae78121dc5a8e25d1423acfad31730da195cd066"
+    }
+  ],
+  "checks": {
+    "complete_bank_resident_in_eight_submenus": true,
+    "independent_vram_uploads_do_not_overlap_bank": true,
+    "normal_game_save_and_fresh_process_reload": true
+  },
+  "seed_policy": "Initial menu routes use an explicitly recorded cross-ROM diagnostic seed; this is not fresh progression evidence. A new normal save was then written and cold-loaded.",
+  "limitations": [
+    "Android My Boy! device not directly tested.",
+    "Not full-game QA or final release.",
+    "Rockman English labels retained.",
+    "Existing untranslated populations remain outside this fix."
+  ]
+}

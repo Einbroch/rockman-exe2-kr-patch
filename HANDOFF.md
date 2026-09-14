@@ -1,5 +1,19 @@
 # Handoff
 
+## [2026-09-14] [submenu-text-and-graphics] [V0.9.4-MenuTextFix]
+
+- 최신 사용 후보: `poc/output/exe2_rev1_kr_v0_9_4_menu_textfix.gba`, SHA-256 `fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f`.
+- 확인용 BPS 패키지: `dist/EXE2_Rev1_KR_V0.9.4_MenuTextFix.zip`, SHA-256 `96ed6506a450db0f99db6f7f546b9441d3c749b85e8ca718d77fccac8dea378b`; BPS SHA-256 `12d234fb32cd92e0558d80521b9838dbe6c93ac5a577eb2994108978873945f3`. 원본에서 적용한 전체 바이트가 후보와 일치하며 ZIP에 ROM/저장은 없다. 최종 배포판이 아닌 범위 한정 에뮬레이터 검증 후보다.
+- 사용자 `shots/56.png` 재현 원인: `static_submenu_tables.py`가 원본 일본어 설명 뒤에 한국어를 덧붙였다. 설명 255개의 렌더러 제어 뼈대만 유지하고 본문을 교체했다. 별도 바이트 디코더가 일본어 본문 0개와 모든 설명의 10칸×3줄 한계를 검사한다. 과거 V0.9.3의 런타임 완료/정적 일치는 이 시각적 결함의 부재를 증명하지 못했으며, 기존 기록의 설명 정상 표시 주장은 철회한다.
+- 제어값 추가 수정: shared UI의 숫자용 E9 3바이트 필드는 일본어/문장부호로 디코드돼 너비 값 C2/86 등이 번역되었다. 13개 숫자 문자열에서는 해당 필드를 원본 바이트로 보존한다. 시간 00:03 및 개수 30장/11/250을 실제 화면에서 확인했다.
+- 그래픽: `submenu_title_graphics.py`가 공통 은행 ROM 7DA0DC→950000을 계획하고 loader literal 25F70/25F78을 수정한다. VRAM 06000020..06003400에 54개 타일을 추가하며, 다음 독립 업로드 06003400과 겹치지 않는다. 58개 생성 타일 중 4개는 교체된 배낭 제목만 사용하던 기존 슬롯을 재사용한다. 원본 타일 참조와 편집 영역 밖 바이트를 검증한다.
+- 한글화 범위: 칩 폴더·서브칩·데이터 라이브러리·이메일·키 아이템·통신·저장 제목, 폴더 편집/배낭/P.A 메모 제목 및 전환 화살표, 통신 보유 칩/전적/장/승/패. 록맨 화면의 기존 영어 rockman.exe/ATTACK/RAPID/CHARGE는 유지한다.
+- 런타임에서 발견 후 수정한 회귀: 통신 숫자 BG2의 배경 스트립이 16픽셀 한글 라벨 아래쪽을 덮었다. 라벨은 y=3..4/7..8로 배치하고 숫자 y=5..6/9..10과 분리했다. 8개 하위 화면의 실제 VRAM 은행이 최종 ROM과 모두 바이트 일치한다.
+- 검증: `analysis/exe2_rev1_menu_textfix_static_qa.json`, `..._content_qa.json`, `..._runtime_review.json`, `..._package_qa.json`. `analysis/submenu_v094_verified`의 음소거 Mesen 정상 입력 15개 구간 및 실제 화면 14장 검토. 255개 설명 전체는 정적 검사이며 실제 본문 관찰은 캐논/샷건 등 경로에 한정된다. Android My Boy! 기기를 직접 실행한 증거는 없다.
+- 초기 메뉴 진입은 V0.9.2의 정확한 체크포인트를 `--cross-rom-seed`로 명시한 진단 경로이다. 구 상태를 새 ROM 소유로 속이지 않는다. 이후 새 후보 고유 일반 저장을 생성하고 014 구간에서 새 프로세스 부팅→이어하기→PET 메뉴를 확인했다. 저장 백업 `analysis/submenu_v094_verified/battery_verified.sav`; 원래 사용자 저장은 변경하지 않았다.
+- 정확한 재개점: `analysis/submenu_v094_verified/014_after_save_boot/checkpoint.mss` (최신 ROM에서 일반 저장으로 부팅한 PET 메뉴). `tools/run_natural_play_segment.py --load`는 ROM/에뮬레이터/상태 해시를 확인한다. `tools/test_submenu_v094.py --rom ... --out 새폴더`로 재현 가능하다.
+- `v0_9_4_submenu_fix`, `v0_9_4_submenu_final`, `v0_9_4_submenu`와 `analysis/submenu_v094_final`, `analysis/submenu_v094_layout`은 중간 진단 결과다. 최신 검증 후보로 사용하지 않는다. 기존 미적용 00/357의 95개, 미번역 물리 후속 159개, 전체 번역 품질/플레이 QA는 여전히 남아 있다.
+
 ## [2026-09-10] [natural-play-qa] [00-164-tail-fix]
 - 사용자 요청: 음소거한 에뮬레이터로 혼자 플레이하며 중간 저장, 이상 발견 시 저장·수정 후 재개. 9월 10일 중단 지점부터 계속 진행했다.
 - 현재 실행 후보: `poc/output/exe2_rev1_semantic_translation_playtest_fix_v2.gba`, SHA-256 `a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a`. 기본 `RUN_MGBA_CLEAN_MUTED.cmd`가 호출하는 PowerShell의 경로·해시도 갱신했다. 아직 전체 게임 통과나 최종 배포판이 아니다.
@@ -227,3 +241,48 @@
 - 증거: `analysis/exe2_rev1_v0_9_prerelease_package_qa.json`, `tools/build_v0_9_prerelease_patch.py`, `tools/v0_9_release_package/`.
 - 한계: 자연 플레이 QA는 226세그먼트·531화면의 부분 범위다. mGBA 전체 경로, 전체 게임 완주, 남은 일본어 후속 스크립트와 보류 레이아웃은 미완료다. `release_ready=false`와 `official_final_release=false`를 manifest/receipt에 고정했다.
 - 상태: V0.9 prerelease package passed; official final release remains blocked
+
+## [2026-09-13] [debug] [myboy-pet-menu-fix]
+- 사용자 요청: Claude Code 조사 기록을 이어 My Boy! START 메뉴 멈춤을 수정.
+- 원인 1: 공용 IWRAM 라벨 출력기의 F9 FC 처리 누락. 원래 F9 처리기가 FC를
+  길이 표 인수로 읽어 표 밖 `C1C4C8C4`를 문자열 주소에 더했다. CPU 재현에서
+  `00/362/15`의 첫 잘못된 주소 `CA54DA8B`, Mesen 일반 입력에서도 같은 부류의
+  잘못된 주소를 관측했다. `tools/menu_hangul_hook.py`로 F9 표 한 항목을 연결하고
+  기존 글꼴 출력기를 호출하도록 수정했다. native F9는 원래 경로를 유지한다.
+- 원인 2: 서브칩 빈 칸은 00/359의 마지막 경계 인덱스 159를 직접 선택한다.
+  종료 코드가 재배치에서 빠져 검은 화면이 됐다. 구 V0.9에서도 재현했다.
+  실제 원본 마지막 바이트가 E7인 raw 00/359, 00/363, 00/354의 빈 종료 코드
+  3개를 보존한다. 물리 후속 영역 161개 중 추가 3개는 빈 항목이므로 미번역
+  문장 증가가 아니다. 기존 미번역 후속 문장은 156개다.
+- 산출물: `poc/output/exe2_rev1_kr_v0_9_1_myboy_fix2.gba`, SHA-256
+  `106f7ab463faf8141d6fb5ed126c81ae5dfd8cc55d278a9151847c5d511c2110`.
+  `dist/EXE2_Rev1_KR_V0.9.1_MyBoyFix.zip`, 930,079바이트, SHA-256
+  `04c8b14cdee5d96896234ad12ab2cdccdf0eae75e57adf416ef0245ccc5f58bf`.
+- 검증: 원본 기반 재빌드·전체 write 검증, 한글 162개/원문 162개 라벨 실제 ARMv4T
+  실행 및 픽셀 대조, 빈 서브칩 항목, native F9 0–4, 스택·버퍼 검증 통과.
+  최종 ROM Mesen 음소거 010–018 총 4,889프레임 일반 입력에서 PET/폴더/서브칩/
+  라이브러리/상태/메일/키 아이템/통신 메뉴 취소/저장 완료/새 부팅/반복 메뉴/대사 통과.
+  최종 ZIP 재추출 후 동봉 적용기 출력 바이트 일치·잘못된 원본 거부·덮어쓰기 방지 통과.
+- 증거: `analysis/exe2_rev1_myboy_menu_investigation.md`, `*_cpu_qa.json`,
+  `*_static_qa.json`, `*_runtime_review.json`, `analysis/exe2_rev1_myboy_fix_package_qa.json`.
+- 재개: `analysis/myboy_menu_fix_runtime/018_final_dialogue/checkpoint.mss`는 새 후보에만
+  사용할 수 있다. 사용자 My Boy!에는 이전 즉시 상태가 아닌 새 부팅/일반 저장을 안내.
+- 보존: Claude의 미커밋 진단 도구/패키지와 기존 삭제 상태는 변경하지 않았다.
+  첫 단독 메뉴 훅 후보(`...myboy_fix.gba`)는 서브칩 결함이 남은 조사용이며 사용하지 않는다.
+- 상태: PC causal fix + targeted regression PASS; **My Boy! device confirmation PENDING**.
+
+## [2026-09-13] [fix] [choice-menu-layout]
+- 사용자 화면 54/55에서 확인된 야이토 교실 선택창(00/404 엔트리 6, 7, 8)과 책장 선택창(엔트리 10)의 질문/선택지 경계를 검토 목록으로 고정했다. 질문은 21칸·3행 안에서 줄바꿈하고 선택지 두 항목은 원래 `option`/`space`/`select` 제어 명령과 분기 대상을 보존한다. 미검토 선택창에는 전역 자동변환을 적용하지 않는다.
+- PET 첫 메뉴의 그래픽 글자 9개(칩 폴더, 서브칩, 데이터 라이브러리, 록맨, 이메일, 키 아이템, 통신, 저장, 돌아가기)를 원본의 4bpp 타일/4개 맵의 기존 빈 전용 타일에 같은 크기로 삽입했다. 에그제 1 [K] 허가 글리프를 사용했으며 로더 소스·VRAM 적재·BG0 맵 복사 경로를 정적 및 Mesen 음소거 trace로 확인했다. ROM 크기 증가는 없다.
+- 산출물: `poc/output/exe2_rev1_kr_v0_9_2_choice_menu.gba`, SHA-256 `fbd46e84a6847993a565f452d7e75d477e9bf7b513269da2befba27b04df843b`.
+- 배포 패치: `dist/EXE2_Rev1_KR_V0.9.2_ChoiceMenuFix.zip`, SHA-256 `9a7e2c7694446013648a7fc26d753d2eaa1be61dcb1fca21447a2ffe017fb7ed`, BPS SHA-256 `f3265c5a07fff445843eacd7fe8dc36922696c49b1f5d4fa012da4ebf5e98923`. ZIP에는 원본 ROM·세이브·상태 파일이 없다.
+- 검증: 정적 전체 write/아카이브/폰트/그래픽 보호영역 PASS, 기존 My Boy 메뉴 CPU 회귀 PASS, Mesen `--noAudio` 일반입력으로 메뉴/서브메뉴 재진입과 PET 타일 적재 trace PASS. 패키지 압축 재현성과 적용 후 ROM 바이트 동일성 PASS.
+- 한계: 이 환경에서 자연 NPC 이동으로 야이토 선택창까지 도달하는 전체 경로와 실제 Android My Boy! 기기 실행은 아직 확인하지 않았다. 따라서 이 버전은 선택창·PET 메뉴 수정 검증 후보이며 공식 완주판이 아니다.
+
+## [2026-09-13] [fix] [pet-submenu-static-tables]
+- 사용자 요청으로 칩 폴더·서브칩·데이터 라이브러리·록맨·이메일·키 아이템·통신·저장 하위 메뉴의 정적 이름/설명/공용 문구를 확장 ROM 테이블로 재배치하고 한글화했다. 칩 이름 255개, 칩 설명 255개, 공용 PET 문구 142개를 대상으로 하며 기존 포인터 리터럴도 함께 재배치했다.
+- 산출물: `poc/output/exe2_rev1_kr_v0_9_3_submenu.gba`, SHA-256 `694ffab7a654f2070667d8bb1a964280534dccf087b0e46c1cd434022dcfa623`. 정적 검증은 `analysis/exe2_rev1_submenu_static_qa.json`의 `PASS (bench)`다.
+- 음소거 Mesen 2에서 기존 메뉴 체크포인트를 후보 ROM에 결합한 뒤 8개 하위 메뉴 경로(폴더/라이브러리/록맨/메일/키 아이템/통신/저장)를 일반 입력으로 확인했다. 각 세그먼트는 `analysis/pet_layout_menu_fix_v093/015_folder`–`021_save`에 보존되어 있고, `invalid_stream=null`, 비정상 종료 없음이다. 메뉴 진입용 시드는 이전 후보 체크포인트에서 파생했으므로 콜드부팅 전체 경로 증거로 과장하지 않는다.
+- 배포 패치: `dist/EXE2_Rev1_KR_V0.9.3_SubmenuFix.zip`, SHA-256 `c5e0d12ced0e399050df19a9a5ae9ca7f0986fde22768d1354a252ebd508bcb2`, BPS SHA-256 `5e30127db3e1bdbf8ef0115fb23b6d9ca076dd52bf8f771b08f0ccd31bfd9770`. 패키지 압축 해제 후 동봉 Flips v198으로 적용한 결과가 후보 ROM과 바이트 단위로 일치했다.
+- 제한: 일부 하위 화면의 상단 제목 그래픽(예: `チップフォルダ`, `データライブラリ`, `Eメール`, `キーアイテム`, `つうしん`, `セーブ`)과 통신 화면의 일부 고정 라벨은 별도 그래픽/상태 자산이라 이번 정적 텍스트 패스에서 아직 일본어 또는 영어로 남을 수 있다. 칩 이름·설명 및 본문 문구는 한글화되었으며, 제목 그래픽까지 완전 한글화하려면 별도 타일맵 분석이 필요하다.
+- 상태: 하위 메뉴 정적 번역 후보 및 BPS 패키지 준비 완료; 제목 그래픽 잔여분과 Android My Boy! 실기 확인은 미완료.

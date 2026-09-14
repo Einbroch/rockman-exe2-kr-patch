@@ -1,0 +1,20 @@
+{
+  "status": "PASS_SCOPED_VALIDATION_PACKAGE",
+  "candidate_sha256": "fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "dff146de85b25b2c64f3a8a9755fa98bf3313e690b30ae28787a67ded24c95a4",
+  "content_qa_sha256": "5c3c7b7cee95d2ba4f4dd9e1846fc3115359cfa52ce579b0133b44eb54648afc",
+  "runtime_review_sha256": "0dde309a0fda74a95bf0aee2eb9d0733f641251c615db9019b183ea02b2c861e",
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.4_MenuTextFix.zip",
+  "package_sha256": "96ed6506a450db0f99db6f7f546b9441d3c749b85e8ca718d77fccac8dea378b",
+  "patch_sha256": "12d234fb32cd92e0558d80521b9838dbe6c93ac5a577eb2994108978873945f3",
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

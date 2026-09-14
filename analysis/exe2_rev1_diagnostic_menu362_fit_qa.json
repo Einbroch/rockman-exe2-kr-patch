@@ -1,0 +1,52 @@
+{
+  "status": "PASS_DIAGNOSTIC_PACKAGE",
+  "variant": "menu362-fit",
+  "release_ready": false,
+  "zip_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\dist\\EXE2_Rev1_KR_V0.9_MENU362FIT_TEST.zip",
+  "zip_sha256": "aac1bf39a912f35b152247f6c888f229df81ab7d18b6267df0a05b5add873de3",
+  "zip_size": 928933,
+  "patch_sha256": "827674fd80f3c72f3ad600860d5d6140db3655ec20738428c23018844271459d",
+  "patch_size": 394745,
+  "source_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+  "candidate_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "applied_rom_sha256": "4d9d3b95ea57185c7791bb331283ca7b0eba06179fafb6161647746cd3375116",
+  "applied_rom_size": 16777216,
+  "variant_details": {
+    "archive": "00/362",
+    "entries": 192,
+    "restored_to_japanese": 162,
+    "kept_korean": 30,
+    "rebuilt_length": 2046,
+    "placed_at": "0x0910000",
+    "longest_restored": {
+      "entry": 119,
+      "korean_bytes": 43,
+      "original_bytes": 10
+    }
+  },
+  "patch_deterministic": true,
+  "zip_deterministic": true,
+  "wrong_source_rejected": true,
+  "existing_output_not_overwritten": true,
+  "no_rom_or_saves_in_package": true,
+  "final_zip_extracted_apply_sha256": "4d9d3b95ea57185c7791bb331283ca7b0eba06179fafb6161647746cd3375116",
+  "runtime_smoke": {
+    "emulator": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+    "audio_enabled": false,
+    "result_sha256": "0f08bb4241e0e709853ac55226adcccae9f9632c534586f48bb139ef0e899c23",
+    "screenshot_sha256": "5dd8e36e1f559f3b4a979ada8c97df2323da4de4268d88954f0a4a7e81cea496",
+    "status": "PASS_DIRECT_MESEN_COLD_BOOT_SMOKE"
+  },
+  "members_sha256": {
+    "APPLY_PATCH.cmd": "215d84a55ca42909a66216a176847eea8005a9619b094aa2ebbaeb8a54f733d6",
+    "apply_patch.ps1": "14061336ff898bfb6980ded2948ec5f076ac5327aed902b843b1c3ac081d3a94",
+    "EXE2_Rev1_KR_V0.9_MENU362FIT_TEST.bps": "827674fd80f3c72f3ad600860d5d6140db3655ec20738428c23018844271459d",
+    "manifest.json": "1bc4209223653aad041d1c45676852ed3353b41c0db319f2965d9605e18b28f0",
+    "README_KO.txt": "d67f8eb93f894123b794a9ab9af522eae720b4300b0d7115481ec754a7b05d9e",
+    "tools/COPYING": "759de06c3329988ac8cbc16b7991426659a893e8b36b5ebb0aafb9009ebf5af9",
+    "tools/COPYING.gpl3": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+    "tools/flips-source-v198.zip": "414113f98ed54151232af017f7e731accdb1e062c3f719cf2abafb0436fe3d45",
+    "tools/flips.exe": "ca6b364ccb23ab83ff0f4458f589eac001e7baf74315decde73c878a8eb519fd"
+  }
+}

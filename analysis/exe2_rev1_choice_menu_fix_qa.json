@@ -1,0 +1,42 @@
+{
+  "status": "PASS_TARGETED_CHOICE_AND_PET_MENU",
+  "candidate_rom": "poc/output/exe2_rev1_kr_v0_9_2_choice_menu.gba",
+  "candidate_sha256": "fbd46e84a6847993a565f452d7e75d477e9bf7b513269da2befba27b04df843b",
+  "source_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+  "choice_layout": {
+    "entries": ["00/404/6", "00/404/7", "00/404/8", "00/404/10"],
+    "question_capacity": "21 cells x 3 rows",
+    "options_preserved": true,
+    "control_skeleton_preserved": true,
+    "compiled_boundary_whitespace_checked": true,
+    "unit_tests": "11 passed"
+  },
+  "pet_menu_graphics": {
+    "labels": ["칩 폴더", "서브칩", "데이터 라이브러리", "록맨", "이메일", "키 아이템", "통신", "저장", "돌아가기"],
+    "maps": 4,
+    "tile_write_bytes": 2752,
+    "map_write_bytes_each": 520,
+    "rom_growth_bytes": 0,
+    "loader_vram_trace": "PASS",
+    "protected_palette_and_background": "PASS"
+  },
+  "runtime": {
+    "emulator": "Mesen 2",
+    "audio_enabled": false,
+    "normal_input_segments": "010_boot_menu through 018_dialogue",
+    "menu_and_reentry": "PASS",
+    "pet_tile_load_source": "0x087D7FBC",
+    "pet_tile_load_destination": "0x0600C800",
+    "limitations": [
+      "Natural movement to the specific Yai classroom choice was not reached in the available checkpoint route.",
+      "Android My Boy! device confirmation and full-game completion remain pending."
+    ]
+  },
+  "package": {
+    "path": "dist/EXE2_Rev1_KR_V0.9.2_ChoiceMenuFix.zip",
+    "sha256": "89a969cc03ac9032edaca2ca13eca3f5255317d1ddaa3939449850071797f287",
+    "bps_sha256": "f3265c5a07fff445843eacd7fe8dc36922696c49b1f5d4fa012da4ebf5e98923",
+    "rom_or_save_included": false,
+    "apply_result_byte_identical": true
+  }
+}

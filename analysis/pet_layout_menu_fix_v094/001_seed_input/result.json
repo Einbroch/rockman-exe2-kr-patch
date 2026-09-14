@@ -1,0 +1,15 @@
+{
+  "scope": "derived menu checkpoint input; no RAM or progress injection",
+  "rom_sha256": "04d806323356bdc6da24febeb6d62483ef8e37e757abc14e29df6909fc9018f8",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "completed": true,
+  "audio_enabled": false,
+  "artifacts": {
+    "checkpoint.mss": "311a8e9485fbfffcf03d5a1d267a273a169ea0b43b719755b4a5631516e55b69"
+  },
+  "provenance": {
+    "source_checkpoint": "analysis/pet_layout_menu_fix/010_boot_menu/checkpoint.mss",
+    "source_checkpoint_sha256": "311a8e9485fbfffcf03d5a1d267a273a169ea0b43b719755b4a5631516e55b69",
+    "note": "checkpoint is used only as a reproducible menu-state seed; it is not cold-boot evidence for this candidate"
+  }
+}

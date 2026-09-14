@@ -1,0 +1,42 @@
+{
+  "status": "PASS_TARGETED_MESEN_MENU_QA_MYBOY_PENDING",
+  "rom_sha256": "106f7ab463faf8141d6fb5ed126c81ae5dfd8cc55d278a9151847c5d511c2110",
+  "emulator": "Mesen 2",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "route": "Cold boot from a copied in-game after-class save; ordinary controller input only; later checkpoints belong to this exact fixed ROM",
+  "passing_segments": [
+    "analysis/myboy_menu_fix_runtime/010_final_boot_menu",
+    "analysis/myboy_menu_fix_runtime/011_final_subchip",
+    "analysis/myboy_menu_fix_runtime/012_final_library_rockman",
+    "analysis/myboy_menu_fix_runtime/013_final_email_keyitems",
+    "analysis/myboy_menu_fix_runtime/014_final_comm_save",
+    "analysis/myboy_menu_fix_runtime/015_final_save_field_reentry",
+    "analysis/myboy_menu_fix_runtime/016_final_saved_coldboot",
+    "analysis/myboy_menu_fix_runtime/017_final_folder_repeat",
+    "analysis/myboy_menu_fix_runtime/018_final_dialogue"
+  ],
+  "frames": 4889,
+  "observed_menu_hangul_hook_hits": 26,
+  "checks": {
+    "pet_menu_and_korean_location_label": true,
+    "chip_folder_and_chip_list_return": true,
+    "empty_subchip_list_and_return": true,
+    "data_library_and_rockman_status_return": true,
+    "empty_email_and_key_items_return": true,
+    "communication_menu_entry_and_cancel": true,
+    "save_confirm_cancel_overwrite_and_success_message": true,
+    "cold_boot_continue_after_save": true,
+    "repeated_menu_close_reopen": true,
+    "korean_field_hint_and_npc_dialogue": true,
+    "sampled_stack_within_iwram": true,
+    "no_observed_invalid_menu_stream": true
+  },
+  "myboy_device_verified": false,
+  "limitations": [
+    "My Boy! app execution on the user's Android device is pending; app version and settings are not known.",
+    "Communication/link gameplay was not tested, only menu entry and cancellation.",
+    "This is targeted menu regression, not whole-game QA.",
+    "Existing Japanese UI and remaining translation/layout work from V0.9 remain open."
+  ]
+}

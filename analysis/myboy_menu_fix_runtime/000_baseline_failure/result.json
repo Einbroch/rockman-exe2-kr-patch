@@ -1,0 +1,42 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_semantic_translation_playtest_fix_v2.gba",
+  "rom_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-g1jw9x1w\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_semantic_translation_playtest_fix_v2.gba"
+  ],
+  "input_checkpoint": "analysis\\playtest_20260910_fixed\\010_resume_field\\checkpoint.mss",
+  "timeline": [
+    {
+      "start": 0,
+      "release": 6,
+      "end": 126,
+      "keys": [
+        "start"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "9635b748cf607237ceeafca76debdb51b2a1787fcba95f8dbfba587834aa8db1",
+    "complete.txt": "65a699905c02619370bcf9207f5a477c3d67130ca71ec6f750e07fe8d510b084",
+    "input.mss": "6fec34665b5525848631a74ef3a207a11d682284b48ab613c459429a1437738b",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "menu_trace.json": "416062bf7147c1b781bff00aa8d22ab50f317ed399ed856c760088a798941573",
+    "segment.lua": "3042723f0a4fd32e90f9296abc1fd60adba565079f877f76c1208ff3b8a53fb1",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "a4841b59ab191dab8caad039e6807130d8044882c6b7e5e7184d8d1bb17f1ef3",
+    "step_001.json": "6de921d26a095af561a04a89200b37285ef75869c88a8979eafdd6f3d1872857",
+    "step_001.png": "221366f0264d93c3273d506cb3635ec7a9e5d676ba5be65a168cbf14607d5149"
+  }
+}

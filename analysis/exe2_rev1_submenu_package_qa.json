@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SUBMENU_PATCH_PACKAGE",
+  "source_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+  "candidate_sha256": "694ffab7a654f2070667d8bb1a964280534dccf087b0e46c1cd434022dcfa623",
+  "package": "dist/EXE2_Rev1_KR_V0.9.3_SubmenuFix.zip",
+  "package_sha256": "c5e0d12ced0e399050df19a9a5ae9ca7f0986fde22768d1354a252ebd508bcb2",
+  "bps_sha256": "5e30127db3e1bdbf8ef0115fb23b6d9ca076dd52bf8f771b08f0ccd31bfd9770",
+  "applied_output_sha256": "694ffab7a654f2070667d8bb1a964280534dccf087b0e46c1cd434022dcfa623",
+  "flips_sha256": "ca6b364ccb23ab83ff0f4458f589eac001e7baf74315decde73c878a8eb519fd",
+  "zip_crc_and_member_bytes_verified": true,
+  "rom_and_save_included": false,
+  "audio_enabled": false,
+  "android_myboy_verified": false,
+  "title_graphics_fully_translated": false
+}

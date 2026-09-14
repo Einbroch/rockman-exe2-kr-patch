@@ -1,0 +1,45 @@
+{
+  "status": "PASS_DIAGNOSTIC_PACKAGE",
+  "variant": "trim10m",
+  "release_ready": false,
+  "zip_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\dist\\EXE2_Rev1_KR_V0.9_TRIM10M_TEST.zip",
+  "zip_sha256": "4f500e369b4867d28c1485e9c85bc77e1683d1511e93eedaee5a048dc6de1fb2",
+  "zip_size": 928680,
+  "patch_sha256": "bcc1e317a46e6a6e0221c665c96325df20ffb82ed96857f5940e8272236cb25c",
+  "patch_size": 394735,
+  "source_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+  "candidate_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "applied_rom_sha256": "1a35c68c25ec17866eaac92cdfad82636cfb8876dee5633c605e7b3012c1341c",
+  "applied_rom_size": 10485760,
+  "variant_details": {
+    "kept_bytes": 10485760,
+    "removed_bytes": 6291456,
+    "removed_fill_byte": 255,
+    "last_live_offset": 9461833
+  },
+  "patch_deterministic": true,
+  "zip_deterministic": true,
+  "wrong_source_rejected": true,
+  "existing_output_not_overwritten": true,
+  "no_rom_or_saves_in_package": true,
+  "final_zip_extracted_apply_sha256": "1a35c68c25ec17866eaac92cdfad82636cfb8876dee5633c605e7b3012c1341c",
+  "runtime_smoke": {
+    "emulator": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+    "audio_enabled": false,
+    "result_sha256": "644f2b37daea7441aad2ec15c0783d58868a61f920ea7905abab5de752a923c0",
+    "screenshot_sha256": "604369a28161d09b505ad9d6e48094d4b8b8b3ae52196ed1aa40789ad47f1aa5",
+    "status": "PASS_DIRECT_MESEN_COLD_BOOT_SMOKE"
+  },
+  "members_sha256": {
+    "APPLY_PATCH.cmd": "215d84a55ca42909a66216a176847eea8005a9619b094aa2ebbaeb8a54f733d6",
+    "apply_patch.ps1": "14061336ff898bfb6980ded2948ec5f076ac5327aed902b843b1c3ac081d3a94",
+    "EXE2_Rev1_KR_V0.9_TRIM10M_TEST.bps": "bcc1e317a46e6a6e0221c665c96325df20ffb82ed96857f5940e8272236cb25c",
+    "manifest.json": "f45c5d26b8adaf5217fe5516b27a34e5393f1fde07d4a46c183958f47c37015c",
+    "README_KO.txt": "b453d70cb22533e75499e5b7a287f2b88d0828f838e8a2c4ca8aef3e80c2f189",
+    "tools/COPYING": "759de06c3329988ac8cbc16b7991426659a893e8b36b5ebb0aafb9009ebf5af9",
+    "tools/COPYING.gpl3": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+    "tools/flips-source-v198.zip": "414113f98ed54151232af017f7e731accdb1e062c3f719cf2abafb0436fe3d45",
+    "tools/flips.exe": "ca6b364ccb23ab83ff0f4458f589eac001e7baf74315decde73c878a8eb519fd"
+  }
+}

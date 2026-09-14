@@ -1,0 +1,7 @@
+{
+  "rom_sha256": "106f7ab463faf8141d6fb5ed126c81ae5dfd8cc55d278a9151847c5d511c2110",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "input_state_sha256": "61fddc4481bd56209cdb29be41734db3df0d4d5c4d117a8886e6c82b821625e0",
+  "scope": "read-only memory observation after bound savestate load; no load-path claim",
+  "audio_enabled": false
+}

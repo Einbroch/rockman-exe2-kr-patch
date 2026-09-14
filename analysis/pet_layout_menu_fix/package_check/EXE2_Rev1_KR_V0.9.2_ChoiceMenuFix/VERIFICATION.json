@@ -1,0 +1,27 @@
+{
+  "status": "PASS_CHOICE_MENU_PATCH_PACKAGE",
+  "source_sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+  "target_sha256": "fbd46e84a6847993a565f452d7e75d477e9bf7b513269da2befba27b04df843b",
+  "patch_sha256": "f3265c5a07fff445843eacd7fe8dc36922696c49b1f5d4fa012da4ebf5e98923",
+  "static_qa": "analysis\\pet_layout_menu_fix\\static_qa.json",
+  "cpu_qa": "analysis\\pet_layout_menu_fix\\cpu_qa.json",
+  "runtime_segments": [
+    "analysis\\pet_layout_menu_fix\\010_boot_menu",
+    "analysis\\pet_layout_menu_fix\\011_folder_subchip",
+    "analysis\\pet_layout_menu_fix\\012_library_rockman",
+    "analysis\\pet_layout_menu_fix\\013_email_keyitems",
+    "analysis\\pet_layout_menu_fix\\014_comm_save",
+    "analysis\\pet_layout_menu_fix\\015_save_reentry",
+    "analysis\\pet_layout_menu_fix\\016_coldboot_menu",
+    "analysis\\pet_layout_menu_fix\\017_folder_repeat",
+    "analysis\\pet_layout_menu_fix\\018_dialogue"
+  ],
+  "audio_enabled": false,
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  }
+}

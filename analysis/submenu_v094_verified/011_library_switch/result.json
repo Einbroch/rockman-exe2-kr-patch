@@ -1,0 +1,142 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_kr_v0_9_4_menu_textfix.gba",
+  "rom_sha256": "fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-6t49qggy\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_kr_v0_9_4_menu_textfix.gba"
+  ],
+  "input_checkpoint": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\submenu_v094_verified\\005_library\\checkpoint.mss",
+  "checkpoint_provenance": {
+    "cross_rom_diagnostic_seed": false,
+    "source_rom_sha256": "fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f",
+    "input_state_sha256": "5063c8c9a91761df43da27f8b16edf2878b46b86a91b672026b74e3a069433be",
+    "fresh_boot": false
+  },
+  "timeline": [
+    {
+      "start": 0,
+      "release": 6,
+      "end": 126,
+      "keys": [
+        "right"
+      ]
+    },
+    {
+      "start": 126,
+      "release": 132,
+      "end": 252,
+      "keys": [
+        "left"
+      ]
+    },
+    {
+      "start": 252,
+      "release": 258,
+      "end": 318,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 318,
+      "release": 324,
+      "end": 384,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 384,
+      "release": 390,
+      "end": 450,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 450,
+      "release": 456,
+      "end": 516,
+      "keys": [
+        "b"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "035caa24c5b4f99247cf2e24015ee0a4de3b77e15a64c87e23f74f29bb481eeb",
+    "complete.txt": "4771bef2c04a34b548b77ea7581cf821152d9dea9c2c85151a07856fe3639314",
+    "input.mss": "5063c8c9a91761df43da27f8b16edf2878b46b86a91b672026b74e3a069433be",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "menu_cpu_events.json": "6802217ed8a26b169c3dfcf52045485b782f5ab8c1e3d899a58cbf81fe8071d9",
+    "menu_trace.json": "aaff5db697e9754099b87ba106255457b2802afc3f489110082dfd2f4f6e3783",
+    "pet_asset_trace.json": "7e7f796fa37d1bdfee461ff469179bbe98a87235200ea59001ff4b04c2024a38",
+    "segment.lua": "730ab001b4ff8b96087942f964b1af1c34877f098a64db8b3c8272a3d67724a5",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "801f017b95afa523d3aa3844c442068839c30bfcf0804e383622a0a5cd15b109",
+    "step_001.json": "51dc928e9da4c50b781f01048564f2270e98347695ed3eebfb7037f824f1ed97",
+    "step_001.png": "9f261ccd28d1b29d6d4067430c316c546d5007cc1b086f80ac9a978188a27481",
+    "step_001_bg0_map.bin": "431387acb7a5e2603c752c727cd300d0a0d8fa6534e46ae5ce2a512a6e891891",
+    "step_001_bg1_map.bin": "083240cc571017628ca014f707853e39aecb5b19f45514dcd83f0ceb16b22c7c",
+    "step_001_bg2_map.bin": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+    "step_001_bg3_map.bin": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+    "step_001_cpu.json": "f47307cd753d22b157e84c587fde611e266622608959e6efa2aeefb6ebe36322",
+    "step_001_pet_tiles.bin": "dc8786e42df5448a7aa3ed1dd53a8552a82703e8002086044929491acccc09c5",
+    "step_001_vram.bin": "ad4ed9db81d51a1092158f180fd3f250b51f098dff4651a5c36c079cd6723657",
+    "step_002.json": "f0c0fd9fae47a26edd0a11d940282fc4f23c9b74a006b844b259fc3a5619eb90",
+    "step_002.png": "d413fe9b707f2841f300862b6eb5640802623588565ecd0b06fe83aa674a3097",
+    "step_002_bg0_map.bin": "728f3b72fd7fb3095ccd869546e24a901ed310f27044d93a7478dc1c5a2215f0",
+    "step_002_bg1_map.bin": "c45858f4e2303e06101cc677cb0a7dd4e6eb7182421d9cd3de9aee28f51e8322",
+    "step_002_bg2_map.bin": "386eb5467f0c5f12221760fa3130ff6b28186d33934930fd9fc087660e26741b",
+    "step_002_bg3_map.bin": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+    "step_002_cpu.json": "ae0aecafc10d418a9f297b02a636e5409a3447eee6ba1bdb00750e478b07cbaa",
+    "step_002_pet_tiles.bin": "dc8786e42df5448a7aa3ed1dd53a8552a82703e8002086044929491acccc09c5",
+    "step_002_vram.bin": "47e9b0e117dab29810243d9e64515a8ee0366c95449625ec6fe96bbe51379943",
+    "step_003.json": "d3a0f4edc29b954cb3b223d7aafa8d7973a24c06b976747576d3a640bce54dd0",
+    "step_003.png": "2d650b1b1a68edf9915e14d112186639ad7189cf95c9826a7233282a6cee95e9",
+    "step_003_bg0_map.bin": "431387acb7a5e2603c752c727cd300d0a0d8fa6534e46ae5ce2a512a6e891891",
+    "step_003_bg1_map.bin": "c45858f4e2303e06101cc677cb0a7dd4e6eb7182421d9cd3de9aee28f51e8322",
+    "step_003_bg2_map.bin": "386eb5467f0c5f12221760fa3130ff6b28186d33934930fd9fc087660e26741b",
+    "step_003_bg3_map.bin": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+    "step_003_cpu.json": "3d3334f60de4853a16b8430bcb400dd9dfe0cdedfb389d3fdea634fd6229d501",
+    "step_003_pet_tiles.bin": "dc8786e42df5448a7aa3ed1dd53a8552a82703e8002086044929491acccc09c5",
+    "step_003_vram.bin": "a50abb4a143638e739aa74dc6b17e2fc95b382ab8933564a301cde264384d25e",
+    "step_004.json": "1eaf73e9fa70fec38d94af7e1ce3816baa90fed57616414a46fbf445c84cc59c",
+    "step_004.png": "4e6aa313bed428b901347552511f4b2e05dee8e534cf4c15ad4042b2cb1596ab",
+    "step_004_bg0_map.bin": "431387acb7a5e2603c752c727cd300d0a0d8fa6534e46ae5ce2a512a6e891891",
+    "step_004_bg1_map.bin": "c45858f4e2303e06101cc677cb0a7dd4e6eb7182421d9cd3de9aee28f51e8322",
+    "step_004_bg2_map.bin": "386eb5467f0c5f12221760fa3130ff6b28186d33934930fd9fc087660e26741b",
+    "step_004_bg3_map.bin": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+    "step_004_cpu.json": "36aeab8ad3287fa35303b41420c2a2dac59d32a1b953602e366d5964c97456c8",
+    "step_004_pet_tiles.bin": "dc8786e42df5448a7aa3ed1dd53a8552a82703e8002086044929491acccc09c5",
+    "step_004_vram.bin": "a50abb4a143638e739aa74dc6b17e2fc95b382ab8933564a301cde264384d25e",
+    "step_005.json": "54f8578d14ab023d2a842c5841a17688a80cbb96fbd7f68b3fbcbc0b21087e6e",
+    "step_005.png": "775a33103a60a5b9672a2091152cd2885c145451929a1ec041b17ae962395fb9",
+    "step_005_bg0_map.bin": "728f3b72fd7fb3095ccd869546e24a901ed310f27044d93a7478dc1c5a2215f0",
+    "step_005_bg1_map.bin": "c45858f4e2303e06101cc677cb0a7dd4e6eb7182421d9cd3de9aee28f51e8322",
+    "step_005_bg2_map.bin": "386eb5467f0c5f12221760fa3130ff6b28186d33934930fd9fc087660e26741b",
+    "step_005_bg3_map.bin": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+    "step_005_cpu.json": "85ef263873e93de03acf98de955f206c9b1fd529fc60f76a388f647881db38af",
+    "step_005_pet_tiles.bin": "dc8786e42df5448a7aa3ed1dd53a8552a82703e8002086044929491acccc09c5",
+    "step_005_vram.bin": "7d639052924ee84ff09c8f23a258f55bbc2747e76ec080ba1e9ef6bb4c5d63c1",
+    "step_006.json": "eefdfcaf236a8ecf857d2a4aba4b47d03c1f1493a7f1151433510374c0c45c79",
+    "step_006.png": "9914fd7463de27a6126d1ed2657c8f2e8a873e90f529c9ec5b654b2e840e2051",
+    "step_006_bg0_map.bin": "b6c99194c970a1a20ed7bc4c63351add6ca214a6007ce8b54355f20e415f4cc9",
+    "step_006_bg1_map.bin": "090c41c461433c358af6037d517fe56c7c436db021ade96de079e336b59a5628",
+    "step_006_bg2_map.bin": "0a4540c922a118e372805422f4066ce0b92f43f02e339aae672ff5eef8fe2cc1",
+    "step_006_bg3_map.bin": "08e08b845cc0c1500fe3cfa54275c573f05f1f5a859706fec4e593f64d9bd2fc",
+    "step_006_cpu.json": "93f4e36d9870c0630a6cc1ab0205c20d12b8975627ea142e7b96bcfedeb9bf1f",
+    "step_006_pet_tiles.bin": "dc8786e42df5448a7aa3ed1dd53a8552a82703e8002086044929491acccc09c5",
+    "step_006_vram.bin": "90c58efa7ecb7cff5fb23e61ae7a3a53ec2a1e9c924b28ff1d53c22a3acfb618"
+  }
+}

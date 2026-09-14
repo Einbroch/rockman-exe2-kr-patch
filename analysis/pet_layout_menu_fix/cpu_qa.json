@@ -1,0 +1,902 @@
+{
+  "status": "PASS_CPU_RENDERER_REGRESSION",
+  "scope": "ARMv4T shared tile renderer, not Android app execution",
+  "baseline_sha256": "a648a984d5a112aaef3d67462ec3e6708aa6ad5acd7e31e53263af7247b6a27a",
+  "fixed_sha256": "fbd46e84a6847993a565f452d7e75d477e9bf7b513269da2befba27b04df843b",
+  "baseline_entry_15": {
+    "hook_hits": 0,
+    "native_f9_hits": 1,
+    "glyphs": [],
+    "invalid_stream": "0xCA54DA8B",
+    "error": null,
+    "returned": false,
+    "pc": "0x03006DF0",
+    "stream": "0xCA54DA8B",
+    "count": 3394558603,
+    "stack_balanced": false
+  },
+  "fixed_korean_labels": 162,
+  "native_japanese_labels": 162,
+  "empty_subchip_terminal_entry_159": {
+    "hook_hits": 0,
+    "native_f9_hits": 0,
+    "glyphs": [
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ],
+      [
+        141128624,
+        0
+      ]
+    ],
+    "invalid_stream": null,
+    "error": null,
+    "returned": true,
+    "pc": "0x08001000",
+    "stream": "0x00000000",
+    "count": 0,
+    "stack_balanced": true
+  },
+  "pixel_exact_font_records": true,
+  "stack_and_buffer_guards": true,
+  "native_f9_subcommands_unchanged": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "labels": [
+    {
+      "entry": 0,
+      "characters": 9,
+      "hangul": 8
+    },
+    {
+      "entry": 1,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 2,
+      "characters": 9,
+      "hangul": 8
+    },
+    {
+      "entry": 3,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 4,
+      "characters": 5,
+      "hangul": 4
+    },
+    {
+      "entry": 5,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 6,
+      "characters": 5,
+      "hangul": 4
+    },
+    {
+      "entry": 7,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 8,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 9,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 10,
+      "characters": 5,
+      "hangul": 2
+    },
+    {
+      "entry": 11,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 13,
+      "characters": 4,
+      "hangul": 4
+    },
+    {
+      "entry": 14,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 15,
+      "characters": 2,
+      "hangul": 2
+    },
+    {
+      "entry": 16,
+      "characters": 8,
+      "hangul": 7
+    },
+    {
+      "entry": 17,
+      "characters": 3,
+      "hangul": 3
+    },
+    {
+      "entry": 18,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 20,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 21,
+      "characters": 11,
+      "hangul": 9
+    },
+    {
+      "entry": 22,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 23,
+      "characters": 10,
+      "hangul": 6
+    },
+    {
+      "entry": 24,
+      "characters": 10,
+      "hangul": 6
+    },
+    {
+      "entry": 25,
+      "characters": 3,
+      "hangul": 3
+    },
+    {
+      "entry": 26,
+      "characters": 5,
+      "hangul": 4
+    },
+    {
+      "entry": 27,
+      "characters": 8,
+      "hangul": 6
+    },
+    {
+      "entry": 28,
+      "characters": 3,
+      "hangul": 3
+    },
+    {
+      "entry": 29,
+      "characters": 10,
+      "hangul": 8
+    },
+    {
+      "entry": 33,
+      "characters": 10,
+      "hangul": 8
+    },
+    {
+      "entry": 34,
+      "characters": 3,
+      "hangul": 3
+    },
+    {
+      "entry": 38,
+      "characters": 5,
+      "hangul": 5
+    },
+    {
+      "entry": 39,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 40,
+      "characters": 3,
+      "hangul": 3
+    },
+    {
+      "entry": 41,
+      "characters": 3,
+      "hangul": 3
+    },
+    {
+      "entry": 42,
+      "characters": 3,
+      "hangul": 3
+    },
+    {
+      "entry": 43,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 44,
+      "characters": 3,
+      "hangul": 3
+    },
+    {
+      "entry": 45,
+      "characters": 5,
+      "hangul": 4
+    },
+    {
+      "entry": 46,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 47,
+      "characters": 8,
+      "hangul": 6
+    },
+    {
+      "entry": 48,
+      "characters": 7,
+      "hangul": 5
+    },
+    {
+      "entry": 49,
+      "characters": 5,
+      "hangul": 4
+    },
+    {
+      "entry": 50,
+      "characters": 5,
+      "hangul": 4
+    },
+    {
+      "entry": 51,
+      "characters": 7,
+      "hangul": 5
+    },
+    {
+      "entry": 52,
+      "characters": 5,
+      "hangul": 4
+    },
+    {
+      "entry": 53,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 54,
+      "characters": 8,
+      "hangul": 7
+    },
+    {
+      "entry": 55,
+      "characters": 8,
+      "hangul": 7
+    },
+    {
+      "entry": 56,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 57,
+      "characters": 3,
+      "hangul": 3
+    },
+    {
+      "entry": 69,
+      "characters": 12,
+      "hangul": 8
+    },
+    {
+      "entry": 70,
+      "characters": 12,
+      "hangul": 8
+    },
+    {
+      "entry": 71,
+      "characters": 11,
+      "hangul": 7
+    },
+    {
+      "entry": 72,
+      "characters": 11,
+      "hangul": 7
+    },
+    {
+      "entry": 73,
+      "characters": 11,
+      "hangul": 7
+    },
+    {
+      "entry": 74,
+      "characters": 11,
+      "hangul": 7
+    },
+    {
+      "entry": 75,
+      "characters": 12,
+      "hangul": 8
+    },
+    {
+      "entry": 76,
+      "characters": 12,
+      "hangul": 8
+    },
+    {
+      "entry": 77,
+      "characters": 12,
+      "hangul": 8
+    },
+    {
+      "entry": 78,
+      "characters": 12,
+      "hangul": 8
+    },
+    {
+      "entry": 79,
+      "characters": 12,
+      "hangul": 8
+    },
+    {
+      "entry": 80,
+      "characters": 7,
+      "hangul": 4
+    },
+    {
+      "entry": 81,
+      "characters": 7,
+      "hangul": 4
+    },
+    {
+      "entry": 82,
+      "characters": 7,
+      "hangul": 4
+    },
+    {
+      "entry": 83,
+      "characters": 7,
+      "hangul": 4
+    },
+    {
+      "entry": 84,
+      "characters": 7,
+      "hangul": 4
+    },
+    {
+      "entry": 88,
+      "characters": 9,
+      "hangul": 6
+    },
+    {
+      "entry": 89,
+      "characters": 9,
+      "hangul": 6
+    },
+    {
+      "entry": 90,
+      "characters": 9,
+      "hangul": 6
+    },
+    {
+      "entry": 91,
+      "characters": 9,
+      "hangul": 6
+    },
+    {
+      "entry": 92,
+      "characters": 9,
+      "hangul": 6
+    },
+    {
+      "entry": 95,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 96,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 97,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 98,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 99,
+      "characters": 12,
+      "hangul": 8
+    },
+    {
+      "entry": 100,
+      "characters": 12,
+      "hangul": 8
+    },
+    {
+      "entry": 102,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 103,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 104,
+      "characters": 8,
+      "hangul": 7
+    },
+    {
+      "entry": 105,
+      "characters": 8,
+      "hangul": 7
+    },
+    {
+      "entry": 106,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 107,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 108,
+      "characters": 9,
+      "hangul": 8
+    },
+    {
+      "entry": 112,
+      "characters": 9,
+      "hangul": 6
+    },
+    {
+      "entry": 113,
+      "characters": 9,
+      "hangul": 6
+    },
+    {
+      "entry": 114,
+      "characters": 9,
+      "hangul": 6
+    },
+    {
+      "entry": 115,
+      "characters": 10,
+      "hangul": 8
+    },
+    {
+      "entry": 116,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 117,
+      "characters": 4,
+      "hangul": 4
+    },
+    {
+      "entry": 118,
+      "characters": 9,
+      "hangul": 8
+    },
+    {
+      "entry": 119,
+      "characters": 12,
+      "hangul": 10
+    },
+    {
+      "entry": 120,
+      "characters": 11,
+      "hangul": 9
+    },
+    {
+      "entry": 121,
+      "characters": 10,
+      "hangul": 7
+    },
+    {
+      "entry": 122,
+      "characters": 10,
+      "hangul": 7
+    },
+    {
+      "entry": 123,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 124,
+      "characters": 10,
+      "hangul": 7
+    },
+    {
+      "entry": 125,
+      "characters": 10,
+      "hangul": 7
+    },
+    {
+      "entry": 126,
+      "characters": 10,
+      "hangul": 8
+    },
+    {
+      "entry": 127,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 128,
+      "characters": 5,
+      "hangul": 4
+    },
+    {
+      "entry": 129,
+      "characters": 11,
+      "hangul": 8
+    },
+    {
+      "entry": 130,
+      "characters": 11,
+      "hangul": 8
+    },
+    {
+      "entry": 131,
+      "characters": 11,
+      "hangul": 8
+    },
+    {
+      "entry": 132,
+      "characters": 11,
+      "hangul": 9
+    },
+    {
+      "entry": 133,
+      "characters": 8,
+      "hangul": 7
+    },
+    {
+      "entry": 134,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 135,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 136,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 137,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 138,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 139,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 140,
+      "characters": 8,
+      "hangul": 5
+    },
+    {
+      "entry": 141,
+      "characters": 10,
+      "hangul": 4
+    },
+    {
+      "entry": 142,
+      "characters": 10,
+      "hangul": 4
+    },
+    {
+      "entry": 143,
+      "characters": 10,
+      "hangul": 4
+    },
+    {
+      "entry": 144,
+      "characters": 9,
+      "hangul": 7
+    },
+    {
+      "entry": 145,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 146,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 147,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 148,
+      "characters": 12,
+      "hangul": 9
+    },
+    {
+      "entry": 149,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 150,
+      "characters": 10,
+      "hangul": 8
+    },
+    {
+      "entry": 151,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 152,
+      "characters": 9,
+      "hangul": 7
+    },
+    {
+      "entry": 153,
+      "characters": 11,
+      "hangul": 9
+    },
+    {
+      "entry": 154,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 155,
+      "characters": 8,
+      "hangul": 7
+    },
+    {
+      "entry": 156,
+      "characters": 9,
+      "hangul": 8
+    },
+    {
+      "entry": 157,
+      "characters": 8,
+      "hangul": 6
+    },
+    {
+      "entry": 158,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 159,
+      "characters": 11,
+      "hangul": 9
+    },
+    {
+      "entry": 160,
+      "characters": 10,
+      "hangul": 8
+    },
+    {
+      "entry": 161,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 162,
+      "characters": 6,
+      "hangul": 5
+    },
+    {
+      "entry": 163,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 164,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 165,
+      "characters": 6,
+      "hangul": 3
+    },
+    {
+      "entry": 166,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 167,
+      "characters": 11,
+      "hangul": 9
+    },
+    {
+      "entry": 170,
+      "characters": 7,
+      "hangul": 6
+    },
+    {
+      "entry": 171,
+      "characters": 5,
+      "hangul": 3
+    },
+    {
+      "entry": 172,
+      "characters": 5,
+      "hangul": 3
+    },
+    {
+      "entry": 173,
+      "characters": 5,
+      "hangul": 3
+    },
+    {
+      "entry": 174,
+      "characters": 6,
+      "hangul": 3
+    },
+    {
+      "entry": 175,
+      "characters": 6,
+      "hangul": 3
+    },
+    {
+      "entry": 176,
+      "characters": 5,
+      "hangul": 3
+    },
+    {
+      "entry": 177,
+      "characters": 5,
+      "hangul": 3
+    },
+    {
+      "entry": 178,
+      "characters": 6,
+      "hangul": 3
+    },
+    {
+      "entry": 179,
+      "characters": 6,
+      "hangul": 3
+    },
+    {
+      "entry": 180,
+      "characters": 6,
+      "hangul": 3
+    },
+    {
+      "entry": 181,
+      "characters": 6,
+      "hangul": 3
+    },
+    {
+      "entry": 182,
+      "characters": 5,
+      "hangul": 4
+    },
+    {
+      "entry": 183,
+      "characters": 5,
+      "hangul": 4
+    },
+    {
+      "entry": 184,
+      "characters": 5,
+      "hangul": 2
+    },
+    {
+      "entry": 185,
+      "characters": 5,
+      "hangul": 2
+    },
+    {
+      "entry": 186,
+      "characters": 5,
+      "hangul": 2
+    },
+    {
+      "entry": 187,
+      "characters": 5,
+      "hangul": 2
+    },
+    {
+      "entry": 188,
+      "characters": 5,
+      "hangul": 2
+    },
+    {
+      "entry": 189,
+      "characters": 5,
+      "hangul": 2
+    },
+    {
+      "entry": 190,
+      "characters": 5,
+      "hangul": 2
+    },
+    {
+      "entry": 191,
+      "characters": 5,
+      "hangul": 2
+    }
+  ]
+}

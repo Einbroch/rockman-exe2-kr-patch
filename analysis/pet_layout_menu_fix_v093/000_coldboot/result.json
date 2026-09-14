@@ -1,0 +1,57 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_kr_v0_9_3_submenu.gba",
+  "rom_sha256": "694ffab7a654f2070667d8bb1a964280534dccf087b0e46c1cd434022dcfa623",
+  "emulator_path": "D:\\Games\\Kor Patch\\CLude\\emucap\\adapters\\mesen2\\work\\mesen\\bin\\win-x64\\Release\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "D:\\Games\\Kor Patch\\CLude\\emucap\\adapters\\mesen2\\work\\mesen\\bin\\win-x64\\Release\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-3mjtgts2\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_kr_v0_9_3_submenu.gba"
+  ],
+  "input_checkpoint": null,
+  "timeline": [
+    {
+      "start": 0,
+      "release": 1,
+      "end": 601,
+      "keys": []
+    },
+    {
+      "start": 601,
+      "release": 607,
+      "end": 727,
+      "keys": [
+        "start"
+      ]
+    },
+    {
+      "start": 727,
+      "release": 733,
+      "end": 913,
+      "keys": [
+        "a"
+      ]
+    },
+    {
+      "start": 913,
+      "release": 919,
+      "end": 1099,
+      "keys": [
+        "l"
+      ]
+    }
+  ],
+  "exit_code": 3762504530,
+  "completed": false,
+  "artifacts": {
+    "segment.lua": "b288bd21dcc6c5faa552d0aba3f2c759ebfc4d39f8dcff452774dbe66fd70c56",
+    "stderr.txt": "24c37edfa818c92ed4f5136bc4a5579eb72cceafef1222113ffbabf97c8179ba",
+    "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
