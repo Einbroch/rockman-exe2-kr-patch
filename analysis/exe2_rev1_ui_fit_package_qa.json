@@ -1,0 +1,21 @@
+{
+  "status": "PASS_SCOPED_VALIDATION_PACKAGE",
+  "candidate_sha256": "d204f74cc5ccf542c3caa4b5afb9c52e35ebe6369835608a4ab968d83efbcee4",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "d6baa075785714fbda7b7b49343d06010f130073156ace3d560f90c812687769",
+  "content_qa_sha256": "9cf272c28bc76cdb57ff087f665481a82ac4163337ed838e8e2b38eacac205f3",
+  "runtime_review_sha256": "3b3e86dd171caa5c843ef995321eaaf997445868ce780294daa1f056bbbc9832",
+  "ui_fit_regression_sha256": "6fb78eb8ce9b943d0ac60010b3afbcb603cd7ad480a0a2d61ce19ac1e098a0ed",
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.5_UiFit.zip",
+  "package_sha256": "e30716922ee99b74668dda8ce32fd1ea460df621dbfe5622e8a8a2f2ffee375a",
+  "patch_sha256": "0ff66a7aad5c9fbeb00f783bab4c024532fd872f1454ee4eaa30d06917a09451",
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

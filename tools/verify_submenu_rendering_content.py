@@ -38,9 +38,15 @@ def verify(source, candidate):
     for i in (2,3,8,31,32,68,69,70,71,72,80,105,106):
         assert fields.findall(before[i]) == fields.findall(after[i]), i
     assert before[68] == after[68], 'Time display format changed'
+    expected_label=bytearray()
+    for char in '데이터라이브러리':
+        a,b=char.encode('euc_kr')
+        expected_label.extend(b'\xf9\xfc'+struct.pack('<H',(a-0xB0)*94+b-0xA1))
+    assert after[65] == bytes(expected_label)+b'\xE7', 'Save label must fit eight complete Hangul syllables'
     return {'status':'PASS (bench)', 'description_count':len(decoded),
             'japanese_description_bodies':0, 'overflowing_descriptions':0,
             'panel_columns':10, 'panel_rows':3, 'numeric_control_parameters_preserved':True,
+            'save_label':'데이터라이브러리','save_label_cells':8,
             'source_sha256':hashlib.sha256(source).hexdigest(),
             'candidate_sha256':hashlib.sha256(candidate).hexdigest(), 'descriptions':decoded}
 

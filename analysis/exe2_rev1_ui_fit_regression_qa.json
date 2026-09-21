@@ -1,0 +1,40 @@
+{
+  "status": "PASS_UI_FIT_REGRESSION",
+  "candidate_sha256": "d204f74cc5ccf542c3caa4b5afb9c52e35ebe6369835608a4ab968d83efbcee4",
+  "arrows": [
+    {
+      "text": "메모",
+      "ink_height": 6,
+      "glyph_width": 7,
+      "bottom_inside_padding": 1,
+      "all_authored_ink_visible": true,
+      "native_shadow_removed": true
+    },
+    {
+      "text": "라이브러리",
+      "ink_height": 6,
+      "glyph_width": 7,
+      "bottom_inside_padding": 1,
+      "all_authored_ink_visible": true,
+      "native_shadow_removed": true
+    }
+  ],
+  "save_label": "데이터라이브러리",
+  "save_label_glyphs_consumed": 8,
+  "last_ri_glyph_vram_verified": true,
+  "visual_review": "Enlarged nearest-neighbor before/after captures inspected; three reported clipping/bounds defects fixed.",
+  "comparison_images": [
+    {
+      "path": "analysis\\arrow_save_v095\\verified\\library_arrow_comparison.png",
+      "sha256": "ece777a7d046b45c0460840a6cbb20e55270774e8849680125a307d098f313cb"
+    },
+    {
+      "path": "analysis\\arrow_save_v095\\verified\\library_return_comparison.png",
+      "sha256": "c5ddc1a89cd87f7b5d52d8abd99f37dd02e9d42372498e6454400c313f63ee4f"
+    },
+    {
+      "path": "analysis\\arrow_save_v095\\verified\\save_label_comparison.png",
+      "sha256": "9394aab4679e9d7981f47f14e01d98dbf34408b9c3ee4ac1982bbbd18bb4cd61"
+    }
+  ]
+}

@@ -145,6 +145,11 @@ if TRACE_MENU then
  emu.addMemoryCallback(function()
   local cpu=emu.getState()
   labels[#labels+1]={archive=cpu['cpu.r0'],entry=cpu['cpu.r1']}
+  if cpu['cpu.r0']==0x08940000 and cpu['cpu.r1']>=64 and cpu['cpu.r1']<=67 then
+   local fields={}
+   for i=0,15 do fields[#fields+1]=string.format('"r%d":%d',i,cpu['cpu.r'..i]) end
+   write('save_label_'..cpu['cpu.r1']..'.json','{'..table.concat(fields,',')..'}')
+  end
  end,emu.callbackType.exec,0x08020f38,0x08020f38)
  emu.addMemoryCallback(function()
   local pos=emu.getState()['cpu.r0']

@@ -41,6 +41,7 @@ def main():
     parser.add_argument('--name', required=True, help='output stem, e.g. EXE2_Rev1_KR_V0.9.4_MenuTextFix')
     parser.add_argument('--xdelta', type=Path, default=DEFAULT_XDELTA)
     parser.add_argument('--replace-generated', action='store_true')
+    parser.add_argument('--expected-target-sha256', help='Bind output to an already verified ROM')
     args = parser.parse_args()
 
     if sha(SOURCE) != SOURCE_SHA:
@@ -48,13 +49,17 @@ def main():
     if not args.xdelta.exists():
         raise RuntimeError(f'xdelta3 not found at {args.xdelta}')
     target_sha = sha(args.candidate)
+    if args.expected_target_sha256 and target_sha != args.expected_target_sha256.lower():
+        raise RuntimeError('Candidate differs from the verified target')
+    if Path(args.name).name != args.name or '/' in args.name or '\\' in args.name:
+        raise ValueError('Output name must be a filename stem')
 
     destination = ROOT/'dist'/(args.name + '.xdelta')
     destination.parent.mkdir(exist_ok=True)
     if destination.exists() and not args.replace_generated:
         raise FileExistsError(destination)
 
-    with tempfile.TemporaryDirectory(prefix='exe2-xdelta-') as stage:
+    with tempfile.TemporaryDirectory(prefix='exe2-xdelta-', dir=ROOT/'analysis') as stage:
         stage = Path(stage)
         patch = stage/'patch.xdelta'
         run([args.xdelta, '-e', '-s', SOURCE, args.candidate, patch])
@@ -72,8 +77,9 @@ def main():
         wrong = stage/'wrong.gba'
         bad = subprocess.run([str(args.xdelta), '-d', '-s', str(args.candidate),
                               str(patch), str(wrong)], capture_output=True)
-        wrong_source_rejected = bad.returncode != 0 or (
-            wrong.exists() and sha(wrong) != target_sha)
+        wrong_source_rejected = bad.returncode != 0
+        if not wrong_source_rejected:
+            raise RuntimeError('xdelta decoder did not reject the tested wrong source')
         destination.write_bytes(patch.read_bytes())
 
     receipt = {
@@ -84,6 +90,8 @@ def main():
         'target': {'filename': args.candidate.name,
                    'size': args.candidate.stat().st_size, 'sha256': target_sha},
         'format': 'xdelta3 (VCDIFF)',
+        'tool': {'path':str(args.xdelta.resolve()), 'sha256':sha(args.xdelta)},
+        'expected_target_sha256':args.expected_target_sha256,
         'deterministic': True,
         'round_trip_byte_identical': True,
         'wrong_source_rejected': wrong_source_rejected,

@@ -9,6 +9,7 @@ import struct
 from pathlib import Path
 from exe1_k_font_source import ks_x_1001_ordinal
 from pet_menu_graphics import unpack, pack
+from arrow_small_font import render as render_small_arrow
 
 BANK = 0x7DA0DC
 SIZE = 0x2D20
@@ -116,10 +117,7 @@ def planned_writes(source, master_font):
         write(base, struct.pack('<'+str(len(result))+'H', *result), f'submenu_map_{base:06x}')
     # PA memo lettering is 8 pixels tall, on the existing orange arrow.
     # Retain its top border row and change only original ink-bearing cells.
-    small_labels = [(0x48,'메'), (0x49,'모')]
-    small_labels += list(zip((0x14,0x15,0x16),'배낭 '))
-    small_labels += list(zip(range(0x2B,0x30),'칩 폴더 '))
-    small_labels += list(zip(range(0x50,0x56),'라이브러리 '))
+    small_labels = []
     for index, char in small_labels:
         offset = (index-1)*32
         old = unpack(original[offset:offset+32])
@@ -132,6 +130,36 @@ def planned_writes(source, master_font):
                     pixels[pos] = 15 if any(mask[sy*8+x] == 3 for sy in (y*2+1,y*2+2)) else 12
         bank[offset:offset+32] = pack(pixels)
         changed_original_tiles.add(index)
+    arrow_receipts=[]
+    for indices,text,left in (((0x14,0x15,0x16),'케이스',1),
+                              (tuple(range(0x2B,0x30)),'데크',None),
+                              ((0x48,0x49),'메모',None),
+                              (tuple(range(0x50,0x56)),'라이브러리',None)):
+        width=len(indices)*8
+        mask=render_small_arrow(text,width,left)
+        old_tiles=[unpack(original[(i-1)*32:i*32]) for i in indices]
+        final_tiles=[]
+        for col,index in enumerate(indices):
+            old=old_tiles[col]
+            pixels=old.copy()
+            for y in range(8):
+                for x in range(8):
+                    p=y*8+x
+                    new_ink=mask[y*width+col*8+x]
+                    # Erase ALL original lettering, including the stray top
+                    # row dots left by V0.9.4's partial-height replacement.
+                    # Palette 7 is the native small-letter shadow (isolated
+                    # row-5 pixels), not the arrow outline. Clear it too.
+                    if old[p] in (7,12,15):pixels[p]=15 if new_ink else 12
+                    else:assert not new_ink, 'Arrow lettering intersects protected border'
+            assert all(a==b for a,b in zip(old,pixels) if a not in (7,12,15))
+            assert 15 not in pixels[48:]
+            bank[(index-1)*32:index*32]=pack(pixels)
+            changed_original_tiles.add(index)
+            final_tiles.extend(pixels)
+        arrow_receipts.append({'text':text,'tile_ids':list(indices),'ink_height':6,
+                               'ink_rows':[0,5],'bottom_inside_margin_pixels':1,'width':width,
+                               'pixels_sha256':digest(bytes(final_tiles))})
     protected = bytearray(bank[:SIZE])
     for index in changed_original_tiles:
         offset = (index-1)*32
@@ -150,5 +178,7 @@ def planned_writes(source, master_font):
                     'next_independent_upload':0x06003400, 'generated_tile_count':len(generated),
                     'new_tile_count':(len(bank)-SIZE)//32,
                     'changed_original_lettering_tiles':sorted(changed_original_tiles),
+                    'small_arrow_font_sha256':digest(Path(__file__).with_name('arrow_small_font.py').read_bytes()),
+                    'small_arrows':arrow_receipts,
                     'glyph_sources':sorted(receipts.values(),key=lambda x:x['character']),
                     'protected_pixels_preserved':True, 'protected_map_cells_preserved':True}

@@ -1,0 +1,33 @@
+{
+  "status": "PUBLISHED_PRERELEASE",
+  "repository": "Einbroch/rockman-exe2-kr-patch",
+  "release_id": 388514878,
+  "tag": "v0.9.5",
+  "url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.5",
+  "published_at": "2026-09-14T15:40:49Z",
+  "draft": false,
+  "prerelease": true,
+  "target_commitish": "532154e86044d79e3a664572ea8789a0246c0af6",
+  "local_source_changes_committed_or_pushed": false,
+  "assets": [
+    {
+      "name": "EXE2_Rev1_KR_V0.9.5_UiFit.zip",
+      "size": 44686127,
+      "sha256": "e30716922ee99b74668dda8ce32fd1ea460df621dbfe5622e8a8a2f2ffee375a"
+    },
+    {
+      "name": "EXE2_Rev1_KR_V0.9.5_UiFit.xdelta",
+      "size": 383731,
+      "sha256": "751c92b657628ba8a727108afc177b6a855cb98343700cc9d3a7a65c18409e8a"
+    }
+  ],
+  "checks": {
+    "repository_identity_and_admin_access_checked": true,
+    "release_notes_match_local_file": true,
+    "uploaded_asset_names_sizes_and_server_digests_match_local": true,
+    "published_state_requeried": true,
+    "rom_and_save_not_uploaded": true,
+    "nested_tool_archives_checked_for_game_rom_and_save_members": true,
+    "prior_v094_release_preserved": true
+  }
+}

@@ -1,5 +1,33 @@
 # Handoff
 
+## [2026-09-15] [github-publication] [v0.9.5]
+
+- 사용자 지정 저장소에 V0.9.5 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.5 (release ID 388514878).
+- 검증된 UiFit BPS ZIP과 xdelta 2개만 업로드했다. 서버가 보고한 파일 크기·SHA-256이 로컬 및 기존 QA와 일치하며, 게시 뒤 draft=false/prerelease=true를 다시 확인했다. 기존 V0.9.4 릴리스는 수정하지 않았다.
+- 사용자 요청 범위를 배포 파일 게시로 유지했다. 로컬 변경을 커밋·푸시하지 않았으며 v0.9.5 태그 대상은 당시 원격 main `532154e86044d79e3a664572ea8789a0246c0af6`이다. 자동 생성 Source code 압축 파일은 V0.9.5 빌드 소스 묶음이 아니라는 사실을 릴리스 노트에 명시했다.
+- ROM/저장 파일을 업로드하지 않았다. 42.6 MiB ZIP은 기존 검증 파일 그대로이며, 크기 대부분은 동봉 Floating IPS 소스의 공개 Firefox 성능 시험 자료 2개다. 내부 ZIP/TAR까지 ROM/게임 저장 파일명을 확인했다.
+- 노트: `analysis/github_release_v095_notes.md`. 게시 영수증: `analysis/github_release_v095_publication.json`. My Boy! 기기 직접 검증, 전체 게임 QA, 초안 번역 등의 제한은 공개 노트에 유지했다.
+
+## [2026-09-15] [distribution-format] [V0.9.5-xdelta]
+
+- 사용자 요청으로 `dist/EXE2_Rev1_KR_V0.9.5_UiFit.xdelta` 추가. 크기 383,731바이트, SHA-256 `751c92b657628ba8a727108afc177b6a855cb98343700cc9d3a7a65c18409e8a`.
+- 기존 불변 원본 Rev 1에서 검증된 UiFit ROM SHA `d204f74cc5ccf542c3caa4b5afb9c52e35ebe6369835608a4ab968d83efbcee4`를 만드는 대체 차분 형식이다. 기존 BPS/ZIP/ROM은 변경하지 않았다.
+- `tools/build_xdelta_patch.py`에 기대 대상 SHA 검증과 도구 SHA 기록, 실제 비정상 종료에만 wrong-source rejection 판정을 추가했다. 두 번 생성한 차분이 동일하고, 원본에 디코딩한 전체 ROM이 검증 후보와 바이트 동일하다. 패치된 ROM을 입력한 부정 시험은 디코더가 거부했다.
+- 증거: `analysis/exe2_rev1_xdelta_exe2_rev1_kr_v0.9.5_uifit_qa.json`. 적용 입력은 패치 전 원본이며 BPS와 xdelta를 중복 적용하지 않는다. 동일 결과에 기존 UiFit 런타임 증거를 사용하며 새 기기 지원/전체 게임 검증을 주장하지 않는다.
+
+## [2026-09-15] [ui-fit] [V0.9.5-UiFit]
+
+- 사용자 `shots/57.png`, `58.png`, `59.png`: 두 화살표의 작은 글자가 아래 경계에 붙으며 원문 점이 남고, 저장 항목 마지막 ‘리’가 빠짐. V0.9.4의 정상 판정은 이 세부 표시 결함을 놓쳤으며 해당 부분을 재개방해 수정했다.
+- 최신 ROM: `poc/output/exe2_rev1_kr_v0_9_5_ui_fit.gba`, SHA-256 `d204f74cc5ccf542c3caa4b5afb9c52e35ebe6369835608a4ab968d83efbcee4`.
+- BPS ZIP: `dist/EXE2_Rev1_KR_V0.9.5_UiFit.zip`, SHA-256 `e30716922ee99b74668dda8ce32fd1ea460df621dbfe5622e8a8a2f2ffee375a`. BPS SHA-256 `0ff66a7aad5c9fbeb00f783bab4c024532fd872f1454ee4eaa30d06917a09451`. 적용 결과가 후보 전체 바이트와 일치하며 ROM/저장 파일은 ZIP에 없다.
+- 화살표 원인: 8×16 폰트를 단순 압축해 행 1..6/7에 그렸고, 원래 작은 글자 행 0과 그림자 팔레트 7을 지우지 않았다. 원래 P.A와 작은 일본어 글자는 행 0..5에 잉크, 6행에 주황색 여백, 7행에 바깥 경계가 있다. `arrow_small_font.py`에 직접 작성한 7×6 글자를 사용하고 팔레트 7/15의 원문 잉크·그림자를 전부 지운다. 나머지 경계 픽셀은 동일하다. ROM 변경 타일은 48/49/50..55(16진)뿐이다.
+- 저장 원인: 함수 0802A3EC의 0802A3FA `movs r4,#8`로 UI 64..67을 8칸씩 렌더링하고 RAM/VRAM 행간은 0x200 바이트다. 65번 문자열 ‘데이터 라이브러리’는 공백 포함 9칸이라 마지막 ‘리’가 다음 행 버퍼에 들어가 사라졌다. 이 항목만 ‘데이터라이브러리’로 표기한다고 사용자에게 알리고 8음절 전체를 보존했다. 렌더러/VRAM 구조는 건드리지 않았다.
+- 검사: `verify_submenu_rendering_content.py`에 65번 엔트리 정확한 8음절 바이트 검사 추가. `verify_ui_fit_regression.py`는 양쪽 화살표의 실제 VRAM 마스크·그림자 제거·하단 여백과 마지막 ‘리’가 VRAM 4200+7×64에 원본 폰트 바이트 그대로 존재함을 검사한다. V0.9.4 대비 차이는 작은 타일 8개와 shared UI 테이블(65번만 본문 변경, 뒤 offset 이동)에 한정되며 다른 ROM 차이는 0개다.
+- 런타임: `analysis/arrow_save_v095/verified`에서 음소거 Mesen 15개 구간 및 화면 14장 확인. `*_comparison.png` 3장은 원본 크롭을 정수배 nearest-neighbor로 확대하여 이전/현재를 비교한 QA 그림이다. 게임 화면을 수정해 테스트 성공으로 꾸민 것이 아니며 원시 캡처도 보존했다. 작은 메모/라이브러리 글자와 저장 마지막 ‘리’가 정상이다.
+- 기록: `analysis/exe2_rev1_ui_fit_static_qa.json`, `..._content_qa.json`, `..._runtime_review.json`, `..._regression_qa.json`, `..._package_qa.json`. 도구 소스 ZIP은 제거 가능한 과거 배포본 대신 고정 의존성 `external/Flips-v198/flips-source-v198.zip`에서 읽고 SHA-256을 검사하도록 수정했다.
+- 재개: `analysis/arrow_save_v095/verified/014_after_save_boot/checkpoint.mss`는 새 ROM으로 일반 저장을 부팅한 뒤 PET 메뉴 상태다. 일반 저장 백업 `analysis/arrow_save_v095/verified/battery_verified.sav`. 사용자 원래 저장은 변경하지 않았다. 초기 메뉴 진단은 이전과 같이 명시된 cross-ROM seed이며 자연 진행 증거와 구분한다.
+- `v0_9_5_arrow_save_fix.gba` SHA `cdc6eeb549490ea13c9cc01973cd6c64519e5d070fe5e5fe41cb5cdc70339112`는 글자 기준선 정렬 전의 중간 후보이고 배포하지 않았다. 최종 확인에는 UiFit만 사용한다. Android My Boy! 기기 직접 검증·전체 게임 QA·기존 미적용/미번역 범위는 미완료 상태를 유지한다.
+
 ## [2026-09-14] [submenu-text-and-graphics] [V0.9.4-MenuTextFix]
 
 - 최신 사용 후보: `poc/output/exe2_rev1_kr_v0_9_4_menu_textfix.gba`, SHA-256 `fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f`.

@@ -273,6 +273,14 @@ def translate_ui(text: str) -> str:
 
 
 def translate_ui_entry(index: int, entry: bytes) -> bytes:
+    if index == 65:
+        # Save summary has an eight-cell consumer (0802A3FA), with its next
+        # label buffer only 0x200 bytes away. Keep all eight Korean syllables
+        # and omit the inter-word space for this one fixed-width label.
+        assert decode_native(entry) == 'データライブラリ'
+        text='데이터라이브러리'
+        assert len(text)==8
+        return encode_native(text)+b'\xE7'
     # In these short renderer strings E9 is a three-byte numeric field, not
     # the dialogue clear-message opcode. Its width byte can decode as Japanese
     # punctuation/kana; never subject numeric parameters to phrase replacement.

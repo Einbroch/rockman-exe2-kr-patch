@@ -1,0 +1,108 @@
+{
+  "scope": "normal controller inputs only; no game RAM or progress injection",
+  "rom_path": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_kr_v0_9_5_ui_fit.gba",
+  "rom_sha256": "d204f74cc5ccf542c3caa4b5afb9c52e35ebe6369835608a4ab968d83efbcee4",
+  "emulator_path": "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+  "emulator_sha256": "af60a18859e3253f09c8fd32f6b1c04637efbd98780f1427dd94d4629474f640",
+  "audio_enabled": false,
+  "command": [
+    "C:\\Users\\blari\\AppData\\Local\\emucap\\mesen2\\47801\\portable\\Mesen.exe",
+    "--testRunner",
+    "--noAudio",
+    "--enableStdout",
+    "--timeout=90",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\exe2-play-ks1i73lj\\segment.lua",
+    "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\poc\\output\\exe2_rev1_kr_v0_9_5_ui_fit.gba"
+  ],
+  "input_checkpoint": "D:\\Games\\Kor Patch\\CLude\\록맨 에그제 2\\analysis\\arrow_save_v095\\verified\\002_diagnostic_menu\\checkpoint.mss",
+  "checkpoint_provenance": {
+    "cross_rom_diagnostic_seed": false,
+    "source_rom_sha256": "d204f74cc5ccf542c3caa4b5afb9c52e35ebe6369835608a4ab968d83efbcee4",
+    "input_state_sha256": "1a492fd4d3090e329c5efd7c718ac7006adb87dea24d39163d6a4b690065d156",
+    "fresh_boot": false
+  },
+  "timeline": [
+    {
+      "start": 0,
+      "release": 6,
+      "end": 26,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 26,
+      "release": 32,
+      "end": 52,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 52,
+      "release": 58,
+      "end": 78,
+      "keys": [
+        "down"
+      ]
+    },
+    {
+      "start": 78,
+      "release": 84,
+      "end": 234,
+      "keys": [
+        "a"
+      ]
+    }
+  ],
+  "exit_code": 0,
+  "completed": true,
+  "artifacts": {
+    "checkpoint.mss": "3f3390abb833c9df7dcc4b4665f24170c84ae6b0eb84cf03b8b0ba35b240a6d1",
+    "complete.txt": "114bd151f8fb0c58642d2170da4ae7d7c57977260ac2cc8905306cab6b2acabc",
+    "input.mss": "1a492fd4d3090e329c5efd7c718ac7006adb87dea24d39163d6a4b690065d156",
+    "loaded.txt": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "menu_cpu_events.json": "640568cd67515c1a34b806fb1b44d6b55aede5de317867c40d03e228b8b1b6e9",
+    "menu_trace.json": "d1284cc25365536cfd0abe75e2c41ca7d7be92cb0fdf85926728baf5db1d9bab",
+    "pet_asset_trace.json": "526f04e93cdc399b2fdf92dd9ed78848aa968903d7f95fb8142532b8aeeb4c57",
+    "segment.lua": "7e550bc573cb6dd392040a11b5471d0eee522f22a0f2f1277a41e9aeb50b7999",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "5867d22e04c7a8ba79538fb39c1e5843dfb151896621626c12dc382f24878b7e",
+    "step_001.json": "c0b53ee6300e56a73ce82a9b8af50bd43de622156bc73230efcb751101ff1671",
+    "step_001.png": "d15665a9b2538a139c7f472dec10972aa227ff3c4fdef89339e5345a3dbca554",
+    "step_001_bg0_map.bin": "7bfe46c4983addd0a013d04706b27438cb7765e686c48baa84648ff4e9f407b5",
+    "step_001_bg1_map.bin": "090c41c461433c358af6037d517fe56c7c436db021ade96de079e336b59a5628",
+    "step_001_bg2_map.bin": "0a4540c922a118e372805422f4066ce0b92f43f02e339aae672ff5eef8fe2cc1",
+    "step_001_bg3_map.bin": "08e08b845cc0c1500fe3cfa54275c573f05f1f5a859706fec4e593f64d9bd2fc",
+    "step_001_cpu.json": "e5154b5510fe06e04b03c16f7c59d575445435dcd786f7e7d6335ad8932e141c",
+    "step_001_pet_tiles.bin": "dc8786e42df5448a7aa3ed1dd53a8552a82703e8002086044929491acccc09c5",
+    "step_001_vram.bin": "683902cb830d04b31dfb9635e8c534303b42820a0428d66cfb558fec9124e820",
+    "step_002.json": "5844b643e32f3b0a1bf8847ab9eef8beee741986e1234208b501b1c277d880c8",
+    "step_002.png": "983377647a2882fe5d65b6fb62ebeed027b549c57ca0f3633d87114c110b41c7",
+    "step_002_bg0_map.bin": "31e435a96b073d92a42c4a04e66a25d42109e1df15ffcfca91bdcb32df8d5478",
+    "step_002_bg1_map.bin": "090c41c461433c358af6037d517fe56c7c436db021ade96de079e336b59a5628",
+    "step_002_bg2_map.bin": "0a4540c922a118e372805422f4066ce0b92f43f02e339aae672ff5eef8fe2cc1",
+    "step_002_bg3_map.bin": "08e08b845cc0c1500fe3cfa54275c573f05f1f5a859706fec4e593f64d9bd2fc",
+    "step_002_cpu.json": "5c40d46c2153c6b999294c24f641971d182567ee68413c7490fbcb1969e0028c",
+    "step_002_pet_tiles.bin": "dc8786e42df5448a7aa3ed1dd53a8552a82703e8002086044929491acccc09c5",
+    "step_002_vram.bin": "2bbaab06338997b4eaed328591e636bfc6ec361a3d786354806d9dacb419da73",
+    "step_003.json": "072d9483ca808b845d701b3021273072c7b79f3d7f6da9ca434c2ffbb80d6427",
+    "step_003.png": "71e31706b9b375cb6d8a6eb86ffc65a37e41ad2f5fd0701e43e9474cbc6f39ba",
+    "step_003_bg0_map.bin": "f6430c96ec278f1b6d903c61fe14959c60ba077c52dce449b0aa54f14ae48b66",
+    "step_003_bg1_map.bin": "090c41c461433c358af6037d517fe56c7c436db021ade96de079e336b59a5628",
+    "step_003_bg2_map.bin": "0a4540c922a118e372805422f4066ce0b92f43f02e339aae672ff5eef8fe2cc1",
+    "step_003_bg3_map.bin": "08e08b845cc0c1500fe3cfa54275c573f05f1f5a859706fec4e593f64d9bd2fc",
+    "step_003_cpu.json": "5c40d46c2153c6b999294c24f641971d182567ee68413c7490fbcb1969e0028c",
+    "step_003_pet_tiles.bin": "dc8786e42df5448a7aa3ed1dd53a8552a82703e8002086044929491acccc09c5",
+    "step_003_vram.bin": "2b40b527c00475e9e63996febc96d8446da683d5e84937da737e7a04869e4f17",
+    "step_004.json": "fbb958cb5fdae2296b43ce8232dd73819c6e93da5834f0b13ab1c1c1d024d38e",
+    "step_004.png": "d376d5d379e55a2ac54956da16c1c4d4864d2404bd4716e0d7865c086641f6b2",
+    "step_004_bg0_map.bin": "1da0a9b542ab65760ce3e5946d826da15cde7f5e8ec23fb8543a3b03bf3a86df",
+    "step_004_bg1_map.bin": "a299c3f01703e827527a62ee54d3ceb3ba1b4a968f8dfb54db1632d503063589",
+    "step_004_bg2_map.bin": "488c0322d9771bd70caefa6735e9653d8b026e69c0b2e81ffe70b6b2bb8b342b",
+    "step_004_bg3_map.bin": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+    "step_004_cpu.json": "9e2804bfa159cd394cf6565301ef5997f61e4e1d53dc991d2e5113ad1dc6c794",
+    "step_004_pet_tiles.bin": "c4140ea51e569754fb4c1f2c8bc9440baafcc8c28d98617c47d3a7f39ee15a0b",
+    "step_004_vram.bin": "47075c44fd77e2130ae69a3a015f04e0f1df39e1f074ccc2989fac5519f8b18b"
+  }
+}

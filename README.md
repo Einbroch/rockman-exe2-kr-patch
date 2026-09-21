@@ -16,6 +16,22 @@
 
 ## 현재 에뮬레이터 검증 후보
 
+2026-09-15 최신 표시 수정본 **V0.9.5 UiFit**:
+`poc/output/exe2_rev1_kr_v0_9_5_ui_fit.gba`
+(SHA-256 `d204f74cc5ccf542c3caa4b5afb9c52e35ebe6369835608a4ab968d83efbcee4`).
+차분 패키지: `dist/EXE2_Rev1_KR_V0.9.5_UiFit.zip`.
+xdelta 대체 형식: `dist/EXE2_Rev1_KR_V0.9.5_UiFit.xdelta` (383,731바이트).
+두 형식 모두 패치 전 일본판 Rev 1 원본에 적용하며, BPS와 xdelta를 연속으로 적용하지 않는다.
+같은 V0.9.5 ROM을 만드는 바이트 동일 왕복·반복 생성·잘못된 입력 거부 검사를 통과했다.
+작은 화살표의 메모/라이브러리를 7×6 픽셀 글자로 교체하고 원문 그림자 잔여물을 제거했다.
+원래 P.A와 동일한 높이·기준선을 사용하며 화살표 안쪽 하단 여백을 보존한다.
+저장 화면은 8글자 출력 폭을 유지하고 이 항목만 **데이터라이브러리**로 붙여 써
+마지막 ‘리’까지 표시한다. CPU 코드·VRAM 배치·게임 저장 형식은 변경하지 않았다.
+음소거 Mesen 15개 구간, 확대 비교 3장, 저장·새 프로세스 재실행을 확인했다.
+`analysis/exe2_rev1_ui_fit_regression_qa.json`이 화살표 픽셀과 마지막 ‘리’의 VRAM 존재를 검사한다.
+Android My Boy! 기기 직접 검증 및 전체 게임 QA는 여전히 미완료다.
+아래 V0.9.4와 `v0_9_5_arrow_save_fix`는 이전/중간 후보이며 최신 확인에는 위 UiFit을 사용한다.
+
 2026-09-14 최신 메뉴·칩 설명 수정본 **V0.9.4 MenuTextFix**:
 `poc/output/exe2_rev1_kr_v0_9_4_menu_textfix.gba`
 (SHA-256 `fabedaeebd9eca549eda7137fb72ea4341dcfdd3194904f58e31c8bb12f66d2f`).

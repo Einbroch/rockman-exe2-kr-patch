@@ -2,6 +2,7 @@
 import hashlib
 import json
 import struct
+import argparse
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -77,9 +78,16 @@ def main():
                       'normal_game_save_and_fresh_process_reload':True},
             'seed_policy':'Initial menu routes use an explicitly recorded cross-ROM diagnostic seed; this is not fresh progression evidence. A new normal save was then written and cold-loaded.',
             'limitations':['Android My Boy! device not directly tested.','Not full-game QA or final release.','Rockman English labels retained.','Existing untranslated populations remain outside this fix.']}
-    out=ROOT/'analysis/exe2_rev1_menu_textfix_runtime_review.json'
+    out=REPORT
     out.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'status':result['status'],'candidate_sha256':rom_sha,'segments':len(segments),'reviewed_screenshots':len(reviewed)}))
 
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    p=argparse.ArgumentParser()
+    p.add_argument('--rom',type=Path,default=ROM)
+    p.add_argument('--run',type=Path,default=RUN)
+    p.add_argument('--report',type=Path,default=ROOT/'analysis/exe2_rev1_menu_textfix_runtime_review.json')
+    a=p.parse_args()
+    ROM=a.rom.resolve();RUN=a.run.resolve();REPORT=a.report.resolve()
+    main()
