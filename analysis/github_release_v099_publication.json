@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "github_release_publication_receipt",
+  "repository": "Einbroch/rockman-exe2-kr-patch",
+  "tag": "v0.9.9",
+  "release_id": 393142397,
+  "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.9",
+  "draft": false,
+  "prerelease": true,
+  "target_commitish": "644794d711584ca8ef2bb87424682c9736c2de8c",
+  "published_at": "2026-09-21T17:07:49Z",
+  "rom_included": false,
+  "save_included": false,
+  "assets": [
+    {
+      "name": "EXE2_Rev1_KR_V0.9.9_FreezeFix.xdelta",
+      "server_size": 351976,
+      "local_size": 351976,
+      "server_digest": "sha256:ca758a3bb265cd31f78ad30377ec829bc373fe5a646142dc713251e800c98786",
+      "local_sha256": "ca758a3bb265cd31f78ad30377ec829bc373fe5a646142dc713251e800c98786",
+      "state": "uploaded",
+      "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.9/EXE2_Rev1_KR_V0.9.9_FreezeFix.xdelta"
+    },
+    {
+      "name": "EXE2_Rev1_KR_V0.9.9_FreezeFix.zip",
+      "server_size": 877756,
+      "local_size": 877756,
+      "server_digest": "sha256:2ad5b4b6ccca8dfecb150221a7521e072b7fd867ec0bfc10aca45c89df4fc801",
+      "local_sha256": "2ad5b4b6ccca8dfecb150221a7521e072b7fd867ec0bfc10aca45c89df4fc801",
+      "state": "uploaded",
+      "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.9/EXE2_Rev1_KR_V0.9.9_FreezeFix.zip"
+    }
+  ],
+  "verified": {
+    "server_size_matches_local": true,
+    "server_digest_matches_local_sha256": true
+  }
+}

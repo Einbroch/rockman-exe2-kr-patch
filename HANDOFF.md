@@ -1,5 +1,13 @@
 # Handoff
 
+## [2026-09-22] [github-publication] [v0.9.9]
+
+- V0.9.9 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.9 (release ID 393142397). 대상 커밋 `644794d711584ca8ef2bb87424682c9736c2de8c`.
+- 자산은 BPS ZIP 877,756 B(`2ad5b4b6...`)와 xdelta 351,976 B(`ca758a3b...`) 둘뿐이다. 서버가 보고한 크기와 SHA-256 다이제스트가 로컬과 일치하고, 게시 뒤 draft=false/prerelease=true 를 확인했다. ROM/저장 파일은 올리지 않았다.
+- 노트 맨 위에 V0.9.4~V0.9.8 이 학교 퇴장에서 멈춘다는 경고와 교체 안내를 넣었고, 게임 내 저장은 그대로 호환된다는 점도 적었다. Mesen 이 이 결함을 가린다는 사실과 원본/구판/신판 대조표도 공개했다.
+- 기존 V0.9.4~V0.9.8 릴리스는 손대지 않았다. 내릴지 경고만 붙일지는 사용자 결정 대기.
+- 영수증: `analysis/github_release_v099_publication.json`. 노트 원본: `analysis/github_release_v099_notes.md`.
+
 ## [2026-09-22] [runtime-fix] [V0.9.9]
 
 - 사용자가 LDPlayer + My Boy! 로 "학교 퇴장 블랙아웃"을 재현했다. ADB 로 그 세이브스테이트를 꺼내 멈춘 순간의 상태를 떴다. My Boy! 스테이트는 gzip + `GBASTATE` 헤더이고 레지스터는 오프셋 32부터 빅엔디안 r0..r15 + CPSR(96), IWRAM 은 파일 오프셋 0xB8, EWRAM 은 0x80B8 이다.
