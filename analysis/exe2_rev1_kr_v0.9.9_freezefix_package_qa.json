@@ -1,0 +1,38 @@
+{
+  "status": "PASS_FREEZE_FIX_PACKAGE",
+  "candidate_sha256": "876d798c765000784304d38e6e444d672a2d1364a96ab4ad2585ff4a0299f851",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "8e39ee6908b444ed7ea159e7e431e93d96965a82efbcfc04137078397f00716d",
+  "content_qa_sha256": "33c01494058db45f306d637e7bc67c0b7302f6768340c9977bb6ed26b3812a27",
+  "runtime_evidence": {
+    "kind": "human_on_screen_reading",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "학교 퇴장 통과",
+      "바깥 맵 연속 전환",
+      "PET 메뉴",
+      "이메일 목록",
+      "이메일 본문"
+    ],
+    "automated_menu_regression_run": false
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.9_FreezeFix.zip",
+  "package_sha256": "2ad5b4b6ccca8dfecb150221a7521e072b7fd867ec0bfc10aca45c89df4fc801",
+  "package_size": 877756,
+  "patch_sha256": "a57eef9d9ca6469f361a5467323332dab9ab7533c234185a397a413e7da758c4",
+  "patch_size": 333798,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

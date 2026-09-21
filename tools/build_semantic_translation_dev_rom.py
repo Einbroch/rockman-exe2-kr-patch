@@ -42,6 +42,7 @@ from gba_lz77 import compress, decompress
 from dialogue_layout import layout_script, literal as layout_literal
 from layout_byte_verifier import table_mapping, verify_changed_literals
 from menu_hangul_hook import planned_writes as menu_hook_writes, HOOK_OFFSET as MENU_HOOK_OFFSET
+import dialogue_rom_residency as dialogue_rom
 from reviewed_choice_layout import REVIEWED_IDS, validate_choice_layout
 from pet_menu_graphics import planned_writes as pet_graphics_writes
 from static_submenu_tables import planned_writes as static_submenu_writes
@@ -59,7 +60,9 @@ ROM_BASE = 0x08000000
 OUTPUT_SIZE = 0x1000000
 ORIGINAL_FONT_BASE = 0x006973B0
 MASTER_FONT_BASE = 0x00840000
-ARCHIVE_RELOCATION_BASE = 0x00870000
+# Above the static tables at 0x920000/0x930000/0x940000: the dialogue archives
+# now travel uncompressed, so they need far more room than the old 0x870000 base left.
+ARCHIVE_RELOCATION_BASE = 0x00960000
 TRAMPOLINE_BASE = 0x00830000
 
 MAIN_DISPATCH_HOOK = 0x00020C70
@@ -79,6 +82,26 @@ TRACKED = {"wait", "waitSkip", "printItem", "printChip", "printCode", "textSpeed
 # Byte forms of a script that ends immediately, reachable through the boundary
 # table's terminal slot: "end" and "waitHold" (the latter reserves four bytes).
 TERMINAL_EMPTY_SCRIPTS = (bytes([0xE7]), bytes([0xEA, 0xFF, 0x00, 0x00]))
+# Measured EWRAM ceilings, not guesses. On a map load the game decompresses the
+# map's dialogue archive to 0x02038800 and, just before it, the map's sprite
+# blocks to 0x0203C000, so a dialogue archive has 14,336 bytes before it runs
+# into sprite data that is already live. No original archive comes near that -
+# the largest of the 382 is 13,408 - but Hangul costs four bytes a character,
+# and an archive that overruns replaces those sprite headers with text. The
+# sprite part walker then follows a pointer built out of text bytes and never
+# finds its 0xFF terminator: black screen, audio still running. Mesen hid this
+# because its unmapped reads happen to end the walk; My Boy! does not.
+# (selector -> (destination, next observed allocation))
+EWRAM_DESTINATIONS = {
+    "00/mail": (0x02023000, 0x02027000),
+    "00/mailbody": (0x02027000, 0x02033000),
+}
+DEFAULT_EWRAM_DESTINATION = (0x02038800, 0x0203C000)
+
+
+def ewram_budget(selector: str) -> tuple[int, int, int]:
+    start, limit = EWRAM_DESTINATIONS.get(selector, DEFAULT_EWRAM_DESTINATION)
+    return start, limit, limit - start
 PUNCTUATION_NORMALIZATION = str.maketrans({",": "、", "-": "ー", "·": "・", "―": "ー"})
 
 
@@ -910,6 +933,11 @@ def main() -> None:
         if HANGUL_ESCAPE in raw:
             raise ValueError(f"{selector}: selected Hangul escape collides with source archive bytes")
 
+    # Archives the map dialogue loader resolves stay in ROM, uncompressed, so the
+    # 14,336-byte EWRAM buffer stops bounding how long a translated map script can be.
+    rom_resident = dialogue_rom.reachable(
+        source, {int(meta["archive_offset"]) for meta in archives.values()})
+
     physical_continuations = find_raw_physical_continuations(
         source, archives, source_raw, source_tpl, source_trailing)
 
@@ -1099,7 +1127,21 @@ def main() -> None:
                     "entry_id": f"{selector}/physical-continuation",
                     "pages": [{"status": "changed", "text_after": tail_literals}],
                 }, layout_mapping)
-            if metadata["storage"] == "lz77":
+            resident = int(metadata["archive_offset"]) in rom_resident
+            destination, limit, budget = ewram_budget(selector)
+            decompressed_length = len(rebuilt) + len(continuation_payload)
+            if not resident and decompressed_length > budget:
+                raise ValueError(
+                    f"{selector}: decompressed archive is {decompressed_length} bytes, "
+                    f"over the {budget}-byte EWRAM budget at 0x{destination:08X} "
+                    f"(next allocation 0x{limit:08X}); the source archive is "
+                    f"{len(original)} bytes"
+                )
+            if resident:
+                if continuation is not None:
+                    raise ValueError(f"{selector}: a ROM-resident archive cannot carry a continuation")
+                stored = rebuilt
+            elif metadata["storage"] == "lz77":
                 if continuation is not None and continuation.get("storage_form") != "inside_decompressed_buffer":
                     raise AssertionError(f"{selector}: compressed continuation passed validation unexpectedly")
                 if continuation_translation is not None:
@@ -1142,7 +1184,7 @@ def main() -> None:
                 "rom_offset": placement,
                 "byte_length": len(stored),
                 "sha256": sha256(stored),
-                "storage": metadata["storage"],
+                "storage": "raw" if resident else metadata["storage"],
             })
             archive_report = {
                 "selector": selector,
@@ -1150,10 +1192,14 @@ def main() -> None:
                 "source_decompressed_sha256": sha256(original),
                 "translated_entry_count": len(selected_ids),
                 "replacement_decompressed_byte_length": len(rebuilt),
+                "ewram_destination": destination,
+                "ewram_budget": budget,
                 "replacement_decompressed_sha256": sha256(rebuilt),
                 "replacement_stored_byte_length": len(stored),
                 "replacement_stored_sha256": sha256(stored),
-                "storage": metadata["storage"],
+                "storage": "raw" if resident else metadata["storage"],
+                "source_storage": metadata["storage"],
+                "rom_resident_dialogue": resident,
                 "relocated_rom_offset": placement,
                 "pointer_locations": pointer_locations,
                 "untranslated_entries_byte_identical": True,
@@ -1215,6 +1261,10 @@ def main() -> None:
         ("main_dispatch", TRAMPOLINE_BASE, *make_main_dispatch_trampoline(TRAMPOLINE_BASE)),
         ("scanner", TRAMPOLINE_BASE + 0x100, *make_scanner_trampoline(TRAMPOLINE_BASE + 0x100)),
         ("font_base", TRAMPOLINE_BASE + 0x200, *make_font_base_trampoline(TRAMPOLINE_BASE + 0x200)),
+        ("dialogue_loader_capture", dialogue_rom.CAPTURE_TRAMPOLINE,
+         *dialogue_rom.make_capture_trampoline(ThumbBlob, dialogue_rom.CAPTURE_TRAMPOLINE)),
+        ("dialogue_reader_base", dialogue_rom.READER_TRAMPOLINE,
+         *dialogue_rom.make_reader_trampoline(ThumbBlob, dialogue_rom.READER_TRAMPOLINE)),
     ]
     disassembly: dict[str, list[str]] = {}
     for name, offset, code, code_byte_length in trampolines:
@@ -1228,6 +1278,7 @@ def main() -> None:
         (MAIN_DISPATCH_HOOK, bytes.fromhex("e7 29 00 da 08 e0"), hook_stub(MAIN_DISPATCH_HOOK, TRAMPOLINE_BASE, 0)[:6], "main_dispatch"),
         (SCANNER_HOOK, bytes.fromhex("e7 29 04 da e5 29 0e d0"), hook_stub(SCANNER_HOOK, TRAMPOLINE_BASE + 0x100, 0), "scanner"),
         (FONT_BASE_HOOK, bytes.fromhex("88 46 78 48 89 01 40 18"), hook_stub(FONT_BASE_HOOK, TRAMPOLINE_BASE + 0x200, 3), "font_base"),
+        *dialogue_rom.hook_specs(),
     ]
     # MAIN_DISPATCH_HOOK uses a 6-byte stub whose literal occupies the two
     # overwritten bytes at 0x20C74..77; build it explicitly as ldr/bx/literal.
@@ -1280,8 +1331,11 @@ def main() -> None:
     prior_ranges = [expected_range(w) for w in expected_writes]
     for write in static_writes:
         lo, hi, _ = expected_range(write)
-        if any(lo < b and a < hi for a, b, _ in prior_ranges):
-            raise ValueError("static submenu table overlaps another Expected Write")
+        clash = next(((a, b, k) for a, b, k in prior_ranges if lo < b and a < hi), None)
+        if clash is not None:
+            raise ValueError(
+                f"static submenu table overlaps another Expected Write: "
+                f"{write['kind']} 0x{lo:X}..0x{hi:X} vs {clash[2]} 0x{clash[0]:X}..0x{clash[1]:X}")
         if write["kind"] == "static_table_asset":
             start = write["rom_offset"]
             payload = bytes.fromhex(write["replacement_hex"])
