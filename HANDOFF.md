@@ -1,5 +1,14 @@
 # Handoff
 
+## [2026-09-22] [github-publication] [v0.9.8]
+
+- V0.9.8 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.8 (release ID 393099149). 대상 커밋은 `6ad41c4de610b923bb9b8e896f2520051e758fd0`이며 소스 변경도 같은 커밋으로 main 에 푸시했다.
+- 자산은 BPS ZIP 947,695 B(`8587b08b...`)와 xdelta 391,386 B(`83f4d7d9...`) 둘뿐이다. 서버가 보고한 크기와 SHA-256 다이제스트가 로컬 및 QA 영수증과 일치하는 것을 확인했고, 게시 뒤 draft=false/prerelease=true 를 다시 확인했다. ROM/저장 파일은 올리지 않았다.
+- 노트에 V0.9.7 문서의 오류를 정정했다. 이메일 본문 아카이브가 `0x7E3000`이고 포인터가 없다고 적었던 것은 압축 스트림을 경계표로 오독한 결과이며, 실제로는 목록 `0x7E2F40`·본문 `0x7E3420`에 각각 정렬 포인터가 하나씩 있다.
+- 노트에 명시한 제한: My Boy! 기기 미확인, 전체 게임 QA 미완, 본문 해제 크기 2배 증가에 따른 EWRAM 관찰이 전수가 아님, 학교 퇴장 블랙아웃 미재현, 초안 번역, `00/357` 95개 미적용.
+- 영수증: `analysis/github_release_v098_publication.json`. 노트 원본: `analysis/github_release_v098_notes.md`.
+- 기존 V0.9.4~V0.9.7 릴리스는 건드리지 않았다.
+
 ## [2026-09-22] [mail-translation] [V0.9.8]
 
 - 이메일 목록과 본문을 모두 한글화했다. 두 아카이브다: 목록 LZ77 `0x7E2F40` -> EWRAM `0x02023000` (포인터 `ref@0x0283D0`, 명령셋 `mmbn2s`), 본문 LZ77 `0x7E3420` -> EWRAM `0x02027000` (포인터 `ref@0x0283D8`, 명령셋 `mmbn2`). 두 포인터는 `0x0283C8` 리터럴 풀에 나란히 있고 같은 프레임에 함께 풀린다.
