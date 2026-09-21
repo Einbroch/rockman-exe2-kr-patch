@@ -85,6 +85,10 @@ def main() -> None:
     parser.add_argument("--selector", required=True, help="Stable label such as 00/11")
     parser.add_argument("--storage", choices=("lz77", "raw"), default="lz77")
     parser.add_argument("--raw-byte-length", type=int)
+    # A decompressed buffer may carry padding past the archive the table
+    # declares. Naming the real payload length keeps the shared boundary
+    # rule intact instead of loosening it for every archive.
+    parser.add_argument("--payload-byte-length", type=int)
     parser.add_argument("--textpet-exe", type=Path, required=True)
     parser.add_argument("--plugins-dir", type=Path, required=True)
     parser.add_argument("--output-tpl", type=Path, required=True)
@@ -113,6 +117,12 @@ def main() -> None:
     else:
         raw = raw_archive_at(rom, args.archive_offset, args.raw_byte_length)
         stored_length = len(raw)
+    trailing_padding = b""
+    if args.payload_byte_length is not None:
+        if not 0 < args.payload_byte_length <= len(raw):
+            raise ValueError("--payload-byte-length is outside the decompressed buffer")
+        trailing_padding = raw[args.payload_byte_length:]
+        raw = raw[:args.payload_byte_length]
     offsets = parse_archive_table(raw)
     archive_name = f"{args.archive_offset:07X}.msg"
     tpl_name = f"{args.archive_offset:07X}.tpl"

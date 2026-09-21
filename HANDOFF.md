@@ -1,5 +1,18 @@
 # Handoff
 
+## [2026-09-22] [mail-translation] [V0.9.8]
+
+- 이메일 목록과 본문을 모두 한글화했다. 두 아카이브다: 목록 LZ77 `0x7E2F40` -> EWRAM `0x02023000` (포인터 `ref@0x0283D0`, 명령셋 `mmbn2s`), 본문 LZ77 `0x7E3420` -> EWRAM `0x02027000` (포인터 `ref@0x0283D8`, 명령셋 `mmbn2`). 두 포인터는 `0x0283C8` 리터럴 풀에 나란히 있고 같은 프레임에 함께 풀린다.
+- 각 아카이브의 실제 내용은 36건이고 나머지 91칸은 게임이 쓰지 않는 `MAILxx` 플레이스홀더라 원문 그대로 뒀다. 조판은 원문 실측 21칸 3줄. 용어·말투는 기존 번역 표본에서 맞췄다.
+- 중간 빌드에서 이메일 진입 시 프리징이 재현됐다. 원인은 목록 아카이브 해제본 3,247 B 중 표가 선언한 3,246 뒤의 1바이트를 압축 패딩으로 판정해 잘라낸 것이다. 그 바이트는 `E7`이고 표의 마지막 칸이 가리키는 빈 줄 엔트리로, 목록 화면이 빈 행마다 인덱스 127로 선택한다. 잘린 빌드에서는 라벨 렌더러(IWRAM `0x03006DC8`)가 종료 바이트를 못 찾고 EWRAM을 무한히 훑었다. 타일 목적지 r2가 프레임당 0x8C00씩 오르는 것으로 확인했다.
+- 정적 게이트가 못 잡은 이유는 공유 규칙이 `values[-1] == len(raw)`여서 잘라낸 쪽이 오히려 통과하기 때문이다. 빌더의 `find_raw_physical_continuations`에 압축 분기를 넣어 꼬리를 `compress(rebuilt + continuation)`로 되붙이고, 검증기도 raw와 같은 방식으로 코어/꼬리를 쪼개 대조하게 했다. 본문 아카이브에도 같은 성격의 꼬리 `EA FF 00 00`(`waitHold`, `ends = always`)가 있었고 새 검사가 잡아내 함께 보존했다. 알려진 종료 형태(`E7`, `EA FF 00 00`) 외의 바이트는 빌드를 멈춘다.
+- 한글이 4바이트/자라 본문 해제 크기가 8,391 -> 16,452 B로 늘었다. 목적지 다음 알려진 할당은 `0x02033000`이다. 새로 덮어쓰는 `0x020290C8`~`0x0202B0FF`를 실측한 결과 쓰는 주체는 부팅 제로필 둘(BIOS `0xC08`, ROM `0x080001CC`)뿐이고 읽는 코드는 0건이었다. 확인한 경로에 한한 관찰이며 전수 조사는 아니다.
+- 결과: `poc/output/exe2_rev1_kr_v0_9_8_mailbody.gba`, SHA-256 `ded18fb321b39fa8d6451e6918b5579d8e5f4314f07becf7613a20298281e005`. 번역 엔트리 7,861개, 아카이브 383개. 정적 QA·내용 QA 모두 `PASS (bench)`.
+- 런타임: 음소거 Mesen 2에서 이메일 진입 -> 목록 -> 본문 1·2페이지 -> 빠져나오기까지 멈춤 없음. 프리징 빌드와 수정 빌드를 같은 조작으로 대조했다. 진단기는 `tools/probe_mail_screen_freeze.py`(LZ77 목적지·길이, 프레임별 PC, 렌더러가 먹는 바이트 전량, 메모리 영역 접근 주체).
+- `tools/package_arrow_words_v096.py`가 영수증 경로를 고정하고 있어 이전 판 영수증을 덮어썼다. 이름 기준 경로로 바꾸고 기존 파일을 복구했다.
+- 증거: `analysis/exe2_rev1_v0_9_8_mailbody_static_qa.json`, `analysis/exe2_rev1_v0_9_8_mailbody_content_qa.json`, `analysis/exe2_rev1_kr_v0.9.8_mail_package_qa.json`, `analysis/exe2_rev1_xdelta_exe2_rev1_kr_v0.9.8_mail_qa.json`.
+- 남은 것: My Boy! 기기 확인, 전체 게임 QA, 학교 퇴장 블랙아웃 미재현, `00/357` 95개 미적용.
+
 ## [2026-09-15] [github-publication] [v0.9.5]
 
 - 사용자 지정 저장소에 V0.9.5 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.5 (release ID 388514878).

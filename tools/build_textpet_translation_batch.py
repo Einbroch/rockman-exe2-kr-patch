@@ -35,7 +35,7 @@ def archive_offsets(raw: bytes) -> list[int]:
 def script_blocks(tpl: str) -> list[tuple[int, str]]:
     return [
         (int(match.group(1)), match.group(0))
-        for match in re.finditer(r"(?ms)^script\s+(\d+)\s+mmbn2\s+\{.*?^\}", tpl)
+        for match in re.finditer(r"(?ms)^script\s+(\d+)\s+mmbn2s?\s+\{.*?^\}", tpl)
     ]
 
 
@@ -57,6 +57,7 @@ def main() -> None:
     parser.add_argument("--tpl", type=Path, required=True)
     parser.add_argument("--authored", type=Path, required=True)
     parser.add_argument("--batch-size", type=int, default=100)
+    parser.add_argument("--payload-byte-length", type=int)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
@@ -68,6 +69,10 @@ def main() -> None:
     if sha256(rom) != SUPPORTED_ROM_SHA256:
         raise ValueError("supported Rev 1 ROM SHA-256 mismatch")
     raw, compressed_length = decompress(rom, args.archive_offset)
+    if args.payload_byte_length is not None:
+        if not 0 < args.payload_byte_length <= len(raw):
+            raise ValueError("--payload-byte-length is outside the decompressed buffer")
+        raw = raw[:args.payload_byte_length]
     offsets = archive_offsets(raw)
     tpl_bytes = args.tpl.read_bytes()
     tpl = tpl_bytes.decode("utf-8-sig")
@@ -119,6 +124,10 @@ def main() -> None:
             "source_rom_sha256": SUPPORTED_ROM_SHA256,
             "compressed_byte_length": compressed_length,
             "decompressed_byte_length": len(raw),
+            # Present only when the decompressed buffer carries padding past the
+            # archive its table declares.
+            **({"payload_byte_length": args.payload_byte_length}
+               if args.payload_byte_length is not None else {}),
             "decompressed_sha256": sha256(raw),
             "tpl_filename": args.tpl.name,
             "tpl_sha256": sha256(tpl_bytes),

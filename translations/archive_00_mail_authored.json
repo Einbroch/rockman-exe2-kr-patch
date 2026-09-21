@@ -1,0 +1,642 @@
+{
+ "schema_version": 1,
+ "kind": "authored_semantic_translation_batch",
+ "batch_number": 78,
+ "entries": [
+  {
+   "selector": "00/mail",
+   "entry_index": 0,
+   "draft_translation": "메일뉴스      바이러스 또 증가!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 1,
+   "draft_translation": "메일        롤을 써 봐"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 2,
+   "draft_translation": "아빠        여권"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 3,
+   "draft_translation": "아빠        연구실에 오지 않을래"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 4,
+   "draft_translation": "데카오       빨리 와!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 5,
+   "draft_translation": "메일        컴퓨터 패스코드"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 6,
+   "draft_translation": "오피셜C      라이선스 시험 안내"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 7,
+   "draft_translation": "이쥬인 엔잔    기폭장치는 4개다"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 8,
+   "draft_translation": "이쥬인 엔잔    기폭프로그램 무효화"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 9,
+   "draft_translation": "데카오       캠프 가자!!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 10,
+   "draft_translation": "야이토       농담!!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 11,
+   "draft_translation": "메일        캠프 OK!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 12,
+   "draft_translation": "이쥬인 엔잔    거절한다"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 13,
+   "draft_translation": "데카오       늦었잖아!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 14,
+   "draft_translation": "AAL       프리패스 증정"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 15,
+   "draft_translation": "메일뉴스      피해 확산"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 16,
+   "draft_translation": "메일        뭔가에 도움이 되길"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 17,
+   "draft_translation": "이쥬인 엔잔    조사 보고"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 18,
+   "draft_translation": "메일뉴스      대지진 온다"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 19,
+   "draft_translation": "아빠        이제 괜찮단다"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 20,
+   "draft_translation": "ONB본부     국제회의 안내"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 21,
+   "draft_translation": "메일        롤이 안 돌아와!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 22,
+   "draft_translation": "명인        오라 도전자!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 23,
+   "draft_translation": "명인        폴더를 가려 써라!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 24,
+   "draft_translation": "발신인불명     칩 트레이더입니다!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 25,
+   "draft_translation": "메일뉴스      메트로역 폭발사고"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 26,
+   "draft_translation": "야이토       선물 주세요"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 27,
+   "draft_translation": "엄마        용돈이란다"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 28,
+   "draft_translation": "ONB본부     비밀 회의장"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 29,
+   "draft_translation": "오피셜C      시민 넷배틀러에게"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 30,
+   "draft_translation": "발신인불명     이번엔 레트로입니다!"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 31,
+   "draft_translation": "아빠        거츠 스타일 설명"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 32,
+   "draft_translation": "아빠        커스텀 스타일 설명"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 33,
+   "draft_translation": "아빠        브라더 스타일 설명"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 34,
+   "draft_translation": "아빠        실드 스타일 설명"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 35,
+   "draft_translation": "아빠        사이트 스타일 설명"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 36,
+   "draft_translation": "MAIL24XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 37,
+   "draft_translation": "MAIL25XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 38,
+   "draft_translation": "MAIL26XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 39,
+   "draft_translation": "MAIL27XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 40,
+   "draft_translation": "MAIL28XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 41,
+   "draft_translation": "MAIL29XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 42,
+   "draft_translation": "MAIL2AXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 43,
+   "draft_translation": "MAIL2BXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 44,
+   "draft_translation": "MAIL2CXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 45,
+   "draft_translation": "MAIL2DXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 46,
+   "draft_translation": "MAIL2EXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 47,
+   "draft_translation": "MAIL2FXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 48,
+   "draft_translation": "MAIL30XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 49,
+   "draft_translation": "MAIL31XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 50,
+   "draft_translation": "MAIL32XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 51,
+   "draft_translation": "MAIL33XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 52,
+   "draft_translation": "MAIL34XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 53,
+   "draft_translation": "MAIL35XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 54,
+   "draft_translation": "MAIL36XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 55,
+   "draft_translation": "MAIL37XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 56,
+   "draft_translation": "MAIL38XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 57,
+   "draft_translation": "MAIL39XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 58,
+   "draft_translation": "MAIL3AXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 59,
+   "draft_translation": "MAIL3BXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 60,
+   "draft_translation": "MAIL3CXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 61,
+   "draft_translation": "MAIL3DXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 62,
+   "draft_translation": "MAIL3EXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 63,
+   "draft_translation": "MAIL3FXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 64,
+   "draft_translation": "MAIL40XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 65,
+   "draft_translation": "MAIL41XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 66,
+   "draft_translation": "MAIL42XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 67,
+   "draft_translation": "MAIL43XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 68,
+   "draft_translation": "MAIL44XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 69,
+   "draft_translation": "MAIL45XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 70,
+   "draft_translation": "MAIL46XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 71,
+   "draft_translation": "MAIL47XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 72,
+   "draft_translation": "MAIL48XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 73,
+   "draft_translation": "MAIL49XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 74,
+   "draft_translation": "MAIL4AXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 75,
+   "draft_translation": "MAIL4BXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 76,
+   "draft_translation": "MAIL4CXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 77,
+   "draft_translation": "MAIL4DXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 78,
+   "draft_translation": "MAIL4EXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 79,
+   "draft_translation": "MAIL4FXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 80,
+   "draft_translation": "MAIL50XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 81,
+   "draft_translation": "MAIL51XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 82,
+   "draft_translation": "MAIL52XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 83,
+   "draft_translation": "MAIL53XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 84,
+   "draft_translation": "MAIL54XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 85,
+   "draft_translation": "MAIL55XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 86,
+   "draft_translation": "MAIL56XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 87,
+   "draft_translation": "MAIL57XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 88,
+   "draft_translation": "MAIL58XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 89,
+   "draft_translation": "MAIL59XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 90,
+   "draft_translation": "MAIL5AXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 91,
+   "draft_translation": "MAIL5BXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 92,
+   "draft_translation": "MAIL5CXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 93,
+   "draft_translation": "MAIL5DXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 94,
+   "draft_translation": "MAIL5EXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 95,
+   "draft_translation": "MAIL5FXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 96,
+   "draft_translation": "MAIL60XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 97,
+   "draft_translation": "MAIL61XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 98,
+   "draft_translation": "MAIL62XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 99,
+   "draft_translation": "MAIL63XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 100,
+   "draft_translation": "MAIL64XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 101,
+   "draft_translation": "MAIL65XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 102,
+   "draft_translation": "MAIL66XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 103,
+   "draft_translation": "MAIL67XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 104,
+   "draft_translation": "MAIL68XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 105,
+   "draft_translation": "MAIL69XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 106,
+   "draft_translation": "MAIL6AXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 107,
+   "draft_translation": "MAIL6BXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 108,
+   "draft_translation": "MAIL6CXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 109,
+   "draft_translation": "MAIL6DXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 110,
+   "draft_translation": "MAIL6EXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 111,
+   "draft_translation": "MAIL6FXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 112,
+   "draft_translation": "MAIL70XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 113,
+   "draft_translation": "MAIL71XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 114,
+   "draft_translation": "MAIL72XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 115,
+   "draft_translation": "MAIL73XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 116,
+   "draft_translation": "MAIL74XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 117,
+   "draft_translation": "MAIL75XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 118,
+   "draft_translation": "MAIL76XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 119,
+   "draft_translation": "MAIL77XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 120,
+   "draft_translation": "MAIL78XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 121,
+   "draft_translation": "MAIL79XX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 122,
+   "draft_translation": "MAIL7AXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 123,
+   "draft_translation": "MAIL7BXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 124,
+   "draft_translation": "MAIL7CXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 125,
+   "draft_translation": "MAIL7DXX  XXXXXXXXXXXXX"
+  },
+  {
+   "selector": "00/mail",
+   "entry_index": 126,
+   "draft_translation": "MAIL7EXX  XXXXXXXXXXXXX"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "kind": "gba_emulator_validation_candidate_bench_qa",
+  "qa_status": "PASS (bench)",
+  "runtime_status": "PENDING_RUNTIME",
+  "runtime_policy": {
+    "audio_enabled": false,
+    "exact_candidate_required": true
+  },
+  "source": {
+    "filename": "Battle Network Rockman EXE 2 (Japan) (Rev 1).gba",
+    "sha256": "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8",
+    "byte_length": 8388608
+  },
+  "candidate": {
+    "filename": "exe2_rev1_kr_v0_9_8_mailbody.gba",
+    "sha256": "ded18fb321b39fa8d6451e6918b5579d8e5f4314f07becf7613a20298281e005",
+    "byte_length": 16777216
+  },
+  "build_manifest": {
+    "filename": "exe2_rev1_kr_v0_9_8_mailbody_manifest.json",
+    "sha256": "123bf356e220e41bc12c95a4f3f47c6f9d92f0256f53d35bdf9f9c89db5f1850"
+  },
+  "verified": {
+    "gba_identity_header": true,
+    "gba_header_complement_checksum": true,
+    "archive_count": 383,
+    "archive_boundaries_and_hashes": true,
+    "raw_physical_continuation_count": 163,
+    "raw_physical_continuations_verified": true,
+    "relocated_pointer_count": 576,
+    "font_record_count": 2351,
+    "font_payload_hash": true,
+    "thumb_instruction_boundaries": true,
+    "expected_write_ranges_non_overlapping": true,
+    "all_final_differences_explained": true,
+    "changed_byte_count_from_clean_expanded_source": 817045
+  },
+  "translation_scope": {
+    "protected_batch_entry_count": 7956,
+    "applied_batch_entry_count": 7861,
+    "base_only_addendum_entry_count": 2,
+    "overlapping_base_entries_recompiled_from_batch": 68,
+    "total_unique_translated_entry_count_in_output": 7861,
+    "translated_physical_continuation_count": 2,
+    "source_language_physical_continuation_count": 161,
+    "skipped": [
+      {
+        "selector": "00/357",
+        "entry_count": 95,
+        "reason": "No aligned literal pointer to the raw source archive exists; relocation/reference completeness is unresolved."
+      }
+    ],
+    "review_state": "machine_draft_needs_human_review"
+  },
+  "limitations": [
+    "This receipt proves static artifact integrity, not emulator behavior.",
+    "Muted emulator boot, representative dialogue rendering, progression, exit, and re-entry remain pending.",
+    "The candidate is a local full-ROM development artifact and must not be distributed."
+  ]
+}

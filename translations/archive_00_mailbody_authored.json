@@ -1,0 +1,642 @@
+{
+ "schema_version": 1,
+ "kind": "authored_semantic_translation_batch",
+ "batch_number": 79,
+ "entries": [
+  {
+   "selector": "00/mailbody",
+   "entry_index": 0,
+   "draft_translation": "WWW 사건 이후 줄었던 / 컴퓨터 바이러스가, / 요즘 다시 늘고 있습니다 // 바이러스에 전자기기가 감염되면 / 고장이나 사고의 원인이 됩니다 / 충분히 주의하시기 바랍니다"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 1,
+   "draft_translation": "기다린다고는 했지만 / 역시 걱정돼서... // 이거, 록맨에게 / 도움이 되게 해 줘... // 넷토는 / 칩 데이터 「[printChip chip=194] [printCode code=R]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 2,
+   "draft_translation": "엄마한테 들었다, 넷토! / 아메롭파에 간다면서! / 아빠도 찬성이다! // 여권은 오피셜 센터에서 / 발급받을 수 있단다 // PET에서 / 데이터를 읽어서 만드니까 / 그것만 들고 가면 OK다! // 가는 김에 아빠 연구실에도 / 얼굴 좀 보여 주러 오렴"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 3,
+   "draft_translation": "골치 아픈 사건이 터져서 / 당분간 집에 못 들어갈 것 같다 // 넷토 얼굴이 보고 싶어졌구나 // 오피셜 센터의 / 엘리베이터를 넷토도 쓸 수 있게 / 해 뒀으니, 언제든 오려무나"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 4,
+   "draft_translation": "뭐 하는 거야! / 「오피셜 스퀘어」로 / 빨리 록맨을 데려와!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 5,
+   "draft_translation": "넷토, 서브 라이선스 획득 / 잘됐다! // 있잖아, 이게 / 내 컴퓨터 패스코드야 / 다음에 록맨이랑 놀러 와 // 넷토는 / 「[printItem item=80]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 6,
+   "draft_translation": "[printItem item=58]을 가지고 계신 여러분께 // 오피셜 센터에서는 지금 / 새로이 시민 넷배틀러를 / 모집하고 있습니다 // 라이선스 시험에 합격하면 / 당신도 시민 넷배틀러의 / 일원이 됩니다! // 이 기회를 꼭! / 마린하버의 오피셜 센터로 / 찾아와 주세요!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 7,
+   "draft_translation": "(본문 없음)"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 8,
+   "draft_translation": "기폭 장치 안에 있는 / 둥근 모니터를 찾아내라 // 기폭 프로그램은 / 거기서 제어되고 있을 것이다 // 나머지는 / 네 내비라면 어떻게든 될 거다"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 9,
+   "draft_translation": "내일이라면 캠프 가자! // 대신 / 대장은 이 몸이다!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 10,
+   "draft_translation": "이봐! 보통 / 세계 여행에서 돌아온 / 다음 날 캠프에 부르니??? // ...그래도 서민의 생활을 / 아는 것도 중요한 일이니까 / 같이 가 주는 거야"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 11,
+   "draft_translation": "숙제 다 끝냈어♪ // 그러니까 내일 캠프 OK야!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 12,
+   "draft_translation": "오랜만이군, 히카리... // 하지만 오피셜 넷배틀러인 / 나에게 너희와 캠프에 / 갈 시간 따위는 없다 // 게다가 그럴 이유도 없지 / 캠프에 가려거든 알아서 가라"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 13,
+   "draft_translation": "넷토, 늦잖아! // 잘 들어! 대장의 명령이다! / 5분 안에 버스 정류장으로 와! / 안 오면 두고 가 버린다!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 14,
+   "draft_translation": "지난번 하이재킹 사건 때는 / 대단히 신세를 졌습니다 // 그 답례로 아메롭파 항공의 / 프리패스 데이터를 / 보내 드립니다 // 앞으로 그런 사건이 없도록 / 직원 모두가 마음을 다잡고 / 근무에 임하겠습니다 // 그리고 그 비행기는, / 정비를 위해 당분간 / 덴산 공항에 머물고 있습니다 // 기간 중에는 기내를 개방해 / 여러분께서 견학하실 수 있도록 / 하고 있습니다 // 괜찮으시면 한번 들러 주세요 // 앞으로도 아메롭파 항공을 / 잘 부탁드립니다 // 넷토는 / 「[printItem item=64]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 15,
+   "draft_translation": "세계 각지를 덮친 자연재해의 / 기세는 더해만 갑니다 // 일본에서도 단속적으로 / 강한 지진이 관측되고 있어, / 각지에 피난 권고가 내려졌습니다 // 앞으로 피해가 얼마나 커질지 / 예상할 수 없는 상황입니다"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 16,
+   "draft_translation": "넷토, 록맨, / 롤을 찾아 줘서 고마워 // 둘 다 조심해, / 나 왠지 / 안 좋은 예감이 들어서... // 도움이 될지 모르겠지만, / 부적이라 생각하고 가지고 있어 // 넷토는 / 칩 데이터 「[printChip chip=196] [printCode code=R]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 17,
+   "draft_translation": "이쥬인 엔잔이다 / 조사 중간 보고다 // 언더 인터넷 에리어 3에 / 고스펠 회원으로 보이는 내비가 / 있는 것 같다 // 하지만 정체불명의 얼음이 있어 / 그 내비와 접촉할 수는 / 없었다 // 그래서 언더 인터넷으로 / 가는 다른 경로를 / 조사한 결과, // 코토부키 스퀘어 입구에서 / 언더 인터넷으로 이어지는 / 경로가 있다는 걸 알아냈다 // 하지만 그 경로를 쓰려면, / 특수한 열쇠가 필요할 것 / 같다 // 현 단계에서 알아낸 건 / 여기까지다 // 계속해서 조사를 진행하겠다"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 18,
+   "draft_translation": "조금 전 덴산 지진예지연에서 / 발표된 내용에 따르면, // 앞으로 몇 시간 뒤, 관측 사상 / 최대 규모의 지진이 일어날 / 가능성이 높다고 합니다 // 시민 여러분께서는 / 대피소로 대피하시어, / 지진에 대비해 주십시오"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 19,
+   "draft_translation": "환경 유지 시스템의 / 프리즈가 풀려서 정상적으로 / 움직이기 시작했다 // 이걸로 전 세계의 / 재해도 가라앉겠지 // 넷토, 록맨, 잘해 줬다"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 20,
+   "draft_translation": "이번 / 「아지나&일본 습격 사건」 / 에서도 알 수 있듯이 // 넷 마피아 「고스펠」의 / 위협은 점점 / 커지고 있습니다 // 그러나 이번에 저희는 / 「고스펠」에 관한 중대한 / 정보를 입수했습니다 // 그래서 우수한 넷배틀러 / 여러분께 그 정보를 전하고 / 앞날에 대비하고자 합니다 // 여러분도 저희가 개최하는 / 「오피셜 넷배틀러 회의」에 / 꼭 참가해 주십시오 // 회의는 아메롭파에 있는 / 「오피셜 넷배틀러 세계본부」 / 에서 진행합니다"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 21,
+   "draft_translation": "아까, 인터넷 하고 있는데 / 지진이 나서... // 롤이 인터넷에서 / 돌아오지 않게 돼 버렸어 / 어떡하지!? // 연락도 전혀 안 되고... // 아마 아지나 에리어에 있을 / 것 같은데... // 롤에게 무슨 일이 생기면 난..."
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 22,
+   "draft_translation": "안녕! / 나는 넷배틀 명인이다! // 지난번 같은 사건이 있었으니 / 일본의 넷배틀러는 더 / 강해져야만 한다! // ...그래서 나는 / 「넷배틀러 강화 페어」를 / 개최하기로 했다! // 전국의 넷배틀러 제군! / 나에게 넷배틀로 / 도전하는 거다!! // 조금 진심인 나를 / 이길 수 있다면 「명인 특제 / 칩 폴더」를 선물하겠다! // 명인은 마린하버의 / 오피셜 센터에서 언제든지 / 너의 도전을 기다리고 있다!!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 23,
+   "draft_translation": "폴더를 바꿔 쓰는 건 / 칩 폴더 화면에서 한다! // 칩 폴더 화면의 폴더 이름 / 쪽에 E 마크가 붙은 게 / 지금 장착 중인 폴더다! // 장착할 폴더를 바꾸고 싶으면 / 그 폴더에 커서를 맞추고 / A 버튼, // 거기서 장착을 고르면, / 다음 배틀부터 고른 폴더로 / 싸울 수 있다! // 다만! 두 폴더에 / 전력을 분산해 버리는 건 / 좋은 방법이라 할 수 없다 // 어디까지나 메인 폴더는 하나, / 나머지 하나는 특정 상황에서 / 위력을 발휘하면 된다 // 참고로 명인은 / 바이러스전용과 통신대전용으로 / 나눠 쓰고 있다!!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 24,
+   "draft_translation": "오피셜 센터에 / 제가 놓아둔 칩 트레이더, / 다들 벌써 해 봤슴까? // 처음 해 보는 너를 위해 / 제가 하는 법을 / 설명해 주겠슴다 // 칩 트레이더에 / 필요 없는 칩을 3장 넣으면 / 다른 칩이 1장 나옴다 // 말하자면 / 「제비뽑기」 같은 검다! // 그리고 좋은 칩을 넣어도 / 나오는 게 좋은 칩이라는 / 보장은 없슴다 // 뭘 넣어도 3장은 3장, / 모든 건... 너의 운에 달렸슴다! // 참고로 / 오피셜 센터에 놓아둔 건 / 보통 버전임다 // 이 밖에 스페셜 버전이나 / 레트로 버전도 만들 생각임다 / 기대하고 있겠슴다!! // ... / 중요한 걸 잊고 있었슴다!! // 이 칩 트레이더는 / 한 번 할 때마다 / PET에 저장을 함다! // 소중한 저장 데이터를 / 실수로 지워 버리지 않도록 / 조심해 주세요![waitSkip 15] // 임다!!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 25,
+   "draft_translation": "조금 전 메트로라인 마린역에서 / 폭탄이 폭발하는 / 소동이 있었습니다 // 폭탄은 소형이라 / 피해는 그리 크지 않았고, // 현재로서는 / 부상자 등은 확인되지 않았다는 / 정보입니다"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 26,
+   "draft_translation": "선물이 갖고 싶어졌으니 / 사다 주세요"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 27,
+   "draft_translation": "아까 / 용돈 주는 걸 깜빡했으니까 / 메일로 보낼게 // 가끔은 엄마도 / 팍팍 쓸 줄 안다고! // 라고는 해도 사실은 계속 맡아 둔 / 넷토 세뱃돈이지만... // 그럼 조심하고 // 넷토는 / 「3000제니」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 28,
+   "draft_translation": "「오피셜 넷배틀러 회의」의 / 회의장에 대해 알려 드립니다 // 고스펠의 방해 공작을 / 피하기 위해, 회의장은 / 극비로 되어 있습니다 // 넷배틀러 여러분께서는 / 직접 회의장을 / 찾아서 출석해 주십시오 // 오피셜이 무책임하다 하지 말길 / 믿을 수 있는 건 자신뿐 / 록맨.EXE라는 내비도 옵니다"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 29,
+   "draft_translation": "고스펠이 / 여전히 활동을 계속하고 있다는 / 의혹 있음 // 즉시 코토부키 스퀘어를 / 재조사하라!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 30,
+   "draft_translation": "이번에는 레트로 칩 트레이더를 / 설치했슴다! // 하는 법은 기본적으로 / 보통 칩 트레이더와 같슴다만, // 넣는 칩이 / 「록맨 에그제(1)」의 / 칩으로 되어 있슴다 // 「록맨 에그제(1)」를 / 가진 모두에게 조금 이득인 / 기계인 검다 // 그리고 레트로 칩 트레이더는 / 한 사람당 한 번만 쓸 수 있슴다 / 주의하라굼다 // 주목의 설치 장소는 / ... // 비밀임다! / 다들 찾아보는 검다!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 31,
+   "draft_translation": "거츠 타입 스타일에서는, / 우선 버스터 공격력이 2배가 된다 // 대신 연사력은 최저가 / 되어 버리지만, 그래도 충분한 / 강함을 지녔다고 할 수 있지 // 그리고 적의 공격을 받아도 / 뒤로 밀리지 않는다는 건 / 무슨 뜻이냐 하면... // 칩을 쓰려고 했을 때 / 공격을 맞아서 못 쓰는 / 일도 없어진다는 뜻이다 // 힘으로 밀어붙인다! / 이것이야말로 거츠다! / 팍팍 밀어붙여라! 넷토!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 32,
+   "draft_translation": "커스텀 타입 스타일에서는, / 커스텀 화면에서 고를 수 있는 / 칩 선택지가, // 무려 처음부터 7장인 / 상태가 된다 // ADD로 폴더 오픈하는 / 수고를 덜 수 있는 거지 // 칩을 연달아 이어서 / 깔끔하게 쓰러뜨린다! / 이것이야말로 커스텀 스타일이다! // 여러 조합을 / 찾아 나가라! 넷토!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 33,
+   "draft_translation": "브라더 타입 스타일에서는, / 폴더 하나에 내비칩을 / 8장까지 넣을 수 있게 된다 // 역시 가져야 할 건 동료라는 / 뜻이다! // 동료를 많이 모아 가라! / 넷토!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 34,
+   "draft_translation": "실드 타입 스타일에서는, / 배틀이 시작될 때부터 / 배리어가 붙어 있다... 이득이지? // 그리고, 배틀 중 언제든 / B 버튼을 누른 직후에 / 바로 십자 버튼을 왼쪽으로 하면, // 실드를 사용해 / 가드할 수 있게 된다 // 가끔 가드할 수 없는 강력한 / 파괴력을 지닌 공격도 있지만, / 그건 넷토가 직접 찾아내는 거다! // 방어야말로 최대의 공격! // 지킬 때는 지키면서 / 타이밍을 노려서 / 단숨에 몰아쳐라! 넷토!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 35,
+   "draft_translation": "사이트 스타일은 / 록맨의 잠재 능력을 / 100% 끌어내는 스타일이다 // 즉, 사이트 스타일일 때는 / 모든 스타일의 성능이 / 동시에 발현되고 있는 거다 // 버스터 공격력은 2배... // 커스텀 화면에서 / 처음부터 고를 수 있는 칩은 / 무려 10장!... // 폴더 하나에 내비칩을 / 8장까지 넣을 수 있고... // 배리어는 기본 장비, / 그리고 배틀 중 언제든, // B 버튼을 누른 직후에 / 십자 버튼을 왼쪽으로 하면 / 실드를 써서 가드할 수 있다! // 다만, 록맨의 몸이 / 따라가지 못하기 때문에, // HP는 / 평소의 절반인 상태가 / 되어 버린다! // 사이트 스타일은 / 강함과 무름을 겸비한 / 고난도 스타일이다! // 모든 것은 / 오퍼레이팅에 달려 있다 / 네가 얼마나 노력하느냐다! 넷토!"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 36,
+   "draft_translation": "MAIL24 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 37,
+   "draft_translation": "MAIL25 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 38,
+   "draft_translation": "MAIL26 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 39,
+   "draft_translation": "MAIL27 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 40,
+   "draft_translation": "MAIL28 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 41,
+   "draft_translation": "MAIL29 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 42,
+   "draft_translation": "MAIL2A せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 43,
+   "draft_translation": "MAIL2B せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 44,
+   "draft_translation": "MAIL2C せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 45,
+   "draft_translation": "MAIL2D せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 46,
+   "draft_translation": "MAIL2E せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 47,
+   "draft_translation": "MAIL2F せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 48,
+   "draft_translation": "MAIL30 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 49,
+   "draft_translation": "MAIL31 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 50,
+   "draft_translation": "MAIL32 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 51,
+   "draft_translation": "MAIL33 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 52,
+   "draft_translation": "MAIL34 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 53,
+   "draft_translation": "MAIL35 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 54,
+   "draft_translation": "MAIL36 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 55,
+   "draft_translation": "MAIL37 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 56,
+   "draft_translation": "MAIL38 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 57,
+   "draft_translation": "MAIL39 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 58,
+   "draft_translation": "MAIL3A せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 59,
+   "draft_translation": "MAIL3B せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 60,
+   "draft_translation": "MAIL3C せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 61,
+   "draft_translation": "MAIL3D せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 62,
+   "draft_translation": "MAIL3E せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 63,
+   "draft_translation": "MAIL3F せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 64,
+   "draft_translation": "MAIL40 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 65,
+   "draft_translation": "MAIL41 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 66,
+   "draft_translation": "MAIL42 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 67,
+   "draft_translation": "MAIL43 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 68,
+   "draft_translation": "MAIL44 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 69,
+   "draft_translation": "MAIL45 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 70,
+   "draft_translation": "MAIL46 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 71,
+   "draft_translation": "MAIL47 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 72,
+   "draft_translation": "MAIL48 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 73,
+   "draft_translation": "MAIL49 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 74,
+   "draft_translation": "MAIL4A せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 75,
+   "draft_translation": "MAIL4B せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 76,
+   "draft_translation": "MAIL4C せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 77,
+   "draft_translation": "MAIL4D せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 78,
+   "draft_translation": "MAIL4E せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 79,
+   "draft_translation": "MAIL4F せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 80,
+   "draft_translation": "MAIL50 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 81,
+   "draft_translation": "MAIL51 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 82,
+   "draft_translation": "MAIL52 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 83,
+   "draft_translation": "MAIL53 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 84,
+   "draft_translation": "MAIL54 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 85,
+   "draft_translation": "MAIL55 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 86,
+   "draft_translation": "MAIL56 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 87,
+   "draft_translation": "MAIL57 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 88,
+   "draft_translation": "MAIL58 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 89,
+   "draft_translation": "MAIL59 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 90,
+   "draft_translation": "MAIL5A せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 91,
+   "draft_translation": "MAIL5B せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 92,
+   "draft_translation": "MAIL5C せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 93,
+   "draft_translation": "MAIL5D せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 94,
+   "draft_translation": "MAIL5E せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 95,
+   "draft_translation": "MAIL5F せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 96,
+   "draft_translation": "MAIL60 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 97,
+   "draft_translation": "MAIL61 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 98,
+   "draft_translation": "MAIL62 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 99,
+   "draft_translation": "MAIL63 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 100,
+   "draft_translation": "MAIL64 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 101,
+   "draft_translation": "MAIL65 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 102,
+   "draft_translation": "MAIL66 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 103,
+   "draft_translation": "MAIL67 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 104,
+   "draft_translation": "MAIL68 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 105,
+   "draft_translation": "MAIL69 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 106,
+   "draft_translation": "MAIL6A せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 107,
+   "draft_translation": "MAIL6B せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 108,
+   "draft_translation": "MAIL6C せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 109,
+   "draft_translation": "MAIL6D せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 110,
+   "draft_translation": "MAIL6E せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 111,
+   "draft_translation": "MAIL6F せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 112,
+   "draft_translation": "MAIL70 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 113,
+   "draft_translation": "MAIL71 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 114,
+   "draft_translation": "MAIL72 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 115,
+   "draft_translation": "MAIL73 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 116,
+   "draft_translation": "MAIL74 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 117,
+   "draft_translation": "MAIL75 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 118,
+   "draft_translation": "MAIL76 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 119,
+   "draft_translation": "MAIL77 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 120,
+   "draft_translation": "MAIL78 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 121,
+   "draft_translation": "MAIL79 せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 122,
+   "draft_translation": "MAIL7A せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 123,
+   "draft_translation": "MAIL7B せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 124,
+   "draft_translation": "MAIL7C せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 125,
+   "draft_translation": "MAIL7D せつめい"
+  },
+  {
+   "selector": "00/mailbody",
+   "entry_index": 126,
+   "draft_translation": "MAIL7E せつめい"
+  }
+ ]
+}

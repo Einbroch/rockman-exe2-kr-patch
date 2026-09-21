@@ -123,11 +123,35 @@ def main() -> None:
         if sha256(stored) != archive["replacement_stored_sha256"]:
             raise ValueError(f"{archive['selector']}: stored archive hash mismatch")
         if archive["storage"] == "lz77":
-            if "physical_continuation" in archive:
-                raise ValueError(f"{archive['selector']}: compressed archive declares a physical continuation")
+            continuation = archive.get("physical_continuation")
+            if continuation is not None and continuation.get("storage_form") != "inside_decompressed_buffer":
+                raise ValueError(f"{archive['selector']}: compressed archive declares a ROM-side physical continuation")
             raw, consumed = decompress(candidate, offset)
             if consumed != length:
                 raise ValueError(f"{archive['selector']}: compressed extent mismatch")
+            if continuation is not None:
+                # The terminal empty script this archive's caller selects by
+                # index lives inside the decompressed buffer, one byte past the
+                # payload the boundary table declares.
+                core_length = int(archive["replacement_decompressed_byte_length"])
+                continuation_length = int(continuation.get(
+                    "replacement_byte_length", continuation["source_byte_length"]))
+                if len(raw) != core_length + continuation_length:
+                    raise ValueError(f"{archive['selector']}: physical continuation extent mismatch")
+                continuation_bytes = raw[core_length:]
+                raw = raw[:core_length]
+                expected_continuation_sha256 = continuation.get(
+                    "replacement_sha256", continuation["source_sha256"])
+                if sha256(continuation_bytes) != expected_continuation_sha256:
+                    raise ValueError(f"{archive['selector']}: physical continuation hash mismatch")
+                if continuation.get("translated", False):
+                    raise ValueError(f"{archive['selector']}: a continuation inside a compressed buffer must not be translated")
+                if (continuation_length != int(continuation["source_byte_length"])
+                        or expected_continuation_sha256 != continuation["source_sha256"]):
+                    raise ValueError(f"{archive['selector']}: untranslated continuation differs from source")
+                if continuation["outbound_entries"]:
+                    raise ValueError(f"{archive['selector']}: compressed continuation must be reached by index, not by a script jump")
+                physical_continuation_count += 1
         elif archive["storage"] == "raw":
             continuation = archive.get("physical_continuation")
             if continuation is None:

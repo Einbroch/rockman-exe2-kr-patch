@@ -76,6 +76,9 @@ QUOTE_RE = re.compile(r'(?s)"""(.*?)"""|"([^"\r\n]*)"')
 TOKEN_RE = re.compile(r"\[[A-Za-z]+(?:\s+[^\]]+)?\]|\{[^{}\r\n]+\}|\s+//\s+|\s+/\s+")
 JUMP_TARGET_RE = re.compile(r"\bjump\s+target\s*=\s*(\d+)")
 TRACKED = {"wait", "waitSkip", "printItem", "printChip", "printCode", "textSpeed"}
+# Byte forms of a script that ends immediately, reachable through the boundary
+# table's terminal slot: "end" and "waitHold" (the latter reserves four bytes).
+TERMINAL_EMPTY_SCRIPTS = (bytes([0xE7]), bytes([0xEA, 0xFF, 0x00, 0x00]))
 PUNCTUATION_NORMALIZATION = str.maketrans({",": "、", "-": "ー", "·": "・", "―": "ー"})
 
 
@@ -138,7 +141,7 @@ def archive_offsets(raw: bytes) -> list[int]:
     return values
 
 
-def load_source_archive(rom: bytes, metadata: dict) -> bytes:
+def load_source_archive(rom: bytes, metadata: dict) -> tuple[bytes, bytes]:
     offset = int(metadata["archive_offset"])
     storage = metadata.get("storage", "lz77")
     if storage == "lz77":
@@ -150,10 +153,21 @@ def load_source_archive(rom: bytes, metadata: dict) -> bytes:
         raw = rom[offset:offset + stored]
     else:
         raise ValueError(f"{metadata['selector']}: unsupported storage {storage!r}")
+    # A decompressed buffer may carry bytes past the archive its table
+    # declares. Naming the payload keeps the shared boundary rule intact, and
+    # the remainder is handed back rather than dropped: those bytes can be a
+    # terminal empty script the game selects by index.
+    payload = metadata.get("payload_byte_length")
+    trailing = b""
+    if payload is not None:
+        payload = int(payload)
+        if not 0 < payload <= len(raw):
+            raise ValueError(f"{metadata['selector']}: payload_byte_length is outside the buffer")
+        raw, trailing = raw[:payload], raw[payload:]
     archive_offsets(raw)
     if sha256(raw) != metadata["decompressed_sha256"]:
         raise ValueError(f"{metadata['selector']}: source archive hash mismatch")
-    return raw
+    return raw, trailing
 
 
 def find_raw_physical_continuations(
@@ -161,6 +175,7 @@ def find_raw_physical_continuations(
     archives: dict[str, dict],
     source_raw: dict[str, bytes],
     source_tpl: dict[str, bytes],
+    source_trailing: dict[str, bytes],
 ) -> dict[str, dict]:
     """Preserve raw bytes reached through the table's terminal boundary entry.
 
@@ -196,6 +211,26 @@ def find_raw_physical_continuations(
                     "next_catalog_selector": ordered[position+1][0] if position+1 < len(ordered) else None,
                     "outbound_entries": [],
                     "reason": "native caller can select terminal empty script; exact source E7 retained",
+                }
+            elif metadata["storage"] == "lz77" and source_trailing.get(selector):
+                # A compressed archive keeps that same terminator inside its
+                # decompressed buffer instead of in ROM. 00/mail is one: the
+                # e-mail list draws index 127, whose E7 sits one byte past the
+                # payload the table declares. Drop it and the label renderer
+                # walks EWRAM with no terminator left to find.
+                trailing = source_trailing[selector]
+                # E7 ends a script; EA FF 00 00 is waitHold, which the command
+                # database marks as always ending one. Anything else is not a
+                # terminal empty script, so stop rather than guess.
+                if trailing not in TERMINAL_EMPTY_SCRIPTS:
+                    raise ValueError(f"{selector}: unexpected bytes past the compressed payload")
+                continuations[selector] = {
+                    "payload": trailing, "source_rom_offset": None,
+                    "source_sha256": sha256(trailing),
+                    "next_catalog_selector": None,
+                    "outbound_entries": [],
+                    "storage_form": "inside_decompressed_buffer",
+                    "reason": "native caller selects terminal empty script inside the decompressed buffer",
                 }
             continue
         if metadata["storage"] != "raw":
@@ -705,8 +740,16 @@ def load_batches(translations_dir: Path) -> tuple[dict[tuple[str, int], dict], d
     first_batch = translations_dir / "archive_00_11_batch_0001_100.json"
     if first_batch.is_file():
         files.insert(0, first_batch)
-    if len(files) != 77:
-        raise ValueError(f"expected 77 protected batches, found {len(files)}")
+    # The two e-mail archives carry 127-entry batches, so they sit outside the
+    # numbered glob the dialogue batches follow. The list uses the mmbn2s
+    # command set; the bodies use mmbn2, like ordinary dialogue.
+    for name in ("archive_00_mail_batch_0078_127.json",
+                 "archive_00_mailbody_batch_0079_127.json"):
+        candidate = translations_dir / name
+        if candidate.is_file():
+            files.append(candidate)
+    if len(files) != 79:
+        raise ValueError(f"expected 79 protected batches, found {len(files)}")
     for path in files:
         payload = path.read_bytes()
         document = json.loads(payload)
@@ -720,6 +763,8 @@ def load_batches(translations_dir: Path) -> tuple[dict[tuple[str, int], dict], d
             archive_documents = [{
                 "selector": legacy["selector"],
                 "archive_offset": legacy["source_rom_offset"],
+                **({"payload_byte_length": legacy["payload_byte_length"]}
+                   if "payload_byte_length" in legacy else {}),
                 "storage": "lz77",
                 "stored_byte_length": legacy["compressed_byte_length"],
                 "decompressed_sha256": legacy["decompressed_sha256"],
@@ -739,6 +784,8 @@ def load_batches(translations_dir: Path) -> tuple[dict[tuple[str, int], dict], d
                 "decompressed_sha256": archive["decompressed_sha256"],
                 "tpl_filename": archive["tpl_filename"],
                 "tpl_sha256": archive["tpl_sha256"],
+                **({"payload_byte_length": int(archive["payload_byte_length"])}
+                   if "payload_byte_length" in archive else {}),
             }
             if prior is not None and prior != stable:
                 raise ValueError(f"archive metadata conflict for {selector}")
@@ -805,7 +852,7 @@ def main() -> None:
         raise ValueError("font permission is not adopted")
 
     entries, archives, batches = load_batches(args.translations_dir)
-    if len(entries) != 7700:
+    if len(entries) != 7954:
         raise ValueError(f"protected batch entry count changed: {len(entries)}")
     base_translation_bytes = args.base_translation.read_bytes()
     if sha256(base_translation_bytes) != BASE_TRANSLATION_SHA256:
@@ -846,13 +893,15 @@ def main() -> None:
         "entry_count": len(carry_indices),
         "role": "base_only_shared_archive_addendum",
     })
-    if len(entries) != 7702:
+    if len(entries) != 7956:
         raise ValueError(f"protected integrated entry count changed: {len(entries)}")
     source_raw: dict[str, bytes] = {}
+    source_trailing: dict[str, bytes] = {}
     source_tpl: dict[str, bytes] = {}
     for selector, metadata in archives.items():
-        raw = load_source_archive(source, metadata)
+        raw, trailing = load_source_archive(source, metadata)
         source_raw[selector] = raw
+        source_trailing[selector] = trailing
         tpl_path = args.analysis_dir / metadata["tpl_filename"]
         tpl_bytes = tpl_path.read_bytes()
         if sha256(tpl_bytes) != metadata["tpl_sha256"]:
@@ -861,7 +910,8 @@ def main() -> None:
         if HANGUL_ESCAPE in raw:
             raise ValueError(f"{selector}: selected Hangul escape collides with source archive bytes")
 
-    physical_continuations = find_raw_physical_continuations(source, archives, source_raw, source_tpl)
+    physical_continuations = find_raw_physical_continuations(
+        source, archives, source_raw, source_tpl, source_trailing)
 
     physical_translation_path = args.translations_dir / "physical_continuation_translations.json"
     physical_translation_bytes = physical_translation_path.read_bytes()
@@ -1050,9 +1100,13 @@ def main() -> None:
                     "pages": [{"status": "changed", "text_after": tail_literals}],
                 }, layout_mapping)
             if metadata["storage"] == "lz77":
-                if continuation is not None:
+                if continuation is not None and continuation.get("storage_form") != "inside_decompressed_buffer":
                     raise AssertionError(f"{selector}: compressed continuation passed validation unexpectedly")
-                stored = compress(rebuilt)
+                if continuation_translation is not None:
+                    raise ValueError(f"{selector}: a continuation inside a compressed buffer cannot be translated")
+                # The terminator travels inside the blob, so it has to be
+                # compressed with the payload rather than appended after it.
+                stored = compress(rebuilt + continuation_payload)
             else:
                 stored = rebuilt + continuation_payload
             placement = (placement + 3) & ~3
@@ -1111,13 +1165,15 @@ def main() -> None:
                     "source_rom_offset": continuation["source_rom_offset"],
                     "source_byte_length": len(continuation["payload"]),
                     "source_sha256": continuation["source_sha256"],
-                    "relocated_rom_offset": placement + len(rebuilt),
+                    "storage_form": continuation.get("storage_form", "rom_bytes_after_archive"),
                     "replacement_byte_length": len(continuation_payload),
                     "replacement_sha256": sha256(continuation_payload),
                     "translated": continuation_translation is not None,
                     "next_catalog_selector": continuation["next_catalog_selector"],
                     "outbound_entries": continuation["outbound_entries"],
                 }
+                if continuation.get("storage_form") != "inside_decompressed_buffer":
+                    archive_report["physical_continuation"]["relocated_rom_offset"] = placement + len(rebuilt)
                 if continuation_translation is not None:
                     archive_report["physical_continuation"]["translation_asset"] = {
                         "filename": continuation_translation["record"]["translated_tpl_filename"],

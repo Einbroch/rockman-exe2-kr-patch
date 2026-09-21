@@ -72,6 +72,9 @@ def main():
     parser.add_argument('--success')
     parser.add_argument('--labels', help='comma separated labels a person read on screen')
     parser.add_argument('--receipt-status', default='PASS_ARROW_WORDS_PACKAGE')
+    # A fixed report path silently overwrites the previous release's receipt,
+    # so each package writes one named after itself unless told otherwise.
+    parser.add_argument('--report', type=Path)
     args = parser.parse_args()
     name = args.name
     if '/' in name or '\\' in name:
@@ -181,7 +184,9 @@ def main():
                        patch_sha256=sha(patch), patch_size=patch.stat().st_size,
                        zip_integrity_verified=True, zip_rom_save_members_absent=True)
 
-    report = ROOT/'analysis/exe2_rev1_v0_9_6_arrow_words_package_qa.json'
+    report = args.report or ROOT/f'analysis/{name.lower()}_package_qa.json'
+    if report.exists() and not args.replace_generated:
+        raise FileExistsError(report)
     report.write_text(json.dumps(receipt, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(receipt, ensure_ascii=False, indent=2))
 
