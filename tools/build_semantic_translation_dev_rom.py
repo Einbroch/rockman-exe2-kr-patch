@@ -46,6 +46,7 @@ from reviewed_choice_layout import REVIEWED_IDS, validate_choice_layout
 from pet_menu_graphics import planned_writes as pet_graphics_writes
 from static_submenu_tables import planned_writes as static_submenu_writes
 from submenu_title_graphics import planned_writes as submenu_graphics_writes
+from title_menu_graphics import planned_writes as title_menu_writes
 
 
 SOURCE_SHA256 = "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
@@ -1217,6 +1218,8 @@ def main() -> None:
     static_writes, static_submenus = static_submenu_writes(source)
     title_writes, submenu_graphics = submenu_graphics_writes(source, master_font)
     static_writes.extend(title_writes)
+    menu_writes, title_menu = title_menu_writes(source, master_font)
+    static_writes.extend(menu_writes)
     from verify_semantic_translation_emulator_rom import expected_range
     prior_ranges = [expected_range(w) for w in expected_writes]
     for write in static_writes:
@@ -1268,6 +1271,7 @@ def main() -> None:
         "pet_menu_graphics": pet_graphics,
         "static_submenu_tables": static_submenus,
         "submenu_title_graphics": submenu_graphics,
+        "title_menu_graphics": title_menu,
         "reviewed_choice_layout": {
             "module_sha256": sha256(Path(__file__).with_name('reviewed_choice_layout.py').read_bytes()),
             "entry_ids": sorted(REVIEWED_IDS),

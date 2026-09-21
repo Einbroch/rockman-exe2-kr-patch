@@ -67,6 +67,11 @@ def main():
     parser.add_argument('--static-qa', type=Path, required=True)
     parser.add_argument('--content-qa', type=Path, required=True)
     parser.add_argument('--replace-generated', action='store_true')
+    parser.add_argument('--version', default='V0.9.6-ArrowWords')
+    parser.add_argument('--doc-file', type=Path)
+    parser.add_argument('--success')
+    parser.add_argument('--labels', help='comma separated labels a person read on screen')
+    parser.add_argument('--receipt-status', default='PASS_ARROW_WORDS_PACKAGE')
     args = parser.parse_args()
     name = args.name
     if '/' in name or '\\' in name:
@@ -122,7 +127,7 @@ def main():
                   'myboy_device_verified': False, 'full_game_qa_complete': False,
                   'official_final_release': False}
         manifest = {
-            'version': 'V0.9.6-ArrowWords', 'status': 'EMULATOR_VALIDATION_CANDIDATE',
+            'version': args.version, 'status': 'EMULATOR_VALIDATION_CANDIDATE',
             'source': {'filename': SOURCE.name, 'size': SOURCE.stat().st_size, 'sha256': SOURCE_SHA},
             'target': {'filename': name + '.gba', 'size': args.candidate.stat().st_size,
                        'sha256': candidate_sha},
@@ -130,23 +135,24 @@ def main():
                       'sha256': sha(patch), 'format': 'BPS'},
             'tool': {'name': 'Floating IPS', 'version': 'v198', 'sha256': FLIPS_SHA},
             'claims': claims,
-            'messages': {'success': 'V0.9.6 화살표 글자 수정 패치 적용 완료.',
+            'messages': {'success': args.success or 'V0.9.6 화살표 글자 수정 패치 적용 완료.',
                          'note': '새 ROM을 완전히 다시 실행하고 게임 내 일반 저장을 사용하세요.'},
         }
         (folder/'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n',
                                             encoding='utf-8')
-        (folder/'README.md').write_text(DOC, encoding='utf-8')
+        doc = args.doc_file.read_text(encoding='utf-8') if args.doc_file else DOC
+        (folder/'README.md').write_text(doc, encoding='utf-8')
         (folder/'INSTALL.md').write_text(
-            DOC + '\nWindows: APPLY_PATCH.cmd 에 원본 ROM을 끌어다 놓으세요. '
+            doc + '\nWindows: APPLY_PATCH.cmd 에 원본 ROM을 끌어다 놓으세요. '
                   '다른 환경: BPS 지원 패치 도구를 사용하세요.\n', encoding='utf-8')
         receipt = {
-            'status': 'PASS_ARROW_WORDS_PACKAGE', 'candidate_sha256': candidate_sha,
+            'status': args.receipt_status, 'candidate_sha256': candidate_sha,
             'claims': claims, 'bps_applied_byte_identical': True,
             'static_qa_sha256': sha(args.static_qa), 'content_qa_sha256': sha(args.content_qa),
             'runtime_evidence': {
                 'kind': 'human_on_screen_reading',
                 'emulator': 'Mesen 2, muted',
-                'labels_confirmed': ['케이스', '데크', '메', '라', '러'],
+                'labels_confirmed': args.labels.split(',') if args.labels else  ['케이스', '데크', '메', '라', '러'],
                 'automated_menu_regression_run': False,
             },
             'flips_source_filtered': True,

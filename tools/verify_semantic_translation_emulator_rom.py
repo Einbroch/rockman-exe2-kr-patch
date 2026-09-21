@@ -221,6 +221,17 @@ def main() -> None:
             if candidate[start:start+len(payload)] != payload:
                 raise ValueError('Submenu graphics reproduction failed')
 
+    if 'title_menu_graphics' in manifest:
+        from title_menu_graphics import planned_writes
+        planned, graphics = planned_writes(source, candidate[font_start:font_start+font_length])
+        if graphics != manifest['title_menu_graphics']:
+            raise ValueError('Title menu graphics provenance mismatch')
+        for write in planned:
+            payload = bytes.fromhex(write['replacement_hex'])
+            start = write['rom_offset']
+            if candidate[start:start+len(payload)] != payload:
+                raise ValueError('Title menu graphics reproduction failed')
+
     intervals = sorted(expected_range(write) for write in manifest["expected_writes"])
     for previous, current in zip(intervals, intervals[1:]):
         if current[0] < previous[1]:

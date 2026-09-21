@@ -1,6 +1,6 @@
 {
-  "status": "PASS_ARROW_WORDS_PACKAGE",
-  "candidate_sha256": "e78c0adb54f80a9bdfc32d3ad671b1605320795d5288a0528593366a008d8989",
+  "status": "PASS_TITLE_MENU_PACKAGE",
+  "candidate_sha256": "da437d786e97270793d420d55f44a068f08b8065b35a70eefe0bbf755b4f2720",
   "claims": {
     "rom_included": false,
     "save_included": false,
@@ -9,17 +9,14 @@
     "official_final_release": false
   },
   "bps_applied_byte_identical": true,
-  "static_qa_sha256": "6144afb1dbfce214c4f66e00e8bfa2c693dd99959387a577331e37e43cc70195",
-  "content_qa_sha256": "0d2100f81cc96ad34f4cdae6006559158a18f4be1eeb9be0ff6ee08406a98b82",
+  "static_qa_sha256": "6a2b20c4c4e0e68ef479ddae1fa133a65f170cea095f7ff8a60ec01ed8440e47",
+  "content_qa_sha256": "4461a9d560ee6134f0339bcbfedec5dabc6d2673dee2155b9fa650b9992e16dc",
   "runtime_evidence": {
     "kind": "human_on_screen_reading",
     "emulator": "Mesen 2, muted",
     "labels_confirmed": [
-      "케이스",
-      "데크",
-      "메",
-      "라",
-      "러"
+      "처음부터",
+      "이어하기"
     ],
     "automated_menu_regression_run": false
   },
@@ -28,11 +25,11 @@
     "profile/firefox-17.0esr.tar",
     "profile/firefox-10.0esr.tar"
   ],
-  "package_path": "dist\\EXE2_Rev1_KR_V0.9.6_ArrowWords.zip",
-  "package_sha256": "3ec2c7c72a410983b94413ceb772ebb2b60fa9a947a84c7245f4c698149fc6d4",
-  "package_size": 937659,
-  "patch_sha256": "ab166c6c7bfcc1ee2ca66e18c33f72ef6866dcbbf358a3217f11712e43668844",
-  "patch_size": 402015,
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.7_TitleMenu.zip",
+  "package_sha256": "3a8002a1c18ff8363bcab51b140e18cdb29229c8d5095d831d8f27d050ed53ae",
+  "package_size": 939203,
+  "patch_sha256": "9ba796d07f1313e67f1895c3cda383c9936c2e69f546f40fd6a9b5bc9779695c",
+  "patch_size": 402379,
   "zip_integrity_verified": true,
   "zip_rom_save_members_absent": true
 }
