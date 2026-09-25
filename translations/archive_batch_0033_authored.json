@@ -1,113 +1,535 @@
 {
-  "schema_version": 1,
-  "kind": "authored_multi_archive_translation_batch",
-  "batch_number": 33,
-  "status": "machine_draft_needs_human_review",
-  "entries": [
-    {"selector":"00/155","entry_index":226,"draft_translation":"「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."},
-    {"selector":"00/155","entry_index":227,"draft_translation":"록맨은 「[printItem item=63]」을 / 제시했다! // 큐브가 해제되었다!![wait 102]"},
-    {"selector":"00/155","entry_index":228,"draft_translation":"「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."},
-    {"selector":"00/155","entry_index":229,"draft_translation":"록맨은 「[printItem item=63]」을 / 제시했다! // 큐브가 해제되었다!![wait 102]"},
-    {"selector":"00/155","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=178] [printCode code=H]」를 / 획득했다!!"},
-    {"selector":"00/155","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=129] [printCode code=R]」를 / 획득했다!!"},
-    {"selector":"00/155","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/155","entry_index":234,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/155","entry_index":235,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/155","entry_index":236,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/155","entry_index":237,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/155","entry_index":239,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/155","entry_index":240,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/155","entry_index":241,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/155","entry_index":242,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=185] [printCode code=H]」를 / 획득했다!!"},
-    {"selector":"00/155","entry_index":243,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=119] [printCode code=L]」를 / 획득했다!!"},
-    {"selector":"00/155","entry_index":244,"draft_translation":"이 미스터리 데이터에는 / 보안이 걸려 있어 / 해석할 수 없다. // 해석하려면 / 다음 서브칩이 필요하다. // 「[printItem item=117]」"},
-
-    {"selector":"00/156","entry_index":180,"draft_translation":"저는 넷 상인... / 좋은 물건이 있습니다. // 본다 // 보지 않는다"},
-    {"selector":"00/156","entry_index":181,"draft_translation":"또 찾아와 주십시오!"},
-    {"selector":"00/156","entry_index":182,"draft_translation":"저는 넷 상인이지만, / 지금은 좋은 물건이 없습니다..."},
-    {"selector":"00/156","entry_index":220,"draft_translation":"힘의 등급이 낮은 자가 / 이 문을 여는 것은 / 허락할 수 없다..."},
-    {"selector":"00/156","entry_index":221,"draft_translation":"해제 메시지"},
-    {"selector":"00/156","entry_index":222,"draft_translation":"「[printItem item=62]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."},
-    {"selector":"00/156","entry_index":223,"draft_translation":"록맨은 「[printItem item=62]」을 / 제시했다! // 큐브가 해제되었다!![wait 102]"},
-    {"selector":"00/156","entry_index":224,"draft_translation":"「[printItem item=61]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."},
-    {"selector":"00/156","entry_index":225,"draft_translation":"록맨은 「[printItem item=61]」을 / 제시했다! // 큐브가 해제되었다!![wait 102]"},
-    {"selector":"00/156","entry_index":226,"draft_translation":"「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."},
-    {"selector":"00/156","entry_index":227,"draft_translation":"록맨은 「[printItem item=63]」을 / 제시했다! // 큐브가 해제되었다!![wait 102]"},
-    {"selector":"00/156","entry_index":228,"draft_translation":"「[printItem item=61]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."},
-    {"selector":"00/156","entry_index":229,"draft_translation":"록맨은 「[printItem item=61]」을 / 제시했다! // 큐브가 해제되었다!![wait 102]"},
-    {"selector":"00/156","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
-    {"selector":"00/156","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=176] [printCode code=V]」를 / 획득했다!!"},
-    {"selector":"00/156","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/156","entry_index":234,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/156","entry_index":235,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/156","entry_index":236,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/156","entry_index":237,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/156","entry_index":239,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/156","entry_index":240,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/156","entry_index":241,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/156","entry_index":242,"draft_translation":"록맨은 떨어져 있는 데이터를 / 집어 들어 조사했다.[waitSkip 30].[waitSkip 30].[waitSkip 30] // 록맨은 / 칩 데이터 「[printChip chip=248] [printCode code=F]」를 / 획득했다!!"},
-
-    {"selector":"00/157","entry_index":220,"draft_translation":"수많은 내비... / 그중 힘의 등급이 가장 높은 자들을 / 다스리는 자에게만 // 이 문이 열리리라..."},
-    {"selector":"00/157","entry_index":221,"draft_translation":"해제 메시지"},
-    {"selector":"00/157","entry_index":222,"draft_translation":"「[printItem item=62]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."},
-    {"selector":"00/157","entry_index":223,"draft_translation":"록맨은 「[printItem item=62]」을 / 제시했다! // 큐브가 해제되었다!![wait 102]"},
-    {"selector":"00/157","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 서브칩 「[printItem item=113]」을 / 획득했다!!"},
-    {"selector":"00/157","entry_index":231,"draft_translation":"「[printItem item=113]」 / 보유량이 가득 차서 / 더 가질 수 없다!"},
-    {"selector":"00/157","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/157","entry_index":234,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/157","entry_index":235,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/157","entry_index":236,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/157","entry_index":237,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/157","entry_index":239,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/157","entry_index":240,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/157","entry_index":241,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/157","entry_index":242,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=106] [printCode code=W]」를 / 획득했다!!"},
-    {"selector":"00/157","entry_index":243,"draft_translation":"이 미스터리 데이터에는 / 보안이 걸려 있어 / 해석할 수 없다. // 해석하려면 / 다음 서브칩이 필요하다. // 「[printItem item=117]」"},
-
-    {"selector":"00/158","entry_index":220,"draft_translation":"수없이 많은 것들... / 그대의 방패이자 창이 되는 것들... // 그 대부분을 손에 넣은 자 앞에 / 이 문이 열리리라..."},
-    {"selector":"00/158","entry_index":221,"draft_translation":"해제 메시지"},
-    {"selector":"00/158","entry_index":222,"draft_translation":"「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."},
-    {"selector":"00/158","entry_index":223,"draft_translation":"록맨은 「[printItem item=63]」을 / 제시했다! // 큐브가 해제되었다!![wait 102]"},
-    {"selector":"00/158","entry_index":224,"draft_translation":"「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."},
-    {"selector":"00/158","entry_index":225,"draft_translation":"록맨은 「[printItem item=63]」을 / 제시했다! // 큐브가 해제되었다!![wait 102]"},
-    {"selector":"00/158","entry_index":226,"draft_translation":"「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."},
-    {"selector":"00/158","entry_index":227,"draft_translation":"록맨은 「[printItem item=63]」을 / 제시했다! // 큐브가 해제되었다!![wait 102]"},
-    {"selector":"00/158","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
-    {"selector":"00/158","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=49] [printCode code=*]」를 / 획득했다!!"},
-    {"selector":"00/158","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=101]」을 / 획득했다!! // 가질 수 있는 서브칩 수가 / 하나 늘었다!"},
-    {"selector":"00/158","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/158","entry_index":235,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/158","entry_index":236,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/158","entry_index":237,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/158","entry_index":238,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/158","entry_index":240,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/158","entry_index":241,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/158","entry_index":242,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/158","entry_index":243,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/158","entry_index":245,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/158","entry_index":246,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/158","entry_index":247,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/158","entry_index":248,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=178] [printCode code=H]」를 / 획득했다!!"},
-    {"selector":"00/158","entry_index":249,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=186] [printCode code=X]」를 / 획득했다!!"},
-    {"selector":"00/158","entry_index":250,"draft_translation":"이 미스터리 데이터에는 / 보안이 걸려 있어 / 해석할 수 없다. // 해석하려면 / 다음 서브칩이 필요하다. // 「[printItem item=117]」"},
-
-    {"selector":"00/159","entry_index":220,"draft_translation":"임시입니다."},
-    {"selector":"00/159","entry_index":221,"draft_translation":"임시입니다."},
-    {"selector":"00/159","entry_index":222,"draft_translation":"임시입니다."},
-    {"selector":"00/159","entry_index":223,"draft_translation":"임시입니다."},
-
-    {"selector":"00/160","entry_index":0,"draft_translation":"흥흥~♪ 나는 이 동네 최고의 / 정보상~♪ 흥흐흥~♪ // 어디 좋은 정보라도 / 떨어져 있지 않으려나. 헤헤헤."},
-    {"selector":"00/160","entry_index":1,"draft_translation":"나는 언더넷에서도 유명한 / 정보상이야. // 뭐? 암흑 의사를 불러내는 / 키워드를 찾는다고? // 키워드는 모르지만 / 그걸 아는 녀석이라면 알고 있지. // 이 정보라면... / 10000제니에 팔아 주마. / 싼 값이지? // 살 거야? // 산다! // 좀 무리야 // 돈이 생기면 다시 와."},
-    {"selector":"00/160","entry_index":2,"draft_translation":"록맨은 / 「10000제니」를 / 지불했다!!"},
-    {"selector":"00/160","entry_index":3,"draft_translation":"헤헤, 거래 고맙다! // 그럼 정보를 알려 주지. // 키워드를 아는 내비가 / 아메롭파 스퀘어에 있다는 / 이야기를 들은 적이 있어. // 분명 보라색 내비인데 / 상당히 돈을 밝힌다더군. // 나와 그 녀석 중 누가 / 더 욕심이 많을까?"},
-    {"selector":"00/160","entry_index":4,"draft_translation":"형씨, 미안하지만 / 돈이 부족한 모양이군. // 차근차근 저금이라도 해서 / 다시 찾아와."},
-    {"selector":"00/160","entry_index":5,"draft_translation":"오, 형씨! / 정보를 살 마음이 생겼어? // 가격은 그대로 10000제니. / 큰 서비스라고! // 살 거야? // 산다! // 좀 무리야 // 돈이 생기면 다시 와."},
-    {"selector":"00/160","entry_index":6,"draft_translation":"돈이 될 만한 정보는 없으려나."},
-    {"selector":"00/160","entry_index":7,"draft_translation":"여긴 너 같은 어린이형 내비가 / 올 곳이 아니야. // ......그런데 너, 어디선가 / 본 적이 있는 것 같은데..."},
-    {"selector":"00/160","entry_index":8,"draft_translation":"양지에서는 고스펠인가 하는 / 녀석들이 설치고 있다며? // 하지만 그 녀석들은 몰려다니지 않으면 / 아무것도 못 하는 놈들이야! // 내가 고스펠 녀석을 만난다면 / 한 시간쯤 붙잡고 / 설교해 줄 텐데 말이야!"},
-    {"selector":"00/160","entry_index":9,"draft_translation":"어이, 꼬맹아! // 죽고 싶지 않으면 / 양지로 돌아가!"},
-    {"selector":"00/160","entry_index":10,"draft_translation":"으라아아아아아!!! // 오라아아아아아!!! // 상대를 위협하려면 / 우선 기합부터 넣어야 해!! // 오라아앗... / 콜록!!"},
-    {"selector":"00/160","entry_index":20,"draft_translation":"효홋홋홋홋! // 이거 또 귀여운 손님이 왔구나. // 오늘은 무슨 일이냐? / 배라도 아픈 게냐? 홋홋홋. // ...뭐? 백신을 만들라고? / 너 같은 꼬마가 백신을 / 어디에 쓰려는 게냐? // 의사 놀이라도 하려고? // 뭐? 그 얼음을 부수겠다고? / 호오... 그거 재미있군. // 하지만 나를 찾아왔다는 건 / 그만한 각오가 되어 있다는 뜻이겠지? // 백신값으로 네가 장비한 / 파워 업 파츠와, // 배틀칩을 전부 받겠다. / 그래도 괜찮으냐? // 좋아! // 무리야! // 그렇다면 백신은 만들지 않겠다. // 내게 백신을 부탁하려면 / 그만한 각오를 하고 / 다시 찾아오거라."},
-    {"selector":"00/160","entry_index":21,"draft_translation":"그럼 사양하지 않고 받으마."}
-  ]
+ "schema_version": 1,
+ "kind": "authored_multi_archive_translation_batch",
+ "batch_number": 33,
+ "status": "machine_draft_needs_human_review",
+ "entries": [
+  {
+   "selector": "00/155",
+   "entry_index": 226,
+   "draft_translation": "「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 227,
+   "draft_translation": "록맨은 「[printItem item=63]」를 / 제시했다! // 큐브가 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 228,
+   "draft_translation": "「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 229,
+   "draft_translation": "록맨은 「[printItem item=63]」를 / 제시했다! // 큐브가 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=178] [printCode code=H]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=129] [printCode code=R]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 232,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 234,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 235,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 236,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 237,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 239,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 240,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 241,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 242,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=185] [printCode code=H]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 243,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=119] [printCode code=L]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/155",
+   "entry_index": 244,
+   "draft_translation": "이 미스터리 데이터에는 / 보안이 걸려 있어 / 해석할 수 없다. // 해석하려면 / 다음 서브칩이 필요하다. // 「[printItem item=117]」"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 180,
+   "draft_translation": "저는 넷 상인... / 좋은 물건이 있습니다. // 본다 // 보지 않는다"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 181,
+   "draft_translation": "또 찾아와 주십시오!"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 182,
+   "draft_translation": "저는 넷 상인이지만, / 지금은 좋은 물건이 없습니다..."
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 220,
+   "draft_translation": "힘의 등급이 낮은 자가 / 이 문을 여는 것은 / 허락할 수 없다..."
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 221,
+   "draft_translation": "해제 메시지"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 222,
+   "draft_translation": "「[printItem item=62]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 223,
+   "draft_translation": "록맨은 「[printItem item=62]」를 / 제시했다! // 큐브가 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 224,
+   "draft_translation": "「[printItem item=61]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 225,
+   "draft_translation": "록맨은 「[printItem item=61]」를 / 제시했다! // 큐브가 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 226,
+   "draft_translation": "「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 227,
+   "draft_translation": "록맨은 「[printItem item=63]」를 / 제시했다! // 큐브가 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 228,
+   "draft_translation": "「[printItem item=61]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 229,
+   "draft_translation": "록맨은 「[printItem item=61]」를 / 제시했다! // 큐브가 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=176] [printCode code=V]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 232,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 234,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 235,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 236,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 237,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 239,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 240,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 241,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/156",
+   "entry_index": 242,
+   "draft_translation": "록맨은 떨어져 있는 데이터를 / 집어 들어 조사했다.[waitSkip 30].[waitSkip 30].[waitSkip 30] // 록맨은 / 칩 데이터 「[printChip chip=248] [printCode code=F]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 220,
+   "draft_translation": "수많은 내비... / 그중 힘의 등급이 가장 높은 자들을 / 다스리는 자에게만 // 이 문이 열리리라..."
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 221,
+   "draft_translation": "해제 메시지"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 222,
+   "draft_translation": "「[printItem item=62]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 223,
+   "draft_translation": "록맨은 「[printItem item=62]」를 / 제시했다! // 큐브가 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 서브칩 「[printItem item=113]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 231,
+   "draft_translation": "「[printItem item=113]」 / 보유량이 가득 차서 / 더 가질 수 없다!"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 232,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 234,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 235,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 236,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 237,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 239,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 240,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 241,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 242,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=106] [printCode code=W]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/157",
+   "entry_index": 243,
+   "draft_translation": "이 미스터리 데이터에는 / 보안이 걸려 있어 / 해석할 수 없다. // 해석하려면 / 다음 서브칩이 필요하다. // 「[printItem item=117]」"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 220,
+   "draft_translation": "수없이 많은 것들... / 그대의 방패이자 창이 되는 것들... // 그 대부분을 손에 넣은 자 앞에 / 이 문이 열리리라..."
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 221,
+   "draft_translation": "해제 메시지"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 222,
+   "draft_translation": "「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 223,
+   "draft_translation": "록맨은 「[printItem item=63]」를 / 제시했다! // 큐브가 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 224,
+   "draft_translation": "「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 225,
+   "draft_translation": "록맨은 「[printItem item=63]」를 / 제시했다! // 큐브가 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 226,
+   "draft_translation": "「[printItem item=63]」 보유자 외에는 / 이 큐브를 해제할 수 없습니다."
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 227,
+   "draft_translation": "록맨은 「[printItem item=63]」를 / 제시했다! // 큐브가 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=49] [printCode code=*]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 232,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=101]」를 / 획득했다!! // 가질 수 있는 서브칩 수가 / 하나 늘었다!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 233,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 235,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 236,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 237,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 238,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 240,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 241,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 242,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 243,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 245,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 246,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 247,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 248,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=178] [printCode code=H]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 249,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=186] [printCode code=X]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/158",
+   "entry_index": 250,
+   "draft_translation": "이 미스터리 데이터에는 / 보안이 걸려 있어 / 해석할 수 없다. // 해석하려면 / 다음 서브칩이 필요하다. // 「[printItem item=117]」"
+  },
+  {
+   "selector": "00/159",
+   "entry_index": 220,
+   "draft_translation": "임시입니다."
+  },
+  {
+   "selector": "00/159",
+   "entry_index": 221,
+   "draft_translation": "임시입니다."
+  },
+  {
+   "selector": "00/159",
+   "entry_index": 222,
+   "draft_translation": "임시입니다."
+  },
+  {
+   "selector": "00/159",
+   "entry_index": 223,
+   "draft_translation": "임시입니다."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 0,
+   "draft_translation": "흥흥~♪ 나는 이 동네 최고의 / 정보상~♪ 흥흐흥~♪ // 어디 좋은 정보라도 / 떨어져 있지 않으려나. 헤헤헤."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 1,
+   "draft_translation": "나는 언더넷에서도 유명한 / 정보상이야. // 뭐? 암흑 의사를 불러내는 / 키워드를 찾는다고? // 키워드는 모르지만 / 그걸 아는 녀석이라면 알고 있지. // 이 정보라면... / 10000제니에 팔아 주마. / 싼 값이지? // 살 거야? // 산다! // 좀 무리야 // 돈이 생기면 다시 와."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 2,
+   "draft_translation": "록맨은 / 「10000제니」를 / 지불했다!!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 3,
+   "draft_translation": "헤헤, 거래 고맙다! // 그럼 정보를 알려 주지. // 키워드를 아는 내비가 / 아메롭파 스퀘어에 있다는 / 이야기를 들은 적이 있어. // 분명 보라색 내비인데 / 상당히 돈을 밝힌다더군. // 나와 그 녀석 중 누가 / 더 욕심이 많을까?"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 4,
+   "draft_translation": "형씨, 미안하지만 / 돈이 부족한 모양이군. // 차근차근 저금이라도 해서 / 다시 찾아와."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 5,
+   "draft_translation": "오, 형씨! / 정보를 살 마음이 생겼어? // 가격은 그대로 10000제니. / 큰 서비스라고! // 살 거야? // 산다! // 좀 무리야 // 돈이 생기면 다시 와."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 6,
+   "draft_translation": "돈이 될 만한 정보는 없으려나."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 7,
+   "draft_translation": "여긴 너 같은 어린이형 내비가 / 올 곳이 아니야. // ......그런데 너, 어디선가 / 본 적이 있는 것 같은데..."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 8,
+   "draft_translation": "양지에서는 고스펠인가 하는 / 녀석들이 설치고 있다며? // 하지만 그 녀석들은 몰려다니지 않으면 / 아무것도 못 하는 놈들이야! // 내가 고스펠 녀석을 만난다면 / 한 시간쯤 붙잡고 / 설교해 줄 텐데 말이야!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 9,
+   "draft_translation": "어이, 꼬맹아! // 죽고 싶지 않으면 / 양지로 돌아가!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 10,
+   "draft_translation": "으라아아아아아!!! // 오라아아아아아!!! // 상대를 위협하려면 / 우선 기합부터 넣어야 해!! // 오라아앗... / 콜록!!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 20,
+   "draft_translation": "효홋홋홋홋! // 이거 또 귀여운 손님이 왔구나. // 오늘은 무슨 일이냐? / 배라도 아픈 게냐? 홋홋홋. // ...뭐? 백신을 만들라고? / 너 같은 꼬마가 백신을 / 어디에 쓰려는 게냐? // 의사 놀이라도 하려고? // 뭐? 그 얼음을 부수겠다고? / 호오... 그거 재미있군. // 하지만 나를 찾아왔다는 건 / 그만한 각오가 되어 있다는 뜻이겠지? // 백신값으로 네가 장비한 / 파워 업 파츠와, // 배틀칩을 전부 받겠다. / 그래도 괜찮으냐? // 좋아! // 무리야! // 그렇다면 백신은 만들지 않겠다. // 내게 백신을 부탁하려면 / 그만한 각오를 하고 / 다시 찾아오거라."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 21,
+   "draft_translation": "그럼 사양하지 않고 받으마."
+  }
+ ]
 }

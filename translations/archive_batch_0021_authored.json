@@ -1,114 +1,531 @@
 {
-  "schema_version": 1,
-  "kind": "authored_multi_archive_translation_batch",
-  "batch_number": 21,
-  "entries": [
-    {"selector":"00/77","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=97]」을 / 획득했다!!"},
-    {"selector":"00/77","entry_index":234,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
-
-    {"selector":"00/78","entry_index":0,"draft_translation":"마더 컴퓨터에는 외부 침입을 / 막기 위한 보안이 / 몇 겹이나 설치되어 있습니다. // 저희가 내는 문제의 답이 / 패스워드가 됩니다. // 잘못된 패스워드를 입력하면 / 앞으로 나아갈 수 없습니다."},
-    {"selector":"00/78","entry_index":1,"draft_translation":"다음 ♥에 들어갈 / 말은 무엇일까요? // 「꽃보다 ♥♥♥」 / 간단하죠?","review_notes":["일본어 속담 '花より団子'를 이용한 패스워드 문제이므로 실제 정답 선택지와 함께 통합 검수가 필요함."]},
-    {"selector":"00/78","entry_index":2,"draft_translation":"눈이 셋, / 다리가 하나. / 이것은 무엇일까요?"},
-    {"selector":"00/78","entry_index":3,"draft_translation":"내가 모은 정보에 따르면 / 빨강, 노랑, 파랑, 이 세 색깔이 / 관계있는 것 같아."},
-    {"selector":"00/78","entry_index":4,"draft_translation":"...다음 패스워드는 / ♥ 안에 들어갈 글자입니다. // 이런, 정작 중요한 / 문제를 잊어버렸습니다."},
-    {"selector":"00/78","entry_index":5,"draft_translation":"여기 문제는 / 「♥피셜 ♥터」인 것 같아! // 어딘가에서 들어 본 것 같은데..."},
-    {"selector":"00/78","entry_index":6,"draft_translation":"역시 마더 컴퓨터를 / 지키는 보안답게 // 패스워드도 어렵군!!"},
-    {"selector":"00/78","entry_index":10,"draft_translation":"마더 컴퓨터를 / 지키는 것이 우리의 / 사명입니다."},
-    {"selector":"00/78","entry_index":11,"draft_translation":"마더 컴퓨터를 지키는 것. // 일본의 내일을 지키는 것."},
-    {"selector":"00/78","entry_index":12,"draft_translation":"보안에는 저희 프로그램뿐 아니라 / 넷내비도 활용해야 합니다."},
-    {"selector":"00/78","entry_index":13,"draft_translation":"설마 이 보안이 / 뚫리는 날이 올 줄이야..."},
-    {"selector":"00/78","entry_index":221,"draft_translation":"마더 컴퓨터의 침입자를 막는 / 전기 벽을 제어하는 / 제어판이다."},
-    {"selector":"00/78","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「800제니」를 / 획득했다!!"},
-    {"selector":"00/78","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=96]」을 / 획득했다!!"},
-    {"selector":"00/78","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=123] [printCode code=*]」를 / 획득했다!!"},
-
-    {"selector":"00/79","entry_index":0,"draft_translation":"저는 프로그램 A입니다. // 이 앞의 패스워드를 / 알려 드리겠습니다. // 「U·RA·TE·GO·O·KI」입니다. // 다른 프로그램이 하는 말은 / 전부 거짓입니다.","review_notes":["문자 배열 패스워드의 원래 음절 순서를 보존하기 위해 로마자 음절로 표기했으며 선택지와 통합 검수가 필요함."]},
-    {"selector":"00/79","entry_index":1,"draft_translation":"저는 프로그램 B입니다. // 이 앞의 패스워드를 / 알려 드리겠습니다. // 「U·RI·SU·DA·BA·N」입니다. // 다른 프로그램이 하는 말은 / 전부 거짓입니다."},
-    {"selector":"00/79","entry_index":2,"draft_translation":"저는 프로그램 C입니다. // 이 앞의 패스워드를 / 알려 드리겠습니다. // 「HA·JI·GA·KU·RI·N」입니다. // 다른 프로그램이 하는 말은 / 전부 거짓입니다."},
-    {"selector":"00/79","entry_index":3,"draft_translation":"저는 프로그램 D입니다. // 이 앞의 패스워드를 / 알려 드리겠습니다. // 「HA·JI·GA·RE·TA·KI」입니다. // 다른 프로그램이 하는 말은 / 전부 거짓입니다."},
-    {"selector":"00/79","entry_index":4,"draft_translation":"프로그램 A는 프로그램 B보다 / 정직합니다. // 프로그램 B는 프로그램 C보다 / 정직합니다. // 프로그램 D는 프로그램 A보다 / 정직합니다."},
-    {"selector":"00/79","entry_index":5,"draft_translation":"명주잠자리라는 곤충의 / 유충 이름은 무엇일까요?"},
-    {"selector":"00/79","entry_index":6,"draft_translation":"커다란 턱. // 땅에 구멍을 파고 삽니다. // 개미를 먹습니다."},
-    {"selector":"00/79","entry_index":7,"draft_translation":"이번 패스워드는 / 글자 순서 바꾸기입니다. // 「U·N·GA·SHI·RO·BA·MO·U·DA·KO·SU」","review_notes":["정답은 원문 음절을 재배열한 'MO·U·SU·KO·SHI·DA·GA·N·BA·RO·U'이며 실제 입력 선택지와 통합 검수가 필요함."]},
-    {"selector":"00/79","entry_index":8,"draft_translation":"2번째는 「U」, / 5번째는 「SHI」, / 10번째는 「RO」."},
-    {"selector":"00/79","entry_index":9,"draft_translation":"3번째는 「SU」, / 7번째는 「GA」, / 마지막은 「U」."},
-    {"selector":"00/79","entry_index":10,"draft_translation":"첫 글자는 「MO」, / 4번째는 「KO」, / 8번째는 「N」."},
-    {"selector":"00/79","entry_index":220,"draft_translation":"마더 컴퓨터의 메인 시스템을 지키는 / 마지막 문을 제어하는 / 제어판이다."},
-    {"selector":"00/79","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=7] [printCode code=P]」를 / 획득했다!!"},
-    {"selector":"00/79","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「600제니」를 / 획득했다!!"},
-    {"selector":"00/79","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"},
-    {"selector":"00/79","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=51] [printCode code=Q]」를 / 획득했다!!"},
-
-    {"selector":"00/80","entry_index":0,"draft_translation":"GO·RI·RA / KI·TA·KI·TSU·NE"},
-    {"selector":"00/80","entry_index":1,"draft_translation":"RA·KU·GA·KI / RI·N·GO"},
-    {"selector":"00/80","entry_index":2,"draft_translation":"이번 패스워드의 / 열쇠는 「끝말잇기」입니다.","review_notes":["일본어 끝말잇기 음절을 보존하기 위해 관련 낱말을 로마자 음절로 표기했으며 전체 패널과 통합 검수가 필요함."]},
-    {"selector":"00/80","entry_index":3,"draft_translation":"패널에 적힌 / 글자를 읽어라."},
-    {"selector":"00/80","entry_index":4,"draft_translation":"3번째 글자를 / 세로로 읽어라."},
-    {"selector":"00/80","entry_index":5,"draft_translation":"으음, 뭐였더라? / 패스워드를 잊어버렸습니다. // 으음, 분명... / 「I·RO·HA·NI·HO·HE·TO...」 / 아~ 그다음인데!"},
-    {"selector":"00/80","entry_index":6,"draft_translation":"아까 침입한 내비 때문에 / 바닥에 풀이 자라기 시작했습니다. // 목 속성 바이러스나 내비가 / 풀밭에 서 있으면 // HP가 회복됩니다. // 목 속성 적과 싸울 때는 / 조심해 주십시오."},
-    {"selector":"00/80","entry_index":220,"draft_translation":"무언가 적혀 있다... // 첫 번째... // NA·N·TO·SHI·TA·KO·TO·DA / NI·GE·O·KU·RE·TE·SHI·MA·U·TO·HA"},
-    {"selector":"00/80","entry_index":221,"draft_translation":"무언가 적혀 있다... // 두 번째... // YA·RA·RE·TE·SHI·MA·U / KO·NO·MA·MA·DE·HA"},
-    {"selector":"00/80","entry_index":222,"draft_translation":"무언가 적혀 있다... // 세 번째... // SA·GA·SU·KO·TO·HA·DE·KI·NA·I / U·N·YO·KU·I·KI·NO·BI·TE·MO..."},
-    {"selector":"00/80","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=4] [printCode code=*]」를 / 획득했다!!"},
-    {"selector":"00/80","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=125] [printCode code=F]」를 / 획득했다!!"},
-    {"selector":"00/80","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=114] [printCode code=*]」를 / 획득했다!!"},
-    {"selector":"00/80","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
-
-    {"selector":"00/81","entry_index":0,"draft_translation":"빨강, 검정."},
-    {"selector":"00/81","entry_index":1,"draft_translation":"물방울무늬."},
-    {"selector":"00/81","entry_index":2,"draft_translation":"다리가 여섯 개."},
-    {"selector":"00/81","entry_index":3,"draft_translation":"곤충."},
-    {"selector":"00/81","entry_index":4,"draft_translation":"이 다리 건너지 마."},
-    {"selector":"00/81","entry_index":5,"draft_translation":"세상의 한가운데 있는 / 벌레는 무엇일까요?","review_notes":["일본어 'せかい'의 가운데 글자 'か(모기)'를 이용한 언어유희 문제로 한국어 정답 선택지와 통합 검수가 필요함."]},
-    {"selector":"00/81","entry_index":6,"draft_translation":"저는 프로그램 1입니다. / 제가 관리하는 패스워드는 / 이것입니다. // 「KE·TO·WO·NO·MA」"},
-    {"selector":"00/81","entry_index":7,"draft_translation":"저는 프로그램 2입니다. / 제가 관리하는 패스워드는 / 이것입니다. // 「N·U·I·RI·SU」"},
-    {"selector":"00/81","entry_index":8,"draft_translation":"지금부터 하는 말의 / 의미를 잘 생각해 주십시오. // 그것이 패스워드의 열쇠입니다. // 프로그램 1 / 프로그램 2 // 프로그램 1 / 프로그램 2 // 프로그램 1 / 프로그램 2 // 프로그램 1 / 프로그램 2 / ......","review_notes":["두 프로그램의 로마자 음절을 번갈아 읽으면 원문 패스워드 'KENTOU WO INORIMASU'가 되도록 보존함."]},
-    {"selector":"00/81","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「1000제니」를 / 획득했다!!"},
-    {"selector":"00/81","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=84] [printCode code=T]」를 / 획득했다!!"},
-    {"selector":"00/81","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=24] [printCode code=L]」를 / 획득했다!!"},
-
-    {"selector":"00/82","entry_index":0,"draft_translation":"사막에 사는 동물..."},
-    {"selector":"00/82","entry_index":1,"draft_translation":"등에 혹이 두 개."},
-    {"selector":"00/82","entry_index":2,"draft_translation":"KA행 다음은 / TA행."},
-    {"selector":"00/82","entry_index":3,"draft_translation":"제가 관리하는 / 패스워드는 이것입니다. // ME·SU·N·MU·SHI / I·TE·I·GE·SO·HE","review_notes":["일본어 오십음도 좌표 문제이므로 원문 음절을 로마자로 보존했으며 입력 선택지와 통합 검수가 필요함."]},
-    {"selector":"00/82","entry_index":4,"draft_translation":"제가 관리하는 패스워드를 / 해독할 열쇠입니다. // 11, 21, 13, 15, 12, / 22, 14, 26, 23, 25, 24."},
-    {"selector":"00/82","entry_index":5,"draft_translation":"저는 프로그램 A. // 제가 관리하는 패스워드를 / 알려 드리겠습니다. // 「ME·SHI·MU·SU·SO」"},
-    {"selector":"00/82","entry_index":6,"draft_translation":"저는 프로그램 B. // 제가 관리하는 패스워드를 / 알려 드리겠습니다. // 「I·N·SU·TE·GU·KO」"},
-    {"selector":"00/82","entry_index":7,"draft_translation":"... / ...... // A B B A B B A A B A B / ..."},
-    {"selector":"00/82","entry_index":8,"draft_translation":"이것이 마지막 보안입니다. // 패스워드는 이 안에 / 숨어 있습니다. // KA·PU·RA·N·RO / SU·PE·GU·TO·NI / WA·RA·RI·N·GI·MU","review_notes":["새 이름을 찾는 문자 조합 문제이므로 일본어 음절 순서를 로마자로 보존함."]},
-    {"selector":"00/82","entry_index":9,"draft_translation":"무리에 끼지 못한 하나를 / 찾아봅시다. // 정답 패스워드 외에는 / 세 종류의 새 이름이 / 숨어 있습니다."},
-    {"selector":"00/82","entry_index":10,"draft_translation":"검은 새, 날지 못하는 새, / 헤엄칠 수 있는 새. // 이제 알겠습니까?"},
-    {"selector":"00/82","entry_index":11,"draft_translation":"얼핏 들은 이야기입니다만, // 섀도맨이라는 내비는 / 예로부터 전해지는 비기 / 「그림자 분신」을 쓴다고 합니다. // 그림자에는 실체가 없어 / 이쪽 공격은 맞지 않습니다. // 뭔가 날이 예리한 무기로 / 단번에 베어 낼 수는 없을까요?"},
-    {"selector":"00/82","entry_index":220,"draft_translation":"일본의 중요 기관을 관리하는 / 마더 컴퓨터의 메인 시스템이다. // 이것이 악당에게 점령당하면 / 일본은 큰일이 난다."},
-    {"selector":"00/82","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 서브칩 「[printItem item=113]」을 / 획득했다!!"},
-    {"selector":"00/82","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「1400제니」를 / 획득했다!!"},
-    {"selector":"00/82","entry_index":232,"draft_translation":"「[printItem item=113]」이 / 가득 차서 더 가질 수 없다!"},
-    {"selector":"00/82","entry_index":233,"draft_translation":"「[printItem item=113]」이 / 가득 찼다!"},
-    {"selector":"00/82","entry_index":234,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=99]」을 / 획득했다!! // 레귤러 메모리 용량이 / 2메가 늘었다!!"},
-
-    {"selector":"00/83","entry_index":0,"draft_translation":"걷다 보면 유령이 나올 때가 있으니 / 조심해! // 붙잡히면 안 돼! / 말을 거는 건 더더욱 안 돼!"},
-    {"selector":"00/83","entry_index":1,"draft_translation":"흡혈귀가 나왔어! / 금방이라도 HP를 빨아먹을 것 같았어!"},
-    {"selector":"00/83","entry_index":2,"draft_translation":"좀비에게 붙잡혀서 / 이런 곳까지 끌려왔어. / 으아아앙!!!!"},
-    {"selector":"00/83","entry_index":3,"draft_translation":"유령은 앞만 보고 있어! // 타이밍을 잘 노리면 모퉁이에서 / 빠져나가거나 앞지를 수 있어!"},
-    {"selector":"00/83","entry_index":4,"draft_translation":"이 오피셜 센터 세계 본부는 / 아주 일찍 네트워크 시스템을 / 구축했습니다. // 그래서 다른 곳보다 / 조금 오래됐습니다... // 바닥에 금이 간 곳도 있어서 / 바이러스와 싸울 때는 / 조금 주의해야 합니다."},
-    {"selector":"00/83","entry_index":5,"draft_translation":"여기까지 오는 동안 / 그림자처럼 생긴 바이러스를 / 만났습니까? // 그림자는 실체가 없어서 / 대부분의 공격이 그냥 통과합니다. // 하지만 아주 날카로운 공격이라면 / 베어 버릴 수 있습니다. // 저, 좋은 말 했죠?"},
-    {"selector":"00/83","entry_index":220,"draft_translation":"트랩을 제어하는 프로그램이다! // 록맨은 / 프로그램을 정지시켰다!!"},
-    {"selector":"00/83","entry_index":221,"draft_translation":"전뇌 문이 앞길을 막고 있다! / 열려면 「[printItem item=26]」이 필요하다!"},
-    {"selector":"00/83","entry_index":222,"draft_translation":"전뇌 문이 앞길을 막고 있다! / 열려면 「[printItem item=26]」이 필요하다!"},
-    {"selector":"00/83","entry_index":225,"draft_translation":"넷토! 이제 트랩이 / 작동하지 않을 거야!"},
-    {"selector":"00/83","entry_index":226,"draft_translation":"고마워! / 그럼 플러그아웃하자!"},
-    {"selector":"00/83","entry_index":227,"draft_translation":"트랩을 제어하는 프로그램이다. / 이미 멈춰 있다..."},
-    {"selector":"00/83","entry_index":228,"draft_translation":"트랩을 제어하는 프로그램이다. / 지금은 아무것도 하지 않아도 된다..."},
-    {"selector":"00/83","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=26]」을 / 획득했다!!"},
-    {"selector":"00/83","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=26]」을 / 획득했다!!"},
-    {"selector":"00/83","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「1000제니」를 / 획득했다!!"},
-    {"selector":"00/83","entry_index":233,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=96]」을 / 획득했다!!"},
-
-    {"selector":"00/84","entry_index":0,"draft_translation":"좀비는 머리가 나빠서 / 샛길로는 들어오지 않아. // 반대로 흡혈귀는 영리해서 / 꽤 멀리까지 쫓아와. // 그리고 하나 더, / 유령들은 문을 넘어 / 쫓아오지는 않아."},
-    {"selector":"00/84","entry_index":1,"draft_translation":"도둑이 나타났어! / 돈을 빼앗겼어... / 자루를 든 녀석이었어!"},
-    {"selector":"00/84","entry_index":2,"draft_translation":"도둑은 왼쪽으로 도는 걸 / 아주 좋아한대! // ...왼쪽은 / 밥그릇을 드는 쪽이야."},
-    {"selector":"00/84","entry_index":220,"draft_translation":"트랩을 제어하는 프로그램이다! // 록맨은 / 프로그램을 정지시켰다!!"},
-    {"selector":"00/84","entry_index":221,"draft_translation":"전뇌 문이 앞길을 막고 있다! / 열려면 「[printItem item=26]」이 필요하다!"},
-    {"selector":"00/84","entry_index":222,"draft_translation":"전뇌 문이 앞길을 막고 있다! / 열려면 「[printItem item=26]」이 필요하다!"}
-  ]
+ "schema_version": 1,
+ "kind": "authored_multi_archive_translation_batch",
+ "batch_number": 21,
+ "entries": [
+  {
+   "selector": "00/77",
+   "entry_index": 233,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=97]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/77",
+   "entry_index": 234,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 0,
+   "draft_translation": "마더 컴퓨터에는 외부 침입을 / 막기 위한 보안이 / 몇 겹이나 설치되어 있습니다. // 저희가 내는 문제의 답이 / 패스워드가 됩니다. // 잘못된 패스워드를 입력하면 / 앞으로 나아갈 수 없습니다."
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 1,
+   "draft_translation": "다음 ♥에 들어갈 / 말은 무엇일까요? // 「꽃보다 ♥♥♥」 / 간단하죠?",
+   "review_notes": [
+    "일본어 속담 '花より団子'를 이용한 패스워드 문제이므로 실제 정답 선택지와 함께 통합 검수가 필요함."
+   ]
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 2,
+   "draft_translation": "눈이 셋, / 다리가 하나. / 이것은 무엇일까요?"
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 3,
+   "draft_translation": "내가 모은 정보에 따르면 / 빨강, 노랑, 파랑, 이 세 색깔이 / 관계있는 것 같아."
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 4,
+   "draft_translation": "...다음 패스워드는 / ♥ 안에 들어갈 글자입니다. // 이런, 정작 중요한 / 문제를 잊어버렸습니다."
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 5,
+   "draft_translation": "여기 문제는 / 「♥피셜 ♥터」인 것 같아! // 어딘가에서 들어 본 것 같은데..."
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 6,
+   "draft_translation": "역시 마더 컴퓨터를 / 지키는 보안답게 // 패스워드도 어렵군!!"
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 10,
+   "draft_translation": "마더 컴퓨터를 / 지키는 것이 우리의 / 사명입니다."
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 11,
+   "draft_translation": "마더 컴퓨터를 지키는 것. // 일본의 내일을 지키는 것."
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 12,
+   "draft_translation": "보안에는 저희 프로그램뿐 아니라 / 넷내비도 활용해야 합니다."
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 13,
+   "draft_translation": "설마 이 보안이 / 뚫리는 날이 올 줄이야..."
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 221,
+   "draft_translation": "마더 컴퓨터의 침입자를 막는 / 전기 벽을 제어하는 / 제어판이다."
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「800제니」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=96]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/78",
+   "entry_index": 232,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=123] [printCode code=*]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 0,
+   "draft_translation": "저는 프로그램 A입니다. // 이 앞의 패스워드를 / 알려 드리겠습니다. // 「U·RA·TE·GO·O·KI」입니다. // 다른 프로그램이 하는 말은 / 전부 거짓입니다.",
+   "review_notes": [
+    "문자 배열 패스워드의 원래 음절 순서를 보존하기 위해 로마자 음절로 표기했으며 선택지와 통합 검수가 필요함."
+   ]
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 1,
+   "draft_translation": "저는 프로그램 B입니다. // 이 앞의 패스워드를 / 알려 드리겠습니다. // 「U·RI·SU·DA·BA·N」입니다. // 다른 프로그램이 하는 말은 / 전부 거짓입니다."
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 2,
+   "draft_translation": "저는 프로그램 C입니다. // 이 앞의 패스워드를 / 알려 드리겠습니다. // 「HA·JI·GA·KU·RI·N」입니다. // 다른 프로그램이 하는 말은 / 전부 거짓입니다."
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 3,
+   "draft_translation": "저는 프로그램 D입니다. // 이 앞의 패스워드를 / 알려 드리겠습니다. // 「HA·JI·GA·RE·TA·KI」입니다. // 다른 프로그램이 하는 말은 / 전부 거짓입니다."
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 4,
+   "draft_translation": "프로그램 A는 프로그램 B보다 / 정직합니다. // 프로그램 B는 프로그램 C보다 / 정직합니다. // 프로그램 D는 프로그램 A보다 / 정직합니다."
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 5,
+   "draft_translation": "명주잠자리라는 곤충의 / 유충 이름은 무엇일까요?"
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 6,
+   "draft_translation": "커다란 턱. // 땅에 구멍을 파고 삽니다. // 개미를 먹습니다."
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 7,
+   "draft_translation": "이번 패스워드는 / 글자 순서 바꾸기입니다. // 「U·N·GA·SHI·RO·BA·MO·U·DA·KO·SU」",
+   "review_notes": [
+    "정답은 원문 음절을 재배열한 'MO·U·SU·KO·SHI·DA·GA·N·BA·RO·U'이며 실제 입력 선택지와 통합 검수가 필요함."
+   ]
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 8,
+   "draft_translation": "2번째는 「U」, / 5번째는 「SHI」, / 10번째는 「RO」."
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 9,
+   "draft_translation": "3번째는 「SU」, / 7번째는 「GA」, / 마지막은 「U」."
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 10,
+   "draft_translation": "첫 글자는 「MO」, / 4번째는 「KO」, / 8번째는 「N」."
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 220,
+   "draft_translation": "마더 컴퓨터의 메인 시스템을 지키는 / 마지막 문을 제어하는 / 제어판이다."
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=7] [printCode code=P]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「600제니」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 232,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"
+  },
+  {
+   "selector": "00/79",
+   "entry_index": 233,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=51] [printCode code=Q]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 0,
+   "draft_translation": "GO·RI·RA / KI·TA·KI·TSU·NE"
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 1,
+   "draft_translation": "RA·KU·GA·KI / RI·N·GO"
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 2,
+   "draft_translation": "이번 패스워드의 / 열쇠는 「끝말잇기」입니다.",
+   "review_notes": [
+    "일본어 끝말잇기 음절을 보존하기 위해 관련 낱말을 로마자 음절로 표기했으며 전체 패널과 통합 검수가 필요함."
+   ]
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 3,
+   "draft_translation": "패널에 적힌 / 글자를 읽어라."
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 4,
+   "draft_translation": "3번째 글자를 / 세로로 읽어라."
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 5,
+   "draft_translation": "으음, 뭐였더라? / 패스워드를 잊어버렸습니다. // 으음, 분명... / 「I·RO·HA·NI·HO·HE·TO...」 / 아~ 그다음인데!"
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 6,
+   "draft_translation": "아까 침입한 내비 때문에 / 바닥에 풀이 자라기 시작했습니다. // 목 속성 바이러스나 내비가 / 풀밭에 서 있으면 // HP가 회복됩니다. // 목 속성 적과 싸울 때는 / 조심해 주십시오."
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 220,
+   "draft_translation": "무언가 적혀 있다... // 첫 번째... // NANTOSHITAKOTODA / NIGEOKURETE / SHIMAUTOHA"
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 221,
+   "draft_translation": "무언가 적혀 있다... // 두 번째... // YA·RA·RE·TE·SHI·MA·U / KO·NO·MA·MA·DE·HA"
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 222,
+   "draft_translation": "무언가 적혀 있다... // 세 번째... // SAGASUKOTOHADEKINAI / UNYOKUIKINOBITEMO..."
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=4] [printCode code=*]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=125] [printCode code=F]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 232,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=114] [printCode code=*]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/80",
+   "entry_index": 233,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 0,
+   "draft_translation": "빨강, 검정."
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 1,
+   "draft_translation": "물방울무늬."
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 2,
+   "draft_translation": "다리가 여섯 개."
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 3,
+   "draft_translation": "곤충."
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 4,
+   "draft_translation": "이 다리 건너지 마."
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 5,
+   "draft_translation": "세상의 한가운데 있는 / 벌레는 무엇일까요?",
+   "review_notes": [
+    "일본어 'せかい'의 가운데 글자 'か(모기)'를 이용한 언어유희 문제로 한국어 정답 선택지와 통합 검수가 필요함."
+   ]
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 6,
+   "draft_translation": "저는 프로그램 1입니다. / 제가 관리하는 패스워드는 / 이것입니다. // 「KE·TO·WO·NO·MA」"
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 7,
+   "draft_translation": "저는 프로그램 2입니다. / 제가 관리하는 패스워드는 / 이것입니다. // 「N·U·I·RI·SU」"
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 8,
+   "draft_translation": "지금부터 하는 말의 / 의미를 잘 생각해 주십시오. // 그것이 패스워드의 열쇠입니다. // 프로그램 1 / 프로그램 2 // 프로그램 1 / 프로그램 2 // 프로그램 1 / 프로그램 2 // 프로그램 1 / 프로그램 2 / ......",
+   "review_notes": [
+    "두 프로그램의 로마자 음절을 번갈아 읽으면 원문 패스워드 'KENTOU WO INORIMASU'가 되도록 보존함."
+   ]
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「1000제니」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=84] [printCode code=T]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/81",
+   "entry_index": 232,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=24] [printCode code=L]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 0,
+   "draft_translation": "사막에 사는 동물..."
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 1,
+   "draft_translation": "등에 혹이 두 개."
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 2,
+   "draft_translation": "KA행 다음은 / TA행."
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 3,
+   "draft_translation": "제가 관리하는 / 패스워드는 이것입니다. // ME·SU·N·MU·SHI / I·TE·I·GE·SO·HE",
+   "review_notes": [
+    "일본어 오십음도 좌표 문제이므로 원문 음절을 로마자로 보존했으며 입력 선택지와 통합 검수가 필요함."
+   ]
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 4,
+   "draft_translation": "제가 관리하는 패스워드를 / 해독할 열쇠입니다. // 11, 21, 13, 15, 12, / 22, 14, 26, 23, 25, 24."
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 5,
+   "draft_translation": "저는 프로그램 A. // 제가 관리하는 패스워드를 / 알려 드리겠습니다. // 「ME·SHI·MU·SU·SO」"
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 6,
+   "draft_translation": "저는 프로그램 B. // 제가 관리하는 패스워드를 / 알려 드리겠습니다. // 「I·N·SU·TE·GU·KO」"
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 7,
+   "draft_translation": "... / ...... // A B B A B B A A B A B / ..."
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 8,
+   "draft_translation": "이것이 마지막 보안입니다. // 패스워드는 이 안에 / 숨어 있습니다. // KA·PU·RA·N·RO / SU·PE·GU·TO·NI / WA·RA·RI·N·GI·MU",
+   "review_notes": [
+    "새 이름을 찾는 문자 조합 문제이므로 일본어 음절 순서를 로마자로 보존함."
+   ]
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 9,
+   "draft_translation": "무리에 끼지 못한 하나를 / 찾아봅시다. // 정답 패스워드 외에는 / 세 종류의 새 이름이 / 숨어 있습니다."
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 10,
+   "draft_translation": "검은 새, 날지 못하는 새, / 헤엄칠 수 있는 새. // 이제 알겠습니까?"
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 11,
+   "draft_translation": "얼핏 들은 이야기입니다만, // 섀도맨이라는 내비는 / 예로부터 전해지는 비기 / 「그림자 분신」을 쓴다고 합니다. // 그림자에는 실체가 없어 / 이쪽 공격은 맞지 않습니다. // 뭔가 날이 예리한 무기로 / 단번에 베어 낼 수는 없을까요?"
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 220,
+   "draft_translation": "일본의 중요 기관을 관리하는 / 마더 컴퓨터의 메인 시스템이다. // 이것이 악당에게 점령당하면 / 일본은 큰일이 난다."
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 서브칩 「[printItem item=113]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「1400제니」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 232,
+   "draft_translation": "「[printItem item=113]」가 / 가득 차서 더 가질 수 없다!"
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 233,
+   "draft_translation": "「[printItem item=113]」가 / 가득 찼다!"
+  },
+  {
+   "selector": "00/82",
+   "entry_index": 234,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=99]」을 / 획득했다!! // 레귤러 메모리 용량이 / 2메가 늘었다!!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 0,
+   "draft_translation": "걷다 보면 유령이 나올 때가 있으니 / 조심해! // 붙잡히면 안 돼! / 말을 거는 건 더더욱 안 돼!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 1,
+   "draft_translation": "흡혈귀가 나왔어! / 금방이라도 HP를 빨아먹을 것 같았어!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 2,
+   "draft_translation": "좀비에게 붙잡혀서 / 이런 곳까지 끌려왔어. / 으아아앙!!!!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 3,
+   "draft_translation": "유령은 앞만 보고 있어! // 타이밍을 잘 노리면 모퉁이에서 / 빠져나가거나 앞지를 수 있어!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 4,
+   "draft_translation": "이 오피셜 센터 세계 본부는 / 아주 일찍 네트워크 시스템을 / 구축했습니다. // 그래서 다른 곳보다 / 조금 오래됐습니다... // 바닥에 금이 간 곳도 있어서 / 바이러스와 싸울 때는 / 조금 주의해야 합니다."
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 5,
+   "draft_translation": "여기까지 오는 동안 / 그림자처럼 생긴 바이러스를 / 만났습니까? // 그림자는 실체가 없어서 / 대부분의 공격이 그냥 통과합니다. // 하지만 아주 날카로운 공격이라면 / 베어 버릴 수 있습니다. // 저, 좋은 말 했죠?"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 220,
+   "draft_translation": "트랩을 제어하는 프로그램이다! // 록맨은 / 프로그램을 정지시켰다!!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 221,
+   "draft_translation": "전뇌 문이 앞길을 막고 있다! / 열려면 「[printItem item=26]」가 필요하다!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 222,
+   "draft_translation": "전뇌 문이 앞길을 막고 있다! / 열려면 「[printItem item=26]」가 필요하다!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 225,
+   "draft_translation": "넷토! 이제 트랩이 / 작동하지 않을 거야!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 226,
+   "draft_translation": "고마워! / 그럼 플러그아웃하자!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 227,
+   "draft_translation": "트랩을 제어하는 프로그램이다. / 이미 멈춰 있다..."
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 228,
+   "draft_translation": "트랩을 제어하는 프로그램이다. / 지금은 아무것도 하지 않아도 된다..."
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=26]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=26]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 232,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「1000제니」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/83",
+   "entry_index": 233,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=96]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/84",
+   "entry_index": 0,
+   "draft_translation": "좀비는 머리가 나빠서 / 샛길로는 들어오지 않아. // 반대로 흡혈귀는 영리해서 / 꽤 멀리까지 쫓아와. // 그리고 하나 더, / 유령들은 문을 넘어 / 쫓아오지는 않아."
+  },
+  {
+   "selector": "00/84",
+   "entry_index": 1,
+   "draft_translation": "도둑이 나타났어! / 돈을 빼앗겼어... / 자루를 든 녀석이었어!"
+  },
+  {
+   "selector": "00/84",
+   "entry_index": 2,
+   "draft_translation": "도둑은 왼쪽으로 도는 걸 / 아주 좋아한대! // ...왼쪽은 / 밥그릇을 드는 쪽이야."
+  },
+  {
+   "selector": "00/84",
+   "entry_index": 220,
+   "draft_translation": "트랩을 제어하는 프로그램이다! // 록맨은 / 프로그램을 정지시켰다!!"
+  },
+  {
+   "selector": "00/84",
+   "entry_index": 221,
+   "draft_translation": "전뇌 문이 앞길을 막고 있다! / 열려면 「[printItem item=26]」가 필요하다!"
+  },
+  {
+   "selector": "00/84",
+   "entry_index": 222,
+   "draft_translation": "전뇌 문이 앞길을 막고 있다! / 열려면 「[printItem item=26]」가 필요하다!"
+  }
+ ]
 }

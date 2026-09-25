@@ -1,120 +1,509 @@
 {
-  "schema_version": 1,
-  "batch_number": 38,
-  "entries": [
-    {"selector":"00/205","entry_index":7,"draft_translation":"음―, 그래도 네가 말한 / 오피셜 넷배틀러는 / 어디에도 없어. // 게다가 그 악당 내비는 / 너와 네 내비가 쓰러뜨렸잖아?"},
-    {"selector":"00/205","entry_index":8,"draft_translation":"응."},
-    {"selector":"00/205","entry_index":9,"draft_translation":"그럼 됐어! / 자, 가슴을 펴!"},
-
-    {"selector":"00/206","entry_index":0,"draft_translation":"저는 [printItem item=59]의 / 시험관입니다. // 시험을 보러 오셨군요. // 시험 문제는 모두 3개입니다. / 전부 통과하면 [printItem item=59]을 / 드리겠습니다. // 그럼 제1문!"},
-    {"selector":"00/206","entry_index":1,"draft_translation":"제1문은 서바이벌 배틀입니다. // 연속으로 다섯 번 나타나는 / 바이러스를 삭제하면 됩니다. // 도중에는 HP를 / 회복할 수 없으니 / 주의하십시오. // 문제를 시작하기 전과 / 끝낸 뒤에는 / HP를 회복해 드리겠습니다."},
-    {"selector":"00/206","entry_index":2,"draft_translation":"그럼 시작할까요? // 네! / 나중에 / 설명을 다시 듣는다 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오."},
-    {"selector":"00/206","entry_index":3,"draft_translation":"아쉽군요...[waitSkip 30] // 다시 도전하시겠습니까? // 도전한다! / 나중에 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오."},
-    {"selector":"00/206","entry_index":4,"draft_translation":"제1문에 / 다시 도전하시겠군요."},
-    {"selector":"00/206","entry_index":5,"draft_translation":"축하합니다! 제법이군요! // 그럼 제2문입니다!"},
-    {"selector":"00/206","entry_index":6,"draft_translation":"제2문은 넷배틀러로서 / 곤경에 처한 사람을 도울 수 있는지 / 확인하는 시험입니다! // 지금 덴산 영역 어딘가에 / 곤경에 처한 내비가 있다는 / 정보가 들어왔습니다. // 그 내비를 찾아내어 / 도와주십시오. // 도운 뒤에는 제게 / 돌아와 주십시오. // 이것이 제2문입니다. / 다시 설명해 드릴까요? // 듣는다 / 됐다 // 그럼 다녀오십시오!"},
-    {"selector":"00/206","entry_index":7,"draft_translation":"아직 통과하지 못했군요. / 통과했다는 증거가 없습니다... // 문제를 다시 / 설명해 드릴까요? // 듣는다 / 됐다 // 그럼 다녀오십시오!"},
-    {"selector":"00/206","entry_index":8,"draft_translation":"오! 「[printItem item=6]」을 / 가져오셨군요! 합격입니다! // 이로써 제2문은 통과입니다.[waitSkip 15] // 축하합니다! 제법이군요!"},
-    {"selector":"00/206","entry_index":9,"draft_translation":"그럼 제3문입니다!"},
-    {"selector":"00/206","entry_index":10,"draft_translation":"제3문도 서바이벌 배틀입니다. // 연속으로 다섯 번 나타나는 / 바이러스를 삭제하면 됩니다. // 도중에는 HP를 / 회복할 수 없으니 / 주의하십시오. // 문제를 시작하기 전과 / 끝낸 뒤에는 / HP를 회복해 드리겠습니다."},
-    {"selector":"00/206","entry_index":11,"draft_translation":"그럼 시작할까요? // 네! / 나중에 / 설명을 다시 듣는다 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오."},
-    {"selector":"00/206","entry_index":12,"draft_translation":"아쉽군요...[waitSkip 30] // 다시 도전하시겠습니까? // 도전한다! / 나중에 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오."},
-    {"selector":"00/206","entry_index":13,"draft_translation":"제3문에 / 다시 도전하시겠군요."},
-    {"selector":"00/206","entry_index":14,"draft_translation":"훌륭합니다! / 모든 문제를 통과하셨습니다!"},
-    {"selector":"00/206","entry_index":15,"draft_translation":"록맨은 / 「[printItem item=59]」을 / 획득했다!!"},
-    {"selector":"00/206","entry_index":16,"draft_translation":"「[printItem item=59]」에 관해 / 자세히 알고 싶다면 / 제게 물어보십시오. // 저는 언제나 이 스퀘어에 있습니다. // 그리고 이건 덤입니다. 받으시죠."},
-    {"selector":"00/206","entry_index":17,"draft_translation":"록맨은 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"},
-    {"selector":"00/206","entry_index":18,"draft_translation":"해냈다―!!"},
-    {"selector":"00/206","entry_index":19,"draft_translation":"해냈구나! 록맨!"},
-    {"selector":"00/206","entry_index":20,"draft_translation":"응![waitSkip 30] // ...[waitSkip 30] // 시간이 제법 지난 것 같네. / 슬슬 돌아갈까?"},
-
-    {"selector":"00/207","entry_index":0,"draft_translation":"아라시에 이어 하야미까지 / 실패했나... // 하지만 녀석들은 우리 조직에서도 / 최하급 오퍼레이터였을 뿐. // 고스펠의 진정한 공포는 / 이제부터다! // ·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]다크 미야비·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] // 네 차례다..."},
-    {"selector":"00/207","entry_index":1,"draft_translation":"나는 무엇을 하면 되지? / 돈만 준다면 무슨 일이든 하지. / ..."},
-
-    {"selector":"00/208","entry_index":0,"draft_translation":"하아암~~"},
-    {"selector":"00/208","entry_index":1,"draft_translation":"왜 그래, 넷토 군? / 그렇게 큰 하품을 다 하고..."},
-    {"selector":"00/208","entry_index":2,"draft_translation":"자유 연구 주제를 / 생각하고 있었어~ // 방학은 좋지만 / 해마다 이게 고민이란 말이지~"},
-    {"selector":"00/208","entry_index":3,"draft_translation":"역시 넷토 군이 / 관심 있는 걸 주제로 삼는 게 / 좋지 않을까?"},
-    {"selector":"00/208","entry_index":4,"draft_translation":"관심 있는 거라~"},
-    {"selector":"00/208","entry_index":5,"draft_translation":"...응? / 저게 뭐지?"},
-    {"selector":"00/208","entry_index":6,"draft_translation":"이 풍선은 뭐지? / 줄 끝에 뭔가 달려 있어... // 칩 데이터 같은데... // 록맨, 한번 조사해 봐!"},
-    {"selector":"00/208","entry_index":7,"draft_translation":"오케이! 잠깐만 기다려! // ·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] // 이거 외국 칩 데이터 같아. / 텍스트로... 뭔가 적혀 있어."},
-    {"selector":"00/208","entry_index":8,"draft_translation":"외국이라니 굉장하잖아! / 그래서? 뭐라고 쓰였어???"},
-    {"selector":"00/208","entry_index":9,"draft_translation":"그럼 번역해 볼게. // 「번역 시스템」 기동!! / ·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] // 삐이잉!![wait 30] // 번역 완료!! / 어... 이건 편지 같아. // 「메일 친구가 되어 주세요.」 // 라는데!"},
-    {"selector":"00/208","entry_index":10,"draft_translation":"메일 친구라...[waitSkip 30] // 재미있을지도...[waitSkip 30] // 그런데 어느 나라에서 / 보낸 건지 알 수 있어?"},
-    {"selector":"00/208","entry_index":11,"draft_translation":"이 데이터 형식이라면... / 「아지나」야!!"},
-    {"selector":"00/208","entry_index":12,"draft_translation":"「아지나」라면... / 맛있는 음식으로 / 유명한 나라잖아!! // ·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] // 정했다!!"},
-    {"selector":"00/208","entry_index":13,"draft_translation":"갑자기 큰 소리 내지 마! / 깜짝 놀랐잖아~ // ...그래서 뭘 정했는데?"},
-    {"selector":"00/208","entry_index":14,"draft_translation":"자유 연구 주제 말이야!!"},
-    {"selector":"00/208","entry_index":15,"draft_translation":"정말? 잘됐다! / 그래서 뭘 연구할 거야?"},
-    {"selector":"00/208","entry_index":16,"draft_translation":"바로! / 세계의 진미 연구!!"},
-    {"selector":"00/208","entry_index":17,"draft_translation":"정말 넷토 군답네... // 그래도 세계 각국의 음식 문화를 / 조사하는 건 재미있을지도 몰라. / 응, 좋은 주제야!"},
-    {"selector":"00/208","entry_index":18,"draft_translation":"록맨!! / 당장 인터넷으로 / 아지나를 구경하러 가자!! // 아까 편지를 보낸 사람을 찾아서 / 아지나 음식에 관해 / 이것저것 물어보자! // (그러다 친구가 되어 아지나에 / 초대라도 받으면... // 맛있는 음식을 마음껏 먹겠지!) // ...서두르자! 집에 돌아가서 / 인터넷에 플러그인하는 거야! // 가자! 아지나로!!"},
-    {"selector":"00/208","entry_index":19,"draft_translation":"???[waitSkip 20] // 왠지 지나치게 의욕적인 게 / 마음에 걸리지만... // 오케이! / 나, 아지나에 가 볼게!"},
-
-    {"selector":"00/209","entry_index":0,"draft_translation":"일본 보안 센터입니다. // 이곳은 A 라이선스를 / 소지하지 않은 분은 / 통과할 수 없습니다."},
-    {"selector":"00/209","entry_index":1,"draft_translation":"넷토 군, 여길 지나려면 / A 라이선스가 필요하대. // 라이선스는 오피셜 센터에서 / 시험을 봐야 딸 수 있어. // 힘들 것 같으니 이번에는 / 아지나를 포기하고 / 다른 나라를 조사하지 않을래?"},
-    {"selector":"00/209","entry_index":2,"draft_translation":"싫어!! / 시험을 봐서라도 아지나에 갈 거야! // (진미! 진미! 진미!)"},
-
-    {"selector":"00/210","entry_index":0,"draft_translation":"저, 저기요! / A 라이선스 시험을 / 보고 싶은데요!"},
-    {"selector":"00/211","entry_index":0,"draft_translation":"사건을 후딱 해결하고 / 시험을 보겠어!"},
-
-    {"selector":"00/212","entry_index":0,"draft_translation":"시험 보러 왔습니다!"},
-    {"selector":"00/212","entry_index":1,"draft_translation":"오, 지난번 그 꼬마구나. / 특별 임무를 / 해결하고 온 모양이네. // 그럼 PET를 보여 주렴."},
-    {"selector":"00/212","entry_index":2,"draft_translation":"어, 어떤가요?"},
-    {"selector":"00/212","entry_index":3,"draft_translation":"·[waitSkip 30]·[waitSkip 30]·[waitSkip 30] // 열심히 했구나! / 좋아! 시험을 봐도 된다."},
-    {"selector":"00/212","entry_index":4,"draft_translation":"해냈다! / 아저씨, 고마워요!!"},
-
-    {"selector":"00/213","entry_index":0,"draft_translation":"라이선스 시험을 보러 왔습니다."},
-    {"selector":"00/213","entry_index":1,"draft_translation":"어서 오십시오. / 그럼 바로 / 응시 등록을 하겠습니다. // 성함이 어떻게 되십니까?"},
-    {"selector":"00/213","entry_index":2,"draft_translation":"록맨.EXE입니다."},
-
-    {"selector":"00/214","entry_index":0,"draft_translation":"해냈다! / A 라이선스를 땄어! // 록맨! 수고했어!"},
-    {"selector":"00/214","entry_index":1,"draft_translation":"이제 아지나 영역에 갈 수 있겠네."},
-    {"selector":"00/214","entry_index":2,"draft_translation":"좋아! 진미가 눈앞이다!"},
-    {"selector":"00/214","entry_index":3,"draft_translation":"설마 넷토 군, / 연구보다 진미가 / 목적이었던 거야!?"},
-    {"selector":"00/214","entry_index":4,"draft_translation":"당연하잖아!!"},
-    {"selector":"00/214","entry_index":5,"draft_translation":"아지나에 가는 건 나고, / 넷토 군이 진미를 / 먹는 건 아니잖아."},
-    {"selector":"00/214","entry_index":6,"draft_translation":"그 메일 친구와 친해지면 // 어쩌면 아지나에 / 초대해 줄지도 모르잖아."},
-    {"selector":"00/214","entry_index":7,"draft_translation":"유난히 의욕적이다 했더니 / 그런 생각을 하고 있었구나!"},
-    {"selector":"00/214","entry_index":8,"draft_translation":"그, 그것만은 아니야! / 연구도 제대로 할 거라고!"},
-    {"selector":"00/214","entry_index":9,"draft_translation":"'연구도'라니, 역시 / 연구는 두 번째였구나! // 휴우~ / 뭐, 넷토 군답긴 하지만. // 자, 시험도 끝났으니 / 시험실에서 나가자."},
-
-    {"selector":"00/215","entry_index":0,"draft_translation":"삐삐삐삐삐[wait 30] // 삐이잉![wait 30] // A 라이선스를 확인했습니다. / 보안 큐브를 해제합니다.[wait 60] // 통과하십시오."},
-    {"selector":"00/215","entry_index":1,"draft_translation":"해냈다! / 가자, 록맨!"},
-
-    {"selector":"00/216","entry_index":0,"draft_translation":"설마 내비 단 하나에게 / 이 나라가 괴멸당할 줄이야. // 용서 못 한다·[waitSkip 30]·[waitSkip 30]·[waitSkip 30] / 용서 못 해! // 내 나라와 백성을 / 모조리 빼앗은 네놈을! // 이제 도망칠 수 없다. / 각오해라!"},
-    {"selector":"00/216","entry_index":1,"draft_translation":"......"},
-    {"selector":"00/216","entry_index":2,"draft_translation":"너희들, 해치워 버려라!!"},
-    {"selector":"00/216","entry_index":3,"draft_translation":"예!!"},
-    {"selector":"00/216","entry_index":4,"draft_translation":"뭐·[waitSkip 20] 뭐·[waitSkip 20] / 뭐라고!? 아지나의 용사들이!! // 으으으으·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] // 네, 네놈의 목적은 뭐냐!? / 왜 이 나라를 멸망시키는 거지?"},
-    {"selector":"00/216","entry_index":5,"draft_translation":"흥... / 고스펠의 친위대인지 뭔지 / 쓸데없는 짓을... // 이 나라를 멸망시키는 이유...? // 간단한 일이다... // 고스펠이라는 단체가 / 이 나라를 멸망시켜 달라고 / 의뢰했을 뿐이다. // 그리고 소인은 주어진 임무를 / 완수할 뿐... // 운이 나빴군... / 아지나 왕이여. // 미안하군!!"},
-    {"selector":"00/216","entry_index":6,"draft_translation":"고스...펠... 으윽.[wait 90]"},
-    {"selector":"00/216","entry_index":7,"draft_translation":"털썩."},
-    {"selector":"00/216","entry_index":8,"draft_translation":"다크 미야비 님, / 임무를 완료했습니다..."},
-    {"selector":"00/216","entry_index":9,"draft_translation":"음, 수고했다. / 바로 다음 임무로 / 옮겨 주도록 하지. // 다음 목표는... // ...다."},
-    {"selector":"00/216","entry_index":10,"draft_translation":"명을 받들겠습니다!"},
-    {"selector":"00/216","entry_index":11,"draft_translation":"국왕 폐하! 국왕 폐하!"},
-    {"selector":"00/216","entry_index":12,"draft_translation":"오... 살아남았느냐... / 크윽."},
-    {"selector":"00/216","entry_index":13,"draft_translation":"폐하, 말씀하시면 안 됩니다!"},
-    {"selector":"00/216","entry_index":14,"draft_translation":"못난 왕을 용서해 다오... / 나라를 지키지... / 못했다... // 이 나라를 습격한 내비는... / 다음에는...을 노리고 있다... // 녀석들의 이름은·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]고스펠·[waitSkip 20]·[waitSkip 20]· // 어, 어서 누군가에게... 알려 다오... // 이런... 고통은... 나 하나로 / 충·[waitSkip 20]·분·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]하·[waitSkip 20]·[waitSkip 20]다..."},
-    {"selector":"00/216","entry_index":15,"draft_translation":"털썩.[wait 90]"},
-
-    {"selector":"00/217","entry_index":0,"draft_translation":"이, 이건...? / 아무도 없어, 넷토 군... // 전뇌 스퀘어에서 / 사람이 사라지다니 이상해! // 틀림없이 무슨 일이 생긴 거야!!"},
-    {"selector":"00/217","entry_index":1,"draft_translation":"대체 무슨 일이 있었던 거지?"},
-    {"selector":"00/217","entry_index":2,"draft_translation":"타다다닥...[wait 86]"},
-    {"selector":"00/217","entry_index":3,"draft_translation":"넷토 군! 무슨 소리가 나!"},
-    {"selector":"00/217","entry_index":4,"draft_translation":"누가 있는 건가...? // 소리가 어디서 나는지 / 찾아 줘!!"},
-
-    {"selector":"00/218","entry_index":0,"draft_translation":"타다다다닥...[wait 84]"},
-
-    {"selector":"00/219","entry_index":0,"draft_translation":"타다다다닥...[wait 85]"},
-    {"selector":"00/219","entry_index":1,"draft_translation":"아무래도 소리는 / 이 방 안에서 / 들리는 것 같아. // 들어갈게, 넷토 군!"},
-    {"selector":"00/219","entry_index":2,"draft_translation":"조심해!"},
-
-    {"selector":"00/220","entry_index":0,"draft_translation":"타다다다닥...[wait 84]"},
-    {"selector":"00/220","entry_index":1,"draft_translation":"수수께끼의 내비 때문에 / 아지나는 괴멸했습니다. // 이대로는 다른 나라까지 / 피해를 입게 됩니다..."},
-    {"selector":"00/220","entry_index":2,"draft_translation":"있지, 여기서 무슨 일이 있었어?"},
-    {"selector":"00/220","entry_index":3,"draft_translation":"&*%♥♪!?","review_notes":["원문도 기호만으로 구성된 대사이므로 해독 불능 연출을 그대로 보존함."]}
-  ]
+ "schema_version": 1,
+ "batch_number": 38,
+ "entries": [
+  {
+   "selector": "00/205",
+   "entry_index": 7,
+   "draft_translation": "음―, 그래도 네가 말한 / 오피셜 넷배틀러는 / 어디에도 없어. // 게다가 그 악당 내비는 / 너와 네 내비가 쓰러뜨렸잖아?"
+  },
+  {
+   "selector": "00/205",
+   "entry_index": 8,
+   "draft_translation": "응."
+  },
+  {
+   "selector": "00/205",
+   "entry_index": 9,
+   "draft_translation": "그럼 됐어! / 자, 가슴을 펴!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 0,
+   "draft_translation": "저는 [printItem item=59]의 / 시험관입니다. // 시험을 보러 오셨군요. // 시험 문제는 모두 3개입니다. / 전부 통과하면 [printItem item=59]를 / 드리겠습니다. // 그럼 제1문!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 1,
+   "draft_translation": "제1문은 서바이벌 배틀입니다. // 연속으로 다섯 번 나타나는 / 바이러스를 삭제하면 됩니다. // 도중에는 HP를 / 회복할 수 없으니 / 주의하십시오. // 문제를 시작하기 전과 / 끝낸 뒤에는 / HP를 회복해 드리겠습니다."
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 2,
+   "draft_translation": "그럼 시작할까요? // 네! / 나중에 / 설명을 다시 듣는다 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오."
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 3,
+   "draft_translation": "아쉽군요...[waitSkip 30] // 다시 도전하시겠습니까? // 도전한다! / 나중에 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오."
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 4,
+   "draft_translation": "제1문에 / 다시 도전하시겠군요."
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 5,
+   "draft_translation": "축하합니다! 제법이군요! // 그럼 제2문입니다!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 6,
+   "draft_translation": "제2문은 넷배틀러로서 / 곤경에 처한 사람을 도울 수 있는지 / 확인하는 시험입니다! // 지금 덴산 영역 어딘가에 / 곤경에 처한 내비가 있다는 / 정보가 들어왔습니다. // 그 내비를 찾아내어 / 도와주십시오. // 도운 뒤에는 제게 / 돌아와 주십시오. // 이것이 제2문입니다. / 다시 설명해 드릴까요? // 듣는다 / 됐다 // 그럼 다녀오십시오!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 7,
+   "draft_translation": "아직 통과하지 못했군요. / 통과했다는 증거가 없습니다... // 문제를 다시 / 설명해 드릴까요? // 듣는다 / 됐다 // 그럼 다녀오십시오!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 8,
+   "draft_translation": "오! 「[printItem item=6]」를 / 가져오셨군요! 합격입니다! // 이로써 제2문은 통과입니다.[waitSkip 15] // 축하합니다! 제법이군요!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 9,
+   "draft_translation": "그럼 제3문입니다!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 10,
+   "draft_translation": "제3문도 서바이벌 배틀입니다. // 연속으로 다섯 번 나타나는 / 바이러스를 삭제하면 됩니다. // 도중에는 HP를 / 회복할 수 없으니 / 주의하십시오. // 문제를 시작하기 전과 / 끝낸 뒤에는 / HP를 회복해 드리겠습니다."
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 11,
+   "draft_translation": "그럼 시작할까요? // 네! / 나중에 / 설명을 다시 듣는다 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오."
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 12,
+   "draft_translation": "아쉽군요...[waitSkip 30] // 다시 도전하시겠습니까? // 도전한다! / 나중에 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오."
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 13,
+   "draft_translation": "제3문에 / 다시 도전하시겠군요."
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 14,
+   "draft_translation": "훌륭합니다! / 모든 문제를 통과하셨습니다!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 15,
+   "draft_translation": "록맨은 / 「[printItem item=59]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 16,
+   "draft_translation": "「[printItem item=59]」에 관해 / 자세히 알고 싶다면 / 제게 물어보십시오. // 저는 언제나 이 스퀘어에 있습니다. // 그리고 이건 덤입니다. 받으시죠."
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 17,
+   "draft_translation": "록맨은 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 18,
+   "draft_translation": "해냈다―!!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 19,
+   "draft_translation": "해냈구나! 록맨!"
+  },
+  {
+   "selector": "00/206",
+   "entry_index": 20,
+   "draft_translation": "응![waitSkip 30] // ...[waitSkip 30] // 시간이 제법 지난 것 같네. / 슬슬 돌아갈까?"
+  },
+  {
+   "selector": "00/207",
+   "entry_index": 0,
+   "draft_translation": "아라시에 이어 하야미까지 / 실패했나... // 하지만 녀석들은 우리 조직에서도 / 최하급 오퍼레이터였을 뿐. // 고스펠의 진정한 공포는 / 이제부터다! // ·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]다크 미야비·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] // 네 차례다..."
+  },
+  {
+   "selector": "00/207",
+   "entry_index": 1,
+   "draft_translation": "나는 무엇을 하면 되지? / 돈만 준다면 무슨 일이든 하지. / ..."
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 0,
+   "draft_translation": "하아암~~"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 1,
+   "draft_translation": "왜 그래, 넷토 군? / 그렇게 큰 하품을 다 하고..."
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 2,
+   "draft_translation": "자유 연구 주제를 / 생각하고 있었어~ // 방학은 좋지만 / 해마다 이게 고민이란 말이지~"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 3,
+   "draft_translation": "역시 넷토 군이 / 관심 있는 걸 주제로 삼는 게 / 좋지 않을까?"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 4,
+   "draft_translation": "관심 있는 거라~"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 5,
+   "draft_translation": "...응? / 저게 뭐지?"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 6,
+   "draft_translation": "이 풍선은 뭐지? / 줄 끝에 뭔가 달려 있어... // 칩 데이터 같은데... // 록맨, 한번 조사해 봐!"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 7,
+   "draft_translation": "오케이! 잠깐만 기다려! // ·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] // 이거 외국 칩 데이터 같아. / 텍스트로... 뭔가 적혀 있어."
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 8,
+   "draft_translation": "외국이라니 굉장하잖아! / 그래서? 뭐라고 쓰였어???"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 9,
+   "draft_translation": "그럼 번역해 볼게. // 「번역 시스템」 기동!! / ·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] // 삐이잉!![wait 30] // 번역 완료!! / 어... 이건 편지 같아. // 「메일 친구가 되어 주세요.」 // 라는데!"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 10,
+   "draft_translation": "메일 친구라...[waitSkip 30] // 재미있을지도...[waitSkip 30] // 그런데 어느 나라에서 / 보낸 건지 알 수 있어?"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 11,
+   "draft_translation": "이 데이터 형식이라면... / 「아지나」야!!"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 12,
+   "draft_translation": "「아지나」라면... / 맛있는 음식으로 / 유명한 나라잖아!! // ·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] // 정했다!!"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 13,
+   "draft_translation": "갑자기 큰 소리 내지 마! / 깜짝 놀랐잖아~ // ...그래서 뭘 정했는데?"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 14,
+   "draft_translation": "자유 연구 주제 말이야!!"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 15,
+   "draft_translation": "정말? 잘됐다! / 그래서 뭘 연구할 거야?"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 16,
+   "draft_translation": "바로! / 세계의 진미 연구!!"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 17,
+   "draft_translation": "정말 넷토 군답네... // 그래도 세계 각국의 음식 문화를 / 조사하는 건 재미있을지도 몰라. / 응, 좋은 주제야!"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 18,
+   "draft_translation": "록맨!! / 당장 인터넷으로 / 아지나를 구경하러 가자!! // 아까 편지를 보낸 사람을 찾아서 / 아지나 음식에 관해 / 이것저것 물어보자! // (그러다 친구가 되어 아지나에 / 초대라도 받으면... // 맛있는 음식을 마음껏 먹겠지!) // ...서두르자! 집에 돌아가서 / 인터넷에 플러그인하는 거야! // 가자! 아지나로!!"
+  },
+  {
+   "selector": "00/208",
+   "entry_index": 19,
+   "draft_translation": "???[waitSkip 20] // 왠지 지나치게 의욕적인 게 / 마음에 걸리지만... // 오케이! / 나, 아지나에 가 볼게!"
+  },
+  {
+   "selector": "00/209",
+   "entry_index": 0,
+   "draft_translation": "일본 보안 센터입니다. // 이곳은 A 라이선스를 / 소지하지 않은 분은 / 통과할 수 없습니다."
+  },
+  {
+   "selector": "00/209",
+   "entry_index": 1,
+   "draft_translation": "넷토 군, 여길 지나려면 / A 라이선스가 필요하대. // 라이선스는 오피셜 센터에서 / 시험을 봐야 딸 수 있어. // 힘들 것 같으니 이번에는 / 아지나를 포기하고 / 다른 나라를 조사하지 않을래?"
+  },
+  {
+   "selector": "00/209",
+   "entry_index": 2,
+   "draft_translation": "싫어!! / 시험을 봐서라도 아지나에 갈 거야! // (진미! 진미! 진미!)"
+  },
+  {
+   "selector": "00/210",
+   "entry_index": 0,
+   "draft_translation": "저, 저기요! / A 라이선스 시험을 / 보고 싶은데요!"
+  },
+  {
+   "selector": "00/211",
+   "entry_index": 0,
+   "draft_translation": "사건을 후딱 해결하고 / 시험을 보겠어!"
+  },
+  {
+   "selector": "00/212",
+   "entry_index": 0,
+   "draft_translation": "시험 보러 왔습니다!"
+  },
+  {
+   "selector": "00/212",
+   "entry_index": 1,
+   "draft_translation": "오, 지난번 그 꼬마구나. / 특별 임무를 / 해결하고 온 모양이네. // 그럼 PET를 보여 주렴."
+  },
+  {
+   "selector": "00/212",
+   "entry_index": 2,
+   "draft_translation": "어, 어떤가요?"
+  },
+  {
+   "selector": "00/212",
+   "entry_index": 3,
+   "draft_translation": "·[waitSkip 30]·[waitSkip 30]·[waitSkip 30] // 열심히 했구나! / 좋아! 시험을 봐도 된다."
+  },
+  {
+   "selector": "00/212",
+   "entry_index": 4,
+   "draft_translation": "해냈다! / 아저씨, 고마워요!!"
+  },
+  {
+   "selector": "00/213",
+   "entry_index": 0,
+   "draft_translation": "라이선스 시험을 보러 왔습니다."
+  },
+  {
+   "selector": "00/213",
+   "entry_index": 1,
+   "draft_translation": "어서 오십시오. / 그럼 바로 / 응시 등록을 하겠습니다. // 성함이 어떻게 되십니까?"
+  },
+  {
+   "selector": "00/213",
+   "entry_index": 2,
+   "draft_translation": "록맨.EXE입니다."
+  },
+  {
+   "selector": "00/214",
+   "entry_index": 0,
+   "draft_translation": "해냈다! / A 라이선스를 땄어! // 록맨! 수고했어!"
+  },
+  {
+   "selector": "00/214",
+   "entry_index": 1,
+   "draft_translation": "이제 아지나 영역에 갈 수 있겠네."
+  },
+  {
+   "selector": "00/214",
+   "entry_index": 2,
+   "draft_translation": "좋아! 진미가 눈앞이다!"
+  },
+  {
+   "selector": "00/214",
+   "entry_index": 3,
+   "draft_translation": "설마 넷토 군, / 연구보다 진미가 / 목적이었던 거야!?"
+  },
+  {
+   "selector": "00/214",
+   "entry_index": 4,
+   "draft_translation": "당연하잖아!!"
+  },
+  {
+   "selector": "00/214",
+   "entry_index": 5,
+   "draft_translation": "아지나에 가는 건 나고, / 넷토 군이 진미를 / 먹는 건 아니잖아."
+  },
+  {
+   "selector": "00/214",
+   "entry_index": 6,
+   "draft_translation": "그 메일 친구와 친해지면 // 어쩌면 아지나에 / 초대해 줄지도 모르잖아."
+  },
+  {
+   "selector": "00/214",
+   "entry_index": 7,
+   "draft_translation": "유난히 의욕적이다 했더니 / 그런 생각을 하고 있었구나!"
+  },
+  {
+   "selector": "00/214",
+   "entry_index": 8,
+   "draft_translation": "그, 그것만은 아니야! / 연구도 제대로 할 거라고!"
+  },
+  {
+   "selector": "00/214",
+   "entry_index": 9,
+   "draft_translation": "'연구도'라니, 역시 / 연구는 두 번째였구나! // 휴우~ / 뭐, 넷토 군답긴 하지만. // 자, 시험도 끝났으니 / 시험실에서 나가자."
+  },
+  {
+   "selector": "00/215",
+   "entry_index": 0,
+   "draft_translation": "삐삐삐삐삐[wait 30] // 삐이잉![wait 30] // A 라이선스를 확인했습니다. / 보안 큐브를 해제합니다.[wait 60] // 통과하십시오."
+  },
+  {
+   "selector": "00/215",
+   "entry_index": 1,
+   "draft_translation": "해냈다! / 가자, 록맨!"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 0,
+   "draft_translation": "설마 내비 단 하나에게 / 이 나라가 괴멸당할 줄이야. // 용서 못 한다·[waitSkip 30]·[waitSkip 30]·[waitSkip 30] / 용서 못 해! // 내 나라와 백성을 / 모조리 빼앗은 네놈을! // 이제 도망칠 수 없다. / 각오해라!"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 1,
+   "draft_translation": "......"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 2,
+   "draft_translation": "너희들, 해치워 버려라!!"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 3,
+   "draft_translation": "예!!"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 4,
+   "draft_translation": "뭐·[waitSkip 20] 뭐·[waitSkip 20] / 뭐라고!? 아지나의 용사들이!! // 으으으으·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] // 네, 네놈의 목적은 뭐냐!? / 왜 이 나라를 멸망시키는 거지?"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 5,
+   "draft_translation": "흥... / 고스펠의 친위대인지 뭔지 / 쓸데없는 짓을... // 이 나라를 멸망시키는 이유...? // 간단한 일이다... // 고스펠이라는 단체가 / 이 나라를 멸망시켜 달라고 / 의뢰했을 뿐이다. // 그리고 소인은 주어진 임무를 / 완수할 뿐... // 운이 나빴군... / 아지나 왕이여. // 미안하군!!"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 6,
+   "draft_translation": "고스...펠... 으윽.[wait 90]"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 7,
+   "draft_translation": "털썩."
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 8,
+   "draft_translation": "다크 미야비 님, / 임무를 완료했습니다..."
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 9,
+   "draft_translation": "음, 수고했다. / 바로 다음 임무로 / 옮겨 주도록 하지. // 다음 목표는... // ...다."
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 10,
+   "draft_translation": "명을 받들겠습니다!"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 11,
+   "draft_translation": "국왕 폐하! 국왕 폐하!"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 12,
+   "draft_translation": "오... 살아남았느냐... / 크윽."
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 13,
+   "draft_translation": "폐하, 말씀하시면 안 됩니다!"
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 14,
+   "draft_translation": "못난 왕을 용서해 다오... / 나라를 지키지... / 못했다... // 이 나라를 습격한 내비는... / 다음에는...을 노리고 있다... // 녀석들의 이름은·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]고스펠·[waitSkip 20]·[waitSkip 20]· // 어, 어서 누군가에게... 알려 다오... // 이런... 고통은... 나 하나로 / 충·[waitSkip 20]·분·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]하·[waitSkip 20]·[waitSkip 20]다..."
+  },
+  {
+   "selector": "00/216",
+   "entry_index": 15,
+   "draft_translation": "털썩.[wait 90]"
+  },
+  {
+   "selector": "00/217",
+   "entry_index": 0,
+   "draft_translation": "이, 이건...? / 아무도 없어, 넷토 군... // 전뇌 스퀘어에서 / 사람이 사라지다니 이상해! // 틀림없이 무슨 일이 생긴 거야!!"
+  },
+  {
+   "selector": "00/217",
+   "entry_index": 1,
+   "draft_translation": "대체 무슨 일이 있었던 거지?"
+  },
+  {
+   "selector": "00/217",
+   "entry_index": 2,
+   "draft_translation": "타다다닥...[wait 86]"
+  },
+  {
+   "selector": "00/217",
+   "entry_index": 3,
+   "draft_translation": "넷토 군! 무슨 소리가 나!"
+  },
+  {
+   "selector": "00/217",
+   "entry_index": 4,
+   "draft_translation": "누가 있는 건가...? // 소리가 어디서 나는지 / 찾아 줘!!"
+  },
+  {
+   "selector": "00/218",
+   "entry_index": 0,
+   "draft_translation": "타다다다닥...[wait 84]"
+  },
+  {
+   "selector": "00/219",
+   "entry_index": 0,
+   "draft_translation": "타다다다닥...[wait 85]"
+  },
+  {
+   "selector": "00/219",
+   "entry_index": 1,
+   "draft_translation": "아무래도 소리는 / 이 방 안에서 / 들리는 것 같아. // 들어갈게, 넷토 군!"
+  },
+  {
+   "selector": "00/219",
+   "entry_index": 2,
+   "draft_translation": "조심해!"
+  },
+  {
+   "selector": "00/220",
+   "entry_index": 0,
+   "draft_translation": "타다다다닥...[wait 84]"
+  },
+  {
+   "selector": "00/220",
+   "entry_index": 1,
+   "draft_translation": "수수께끼의 내비 때문에 / 아지나는 괴멸했습니다. // 이대로는 다른 나라까지 / 피해를 입게 됩니다..."
+  },
+  {
+   "selector": "00/220",
+   "entry_index": 2,
+   "draft_translation": "있지, 여기서 무슨 일이 있었어?"
+  },
+  {
+   "selector": "00/220",
+   "entry_index": 3,
+   "draft_translation": "&*%♥♪!?",
+   "review_notes": [
+    "원문도 기호만으로 구성된 대사이므로 해독 불능 연출을 그대로 보존함."
+   ]
+  }
+ ]
 }

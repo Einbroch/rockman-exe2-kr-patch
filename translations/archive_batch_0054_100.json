@@ -163,7 +163,7 @@
       "source_entry_raw_hex": "ed 00 03 f1 00 9c bf db c1 1b 59 51 c9 00 b4 9c a8 d6 a4 e5 05 81 e8 04 b7 9a 00 b4 9c a8 b1 b2 00 04 b7 9a 00 a5 ab a8 9e bf 85 e8 a2 b1 4a 1e 33 e5 8a b2 00 d0 e5 02 ac a2 b1 b7 b7 00 e5 c3 9c c1 c4 eb e9 a7 c2 cf e5 03 85 9a e5 02 9f ae 00 0d 0c 33 17 a8 a9 c7 e8 48 32 78 1e 00 a4 a9 e5 03 9a b7 a4 e5 05 9b e8 a2 a2 9e bf b2 00 e5 8b e5 8c d6 00 bc e5 02 ab b8 ab b0 eb e7",
       "source_tpl_block_sha256": "e01ab115eaea2140fb7b5831cddffe5778d645f576efcc475b9c858021f0a903",
       "source_text_transcription": "えらべるチップが ふえたでしょ! / 3まい ふえたのは 3まい すてたから、 / このバトル中は ずっとこのまま 戦えるわ // それじゃ、いっきに ウイルスたちを / デリート しちゃいましょう / ここからは 自分で やってみてね",
-      "draft_translation": "선택할 수 있는 칩이 늘었죠! / 3장이 늘어난 건 3장을 버렸기 때문에, / 이 배틀 중에는 계속 이대로 싸울 수 있어요. // 그럼 단숨에 바이러스들을 / 딜리트해 버리죠. / 여기서부터는 혼자 해 보세요.",
+      "draft_translation": "선택할 수 있는 칩이 늘었죠! / 3장 늘어난 건 3장을 버렸기 때문에, / 이 배틀 중에는 계속 이대로 있어요. // 그럼 단숨에 바이러스들을 / 딜리트해 버리죠. / 여기서부터는 혼자 해 보세요.",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },

@@ -1,0 +1,526 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/07E9714",
+ "entry_prefix": "archive_u07E9714",
+ "rom_offset": 8296212,
+ "storage": "lz77",
+ "byte_length": 602,
+ "payload_byte_length": 1460,
+ "tpl_filename": "uncatalogued_archive_tpl/lz_07E9714.tpl",
+ "entry_count": 32,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u07E9714_entry_0000",
+   "source_entry_offset": 128,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "b6e0d1379cb1abd0638f61c75ce31b7f54ac26800c727b7a758755790fabba13",
+   "source_entry_raw_hex": "35 59 12 29 3a 87 62 75 62 00 2e 2a 9a a4 e5 03 a3 c8 b5 e7",
+   "source_tpl_block_sha256": "07444e17df928c6155bcadb32d4f57e497568a2cf6214a8e5dbfc20b9738b651",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ロックマン.EXE ヤミいしゃさんへ"
+   ],
+   "translated_literals": [
+    "록맨.EXE    암흑 의사님께"
+   ]
+  },
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u07E9714_entry_0001",
+   "source_entry_offset": 148,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "4d37f59d54f1d712fefd52f7f9771709ee622597aa8ef785209fdefbd5961499",
+   "source_entry_raw_hex": "45 78 12 17 34 59 45 78 00 00 0d 31 22 1a 00 d3 a4 ac a1 81 e7",
+   "source_tpl_block_sha256": "2b0fd134bb04bdf674c60744a6b93fd1c83dfcd7d0165419f2e3820b6d9da415",
+   "japanese_characters": 16,
+   "source_literals": [
+    "ダークスレッダー  ウラネタ だしとけ!"
+   ],
+   "translated_literals": [
+    "다크스레더     언더 정보 내놔!"
+   ]
+  },
+  {
+   "entry_index": 2,
+   "entry_id": "archive_u07E9714_entry_0002",
+   "source_entry_offset": 169,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "7246052294989d851ee06a86980d33e7ff6b73e7d79d7fe6d79699ce43d5d90d",
+   "source_entry_raw_hex": "11 31 78 51 32 3a 17 00 00 00 0d 36 15 02 e7",
+   "source_tpl_block_sha256": "0e3d053fe2a90659c98d9ba13e9a9582069ef8ec1f69f15b9e0b289e8aa689bd",
+   "japanese_characters": 10,
+   "source_literals": [
+    "キラープリンス   ウワサ1"
+   ],
+   "translated_literals": [
+    "킬러프린스     소문1"
+   ]
+  },
+  {
+   "entry_index": 3,
+   "entry_id": "archive_u07E9714_entry_0003",
+   "source_entry_offset": 184,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "7307b773ca06d098ae00723bda3cef7eab14efbcf0a8318f90f90ddea2c1c3a4",
+   "source_entry_raw_hex": "48 32 78 1e b7 cf c8 00 00 00 0d 36 15 03 e7",
+   "source_tpl_block_sha256": "350c6d78d3870f915c101cbf5d68fb7b12c59fd0e160b04eee2dc73d583fb7a3",
+   "japanese_characters": 10,
+   "source_literals": [
+    "デリートまじん   ウワサ2"
+   ],
+   "translated_literals": [
+    "딜리트 마인    소문2"
+   ]
+  },
+  {
+   "entry_index": 4,
+   "entry_id": "archive_u07E9714_entry_0004",
+   "source_entry_offset": 199,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "5708d635d2c85bfcce3f8f8fd5115ecfa070819c4d21dd5107f99b1864c54521",
+   "source_entry_raw_hex": "12 29 3f 35 16 b1 1d 1c 00 00 e5 17 e5 0a 7b 0d 36 15 03 e7",
+   "source_tpl_block_sha256": "d1243fecb4b04ecf42272025fe79cbe40b62bf02d20da9d92d3f312c59962144",
+   "japanese_characters": 11,
+   "source_literals": [
+    "クマゴロシのテツ  re:ウワサ2"
+   ],
+   "translated_literals": [
+    "곰잡이 테츠    re:소문2"
+   ]
+  },
+  {
+   "entry_index": 5,
+   "entry_id": "archive_u07E9714_entry_0005",
+   "source_entry_offset": 219,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "a9bd13ce1c34250645a9fe76adc8e15b89f7e74b99864c7c442a15b99d6cb82f",
+   "source_entry_raw_hex": "34 0b 1b 59 51 48 4b 33 00 00 e5 17 e5 0a 7b 0d 36 15 03 e7",
+   "source_tpl_block_sha256": "0a78e463e1741a8f217979739e02965b4763f87e258c2a091b500dbbab3874a7",
+   "japanese_characters": 11,
+   "source_literals": [
+    "レアチップデビル  re:ウワサ2"
+   ],
+   "translated_literals": [
+    "레어칩 데빌    re:소문2"
+   ]
+  },
+  {
+   "entry_index": 6,
+   "entry_id": "archive_u07E9714_entry_0006",
+   "source_entry_offset": 239,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "594b64860709ee96da95b81e41b20d2e8b11574b781ed5a2d5cbec2d914c3c51",
+   "source_entry_raw_hex": "12 2a 1b 5c 78 00 00 00 00 00 e5 17 e5 0a 7b 0d 36 15 03 e7",
+   "source_tpl_block_sha256": "11a4af5c543643c4917c6c58c5a4d82a374eac3ee2643f1a1499f162ecc88f35",
+   "japanese_characters": 8,
+   "source_literals": [
+    "クミチョー     re:ウワサ2"
+   ],
+   "translated_literals": [
+    "두목        re:소문2"
+   ]
+  },
+  {
+   "entry_index": 7,
+   "entry_id": "archive_u07E9714_entry_0007",
+   "source_entry_offset": 259,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "2fcf2e5760aa419af77d41e65512f703745247ee825d0641b05214c052209fc4",
+   "source_entry_raw_hex": "a2 c3 a4 bc a0 c8 00 00 00 00 0d 36 15 04 e7",
+   "source_tpl_block_sha256": "4e0dbc3b81239bf6076dd51ba4d0c53162a57c3b7946435ccd9223f5702147c7",
+   "japanese_characters": 9,
+   "source_literals": [
+    "ころしやくん    ウワサ3"
+   ],
+   "translated_literals": [
+    "킬러 군      소문3"
+   ]
+  },
+  {
+   "entry_index": 8,
+   "entry_id": "archive_u07E9714_entry_0008",
+   "source_entry_offset": 274,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "ff8192263b72ba33dadca4b3943cc91d38051cb0cef6094ae380e2b79032878a",
+   "source_entry_raw_hex": "12 29 3f 35 16 b1 1d 1c 00 00 e5 17 e5 0a 7b 0d 36 15 04 e7",
+   "source_tpl_block_sha256": "dac4d061ef7e078eb5dcfff1a4dbaa71e5ad00325419d89ce2d660b822a81a62",
+   "japanese_characters": 11,
+   "source_literals": [
+    "クマゴロシのテツ  re:ウワサ3"
+   ],
+   "translated_literals": [
+    "곰잡이 테츠    re:소문3"
+   ]
+  },
+  {
+   "entry_index": 9,
+   "entry_id": "archive_u07E9714_entry_0009",
+   "source_entry_offset": 294,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "c5b9247190d50de82d7936984fbc7de9097aae5f8f78237ffeafd472249475e2",
+   "source_entry_raw_hex": "48 32 78 1e b7 cf c8 00 00 00 e5 17 e5 0a 7b 0d 36 15 04 e7",
+   "source_tpl_block_sha256": "ef419b3bc328fd41c0020f608de6af46ca31a72b6478cfb9b7668dda2471c2d6",
+   "japanese_characters": 10,
+   "source_literals": [
+    "デリートまじん   re:ウワサ3"
+   ],
+   "translated_literals": [
+    "딜리트 마인    re:소문3"
+   ]
+  },
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u07E9714_entry_0010",
+   "source_entry_offset": 314,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "ff8192263b72ba33dadca4b3943cc91d38051cb0cef6094ae380e2b79032878a",
+   "source_entry_raw_hex": "12 29 3f 35 16 b1 1d 1c 00 00 e5 17 e5 0a 7b 0d 36 15 04 e7",
+   "source_tpl_block_sha256": "dbbfb17493e42286c2a593df533e1142aa7f8cfb41e4264f24dabd3e66a44f58",
+   "japanese_characters": 11,
+   "source_literals": [
+    "クマゴロシのテツ  re:ウワサ3"
+   ],
+   "translated_literals": [
+    "곰잡이 테츠    re:소문3"
+   ]
+  },
+  {
+   "entry_index": 11,
+   "entry_id": "archive_u07E9714_entry_0011",
+   "source_entry_offset": 334,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "e74c0b3c979a2a8db90cb967778c0b2a79cef06783f3e557942234989684d82c",
+   "source_entry_raw_hex": "11 31 78 51 32 3a 17 00 00 00 0d 36 15 05 e7",
+   "source_tpl_block_sha256": "52e17140b01745c7c4b3b8698f5a102ad4405cec7ad5746682cf301b1a78b26a",
+   "japanese_characters": 10,
+   "source_literals": [
+    "キラープリンス   ウワサ4"
+   ],
+   "translated_literals": [
+    "킬러프린스     소문4"
+   ]
+  },
+  {
+   "entry_index": 12,
+   "entry_id": "archive_u07E9714_entry_0012",
+   "source_entry_offset": 349,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "da1b163cad03106813985a161956170cea63d3419193dfe8d76236f3f980f406",
+   "source_entry_raw_hex": "2e 2a 4e 0d 42 00 00 00 00 00 0d 36 15 9e ad 7c e7",
+   "source_tpl_block_sha256": "c630d687eea4c92a07e3757912147f77667f0aee2c6461ecc7e96e9d10133272",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ヤミボウズ     ウワサかな?"
+   ],
+   "translated_literals": [
+    "어둠의 보즈    소문인가?"
+   ]
+  },
+  {
+   "entry_index": 13,
+   "entry_id": "archive_u07E9714_entry_0013",
+   "source_entry_offset": 366,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "8b6a074d315c1bdcb8ab04bd923a8b714509a694c11dff34e8735345acd1e339",
+   "source_entry_raw_hex": "12 2a 1b 5c 78 00 00 00 00 00 2e 2a 0c 16 5a e7",
+   "source_tpl_block_sha256": "cb1d2de2774ee51077326364eaa60bc8387895996d301214dec85af539df3434",
+   "japanese_characters": 10,
+   "source_literals": [
+    "クミチョー     ヤミイシャ"
+   ],
+   "translated_literals": [
+    "두목        암흑 의사"
+   ]
+  },
+  {
+   "entry_index": 14,
+   "entry_id": "archive_u07E9714_entry_0014",
+   "source_entry_offset": 382,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "63af4cf0afa4f7c8d75b752be06be44f5e2fbdef88c03a2aabbce4c2b3f2d6fe",
+   "source_entry_raw_hex": "12 29 3f 35 16 b1 1d 1c 00 00 e5 17 e5 0a 7b 2e 2a 0c 16 5a e7",
+   "source_tpl_block_sha256": "311af9e9758e9368d5ee602d63d85d60c6bc9e94effcdd6bd07419701ef55a61",
+   "japanese_characters": 13,
+   "source_literals": [
+    "クマゴロシのテツ  re:ヤミイシャ"
+   ],
+   "translated_literals": [
+    "곰잡이 테츠    re:암흑 의사"
+   ]
+  },
+  {
+   "entry_index": 15,
+   "entry_id": "archive_u07E9714_entry_0015",
+   "source_entry_offset": 403,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "ca48740e3d55475ccfed3d4b8d4050760f7e8c4c905b0c20e6abafc65727a07f",
+   "source_entry_raw_hex": "2e 2a 4e 0d 42 00 00 00 00 00 99 9d 9a 1f 4b b1 a2 ac e7",
+   "source_tpl_block_sha256": "66b9c6b20e56552fde26615a5f405050c43245db17ee5ed5a56da97dd1e8be97",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ヤミボウズ     あおいナビのこと"
+   ],
+   "translated_literals": [
+    "어둠의 보즈    파란 내비 얘기"
+   ]
+  },
+  {
+   "entry_index": 16,
+   "entry_id": "archive_u07E9714_entry_0016",
+   "source_entry_offset": 422,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "1b6d71d4ae4e6638ee2598439e09e7dd56e900f5e25b8ca7c8d278cd34d93757",
+   "source_entry_raw_hex": "48 32 78 1e b7 cf c8 00 00 00 0d 36 15 06 e7",
+   "source_tpl_block_sha256": "c094f7346ab511322a3c97a426793fe4b8d0cabaca4ffe0b743f3c5d13b157b5",
+   "japanese_characters": 10,
+   "source_literals": [
+    "デリートまじん   ウワサ5"
+   ],
+   "translated_literals": [
+    "딜리트 마인    소문5"
+   ]
+  },
+  {
+   "entry_index": 17,
+   "entry_id": "archive_u07E9714_entry_0017",
+   "source_entry_offset": 437,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "28ec485a2d6af12e00e2564aa4d4dd7014e6a6484ff9d047c7330ee9fb55fe5d",
+   "source_entry_raw_hex": "12 29 3f 35 16 b1 1d 1c 00 00 e5 17 e5 0a 7b 0d 36 15 06 e7",
+   "source_tpl_block_sha256": "d561131e620d5ba5761c49cb389df9bfa0a851142064dc5eb5558eba4a244235",
+   "japanese_characters": 11,
+   "source_literals": [
+    "クマゴロシのテツ  re:ウワサ5"
+   ],
+   "translated_literals": [
+    "곰잡이 테츠    re:소문5"
+   ]
+  },
+  {
+   "entry_index": 18,
+   "entry_id": "archive_u07E9714_entry_0018",
+   "source_entry_offset": 457,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "2d84cfa2876ad755037335dc083647beed9133ac7f639a31d6e2997a8b1509d5",
+   "source_entry_raw_hex": "12 2a 1b 5c 78 00 00 00 00 00 e5 17 e5 0a 7b 0d 36 15 06 e7",
+   "source_tpl_block_sha256": "5348b7867343836ffa62d202aef4b2147b1bb67bd825d297732bce7bcc18cc0b",
+   "japanese_characters": 8,
+   "source_literals": [
+    "クミチョー     re:ウワサ5"
+   ],
+   "translated_literals": [
+    "두목        re:소문5"
+   ]
+  },
+  {
+   "entry_index": 19,
+   "entry_id": "archive_u07E9714_entry_0019",
+   "source_entry_offset": 477,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "ea3eb1159ded944ce39c7ca03b3ee89637a9f872524bae58f0fdb11a9c16fbe4",
+   "source_entry_raw_hex": "34 0b 1b 59 51 48 4b 33 00 00 e5 17 e5 0a 7b 0d 36 15 06 e7",
+   "source_tpl_block_sha256": "8e42bb163ff41d6da01add1ca2fb5d42b8895695ee59a3b5fe4b99822d2ab2e2",
+   "japanese_characters": 11,
+   "source_literals": [
+    "レアチップデビル  re:ウワサ5"
+   ],
+   "translated_literals": [
+    "레어칩 데빌    re:소문5"
+   ]
+  },
+  {
+   "entry_index": 20,
+   "entry_id": "archive_u07E9714_entry_0020",
+   "source_entry_offset": 497,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "608f2f6fbf6243d07af5761705ee23edb467bdb6db808514256b0021690f72c6",
+   "source_entry_raw_hex": "bb ac 74 74 74 1f 4b 00 00 00 e5 17 e5 0a 7b 0d 36 15 06 e7",
+   "source_tpl_block_sha256": "f3a89ce12562b85a8d7ad87e48e4380787b59f897abc54c31c443a6d131f43e0",
+   "japanese_characters": 7,
+   "source_literals": [
+    "もとWWWナビ   re:ウワサ5"
+   ],
+   "translated_literals": [
+    "전 WWW 내비  re:소문5"
+   ]
+  },
+  {
+   "entry_index": 21,
+   "entry_id": "archive_u07E9714_entry_0021",
+   "source_entry_offset": 517,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "5c7398023a8ba1e0215010de5d04b8e7f0308d3381a19b94b8d1fe88bce32ba2",
+   "source_entry_raw_hex": "a2 c3 a4 bc a0 c8 00 00 00 00 e5 17 e5 0a 7b 0d 36 15 06 e7",
+   "source_tpl_block_sha256": "495904265459b71600536f448cc442a4d08452b9525b3b008cf53f38cd9bef48",
+   "japanese_characters": 9,
+   "source_literals": [
+    "ころしやくん    re:ウワサ5"
+   ],
+   "translated_literals": [
+    "킬러 군      re:소문5"
+   ]
+  },
+  {
+   "entry_index": 22,
+   "entry_id": "archive_u07E9714_entry_0022",
+   "source_entry_offset": 537,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "f7929d0eac301ac49a4f7e5de7d5ab8d35d30a866118874988afa4506e5c5847",
+   "source_entry_raw_hex": "0f 20 2b 16 5a 00 00 00 00 00 0d 36 15 07 e7",
+   "source_tpl_block_sha256": "1a10c17576614418856e588d02a58c7e414f313fbdc05e9a0351417dd58d1250",
+   "japanese_characters": 8,
+   "source_literals": [
+    "オニムシャ     ウワサ6"
+   ],
+   "translated_literals": [
+    "오니무샤      소문6"
+   ]
+  },
+  {
+   "entry_index": 23,
+   "entry_id": "archive_u07E9714_entry_0023",
+   "source_entry_offset": 552,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "4b408462782099b99aa4dac1b60c00ec08474ca493bf7473763776b58b3fc153",
+   "source_entry_raw_hex": "12 2a 1b 5c 78 00 00 00 00 00 e5 17 e5 0a 7b 0d 36 15 07 e7",
+   "source_tpl_block_sha256": "0dcacb2b8ddc202841b8cbecb216592b85cf26bc4173326b47dbec6a5e196c05",
+   "japanese_characters": 8,
+   "source_literals": [
+    "クミチョー     re:ウワサ6"
+   ],
+   "translated_literals": [
+    "두목        re:소문6"
+   ]
+  },
+  {
+   "entry_index": 24,
+   "entry_id": "archive_u07E9714_entry_0024",
+   "source_entry_offset": 572,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "d068e3b6f097d3601fd777a5ba0e4992cce3d775561fc697f631e1d547e700a1",
+   "source_entry_raw_hex": "11 31 78 51 32 3a 17 00 00 00 0d 36 15 08 e7",
+   "source_tpl_block_sha256": "f8bc4c9bdc4d2f8d9a8276d8293891327d438b554f4d0d2e96a1347b0a379386",
+   "japanese_characters": 10,
+   "source_literals": [
+    "キラープリンス   ウワサ7"
+   ],
+   "translated_literals": [
+    "킬러프린스     소문7"
+   ]
+  },
+  {
+   "entry_index": 25,
+   "entry_id": "archive_u07E9714_entry_0025",
+   "source_entry_offset": 587,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "8569077183fbf7cbe6f33ac38ebcbb5c8791c80034eddd5d4a21d7598c99c1f1",
+   "source_entry_raw_hex": "1f 4b 41 3f 35 78 00 00 00 00 0d 36 15 09 e7",
+   "source_tpl_block_sha256": "3a2154d73b1ae1c3f206acab222dc108a2df8fe47752e50bd01c25d9e9565480",
+   "japanese_characters": 9,
+   "source_literals": [
+    "ナビジゴロー    ウワサ8"
+   ],
+   "translated_literals": [
+    "내비지골로     소문8"
+   ]
+  },
+  {
+   "entry_index": 26,
+   "entry_id": "archive_u07E9714_entry_0026",
+   "source_entry_offset": 602,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "7812314f766ffc265a9cf524ca28f7781f90a957af5bc94c8e1745240c70e1a1",
+   "source_entry_raw_hex": "24 1d 1f 24 3a 00 00 00 00 00 0d 36 15 0a e7",
+   "source_tpl_block_sha256": "f383b004f457721e69941ff2c230f46b540a85e3ad7ec8cee1113d865a5ca596",
+   "japanese_characters": 8,
+   "source_literals": [
+    "ハテナハン     ウワサ9"
+   ],
+   "translated_literals": [
+    "하테나한      소문9"
+   ]
+  },
+  {
+   "entry_index": 27,
+   "entry_id": "archive_u07E9714_entry_0027",
+   "source_entry_offset": 617,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "e9825131beaf5fcea622226ffa1cfed60a4e4e94a42852fd4fd023b95e8102a6",
+   "source_entry_raw_hex": "12 2a 1b 5c 78 00 00 00 00 00 e5 17 e5 0a 7b 0d 36 15 0a e7",
+   "source_tpl_block_sha256": "1a62acc9b3da01d42644a53b35512ab9132880217735801265310fce9b8dff8c",
+   "japanese_characters": 8,
+   "source_literals": [
+    "クミチョー     re:ウワサ9"
+   ],
+   "translated_literals": [
+    "두목        re:소문9"
+   ]
+  },
+  {
+   "entry_index": 28,
+   "entry_id": "archive_u07E9714_entry_0028",
+   "source_entry_offset": 637,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "be999f476fe5546d65a0ed5d11dc4bc8c1ea860e5560273b08a68a80beb369d1",
+   "source_entry_raw_hex": "00 00 00 00 00 00 00 00 00 00 a2 b1 10 9f 14 b8 c7 88 88 88 e7",
+   "source_tpl_block_sha256": "b68df598ac994558b5bd720acd785080a1cefa1be0456e20dd72be149716ab52",
+   "japanese_characters": 10,
+   "source_literals": [
+    "          このカきコみを・・・"
+   ],
+   "translated_literals": [
+    "          이 글을..."
+   ]
+  },
+  {
+   "entry_index": 29,
+   "entry_id": "archive_u07E9714_entry_0029",
+   "source_entry_offset": 658,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "5b811d8ead7d5d3f76becb4eb3a2a1c422af8b31fbc8dedab97a377e5e028ea9",
+   "source_entry_raw_hex": "00 00 00 00 00 00 00 00 00 00 2a a8 2e 1c b2 88 88 88 e7",
+   "source_tpl_block_sha256": "09aa0efd4572bed5847027382d81821983944dff4871bae22d56b1d49ff23864",
+   "japanese_characters": 8,
+   "source_literals": [
+    "          ミたヤツは・・・"
+   ],
+   "translated_literals": [
+    "          본 녀석은..."
+   ]
+  },
+  {
+   "entry_index": 30,
+   "entry_id": "archive_u07E9714_entry_0030",
+   "source_entry_offset": 677,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "43bb0dcc5b74ddd9c755b8489a1602974d888a993dddd15990704536ec0c0b98",
+   "source_entry_raw_hex": "00 00 00 00 00 00 00 00 00 00 43 3a 0c 3a 88 88 88 e7",
+   "source_tpl_block_sha256": "cc6dcd4a814b855e74d5ffe3ffb76f95856648ee87192bb8433c68f2917608ad",
+   "japanese_characters": 7,
+   "source_literals": [
+    "          ゼンイン・・・"
+   ],
+   "translated_literals": [
+    "          전원..."
+   ]
+  },
+  {
+   "entry_index": 31,
+   "entry_id": "archive_u07E9714_entry_0031",
+   "source_entry_offset": 695,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "aea3d65bd801982de49e48d475898fb60f23690c3ec3b74eba9b43ee7f3b9c5d",
+   "source_entry_raw_hex": "00 00 00 00 00 00 00 00 00 00 48 32 78 1e a3 c2 c1 88 88 88 e7",
+   "source_tpl_block_sha256": "a3322061e5d2d1d41563b88364e8ca03a17fc63dbd0bbd79347ddb7a76581453",
+   "japanese_characters": 10,
+   "source_literals": [
+    "          デリートされる・・・"
+   ],
+   "translated_literals": [
+    "          딜리트된다..."
+   ]
+  }
+ ]
+}

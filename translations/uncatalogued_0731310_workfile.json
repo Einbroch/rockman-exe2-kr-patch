@@ -1,0 +1,622 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/0731310",
+ "entry_prefix": "archive_u0731310",
+ "rom_offset": 7541520,
+ "byte_length": 2343,
+ "tpl_filename": "uncatalogued_archive_tpl/0731310.tpl",
+ "entry_count": 37,
+ "entries": [
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u0731310_entry_0001",
+   "source_entry_offset": 91,
+   "source_entry_byte_length": 41,
+   "source_entry_sha256": "19c71aa518f36d974d19edd9ab8beb0446535b44073d735d56443c64070eeec7",
+   "source_entry_raw_hex": "ed 00 00 f1 00 35 59 12 29 3a 81 e8 aa 9a 9e b1 00 1b 59 51 48 78 1a 00 9d a0 c1 9e bf e8 02 1a 78 3a b7 e5 02 ab 81 eb e7",
+   "source_tpl_block_sha256": "24ad05877a6ea7e725fa3b12e17d0524a112cd8f4266d5891368cf67635da5ef",
+   "japanese_characters": 26,
+   "source_literals": [
+    "ロックマン!\nついかの チップデータ おくるから\n1ターンまって!"
+   ],
+   "translated_literals": [
+    "록맨!\n추가 칩 데이터 보낼 테니\n한 턴만 기다려!"
+   ]
+  },
+  {
+   "entry_index": 2,
+   "entry_id": "archive_u0731310_entry_0002",
+   "source_entry_offset": 132,
+   "source_entry_byte_length": 52,
+   "source_entry_sha256": "e47a015a31a46a30940facf3ef8b81ad201b1b3592a16b9d8fa19116f0a36b11",
+   "source_entry_raw_hex": "ed 00 40 f1 00 e5 93 e5 94 a0 c8 85 a2 a2 b2 ae cc a8 e5 ce c9 9a 9a 9e ad 7c e8 ef 01 00 ee 00 02 b2 9a 00 ef 01 11 ee 00 02 9a 9a 9c f0 06 80 ff ff ff e7",
+   "source_tpl_block_sha256": "67581d08175cfa2c352e11f5ed364fc8ca1cd97a6c23b8b9cb0a8155b62cabee",
+   "japanese_characters": 21,
+   "source_literals": [
+    "熱斗くん、ここはにげた方がいいかな?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "넷토, 여기선 도망치는 게 좋을까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 3,
+   "entry_id": "archive_u0731310_entry_0003",
+   "source_entry_offset": 184,
+   "source_entry_byte_length": 41,
+   "source_entry_sha256": "b2748156809d27b37007eb49cbf300bae49f70dc90833f6c1b73dbc3a1c1e3c6",
+   "source_entry_raw_hex": "ed 00 40 f1 00 ea 00 12 00 88 ea 00 12 00 88 ea 00 12 00 88 ea 00 12 00 be a4 81 e8 ad c8 ac 9e ae cc 9f c2 a8 be 81 eb e7",
+   "source_tpl_block_sha256": "00ca86e1bf3fdccce3599cc8e10e90a1d4bfd467a6180d9e8772f9a2621ea4d2",
+   "japanese_characters": 15,
+   "source_literals": [
+    "・",
+    "・",
+    "・",
+    "よし!\nなんとかにげきれたよ!"
+   ],
+   "translated_literals": [
+    "・",
+    "・",
+    "・",
+    "좋아!\n어떻게든 도망쳤어!"
+   ]
+  },
+  {
+   "entry_index": 4,
+   "entry_id": "archive_u0731310_entry_0004",
+   "source_entry_offset": 225,
+   "source_entry_byte_length": 41,
+   "source_entry_sha256": "855fdd9168352a021d26475116e85a0f11c7a92485ca538b09e85d2272f75f2a",
+   "source_entry_raw_hex": "ed 00 40 f1 00 ea 00 12 00 88 ea 00 12 00 88 ea 00 12 00 88 ea 00 12 00 45 2c d3 81 e8 ae cc 9f c2 ad 9a 88 88 88 81 eb e7",
+   "source_tpl_block_sha256": "d5634c0e36d19967beb532a1bfcebb18948efd5dbd68e6cd0798f90c4c9ed913",
+   "japanese_characters": 15,
+   "source_literals": [
+    "・",
+    "・",
+    "・",
+    "ダメだ!\nにげきれない・・・!"
+   ],
+   "translated_literals": [
+    "・",
+    "・",
+    "・",
+    "안 돼!\n도망칠 수 없어...!"
+   ]
+  },
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u0731310_entry_0010",
+   "source_entry_offset": 303,
+   "source_entry_byte_length": 11,
+   "source_entry_sha256": "19758b35bec8e192756d5f262f98e5786191516127c5181a62843ed0ff33ec52",
+   "source_entry_raw_hex": "00 00 00 00 65 6d 29 59 12 17 e7",
+   "source_tpl_block_sha256": "a21ebadf1d8eda1e3b184a560be9b9a22ba96f7e6e72fe28bb5229e04c7197dc",
+   "japanese_characters": 4,
+   "source_literals": [
+    "    HPマックス"
+   ],
+   "translated_literals": [
+    "    HP 최대"
+   ]
+  },
+  {
+   "entry_index": 11,
+   "entry_id": "archive_u0731310_entry_0011",
+   "source_entry_offset": 314,
+   "source_entry_byte_length": 33,
+   "source_entry_sha256": "6b7b0fd2733d0dffe36390c47b74d36344ea97ccdffbbfa5295ed77bc8c28963",
+   "source_entry_raw_hex": "ed 00 40 f1 00 aa 9b a4 c8 0e 31 78 d3 88 88 88 e8 a6 c8 ac 9b c7 a9 e5 04 9b a4 a5 c1 b0 eb e7 05",
+   "source_tpl_block_sha256": "4d0da647e0c281129c58b77380facd1eca1b044062ab073a9df4be258d2b8ac6",
+   "japanese_characters": 23,
+   "source_literals": [
+    "つうしんエラーだ・・・\nせんとうをちゅうしするね",
+    "4"
+   ],
+   "translated_literals": [
+    "통신 에러다...\n전투를 중지할게",
+    "4"
+   ]
+  },
+  {
+   "entry_index": 13,
+   "entry_id": "archive_u0731310_entry_0013",
+   "source_entry_offset": 350,
+   "source_entry_byte_length": 60,
+   "source_entry_sha256": "d7a402f377d268eed1838e203ef4469966f8245953d807c3ec855ff30ada3dae",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0e 34 11 3b 59 1c 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 31 4b 32 3a 3d b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "63a91929ea0ce3f0afe950bce71f22d15e9a147b276bad181e99fefadea50740",
+   "japanese_characters": 38,
+   "source_literals": [
+    "エレキガッツスタイルのレベルが\n2になった! チャージ攻撃の\nラビリングの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "일렉 거츠 스타일의 레벨이\n2가 됐다! 차지 공격인\n라비링의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 14,
+   "entry_id": "archive_u0731310_entry_0014",
+   "source_entry_offset": 410,
+   "source_entry_byte_length": 65,
+   "source_entry_sha256": "b15737f1edc13de68556fa4a2affd44db8f74dca4b844be0a2657d1b36f849d2",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0e 34 11 3b 59 1c 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 31 4b 32 3a 3d b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "97aa52abb12d4237b6ec235eb056ccb42aa04ca769f241a7223a06689e827cce",
+   "japanese_characters": 38,
+   "source_literals": [
+    "エレキガッツスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nラビリングの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "일렉 거츠 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n라비링의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 15,
+   "entry_id": "archive_u0731310_entry_0015",
+   "source_entry_offset": 475,
+   "source_entry_byte_length": 64,
+   "source_entry_sha256": "d427792918c311abf80ffac7432d87dac686a8d9e796e5f9e5c2c580eed13803",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 25 78 1e 3b 59 1c 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 9e 9c c8 b6 9b a4 e5 03 9f b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "2c1942ff29ef3fd5e50d6eec28c069171725c5402a8e573bc487dba8cd2d44b3",
+   "japanese_characters": 41,
+   "source_literals": [
+    "ヒートガッツスタイルのレベルが\n2になった! チャージ攻撃の\nかえんほうしゃきの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "히트 거츠 스타일의 레벨이\n2가 됐다! 차지 공격인\n화염방사기의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 16,
+   "entry_id": "archive_u0731310_entry_0016",
+   "source_entry_offset": 539,
+   "source_entry_byte_length": 69,
+   "source_entry_sha256": "3078f76febeafeaa765c0b1359fd3c0c1da4ffab073262f03aaabe1f51a6fb0c",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 25 78 1e 3b 59 1c 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 9e 9c c8 b6 9b a4 e5 03 9f b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "72a6d2be71b96f980de4e1e29faa16e5a737312ca1b1033bcb9dcdf3471be363",
+   "japanese_characters": 41,
+   "source_literals": [
+    "ヒートガッツスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nかえんほうしゃきの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "히트 거츠 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n화염방사기의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 17,
+   "entry_id": "archive_u0731310_entry_0017",
+   "source_entry_offset": 608,
+   "source_entry_byte_length": 62,
+   "source_entry_sha256": "7b293647e692ccb47d71e6c20b45e2cb9ff58efb07e9afbf4de31927a677b4f7",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0b 12 0b 3b 59 1c 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 4a 4c 33 16 5c 59 1e b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "227ac136843e88eecc5e58aaafb9c1a2debc4893e980bb4b99b116e765a4d125",
+   "japanese_characters": 40,
+   "source_literals": [
+    "アクアガッツスタイルのレベルが\n2になった! チャージ攻撃の\nバブルショットの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "아쿠아 거츠 스타일의 레벨이\n2가 됐다! 차지 공격인\n버블 샷의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 18,
+   "entry_id": "archive_u0731310_entry_0018",
+   "source_entry_offset": 670,
+   "source_entry_byte_length": 67,
+   "source_entry_sha256": "a7fa50eae04720b2c60b861ba97eb5446db8b9abb3aa7ebe777a7b03ef4bcc86",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0b 12 0b 3b 59 1c 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 4a 4c 33 16 5c 59 1e b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "6a1111b2c37bca7ebc6657bd43de61e59932c295f69eee7e3128b5b71313b8e0",
+   "japanese_characters": 40,
+   "source_literals": [
+    "アクアガッツスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nバブルショットの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "아쿠아 거츠 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n버블 샷의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 19,
+   "entry_id": "archive_u0731310_entry_0019",
+   "source_entry_offset": 737,
+   "source_entry_byte_length": 59,
+   "source_entry_sha256": "5f5fad43077cef9c31f7f2c9ef7d61c61b77b3f5b110dcdaab7f17421373aa61",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0d 59 49 3b 59 1c 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 14 3b 31 16 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "140dbfd59a3de632f358d2ca4849059804ba5ca642f7f06731bff9e8144e34ae",
+   "japanese_characters": 37,
+   "source_literals": [
+    "ウッドガッツスタイルのレベルが\n2になった! チャージ攻撃の\nコガラシの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "우드 거츠 스타일의 레벨이\n2가 됐다! 차지 공격인\n코가라시의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 20,
+   "entry_id": "archive_u0731310_entry_0020",
+   "source_entry_offset": 796,
+   "source_entry_byte_length": 64,
+   "source_entry_sha256": "b2473bcda9342c42771a119e94ee48445569ab34f415e57a9693605fe349e658",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0d 59 49 3b 59 1c 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 14 3b 31 16 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "4ba210cb58ae1b46171772410de6276630231457b8b514cb8c4dc3860aa8331e",
+   "japanese_characters": 37,
+   "source_literals": [
+    "ウッドガッツスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nコガラシの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "우드 거츠 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n코가라시의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 21,
+   "entry_id": "archive_u0731310_entry_0021",
+   "source_entry_offset": 860,
+   "source_entry_byte_length": 61,
+   "source_entry_sha256": "1c02708d954e750ff90dd961b66ec9e0c2e7f9a61e61d58b76ae45a771702982",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0e 34 11 10 17 1a 2b 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 31 4b 32 3a 3d b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "154fb88cceb597c22ad28cd048b747a7d7aee3b1e2f25711a8373730ffed160d",
+   "japanese_characters": 39,
+   "source_literals": [
+    "エレキカスタムスタイルのレベルが\n2になった! チャージ攻撃の\nラビリングの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "일렉 커스텀 스타일의 레벨이\n2가 됐다! 차지 공격인\n라비링의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 22,
+   "entry_id": "archive_u0731310_entry_0022",
+   "source_entry_offset": 921,
+   "source_entry_byte_length": 66,
+   "source_entry_sha256": "68bb2bd7780d14b536db8ae38a27fb1815435ae942e5b6999a06c6d53d85b697",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0e 34 11 10 17 1a 2b 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 31 4b 32 3a 3d b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "16cc8b1a349c6d8ff0ee9b0b43c2b0bb5f175f32e9f28e52f23c397d07c0ffa5",
+   "japanese_characters": 39,
+   "source_literals": [
+    "エレキカスタムスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nラビリングの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "일렉 커스텀 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n라비링의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 23,
+   "entry_id": "archive_u0731310_entry_0023",
+   "source_entry_offset": 987,
+   "source_entry_byte_length": 64,
+   "source_entry_sha256": "f88d2e19dd2d9d92c6c4c1dce786a9ac3df98dfe54500d63ec24c71147a6ee97",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 25 78 1e 10 17 1a 2b 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 9e 9c c8 b6 9b a4 e5 03 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "c003edef6842e4101329207520677ac9cc5f1f8030530639471fda4e0f4ae2f4",
+   "japanese_characters": 41,
+   "source_literals": [
+    "ヒートカスタムスタイルのレベルが\n2になった! チャージ攻撃の\nかえんほうしゃの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "히트 커스텀 스타일의 레벨이\n2가 됐다! 차지 공격인\n화염방사기의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 24,
+   "entry_id": "archive_u0731310_entry_0024",
+   "source_entry_offset": 1051,
+   "source_entry_byte_length": 69,
+   "source_entry_sha256": "10b722d82d9b5cefd2393b940dd929b2eeec620a7191bcd1aa305233e770ed94",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 25 78 1e 10 17 1a 2b 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 9e 9c c8 b6 9b a4 e5 03 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "d048d6faa53bd816e34350c1839c2be5677c9849e6a47fa99792e6acf1c9fdfb",
+   "japanese_characters": 41,
+   "source_literals": [
+    "ヒートカスタムスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nかえんほうしゃの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "히트 커스텀 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n화염방사기의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 25,
+   "entry_id": "archive_u0731310_entry_0025",
+   "source_entry_offset": 1120,
+   "source_entry_byte_length": 63,
+   "source_entry_sha256": "50d570f0deeee4782b1772670346a87c9e5c73daf788c6d5efac9ca43d138403",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0b 12 0b 10 17 1a 2b 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 4a 4c 33 16 5c 59 1e b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "e8a3411cc4767e51498849a818352880ea69d5ee4b2bdbe7c9e74809be40aacf",
+   "japanese_characters": 41,
+   "source_literals": [
+    "アクアカスタムスタイルのレベルが\n2になった! チャージ攻撃の\nバブルショットの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "아쿠아 커스텀 스타일의 레벨이\n2가 됐다! 차지 공격인\n버블 샷의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 26,
+   "entry_id": "archive_u0731310_entry_0026",
+   "source_entry_offset": 1183,
+   "source_entry_byte_length": 68,
+   "source_entry_sha256": "986e3e8b68eb157199b8d67c7497161eaa0d029cd99aa8501c994b5cdd88c1d0",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0b 12 0b 10 17 1a 2b 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 4a 4c 33 16 5c 59 1e b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "7ab83de2a64d31f353e812994bd704c5dc4c1b51702152a77d8925e36a82ffb5",
+   "japanese_characters": 41,
+   "source_literals": [
+    "アクアカスタムスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nバブルショットの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "아쿠아 커스텀 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n버블 샷의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 27,
+   "entry_id": "archive_u0731310_entry_0027",
+   "source_entry_offset": 1251,
+   "source_entry_byte_length": 60,
+   "source_entry_sha256": "a587653026024204df13e37d6666aa40cbcbf95a4705da5ccf33bb28366b83af",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0d 59 49 10 17 1a 2b 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 14 3b 31 16 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "caa9869cc7aea16db53481a3d2cecd4dbb9f269d709c2851d26af9d009fae907",
+   "japanese_characters": 38,
+   "source_literals": [
+    "ウッドカスタムスタイルのレベルが\n2になった! チャージ攻撃の\nコガラシの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "우드 커스텀 스타일의 레벨이\n2가 됐다! 차지 공격인\n코가라시의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 28,
+   "entry_id": "archive_u0731310_entry_0028",
+   "source_entry_offset": 1311,
+   "source_entry_byte_length": 65,
+   "source_entry_sha256": "7f372275e207734be9e143c9260b2498ed5066124a9d8d755e40d161338abd1e",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0d 59 49 10 17 1a 2b 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 14 3b 31 16 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "4cfedff3d2a1677c63a70657cba6d7bdf7b4b10aa5f13191876ed4ba5f733c05",
+   "japanese_characters": 38,
+   "source_literals": [
+    "ウッドカスタムスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nコガラシの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "우드 커스텀 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n코가라시의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 29,
+   "entry_id": "archive_u0731310_entry_0029",
+   "source_entry_offset": 1376,
+   "source_entry_byte_length": 61,
+   "source_entry_sha256": "ef3004cf7967b8d6a3be54b4156d8a52fe3e9e6aaa99d5d9f8f5f6a5bd8fcfb9",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0e 34 11 4c 31 40 78 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 31 4b 32 3a 3d b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "16e412b443e3b6a7be8453778e071e233471649efa94d40eea7228e72a5e5faa",
+   "japanese_characters": 39,
+   "source_literals": [
+    "エレキブラザースタイルのレベルが\n2になった! チャージ攻撃の\nラビリングの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "일렉 브라더 스타일의 레벨이\n2가 됐다! 차지 공격인\n라비링의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 30,
+   "entry_id": "archive_u0731310_entry_0030",
+   "source_entry_offset": 1437,
+   "source_entry_byte_length": 66,
+   "source_entry_sha256": "d1b087d491fef8390476f646b1d45268377298ff2d90259ca77f4df4159b2beb",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0e 34 11 4c 31 40 78 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 31 4b 32 3a 3d b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "8b81ca604f68532d672f665eeb845c2dc7c700d7bb6df2556b2cb234f41c2e76",
+   "japanese_characters": 39,
+   "source_literals": [
+    "エレキブラザースタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nラビリングの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "일렉 브라더 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n라비링의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 31,
+   "entry_id": "archive_u0731310_entry_0031",
+   "source_entry_offset": 1503,
+   "source_entry_byte_length": 64,
+   "source_entry_sha256": "cd16ac560355cddc679bed91f1f35e209bc29bf1a84d2ceaa7b4165ec4397e72",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 25 78 1e 4c 31 40 78 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 9e 9c c8 b6 9b a4 e5 03 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "e55bf771bdd6fbd3d531145564a7015088ff8163530d7d3863238e2fd5468637",
+   "japanese_characters": 41,
+   "source_literals": [
+    "ヒートブラザースタイルのレベルが\n2になった! チャージ攻撃の\nかえんほうしゃの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "히트 브라더 스타일의 레벨이\n2가 됐다! 차지 공격인\n화염방사기의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 32,
+   "entry_id": "archive_u0731310_entry_0032",
+   "source_entry_offset": 1567,
+   "source_entry_byte_length": 69,
+   "source_entry_sha256": "51fa2f79c27260f5a278c422780fd4b1945ffa33960e051a5f32d77b33e57716",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 25 78 1e 4c 31 40 78 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 9e 9c c8 b6 9b a4 e5 03 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "35bd96a7c04eb10c1bcbad3f5fa12f83db66598369d2cec062a28add40cb15a2",
+   "japanese_characters": 41,
+   "source_literals": [
+    "ヒートブラザースタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nかえんほうしゃの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "히트 브라더 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n화염방사기의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 33,
+   "entry_id": "archive_u0731310_entry_0033",
+   "source_entry_offset": 1636,
+   "source_entry_byte_length": 63,
+   "source_entry_sha256": "5f6d1aaf70718989a58b76889e90deb0b31ecf02792d31d5c2096782341df614",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0b 12 0b 4c 31 40 78 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 4a 4c 33 16 5c 59 1e b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "b72dcac7d12d8f98ff439148125da2c77996b2eefd9bfc1b98cc6c8ffb7fa22d",
+   "japanese_characters": 41,
+   "source_literals": [
+    "アクアブラザースタイルのレベルが\n2になった! チャージ攻撃の\nバブルショットの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "아쿠아 브라더 스타일의 레벨이\n2가 됐다! 차지 공격인\n버블 샷의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 34,
+   "entry_id": "archive_u0731310_entry_0034",
+   "source_entry_offset": 1699,
+   "source_entry_byte_length": 68,
+   "source_entry_sha256": "d9d52734bb4324549e577d1ac8ee729a1591aadd8e9cf306c3069362946b0d93",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0b 12 0b 4c 31 40 78 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 4a 4c 33 16 5c 59 1e b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "33621c99a4e88fc8c907e3fa39b1b997877ace7f669dfb049e558931b12cf967",
+   "japanese_characters": 41,
+   "source_literals": [
+    "アクアブラザースタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nバブルショットの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "아쿠아 브라더 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n버블 샷의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 35,
+   "entry_id": "archive_u0731310_entry_0035",
+   "source_entry_offset": 1767,
+   "source_entry_byte_length": 60,
+   "source_entry_sha256": "87f4a9731ecda5e865f784475ab0a651638138e61aaf945fb70df7e7f10313b0",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0d 59 49 4c 31 40 78 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 14 3b 31 16 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "545b5e51cd25f8e7fc1bfd4968da3cb805a5cff7031c08842df6724604f17cdf",
+   "japanese_characters": 38,
+   "source_literals": [
+    "ウッドブラザースタイルのレベルが\n2になった! チャージ攻撃の\nコガラシの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "우드 브라더 스타일의 레벨이\n2가 됐다! 차지 공격인\n코가라시의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 36,
+   "entry_id": "archive_u0731310_entry_0036",
+   "source_entry_offset": 1827,
+   "source_entry_byte_length": 65,
+   "source_entry_sha256": "d7c7aafe7d2a5cbf80c08689823255755ce24455f3ac7fe02ad922221a4635b7",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0d 59 49 4c 31 40 78 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 14 3b 31 16 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "5cee0010c1c289e2ac2dc2aa74ecc649ee2c0cea1101397b18fa1f1123d93114",
+   "japanese_characters": 38,
+   "source_literals": [
+    "ウッドブラザースタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nコガラシの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "우드 브라더 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n코가라시의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 37,
+   "entry_id": "archive_u0731310_entry_0037",
+   "source_entry_offset": 1892,
+   "source_entry_byte_length": 61,
+   "source_entry_sha256": "4e9a46e0f566be564b0a4d825a65fffe841bfb05e3d42c24c4321cf7b4dff9e3",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0e 34 11 16 78 33 49 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 31 4b 32 3a 3d b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "2275b32ac6eb5fbb60a5f7e0689a2abd8099595f15794258e1e02e063b4f04cf",
+   "japanese_characters": 39,
+   "source_literals": [
+    "エレキシールドスタイルのレベルが\n2になった! チャージ攻撃の\nラビリングの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "일렉 실드 스타일의 레벨이\n2가 됐다! 차지 공격인\n라비링의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 38,
+   "entry_id": "archive_u0731310_entry_0038",
+   "source_entry_offset": 1953,
+   "source_entry_byte_length": 66,
+   "source_entry_sha256": "b0db4faaf570fa4a893c1f346a9e373b9aba178b26abadb97afa9300b87a260f",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0e 34 11 16 78 33 49 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 31 4b 32 3a 3d b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "fc5e085afb3fa932a95be35e4146c0537ae937a3eed0f42806e82add9410c1fd",
+   "japanese_characters": 39,
+   "source_literals": [
+    "エレキシールドスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nラビリングの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "일렉 실드 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n라비링의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 39,
+   "entry_id": "archive_u0731310_entry_0039",
+   "source_entry_offset": 2019,
+   "source_entry_byte_length": 64,
+   "source_entry_sha256": "3e74737e1956492e95c6fe360fb1abb6614410e74ae1faba439317311858d7e0",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 25 78 1e 16 78 33 49 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 9e 9c c8 b6 9b a4 e5 03 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "04f902c12ba56d91e1d8ea73b9b319a13774bdd17b21896a3446631cc4c8e0de",
+   "japanese_characters": 41,
+   "source_literals": [
+    "ヒートシールドスタイルのレベルが\n2になった! チャージ攻撃の\nかえんほうしゃの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "히트 실드 스타일의 레벨이\n2가 됐다! 차지 공격인\n화염방사기의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 40,
+   "entry_id": "archive_u0731310_entry_0040",
+   "source_entry_offset": 2083,
+   "source_entry_byte_length": 69,
+   "source_entry_sha256": "97b7d08900cf10175ec8a36170cbb717b3c80876a4a6656337b4974a35eca46a",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 25 78 1e 16 78 33 49 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 9e 9c c8 b6 9b a4 e5 03 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "84439e60b968ac6929bfa47c6ec8886ac5937d7a14241d4c656870ca8af13fb5",
+   "japanese_characters": 41,
+   "source_literals": [
+    "ヒートシールドスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nかえんほうしゃの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "히트 실드 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n화염방사기의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 41,
+   "entry_id": "archive_u0731310_entry_0041",
+   "source_entry_offset": 2152,
+   "source_entry_byte_length": 63,
+   "source_entry_sha256": "8ea7e04363a3d6e01124137daeb976aafc6e308c9f5579d8866cce9454ed1c73",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0b 12 0b 16 78 33 49 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 4a 4c 33 16 5c 59 1e b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "6cad2fdf3d296b3ca6c2022a4bfec0b92e150f9c000ba9b31e11863a66f55dc9",
+   "japanese_characters": 41,
+   "source_literals": [
+    "アクアシールドスタイルのレベルが\n2になった! チャージ攻撃の\nバブルショットの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "아쿠아 실드 스타일의 레벨이\n2가 됐다! 차지 공격인\n버블 샷의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 42,
+   "entry_id": "archive_u0731310_entry_0042",
+   "source_entry_offset": 2215,
+   "source_entry_byte_length": 68,
+   "source_entry_sha256": "3336b9149ad94eb12ae07870aba9477e30c0e75a14c217560668d1d91405e0e9",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0b 12 0b 16 78 33 49 17 1a 0c 33 b1 34 4d 33 c9 e8 04 8e 6a 5e 75 8f ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 4a 4c 33 16 5c 59 1e b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "6078410ff3c03ae608b2404870954da9f103bf47cc2c1bc1b8a1ec2268d6891f",
+   "japanese_characters": 41,
+   "source_literals": [
+    "アクアシールドスタイルのレベルが\n3(MAX)になった! チャージ攻撃の\nバブルショットの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "아쿠아 실드 스타일의 레벨이\n3(MAX)이 됐다! 차지 공격인\n버블 샷의 공격력이 UP됐다!"
+   ]
+  },
+  {
+   "entry_index": 43,
+   "entry_id": "archive_u0731310_entry_0043",
+   "source_entry_offset": 2283,
+   "source_entry_byte_length": 60,
+   "source_entry_sha256": "66d51f4fd21c5dcd17b81d8c19e430a2e919cb17367629eabf7004bc09c11244",
+   "source_entry_raw_hex": "f1 00 fa 00 2d 01 0d 59 49 16 78 33 49 17 1a 0c 33 b1 34 4d 33 c9 e8 03 ae ad e5 02 a8 81 00 1b 5a 78 41 e5 d0 e5 d1 b1 e8 14 3b 31 16 b1 e5 d0 e5 d1 e5 d2 c9 72 6d a4 a8 81 eb e7",
+   "source_tpl_block_sha256": "4bdef115d819d6095382ff6769b517e4718041d5e2117846b801610fab91a8d8",
+   "japanese_characters": 38,
+   "source_literals": [
+    "ウッドシールドスタイルのレベルが\n2になった! チャージ攻撃の\nコガラシの攻撃力がUPした!"
+   ],
+   "translated_literals": [
+    "우드 실드 스타일의 레벨이\n2가 됐다! 차지 공격인\n코가라시의 공격력이 UP됐다!"
+   ]
+  }
+ ]
+}

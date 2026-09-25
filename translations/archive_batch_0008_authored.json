@@ -1,108 +1,507 @@
 {
-  "schema_version": 1,
-  "kind": "authored_semantic_translation_batch",
-  "batch_number": 8,
-  "entries": [
-    {"selector":"00/22","entry_index":36,"draft_translation":"기폭 장치가 설치돼 있던 PET다. / 흔히 볼 수 있는 기종이다..."},
-    {"selector":"00/22","entry_index":37,"draft_translation":"조금 전부터 수위가 / 높아지는 듯한 느낌도 듭니다! // 과연 댐은 / 괜찮은 걸까요!?"},
-    {"selector":"00/22","entry_index":39,"draft_translation":"넷토, 메일이야!!"},
-    {"selector":"00/22","entry_index":40,"draft_translation":"여기 있으면 / 도시로 돌아가기 싫어지네."},
-    {"selector":"00/22","entry_index":41,"draft_translation":"있잖아,[waitSkip 15] 내가,[waitSkip 15] / 아까,[waitSkip 15] 넘어졌는데도, // 안 울었어.[waitSkip 30] 대단하지?"},
-    {"selector":"00/22","entry_index":42,"draft_translation":"오늘은 즐거운 캠핑 날! / 부우우웅!! / 신난다!!"},
-    {"selector":"00/22","entry_index":45,"draft_translation":"내 의뢰를 받아 줄 사람이 / 너구나. // 내 의뢰는 말이지, // 사실 내 아들이 가진 프로그램이 / 인터넷에서 길을 잃은 모양이야. // 아마 덴산 에리어 어딘가에 / 있을 것 같은데... // 아들은 아직 어리고 / 난 야외 활동파라 / 인터넷은 전혀 몰라. // 그래서 네게 부탁하는 거야. / 인터넷에서 길 잃은 프로그램을 찾으면 // 내게 와서 알려 줘. / 그럼 부탁한다."},
-    {"selector":"00/22","entry_index":46,"draft_translation":"의뢰 내용을 확인하려고? / 그래, 좋아. // 내 아들이 가진 프로그램이 / 인터넷에서 길을 잃은 모양이야. // 아마 덴산 에리어 어딘가에 / 있을 것 같은데... // 아들은 아직 어리고 / 난 야외 활동파라 / 인터넷은 전혀 몰라. // 그러니 길 잃은 프로그램을 / 네가 찾아 줬으면 해. // 되도록 빨리 찾아 줘! / 아들이 기다리고 있거든!"},
-    {"selector":"00/22","entry_index":47,"draft_translation":"오, 프로그램을 찾아왔구나! // 제법 하는데. // 좋아, 합격이다! // 사실 나는 라이선스 시험의 / 시험관이야. // 네 관찰력을 시험해 봤지. // 잘해 줬다!"},
-    {"selector":"00/22","entry_index":48,"draft_translation":"별것 아니지만 / 내가 주는 축하 선물이야. / 받도록 해!"},
-    {"selector":"00/22","entry_index":49,"draft_translation":"넷토는 / 강화 프로그램 「[printItem item=96]」을 / 획득했다!!"},
-    {"selector":"00/22","entry_index":50,"draft_translation":"더 많은 경험을 쌓아 / 모두에게 도움이 되도록 / 힘내라!"},
-    {"selector":"00/22","entry_index":51,"draft_translation":"동생들이 너무 들떠서 / 정말 곤란하다니까. // 그래도 개구쟁이라도 좋으니 / 씩씩하게 자랐으면 해."},
-    {"selector":"00/22","entry_index":52,"draft_translation":"있잖아, 캠핑장은 / 길이 울퉁불퉁해. // 도시처럼 평평한 / 길이 아니야. // 여러 모양의 돌이 / 떨어져 있어. // 꺄아, 꺄아!"},
-    {"selector":"00/22","entry_index":53,"draft_translation":"아하하, 신난다! / 부우우웅!! // 비행기다~"},
-    {"selector":"00/22","entry_index":54,"draft_translation":"으으음! / 대자연 최고다아아!!"},
-    {"selector":"00/22","entry_index":57,"draft_translation":"슬슬 돌아갈까. / 너무 늦어서 // 아빠와 엄마가 걱정하면 / 안 되니까."},
-    {"selector":"00/22","entry_index":58,"draft_translation":"난 아직 돌아가기 싫어어어!"},
-    {"selector":"00/22","entry_index":59,"draft_translation":"나도 아직 더 놀고 싶어! // 부우웅, 부우웅! // 형이 돌아가도 / 난 여기 있을 거야! // 부우웅, 부우웅!!"},
-    {"selector":"00/22","entry_index":60,"draft_translation":"어라, 이거 내 PET의 / 충전지잖아. / 일부러 가져다준 거야? // 응? 물어볼 게 있다고? / 뭔데? // 「[printItem item=21]」라... / 들어 본 적은 있는데... / 어디서 들었더라...? // 아! 생각났다!! // 내 메일 친구가 그런 이름의 / 프로그램이 있다고 했어! // 그 사람이 어디 있냐고? / 코토부키 스퀘어에 가 봐. / 아마 있을 거야. // 보라색 내비니까 알아봐. // 아, 맞다. 그 친구가 / 부탁한 것도 있었어! // 미안하지만 이것도 함께 / 전해 주지 않을래?"},
-    {"selector":"00/22","entry_index":61,"draft_translation":"넷토는 / 「[printItem item=20]」을 / 획득했다!!"},
-    {"selector":"00/22","entry_index":62,"draft_translation":"코토부키 스퀘어에 있는 / 보라색 내비야. / 잘 부탁해!!"},
-    {"selector":"00/22","entry_index":63,"draft_translation":"「[printItem item=20]」을 / 전해 줬어? 고마워. // 이건 답례야!"},
-    {"selector":"00/22","entry_index":64,"draft_translation":"넷토는 / 「[printItem item=65]」을 / 획득했다!!"},
-    {"selector":"00/22","entry_index":65,"draft_translation":"아아~ 역시 도시보다는 / 산이 좋다니까~"},
-    {"selector":"00/22","entry_index":66,"draft_translation":"다음엔 어느 산에 갈까?"},
-    {"selector":"00/22","entry_index":67,"draft_translation":"아직 젊은이들에게 / 질 수는 없지!! // 자! 걷게! 걸어!"},
-    {"selector":"00/22","entry_index":68,"draft_translation":"헉, 헉, 헉... / 저는 이 정도에서 / 그만하겠습니다. // 「지나침은 모자람만 못하다」 / 무슨 일이든 지나치면 / 좋지 않으니까요."},
-    {"selector":"00/22","entry_index":69,"draft_translation":"회장님! 헉, 헉... / 너무... 헉, 헉... / 무리하지 마십시오."},
-    {"selector":"00/22","entry_index":75,"draft_translation":"오오! 걷자, 걷자! // 걷는 것이야말로 / 건강을 향한 첫걸음이지!"},
-    {"selector":"00/22","entry_index":76,"draft_translation":"저도 질 수 없지요. // 걸읍시다, 걸읍시다."},
-    {"selector":"00/22","entry_index":77,"draft_translation":"이 두 분은 / 「일본 걷기 협회」의 // 회장님과 부회장님이야. // 하지만 연세가 있으셔서 / 너무 무리하시면 곤란한데."},
-    {"selector":"00/22","entry_index":80,"draft_translation":"안녕하세요! / 「덴산 뉴스 네트워크」의 / 미도리카와 케로입니다! // 「케로의 돌격! 리포트」 / 오늘은 축구 캠프 현장을 / 전해 드립니다! // ...라니, 농담이야! / 오늘도 절호조라고! // 그런데 소년! / 나랑 넷배틀이라도 / 해 보는 건 어때?"},
-    {"selector":"00/22","entry_index":81,"draft_translation":"오늘은 축구 캠프 현장을 / 전해 드립니다! // 뭐? 여기서는 / 축구를 안 한다고!?"},
-    {"selector":"00/22","entry_index":82,"draft_translation":"넷토, 케로 씨에게 / 넷배틀을 신청할까? / 예 / 아니요"},
-    {"selector":"00/22","entry_index":83,"draft_translation":"그럼 본방 시작합니다!!"},
-    {"selector":"00/22","entry_index":84,"draft_translation":"어머, 그건 광고야?"},
-    {"selector":"00/22","entry_index":85,"draft_translation":"기분은 리허설... / 케로 대기로 부탁해도 될까?"},
-    {"selector":"00/22","entry_index":88,"draft_translation":"너라면 황금 시간대 고정 출연도 / 꿈이 아니야!!"},
-    {"selector":"00/22","entry_index":89,"draft_translation":"또 NG를 내 버렸어..."},
-    {"selector":"00/22","entry_index":90,"draft_translation":"이 기분을 전 세계에 / 방송하고 싶어!"},
-    {"selector":"00/22","entry_index":92,"draft_translation":"넷토는 / 「[printItem item=83]」을 / 획득했다!!"},
-    {"selector":"00/22","entry_index":96,"draft_translation":"이게 방송국 아나운서의 한계...[waitSkip 15]? // 이건 네 출연료야.[waitSkip 30] / 받아 줘."},
-    {"selector":"00/22","entry_index":97,"draft_translation":"이건... / 긴급 속보를 내보내야 하나?"},
-    {"selector":"00/22","entry_index":98,"draft_translation":"소년...[waitSkip 15] / 너 혹시 프로듀서야?"},
-    {"selector":"00/22","entry_index":120,"draft_translation":"아저씨는 어릴 때 / 공부만 했기 때문에 // 캠핑한 추억이 / 하나도 없단다. // 적어도 내 아이에게는 / 그런 경험을 주고 싶지 않아서 // 가능한 한 여러 곳에 / 데려가려고 해."},
-    {"selector":"00/22","entry_index":121,"draft_translation":"캠핑장이다~! / 신난다아아!! // 아빠도 빨리 와!"},
-    {"selector":"00/22","entry_index":130,"draft_translation":"지진 때문에 상류의 댐이 무너지면 / 캠핑장은 물에 삼켜질 거야. // 그래서 캠핑 중인 사람들에게 / 경계를 당부하러 왔어. // 너도 위험하니 / 어서 대피하는 게 좋아!"},
-    {"selector":"00/22","entry_index":135,"draft_translation":"일본은 원래 지진이 / 일어나기 쉬운 곳이야. // 하지만 환경 유지 시스템의 힘으로 / 지진이 억제돼 있었지. // 그래서 요즘 사회는 / 지진에 대한 위기 관리가 / 약해져 있어. // 이대로 지진이 계속된다면 // 일본 사회의 기능은 / 완전히 마비될 거야."},
-    {"selector":"00/22","entry_index":140,"draft_translation":"지진은 멎은 모양이군... / 일본 사회의 붕괴는 / 피한 것 같아. // 이번만큼은 정말 / 겁먹었다고."},
-    {"selector":"00/22","entry_index":150,"draft_translation":"자연을 접하는데 / 바이러스를 두려워할쏘냐!! // 언제 어디서나 혼자서도 캠핑!! / 내가 바로 캠핑 마스터다!! // ·[waitSkip 15]·[waitSkip 15]·[waitSkip 15] 외롭구먼..."},
-    {"selector":"00/22","entry_index":190,"draft_translation":"어라, 넌 비행기에 타고 있던... / 그렇군, 이번 의뢰는 / 네가 받아 주는구나. // 든든한걸! // 그럼 곧바로 부탁하겠는데 / 「덴산 왕물방개」를 찾아 줘. // 아마 이 캠핑장 주변에 / 있을 거야. // 물방개는 물살이 잔잔한 곳을 / 좋아하거든. // 그럼 잘 부탁한다."},
-    {"selector":"00/22","entry_index":191,"draft_translation":"「덴산 왕물방개」를 / 찾는 요령? // 아까도 말했지만, // 물살이 잔잔한 곳을 중심으로 / 찾아보는 게 어떨까?"},
-    {"selector":"00/22","entry_index":192,"draft_translation":"오오! 이건 틀림없는 / 「덴산 왕물방개」야! // 역시 넌 능력 있는 녀석이군. / 그럼 이건 보상이야."},
-    {"selector":"00/22","entry_index":193,"draft_translation":"넷토는 / 칩 데이터 「[printChip chip=128] [printCode code=M]」을 / 획득했다!!"},
-    {"selector":"00/22","entry_index":194,"draft_translation":"어때? 곤충 학회에 / 들어오지 않을래? // 너라면 훌륭한 / 곤충 박사가 될 수 있어!!"},
-    {"selector":"00/22","entry_index":220,"draft_translation":"커다란 텐트다. / 이 정도면 아이 열 명쯤은 / 들어갈 수 있을 것 같다."},
-    {"selector":"00/22","entry_index":221,"draft_translation":"가족용 대형 텐트다."},
-    {"selector":"00/22","entry_index":222,"draft_translation":"텐트를 보면 / 캠핑하러 왔다는 실감이 난다."},
-    {"selector":"00/22","entry_index":223,"draft_translation":"안에 무엇이 들었는지 / 내용물이 빽빽하게 찬 배낭이다."},
-    {"selector":"00/22","entry_index":224,"draft_translation":"물통인 것 같지만 / 음료는 들어 있지 않은 듯하다..."},
-    {"selector":"00/22","entry_index":225,"draft_translation":"전자 스토브다. / 컴퓨터로 제어되는 강한 불이다. // 바비큐에 제격이다. // 놀랍게도 플러그인할 수 있다."},
-    {"selector":"00/22","entry_index":226,"draft_translation":"한 세대 전의 / 평범한 스토브다. // 플러그인할 수 없다."},
-    {"selector":"00/22","entry_index":227,"draft_translation":"안에는 차갑게 식힌 / 주스가 들어 있다."},
-    {"selector":"00/22","entry_index":228,"draft_translation":"캠핑장다운 / 나무 탁자와 의자다. // 나뭇결이 아름답다."},
-    {"selector":"00/22","entry_index":230,"draft_translation":"넷토! 이건 물통 모양의 / 기폭 장치 같아! / 플러그인하자!"},
-    {"selector":"00/22","entry_index":231,"draft_translation":"물통 모양의 기폭 장치다. / 플러그인할 수 있다."},
-    {"selector":"00/22","entry_index":232,"draft_translation":"물통이다. / 안에는 커피가 들어 있는 듯하다."},
-    {"selector":"00/22","entry_index":234,"draft_translation":"방송국 중계차다. / 방송에 쓰는 장비가 / 비좁을 만큼 가득 실려 있다. // 이건 플러그인할 수 있을 것 같다!"},
-
-    {"selector":"00/23","entry_index":0,"draft_translation":"아까 폭발로 / 댐 일부가 파괴됐어! // 내 예감으로는·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] / 다음 폭발은 반드시 온다! // 그리고 그때·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] / 댐은 무너질 거야!!!! // 그러니 난 도망친다!"},
-    {"selector":"00/23","entry_index":1,"draft_translation":"아까 댐 관리동 안으로 / 한 소년이 들어갔는데 / 아직 나오지 않았어... // 구하러 가야 할지 / 혼자 도망쳐야 할지... 으음."},
-    {"selector":"00/23","entry_index":2,"draft_translation":"내가 댐을 / 폭발시킨 것 아니냐고? // 저, 전 아닙니다! / 당치도 않아요!"},
-    {"selector":"00/23","entry_index":10,"draft_translation":"그렇군, 그 소년은 / 오피셜 넷배틀러였어. // 그럼 도망쳐도 괜찮으려나..."},
-    {"selector":"00/23","entry_index":11,"draft_translation":"이야기 들었습니다! // 지금까지 캠핑에서 익힌 기술을 쓰면 / 기폭 장치를 찾을 수 있지 않을까요? // 힘들겠지만 열심히 해 주세요!"},
-    {"selector":"00/23","entry_index":12,"draft_translation":"나도 과학자 나부랭이다! / 도망치기 전에 이것만은 알려 주지! // ...바이러스와 배틀칩에는 / 「속성」이라는 성질이 있어. // 속성에는 상성이 있어서 / 유리한 속성의 배틀칩으로 / 바이러스를 공격하면, // 무려 평소의 두 배나 되는 / 대미지를 줄 수 있지!! // 파이어는 우드에, 우드는 일렉에, / 일렉은 아쿠아에, 아쿠아는 파이어에 / 유리해. // 무속성, 이른바 노멀은 / 어느 것에도 강하거나 약하지 않아. // 속성을 잘 활용하면 / 강한 바이러스도 쉽게 쓰러뜨릴 수 있어. // 그럼 나머지는 맡긴다!"},
-    {"selector":"00/23","entry_index":15,"draft_translation":"앞으로를 대비해 / 사건에 쓰인 기폭 장치를 / 분석하고 있습니다. // ...그나저나 이 장치들은 / 정말 정교하게 만들어졌군요."},
-    {"selector":"00/23","entry_index":40,"draft_translation":"오랜만의 휴가다. / 가능하면 방해하지 마."},
-    {"selector":"00/23","entry_index":45,"draft_translation":"지진이 나서 여기로 대피했는데 / 이 댐이 무너지면... // 생각만 해도 오싹하군."},
-    {"selector":"00/23","entry_index":46,"draft_translation":"아아~ 남편이 분명 / 걱정하고 있겠지~"},
-    {"selector":"00/23","entry_index":47,"draft_translation":"설마 캠핑장에 와서 / 이런 일을 겪을 줄은 몰랐어."},
-    {"selector":"00/23","entry_index":48,"draft_translation":"모처럼 오쿠덴 계곡까지 / 왔는데 아쉬워요오오."},
-    {"selector":"00/23","entry_index":50,"draft_translation":"임무 중이다... / 게다가 내가 너를 도와야 할 / 이유도 없어."},
-    {"selector":"00/23","entry_index":60,"draft_translation":"이제 여진은 없군. / 아마 괜찮을 거야."},
-    {"selector":"00/23","entry_index":61,"draft_translation":"서둘러 남편에게 연락해야 해."},
-    {"selector":"00/23","entry_index":62,"draft_translation":"아아~ 힘든 하루였지만 / 평생 잊지 못할 / 추억이 됐어."},
-    {"selector":"00/23","entry_index":63,"draft_translation":"자! 관광하러 가자!"},
-    {"selector":"00/23","entry_index":70,"draft_translation":"퀵맨에게 습격당한 뒤 / 우리도 사이버 테러 대책을 / 강화했습니다. // 그래서 저도 댐 주변에 / 수상한 것이 없는지 / 이렇게 순찰하는 겁니다."},
-    {"selector":"00/23","entry_index":161,"draft_translation":"넷토, 엔잔에게 / 넷배틀을 신청할까? / 예 / 아니요"},
-    {"selector":"00/23","entry_index":162,"draft_translation":"배틀 데이터를 모아 두는 것도 / 나쁘진 않겠...[waitSkip 15]군."},
-    {"selector":"00/23","entry_index":164,"draft_translation":"겁이라도 먹었나..."},
-    {"selector":"00/23","entry_index":165,"draft_translation":"그만두는 게 좋아... / 지금까지의 승리가 요행이었다는 걸 / 깨닫게 될 뿐이다..."},
-    {"selector":"00/23","entry_index":169,"draft_translation":"...이론상으로는 / 있을 수 없는 결과지만..."},
-    {"selector":"00/23","entry_index":175,"draft_translation":"요행은 그렇게 / 계속되는 게 아니야...[waitSkip 15] / 그걸 증명했을 뿐이다..."},
-    {"selector":"00/23","entry_index":180,"draft_translation":"사실 나는 / 서브칩 상인이야... / 구경할래? // 본다 / 보지 않는다"},
-    {"selector":"00/23","entry_index":181,"draft_translation":"또 들러 줘."},
-    {"selector":"00/23","entry_index":182,"draft_translation":"미안해. / 지금은 품절이야."},
-    {"selector":"00/23","entry_index":190,"draft_translation":"여기서 뭘 하냐고? / 벼, 별거 아냐. 그냥 관광객이야, 베이비. / 왜 그런 걸 묻지, 보이? // 저, 전혀 수상하지 않아. / 어디서 봐도 평범한 / 외국인 관광객이잖아? // HAHAHA... // 헤이!! / 이대로 얌전히 돌아가는 게 / 네 신상에 좋을 거야."},
-    {"selector":"00/23","entry_index":191,"draft_translation":"보오오오오오오오오오오이. / 오늘 난 기분이 / 아주 나쁘다고. // 어서 집으로 돌아가. // 그리고 여기서 나를 만난 것도 / 잊어버려. 알겠나?"},
-    {"selector":"00/23","entry_index":193,"draft_translation":"넌 SSS 라이선스 시험 / 응시자구나. // 이것이 내 키워드다. // 「거대한 새의 두뇌」"},
-    {"selector":"00/23","entry_index":220,"draft_translation":"엄청난 기세로 물이 / 쏟아져 내리는 모습이 보인다. // 절경이란 바로 이런 것이겠지."}
-  ]
+ "schema_version": 1,
+ "kind": "authored_semantic_translation_batch",
+ "batch_number": 8,
+ "entries": [
+  {
+   "selector": "00/22",
+   "entry_index": 36,
+   "draft_translation": "기폭 장치가 설치돼 있던 PET다. / 흔히 볼 수 있는 기종이다..."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 37,
+   "draft_translation": "조금 전부터 수위가 / 높아지는 듯한 느낌도 듭니다! // 과연 댐은 / 괜찮은 걸까요!?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 39,
+   "draft_translation": "넷토, 메일이야!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 40,
+   "draft_translation": "여기 있으면 / 도시로 돌아가기 싫어지네."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 41,
+   "draft_translation": "있잖아,[waitSkip 15] 내가,[waitSkip 15] / 아까,[waitSkip 15] 넘어졌는데도, // 안 울었어.[waitSkip 30] 대단하지?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 42,
+   "draft_translation": "오늘은 즐거운 캠핑 날! / 부우우웅!! / 신난다!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 45,
+   "draft_translation": "내 의뢰를 받아 줄 사람이 / 너구나. // 내 의뢰는 말이지, // 사실 내 아들이 가진 프로그램이 / 인터넷에서 길을 잃은 모양이야. // 아마 덴산 에어리어 어딘가에 / 있을 것 같은데... // 아들은 아직 어리고 / 난 야외 활동파라 / 인터넷은 전혀 몰라. // 그래서 네게 부탁하는 거야. / 인터넷에서 길 잃은 프로그램을 찾으면 // 내게 와서 알려 줘. / 그럼 부탁한다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 46,
+   "draft_translation": "의뢰 내용을 확인하려고? / 그래, 좋아. // 내 아들이 가진 프로그램이 / 인터넷에서 길을 잃은 모양이야. // 아마 덴산 에어리어 어딘가에 / 있을 것 같은데... // 아들은 아직 어리고 / 난 야외 활동파라 / 인터넷은 전혀 몰라. // 그러니 길 잃은 프로그램을 / 네가 찾아 줬으면 해. // 되도록 빨리 찾아 줘! / 아들이 기다리고 있거든!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 47,
+   "draft_translation": "오, 프로그램을 찾아왔구나! // 제법 하는데. // 좋아, 합격이다! // 사실 나는 라이선스 시험의 / 시험관이야. // 네 관찰력을 시험해 봤지. // 잘해 줬다!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 48,
+   "draft_translation": "별것 아니지만 / 내가 주는 축하 선물이야. / 받도록 해!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 49,
+   "draft_translation": "넷토는 / 강화 프로그램 「[printItem item=96]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 50,
+   "draft_translation": "더 많은 경험을 쌓아 / 모두에게 도움이 되도록 / 힘내라!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 51,
+   "draft_translation": "동생들이 너무 들떠서 / 정말 곤란하다니까. // 그래도 개구쟁이라도 좋으니 / 씩씩하게 자랐으면 해."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 52,
+   "draft_translation": "있잖아, 캠핑장은 / 길이 울퉁불퉁해. // 도시처럼 평평한 / 길이 아니야. // 여러 모양의 돌이 / 떨어져 있어. // 꺄아, 꺄아!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 53,
+   "draft_translation": "아하하, 신난다! / 부우우웅!! // 비행기다~"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 54,
+   "draft_translation": "으으음! / 대자연 최고다아아!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 57,
+   "draft_translation": "슬슬 돌아갈까. / 너무 늦어서 // 아빠와 엄마가 걱정하면 / 안 되니까."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 58,
+   "draft_translation": "난 아직 돌아가기 싫어어어!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 59,
+   "draft_translation": "나도 아직 더 놀고 싶어! // 부우웅, 부우웅! // 형이 돌아가도 / 난 여기 있을 거야! // 부우웅, 부우웅!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 60,
+   "draft_translation": "어라, 이거 내 PET의 / 충전지잖아. / 일부러 가져다준 거야? // 응? 물어볼 게 있다고? / 뭔데? // 「[printItem item=21]」라... / 들어 본 적은 있는데... / 어디서 들었더라...? // 아! 생각났다!! // 내 메일 친구가 그런 이름의 / 프로그램이 있다고 했어! // 그 사람이 어디 있냐고? / 코토부키 스퀘어에 가 봐. / 아마 있을 거야. // 보라색 내비니까 알아봐. // 아, 맞다. 그 친구가 / 부탁한 것도 있었어! // 미안하지만 이것도 함께 / 전해 주지 않을래?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 61,
+   "draft_translation": "넷토는 / 「[printItem item=20]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 62,
+   "draft_translation": "코토부키 스퀘어에 있는 / 보라색 내비야. / 잘 부탁해!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 63,
+   "draft_translation": "「[printItem item=20]」를 / 전해 줬어? 고마워. // 이건 답례야!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 64,
+   "draft_translation": "넷토는 / 「[printItem item=65]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 65,
+   "draft_translation": "아아~ 역시 도시보다는 / 산이 좋다니까~"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 66,
+   "draft_translation": "다음엔 어느 산에 갈까?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 67,
+   "draft_translation": "아직 젊은이들에게 / 질 수는 없지!! // 자! 걷게! 걸어!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 68,
+   "draft_translation": "헉, 헉, 헉... / 저는 이 정도에서 / 그만하겠습니다. // 「지나침은 모자람만 못하다」 / 무슨 일이든 지나치면 / 좋지 않으니까요."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 69,
+   "draft_translation": "회장님! 헉, 헉... / 너무... 헉, 헉... / 무리하지 마십시오."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 75,
+   "draft_translation": "오오! 걷자, 걷자! // 걷는 것이야말로 / 건강을 향한 첫걸음이지!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 76,
+   "draft_translation": "저도 질 수 없지요. // 걸읍시다, 걸읍시다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 77,
+   "draft_translation": "이 두 분은 / 「일본 걷기 협회」의 // 회장님과 부회장님이야. // 하지만 연세가 있으셔서 / 너무 무리하시면 곤란한데."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 80,
+   "draft_translation": "안녕하세요! / 「덴산 뉴스 네트워크」의 / 미도리카와 케로입니다! // 「케로의 돌격! 리포트」 / 오늘은 축구 캠프 현장을 / 전해 드립니다! // ...라니, 농담이야! / 오늘도 절호조라고! // 그런데 소년! / 나랑 넷배틀이라도 / 해 보는 건 어때?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 81,
+   "draft_translation": "오늘은 축구 캠프 현장을 / 전해 드립니다! // 뭐? 여기서는 / 축구를 안 한다고!?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 82,
+   "draft_translation": "넷토, 케로 씨에게 / 넷배틀을 신청할까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 83,
+   "draft_translation": "그럼 본방 시작합니다!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 84,
+   "draft_translation": "어머, 그건 광고야?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 85,
+   "draft_translation": "기분은 리허설... / 케로 대기로 부탁해도 될까?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 88,
+   "draft_translation": "너라면 황금 시간대 고정 출연도 / 꿈이 아니야!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 89,
+   "draft_translation": "또 NG를 내 버렸어..."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 90,
+   "draft_translation": "이 기분을 전 세계에 / 방송하고 싶어!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 92,
+   "draft_translation": "넷토는 / 「[printItem item=83]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 96,
+   "draft_translation": "이게 방송국 아나운서의 한계...[waitSkip 15]? // 이건 네 출연료야.[waitSkip 30] / 받아 줘."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 97,
+   "draft_translation": "이건... / 긴급 속보를 내보내야 하나?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 98,
+   "draft_translation": "소년...[waitSkip 15] / 너 혹시 프로듀서야?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 120,
+   "draft_translation": "아저씨는 어릴 때 / 공부만 했기 때문에 // 캠핑한 추억이 / 하나도 없단다. // 적어도 내 아이에게는 / 그런 경험을 주고 싶지 않아서 // 가능한 한 여러 곳에 / 데려가려고 해."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 121,
+   "draft_translation": "캠핑장이다~! / 신난다아아!! // 아빠도 빨리 와!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 130,
+   "draft_translation": "지진 때문에 상류의 댐이 무너지면 / 캠핑장은 물에 삼켜질 거야. // 그래서 캠핑 중인 사람들에게 / 경계를 당부하러 왔어. // 너도 위험하니 / 어서 대피하는 게 좋아!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 135,
+   "draft_translation": "일본은 원래 지진이 / 일어나기 쉬운 곳이야. // 하지만 환경 유지 시스템의 힘으로 / 지진이 억제돼 있었지. // 그래서 요즘 사회는 / 지진에 대한 위기 관리가 / 약해져 있어. // 이대로 지진이 계속된다면 // 일본 사회의 기능은 / 완전히 마비될 거야."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 140,
+   "draft_translation": "지진은 멎은 모양이군... / 일본 사회의 붕괴는 / 피한 것 같아. // 이번만큼은 정말 / 겁먹었다고."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 150,
+   "draft_translation": "자연을 접하는데 / 바이러스를 두려워할쏘냐!! // 언제 어디서나 혼자서도 캠핑!! / 내가 바로 캠핑 마스터다!! // ·[waitSkip 15]·[waitSkip 15]·[waitSkip 15] 외롭구먼..."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 190,
+   "draft_translation": "어라, 넌 비행기에 타고 있던... / 그렇군, 이번 의뢰는 / 네가 받아 주는구나. // 든든한걸! // 그럼 곧바로 부탁하겠는데 / 「덴산 왕물방개」를 찾아 줘. // 아마 이 캠핑장 주변에 / 있을 거야. // 물방개는 물살이 잔잔한 곳을 / 좋아하거든. // 그럼 잘 부탁한다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 191,
+   "draft_translation": "「덴산 왕물방개」를 / 찾는 요령? // 아까도 말했지만, // 물살이 잔잔한 곳을 중심으로 / 찾아보는 게 어떨까?"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 192,
+   "draft_translation": "오오! 이건 틀림없는 / 「덴산 왕물방개」야! // 역시 넌 능력 있는 녀석이군. / 그럼 이건 보상이야."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 193,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=128] [printCode code=M]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 194,
+   "draft_translation": "어때? 곤충 학회에 / 들어오지 않을래? // 너라면 훌륭한 / 곤충 박사가 될 수 있어!!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 220,
+   "draft_translation": "커다란 텐트다. / 이 정도면 아이 열 명쯤은 / 들어갈 수 있을 것 같다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 221,
+   "draft_translation": "가족용 대형 텐트다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 222,
+   "draft_translation": "텐트를 보면 / 캠핑하러 왔다는 실감이 난다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 223,
+   "draft_translation": "안에 무엇이 들었는지 / 내용물이 빽빽하게 찬 배낭이다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 224,
+   "draft_translation": "물통인 것 같지만 / 음료는 들어 있지 않은 듯하다..."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 225,
+   "draft_translation": "전자 스토브다. / 컴퓨터로 제어되는 강한 불이다. // 바비큐에 제격이다. // 놀랍게도 플러그인할 수 있다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 226,
+   "draft_translation": "한 세대 전의 / 평범한 스토브다. // 플러그인할 수 없다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 227,
+   "draft_translation": "안에는 차갑게 식힌 / 주스가 들어 있다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 228,
+   "draft_translation": "캠핑장다운 / 나무 탁자와 의자다. // 나뭇결이 아름답다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 230,
+   "draft_translation": "넷토! 이건 물통 모양의 / 기폭 장치 같아! / 플러그인하자!"
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 231,
+   "draft_translation": "물통 모양의 기폭 장치다. / 플러그인할 수 있다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 232,
+   "draft_translation": "물통이다. / 안에는 커피가 들어 있는 듯하다."
+  },
+  {
+   "selector": "00/22",
+   "entry_index": 234,
+   "draft_translation": "방송국 중계차다. / 방송에 쓰는 장비가 / 비좁을 만큼 가득 실려 있다. // 이건 플러그인할 수 있을 것 같다!"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 0,
+   "draft_translation": "아까 폭발로 / 댐 일부가 파괴됐어! // 내 예감으로는·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] / 다음 폭발은 반드시 온다! // 그리고 그때·[waitSkip 20]·[waitSkip 20]·[waitSkip 20] / 댐은 무너질 거야!!!! // 그러니 난 도망친다!"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 1,
+   "draft_translation": "아까 댐 관리동 안으로 / 한 소년이 들어갔는데 / 아직 나오지 않았어... // 구하러 가야 할지 / 혼자 도망쳐야 할지... 으음."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 2,
+   "draft_translation": "내가 댐을 / 폭발시킨 것 아니냐고? // 저, 전 아닙니다! / 당치도 않아요!"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 10,
+   "draft_translation": "그렇군, 그 소년은 / 오피셜 넷배틀러였어. // 그럼 도망쳐도 괜찮으려나..."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 11,
+   "draft_translation": "이야기 들었습니다! // 지금까지 캠핑에서 익힌 기술을 쓰면 / 기폭 장치를 찾을 수 있지 않을까요? // 힘들겠지만 열심히 해 주세요!"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 12,
+   "draft_translation": "나도 과학자 나부랭이다! / 도망치기 전에 이것만은 알려 주지! // ...바이러스와 배틀칩에는 / 「속성」이라는 성질이 있어. // 속성에는 상성이 있어서 / 유리한 속성의 배틀칩으로 / 바이러스를 공격하면, // 무려 평소의 두 배나 되는 / 대미지를 줄 수 있지!! // 파이어는 우드에, 우드는 일렉에, / 일렉은 아쿠아에, 아쿠아는 파이어에 / 유리해. // 무속성, 이른바 노멀은 / 어느 것에도 강하거나 약하지 않아. // 속성을 잘 활용하면 / 강한 바이러스도 쉽게 쓰러뜨릴 수 있어. // 그럼 나머지는 맡긴다!"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 15,
+   "draft_translation": "앞으로를 대비해 / 사건에 쓰인 기폭 장치를 / 분석하고 있습니다. // ...그나저나 이 장치들은 / 정말 정교하게 만들어졌군요."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 40,
+   "draft_translation": "오랜만의 휴가다. / 가능하면 방해하지 마."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 45,
+   "draft_translation": "지진이 나서 여기로 대피했는데 / 이 댐이 무너지면... // 생각만 해도 오싹하군."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 46,
+   "draft_translation": "아아~ 남편이 분명 / 걱정하고 있겠지~"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 47,
+   "draft_translation": "설마 캠핑장에 와서 / 이런 일을 겪을 줄은 몰랐어."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 48,
+   "draft_translation": "모처럼 오쿠덴 계곡까지 / 왔는데 아쉬워요오오."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 50,
+   "draft_translation": "임무 중이다... / 게다가 내가 너를 도와야 할 / 이유도 없어."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 60,
+   "draft_translation": "이제 여진은 없군. / 아마 괜찮을 거야."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 61,
+   "draft_translation": "서둘러 남편에게 연락해야 해."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 62,
+   "draft_translation": "아아~ 힘든 하루였지만 / 평생 잊지 못할 / 추억이 됐어."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 63,
+   "draft_translation": "자! 관광하러 가자!"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 70,
+   "draft_translation": "퀵맨에게 습격당한 뒤 / 우리도 사이버 테러 대책을 / 강화했습니다. // 그래서 저도 댐 주변에 / 수상한 것이 없는지 / 이렇게 순찰하는 겁니다."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 161,
+   "draft_translation": "넷토, 엔잔에게 / 넷배틀을 신청할까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 162,
+   "draft_translation": "배틀 데이터를 모아 두는 것도 / 나쁘진 않겠...[waitSkip 15]군."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 164,
+   "draft_translation": "겁이라도 먹었나..."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 165,
+   "draft_translation": "그만두는 게 좋아... / 지금까지의 승리가 요행이었다는 걸 / 깨닫게 될 뿐이다..."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 169,
+   "draft_translation": "...이론상으로는 / 있을 수 없는 결과지만..."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 175,
+   "draft_translation": "요행은 그렇게 / 계속되는 게 아니야...[waitSkip 15] / 그걸 증명했을 뿐이다..."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 180,
+   "draft_translation": "사실 나는 / 서브칩 상인이야... / 구경할래? // 본다 / 보지 않는다"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 181,
+   "draft_translation": "또 들러 줘."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 182,
+   "draft_translation": "미안해. / 지금은 품절이야."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 190,
+   "draft_translation": "여기서 뭘 하냐고? / 벼, 별거 아냐. 그냥 관광객이야, 베이비. / 왜 그런 걸 묻지, 보이? // 저, 전혀 수상하지 않아. / 어디서 봐도 평범한 / 외국인 관광객이잖아? // HAHAHA... // 헤이!! / 이대로 얌전히 돌아가는 게 / 네 신상에 좋을 거야."
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 191,
+   "draft_translation": "보오오오오오오오오오오이. / 오늘 난 기분이 / 아주 나쁘다고. // 어서 집으로 돌아가. // 그리고 여기서 나를 만난 것도 / 잊어버려. 알겠나?"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 193,
+   "draft_translation": "넌 SSS 라이선스 시험 / 응시자구나. // 이것이 내 키워드다. // 「거대한 새의 두뇌」"
+  },
+  {
+   "selector": "00/23",
+   "entry_index": 220,
+   "draft_translation": "엄청난 기세로 물이 / 쏟아져 내리는 모습이 보인다. // 절경이란 바로 이런 것이겠지."
+  }
+ ]
 }

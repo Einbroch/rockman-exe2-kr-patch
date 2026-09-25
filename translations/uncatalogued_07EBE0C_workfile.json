@@ -1,0 +1,1284 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/07EBE0C",
+ "entry_prefix": "archive_u07EBE0C",
+ "rom_offset": 8306188,
+ "storage": "lz77",
+ "byte_length": 5014,
+ "payload_byte_length": 6820,
+ "tpl_filename": "uncatalogued_archive_tpl/lz_07EBE0C.tpl",
+ "entry_count": 63,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u07EBE0C_entry_0000",
+   "source_entry_offset": 128,
+   "source_entry_byte_length": 44,
+   "source_entry_sha256": "db7f00fd0f93f543e8c017a4e7667113c9686edbf2294cc4a362d7da5f86baa1",
+   "source_entry_raw_hex": "f1 02 90 f9 00 15 00 91 00 a3 c9 a4 ab b7 a5 e8 cf e5 05 9b b6 9b 00 b7 e5 02 ab b7 a5 e8 35 59 12 29 3a 87 62 75 62 eb ea ff 00 00",
+   "source_tpl_block_sha256": "79824854a6cc62aa5e46d13bdc9425494582626d864d5884a8ee4ee6b3084d85",
+   "japanese_characters": 21,
+   "source_literals": [
+    "「",
+    "」 さがしてます\nじょうほう まってます\nロックマン.EXE"
+   ],
+   "translated_literals": [
+    "「",
+    "」 찾고 있습니다\n정보 기다립니다\n록맨.EXE"
+   ]
+  },
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u07EBE0C_entry_0001",
+   "source_entry_offset": 172,
+   "source_entry_byte_length": 83,
+   "source_entry_sha256": "68a518c5785a7b9ebcc1afb0a880d4b245aebfab484dd4344d0efe72add99a2b",
+   "source_entry_raw_hex": "f1 02 35 59 12 29 3a a3 c8 85 e8 b2 cf ba ab 10 11 14 2a a3 c2 a8 e8 b8 a8 9a d6 a5 a1 d7 eb e9 a9 e5 03 c8 ac 00 90 b2 cf ba b7 a4 ab 91 ac 9e e8 0b 0c 15 1c a4 b7 a4 e5 05 9b b0 e8 a7 c2 c9 85 22 1b 13 59 1e e5 02 ab bb c8 d6 a5 be eb ea ff 00 00",
+   "source_tpl_block_sha256": "88266be3a51cd9bdab2cc8ed276cd93c844635d8641ff98b77e4da9108837a95",
+   "japanese_characters": 62,
+   "source_literals": [
+    "ロックマンさん、\nはじめてカキコミされた\nみたいですけど",
+    "ちゃんと 「はじめまして」とか\nアイサツしましょうね\nそれが、ネチケットってもんですよ"
+   ],
+   "translated_literals": [
+    "록맨 씨、\n처음 글을 쓰신\n것 같은데요",
+    "제대로 「처음 뵙겠습니다」 같은\n인사를 합시다\n그게 네티켓이라는 거예요"
+   ]
+  },
+  {
+   "entry_index": 2,
+   "entry_id": "archive_u07EBE0C_entry_0002",
+   "source_entry_offset": 255,
+   "source_entry_byte_length": 125,
+   "source_entry_sha256": "2254f49ce9d4107ca1e0c87b34174ea18a30040ff5af34002a73341da841896f",
+   "source_entry_raw_hex": "f1 02 d7 bb 85 b2 cf ba b7 a4 ab eb e9 0f 34 85 99 c8 b7 c0 51 35 3d 31 2b b1 14 1e e8 be a0 a4 bf ad 9a a1 d7 85 eb e9 51 35 3d 31 2b ae 85 a0 c4 a4 9a 25 1e ad bf e8 a4 e5 02 ab b7 a5 be eb e9 0f 3a 1f b1 25 1e 00 ad c8 d3 a1 d7 85 eb e9 be a0 85 e5 c5 e5 c6 e5 c7 b1 a2 9b 9c c8 d6 e8 a8 a0 b7 a4 9a 00 0f 1e 14 b1 25 1e ac e8 9a e5 02 a4 e5 05 ae 9a c1 be eb ea ff 00 00",
+   "source_tpl_block_sha256": "b2d88438301bab3679781253ef6a7d99cb863ad9ddd954b3e80049a0ef87bbb3",
+   "japanese_characters": 92,
+   "source_literals": [
+    "ども、はじめまして",
+    "オレ、あんまりプログラムのコト\nよくしらないけど、",
+    "プログラムに、くわしいヒトなら\nしってますよ",
+    "オンナのヒト なんだけど、",
+    "よく、秋原町のこうえんで\nたくましい オトコのヒトと\nいっしょにいるよ"
+   ],
+   "translated_literals": [
+    "안녕하세요、 처음 뵙겠습니다",
+    "저는 프로그램에 대해선\n잘 모르지만、",
+    "프로그램을 잘 아는 사람이라면\n알고 있어요",
+    "여자분인데、",
+    "자주 아키하라 마을 공원에서\n늠름한 남자분이랑\n같이 있어요"
+   ]
+  },
+  {
+   "entry_index": 3,
+   "entry_id": "archive_u07EBE0C_entry_0003",
+   "source_entry_offset": 380,
+   "source_entry_byte_length": 70,
+   "source_entry_sha256": "df3f9eb130f8ac4a19b85bb4c97ffbe85168e1d46331db62f7f1eda4aaaf5593",
+   "source_entry_raw_hex": "f1 02 a3 9a 9f c8 00 a6 9e 9a cf e5 04 9b c9 e8 1a 0c 27 3a ad 00 14 1e ae 00 ad e5 02 ab b7 a5 b0 eb e9 a2 c8 ad 00 ac 9f a2 a7 85 9d bb a4 c3 9a e8 24 1f 16 d6 00 bb c0 99 c9 c0 b7 a4 e5 05 9b eb ea ff 00 00",
+   "source_tpl_block_sha256": "08a17b092cff52a9aee232c5da9148015eb331d88438df35f40ef4f67f11975e",
+   "japanese_characters": 50,
+   "source_literals": [
+    "さいきん せかいじゅうが\nタイヘンな コトに なってますね",
+    "こんな ときこそ、おもしろい\nハナシで もりあがりましょう"
+   ],
+   "translated_literals": [
+    "요즘 전 세계가\n큰일이 났네요",
+    "이럴 때일수록 재미있는\n이야기로 분위기를 띄웁시다"
+   ]
+  },
+  {
+   "entry_index": 4,
+   "entry_id": "archive_u07EBE0C_entry_0004",
+   "source_entry_offset": 450,
+   "source_entry_byte_length": 165,
+   "source_entry_sha256": "10cfbc798002842b65a91f575516281700d5e13500d8c96b5e59019e19f4d768",
+   "source_entry_raw_hex": "f1 02 0c 3a 1a 78 22 59 1e ae 00 a2 9d c0 c9 e8 b2 e5 02 a6 9a a4 ab 85 ac aa d1 c8 e8 a4 d1 c8 a3 9a c9 9a c9 00 9d 9f c1 88 88 88 eb e9 0c 3a 1a 78 22 59 1e ac 85 a4 d1 c8 a3 9a c9 9a e8 9e c8 a1 9a 00 ad a3 a7 9b d6 85 eb e9 cf aa b2 85 b8 e5 02 a6 aa ad 00 9e c8 a1 9a c9 e8 99 c1 ac 9a 9b 0d 36 15 c9 00 99 c0 b7 a5 eb e9 d7 9b 9a 9b 00 aa ad c9 c0 c9 00 99 c1 b1 9e b2 85 e8 c4 c2 bf 85 9a e5 02 dd c8 a4 b8 c8 b1 e8 9b 9e c9 9a a4 c1 1e 14 35 d6 b2 00 99 c0 b7 a6 c8 c9 b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "c0a100194f33a0931fc17745d2e2df252281732577d61e256463ee22e763c30c",
+   "japanese_characters": 129,
+   "source_literals": [
+    "インターネットに こおりが\nはっせいして、とつぜん\nしぜんさいがいが おきる・・・",
+    "インターネットと、しぜんさいがい\nかんけい なさそうで、",
+    "じつは、みっせつな かんけいが\nあるというウワサが あります",
+    "どういう つながりが あるのかは、\nわれら、いっぱんしみんの\nうかがいしるトコロでは ありませんがね"
+   ],
+   "translated_literals": [
+    "인터넷에 얼음이\n생기고、 갑자기\n자연재해가 일어난다...",
+    "인터넷과 자연재해\n관계없어 보이지만、",
+    "사실은 밀접한 관계가\n있다는 소문이 있어요",
+    "어떤 관계가 있는지는\n우리 같은 일반 시민이\n알 수 있는 게 아니지만요"
+   ]
+  },
+  {
+   "entry_index": 5,
+   "entry_id": "archive_u07EBE0C_entry_0005",
+   "source_entry_offset": 615,
+   "source_entry_byte_length": 463,
+   "source_entry_sha256": "0dd13f6b1a3d5303b4b0efb4ded606eb176e19a0d7d44d55bc2610632fd598f1",
+   "source_entry_raw_hex": "f2 00 79 00 f1 02 0d 36 15 ac 00 9f 9a ab 85 9d bb 9a d3 a4 b7 a4 a8 eb e9 a2 c2 b2 85 4e 12 b1 1e 2d 45 1b 9e bf 9f 9a a8 24 1f 16 e8 b8 ad a3 c8 85 0d 31 0c 3a 1a 78 22 59 1e b1 a7 c8 ce 9a b2 e8 cd d2 c8 cf d6 a5 be b0 eb e9 cf aa b2 85 0d 31 0c 3a 1a 78 22 59 1e ae bb e8 17 12 0e 0b c9 99 e5 02 ab 85 a6 9e 9a 9e a0 a9 9e bf e8 ad bf d0 bb b1 c9 99 aa b7 e5 02 ab 9f ab 9a c1 bf a4 9a d6 a5 eb e9 ad c8 ac 85 0d 31 b1 17 12 0e 0b ae bb e8 90 a1 9a cf d8 c8 db bc 91 c9 99 c1 bf a4 9a c8 d6 a5 a1 d7 eb e9 a7 a2 ae 85 99 c1 11 78 36 78 49 c7 9e 9f a2 b9 ac e8 0d 31 17 12 0e 0b b1 d7 a2 9e ae eb e9 2e 2a 9a a4 e5 03 ac 00 be d8 c2 c1 1f 4b c9 e8 99 bf c4 c2 c1 a7 9b d6 a5 eb e9 99 bf bd c1 0d 0c 33 17 ae 00 a8 9a a2 9b a5 c1 e8 36 12 1b 3a c7 00 aa a0 c1 a2 ac c9 d6 9f c1 ac a2 c3 9e bf e8 90 2e 2a 9a a4 e5 03 91 b1 00 ad c9 aa 9a a8 a7 9b d6 a5 eb e9 90 2e 2a 9a a4 e5 03 91 c7 be d9 d3 a5 90 11 78 36 78 49 91 b2 e8 0d 31 17 12 0e 0b ae 9a c1 ac 9a c4 c2 c1 eb e9 17 3f 0d 48 b1 cf e5 05 9b b6 9b bc c9 e8 a4 e5 02 ab 9a c1 ac 00 9a c4 c2 ab b7 a5 a1 d7 85 eb e9 b7 a3 9e 85 0d 31 0c 3a 1a 78 22 59 1e ad c8 9e ae e8 9e a0 ae c8 a4 ae 9a a0 25 1e ad c8 ab 00 9a b7 a6 c8 9e bf e8 0d 19 9e 28 3a 1e 9e c4 9e c0 b7 a6 c8 eb e9 a4 9e a4 85 28 3a 1e ae a7 c8 ad 1f 4b 9a c1 c8 d6 a5 b0 7c e8 b6 ac c8 d7 00 ac a4 d6 c8 a6 aa 00 b8 a8 9a ad e8 24 1f 16 d6 a5 a1 d7 b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "6814ac90c4ba465e536e4b45f247faeb074df1da20e8fe235df698baee755c09",
+   "japanese_characters": 382,
+   "source_literals": [
+    "ウワサと きいて、おもいだしました",
+    "これは、ボクのトモダチからきいたハナシ\nみなさん、ウラインターネットのそんざいは\nごぞんじですよね",
+    "じつは、ウラインターネットにも\nスクエアがあって、せかいかくちから\nならずものがあつまってきているらしいです",
+    "なんと、ウラのスクエアにも\n「けいじばんべや」があるらしいんですけど",
+    "そこに、あるキーワードをかきこむと\nウラスクエアのどこかに",
+    "ヤミいしゃと よばれるナビが\nあらわれるそうです",
+    "あらゆるウイルスに たいこうする\nワクチンを つくることができるところから\n「ヤミいしゃ」の ながついたそうです",
+    "「ヤミいしゃ」をよびだす「キーワード」は\nウラスクエアにいるといわれる",
+    "スゴウデのじょうほうやが\nしっていると いわれてますけど、",
+    "まさか、ウラインターネットなんかに\nかくにんしにいくヒトなんて いませんから\nウソかホントかわかりません",
+    "しかし、ホントにそんなナビいるんですね?\nほとんど としでんせつ みたいな\nハナシですけどね"
+   ],
+   "translated_literals": [
+    "소문 얘기가 나와서 생각났어요",
+    "이건 제 친구한테 들은 이야기\n여러분、 언더 인터넷의 존재는\n알고 계시죠?",
+    "사실 언더 인터넷에도\n스퀘어가 있어서 세계 각지에서\n불량배들이 모여든대요",
+    "글쎄、 언더 스퀘어에도\n「게시판실」이 있다는데요",
+    "거기에 어떤 키워드를 쓰면\n언더 스퀘어 어딘가에",
+    "암흑 의사라고 불리는 내비가\n나타난대요",
+    "온갖 바이러스에 대항하는\n백신을 만들 수 있다고 해서\n「암흑 의사」라는 이름이 붙었대요",
+    "「암흑 의사」를 부르는 「키워드」는\n언더 스퀘어에 있다고 알려진",
+    "실력파 정보상이\n알고 있다고들 하는데、",
+    "설마 언더 인터넷 같은 데까지\n확인하러 가는 사람은 없으니\n거짓인지 진짜인지 몰라요",
+    "그런데 정말 그런 내비가 있을까요?\n거의 도시 전설 같은\n이야기지만요"
+   ]
+  },
+  {
+   "entry_index": 6,
+   "entry_id": "archive_u07EBE0C_entry_0006",
+   "source_entry_offset": 1078,
+   "source_entry_byte_length": 157,
+   "source_entry_sha256": "55c67ea4a4207790679c4baff1ef9392fa8ed7b216249c0548916f5ad52aed0e",
+   "source_entry_raw_hex": "f1 02 2e 2a 9a a4 e5 03 9e 88 88 88 e8 9d a7 c3 a4 9a be 9b d6 85 b8 ab b8 a8 9a be 9b ad 88 88 88 eb e9 be d9 d3 a5 ae a6 be 85 11 78 36 78 49 c7 e8 b8 aa a1 ad a1 c2 d8 00 ad bf ad 9a a4 85 eb e9 9e c0 ae 85 11 78 36 78 49 c9 00 c4 9e e5 02 ab bb e8 0d 31 0c 3a 1a 78 22 59 1e ae e8 9a 9e ad 9f e5 03 ad bf ad 9a 88 88 88 eb e9 9e a0 ae c8 a4 be 9b b1 00 ad 9a e8 0d 36 15 d3 9e bf 85 ac a4 d6 c8 a6 aa 00 e5 02 ab e8 b8 c0 e5 05 a0 ab 9f ad c8 d3 be b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "4414936daabbc34d71815378783b713b7bdf1482ad1dfd34c507c15682bd37e0",
+   "japanese_characters": 124,
+   "source_literals": [
+    "ヤミいしゃか・・・\nおそろしいようで、みてみたいような・・・",
+    "よびだすにせよ、キーワードを\nみつけなければ ならないし、",
+    "かりに、キーワードが わかっても\nウラインターネットに\nいかなきゃならない・・・",
+    "かくにんしようの ない\nウワサだから、としでんせつ って\nみりょくてきなんだよね"
+   ],
+   "translated_literals": [
+    "암흑 의사라...\n무서우면서도 보고 싶은 것 같은...",
+    "부르려 해도 키워드를\n찾아야 하고、",
+    "만약 키워드를 알아내도\n언더 인터넷에\n가야만 하고...",
+    "확인할 길이 없는\n소문이니까 도시 전설이\n매력적인 거지"
+   ]
+  },
+  {
+   "entry_index": 7,
+   "entry_id": "archive_u07EBE0C_entry_0007",
+   "source_entry_offset": 1235,
+   "source_entry_byte_length": 72,
+   "source_entry_sha256": "66c7f95d61864727e6423c3cb42fa084d5f10c2cc5f3ecb1dcee6b29df0d24e5",
+   "source_entry_raw_hex": "f1 02 a2 a2 b2 85 b7 a9 9e d7 e8 cf e5 05 9b b6 9b 00 a1 9a cf d8 c8 d3 be eb e9 b8 c8 ad b1 00 e5 b1 e5 02 ab c1 00 a9 e5 05 e5 02 ac 0f 1e 12 ad e8 cf e5 05 9b b6 9b c7 00 9e 9a ab 9a e5 02 ab b0 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "c395b8fe7d176e9d6407436a89b9312581a50352676be594bc7196a8df505c86",
+   "japanese_characters": 48,
+   "source_literals": [
+    "ここは、まちかど\nじょうほう けいじばんだよ",
+    "みんなの 知ってる ちょっとオトクな\nじょうほうを かいていってね!"
+   ],
+   "translated_literals": [
+    "여기는 길거리\n정보 게시판이야",
+    "다들 알고 있는 쏠쏠한\n정보를 써 주고 가!"
+   ]
+  },
+  {
+   "entry_index": 8,
+   "entry_id": "archive_u07EBE0C_entry_0008",
+   "source_entry_offset": 1307,
+   "source_entry_byte_length": 157,
+   "source_entry_sha256": "1c5f39f8efedf62ab91997b68de9d04006dc2d73095c7a2c36a19de3eb59a6ad",
+   "source_entry_raw_hex": "f1 02 0f 26 55 16 5a 33 17 12 0e 0b c7 00 9b c8 9c 9a a4 ab c1 e8 0f 26 55 16 5a 33 18 3a 1a 78 b2 e8 29 32 3a 24 78 4a 78 ae 99 c1 c8 d3 eb e9 48 3a 15 3a 16 1d 55 b1 00 e5 8a d6 bb 0c 1b 4a 3a b1 e8 9d a4 e5 03 c2 17 53 59 1e d3 be b0 81 eb e9 29 32 3a 24 78 4a 78 9e bf 00 a9 9e 9a e8 cf e5 04 9b a8 a0 c9 9a ac 00 9a 9c d8 eb e9 e5 c5 e5 c6 e5 c7 bc 00 14 1e 4c 11 e5 c7 ad c8 9e c9 99 c1 b0 e8 b8 c8 ad b2 00 d7 a2 9e bf 51 31 3d 0c 3a a4 ab c1 b1 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "905fa0532eebe30e4717655a09383a81bdc4e787684bb0285aa550ca1d0b1f30",
+   "japanese_characters": 124,
+   "source_literals": [
+    "オフィシャルスクエアを うんえいしてる\nオフィシャルセンターは\nマリンハーバーにあるんだ",
+    "デンサンシティの 中でもイチバンの\nおしゃれスポットだよね!",
+    "マリンハーバーから ちかい\nじゅうたくがいと いえば",
+    "秋原町や コトブキ町なんかがあるね\nみんなは どこからプラグインしてるの?"
+   ],
+   "translated_literals": [
+    "오피셜 스퀘어를 운영하는\n오피셜 센터는\n마린하버에 있어",
+    "덴산 시티에서도 제일가는\n멋쟁이 명소지!",
+    "마린하버에서 가까운\n주택가라고 하면",
+    "아키하라 마을、 코토부키 마을이 있지\n다들 어디서 플러그인하고 있어?"
+   ]
+  },
+  {
+   "entry_index": 9,
+   "entry_id": "archive_u07EBE0C_entry_0009",
+   "source_entry_offset": 1464,
+   "source_entry_byte_length": 137,
+   "source_entry_sha256": "4076ce75c03d947f60afa1a2677a39d485983fdd0e74ef19c7d8e1f1c76c70a5",
+   "source_entry_raw_hex": "f1 02 35 78 33 e5 02 ab 9a 9a b7 a5 e8 b2 cf ba b7 a4 ab 81 eb e9 0b 1a 16 b1 00 0f 52 34 78 1a b2 e8 e5 c5 e5 c6 e5 c7 ae 00 a5 c8 d6 c1 00 0f 3a 1f b1 14 d6 a5 eb e9 1f 29 0e b2 00 25 2a 1c d3 a1 d7 85 e8 ac e5 02 ab bb 00 10 36 0c 0c c8 d3 9e bf eb e9 e5 a3 e5 68 b2 85 0f 26 55 16 5a 33 18 3a 1a 78 ae e8 9d ac bb d3 a9 ac 00 9a e5 02 a4 e5 05 ae 99 a7 d9 ae 9f ab b7 a5 e8 be c3 a4 a0 b0 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "50cb94d2e030e8e9fb43313ba0fded86a5a2bc2398b62cd13c4928d0a9250911",
+   "japanese_characters": 100,
+   "source_literals": [
+    "ロールっていいます\nはじめまして!",
+    "アタシの オペレータは\n秋原町に すんでる オンナのコです",
+    "ナマエは ヒミツだけど、\nとっても カワイイんだから",
+    "今日は、オフィシャルセンターに\nおともだちと いっしょにあそびにきてます\nよろしくね!"
+   ],
+   "translated_literals": [
+    "롤이라고 해요\n처음 뵙겠습니다!",
+    "제 오퍼레이터는\n아키하라 마을에 사는 여자아이예요",
+    "이름은 비밀이지만\n엄청 귀엽다니까요",
+    "오늘은 오피셜 센터에\n친구랑 같이 놀러 왔어요\n잘 부탁해요!"
+   ]
+  },
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u07EBE0C_entry_0010",
+   "source_entry_offset": 1601,
+   "source_entry_byte_length": 91,
+   "source_entry_sha256": "64a8490049773a136d6f172223d665f5d660dba89b2056987af3473edd704466",
+   "source_entry_raw_hex": "f1 02 0f 34 b1 ad b2 00 3b 59 1c 29 3a 81 e8 9d ad cf a0 00 e5 c5 e5 c6 e5 c7 ae a5 b9 e8 48 10 0f a3 b7 b1 00 1f 4b d6 3b 59 1c eb e9 ad 9e be a0 a4 ab a0 c2 d6 3b 59 1c 81 eb e9 48 10 0f a3 b7 85 e8 a2 c8 ad 10 3a 41 d6 00 be c3 a4 9a d6 3b 59 1c 9e 81 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "030196abf911e2a6f93a07e41e396f1a48c148436f3f612c782a6b94dc394908",
+   "japanese_characters": 65,
+   "source_literals": [
+    "オレのなは ガッツマン!\nおなじく 秋原町にすむ\nデカオさまの ナビでガッツ",
+    "なかよくしてくれでガッツ!",
+    "デカオさま、\nこんなカンジで よろしいでガッツか!?"
+   ],
+   "translated_literals": [
+    "내 이름은 거츠맨!\n마찬가지로 아키하라 마을에 사는\n데카오 님의 내비다거츠",
+    "사이좋게 지내 달라거츠!",
+    "데카오 님、\n이런 느낌이면 되겠거츠!?"
+   ]
+  },
+  {
+   "entry_index": 11,
+   "entry_id": "archive_u07EBE0C_entry_0011",
+   "source_entry_offset": 1692,
+   "source_entry_byte_length": 247,
+   "source_entry_sha256": "3a1c50958a65b5e08603fa1cd88d07af3e1666c868c4675988909ad053c79151",
+   "source_entry_raw_hex": "f1 02 a4 e5 05 9b c9 a0 a6 9a b1 14 bb 00 9d 9d 9a b8 a8 9a d3 9e bf e8 1e 12 4d 1c ae 00 0c 3a 1a 78 22 59 1e b1 e8 99 c1 9f 9e a8 c7 00 9d a4 9c a9 e5 03 9d 9b 9e ad 7c eb e9 b8 c8 ad 00 0c 3a 1a 78 22 59 1e c7 e8 99 c1 9a ab c1 ac 9f ae eb e9 a4 9e a0 9a 11 5b 78 4c c9 00 b8 a9 c7 e8 b4 a3 9a d6 c1 b1 c7 00 b8 9e a1 a8 be b0 7c eb e9 99 c2 b2 85 45 34 9e b1 00 28 78 2b 52 78 41 ae e8 aa ad c9 e5 02 ab c1 b8 a9 d6 85 eb e9 e5 b1 bf ad 9a 25 1e c9 00 9e e5 02 ab ae e8 b2 9a c2 ad 9a be 9b ae 00 9d 9a ab 99 c1 c8 d3 eb e9 d3 9e bf 85 a7 b1 25 1e ac 00 e5 b1 c0 99 9a ae ad e5 02 ab e8 6d 14 78 49 8e 4f 17 14 78 49 8f e8 e5 02 ab 9a 9b b1 c7 bb bf 9c d8 eb e9 11 5b 78 4c c7 00 9e 9a cf e5 05 d6 9f c1 be 9b ae ad c1 be eb ea ff 00 00",
+   "source_tpl_block_sha256": "70f69d3e156cf2f6c7e8177fd5b42f05087597e33a69beec9e43d4af8a619300",
+   "japanese_characters": 192,
+   "source_literals": [
+    "しょうがくせいのコも おおいみたいだから\nトクベツに インターネットの\nあるきかたを おしえちゃおうかな?",
+    "みんな インターネットを\nあるいてるときに",
+    "しかくいキューブが みちを\nふさいでるのを みかけたよね?",
+    "あれは、ダレかの ホームページに\nつながってるみちで、",
+    "知らないヒトが かってに\nはいれないように おいてあるんだ",
+    "だから、そのヒトと 知りあいになって\nPコード(パスコード)\nっていうのをもらえば",
+    "キューブを かいじょできるようになるよ"
+   ],
+   "translated_literals": [
+    "초등학생도 많은 것 같으니\n특별히 인터넷\n돌아다니는 법을 알려 줄까?",
+    "다들 인터넷을\n돌아다닐 때",
+    "네모난 큐브가 길을\n막고 있는 걸 봤지?",
+    "그건 누군가의 홈페이지로\n이어지는 길이라서、",
+    "모르는 사람이 멋대로\n못 들어가게 놓아둔 거야",
+    "그러니까 그 사람과 아는 사이가 되어\nP코드(패스코드)\n라는 걸 받으면",
+    "큐브를 해제할 수 있게 돼"
+   ]
+  },
+  {
+   "entry_index": 12,
+   "entry_id": "archive_u07EBE0C_entry_0012",
+   "source_entry_offset": 1939,
+   "source_entry_byte_length": 251,
+   "source_entry_sha256": "36fd5a8eff08a89ab22905af9b4251084e1951788d5b6c4537fd20e1febb1480",
+   "source_entry_raw_hex": "f1 02 a9 ad b8 ae 00 48 3a 15 3a 0e 32 0b 04 ae e8 e5 98 e5 02 a8 14 b2 9a c1 9e ad 7c eb e9 99 a7 a2 ae 00 9d 9a ab 99 c1 11 5b 78 4c b2 e8 a9 e5 05 e5 02 ac 1e 12 4d 1c d6 85 12 20 c9 00 9e c8 c0 e8 a4 ab 9a c1 bb b1 ad c8 d3 eb e9 99 b1 b8 a9 b2 00 c9 9a a2 a0 b1 00 0c 3a 1a 78 22 59 1e ae e8 aa ad c9 e5 02 ab 9a c1 9e bf 85 eb e9 9e e5 02 ab ae e5 98 9f 9f 00 d6 9f ad 9a be 9b ae e8 11 5b 78 4c d6 00 b4 a3 9a d6 99 c1 b1 a3 eb e9 c9 9a a2 a0 b1 00 0d 0c 33 17 b2 85 20 28 3a b1 be c0 e8 9f e5 05 9b c0 e5 05 a0 ad 2e 1c bb 00 9d 9d 9a a4 b0 eb e9 99 a7 a2 c7 00 ac 9d c0 a8 a1 c2 d8 85 f9 00 3c 00 c7 e8 3e 59 1e a4 ad 9a ac 00 9a a1 ad 9a c8 d3 eb e9 a4 e5 05 9b c9 a0 a6 9a b1 00 b8 c8 ad ae b2 85 e8 b7 d3 00 24 2e 9a a1 d7 b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "9894575a83b259844175f5868bf47483d4be5258627ecf875ca5a2454c211f95",
+   "japanese_characters": 190,
+   "source_literals": [
+    "ちなみに デンサンエリア3に\n行ったコはいるかな?",
+    "あそこに おいてあるキューブは\nちょっとトクベツで、クニが かんり\nしているものなんだ",
+    "あのみちは がいこくの インターネットに\nつながっているから、",
+    "かってに行きき できないように\nキューブで ふさいであるのさ",
+    "がいこくの ウイルスは、ニホンのより\nきょうりょくなヤツも おおいしね",
+    "あそこを とおりたければ、",
+    "を\nゲットしないと いけないんだ",
+    "しょうがくせいの みんなには、\nまだ ハヤいけどね"
+   ],
+   "translated_literals": [
+    "참고로 덴산 에어리어 3에\n가 본 사람 있니?",
+    "거기 놓인 큐브는\n좀 특별해서 나라가 관리\n하는 거야",
+    "그 길은 외국 인터넷으로\n이어져 있어서、",
+    "멋대로 오가지 못하게\n큐브로 막아 둔 거지",
+    "외국 바이러스는 일본 것보다\n강력한 녀석도 많고",
+    "거기를 지나가고 싶으면 ",
+    "를\n따야만 해",
+    "초등학생인 너희한테는\n아직 이르지만"
+   ]
+  },
+  {
+   "entry_index": 13,
+   "entry_id": "archive_u07EBE0C_entry_0013",
+   "source_entry_offset": 2190,
+   "source_entry_byte_length": 173,
+   "source_entry_sha256": "7b857f8d3b7b2b8b5458bd609bbfd6827d0ce7b702992dd651cf8bee66ce77f1",
+   "source_entry_raw_hex": "f1 02 a2 c8 ae a9 c4 81 e8 4e 12 b2 00 14 1e 4c 11 e5 c7 ae 00 a5 c8 d6 c1 c8 d3 a1 d7 e8 a2 ad 9a d3 85 b2 cf ba ab e5 c5 e5 c6 e5 c7 ae 9a e5 02 a8 be 81 eb e9 32 17 b1 9a c1 00 a2 9b 9c c8 c9 00 99 e5 02 a8 c0 e8 a5 e5 02 cd 9a 00 cd 9b ab 9a c9 00 99 e5 02 a8 c0 e8 99 c1 9a ab c1 d3 a1 d6 00 9d bb a4 c3 9a e5 c7 d3 e5 02 a8 eb e9 ad 9e d6 bb 00 9d d7 c3 9a a8 b1 b2 e8 51 31 3d 0c 3a d6 9f c1 00 0c 21 3f 2e 81 eb e9 0c 21 3f 2e c9 a8 b1 00 dc 9b b2 c8 a7 9b a9 ad c8 ab e8 ba d0 bf a4 9a be b0 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "b54234d4b02c772a1b6faa2b3aab7e23b433597b5d4a7f1e310207fca286e5cb",
+   "japanese_characters": 129,
+   "source_literals": [
+    "こんにちわ!\nボクは コトブキ町に すんでるんだけど\nこないだ、はじめて秋原町にいったよ!",
+    "リスのいる こうえんが あったり\nすっごい ごうていが あったり\nあるいてるだけで おもしろい町だった",
+    "なかでも おどろいたのは\nプラグインできる イヌゴヤ!",
+    "イヌゴヤがたの ぼうはんそうちなんて\nめずらしいよね!"
+   ],
+   "translated_literals": [
+    "안녕!\n나는 코토부키 마을에 사는데\n얼마 전 처음 아키하라 마을에 갔어!",
+    "다람쥐가 있는 공원이 있고\n엄청난 저택도 있고\n걷기만 해도 재미있는 마을이었어",
+    "그중에서도 놀란 건\n플러그인할 수 있는 개집!",
+    "개집형 방범 장치라니\n신기하지!"
+   ]
+  },
+  {
+   "entry_index": 14,
+   "entry_id": "archive_u07EBE0C_entry_0014",
+   "source_entry_offset": 2363,
+   "source_entry_byte_length": 152,
+   "source_entry_sha256": "544438325378de589af7d8b6b1a5c431cffe79719cb860b64af48873c12e2527",
+   "source_entry_raw_hex": "f1 02 0b 1a 16 b2 00 e5 c5 e5 c6 e5 c7 ae a5 c8 d6 b7 a5 81 eb e9 a2 ad 9a d3 85 14 1e 4c 11 e5 c7 ae e5 98 e5 02 ab b8 a8 c8 d3 a1 d7 e8 a5 e5 02 cd 9a 00 e5 88 9f ad 29 3a 16 5c 3a c9 e8 a8 e5 02 ab ab 00 4b 59 12 32 81 eb e9 e5 c5 e5 c6 e5 c7 ac a0 bf db c1 ac 85 a5 e5 02 cd a0 1e 10 0c ae e8 b8 9c a8 be 81 eb e9 9e 9c c0 ae 00 14 1e 4c 11 29 78 1e d6 85 e8 9d 9e 9a bb b1 a4 ab 00 9e 9c c0 b7 a4 a8 81 e8 a8 b1 a4 9e e5 02 a8 be 8c 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "58c94d9aa9e270a831df00c0432c7698be3f0a9b0f065f48dc99af4ec0147343",
+   "japanese_characters": 106,
+   "source_literals": [
+    "アタシは 秋原町にすんでます!",
+    "こないだ、コトブキ町に行ってみたんだけど\nすっごい 大きなマンションが\nたってて ビックリ!",
+    "秋原町とくらべると、すっごくトカイに\nみえたよ!",
+    "かえりに コトブキマートで、\nおかいものして かえりました!\nたのしかったよ~!"
+   ],
+   "translated_literals": [
+    "나는 아키하라 마을에 살아요!",
+    "얼마 전 코토부키 마을에 가 봤는데\n엄청 큰 맨션이\n서 있어서 깜짝 놀랐어요!",
+    "아키하라 마을이랑 비교하면\n엄청 도시처럼 보였어요!",
+    "돌아오는 길에 코토부키 마트에서\n쇼핑하고 왔어요!\n즐거웠어요~!"
+   ]
+  },
+  {
+   "entry_index": 15,
+   "entry_id": "archive_u07EBE0C_entry_0015",
+   "source_entry_offset": 2515,
+   "source_entry_byte_length": 137,
+   "source_entry_sha256": "bce0ffee358087799fbf8e13cfcf0d483a70449648b1713251c6ba31b0850db6",
+   "source_entry_raw_hex": "f1 02 e5 c5 e5 c6 e5 c7 b1 00 1b 59 51 16 5c 59 51 85 e8 b8 a6 cf b7 9a 00 a4 a9 e5 03 e5 02 a8 c8 d3 b0 eb e9 a2 ad 9a d3 00 e5 98 e5 02 ab b8 a8 bf e8 b2 c0 c9 b8 c9 00 a4 ab 99 e5 02 ab 85 e8 4b 59 12 32 00 a4 a9 e5 03 e5 02 a8 be 81 eb e9 99 a7 a2 ae 99 e5 02 a8 00 1b 59 51 1e 34 78 45 78 e5 02 ab e8 9a 9b b1 c7 00 bc e5 02 ab b8 a8 9e e5 02 a8 c8 d3 a1 d7 88 88 88 e8 40 3a 22 3a d3 ad e2 eb ea ff 00 00",
+   "source_tpl_block_sha256": "f560c433e96d25120f5795fb1bebadf92a974e4b899d199cefef46569db19b46",
+   "japanese_characters": 97,
+   "source_literals": [
+    "秋原町の チップショップ、\nみせじまい しちゃったんだね",
+    "こないだ 行ってみたら\nはりがみが してあって、\nビックリ しちゃったよ!",
+    "あそこにあった チップトレーダーって\nいうのを やってみたかったんだけど・・・\nザンネンだなぁ"
+   ],
+   "translated_literals": [
+    "아키하라 마을의 칩 숍、\n문을 닫아 버렸구나",
+    "얼마 전에 가 봤더니\n벽보가 붙어 있어서\n깜짝 놀랐어!",
+    "거기 있던 칩 트레이더라는\n걸 해 보고 싶었는데...\n아쉽다"
+   ]
+  },
+  {
+   "entry_index": 16,
+   "entry_id": "archive_u07EBE0C_entry_0016",
+   "source_entry_offset": 2652,
+   "source_entry_byte_length": 47,
+   "source_entry_sha256": "e8e153e0d3acbdb6d3cfa6baf2976dfc45f108ca903a21b4ae499f8205c51dc9",
+   "source_entry_raw_hex": "f1 02 a7 b1 1b 59 51 1e 34 78 45 78 e5 02 ab e8 ad c8 ad c8 d6 a5 9e 7c eb e9 a0 c4 a4 a0 00 9d a4 9c ab b6 a4 9a d6 a5 8c 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "7f005dd10954647618191b33f784cb1643aa75d1748f056c45b9ff9eb7fea380",
+   "japanese_characters": 32,
+   "source_literals": [
+    "そのチップトレーダーって\nなんなんですか?",
+    "くわしく おしえてほしいです~!"
+   ],
+   "translated_literals": [
+    "그 칩 트레이더라는 게\n뭔가요?",
+    "자세히 알려 주세요~!"
+   ]
+  },
+  {
+   "entry_index": 17,
+   "entry_id": "archive_u07EBE0C_entry_0017",
+   "source_entry_offset": 2699,
+   "source_entry_byte_length": 214,
+   "source_entry_sha256": "320d4faf4d31c925953c141fd1bd6948554e135cc6b17cfbe73346552f47348b",
+   "source_entry_raw_hex": "f1 02 4e 12 bb 00 99 a7 c8 d6 b8 be 9b ac e8 9d bb e5 02 ab a8 00 1e 14 35 d3 e5 02 a8 9e bf 85 e8 a0 c4 a4 a0 b2 00 e5 b1 bf ad 9a c8 d3 a1 d7 88 88 88 eb e9 ad c8 d6 bb 85 9a bf ad 9a 1b 59 51 c7 00 ad c8 b7 9a 9e e8 e5 6e c2 c1 ac 85 99 a8 bf a4 9a 00 1b 59 51 c9 e8 02 b7 9a 00 e5 6f ab a0 c1 c8 d3 e5 02 ab 81 eb e9 a8 d3 a4 85 e8 9a 9a 1b 59 51 c9 00 e5 6f c1 9e d7 9b 9e b2 00 0d 3a d3 9e bf e8 a7 c0 e5 03 bb 9b 00 49 11 49 11 00 ad c8 d3 e5 02 ab a3 eb e9 34 0b 1b 59 51 ad c8 9e 00 e5 6f ab 9f a8 e5 68 ae b2 00 bb 9b 81 e8 e5 02 ab 00 9e c8 cf bf a4 9a be 81 eb e9 99 8c 8c 00 99 a7 c8 d6 b8 a8 9e e5 02 a8 ad 8c 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "a34280d73c959c115b4dbc750b411bf4ece2217aadeaed34ecd93b826e0a9ba1",
+   "japanese_characters": 153,
+   "source_literals": [
+    "ボクも あそんでみようと\nおもってた トコロだったから、\nくわしくは 知らないんだけど・・・",
+    "なんでも、いらないチップを なんまいか\n入れると、あたらしい チップが\n1まい 出てくるんだって!",
+    "ただし、\nいいチップが 出るかどうかは ウンだから\nそりゃもう ドキドキ なんだってさ",
+    "レアチップなんか 出てきた日には もう!\nって かんじらしいよ!",
+    "あ~~ あそんでみたかったな~!"
+   ],
+   "translated_literals": [
+    "나도 해 보려던\n참이었어서\n자세히는 모르지만...",
+    "글쎄、 필요 없는 칩을 몇 장\n넣으면 새로운 칩이\n1장 나온대!",
+    "단、\n좋은 칩이 나올지는 운이라서\n엄청 두근두근하대",
+    "레어 칩이라도 나오는 날엔 그냥!\n이런 느낌이래!",
+    "아~~ 해 보고 싶었는데~!"
+   ]
+  },
+  {
+   "entry_index": 18,
+   "entry_id": "archive_u07EBE0C_entry_0018",
+   "source_entry_offset": 2913,
+   "source_entry_byte_length": 104,
+   "source_entry_sha256": "64dc6fce6570721c265e4bc4a4adba57f60b313d36fb52eaa79ffc028b22c613",
+   "source_entry_raw_hex": "f1 02 1b 59 51 1e 34 78 45 78 85 e8 a5 cd a0 00 9d bb a4 c3 a7 9b d6 a5 b0 eb e9 d7 a2 9e ae 00 a6 e5 02 a9 a3 c2 c1 00 be ab 9a b2 e8 ad 9a c8 d6 a4 e5 05 9b 9e b0 7c eb e9 e5 9c aa a1 a8 ac 9f b2 00 c2 c8 bf a0 a4 b7 a5 b1 d6 e8 b8 ad a3 c8 bb 00 e5 9c aa a1 a8 bf 00 9d a4 9c ab e5 63 a3 9a b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "f3dae65612de4d6644d2c729570fccfdf4187ef1be8e3dc8b5ee9eb6cade3b4d",
+   "japanese_characters": 77,
+   "source_literals": [
+    "チップトレーダー、\nすごく おもしろそうですね",
+    "どこかに せっちされる よていは\nないんでしょうかね?",
+    "見つけたときは れんらくしますので\nみなさんも 見つけたら おしえて下さいね"
+   ],
+   "translated_literals": [
+    "칩 트레이더、\n엄청 재미있어 보이네요",
+    "어딘가에 설치될 예정은\n없을까요?",
+    "찾으면 연락할 테니\n여러분도 찾으면 알려 주세요"
+   ]
+  },
+  {
+   "entry_index": 19,
+   "entry_id": "archive_u07EBE0C_entry_0019",
+   "source_entry_offset": 3017,
+   "source_entry_byte_length": 131,
+   "source_entry_sha256": "6e84796b6b4ae7671a93fd1a20bc26a416c368723eaba52365fe1f7d1695f053",
+   "source_entry_raw_hex": "f1 02 9f b1 9b 9d a0 48 3a d3 ae 00 ae e8 4f 4f ac 11 5a 3a 51 ae 00 e5 98 e5 02 ab 9f b7 a4 a8 81 eb e9 ad c8 d3 9e 85 4a 12 45 3a a3 c4 ca 00 b8 a8 9a ad e8 14 1e c9 99 e5 02 ab 85 e8 24 51 20 3a 3d aa d5 9f 00 d3 e5 02 a8 a1 d7 eb e9 ac e5 02 ab bb 00 a8 b1 a4 9e e5 02 a8 be 81 eb e9 bc e5 02 dd 85 a4 d1 c8 ac 00 b4 c2 99 9b e5 02 ab 9a 9a be b0 e8 b7 a8 9a 9f a8 9a ad 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "5ed757d41a6d309e26e09b5864b19ccc0fbce6bcffd8af2606438dfb80cae6d9",
+   "japanese_characters": 94,
+   "source_literals": [
+    "きのうおくデンだに に\nパパとキャンプに 行ってきました!",
+    "なんだか、バクダンさわぎ みたいな\nコトがあって、\nハプニングつづき だったけど",
+    "とっても たのしかったよ!",
+    "やっぱ、しぜんと ふれあうっていいよね\nまたいきたいな!"
+   ],
+   "translated_literals": [
+    "어제 오쿠덴 계곡에\n아빠랑 캠핑하러 다녀왔어요!",
+    "뭔가 폭탄 소동 같은\n일이 있어서\n해프닝의 연속이었지만",
+    "정말 즐거웠어요!",
+    "역시 자연과 어울리는 건 좋아요\n또 가고 싶어!"
+   ]
+  },
+  {
+   "entry_index": 20,
+   "entry_id": "archive_u07EBE0C_entry_0020",
+   "source_entry_offset": 3148,
+   "source_entry_byte_length": 132,
+   "source_entry_sha256": "ccd9115aaa608c26afb6f1d3b91512ce0baa2dede53b3d0e57fb18643780b0fa",
+   "source_entry_raw_hex": "f1 02 9d a0 48 3a d3 ae 00 9e e2 81 e8 0f 34 bb 00 9f e5 05 b0 c8 b1 1f 1c ae 00 e5 98 e5 02 a8 ad 99 eb e9 4a 78 4d 11 5b 78 c7 00 a4 be 9b ac 00 9d bb e5 02 ab e8 11 5a 3a 51 cf e5 05 9b ae 00 99 c1 14 3a 35 c7 e8 9e c0 a8 c8 d3 a1 d7 00 e5 b4 c9 1c 30 a5 ca ab eb e9 20 12 c9 00 bc a1 a5 ca a9 e5 03 e5 02 ab a3 85 e8 ad c8 d7 bb 51 31 3d 0c 3a a4 ab 00 ad 9d a4 a8 e5 02 a1 ad eb ea ff 00 00",
+   "source_tpl_block_sha256": "e8bb88f16f4412001083913f7e76735543316461d2642ee7f719e3243ab31708",
+   "japanese_characters": 97,
+   "source_literals": [
+    "おくデンだに かぁ!\nオレも きょねんのナツに 行ったなあ",
+    "バーベキューを しようと おもって\nキャンプじょうに あるコンロを\nかりたんだけど 火がツヨすぎて",
+    "ニクが やけすぎちゃってさ、\nなんどもプラグインして なおしたっけな"
+   ],
+   "translated_literals": [
+    "오쿠덴 계곡이라!\n나도 작년 여름에 갔었지",
+    "바비큐를 하려고\n캠핑장에 있는 풍로를\n빌렸는데 불이 너무 세서",
+    "고기가 너무 타 버려서\n몇 번이나 플러그인해서 고쳤었지"
+   ]
+  },
+  {
+   "entry_index": 21,
+   "entry_id": "archive_u07EBE0C_entry_0021",
+   "source_entry_offset": 3280,
+   "source_entry_byte_length": 259,
+   "source_entry_sha256": "25dcbab4ba55acf5d79fc3d520f25b8566cfcbd9f0b7bbfc4f18993781fc9774",
+   "source_entry_raw_hex": "f1 02 0b 1a 16 a8 a9 bb 00 9d a0 48 3a d3 ae 85 e5 98 9f b7 a4 a8 81 eb e9 4a 12 45 3a a3 c4 ca b1 00 99 e5 02 a8 ac 9f d3 9e bf e8 15 14 2e 29 a3 c8 ac 00 9d ad cf e5 68 ae e8 e5 98 e5 02 ab a8 c8 d6 a5 b0 eb e9 99 a8 a4 a8 a9 bb 00 24 1b c9 d6 a8 c0 e8 12 29 b1 00 35 4e 59 1e ae 00 9d a7 c4 c2 a8 c0 d6 e8 24 51 20 3a 3d 00 aa d5 9f d3 e5 02 a8 a1 d7 eb e9 ca e5 03 a0 ae e8 a7 c2 c9 11 5a 3a 51 b1 00 45 0c 3f 2a 9e ad 00 ad c8 ab e8 9d bb e5 02 a9 e5 03 e5 02 a8 c0 a4 ab 88 88 88 0d 26 26 eb e9 a9 ad b8 ae 85 24 1b bc 12 29 b2 00 0b 1a 16 b1 e8 1a 0c 18 1c ad 00 9d 1e 2d 45 1b c9 e8 a9 e5 03 c8 ac 85 9d e5 02 dd bf e5 02 ab a0 c2 b7 a4 a8 81 eb e9 11 5a 3a 51 b1 1e 11 e5 02 ab 85 0f 1e 14 b1 14 e5 02 ab 85 e8 a8 be c0 ae ad c1 ad e5 02 ab 9d bb 9b 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "cbb76a0662a2648f509037ac183fbe8a21c4b05b9c1ab5cf9042c9447b3d1cd6",
+   "japanese_characters": 198,
+   "source_literals": [
+    "アタシたちも おくデンだに、行きました!",
+    "バクダンさわぎの あったときだから\nサコヤマさんと おなじ日に\n行ってたんですね",
+    "あたしたちも ハチがでたり\nクマの ロボットに おそわれたりで\nハプニング つづきだったけど",
+    "ぎゃくに\nそれがキャンプの ダイゴミかな なんて\nおもっちゃったりして・・・ウフフ",
+    "ちなみに、ハチやクマは アタシの\nタイセツな おトモダチが\nちゃんと、おっぱらってくれました!",
+    "キャンプのトキって、オトコのコって、\nたよりになるなっておもう!"
+   ],
+   "translated_literals": [
+    "저희도 오쿠덴 계곡에 갔어요!",
+    "폭탄 소동이 있던 때니까\n사코야마 씨랑 같은 날에\n갔던 거네요",
+    "저희도 벌이 나오거나\n곰 로봇에게 습격당하거나\n해프닝의 연속이었지만",
+    "오히려\n그게 캠핑의 묘미인가\n싶기도 하고... 우후후",
+    "참고로 벌이랑 곰은 제\n소중한 친구가\n제대로 쫓아내 줬어요!",
+    "캠핑할 때 남자아이는\n믿음직하다고 생각해!"
+   ]
+  },
+  {
+   "entry_index": 22,
+   "entry_id": "archive_u07EBE0C_entry_0022",
+   "source_entry_offset": 3539,
+   "source_entry_byte_length": 194,
+   "source_entry_sha256": "5c96375a7b8c882b768ffeffbdd68abac0f4a5e81cd3e34cdfa7c7b9f9334dcb",
+   "source_entry_raw_hex": "f1 02 a2 c8 ae a9 b2 81 eb e9 a2 a2 c7 00 e5 9c ae 9f ab c1 00 e5 02 ab a2 ac b2 e8 bb 9b 00 e5 b1 e5 02 ab c1 9e bb 00 a4 c2 b7 a6 c8 a1 d7 85 eb e9 e5 a3 e5 68 85 0f 26 55 16 5a 33 18 3a 1a 78 b1 00 35 4b 78 d6 e8 1b 59 51 1e 34 78 45 78 c7 00 e5 9c aa a1 b7 a4 a8 81 eb e9 0d 36 15 d7 9d c0 b1 00 9d bb a4 c3 a3 d6 e8 a3 e5 02 a7 a0 00 e5 88 24 29 c0 81 eb e9 a6 c8 9e b2 88 88 88 29 54 29 54 d6 a5 e8 cf b7 c8 00 a5 c1 c4 a1 cf e5 03 00 ad 9a d6 a5 a1 d7 e8 34 0b 1b 59 51 bb 00 9a a9 9d 9b 00 3e 59 1e a4 b7 a4 a8 81 eb e9 9a cf e5 05 9b 85 cd b6 9b a2 a0 b7 d6 eb ea ff 00 00",
+   "source_tpl_block_sha256": "d45600a3ea81340205a25fbce2e360bca52d16b5951c801c89104b13ee4b9139",
+   "japanese_characters": 142,
+   "source_literals": [
+    "こんにちは!",
+    "ここを 見にきてる ってことは\nもう 知ってるかも しれませんけど、",
+    "今日、オフィシャルセンターの ロビーで\nチップトレーダーを 見つけました!",
+    "ウワサどおりの おもしろさで\nさっそく 大ハマり!",
+    "せんかは・・・マァマァです\nじまん するわけじゃ ないですけど\nレアチップも いちおう ゲットしました!",
+    "いじょう、ごほうこくまで"
+   ],
+   "translated_literals": [
+    "안녕하세요!",
+    "여기를 보러 왔다는 건\n이미 알고 있을지도 모르지만、",
+    "오늘 오피셜 센터 로비에서\n칩 트레이더를 찾았어요!",
+    "소문대로 재미있어서\n바로 푹 빠졌어요!",
+    "전과는... 그럭저럭이에요\n자랑하는 건 아니지만\n레어 칩도 일단 얻었어요!",
+    "이상、 보고였습니다"
+   ]
+  },
+  {
+   "entry_index": 23,
+   "entry_id": "archive_u07EBE0C_entry_0023",
+   "source_entry_offset": 3733,
+   "source_entry_byte_length": 174,
+   "source_entry_sha256": "fedfe8e2281dbc311d718b170bd23cfa23c2173a0054e229999d9602e0ef17a3",
+   "source_entry_raw_hex": "f1 02 1b 1e 34 8e 32 5a 12 a4 a9 e5 03 9a b7 a4 a8 8f b1 e8 34 53 78 1e 00 d7 9b bb d6 a5 8c eb e9 ac 9a 9b a2 ac d6 88 88 88 4f 1b 4f 1b 4f 1b 81 e8 f9 00 7a 01 c9 00 a3 9a 9f c8 e8 99 b7 c0 ca b8 00 d3 e5 02 a8 c8 d6 a5 be 8c eb e9 a3 e5 02 a7 a0 00 99 a4 a8 85 e8 0f 26 55 16 5a 33 18 3a 1a 78 00 e5 98 e5 02 ab e8 e5 6e c2 b7 a0 c1 d2 e5 02 81 00 9c b5 81 eb e9 9d e5 02 ac 85 9d e5 74 ae e5 6e c0 b1 e8 f9 00 41 01 b7 d6 00 e5 6e c2 a9 e5 03 c4 ad 9a be 9b ae 85 e8 a9 e5 04 9b 9a 00 a4 ad 9f e5 03 b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "980633a7e1029af67d4b82743cc06a91354e3055c2311482968a68202cbd2c53",
+   "japanese_characters": 114,
+   "source_literals": [
+    "チトレ(リャクしちゃいました)の\nレポート どうもです~",
+    "ということで・・・パチパチパチ!\n",
+    "が さいきん\nあまりぎみ だったんですよ~",
+    "さっそく あした、\nオフィシャルセンター 行って\n入れまくるぞっ! えへ!",
+    "おっと、お気に入りの\n",
+    "まで 入れちゃわないように、\nちゅうい しなきゃね"
+   ],
+   "translated_literals": [
+    "칩트(줄여 봤어요)\n리포트 고마워요~",
+    "그래서... 짝짝짝!\n",
+    "이 요즘\n남아돌던 참이었거든요~",
+    "당장 내일\n오피셜 센터에 가서\n잔뜩 넣어야지! 에헤!",
+    "아차、 아끼는\n",
+    "까지 넣지 않도록\n조심해야지"
+   ]
+  },
+  {
+   "entry_index": 24,
+   "entry_id": "archive_u07EBE0C_entry_0024",
+   "source_entry_offset": 3907,
+   "source_entry_byte_length": 85,
+   "source_entry_sha256": "18496000b1bfb09dd1fef332ed450deb128554a022e84ff5fd20304733a884b9",
+   "source_entry_raw_hex": "f1 02 99 b1 78 85 0c 3a 1a 78 22 59 1e ae 00 9d a9 ab c1 e8 2a 17 1d 32 78 48 78 1a b1 00 14 1e ad c8 d6 a5 a1 d7 eb e9 0c 35 c9 85 0b 0f 9a b1 ac 2a 49 32 b1 ac c9 e8 99 c0 b7 a5 be b0 e8 99 c2 e5 02 ab ad ae c9 00 1b 3b 9b c8 d6 a5 9e 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "3328b0bd69a569db7e853890a516fbac461fbd3d2792000a7d9697d3aa81936b",
+   "japanese_characters": 66,
+   "source_literals": [
+    "あのー、インターネットに おちてる\nミステリーデータの コトなんですけど",
+    "イロが、アオいのとミドリのとが\nありますよね\nあれってなにが チガうんですか?"
+   ],
+   "translated_literals": [
+    "저기、 인터넷에 떨어져 있는\n미스터리 데이터 말인데요",
+    "색이 파란 것과 초록 것이\n있잖아요\n그건 뭐가 다른 거예요?"
+   ]
+  },
+  {
+   "entry_index": 25,
+   "entry_id": "archive_u07EBE0C_entry_0025",
+   "source_entry_offset": 3992,
+   "source_entry_byte_length": 280,
+   "source_entry_sha256": "c89cfd69c43c636ccb45381274741b748cc77fbb7b1ef471901e2984f1d66343",
+   "source_entry_raw_hex": "f1 02 9d a2 a8 9c 00 a4 b7 a4 e5 05 9b eb e9 0b 0f 9a b1 b2 00 42 4a 32 85 9a a9 d7 00 ac e5 02 a8 bf e8 ad a0 ad e5 02 ab a4 b7 9b 00 2a 17 1d 32 78 48 78 1a e8 ad c8 d6 a5 be eb e9 9c 85 2a 49 32 b1 bb e8 ac c2 d8 00 ad a0 ad c1 d3 c3 9b e5 02 ab 7c e8 b7 85 b7 85 a7 9b ad c8 d6 a5 a1 d7 b0 eb e9 cf aa b2 85 9a a9 d7 00 51 31 3d 0b 0d 1e a5 c1 ac e8 b4 e5 02 9e aa 00 a4 ab 9a c1 c8 d6 a5 b0 81 e8 a2 c2 c9 81 eb e9 a4 9e bb 85 1f 10 2a b2 00 b7 9a 9e 9a e8 1f 20 c9 00 b2 9a e5 02 ab 9a c1 9e 00 c4 9e bf ad 9a 81 e8 d7 78 d6 a5 81 00 0f 1e 12 d6 a4 e5 05 81 7c eb e9 a8 d3 a4 85 a8 d3 a4 81 eb e9 2a 49 32 b1 00 2a 17 1d 32 78 48 78 1a b2 e8 9e 9a a6 9f a4 ab b8 c1 ac 85 a8 b7 ae e8 0d 0c 33 17 00 d3 e5 02 a8 c0 a5 c1 14 1e c9 00 99 c0 b7 a5 eb e9 a2 c2 b2 00 a9 e5 04 9b 9a 00 a4 ab 9d 9a a8 b6 9b c9 e8 9a 9a be 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "bd3a0252a30a35a57484b8732ec9eaca6b3f9384ef402ab81f5618080830c9d8",
+   "japanese_characters": 206,
+   "source_literals": [
+    "おこたえ しましょう",
+    "アオいのは ズバリ、いちど とったら\nなくなってしまう ミステリーデータ\nなんですよ",
+    "え、ミドリのも\nとれば なくなるだろうって?\nま、ま、そうなんですけどね",
+    "じつは、いちど プラグアウトすると\nふっかつ しているんですね!\nこれが!",
+    "しかも、ナカミは まいかい\nナニが はいっているか わからない!\nどーです! オトクでしょ!?",
+    "ただし、ただし!",
+    "ミドリの ミステリーデータは\nかいせきしてみると、たまに\nウイルス だったりするコトが あります",
+    "これは ちゅうい しておいたほうが\nいいよ!"
+   ],
+   "translated_literals": [
+    "대답해 드리죠",
+    "파란 건 한마디로\n한 번 가지면 사라지는\n미스터리 데이터예요",
+    "네? 초록 것도\n가지면 사라지지 않냐고요?\n뭐、 뭐、 그렇긴 한데요",
+    "사실 한 번 플러그아웃하면\n부활해 있거든요!\n이게!",
+    "게다가 내용물은 매번\n뭐가 들어 있을지 몰라요!\n어때요! 이득이죠!?",
+    "단、 단!",
+    "초록 미스터리 데이터는\n해석해 보면 가끔\n바이러스일 때가 있어요",
+    "이건 주의하는 게\n좋아요!"
+   ]
+  },
+  {
+   "entry_index": 26,
+   "entry_id": "archive_u07EBE0C_entry_0026",
+   "source_entry_offset": 4272,
+   "source_entry_byte_length": 97,
+   "source_entry_sha256": "fbd5fc77f3593dc252f11662f3eeb3e096d8705a5666955f29074a1b7dee2d4b",
+   "source_entry_raw_hex": "f1 02 ad c1 b6 d7 8c 81 e8 a7 9b d3 e5 02 a8 b1 9e 81 e8 0d 0c 33 17 d3 e5 02 a8 bf 85 14 36 9a a1 d7 88 88 88 eb e9 15 4c 1b 59 51 b1 00 0b 3a 1e 31 59 51 c7 e8 9e e5 02 ab 9a a1 d8 00 d3 9a cf e5 05 9b da 9e ad 7c eb e9 be 78 a4 85 b3 c3 9a ae 00 e5 98 e5 02 ab b8 be 9b 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "d5a6e79f11966d865b06782b2d84c307776c6663045ea081e54049e5d568de8d",
+   "japanese_characters": 67,
+   "source_literals": [
+    "なるほど~!\nそうだったのか!\nウイルスだったら、コワいけど・・・",
+    "サブチップの アントラップを\nかっていけば だいじょうぶかな?",
+    "よーし、ひろいに 行ってみよう!"
+   ],
+   "translated_literals": [
+    "그렇구나~!\n그런 거였군!\n바이러스라면 무섭지만...",
+    "서브칩 언트랩을\n사 가면 괜찮으려나?",
+    "좋아、 주우러 가 보자!"
+   ]
+  },
+  {
+   "entry_index": 27,
+   "entry_id": "archive_u07EBE0C_entry_0027",
+   "source_entry_offset": 4369,
+   "source_entry_byte_length": 72,
+   "source_entry_sha256": "340bbdef9c0e91f8d5648ebe2c0dbe85ee758466391c4c4b82f1ad9ba903a359",
+   "source_entry_raw_hex": "f1 02 a2 ad 9a d3 00 11 5a 3a 51 cf e5 05 9b b1 00 9a c0 cb a9 ae e8 ad c8 9e 85 b8 ad c2 ad 9a 2d 23 c9 e8 9d 9a ab 99 e5 02 a8 c8 d3 a1 d7 eb e9 99 c2 b2 00 ad c8 d3 e5 02 a8 c8 d3 c3 9b 88 88 88 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "963369918a4d7cd1d34ab98abc6caf4a0f09bf97513682119c5425905df94968",
+   "japanese_characters": 53,
+   "source_literals": [
+    "こないだ キャンプじょうの いりぐちに\nなんか、みなれないモノが\nおいてあったんだけど",
+    "あれは なんだったんだろう・・・?"
+   ],
+   "translated_literals": [
+    "얼마 전 캠핑장 입구에\n뭔가 낯선 게\n놓여 있었는데",
+    "그건 뭐였을까...?"
+   ]
+  },
+  {
+   "entry_index": 28,
+   "entry_id": "archive_u07EBE0C_entry_0028",
+   "source_entry_offset": 4441,
+   "source_entry_byte_length": 74,
+   "source_entry_sha256": "ad4cc1e14822dc8827889464c21e1fc3364b8801e146ca7325bccaa79744205b",
+   "source_entry_raw_hex": "f1 02 99 a4 a8 9e bf 00 9d 9e 99 a3 c8 ac 85 e8 0b 2c 35 59 4f ae 00 e5 98 a0 14 1e ae ad c0 b7 a4 a8 81 e8 9b c2 a4 9a ad e5 02 81 eb e9 0f 17 17 2c b1 00 9e c8 a2 9b 17 53 59 1e ac 9e e8 99 c0 b7 a5 9e 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "6af31389909bff505fe0201ce3fe4b6a9ce2157120841b416d52502811aee0e7",
+   "japanese_characters": 53,
+   "source_literals": [
+    "あしたから おかあさんと、\nアメロッパに 行くコトになりました!\nうれしいなっ!",
+    "オススメの かんこうスポットとか\nありますか?"
+   ],
+   "translated_literals": [
+    "내일부터 엄마랑\n아메롭파에 가게 됐어요!\n신난다!",
+    "추천하는 관광 명소\n있나요?"
+   ]
+  },
+  {
+   "entry_index": 29,
+   "entry_id": "archive_u07EBE0C_entry_0029",
+   "source_entry_offset": 4515,
+   "source_entry_byte_length": 94,
+   "source_entry_sha256": "6b1362057d0f23675b9c92208c95c91cc94b94f249dbbe18c815db5b7461352a",
+   "source_entry_raw_hex": "f1 02 0b 2c 35 59 4f ac 9a 9c d8 85 9d a4 e5 03 c2 ad 00 1e 10 0c b1 e8 0c 2c 78 41 c9 99 c1 a1 d7 88 88 88 eb e9 cf aa b2 00 ad c9 9a 85 c2 9f a4 c7 00 bb aa 12 20 ad c8 d3 e8 0b 2c 35 59 4f cf e5 05 9b 00 ad c8 9e b2 85 d1 e5 02 a8 9a e8 b8 ab 9d a0 db 9f d3 be 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "3a023bb077a90432ce9e905317836f45f35535ffce14aa45ce3eab8e88a52c96",
+   "japanese_characters": 71,
+   "source_literals": [
+    "アメロッパといえば、おしゃれな トカイの\nイメージがあるけど・・・",
+    "じつは ながい、れきしを もつクニなんだ\nアメロッパじょう なんかは、ぜったい\nみておくべきだよ!"
+   ],
+   "translated_literals": [
+    "아메롭파 하면 세련된 도시\n이미지가 있지만...",
+    "사실 긴 역사를 가진 나라야\n아메롭파 성 같은 건 꼭\n봐 둬야 해!"
+   ]
+  },
+  {
+   "entry_index": 30,
+   "entry_id": "archive_u07EBE0C_entry_0030",
+   "source_entry_offset": 4609,
+   "source_entry_byte_length": 70,
+   "source_entry_sha256": "fc930a15d66568ed05dfb2e84f6a1de11f09862a963e79342861b35b7077a22a",
+   "source_entry_raw_hex": "f1 02 0b 2c 35 59 4f cf e5 05 9b 9e 8c e8 a9 e5 04 9b a6 9a b1 00 35 29 3a ae e8 b3 a8 c1 b1 bb 9a 9a d6 a5 b0 eb e9 a3 e5 02 a7 a0 02 e5 68 e5 69 b1 17 13 41 5b 78 33 ae e8 9a c2 be e5 02 ac 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "7b1ea85b2eaae7eb5c59552f67cc1bd13be4a533edef65d2c793f8938e1c888a",
+   "japanese_characters": 48,
+   "source_literals": [
+    "アメロッパじょうか~\nちゅうせいの ロマンに\nひたるのもいいですね",
+    "さっそく1日目のスケジュールに\nいれよっと!"
+   ],
+   "translated_literals": [
+    "아메롭파 성이라~\n중세의 낭만에\n젖어 보는 것도 좋겠네요",
+    "당장 첫날 일정에\n넣어야지!"
+   ]
+  },
+  {
+   "entry_index": 31,
+   "entry_id": "archive_u07EBE0C_entry_0031",
+   "source_entry_offset": 4679,
+   "source_entry_byte_length": 166,
+   "source_entry_sha256": "1b231de8e4f5ff500ad66ea964a7475363d675ae38de1d38dd4e32c79ef4cac8",
+   "source_entry_raw_hex": "f1 02 9d cf a3 c8 bb 00 99 a4 a8 9e bf e8 0b 2c 35 59 4f ae e5 98 a0 c8 d3 eb e9 ac 9a e5 02 ab bb 85 16 3f 1e d6 e8 9e 9a c9 9a a4 e5 04 e5 02 a9 e5 05 9b 00 ad c8 d3 a1 d7 b0 eb e9 d3 9e bf 00 e5 a3 e5 68 b2 85 0f 26 55 16 5a 33 18 3a 1a 78 ae e8 4f 17 53 78 1e b1 00 a4 c8 a6 9a ae 00 9f a8 c8 d3 81 eb e9 4f 17 53 78 1e c9 00 48 78 1a 9e e8 a3 c2 c1 be 9b ae ad e5 02 ab eb e9 99 c8 b7 c0 00 ad bf d8 ad a0 ab 85 e8 a5 b9 be 9b ae ad e5 02 a8 b0 eb e9 9e 9a ab 9f 9e 9a ab 9f 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "d7ebdbc22323a815130b20e8301c7e0e08b3be1c5aca3b3d59a3586844cf6516",
+   "japanese_characters": 123,
+   "source_literals": [
+    "おじさんも あしたから\nアメロッパに行くんだ",
+    "といっても、シゴトで\nかいがいしゅっちょう なんだけどね",
+    "だから 今日は、オフィシャルセンターに\nパスポートの しんせいに きたんだ!",
+    "パスポートが データか\nされるようになって",
+    "あんまり ならばなくて、\nすむようになったね",
+    "かいてきかいてき!"
+   ],
+   "translated_literals": [
+    "아저씨도 내일부터\n아메롭파에 가",
+    "라고 해도 일 때문에\n가는 해외 출장이지만",
+    "그래서 오늘은 오피셜 센터에\n여권 신청하러 왔어!",
+    "여권이 데이터화\n되고 나서",
+    "별로 줄을 안 서도\n되게 됐어",
+    "쾌적해、 쾌적해!"
+   ]
+  },
+  {
+   "entry_index": 32,
+   "entry_id": "archive_u07EBE0C_entry_0032",
+   "source_entry_offset": 4845,
+   "source_entry_byte_length": 135,
+   "source_entry_sha256": "1c008ffd269a38e5df7ab80d34fcf43910873b042449158bd22a221e18b50cd0",
+   "source_entry_raw_hex": "f1 02 e5 a3 e5 68 85 0b 2c 35 59 4f 9e bf 00 9e 9c e5 02 ab 9f b7 a4 a8 e8 9d a4 9c ab bb bf e5 02 a8 ac 9d c0 e8 0b 2c 35 59 4f cf e5 05 9b ae bb 00 e5 98 e5 02 a8 a4 eb e9 0b 2c 35 59 4f 1a 0d 3a d6 00 9e 9a bb b1 bb a4 ab e8 45 0c 29 3a 44 12 81 eb e9 0f 1e 1f ae ad e5 02 a8 bf 85 9d 10 22 c7 a8 ba ab e8 a2 c8 d7 b2 00 9d ac bb d3 a9 ac e8 9a e5 02 a4 e5 05 ae 00 9a a2 9d e5 02 ac 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "78a2d4cb1ba38c9e8d5f11269bdfe578f8f69198d889d725151f93ed4d5feffc",
+   "japanese_characters": 99,
+   "source_literals": [
+    "今日、アメロッパから かえってきました\nおしえてもらったとおり\nアメロッパじょうにも 行ったし",
+    "アメロッパタウンで かいものもして\nダイマンゾク!",
+    "オトナになったら、おカネをためて\nこんどは おともだちと\nいっしょに いこおっと!"
+   ],
+   "translated_literals": [
+    "오늘 아메롭파에서 돌아왔어요\n알려 주신 대로\n아메롭파 성에도 갔고",
+    "아메롭파 타운에서 쇼핑도 해서\n대만족!",
+    "어른이 되면 돈을 모아서\n다음엔 친구들이랑\n같이 가야지!"
+   ]
+  },
+  {
+   "entry_index": 33,
+   "entry_id": "archive_u07EBE0C_entry_0033",
+   "source_entry_offset": 4980,
+   "source_entry_byte_length": 158,
+   "source_entry_sha256": "354ef4f896fa97349bf43e79c35c2cd54c41b6b98024479d29241ac3f135cfd6",
+   "source_entry_raw_hex": "f1 02 a7 9b a7 9b 85 0b 2c 35 59 4f 1a 0d 3a d6 e8 9d bb a4 c3 9a bb b1 c7 00 b8 b7 a4 a8 be 81 e8 ad c8 ac 00 1b 59 51 1e 34 78 45 78 17 52 16 5a 33 81 eb e9 9a bf ad 9a 1b 59 51 c7 00 02 01 b7 9a 00 e5 6e c2 c1 ac 85 e8 99 a8 bf a4 9a 1b 59 51 c9 00 02 b7 9a e8 e5 6f ab a0 c1 c8 d6 a5 eb e9 14 34 c9 b7 a8 00 34 0b ad 1b 59 51 c9 e8 a8 b7 ae 00 e5 6f ab a0 c1 c8 d6 a5 be eb e9 0b 2c 35 59 4f ae 00 e5 98 e5 02 a8 bf e8 b8 c8 ad bc c1 db a4 81 00 d6 a5 be eb ea ff 00 00",
+   "source_tpl_block_sha256": "1a2ad7a8d66425f60db229d86638b597138c9042e00cc47781644164cce1fda1",
+   "japanese_characters": 117,
+   "source_literals": [
+    "そうそう、アメロッパタウンで\nおもしろいものを みましたよ!\nなんと チップトレーダースペシャル!",
+    "いらないチップを 10まい 入れると、\nあたらしいチップが 1まい\n出てくるんです",
+    "コレがまた レアなチップが\nたまに 出てくるんですよ",
+    "アメロッパに 行ったら\nみんなやるべし! ですよ"
+   ],
+   "translated_literals": [
+    "맞다、 아메롭파 타운에서\n재미있는 걸 봤어요!\n무려 칩 트레이더 스페셜!",
+    "필요 없는 칩을 10장 넣으면\n새로운 칩이 1장\n나와요",
+    "이게 또 레어한 칩이\n가끔 나온다니까요",
+    "아메롭파에 가면\n다들 꼭 해 봐야 해요!"
+   ]
+  },
+  {
+   "entry_index": 34,
+   "entry_id": "archive_u07EBE0C_entry_0034",
+   "source_entry_offset": 5138,
+   "source_entry_byte_length": 85,
+   "source_entry_sha256": "62eae082987fa0614159a72a0715d5931f37868576fe0225dab70ff5aa304d8d",
+   "source_entry_raw_hex": "f1 02 29 41 9e be 81 7c e8 1b 59 51 1e 34 78 45 78 e5 02 ab 00 20 28 3a a6 9a d3 e5 02 ab e8 9f 9a ab a8 a1 d7 88 88 88 eb e9 45 34 9e c9 00 0b 2c 35 59 4f ae 00 9d 9a a8 b1 9e ad 7c e8 20 28 3a ae bb 00 9d 9a ab a0 c2 ad 9a 9e ad 88 88 88 eb ea ff 00 00",
+   "source_tpl_block_sha256": "edfd440c8b7755f367da26dfecf36cadc473ec846ddee03365b88789b54f28db",
+   "japanese_characters": 64,
+   "source_literals": [
+    "マジかよ!?\nチップトレーダーって ニホンせいだって\nきいてたけど・・・",
+    "ダレかが アメロッパに おいたのかな?\nニホンにも おいてくれないかな・・・"
+   ],
+   "translated_literals": [
+    "진짜야!?\n칩 트레이더는 일본제라고\n들었는데...",
+    "누가 아메롭파에 놓은 걸까?\n일본에도 놓아 주면 좋겠다..."
+   ]
+  },
+  {
+   "entry_index": 35,
+   "entry_id": "archive_u07EBE0C_entry_0035",
+   "source_entry_offset": 5223,
+   "source_entry_byte_length": 143,
+   "source_entry_sha256": "3b6cf5803c34a2130c6db9fe02f6c9c7c1d83a92f6eefb65498222f80e54027a",
+   "source_entry_raw_hex": "f1 02 e5 a3 e5 68 85 0b 2c 35 59 4f d6 b1 16 3f 1e c7 e8 9d 9c ab 00 9e 9c e5 02 ab 9f a8 be eb e9 b6 c8 bc a0 16 17 1d 2b e5 02 ab b1 b2 85 e8 db c8 c0 ad bb c8 d3 b0 eb e9 9d cf a3 c8 c9 00 c4 9e 9a a2 c3 b2 85 e8 6d 62 71 c9 00 ad 9e e5 02 a8 9e bf 85 eb e9 b8 a9 c7 00 a8 d0 b0 c1 d3 a1 d6 bb e8 cf a4 e5 05 c7 00 a4 bf db ad c9 bf eb e9 b8 da c0 00 ab da c0 d6 00 b3 e5 02 a4 ae e8 24 1f a4 a8 00 bb c8 d3 be eb ea ff 00 00",
+   "source_tpl_block_sha256": "8aa04844e5946573362b0f3a22383ea82dc2fef9c0514bf34a53244c95b2bbf4",
+   "japanese_characters": 101,
+   "source_literals": [
+    "今日、アメロッパでのシゴトを\nおえて かえってきたよ",
+    "ほんやくシステムってのは、\nべんりなもんだね",
+    "おじさんが わかいころは、\nPETが なかったから、",
+    "みちを たずねるだけでも\nじしょを しらべながら",
+    "みぶり てぶりで ひっしに\nハナした もんだよ"
+   ],
+   "translated_literals": [
+    "오늘 아메롭파에서의 일을\n마치고 돌아왔어",
+    "번역 시스템이라는 건\n편리하구나",
+    "아저씨가 젊었을 때는\nPET이 없어서、",
+    "길을 묻는 것만으로도\n사전을 찾아 가며",
+    "몸짓 손짓으로 필사적으로\n말했었지"
+   ]
+  },
+  {
+   "entry_index": 36,
+   "entry_id": "archive_u07EBE0C_entry_0036",
+   "source_entry_offset": 5366,
+   "source_entry_byte_length": 126,
+   "source_entry_sha256": "18a6edbab284aec1c886e7537849f976c6be1d61a2dad0e9bc1dc745dde8bd19",
+   "source_entry_raw_hex": "f1 02 a7 9b 9a 9c d8 00 9d cf a3 c8 b1 e8 ac b7 e5 02 a8 28 1d 33 d6 85 eb e9 4f 17 53 78 1e 48 78 1a b1 00 ac 9b ad c8 cf a1 c8 c9 e8 9d a2 e5 02 a8 c0 00 a4 ab a8 ad 99 eb e9 ad c8 d6 bb 27 2e ae 00 9d 9a ab 99 e5 02 a8 6d 62 71 9e bf e8 b9 c0 bc c0 48 78 1a c7 00 a5 9a d3 a4 ab 9a e5 02 a8 ac 9e e8 a3 9a 9f c8 b1 24 0c 1d 12 b2 c8 ce 9a b2 00 a5 cd 9a b0 9c eb ea ff 00 00",
+   "source_tpl_block_sha256": "b19c1131d7fed63d39ac7dc0f8bd47af652d04231198f1b06d42dba93c22fab4",
+   "japanese_characters": 97,
+   "source_literals": [
+    "そういえば おじさんの\nとまったホテルで、",
+    "パスポートデータの とうなんじけんが\nおこったり してたなあ",
+    "なんでもヘヤに おいてあったPETから\nむりやりデータを すいだしていったとか\nさいきんのハイテクはんざいは すごいねえ"
+   ],
+   "translated_literals": [
+    "그러고 보니 아저씨가\n묵었던 호텔에서",
+    "여권 데이터 도난 사건이\n일어나기도 했었지",
+    "글쎄 방에 둔 PET에서\n억지로 데이터를 빼 갔다던가\n요즘 하이테크 범죄는 대단해"
+   ]
+  },
+  {
+   "entry_index": 37,
+   "entry_id": "archive_u07EBE0C_entry_0037",
+   "source_entry_offset": 5492,
+   "source_entry_byte_length": 111,
+   "source_entry_sha256": "ee493393e1c1f3a7f9d1fbcff9088f387abc5787c25a81d04d3fe8590c1ff781",
+   "source_entry_raw_hex": "f1 02 ad c8 d3 9e a2 a2 a5 9b cf aa 85 e8 14 1e 4c 11 e5 c7 b1 be 9b a5 c9 e8 9d 9e a4 9a c8 d6 a5 eb e9 1f 20 bb ad 9a 1e 14 35 d6 e8 1e 1c 43 3a 4a 1b 4a 1b e5 02 ab e8 0f 1e c9 ad e5 02 a8 c0 a4 ab 88 88 88 eb e9 cf a4 c8 c9 00 9d 9d 9a 14 1e bb 99 e5 02 ab e8 a3 9a 9f c8 b0 b9 c2 ad 9a be c1 bb 00 9d 9d 9a d6 a5 eb ea ff 00 00",
+   "source_tpl_block_sha256": "f34905155d665c541c0812a5f219ed342d0026810490c19a677158a6687a3e02",
+   "japanese_characters": 88,
+   "source_literals": [
+    "なんだかここすうじつ、\nコトブキ町のようすが\nおかしいんです",
+    "ナニもないトコロで\nトツゼンバチバチって\nオトがなったりして・・・",
+    "じしんが おおいコトもあって\nさいきんねむれないよるも おおいです"
+   ],
+   "translated_literals": [
+    "왠지 요 며칠\n코토부키 마을 분위기가\n이상해요",
+    "아무것도 없는 곳에서\n갑자기 파직파직하고\n소리가 나기도 하고...",
+    "지진도 잦아서\n요즘 잠 못 드는 밤이 많아요"
+   ]
+  },
+  {
+   "entry_index": 38,
+   "entry_id": "archive_u07EBE0C_entry_0038",
+   "source_entry_offset": 5603,
+   "source_entry_byte_length": 52,
+   "source_entry_sha256": "5c74ae6c50630d39e86d345528f10c8794b9e00bcb7df822b19154e496b37b36",
+   "source_entry_raw_hex": "f1 02 ad c8 d3 9e 00 0c 3a 1a 78 22 59 1e ae e8 b5 c8 ad 00 a2 9d c0 c9 9a e5 02 dd 9a e8 b2 e5 02 a6 9a a4 ab b7 a5 b0 eb e9 1f 20 14 34 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "9763334b04415b1a75ff9191f2960caa9ab7e46a19c552b2d40319176b2c2626",
+   "japanese_characters": 36,
+   "source_literals": [
+    "なんだか インターネットに\nへんな こおりがいっぱい\nはっせいしてますね",
+    "ナニコレ?"
+   ],
+   "translated_literals": [
+    "왠지 인터넷에\n이상한 얼음이 잔뜩\n생겼네요",
+    "이게 뭐야?"
+   ]
+  },
+  {
+   "entry_index": 39,
+   "entry_id": "archive_u07EBE0C_entry_0039",
+   "source_entry_offset": 5655,
+   "source_entry_byte_length": 116,
+   "source_entry_sha256": "3e13402b94b07b5abd5efb083edce146a21993347b98f011bfcd81b19cf0f229",
+   "source_entry_raw_hex": "f1 02 28 10 b1 00 a1 9a cf d8 c8 d6 bb 00 c4 d3 9a ae e8 ad e5 02 ab c1 b0 eb e9 a2 9d c0 b1 00 cf e5 05 9b b6 9b ae 00 aa 9a ab b2 e8 4a 1e 33 a1 9a cf d8 c8 bc eb e9 0d 0c 33 17 a1 9a cf d8 c8 b1 00 b6 9b c9 e8 bc a0 ae a8 aa 00 cf e5 05 9b b6 9b c9 00 99 c0 a7 9b d6 a5 e8 a7 e5 02 a9 b5 00 e5 98 e5 02 ab b8 a8 b6 9b c9 9a 9a be eb ea ff 00 00",
+   "source_tpl_block_sha256": "0a921c5595baec81ef18711e4fea1d488bb7ed64eb8eae39d7c270ad36d3dfa4",
+   "japanese_characters": 87,
+   "source_literals": [
+    "ホカの けいじばんでも わだいに\nなってるね",
+    "こおりの じょうほうに ついては\nバトルけいじばんや",
+    "ウイルスけいじばんの ほうが\nやくにたつ じょうほうが ありそうです\nそっちへ 行ってみたほうがいいよ"
+   ],
+   "translated_literals": [
+    "다른 게시판에서도 화제가\n되고 있네",
+    "얼음 정보에 대해서는\n배틀 게시판이나",
+    "바이러스 게시판 쪽에\n쓸 만한 정보가 있을 것 같아요\n그쪽에 가 보는 게 좋아"
+   ]
+  },
+  {
+   "entry_index": 40,
+   "entry_id": "archive_u07EBE0C_entry_0040",
+   "source_entry_offset": 5771,
+   "source_entry_byte_length": 72,
+   "source_entry_sha256": "dced195fd3cfb77e553913055ed003797f8242f5d21c67571745a14d2efdde1b",
+   "source_entry_raw_hex": "f1 02 0c 3a 1a 78 22 59 1e b1 00 48 3a 15 3a 0e 32 0b d6 e8 99 9e c0 b1 00 aa 9a ab ad 9a 36 78 51 28 78 33 c9 e8 05 aa a0 bf 9a 00 9e a8 b7 e5 02 ab c1 1e 14 35 c9 99 c1 a1 d7 eb e9 99 c2 b2 ad ae 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "88b4c4260bcda7c4a43b46176522b5d789d4e4ff5c6e3fc1103cfe8fd173c1cd",
+   "japanese_characters": 55,
+   "source_literals": [
+    "インターネットの デンサンエリアで\nあかりの ついてないワープホールが\n4つくらい かたまってるトコロがあるけど",
+    "あれはなに?"
+   ],
+   "translated_literals": [
+    "인터넷의 덴산 에어리어에\n불이 꺼진 워프홀이\n4개쯤 모여 있는 곳이 있는데",
+    "그건 뭐야?"
+   ]
+  },
+  {
+   "entry_index": 41,
+   "entry_id": "archive_u07EBE0C_entry_0041",
+   "source_entry_offset": 5843,
+   "source_entry_byte_length": 96,
+   "source_entry_sha256": "2d2f42c8884f40c5543f7cbb3dc2b32a4ddb856b859e655a5d9d9907e1d1efc9",
+   "source_entry_raw_hex": "f1 02 28 10 b1 00 e5 73 e5 61 17 12 0e 0b ac c7 00 aa ad cb e8 36 78 51 28 78 33 d3 e5 02 ab 00 9f 9a a8 14 1e c9 99 c1 eb e9 ad c8 d6 bb 3e 78 1e 11 78 e5 02 ab 9a 9b 00 e8 0b 0c 1d 2b c9 ad 9a ac 00 45 2c ad c8 d3 e5 02 ab a3 e8 d7 a2 ae 99 c1 c8 d3 c3 9b b0 88 88 88 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "8958e7b7699b104f4595a20d424bd3c4ba2df34dff34010af57dcb0592eb0312",
+   "japanese_characters": 73,
+   "source_literals": [
+    "ホカの 電脳スクエアとを つなぐ\nワープホールだって きいたコトがある",
+    "なんでもゲートキーっていう \nアイテムがないと ダメなんだってさ\nどこにあるんだろうね・・・?"
+   ],
+   "translated_literals": [
+    "다른 전뇌 스퀘어와 이어진\n워프홀이라고 들은 적이 있어",
+    "글쎄 게이트 키라는\n아이템이 없으면 안 된대\n어디 있는 걸까...?"
+   ]
+  },
+  {
+   "entry_index": 42,
+   "entry_id": "archive_u07EBE0C_entry_0042",
+   "source_entry_offset": 5939,
+   "source_entry_byte_length": 113,
+   "source_entry_sha256": "2251c3b9ca3133d1c3d38438c9e9c96c2392e4f2f01195f982f9a4c0abce8bf3",
+   "source_entry_raw_hex": "f1 02 aa 9a ae 3b 29 3a d6 9f ad a0 ad e5 02 ab e8 0b 2c 35 59 4f b7 d6 e5 98 e5 02 ab eb e9 1b 59 51 1e 34 78 45 78 17 52 16 5a 33 c7 e8 bc e5 02 ab 9f a8 be 81 eb e9 a7 a4 a8 bf 00 ad c8 d3 9a 7c eb e9 bb 9b 20 28 3a ae bb 00 9a a0 aa 9e e8 a6 e5 02 a9 00 a3 c2 ab c1 cf e5 03 ad 9a 9e 81 e8 0f 78 29 0c 3b 59 88 88 88 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "f28df350e6bd9940414d078fce0439f4626f0bb8901e387977407a5f24b82d28",
+   "japanese_characters": 83,
+   "source_literals": [
+    "ついにガマンできなくなって\nアメロッパまで行って",
+    "チップトレーダースペシャルを\nやってきたよ!",
+    "そしたら なんだい?",
+    "もうニホンにも いくつか\nせっち されてるじゃないか!\nオーマイガッ・・・!"
+   ],
+   "translated_literals": [
+    "결국 못 참고\n아메롭파까지 가서",
+    "칩 트레이더 스페셜을\n하고 왔어!",
+    "그랬더니 이게 뭐야?",
+    "벌써 일본에도 몇 대\n설치돼 있잖아!\n오 마이 갓...!"
+   ]
+  },
+  {
+   "entry_index": 43,
+   "entry_id": "archive_u07EBE0C_entry_0043",
+   "source_entry_offset": 6052,
+   "source_entry_byte_length": 131,
+   "source_entry_sha256": "1060e0ae7ef423607b1199bfb373542a9667ca27f64c909e01ad9c61b8429aa1",
+   "source_entry_raw_hex": "f1 02 20 28 3a b1 00 1b 59 51 1e 34 78 45 78 17 52 16 5a 33 e8 a8 ba a4 ab b8 a8 c8 d3 a1 d7 85 eb e9 d7 9b bb 00 0b 2c 35 59 4f ae 99 e5 02 a8 b1 ac e8 d6 ab a0 c1 1b 59 51 c9 85 e8 a5 a2 a4 a9 c9 9b 10 3a 41 d3 ad eb e9 a7 c2 d2 c2 00 d6 ab a0 c1 1b 59 51 b1 e8 a1 9a a2 9b c9 4b 2a 5c 0d ae 00 a9 c9 9b b8 a8 9a d3 eb e9 9a c3 9a c3 00 a8 ba a4 ab b8 c1 ac 00 9a 9a 9e bb ad eb ea ff 00 00",
+   "source_tpl_block_sha256": "7c1d6936247390b7f4b74890478d684966fedfabb41cca0d2afc7bdc043ea889",
+   "japanese_characters": 105,
+   "source_literals": [
+    "ニホンの チップトレーダースペシャル\nためしてみたんだけど、",
+    "どうも アメロッパにあったのと\nでてくるチップが、\nすこしちがうカンジだな",
+    "それぞれ でてくるチップの\nけいこうがビミョウに ちがうみたいだ",
+    "いろいろ ためしてみると いいかもな"
+   ],
+   "translated_literals": [
+    "일본의 칩 트레이더 스페셜\n해 봤는데、",
+    "아무래도 아메롭파에 있던 거랑\n나오는 칩이\n조금 다른 느낌이야",
+    "각각 나오는 칩의\n경향이 미묘하게 다른 것 같아",
+    "여러모로 해 보면 좋을지도"
+   ]
+  },
+  {
+   "entry_index": 44,
+   "entry_id": "archive_u07EBE0C_entry_0044",
+   "source_entry_offset": 6183,
+   "source_entry_byte_length": 124,
+   "source_entry_sha256": "cbc96423629d9ba99fc482e2eea8c3058e5cadc79bbce8c6511af6c097c77cad",
+   "source_entry_raw_hex": "f1 02 e5 c7 c7 00 99 c1 9a ab c1 ac 00 a8 b7 ae e8 4a 1e 33 1b 59 51 c7 00 a2 9b 9e c8 a4 ab a0 c2 e5 02 ab e8 9a e5 02 ab a0 c1 00 25 1e c9 9a c1 b0 eb e9 b3 a2 9b 9f b1 e5 8a ae 9a c1 00 a4 e5 05 9b b0 c8 ae e8 a5 cd 9a 1b 59 51 c7 00 be 9b 9f e5 04 9b a3 c2 a8 be 88 88 88 eb e9 a7 c8 ad b1 bb e5 02 ab ad 9a be 78 81 00 e5 02 ab 9a 9b e8 17 3f 0c b1 c7 eb ea ff 00 00",
+   "source_tpl_block_sha256": "12408f4194b223fb8fd0f54d4cd3c7e157feb66c32ebea493e5cb433333f2528",
+   "japanese_characters": 93,
+   "source_literals": [
+    "町を あるいてると たまに\nバトルチップを こうかんしてくれって\nいってくる ヒトがいるね",
+    "ひこうきの中にいる しょうねんに\nすごいチップを ようきゅうされたよ・・・",
+    "そんなのもってないよー! っていう\nスゴイのを"
+   ],
+   "translated_literals": [
+    "마을을 걷다 보면 가끔\n배틀칩을 교환해 달라고\n하는 사람이 있지",
+    "비행기 안에 있는 소년한테\n굉장한 칩을 요구받았어...",
+    "그런 거 없어~! 싶은\n굉장한 걸"
+   ]
+  },
+  {
+   "entry_index": 45,
+   "entry_id": "archive_u07EBE0C_entry_0045",
+   "source_entry_offset": 6307,
+   "source_entry_byte_length": 101,
+   "source_entry_sha256": "0f36e5ccee97e3ee80c0449174b656feea583d89ccdd7bd8e951a7e97b02364e",
+   "source_entry_raw_hex": "f1 02 4a 1e 33 1b 59 51 b1 00 a2 9b 9e c8 bb 00 99 c1 a1 d7 e8 48 3a 15 3a a0 9b a2 9b d6 00 12 0c 42 c7 e8 a4 e5 04 aa d3 9a 00 a4 ab a0 c1 00 a4 e5 05 9b b0 c8 c7 b8 a8 be eb e9 d1 c8 bb c8 a6 9a 9e 9a a5 c1 ac 00 1f 20 9e e8 a0 c2 c1 bf a4 9a c8 d3 00 e5 74 ae ad c1 b0 e5 00 88 88 88 eb ea ff 00 00",
+   "source_tpl_block_sha256": "4e2b2dc0d6faa1c00a71cad6a348582f9955ee4da019d4a8b74a55a6dbd21e11",
+   "japanese_characters": 78,
+   "source_literals": [
+    "バトルチップの こうかんも あるけど\nデンサンくうこうで クイズを\nしゅつだい してくる しょうねんをみたよ",
+    "ぜんもんせいかいすると ナニか\nくれるらしいんだ 気になるねぇ・・・"
+   ],
+   "translated_literals": [
+    "배틀칩 교환도 있지만\n덴산 공항에서 퀴즈를\n내는 소년을 봤어",
+    "전부 맞히면 뭔가\n준대 궁금하네..."
+   ]
+  },
+  {
+   "entry_index": 46,
+   "entry_id": "archive_u07EBE0C_entry_0046",
+   "source_entry_offset": 6408,
+   "source_entry_byte_length": 124,
+   "source_entry_sha256": "e92bf1bfcc631eb91cdc9353be0d433e0ea5a29c8da867c975ab1408a824d269",
+   "source_entry_raw_hex": "f1 02 b8 ad a3 c8 85 bb 9b 00 cd d2 c8 cf 9e bb e8 e5 b1 c2 b7 a6 c8 c9 eb e9 e5 a3 85 14 1e 4c 11 e5 c7 b2 00 1a 0c 27 3a ad e8 14 1e ae ad e5 02 ab b7 a5 eb e9 b8 c8 ad 00 b3 ad c8 a4 a8 b8 a8 9a d3 a1 d7 88 88 88 eb e9 9d ad cf 12 31 17 b1 14 c9 00 b7 d3 14 1e 4c 11 e5 c7 ae e8 b1 a2 e5 02 ab c1 bf a4 9a d6 a5 eb e9 ac ab bb 16 3a 4f 0c d6 a5 88 88 88 eb ea ff 00 00",
+   "source_tpl_block_sha256": "e70664df0df92f41450f0beaffb60c4b3f33faa8bea82495bbcf66b508455f6c",
+   "japanese_characters": 94,
+   "source_literals": [
+    "みなさん、もう ごぞんじかも\n知れませんが",
+    "今、コトブキ町は タイヘンな\nコトになってます",
+    "みんな ひなんしたみたいだけど・・・",
+    "おなじクラスのコが まだコトブキ町に\nのこってるらしいです",
+    "とてもシンパイです・・・"
+   ],
+   "translated_literals": [
+    "여러분 이미 아실지도\n모르지만",
+    "지금 코토부키 마을은 큰일이\n났어요",
+    "다들 대피한 것 같은데...",
+    "같은 반 친구가 아직 코토부키 마을에\n남아 있대요",
+    "정말 걱정이에요..."
+   ]
+  },
+  {
+   "entry_index": 47,
+   "entry_id": "archive_u07EBE0C_entry_0047",
+   "source_entry_offset": 6532,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "a985b49ece96e2b791568c83c9397949518d74772cd7edf48ea50a1896c5a41b",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 03 63 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "d848c13f78ca79d1310ac0335db64f3adb89fb855e183b0204b3cc87719988a5",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS22F せつめい"
+   ],
+   "translated_literals": [
+    "BBS22F 설명"
+   ]
+  },
+  {
+   "entry_index": 48,
+   "entry_id": "archive_u07EBE0C_entry_0048",
+   "source_entry_offset": 6550,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "36e3dedd62f99f314a90885852379f17f80a7a5c754006ff4922ed2c6798d2b1",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 01 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "ba8e80cc0dca5d915da3ada4aa3aa4acb36d0865bef21cd96d8a115596684e09",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS230 せつめい"
+   ],
+   "translated_literals": [
+    "BBS230 설명"
+   ]
+  },
+  {
+   "entry_index": 49,
+   "entry_id": "archive_u07EBE0C_entry_0049",
+   "source_entry_offset": 6568,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "d4b5e017996a0a8ebb361b3162872416e8946c6ee1b5e25359ccc8abafe021b0",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 02 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "b33c39a189224db8ee9739b4788c254ebe8deec99ca7db74f0daaaf48108d90c",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS231 せつめい"
+   ],
+   "translated_literals": [
+    "BBS231 설명"
+   ]
+  },
+  {
+   "entry_index": 50,
+   "entry_id": "archive_u07EBE0C_entry_0050",
+   "source_entry_offset": 6586,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "cd8d44c120d6642892c35041bf0b0c713866d9f1812b3120a20d468c9ac61d8b",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 03 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "0cb5ba84fc189878564d01dc8868837f0636452b1fe8bde0bac49b5a2c339579",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS232 せつめい"
+   ],
+   "translated_literals": [
+    "BBS232 설명"
+   ]
+  },
+  {
+   "entry_index": 51,
+   "entry_id": "archive_u07EBE0C_entry_0051",
+   "source_entry_offset": 6604,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "65f69c5b8dd7d43863f3e81cbfb35f77a1369b97aaeb1d4c3a9ddb88a0735043",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 04 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "da8cd34f3d8115e583c4ed651a4cf74d2f87e40bce5042bb77bc15007d436988",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS233 せつめい"
+   ],
+   "translated_literals": [
+    "BBS233 설명"
+   ]
+  },
+  {
+   "entry_index": 52,
+   "entry_id": "archive_u07EBE0C_entry_0052",
+   "source_entry_offset": 6622,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "ddee7ab332efc77a3a6112cbc0837c45db2660a66a00d1a2810309e61b85c16c",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 05 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "14d81e5b127e585b8f69f917cf5d6abfa70c8fefe9d4f0d643b42e35259c034a",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS234 せつめい"
+   ],
+   "translated_literals": [
+    "BBS234 설명"
+   ]
+  },
+  {
+   "entry_index": 53,
+   "entry_id": "archive_u07EBE0C_entry_0053",
+   "source_entry_offset": 6640,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "8b2d38a9c832f6bede681795d4c0113929b07dbfd8583bd7deac14695158d24f",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 06 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "e7e361301045bebadf2723d8db47a850742dbf60b12ccfcdea3ca5aceac81468",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS235 せつめい"
+   ],
+   "translated_literals": [
+    "BBS235 설명"
+   ]
+  },
+  {
+   "entry_index": 54,
+   "entry_id": "archive_u07EBE0C_entry_0054",
+   "source_entry_offset": 6658,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "febb041bd22ec6eaa44471c68a89218908aa3d6e7b97eb20899df353e35fb3b4",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 07 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "82bbdcc441a83b0b9716f28c1b063b18cff844fae6617d1e328a241ad6cc2f81",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS236 せつめい"
+   ],
+   "translated_literals": [
+    "BBS236 설명"
+   ]
+  },
+  {
+   "entry_index": 55,
+   "entry_id": "archive_u07EBE0C_entry_0055",
+   "source_entry_offset": 6676,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "a575179852c6c460a049cfbfa1ad156fa27e6c187fa83ced2582e8efa6731355",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 08 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "229e353833f82257ed09afd24fb5d91820eaa68a7b411f78d19240ef911f4a0c",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS237 せつめい"
+   ],
+   "translated_literals": [
+    "BBS237 설명"
+   ]
+  },
+  {
+   "entry_index": 56,
+   "entry_id": "archive_u07EBE0C_entry_0056",
+   "source_entry_offset": 6694,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "4b2faf41ef4e36f84ab582563090bfbb37ffaf51fce343492a06f6ec54be74e1",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 09 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "94fb8784050071aff11fc3b727055c9b68e1c038964de585dd45e342ebda4a87",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS238 せつめい"
+   ],
+   "translated_literals": [
+    "BBS238 설명"
+   ]
+  },
+  {
+   "entry_index": 57,
+   "entry_id": "archive_u07EBE0C_entry_0057",
+   "source_entry_offset": 6712,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "66bb101364214c7c9dee67d952c59687ad11f8872258bcb7eed69e838da7e61a",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 0a 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "e5f899a2ef9eb21eaa6081bc71ed9f83dc2d52cf8742f0fa5a77b4473f34ddef",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS239 せつめい"
+   ],
+   "translated_literals": [
+    "BBS239 설명"
+   ]
+  },
+  {
+   "entry_index": 58,
+   "entry_id": "archive_u07EBE0C_entry_0058",
+   "source_entry_offset": 6730,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "efd391ca62ed4049b3bf85b146a7f7a8bd8767a3e149b4b4fc1d177a0fd60bcd",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 5e 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "36b825188c77509d8a16ffd3719ac13f07b0811d97f98c5c085bdaf3e9f5fafd",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS23A せつめい"
+   ],
+   "translated_literals": [
+    "BBS23A 설명"
+   ]
+  },
+  {
+   "entry_index": 59,
+   "entry_id": "archive_u07EBE0C_entry_0059",
+   "source_entry_offset": 6748,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "1b74763433fb670446c9226dd0e0ad10322a7da6bf36d8bc8fa141034b6e83e7",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 5f 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "b481baccadde7dd515c6231873465a3eb97bebb71a90dfef078acb9aac03070d",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS23B せつめい"
+   ],
+   "translated_literals": [
+    "BBS23B 설명"
+   ]
+  },
+  {
+   "entry_index": 60,
+   "entry_id": "archive_u07EBE0C_entry_0060",
+   "source_entry_offset": 6766,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "9e0ad67106cb645cc57924c1ad8d7bc04758eb7e962d5881a7b473ec93d47d30",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 60 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "27fdf9542a40b790cfca3586546ba7ff78d47e1e05eba96b46a8d5c27c2ce621",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS23C せつめい"
+   ],
+   "translated_literals": [
+    "BBS23C 설명"
+   ]
+  },
+  {
+   "entry_index": 61,
+   "entry_id": "archive_u07EBE0C_entry_0061",
+   "source_entry_offset": 6784,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "6e66df96767cc09e8992f2d6d62feac3899f823b08a2203e228e3355bd5bf6c9",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 61 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "cdfb9daefa5a58944d565bdc0b046ed2afb3b1f731da639b8f65600330340e60",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS23D せつめい"
+   ],
+   "translated_literals": [
+    "BBS23D 설명"
+   ]
+  },
+  {
+   "entry_index": 62,
+   "entry_id": "archive_u07EBE0C_entry_0062",
+   "source_entry_offset": 6802,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "8b4e1977f0d899113f5f14275ff3a4699d3eb464aa16830e9089887ae691a537",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 03 04 62 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "346ee36d102a6d082314fd4c5341a23ad2c2ce56ccfcde0433b4ced075b03d9e",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS23E せつめい"
+   ],
+   "translated_literals": [
+    "BBS23E 설명"
+   ]
+  }
+ ]
+}

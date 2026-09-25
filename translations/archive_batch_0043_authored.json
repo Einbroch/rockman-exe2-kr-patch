@@ -110,7 +110,7 @@
     {"selector":"00/267","entry_index":7,"draft_translation":"엔잔! 그건 오해야!"},
     {"selector":"00/267","entry_index":8,"draft_translation":"으, 으으..."},
     {"selector":"00/267","entry_index":9,"draft_translation":"!!"},
-    {"selector":"00/267","entry_index":10,"draft_translation":"넷토 군의 말이 맞... 다.[waitSkip 30] / 「고스펠」은 너희 둘 중 / 누구도 아니야. // 진짜 범인은 그 녀석이다... // 그 녀석은 「고스펠」에게 / 당한 게 아니었어... // 우린 속고 있었던 거야..."}
+    {"selector":"00/267","entry_index":10,"draft_translation":"넷토 군의 말이 맞... 다. / 「고스펠」은 너희 둘 중 / 누구도 아니야. // 진짜 범인은 그 녀석이다... // 그 녀석은 「고스펠」에게 / 당한 게 아니었어...[waitSkip 30] // 우린 속고 있었던 거야..."}
   ],
   "review_notes": [
     "00/263의 ロイヤルレッキングボール은 나이트맨 기술명으로 로열 레킹 볼을 잠정 사용했다.",

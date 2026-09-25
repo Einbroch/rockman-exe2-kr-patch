@@ -1,0 +1,94 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/0797578",
+ "entry_prefix": "archive_u0797578",
+ "rom_offset": 7959928,
+ "byte_length": 312,
+ "tpl_filename": "uncatalogued_archive_tpl/0797578.tpl",
+ "entry_count": 5,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u0797578_entry_0000",
+   "source_entry_offset": 60,
+   "source_entry_byte_length": 41,
+   "source_entry_sha256": "9f6df2ec3657ff50b2820a259cb8c6aa56e52b4d776b7343ac43f5b6de57846d",
+   "source_entry_raw_hex": "f1 00 9f e5 04 9b a1 aa 51 35 3d 31 2b ae 00 aa 9e b7 e5 02 a8 81 81 e8 65 6d c7 00 a5 9a ac bf c2 c1 81 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "093899045b33c7f34daf038a4415b9f2f607a8d77d7365b2f45f5eaa4185f210",
+   "japanese_characters": 23,
+   "source_literals": [
+    "きゅうけつプログラムに つかまった!!\nHPを すいとられる!!"
+   ],
+   "translated_literals": [
+    "흡혈 프로그램에 붙잡혔다!!\nHP를 흡수당한다!!"
+   ]
+  },
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u0797578_entry_0001",
+   "source_entry_offset": 101,
+   "source_entry_byte_length": 66,
+   "source_entry_sha256": "d512e4d24b7808fbb8f1776397c0815ac74429d5a8b6510f272677c0cba4a86a",
+   "source_entry_raw_hex": "f1 00 9f e5 04 9b a1 aa 51 35 3d 31 2b ae 00 aa 9e b7 e5 02 a8 81 81 e8 a4 9e a4 00 9f e5 04 9b a1 aa 9f b2 00 a2 c2 9a cf e5 05 9b e8 65 6d c7 00 a5 9a ac c2 ad 9e e5 02 a8 88 88 88 eb ea ff 00 00",
+   "source_tpl_block_sha256": "2db3eb54558eee3b7e9ac62b7973af7d0333954e7077b6206712562622fa6351",
+   "japanese_characters": 44,
+   "source_literals": [
+    "きゅうけつプログラムに つかまった!!\nしかし きゅうけつきは これいじょう\nHPを すいとれなかった・・・"
+   ],
+   "translated_literals": [
+    "흡혈 프로그램에 붙잡혔다!!\n하지만 흡혈귀는 더 이상\nHP를 빨아들이지 못했다..."
+   ]
+  },
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u0797578_entry_0010",
+   "source_entry_offset": 167,
+   "source_entry_byte_length": 44,
+   "source_entry_sha256": "88717840775fb0f97c7606bd108411e538ece381f932334bb9b9589412debc54",
+   "source_entry_raw_hex": "f1 00 44 3a 4b 51 35 3d 31 2b ae 00 aa 9e b7 e5 02 a8 81 81 e8 44 3a 4b b1 00 a5 b8 9e ae 00 aa c2 ab 9a 9e c2 c1 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "66a695f98e7723d7208c54dd8b44679fd0a050f1b8983123988ee5f5cd5dba5e",
+   "japanese_characters": 29,
+   "source_literals": [
+    "ゾンビプログラムに つかまった!!\nゾンビの すみかに つれていかれる!"
+   ],
+   "translated_literals": [
+    "좀비 프로그램에 붙잡혔다!!\n좀비 소굴로 끌려간다!"
+   ]
+  },
+  {
+   "entry_index": 20,
+   "entry_id": "archive_u0797578_entry_0020",
+   "source_entry_offset": 211,
+   "source_entry_byte_length": 42,
+   "source_entry_sha256": "e3a6974c4f41018a75dd970044b2553a2e966a5e2a50b69948690a02b1c70696",
+   "source_entry_raw_hex": "f1 00 ac 9b d2 a0 51 35 3d 31 2b ae 00 aa 9e b7 e5 02 a8 81 81 e8 f9 0c 00 01 43 20 78 c7 00 af a5 b7 c2 a8 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "156b91e97528b5db8faa0f19c8d300ca0f949a14d25ce7f351043a8a8a08fc79",
+   "japanese_characters": 24,
+   "source_literals": [
+    "とうぞくプログラムに つかまった!!\n",
+    "ゼニーを ぬすまれた!"
+   ],
+   "translated_literals": [
+    "도둑 프로그램에 붙잡혔다!!\n",
+    "제니를 도둑맞았다!"
+   ]
+  },
+  {
+   "entry_index": 21,
+   "entry_id": "archive_u0797578_entry_0021",
+   "source_entry_offset": 253,
+   "source_entry_byte_length": 59,
+   "source_entry_sha256": "853729050c54f22cc225b784bb73c841bddbed40f5e438968cd698d06e7eb2d3",
+   "source_entry_raw_hex": "f1 00 ac 9b d2 a0 51 35 3d 31 2b ae 00 aa 9e b7 e5 02 a8 81 81 e8 a4 9e a4 00 ac 9b d2 a0 51 35 3d 31 2b b2 e8 43 20 78 c7 00 9b d8 c4 d0 00 a3 e5 02 ab 9a a0 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "dbec50338422d29d222eea666378ee959fdc9c9ce34bd97d0cfa2c2cd0e2119d",
+   "japanese_characters": 41,
+   "source_literals": [
+    "とうぞくプログラムに つかまった!!\nしかし とうぞくプログラムは\nゼニーを うばわず さっていく!"
+   ],
+   "translated_literals": [
+    "도둑 프로그램에 붙잡혔다!!\n하지만 도둑 프로그램은\n제니를 빼앗지 않고 떠나간다!"
+   ]
+  }
+ ]
+}

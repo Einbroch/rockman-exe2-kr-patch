@@ -1,107 +1,510 @@
 {
-  "schema_version": 1,
-  "kind": "authored_semantic_translation_batch",
-  "batch_number": 3,
-  "entries": [
-    {"selector": "00/13", "entry_index": 65, "draft_translation": "미안하다... / 우리 힘으로는 / 전혀 상대가 되지 않았어..."},
-    {"selector": "00/13", "entry_index": 66, "draft_translation": "접수 업무만 하다 보니 / 실력이 떨어진 모양이네... // 그건 그렇고... // 오피셜 스퀘어를 점령한 내비를 / 쓰러뜨리지 않으면 위험해!!"},
-    {"selector": "00/13", "entry_index": 67, "draft_translation": "그러니까 바이러스 버스팅은 / 서툴다고 했는데..."},
-    {"selector": "00/13", "entry_index": 68, "draft_translation": "젠장!! / 난 대체 뭘 하고 있었던 거야!! // 실력도 별로면서 / 우쭐해 있었던 건 아닐까..."},
-    {"selector": "00/13", "entry_index": 69, "draft_translation": "어? 뭐야, 뭐야? / 어떻게 된 거야? // ...오피셜이!? // 정말!? / 그거 상당히 위험한 거 아냐?"},
-    {"selector": "00/13", "entry_index": 70, "draft_translation": "오피셜이 당했다고? // 이거 큰일이잖아!! / 어쩌지, 어쩌지."},
-    {"selector": "00/13", "entry_index": 71, "draft_translation": "아무래도 작전에 실패한 / 모양이야..."},
-    {"selector": "00/13", "entry_index": 72, "draft_translation": "무슨 사건이 있었나? / 난 당연히 운동회 / 연습인 줄 알았는데."},
-    {"selector": "00/13", "entry_index": 73, "draft_translation": "마더 컴퓨터는 / 일본의 중추야. // 그곳이 당하면 / 일본의 기능은 / 거의 마비되고 말아."},
-    {"selector": "00/13", "entry_index": 74, "draft_translation": "뭐! 적이 / 마더 컴퓨터에!? // 사태가 긴박하군... // 오피셜 스퀘어를 습격한 / 내비를 쓰러뜨린 사람이 / 지원하러 와 준다면... // 어쩌면 어떻게든 될지도 몰라."},
-    {"selector": "00/13", "entry_index": 75, "draft_translation": "이제 이쥬인 군이 와 주길 / 기도할 수밖에 없어... // 하지만 이쥬인 군이라도 / 이길 수 있을지..."},
-    {"selector": "00/13", "entry_index": 76, "draft_translation": "오피셜 스퀘어를 / 습격한 내비... // 분명 고스펠이라고 했지. // 놈들이 마음먹고 나선다면 / 전 세계 네트워크가 / 위험에 처할 거야... // 놈들을 내버려 둬선 안 돼!"},
-    {"selector": "00/13", "entry_index": 77, "draft_translation": "오피셜의 내비가 / 거의 전부 당했는데, // 어떻게 마더 컴퓨터를 / 지키란 말이야!? // 어디 실력 좋은 넷배틀러는 / 없는 건가..."},
-    {"selector": "00/13", "entry_index": 78, "draft_translation": "들려오는 이야기를 / 정리하면 이렇네. // 오피셜 센터에 / 「고스펠」을 자칭하는 내비가 나타나서, // 오피셜 스퀘어를 점령했고 / 누군가가 그 내비를 / 쓰러뜨렸대. // 하지만 그건 적의 작전이었고 / 진짜 목표는 / 마더 컴퓨터였어. // 즉 오피셜 스퀘어에 들어온 / 내비는 미끼였다는 거지. // 그리고 지금 그 고스펠이 / 마더 컴퓨터에 침입해 있어. // 그런데 오피셜 내비는 / 스퀘어를 습격한 내비에게 / 거의 전부 딜리트돼서, // 손쓸 방법도 없는 상태래."},
-    {"selector": "00/13", "entry_index": 79, "draft_translation": "그렇구나~ // 어!? 그렇게 심각한 일이 / 벌어지고 있었어!? // 큰일 났네~!!"},
-    {"selector": "00/13", "entry_index": 80, "draft_translation": "오피셜 센터에 오신 걸 환영합니다. / 무슨 일이신가요? // 여권을 만들고 싶은데요 / 누나, 예쁘시네요 / 아무것도 아니에요 // 어머, 이상한 아이네."},
-    {"selector": "00/13", "entry_index": 81, "draft_translation": "여권 신청이구나. / 그럼 오른쪽 카운터로 가렴."},
-    {"selector": "00/13", "entry_index": 82, "draft_translation": "후후... 고마워. [waitSkip 30] / 하지만 데이트는 좀 더 / 자란 뒤에 하자."},
-    {"selector": "00/13", "entry_index": 83, "draft_translation": "미안하지만 / 용무가 있으면 먼저 접수처로 가 주세요."},
-    {"selector": "00/13", "entry_index": 84, "draft_translation": "여권 신청이군요. // 알겠습니다. / 그럼 PET를 저 컴퓨터에 / 연결해 주시면... // 타다다닥... [wait 30] // 네, 다 됐어요!"},
-    {"selector": "00/13", "entry_index": 85, "draft_translation": "넷토는 / 「[printItem item=23]」을 / 획득했다!!"},
-    {"selector": "00/13", "entry_index": 86, "draft_translation": "여권은 데이터 형태로 / PET 안에 넣어 두었습니다. // 여권을 잃어버리면 / 외국에서 돌아오지 못하니 / PET를 떨어뜨리지 않도록 조심하세요."},
-    {"selector": "00/13", "entry_index": 87, "draft_translation": "아까도 말했지만..."},
-    {"selector": "00/13", "entry_index": 88, "draft_translation": "여권을 받은 모양이네. [waitSkip 30] / ...방긋방긋."},
-    {"selector": "00/13", "entry_index": 89, "draft_translation": "오피셜 넷배틀러와 / 시민 넷배틀러의 여권은 / 이곳에서 발급합니다. // 넷배틀러 여러분의 / 편의를 위해서죠."},
-    {"selector": "00/13", "entry_index": 90, "draft_translation": "그런데 넌 여권이 / 무엇인지 알고 있니? / 예 / 아니요 // 여권은 네가 일본 사람이라는 걸 / 증명하는 물건이야. // 해외여행 때는 목숨 다음으로 / 중요하다고 생각하는 게 좋아. // 잃어버리면 / 일본에 돌아오지 못하는 등 / 여러모로 곤란해진다고."},
-    {"selector": "00/13", "entry_index": 91, "draft_translation": "음, 알고 있다면 / 문제없어."},
-    {"selector": "00/13", "entry_index": 92, "draft_translation": "히카리 씨 아들이잖아! // 네 활약 덕분에 / 오피셜 센터는 오늘도 / 평소처럼 활동하고 있어!"},
-    {"selector": "00/13", "entry_index": 93, "draft_translation": "오피셜 넷배틀러로서 / 매일 혹독하게 훈련해 왔다고 / 생각했지만... // 「고스펠」을 쓰러뜨리려면 / 훈련을 더욱 혹독하게 해야겠군..."},
-    {"selector": "00/13", "entry_index": 94, "draft_translation": "모두 네게 감사하고 있단다. // 하지만 잊지 말거라... // 엔잔을 비롯한 모두의 협력이 / 있었기에 네가 / 다크 미야비를 쓰러뜨린 것이란 걸."},
-    {"selector": "00/13", "entry_index": 95, "draft_translation": "넷토, 메일이야!!"},
-    {"selector": "00/13", "entry_index": 99, "draft_translation": "당하고 말았어... // 이건 내가 갖고 있어도 / 소용없으니 네가 써 줘... // 넷토는 / 칩 데이터 「[printChip chip=29] [printCode code=R]」를 / 획득했다!!"},
-    {"selector": "00/13", "entry_index": 100, "draft_translation": "오피셜 센터에 / 오신 걸 환영합니다!!"},
-    {"selector": "00/13", "entry_index": 101, "draft_translation": "아메롭파 성에서 고스펠에 의한 / 사건이 발생했다고 / 들었는데... // 오피셜 본부를 / 연달아 노리다니... // 대체 정체가 뭐지?"},
-    {"selector": "00/13", "entry_index": 102, "draft_translation": "고스펠의 범행은 / 점점 흉악해지고 / 있네... // 하지만 지금의 오피셜로 / 전부 대응할 수 있을지..."},
-    {"selector": "00/13", "entry_index": 103, "draft_translation": "흉악한 네트워크 범죄를 / 뿌리 뽑는다. // 그것이 우리의 가장 큰 / 목표입니다."},
-    {"selector": "00/13", "entry_index": 104, "draft_translation": "어쩐지 오피셜 사람들 / 모두 기합이 들어간 / 얼굴이네요."},
-    {"selector": "00/13", "entry_index": 105, "draft_translation": "음!! 사명감에 불타는 / 좋은 얼굴들이군!"},
-    {"selector": "00/13", "entry_index": 106, "draft_translation": "요즘 위험한 사건이 / 많다고 들었으니, // 오피셜 여러분이 / 힘내 줘야지!"},
-    {"selector": "00/13", "entry_index": 110, "draft_translation": "큰 지진 뒤에는 / 쓰나미가 발생할 때가 있어. // 오피셜 센터는 보다시피 / 바다를 마주 보고 서 있어서 / 아주 위험해. // 하지만 우리가 도망칠 수는 / 없어."},
-    {"selector": "00/13", "entry_index": 111, "draft_translation": "인터넷에 이상이 / 있는 모양인데... // 섣불리 손을 댔다가 / 상황이 악화되면 곤란하니까..."},
-    {"selector": "00/13", "entry_index": 112, "draft_translation": "민간에서 지진에 관한 / 문의가 쇄도하고 있어."},
-    {"selector": "00/13", "entry_index": 113, "draft_translation": "전 세계에서 동시에 / 이상 기후가 발생하다니... // 설마 그 시스템이...?"},
-    {"selector": "00/13", "entry_index": 114, "draft_translation": "방금 들었는데 / 이 오피셜 센터도 / 위험한 모양이에요."},
-    {"selector": "00/13", "entry_index": 115, "draft_translation": "쓰나미가 올 가능성이 / 있다더군. // 난 수영을 못하니 / 일찌감치 대피해야겠어."},
-    {"selector": "00/13", "entry_index": 116, "draft_translation": "일본은 어떻게 되는 거야~? // 물론 오피셜 넷배틀러가 / 있으니 괜찮겠지?"},
-    {"selector": "00/13", "entry_index": 117, "draft_translation": "지진이 일어나도 / 명인에게 망설임은 없다! // 자! / 오늘도 넷배틀로 승부다!"},
-    {"selector": "00/13", "entry_index": 120, "draft_translation": "안전을 확보하기 위해 / 대피 권고를 내렸습니다. // 민간인들은 / 모두 대피했습니다."},
-    {"selector": "00/13", "entry_index": 121, "draft_translation": "지진의 혼란을 틈타 / 외부에서 침입한 사람이 없는지 / 확인해야 해!"},
-    {"selector": "00/13", "entry_index": 122, "draft_translation": "최신 정보를 / 민간인들에게 제공해야 해. // 재해 때의 정보는 / 아주 중요하니까!"},
-    {"selector": "00/13", "entry_index": 123, "draft_translation": "환경 유지 시스템이 / 정지했다는 / 정보가 들어왔어. // 지금 히카리 씨가 / 복구 작업을 하고 있대. // 상당히 까다로운 시스템이지만 / 히카리 씨라면 반드시 / 어떻게든 해 줄 거야!"},
-    {"selector": "00/13", "entry_index": 124, "draft_translation": "정말! 골치 아픈 사건이군! // 이번 재해는 네트워크 사회의 / 편리함 뒤에 숨은 위험이 / 그대로 드러난 셈이야!"},
-    {"selector": "00/13", "entry_index": 130, "draft_translation": "어서 오세요! / 오피셜 센터입니다!! // 이제 지진도 쓰나미도 / 걱정할 필요 없습니다!"},
-    {"selector": "00/13", "entry_index": 131, "draft_translation": "고스펠 본부가 / 코토부키 스퀘어에 있었다니. // 「등잔 밑이 어둡다」는 말이 / 바로 이런 거로군."},
-    {"selector": "00/13", "entry_index": 132, "draft_translation": "지진 피해 보고는 / 거의 들어오지 않았어요. // 정말 안심했습니다."},
-    {"selector": "00/13", "entry_index": 133, "draft_translation": "고스펠은 괴멸했다... / 이걸로 세계에 평화가 / 찾아오는 건가..."},
-    {"selector": "00/13", "entry_index": 134, "draft_translation": "그래도 정말 심한 지진이었네요. // 지진의 원인은 / 또다시 고스펠이었다고 해요."},
-    {"selector": "00/13", "entry_index": 135, "draft_translation": "하지만 그 고스펠도 / 괴멸한 모양이잖아. // 이제 안심하고 / 살 수 있겠구나. // 그래도 넷마피아 고스펠은 / 무서운 녀석들이었어!"},
-    {"selector": "00/13", "entry_index": 136, "draft_translation": "역시 오피셜 넷배틀러가 / 해결해 준 거야!! // 좋아! 나도 오피셜이 / 되도록 힘낼 거야!!"},
-    {"selector": "00/13", "entry_index": 137, "draft_translation": "지진은 멎은 거지? / 후우, 정말 무서웠어. // 하지만 언제 제2, 제3의 / 고스펠이 나타날지 모르니 / 방심할 수는 없겠네."},
-    {"selector": "00/13", "entry_index": 140, "draft_translation": "오피셜 센터에 오신 걸 환영합니다... // 보시다시피 저희는 / 많은 오피셜 넷배틀러를 / 잃고 말았습니다..."},
-    {"selector": "00/13", "entry_index": 141, "draft_translation": "넷배틀러 일손이 부족한데 / 이렇게 의뢰하러 오는 사람이 / 많다니..."},
-    {"selector": "00/13", "entry_index": 142, "draft_translation": "큭... [waitSkip 30] 오피셜 동료들이... [waitSkip 15] / 모두 당하고 말았어..."},
-    {"selector": "00/13", "entry_index": 143, "draft_translation": "오퍼레이션 실력이라면 / 지금도 젊은이들에게 지지 않아. // ...하지만 흉악한 바이러스와 / 싸우기에는 내 내비가 / 너무 구형이야..."},
-    {"selector": "00/13", "entry_index": 144, "draft_translation": "역시 명인도 / 고스펠과 싸우고 싶어!! // 하지만... 넷배틀이 / 명인의 임무다!"},
-    {"selector": "00/13", "entry_index": 145, "draft_translation": "내 차례는 아직이야~?"},
-    {"selector": "00/13", "entry_index": 146, "draft_translation": "마이 번역 시스템이 / 브로큰됐어요!!", "review_notes": ["외국인 NPC의 일본어식 영어 말투를 한국어식 혼용 말투로 잠정 현지화함."]},
-    {"selector": "00/13", "entry_index": 147, "draft_translation": "내비가 업무의 중요 데이터를 / 가진 채 행방불명됐어!"},
-    {"selector": "00/13", "entry_index": 160, "draft_translation": "안녕! 나는 넷배틀 명인! / 히카리 연구소에서 / 이곳에 파견됐다! // 넷배틀이라면 맡겨 줘! / 넷배틀은 바로 / 명인의 일이니까!! // 자, 덤벼라!! 전설의 / 69연승을 자랑하는 나를 / 네가 이길 수 있을까!?"},
-    {"selector": "00/13", "entry_index": 161, "draft_translation": "넷토, 명인에게 / 넷배틀을 신청할까? / 예 / 아니요"},
-    {"selector": "00/13", "entry_index": 162, "draft_translation": "좋아! 하지만... 갑자기 / 내 게이트맨을 이기기는 무리야! / 핸디캡은 이 정도로... [waitSkip 30] 간다!"},
-    {"selector": "00/13", "entry_index": 164, "draft_translation": "명인은 언제든 / 네 도전을 기다리고 있다!!"},
-    {"selector": "00/13", "entry_index": 165, "draft_translation": "잠깐만 기다려 줘! / 지금 굉장한 전법이 / 떠오를 것 같아!"},
-    {"selector": "00/13", "entry_index": 167, "draft_translation": "핸디캡전이라고 해도 좋은 실력이야! / 좋아! 명인이 주는 선물을 / 받도록 해!!"},
-    {"selector": "00/13", "entry_index": 168, "draft_translation": "넷토는 / 강화 프로그램 「[printItem item=96]」을 / 획득했다!!"},
-    {"selector": "00/13", "entry_index": 169, "draft_translation": "제법이군! / 방금은 꽤 진심이었다고! // ...그 실력이라면 / 폴더를 바꿔 쓰는 것도 가능하겠군! // 이걸 사용해 봐!!"},
-    {"selector": "00/13", "entry_index": 170, "draft_translation": "넷토는 / 「명인의 폴더」를 / 획득했다!!"},
-    {"selector": "00/13", "entry_index": 171, "draft_translation": "설마... / 그 사람 이외의 인간에게 / 내가 지다니..."},
-    {"selector": "00/13", "entry_index": 173, "draft_translation": "상당한 실력이었어! / 더욱 실력을 갈고닦아서 / 다시 내게 도전해라!"},
-    {"selector": "00/13", "entry_index": 174, "draft_translation": "명인이 몇 번이나 지다니... / 이건 꿈이야! 분명 그래!"},
-    {"selector": "00/13", "entry_index": 175, "draft_translation": "하하하하하!! / 낙심할 필요 없어! / 상당한 실력이었다고!"},
-    {"selector": "00/13", "entry_index": 176, "draft_translation": "좋아! 이번에는 / 조금만 진심을 내 볼게! / 너무 강하면 말해 줘!"},
-    {"selector": "00/13", "entry_index": 177, "draft_translation": "좋아... / 명인 전설의 진수를 / 네 눈으로 확인해라!!"},
-    {"selector": "00/13", "entry_index": 178, "draft_translation": "명인의 칭호를 더 이상 / 더럽힐 수는 없어! / 전력으로 너를 쓰러뜨리겠다!"},
-    {"selector": "00/13", "entry_index": 179, "draft_translation": "폴더를 바꿔 쓰는 방법은... / 지금 메일로 보내 주지! // 잘 읽고 능숙하게 활용해라!"},
-    {"selector": "00/13", "entry_index": 180, "draft_translation": "제 서브칩... / 조금이라면 나눠 드릴 수 있는데 / 보시겠습니까? // 본다 / 보지 않는다"},
-    {"selector": "00/13", "entry_index": 181, "draft_translation": "「준비가 있으면 걱정이 없다」죠."},
-    {"selector": "00/13", "entry_index": 182, "draft_translation": "음... 생각해 보니 / 지금은 가지고 있지 않았군요..."},
-    {"selector": "00/13", "entry_index": 190, "draft_translation": "얘야, 네가 칩을 / 교환해 줄 거니? // 우리 집의 물 데우기 / 프로그램이 고장 나서 말이야. // 그래서 「[printChip chip=26] [printCode code=F]」가 / 필요해. // 아무리 더운 계절이라도 / 매일 찬물 목욕은 싫거든. // 내 「[printChip chip=38] [printCode code=L]」와 / 교환해 주렴. / 좋아요 / 싫어요 // 잠깐, 얘야! / 이건 의뢰라고! // 의뢰를 받았으면 // 책임지고 교환해 줘야지. / 안 그러면 곤란하잖니."},
-    {"selector": "00/13", "entry_index": 191, "draft_translation": "교환해 주는 거니? / 고맙구나~ // 그럼 약속대로 / 이걸 가져가렴."},
-    {"selector": "00/13", "entry_index": 192, "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=38] [printCode code=L]」를 / 획득했다!!"},
-    {"selector": "00/13", "entry_index": 193, "draft_translation": "이제 뜨거운 목욕물에 / 들어갈 수 있겠어."},
-    {"selector": "00/13", "entry_index": 194, "draft_translation": "「[printChip chip=26] [printCode code=F]」를 / 가져왔니? // 내 「[printChip chip=38] [printCode code=L]」와 / 교환해 주렴. / 좋아요 / 싫어요 // 잠깐, 얘야! / 이건 의뢰라고! // 의뢰를 받았으면 // 책임지고 교환해 줘야지. / 안 그러면 곤란하잖니."},
-    {"selector": "00/13", "entry_index": 195, "draft_translation": "얘야, 가방 안에 / 「[printChip chip=26] [printCode code=F]」가 / 없는 것 같은데? // 폴더 안에도 없는 거니? // 가지고 있다면 / 가방에 넣어 두렴. // 그러지 않으면 나도 / 교환할 수 없으니까."},
-    {"selector": "00/13", "entry_index": 196, "draft_translation": "더울 때 뜨거운 목욕물에 들어간다. / 그게 좋은 거야!"},
-    {"selector": "00/13", "entry_index": 220, "draft_translation": "커피 서버다. / 왠지 플러그인할 수 있을 것 같다!"},
-    {"selector": "00/13", "entry_index": 221, "draft_translation": "맛있어 보이는 커피다."},
-    {"selector": "00/13", "entry_index": 222, "draft_translation": "이것이 오피셜 센터의 / 호스트 컴퓨터다. / 단, 수많은 컴퓨터 중 하나다."},
-    {"selector": "00/13", "entry_index": 223, "draft_translation": "스위치를 눌러도 반응이 없다. / 고도의 보안이 / 적용된 모양이다..."},
-    {"selector": "00/13", "entry_index": 224, "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해. // 하지만 보안이 걸려 있어서 / 우리는 사용할 수 없는 모양이야."}
-  ]
+ "schema_version": 1,
+ "kind": "authored_semantic_translation_batch",
+ "batch_number": 3,
+ "entries": [
+  {
+   "selector": "00/13",
+   "entry_index": 65,
+   "draft_translation": "미안하다... / 우리 힘으로는 / 전혀 상대가 되지 않았어..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 66,
+   "draft_translation": "접수 업무만 하다 보니 / 실력이 떨어진 모양이네... // 그건 그렇고... // 오피셜 스퀘어를 점령한 내비를 / 쓰러뜨리지 않으면 위험해!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 67,
+   "draft_translation": "그러니까 바이러스 버스팅은 / 서툴다고 했는데..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 68,
+   "draft_translation": "젠장!! / 난 대체 뭘 하고 있었던 거야!! // 실력도 별로면서 / 우쭐해 있었던 건 아닐까..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 69,
+   "draft_translation": "어? 뭐야, 뭐야? / 어떻게 된 거야? // ...오피셜이!? // 정말!? / 그거 상당히 위험한 거 아냐?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 70,
+   "draft_translation": "오피셜이 당했다고? // 이거 큰일이잖아!! / 어쩌지, 어쩌지."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 71,
+   "draft_translation": "아무래도 작전에 실패한 / 모양이야..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 72,
+   "draft_translation": "무슨 사건이 있었나? / 난 당연히 운동회 / 연습인 줄 알았는데."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 73,
+   "draft_translation": "마더 컴퓨터는 / 일본의 중추야. // 그곳이 당하면 / 일본의 기능은 / 거의 마비되고 말아."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 74,
+   "draft_translation": "뭐! 적이 / 마더 컴퓨터에!? // 사태가 긴박하군... // 오피셜 스퀘어를 습격한 / 내비를 쓰러뜨린 사람이 / 지원하러 와 준다면... // 어쩌면 어떻게든 될지도 몰라."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 75,
+   "draft_translation": "이제 이쥬인 군이 와 주길 / 기도할 수밖에 없어... // 하지만 이쥬인 군이라도 / 이길 수 있을지..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 76,
+   "draft_translation": "오피셜 스퀘어를 / 습격한 내비... // 분명 고스펠이라고 했지. // 놈들이 마음먹고 나선다면 / 전 세계 네트워크가 / 위험에 처할 거야... // 놈들을 내버려 둬선 안 돼!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 77,
+   "draft_translation": "오피셜의 내비가 / 거의 전부 당했는데, // 어떻게 마더 컴퓨터를 / 지키란 말이야!? // 어디 실력 좋은 넷배틀러는 / 없는 건가..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 78,
+   "draft_translation": "들려오는 이야기를 / 정리하면 이렇네. // 오피셜 센터에 / 「고스펠」을 자칭하는 내비가 나타나서, // 오피셜 스퀘어를 점령했고 / 누군가가 그 내비를 / 쓰러뜨렸대. // 하지만 그건 적의 작전이었고 / 진짜 목표는 / 마더 컴퓨터였어. // 즉 오피셜 스퀘어에 들어온 / 내비는 미끼였다는 거지. // 그리고 지금 그 고스펠이 / 마더 컴퓨터에 침입해 있어. // 그런데 오피셜 내비는 / 스퀘어를 습격한 내비에게 / 거의 전부 딜리트돼서, // 손쓸 방법도 없는 상태래."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 79,
+   "draft_translation": "그렇구나~ // 어!? 그렇게 심각한 일이 / 벌어지고 있었어!? // 큰일 났네~!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 80,
+   "draft_translation": "오피셜 센터에 오신 걸 환영합니다. / 무슨 일이신가요? // 여권을 만들고 싶은데요 / 누나, 예쁘시네요 / 아무것도 아니에요 // 어머, 이상한 아이네."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 81,
+   "draft_translation": "여권 신청이구나. / 그럼 오른쪽 카운터로 가렴."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 82,
+   "draft_translation": "후후... 고마워. [waitSkip 30] / 하지만 데이트는 좀 더 / 자란 뒤에 하자."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 83,
+   "draft_translation": "미안하지만 / 용무가 있으면 먼저 접수처로 가 주세요."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 84,
+   "draft_translation": "여권 신청이군요. // 알겠습니다. / 그럼 PET를 저 컴퓨터에 / 연결해 주시면... // 타다다닥... [wait 30] // 네, 다 됐어요!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 85,
+   "draft_translation": "넷토는 / 「[printItem item=23]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 86,
+   "draft_translation": "여권은 데이터 형태로 / PET 안에 넣어 두었습니다. // 여권을 잃어버리면 / 외국에서 돌아오지 못하니 / PET를 떨어뜨리지 않도록 조심하세요."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 87,
+   "draft_translation": "아까도 말했지만..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 88,
+   "draft_translation": "여권을 받은 모양이네. [waitSkip 30] / ...방긋방긋."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 89,
+   "draft_translation": "오피셜 넷배틀러와 / 시민 넷배틀러의 여권은 / 이곳에서 발급합니다. // 넷배틀러 여러분의 / 편의를 위해서죠."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 90,
+   "draft_translation": "그런데 넌 여권이 / 무엇인지 알고 있니? / 예 / 아니요 // 여권은 네가 일본 사람이라는 걸 / 증명하는 물건이야. // 해외여행 때는 목숨 다음으로 / 중요하다고 생각하는 게 좋아. // 잃어버리면 / 일본에 돌아오지 못하는 등 / 여러모로 곤란해진다고."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 91,
+   "draft_translation": "음, 알고 있다면 / 문제없어."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 92,
+   "draft_translation": "히카리 씨 아들이잖아! // 네 활약 덕분에 / 오피셜 센터는 오늘도 / 평소처럼 활동하고 있어!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 93,
+   "draft_translation": "오피셜 넷배틀러로서 / 매일 혹독하게 훈련해 왔다고 / 생각했지만... // 「고스펠」을 쓰러뜨리려면 / 훈련을 더욱 혹독하게 해야겠군..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 94,
+   "draft_translation": "모두 네게 감사하고 있단다. // 하지만 잊지 말거라... // 엔잔을 비롯한 모두의 협력이 / 있었기에 네가 / 다크 미야비를 쓰러뜨린 것이란 걸."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 95,
+   "draft_translation": "넷토, 메일이야!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 99,
+   "draft_translation": "당하고 말았어... // 이건 내가 갖고 있어도 / 소용없으니 네가 써 줘... // 넷토는 / 칩 데이터 「[printChip chip=29] [printCode code=R]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 100,
+   "draft_translation": "오피셜 센터에 / 오신 걸 환영합니다!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 101,
+   "draft_translation": "아메롭파 성에서 고스펠에 의한 / 사건이 발생했다고 / 들었는데... // 오피셜 본부를 / 연달아 노리다니... // 대체 정체가 뭐지?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 102,
+   "draft_translation": "고스펠의 범행은 / 점점 흉악해지고 / 있네... // 하지만 지금의 오피셜로 / 전부 대응할 수 있을지..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 103,
+   "draft_translation": "흉악한 네트워크 범죄를 / 뿌리 뽑는다. // 그것이 우리의 가장 큰 / 목표입니다."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 104,
+   "draft_translation": "어쩐지 오피셜 사람들 / 모두 기합이 들어간 / 얼굴이네요."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 105,
+   "draft_translation": "음!! 사명감에 불타는 / 좋은 얼굴들이군!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 106,
+   "draft_translation": "요즘 위험한 사건이 / 많다고 들었으니, // 오피셜 여러분이 / 힘내 줘야지!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 110,
+   "draft_translation": "큰 지진 뒤에는 / 쓰나미가 발생할 때가 있어. // 오피셜 센터는 보다시피 / 바다를 마주 보고 서 있어서 / 아주 위험해. // 하지만 우리가 도망칠 수는 / 없어."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 111,
+   "draft_translation": "인터넷에 이상이 / 있는 모양인데... // 섣불리 손을 댔다가 / 상황이 악화되면 곤란하니까..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 112,
+   "draft_translation": "민간에서 지진에 관한 / 문의가 쇄도하고 있어."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 113,
+   "draft_translation": "전 세계에서 동시에 / 이상 기후가 발생하다니... // 설마 그 시스템이...?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 114,
+   "draft_translation": "방금 들었는데 / 이 오피셜 센터도 / 위험한 모양이에요."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 115,
+   "draft_translation": "쓰나미가 올 가능성이 / 있다더군. // 난 수영을 못하니 / 일찌감치 대피해야겠어."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 116,
+   "draft_translation": "일본은 어떻게 되는 거야~? // 물론 오피셜 넷배틀러가 / 있으니 괜찮겠지?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 117,
+   "draft_translation": "지진이 일어나도 / 명인에게 망설임은 없다! // 자! / 오늘도 넷배틀로 승부다!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 120,
+   "draft_translation": "안전을 확보하기 위해 / 대피 권고를 내렸습니다. // 민간인들은 / 모두 대피했습니다."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 121,
+   "draft_translation": "지진의 혼란을 틈타 / 외부에서 침입한 사람이 없는지 / 확인해야 해!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 122,
+   "draft_translation": "최신 정보를 / 민간인들에게 제공해야 해. // 재해 때의 정보는 / 아주 중요하니까!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 123,
+   "draft_translation": "환경 유지 시스템이 / 정지했다는 / 정보가 들어왔어. // 지금 히카리 씨가 / 복구 작업을 하고 있대. // 상당히 까다로운 시스템이지만 / 히카리 씨라면 반드시 / 어떻게든 해 줄 거야!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 124,
+   "draft_translation": "정말! 골치 아픈 사건이군! // 이번 재해는 네트워크 사회의 / 편리함 뒤에 숨은 위험이 / 그대로 드러난 셈이야!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 130,
+   "draft_translation": "어서 오세요! / 오피셜 센터입니다!! // 이제 지진도 쓰나미도 / 걱정할 필요 없습니다!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 131,
+   "draft_translation": "고스펠 본부가 / 코토부키 스퀘어에 있었다니. // 「등잔 밑이 어둡다」는 말이 / 바로 이런 거로군."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 132,
+   "draft_translation": "지진 피해 보고는 / 거의 들어오지 않았어요. // 정말 안심했습니다."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 133,
+   "draft_translation": "고스펠은 괴멸했다... / 이걸로 세계에 평화가 / 찾아오는 건가..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 134,
+   "draft_translation": "그래도 정말 심한 지진이었네요. // 지진의 원인은 / 또다시 고스펠이었다고 해요."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 135,
+   "draft_translation": "하지만 그 고스펠도 / 괴멸한 모양이잖아. // 이제 안심하고 / 살 수 있겠구나. // 그래도 넷마피아 고스펠은 / 무서운 녀석들이었어!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 136,
+   "draft_translation": "역시 오피셜 넷배틀러가 / 해결해 준 거야!! // 좋아! 나도 오피셜이 / 되도록 힘낼 거야!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 137,
+   "draft_translation": "지진은 멎은 거지? / 후우, 정말 무서웠어. // 하지만 언제 제2, 제3의 / 고스펠이 나타날지 모르니 / 방심할 수는 없겠네."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 140,
+   "draft_translation": "오피셜 센터에 오신 걸 환영합니다... // 보시다시피 저희는 / 많은 오피셜 넷배틀러를 / 잃고 말았습니다..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 141,
+   "draft_translation": "넷배틀러 일손이 부족한데 / 이렇게 의뢰하러 오는 사람이 / 많다니..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 142,
+   "draft_translation": "큭... [waitSkip 30] 오피셜 동료들이... [waitSkip 15] / 모두 당하고 말았어..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 143,
+   "draft_translation": "오퍼레이션 실력이라면 / 지금도 젊은이들에게 지지 않아. // ...하지만 흉악한 바이러스와 / 싸우기에는 내 내비가 / 너무 구형이야..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 144,
+   "draft_translation": "역시 명인도 / 고스펠과 싸우고 싶어!! // 하지만... 넷배틀이 / 명인의 임무다!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 145,
+   "draft_translation": "내 차례는 아직이야~?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 146,
+   "draft_translation": "마이 번역 시스템이 / 브로큰됐어요!!",
+   "review_notes": [
+    "외국인 NPC의 일본어식 영어 말투를 한국어식 혼용 말투로 잠정 현지화함."
+   ]
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 147,
+   "draft_translation": "내비가 업무의 중요 데이터를 / 가진 채 행방불명됐어!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 160,
+   "draft_translation": "안녕! 나는 넷배틀 명인! / 히카리 연구소에서 / 이곳에 파견됐다! // 넷배틀이라면 맡겨 줘! / 넷배틀은 바로 / 명인의 일이니까!! // 자, 덤벼라!! 전설의 / 69연승을 자랑하는 나를 / 네가 이길 수 있을까!?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 161,
+   "draft_translation": "넷토, 명인에게 / 넷배틀을 신청할까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 162,
+   "draft_translation": "좋아! 하지만... 갑자기 / 내 게이트맨을 이기기는 무리야! / 핸디캡은 이 정도로... [waitSkip 30] 간다!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 164,
+   "draft_translation": "명인은 언제든 / 네 도전을 기다리고 있다!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 165,
+   "draft_translation": "잠깐만 기다려 줘! / 지금 굉장한 전법이 / 떠오를 것 같아!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 167,
+   "draft_translation": "핸디캡전이라고 해도 좋은 실력이야! / 좋아! 명인이 주는 선물을 / 받도록 해!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 168,
+   "draft_translation": "넷토는 / 강화 프로그램 「[printItem item=96]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 169,
+   "draft_translation": "제법이군! / 방금은 꽤 진심이었다고! // ...그 실력이라면 / 폴더를 바꿔 쓰는 것도 가능하겠군! // 이걸 사용해 봐!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 170,
+   "draft_translation": "넷토는 / 「명인의 폴더」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 171,
+   "draft_translation": "설마... / 그 사람 이외의 인간에게 / 내가 지다니..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 173,
+   "draft_translation": "상당한 실력이었어! / 더욱 실력을 갈고닦아서 / 다시 내게 도전해라!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 174,
+   "draft_translation": "명인이 몇 번이나 지다니... / 이건 꿈이야! 분명 그래!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 175,
+   "draft_translation": "하하하하하!! / 낙심할 필요 없어! / 상당한 실력이었다고!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 176,
+   "draft_translation": "좋아! 이번에는 / 조금만 진심을 내 볼게! / 너무 강하면 말해 줘!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 177,
+   "draft_translation": "좋아... / 명인 전설의 진수를 / 네 눈으로 확인해라!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 178,
+   "draft_translation": "명인의 칭호를 더 이상 / 더럽힐 수는 없어! / 전력으로 너를 쓰러뜨리겠다!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 179,
+   "draft_translation": "폴더를 바꿔 쓰는 방법은... / 지금 메일로 보내 주지! // 잘 읽고 능숙하게 활용해라!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 180,
+   "draft_translation": "제 서브칩... / 조금이라면 나눠 드릴 수 있는데 / 보시겠습니까? // 본다 / 보지 않는다"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 181,
+   "draft_translation": "「준비가 있으면 걱정이 없다」죠."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 182,
+   "draft_translation": "음... 생각해 보니 / 지금은 가지고 있지 않았군요..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 190,
+   "draft_translation": "얘야, 네가 칩을 / 교환해 줄 거니? // 우리 집의 물 데우기 / 프로그램이 고장 나서 말이야. // 그래서 「[printChip chip=26] [printCode code=F]」가 / 필요해. // 아무리 더운 계절이라도 / 매일 찬물 목욕은 싫거든. // 내 「[printChip chip=38] [printCode code=L]」와 / 교환해 주렴. / 좋아요 / 싫어요 // 잠깐, 얘야! / 이건 의뢰라고! // 의뢰를 받았으면 // 책임지고 교환해 줘야지. / 안 그러면 곤란하잖니."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 191,
+   "draft_translation": "교환해 주는 거니? / 고맙구나~ // 그럼 약속대로 / 이걸 가져가렴."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 192,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=38] [printCode code=L]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 193,
+   "draft_translation": "이제 뜨거운 목욕물에 / 들어갈 수 있겠어."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 194,
+   "draft_translation": "「[printChip chip=26] [printCode code=F]」를 / 가져왔니? // 내 「[printChip chip=38] [printCode code=L]」와 / 교환해 주렴. / 좋아요 / 싫어요 // 잠깐, 얘야! / 이건 의뢰라고! // 의뢰를 받았으면 // 책임지고 교환해 줘야지. / 안 그러면 곤란하잖니."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 195,
+   "draft_translation": "얘야, 가방 안에 / 「[printChip chip=26] [printCode code=F]」가 / 없는 것 같은데? // 폴더 안에도 없는 거니? // 가지고 있다면 / 가방에 넣어 두렴. // 그러지 않으면 나도 / 교환할 수 없으니까."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 196,
+   "draft_translation": "더울 때 뜨거운 목욕물에 들어간다. / 그게 좋은 거야!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 220,
+   "draft_translation": "커피 서버다. / 왠지 플러그인할 수 있을 것 같다!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 221,
+   "draft_translation": "맛있어 보이는 커피다."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 222,
+   "draft_translation": "이것이 오피셜 센터의 / 호스트 컴퓨터다. / 단, 수많은 컴퓨터 중 하나다."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 223,
+   "draft_translation": "스위치를 눌러도 반응이 없다. / 고도의 보안이 / 적용된 모양이다..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 224,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해. // 하지만 보안이 걸려 있어서 / 우리는 사용할 수 없는 모양이야."
+  }
+ ]
 }

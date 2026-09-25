@@ -2,7 +2,7 @@
 import json
 from collections import Counter
 from pathlib import Path
-from build_semantic_translation_dev_rom import load_batches, SCRIPT_RE, transform_script
+from build_semantic_translation_dev_rom import load_batches, SCRIPT_RE, translate_block
 from dialogue_layout import layout_script
 
 root = Path(__file__).resolve().parents[1]
@@ -19,7 +19,8 @@ for selector, archive in archives.items():
         entry = entries.get(key)
         if entry is None:
             continue
-        old, _ = transform_script(match.group(0), entry['draft_translation'], entry['entry_id'], preserve_option_layout=key == ('00/404', 10))
+        # The same step the build takes, whichever form the entry was authored in.
+        old, _ = translate_block(match.group(0), entry)
         new, record = layout_script(match.group(0), old, entry['entry_id'])
         record.update(selector=selector, entry_index=key[1], rom_eligible=selector != '00/357')
         records.append(record)

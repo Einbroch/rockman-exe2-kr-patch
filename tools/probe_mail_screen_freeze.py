@@ -21,6 +21,37 @@ import tempfile
 SWI_LZ77_CALL_SITE = 0x080E8690
 
 
+NL = chr(10)
+Q = chr(34)
+
+
+def sp_probe_lua(spec: str) -> str:
+    """Record the stack pointer each time one of these addresses executes.
+
+    A stack imbalance is invisible in a post-mortem dump. The only way to see
+    it is to watch the pointer cross the same call boundary twice.
+    """
+    if not spec.strip():
+        return ''
+    fmt = ("{" + Q + "n" + Q + ":%d," + Q + "pc" + Q + ":%d,"
+           + Q + "sp" + Q + ":%d," + Q + "frame" + Q + ":%d}")
+    template = (
+        "emu.addMemoryCallback(function()" + NL
+        + " if not ready or spAt>=SP_LIMIT then return end" + NL
+        + " spAt=spAt+1" + NL
+        + " local s=emu.getState()" + NL
+        + " spLog[#spLog+1]=string.format(QUOTE" + fmt + "QUOTE,"
+        + "spAt,ADDRESS,s[QQcpu.r13QQ] or 0,frame)" + NL
+        + "end,emu.callbackType.exec,ADDRESS,ADDRESS)")
+    parts = []
+    for item in spec.split(','):
+        address = str(int(item.strip(), 0))
+        parts.append(template.replace('ADDRESS', address)
+                             .replace('QUOTE', chr(39))
+                             .replace('QQ', chr(39)))
+    return NL.join(parts)
+
+
 def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
@@ -40,6 +71,16 @@ local stream={}
 local calls={}
 local region={}
 local regionOrder={}
+local ring={}
+local ringAt=0
+local ringSize=RING
+local frameStats={}
+local execRom=0
+local execIwram=0
+local readArchive=0
+local spLog={}
+local spAt=0
+local SP_LIMIT=4000
 local function write(name,data)
  local f=assert(io.open(root..'/'..name,'wb'));f:write(data);f:close()
 end
@@ -55,6 +96,8 @@ local function flush()
   write('render_calls.json','['..table.concat(calls,',')..']')
  end
  write('pc_samples.json','['..table.concat(pcs,',')..']')
+ if #frameStats>0 then write('frame_stats.json','['..table.concat(frameStats,',')..']') end
+ if #spLog>0 then write('sp_log.json','['..table.concat(spLog,',')..']') end
  if WATCH_HIGH>0 then
   local rows={}
   for _,key in ipairs(regionOrder) do
@@ -106,11 +149,70 @@ if TRACE_STREAM then
    at,byte(at),s['cpu.r2'],s['cpu.r4'],s['cpu.r5'])
  end,emu.callbackType.exec,0x03006df0,0x03006df0)
 end
-emu.addMemoryCallback(function(address)
- if not ready then return end
- pcs[#pcs+1]=string.format('{"frame":%d,"ewram_exec":%d}',frame,address)
- capture('ewram_execution');emu.stop(3)
-end,emu.callbackType.exec,0x02000000,0x02ffffff)
+if TRAP_HIGH==0 then
+ emu.addMemoryCallback(function(address)
+  if not ready then return end
+  pcs[#pcs+1]=string.format('{"frame":%d,"ewram_exec":%d}',frame,address)
+  capture('ewram_execution');emu.stop(3)
+ end,emu.callbackType.exec,0x02000000,0x02ffffff)
+end
+if FRAME_STATS then
+ -- Per-frame work, so a frame that cannot finish in time names itself.
+ emu.addMemoryCallback(function() execRom=execRom+1 end,
+  emu.callbackType.exec,0x08000000,0x09ffffff)
+ emu.addMemoryCallback(function() execIwram=execIwram+1 end,
+  emu.callbackType.exec,0x03000000,0x03007fff)
+ emu.addMemoryCallback(function() readArchive=readArchive+1 end,
+  emu.callbackType.read,0x08960000,0x09ffffff)
+end
+SP_PROBES
+if RING>0 then
+ -- Keep only the last few thousand executed addresses. A trap then reports the
+ -- road that led to it, which is the one thing a post-mortem dump cannot show.
+ local function push(address)
+  -- The interrupt dispatcher runs hundreds of times a frame and would fill the
+  -- ring with noise, hiding the game code that actually went wrong.
+  if address>=0x030062F0 and address<0x03006440 then return end
+  ringAt=ringAt+1
+  ring[(ringAt%ringSize)+1]=address
+ end
+ emu.addMemoryCallback(function(address) push(address) end,
+  emu.callbackType.exec,0x08000000,0x09ffffff)
+ emu.addMemoryCallback(function(address) push(address) end,
+  emu.callbackType.exec,0x03000000,0x03007fff)
+end
+if TRAP_HIGH>0 then
+ -- Execution reaching the reset vectors means the game branched somewhere
+ -- impossible. Freeze the evidence before the BIOS clears IWRAM on its way
+ -- round the reset, so the stack that led here is still readable.
+ local trapped=false
+ emu.addMemoryCallback(function(address)
+  if trapped or not ready or frame<TRAP_AFTER then return end
+  trapped=true
+  local s=emu.getState()
+  local parts={}
+  for i=0,15 do parts[#parts+1]=string.format('"r%d":%d',i,s['cpu.r'..i] or 0) end
+  parts[#parts+1]=string.format('"trap":%d',address)
+  parts[#parts+1]=string.format('"frame":%d',frame)
+  write('trap_regs.json','{'..table.concat(parts,',')..'}')
+  local function region(name,memType,size)
+   local out={}
+   for i=0,size-1 do out[#out+1]=string.char(emu.read(i,memType,false)) end
+   write(name,table.concat(out))
+  end
+  if RING>0 then
+   local out={}
+   for i=1,ringSize do
+    local at=((ringAt+i)%ringSize)+1
+    if ring[at]~=nil then out[#out+1]=string.format('%d',ring[at]) end
+   end
+   write('trap_ring.json','['..table.concat(out,',')..']')
+  end
+  region('trap_iwram.bin',emu.memType.gbaIntWorkRam,0x8000)
+  region('trap_ewram.bin',emu.memType.gbaExtWorkRam,0x40000)
+  capture('trap');emu.stop(4)
+ end,emu.callbackType.exec,TRAP_LOW,TRAP_HIGH)
+end
 if WATCH_HIGH>0 then
  -- Who else touches the bytes past the original buffer's end? Group by the
  -- instruction doing it, so one decompression does not drown out a real user.
@@ -131,6 +233,33 @@ if WATCH_HIGH>0 then
  end
  emu.addMemoryCallback(note('write'),emu.callbackType.write,WATCH_LOW,WATCH_HIGH)
  emu.addMemoryCallback(note('read'),emu.callbackType.read,WATCH_LOW,WATCH_HIGH)
+ if WATCH_LOG>0 then
+  -- Grouping by instruction hides ordering, and ordering is the whole story
+  -- when a stack slot is written correctly 194 times and wrongly once.
+  local log={}
+  local at=0
+  local function record(kind)
+   return function(address,value)
+    if not ready then return end
+    at=at+1
+    local s=emu.getState()
+    log[(at%WATCH_LOG)+1]=string.format(
+     '{"n":%d,"kind":"%s","address":%d,"value":%d,"pc":%d,"sp":%d,"mode":%d,"frame":%d}',
+     at,kind,address,value or -1,pc_of(s),s['cpu.r13'] or 0,s['cpu.pipeline.mode'] or 0,frame)
+   end
+  end
+  emu.addMemoryCallback(record('write'),emu.callbackType.write,WATCH_LOW,WATCH_HIGH)
+  emu.addMemoryCallback(record('read'),emu.callbackType.read,WATCH_LOW,WATCH_HIGH)
+  local function flushLog()
+   local rows={}
+   for i=1,WATCH_LOG do
+    local item=log[((at+i)%WATCH_LOG)+1]
+    if item~=nil then rows[#rows+1]=item end
+   end
+   write('watch_log.json','['..table.concat(rows,',')..']')
+  end
+  emu.addEventCallback(flushLog,emu.eventType.endFrame)
+ end
 end
 local function onceExec(fn)
  local id
@@ -160,6 +289,12 @@ end,emu.eventType.inputPolled)
 emu.addEventCallback(function()
  if not ready or final then return end
  frame=frame+1
+ if FRAME_STATS then
+  frameStats[#frameStats+1]=string.format('{"frame":%d,"rom":%d,"iwram":%d,"archive_reads":%d}',
+   frame,execRom,execIwram,readArchive)
+  if #frameStats>400 then table.remove(frameStats,1) end
+  execRom=0;execIwram=0;readArchive=0
+ end
  local s=emu.getState()
  if not keys_dumped then
   keys_dumped=true
@@ -201,8 +336,20 @@ def main():
                    help='Record every byte the label renderer consumes after the mail archive loads')
     p.add_argument('--mail-buffer', type=lambda x: int(x, 0), default=0x02023000)
     p.add_argument('--stream-limit', type=int, default=4000)
+    p.add_argument('--trap-low', type=lambda x: int(x, 0), default=0)
+    p.add_argument('--trap-high', type=lambda x: int(x, 0), default=0)
+    p.add_argument('--frame-stats', action='store_true',
+                   help='Count executed instructions and archive reads per frame')
+    p.add_argument('--sp-probe', default='',
+                   help='Comma separated addresses; records the stack pointer at each')
+    p.add_argument('--ring', type=int, default=0,
+                   help='Keep this many recent ROM execution addresses for the trap report')
+    p.add_argument('--trap-after', type=int, default=900,
+                   help='Arm the trap only after this many frames, so boot does not trip it')
     p.add_argument('--watch-low', type=lambda x: int(x, 0), default=0)
     p.add_argument('--watch-high', type=lambda x: int(x, 0), default=0)
+    p.add_argument('--watch-log', type=int, default=0,
+                   help='Keep this many recent accesses to the watched range, in order')
     a = p.parse_args()
     if a.out.exists():
         raise SystemExit('Refusing to overwrite an existing observation')
@@ -232,7 +379,14 @@ def main():
               .replace('MAIL_BUFFER', str(a.mail_buffer))
               .replace('STREAM_LIMIT', str(a.stream_limit))
               .replace('WATCH_LOW', str(a.watch_low))
-              .replace('WATCH_HIGH', str(a.watch_high)))
+              .replace('WATCH_HIGH', str(a.watch_high))
+              .replace('WATCH_LOG', str(a.watch_log))
+              .replace('TRAP_LOW', str(a.trap_low))
+              .replace('TRAP_HIGH', str(a.trap_high))
+              .replace('TRAP_AFTER', str(a.trap_after))
+              .replace('RING', str(a.ring))
+              .replace('SP_PROBES', sp_probe_lua(a.sp_probe))
+              .replace('FRAME_STATS', 'true' if a.frame_stats else 'false'))
     script = runtime / 'probe.lua'
     script.write_text(lua, encoding='utf-8')
     command = [str(a.mesen.resolve()), '--testRunner', '--noAudio', '--enableStdout',

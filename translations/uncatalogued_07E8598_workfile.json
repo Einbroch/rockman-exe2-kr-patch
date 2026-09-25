@@ -1,0 +1,60 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/07E8598",
+ "entry_prefix": "archive_u07E8598",
+ "rom_offset": 8291736,
+ "byte_length": 100,
+ "tpl_filename": "uncatalogued_archive_tpl/07E8598.tpl",
+ "entry_count": 3,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u07E8598_entry_0000",
+   "source_entry_offset": 10,
+   "source_entry_byte_length": 31,
+   "source_entry_sha256": "2185e822669ee073cf9266ffe56665eea231eac3b8065f17fd9bbb574c6daba4",
+   "source_entry_raw_hex": "f1 02 ed 00 40 ec 00 00 99 a8 bf a4 9a 00 9e 9f a2 b8 c9 00 99 c1 b8 a8 9a d3 be ea ff 00 00",
+   "source_tpl_block_sha256": "5ffea1109578f69b898749f7a14fa5f1e62e6be835a5c44217373af6f1473d79",
+   "japanese_characters": 17,
+   "source_literals": [
+    "あたらしい かきこみが あるみたいだよ"
+   ],
+   "translated_literals": [
+    "새 게시물이 있는 것 같아"
+   ]
+  },
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u07E8598_entry_0001",
+   "source_entry_offset": 41,
+   "source_entry_byte_length": 24,
+   "source_entry_sha256": "8e2905f2f5f007ceebf3399a3b501be9522cd079d847458c01e9cbf9afb716e4",
+   "source_entry_raw_hex": "f1 02 ed 00 40 ec 00 00 d7 b1 00 9e 9f a2 b8 c7 00 be b9 7c ea ff 00 00",
+   "source_tpl_block_sha256": "4fe6a1d033180d0cc7c550f233bdad8194c02e5d5d2e6c69301a3243d4455aea",
+   "japanese_characters": 9,
+   "source_literals": [
+    "どの かきこみを よむ?"
+   ],
+   "translated_literals": [
+    "어느 게시물을 읽을래?"
+   ]
+  },
+  {
+   "entry_index": 2,
+   "entry_id": "archive_u07E8598_entry_0002",
+   "source_entry_offset": 65,
+   "source_entry_byte_length": 35,
+   "source_entry_sha256": "80d50392a102f5a052f5d8e7e180a69a8df3278a4301770a760cb4bcdaf79b17",
+   "source_entry_raw_hex": "f1 02 ed 00 40 ec 00 00 9e 9f a2 b8 c9 e8 9a e5 02 a1 c8 bb 00 ad 9a b8 a8 9a d3 be 88 88 88 ea ff 00 00",
+   "source_tpl_block_sha256": "c9d3977123f39baac558794013afdf6a290bd9a5d7b5c663c00efae6dcf8526e",
+   "japanese_characters": 20,
+   "source_literals": [
+    "かきこみが\nいっけんも ないみたいだよ・・・"
+   ],
+   "translated_literals": [
+    "게시물이\n하나도 없는 것 같아..."
+   ]
+  }
+ ]
+}

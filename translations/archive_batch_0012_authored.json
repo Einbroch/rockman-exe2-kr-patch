@@ -1,109 +1,519 @@
 {
-  "schema_version": 1,
-  "kind": "authored_semantic_translation_batch",
-  "batch_number": 12,
-  "entries": [
-    {"selector":"00/28","entry_index":23,"draft_translation":"아빠, 괜찮아!? / 비행기가 곧 출발해!"},
-    {"selector":"00/28","entry_index":24,"draft_translation":"저쪽 가족의 아빠가 / 갑자기 배가 아프다고 해서, // 제가 조금 전에 / 구급차를 불렀어요."},
-    {"selector":"00/28","entry_index":25,"draft_translation":"여기가 비행기 / 탑승구입니다. // 편안한 하늘 여행을 / 즐겨 주세요."},
-    {"selector":"00/28","entry_index":26,"draft_translation":"이번에 아메롭파 항공을 / 이용해 주셔서 / 진심으로 감사드립니다."},
-    {"selector":"00/28","entry_index":27,"draft_translation":"·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]·"},
-    {"selector":"00/28","entry_index":28,"draft_translation":"자, 슬슬 비행기에 / 올라타 볼까..."},
-    {"selector":"00/28","entry_index":29,"draft_translation":"여기는 아메롭파의 면세점, / 듀티 프리 숍이란다. // 아메롭파는 브랜드의 중심지니까 / 자존심을 걸고 좋은 상품을 / 갖춰 놓았지."},
-    {"selector":"00/28","entry_index":30,"draft_translation":"으음, 손님이 적군... // 세계 각지에서 일어난 / 천재지변 때문에 / 다들 여행할 때가 아닌가?"},
-    {"selector":"00/28","entry_index":31,"draft_translation":"언제까지 이런 상황이 / 계속되려나... // 오래 이어지면 회사가 / 파산하고 말 거야..."},
-    {"selector":"00/28","entry_index":32,"draft_translation":"아메롭파는 위험하니까 / 다른 나라로 가려고 했는데, // 가는 곳마다 재해가 / 일어나고 있네... // 취소할까..."},
-    {"selector":"00/28","entry_index":33,"draft_translation":"으음... 곤란하군... / 이대로 아메롭파에 있어야 하나, / 아니면 일본으로 돌아가야 하나... // 어떻게 하지..."},
-    {"selector":"00/28","entry_index":34,"draft_translation":"오! 공들여 짠 / 「나를 찾는 여행」 계획이 / 완전히 엉망이 됐어!! // 이런 상황이면 / 어디에도 갈 수 없잖아!!"},
-    {"selector":"00/28","entry_index":35,"draft_translation":"역시 관광객이 / 적습니다. // 천재지변의 여파를 / 제대로 맞고 있어요!!"},
-    {"selector":"00/28","entry_index":36,"draft_translation":"장사도 끝장이구먼. // 뭐, 좋을 때가 있으면 / 나쁠 때도 있는 법. / 그게 장사라는 거지."},
-    {"selector":"00/28","entry_index":40,"draft_translation":"이번 표는 / 취소해 버렸어..."},
-    {"selector":"00/28","entry_index":41,"draft_translation":"여기서는 아메롭파에 머물며 / 상황을 지켜보자..."},
-    {"selector":"00/28","entry_index":42,"draft_translation":"어쩔 수 없지! 새로운 / 「나를 찾는 여행」 계획을 / 세우겠어!! // 언제나 긍정적으로 생각해야지!"},
-    {"selector":"00/28","entry_index":45,"draft_translation":"재해는 진정된 모양이니 / 집에 돌아갈까. // 공항까지 왔다가 손해만 봤네."},
-    {"selector":"00/28","entry_index":46,"draft_translation":"의외로 빨리 진정된 모양이군. / 아메롭파에 남은 건 / 정답이었어..."},
-    {"selector":"00/28","entry_index":47,"draft_translation":"새로운 「나를 찾는 여행」 계획으로 / 나를 찾으러 다녀오겠어!!"},
-    {"selector":"00/28","entry_index":48,"draft_translation":"웰컴!! 웰컴!! // 천재지변도 진정됐으니 / 손님도 분명 늘어날 거예요!"},
-    {"selector":"00/28","entry_index":49,"draft_translation":"여기는 아메롭파의 면세점, / 듀티 프리 숍이란다. // 뭐? 간판에는 / 택스 프리라고 쓰여 있다고? // 같은 뜻이니 됐잖니. / 아이가 사소한 걸 신경 쓰는 게 아니야."},
-    {"selector":"00/28","entry_index":55,"draft_translation":"어서 오세요! 아메롭파에! // 왜 그렇게 밝으냐고요? // 이런 때에 일부러 먼 곳에서 / 찾아와 주신 손님이니까요... 그렇죠?"},
-    {"selector":"00/28","entry_index":56,"draft_translation":"휴우~...[waitSkip 20] / 어떻게든 무사히 / 아메롭파에 도착했군..."},
-    {"selector":"00/28","entry_index":57,"draft_translation":"공항이 또 / 텅 비어 버렸네. // 뭐, 렛 잇 비지. / 될 대로 되라는 정신이야."},
-    {"selector":"00/28","entry_index":58,"draft_translation":"손님이 조금 없다고 해도, // 보이에게 억지로 물건을 권할 만큼 / 내가 타락하진 않았어. // 그게 아메롭파 여자의 / 자존심이라는 거야."},
-    {"selector":"00/28","entry_index":59,"draft_translation":"어떻게 해야 승객이 안심하고 / 하늘 여행을 즐길 수 있을까. // 이럴 때일수록 / 객실 승무원인 프로로서 / 제대로 일해야지!"},
-    {"selector":"00/28","entry_index":190,"draft_translation":"나는 이래 봬도 / 아메롭파 국적이야. // 아빠가 아메롭파 사람이라 / 1년 전에 일본에서 이곳으로 왔어. // 이번에 일본에서 남자 친구가 / 놀러 오기로 했는데, // 떨어져 지내는 그의 마음을 / 꽉 붙잡아 두려고 / 선물을 해 주고 싶어. // 그래서 칩을 선물할까 해. // 그는 전부터 / 「[printChip chip=165] [printCode code=A]」, / 「[printChip chip=166] [printCode code=R]」과 // 「[printChip chip=167] [printCode code=S]」, / 「[printChip chip=168] [printCode code=L]」을 / 갖고 싶어 했는데, // 어디에도 없더라고. // 혹시 가지고 있다면 / 내게 넘겨주지 않을래? // 내가 가진 / 「[printChip chip=162] [printCode code=N]」과 / 교환해 줄게. // 어때? / 좋아 / 싫어 // 부탁이니 도와줘. / 응? 제발! // 장거리 연애는 힘들다고~"},
-    {"selector":"00/28","entry_index":191,"draft_translation":"교환해 주는 거야? 와우! / 기뻐! // 그 사람도 분명 / 기뻐할 거야! // 그러면 우리 사랑도 / 더 깊어지겠지! // 아, 이거랑 교환하기로 했지. / 잊을 뻔했네."},
-    {"selector":"00/28","entry_index":192,"draft_translation":"넷토는 / 칩 데이터 「[printChip chip=162] [printCode code=N]」을 / 획득했다!!"},
-    {"selector":"00/28","entry_index":193,"draft_translation":"네게 받은 칩으로 / 사랑의 불꽃이 타오를 거야! / 러브 볼티지 MAX야!!"},
-    {"selector":"00/28","entry_index":194,"draft_translation":"아, 너는! / 역시 나를 도와주려는 거지!? // 「[printChip chip=165] [printCode code=A]」, / 「[printChip chip=166] [printCode code=R]」과 // 「[printChip chip=167] [printCode code=S]」, / 「[printChip chip=168] [printCode code=L]」을 / 가져왔어? // 내 「[printChip chip=162] [printCode code=N]」은 / 언제든 교환할 수 있어! // 자, 교환해 줘~! / 여기 / 그만둔다 // 부탁이니 도와줘. / 응? 제발! // 차이면 네 탓이니까!!"},
-    {"selector":"00/28","entry_index":195,"draft_translation":"있잖아, / 「[printChip chip=165] [printCode code=A]」, / 「[printChip chip=166] [printCode code=R]」과 // 「[printChip chip=167] [printCode code=S]」, / 「[printChip chip=168] [printCode code=L]」이 / 없는 것 같은데... // 설마 날 놀린 거야? // 너무해! / 순수한 소녀의 마음을 / 가지고 논 거구나! // 아, 혹시 폴더 안에 / 들어 있는 것 아니야!? // 당장 찾아봐! // 찾으면 가방에 넣고 / 다시 와 줘."},
-    {"selector":"00/28","entry_index":220,"draft_translation":"진열장이다... / 컴퓨터로 상품을 / 관리하는 듯하다... // 플러그인할 수 있을 것 같다!"},
-    {"selector":"00/28","entry_index":221,"draft_translation":"일본에서 큰 인기를 끄는 브랜드의 / 핸드백이 무려 이 가격!!"},
-    {"selector":"00/28","entry_index":222,"draft_translation":"그림엽서 진열대다."},
-    {"selector":"00/28","entry_index":223,"draft_translation":"여기서 일본으로 돌아갈 수 있다. // 거짓말!"},
-    {"selector":"00/28","entry_index":224,"draft_translation":"여기서는 아메롭파 타운으로 / 갈 수 없다."},
-    {"selector":"00/28","entry_index":230,"draft_translation":"그림엽서 사이에 / 무언가 떨어져 있다.[textSpeed delay=10]...[textSpeed delay=2] // 넷토는 / 강화 프로그램 「[printItem item=99]」을 / 획득했다!! // 레귤러 메모리 용량이 / 2메가 늘었다!!"},
-
-    {"selector":"00/29","entry_index":1,"draft_translation":"허허... // 이 마을에 관해 / 내가 모르는 건 없지. // 믿고 안 믿고는 / 자네 마음이지만 말이야. // 허허..."},
-    {"selector":"00/29","entry_index":2,"draft_translation":"허허... // 도둑맞은 여권과 배틀칩을 / 찾고 있다고... // 허허... // 그런 이야기에 밝은 사람은 / 뒷골목에 사는 짐이지..."},
-    {"selector":"00/29","entry_index":3,"draft_translation":"자, 자! 이게 바로 / 유명한 아메롭파 성이야! / 어서 사진을 찍으렴!"},
-    {"selector":"00/29","entry_index":4,"draft_translation":"엄마한테는 비밀인데...[waitSkip 30] / 디지털카메라를 일본에 두고 왔어."},
-    {"selector":"00/29","entry_index":5,"draft_translation":"너도 속았구나... // 그 녀석은 늘 그 수법으로 / 일본인에게서 칩을 빼앗아. // 사라진 칩은 암시장으로 흘러가서 / 좀처럼 찾을 수 없지.[waitSkip 30] / 포기하는 게 나을지도 몰라."},
-    {"selector":"00/29","entry_index":6,"draft_translation":"보이, 어디서 왔니? / 일본 / 아지나 // 그렇겠지... 자네는 / 아지나인처럼 생겼어."},
-    {"selector":"00/29","entry_index":7,"draft_translation":"호오... / 아주 먼 곳에서 왔구먼. // 일본이라면 잘 알고 있지. / 아지나의 일부잖니?"},
-    {"selector":"00/29","entry_index":8,"draft_translation":"언덕을 올라가면 아메롭파 성, / 왼쪽은 다운타운과 시가지로 이어져. // 너, 너무 두리번거리면 / 나쁜 녀석들의 표적이 될걸."},
-    {"selector":"00/29","entry_index":9,"draft_translation":"거기 있던 이상한 일본인이라면 / 엄청난 속도로 어디론가 가 버렸어. // 그게 닌자지!? 그렇지?"},
-    {"selector":"00/29","entry_index":20,"draft_translation":"「[printChip chip=111] [printCode code=*]」? / 응, 나 많이 가지고 있어. // 바이러스 버스팅을 하면 / 언제나 그것만 나오거든. // 자, 손을 내밀어 봐..."},
-    {"selector":"00/29","entry_index":21,"draft_translation":"촤라라라락!! // 넷토는 / 칩 데이터 「[printChip chip=111] [printCode code=*]」을 / 30장 획득했다!!"},
-    {"selector":"00/29","entry_index":22,"draft_translation":"답례는 필요 없어. / 「[printChip chip=111] [printCode code=*]」을 / 아직 1000장 넘게 가지고 있거든."},
-    {"selector":"00/29","entry_index":23,"draft_translation":"허허..."},
-    {"selector":"00/29","entry_index":24,"draft_translation":"칩을 되찾았구나! // 일본인은 당하고도 가만히 있을 뿐이라 / 생각했는데, 다시 봤어!!"},
-    {"selector":"00/29","entry_index":25,"draft_translation":"자, 자! 아침 햇살을 받는 / 아메롭파 성도 정말 특별해! / 어서 사진을 찍으렴!"},
-    {"selector":"00/29","entry_index":26,"draft_translation":"빨리 공항에 가지 않으면 / 돌아갈 비행기를 놓치겠어!"},
-    {"selector":"00/29","entry_index":27,"draft_translation":"이곳에 오자마자 속아서 / 칩을 빼앗기고 말았어... // 그냥 일본으로 돌아갈까..."},
-    {"selector":"00/29","entry_index":28,"draft_translation":"좋은 아침이야, 보이! / 날씨 좋은 아침은 기분이 좋구먼. // 아지나의 아침도 / 이처럼 상쾌한가?"},
-    {"selector":"00/29","entry_index":29,"draft_translation":"아까부터 외국인들이 잔뜩 / 성 안으로 들어가고 있어. // 무슨 일이라도 있나?"},
-    {"selector":"00/29","entry_index":30,"draft_translation":"허허... // 자네처럼 혈기 왕성한 / 젊은이를 보고 있으면, // 나도 나잇값 못 하고 / 피가 끓어오르는구먼... // 허허..."},
-    {"selector":"00/29","entry_index":31,"draft_translation":"와아, 멋진 성이다~!! / 완전 끝내줘~!! // 아메롭파 여행을 / 마무리하기에 딱 좋달까~"},
-    {"selector":"00/29","entry_index":32,"draft_translation":"싫은 추억도 있었겠지만, // 좋은 곳도 많이 있으니까 / 아메롭파를 싫어하지 말아 줘."},
-    {"selector":"00/29","entry_index":33,"draft_translation":"이제 귀국하는구나, / 아지나인 소년아. // 아지나는 바다와 녹음이 / 무척 아름다운 나라라고 들었어... // 조금만 젊었어도 / 나도 가 봤을 텐데..."},
-    {"selector":"00/29","entry_index":34,"draft_translation":"오늘 돌아가는 거야? // 선물을 살 거라면 / 다운타운에 좋은 기념품 가게가 있어."},
-    {"selector":"00/29","entry_index":40,"draft_translation":"무, 무슨 더위가 이래! / 이런 햇볕 아래 있으면 / 금세 일사병에 걸리겠어! // 하지만 난 모자를 썼으니 / 안심이지."},
-    {"selector":"00/29","entry_index":41,"draft_translation":"너무 더워... / 어디 그늘에라도 들어가야겠어. // 어지러워지기 시작했어..."},
-    {"selector":"00/29","entry_index":42,"draft_translation":"오, 아지나의 보이여. // 세계 각지가 천재지변을 / 겪고 있다는데... // 아지나도 그런가?"},
-    {"selector":"00/29","entry_index":43,"draft_translation":"그나저나 햇볕이 엄청나군. / 나도 햇볕에 타 버렸어."},
-    {"selector":"00/29","entry_index":46,"draft_translation":"이 더위에는 / 모, 모자 따위 아무 소용 없어! / 더는 못 견디겠구먼!"},
-    {"selector":"00/29","entry_index":47,"draft_translation":"헉헉, 슬슬 한계야... / 어서 어디론가 피해야 해."},
-    {"selector":"00/29","entry_index":48,"draft_translation":"인간은 자신들의 편리함만을 위해 / 자연을 지나치게 파괴했어! // 이번 이상 기후는 / 자연의 분노인 게야!"},
-    {"selector":"00/29","entry_index":49,"draft_translation":"더위에는 아주 강한 나도 / 이제 비틀거릴 지경이야."},
-    {"selector":"00/29","entry_index":52,"draft_translation":"드디어 평소의 햇볕으로 / 돌아왔구먼. // 그나저나 자연재해는 / 무서운 것이야."},
-    {"selector":"00/29","entry_index":53,"draft_translation":"이번의 강렬한 햇볕은 / 오존층 관리 시스템이 갑자기 멈춰서, // 오존층에 커다란 구멍이 / 생긴 게 원인이었대. // 그래서 평소보다 수십 배나 강한 / 자외선이 지상에 쏟아졌다고 해. // 무서운 이야기지."},
-    {"selector":"00/29","entry_index":54,"draft_translation":"자연의 분노가 진정됐군... // 하지만 인간이 계속해서 / 자연을 파괴하는 한, // 언제 또 이번 같은 / 재해가 일어날지 모르는 일이야. // 현대 사회의 편리함은 언제나 / 자연 파괴 위에 세워졌다는 걸 / 잊어서는 안 돼."},
-    {"selector":"00/29","entry_index":55,"draft_translation":"이번 재해 때문에 / 아메롭파 곳곳에서 / 많은 사람이 쓰러졌다는 모양이야. // 다행히 사망자는 / 없었다고 하지만."},
-    {"selector":"00/29","entry_index":60,"draft_translation":"어제부터 나타난 바이러스의 움직임... / 완전히 비정상이야. // 히카리,[waitSkip 15] / 어떤 적과도 싸울 수 있도록 / 준비해 둬라."},
-    {"selector":"00/29","entry_index":61,"draft_translation":"하이...[waitSkip 30] 가이... // 기운이 없어서 쏘리. / 어제부터 바이러스 버스팅으로 / 밤을 새웠거든..."},
-    {"selector":"00/29","entry_index":62,"draft_translation":"허허... // 아메롭파는 세계 제일의 / 대국이니까, // 고스펠의 바이러스 공격도 / 가장 거세지. // 하지만 난 믿고 있어... / 용감히 싸우고 있는 짐과 동료들을... // 허허..."},
-    {"selector":"00/29","entry_index":63,"draft_translation":"모두 당황하지 않고 / 바이러스와 용감히 싸우려 하고 있어... // 이런 힘이 있다는 것이 / 아메롭파인의 대단한 점일지도 몰라."},
-    {"selector":"00/29","entry_index":64,"draft_translation":"소매치기와 칩 강도는 / 완전히 사라졌어. // 나쁜 녀석들도 지금은 / 그럴 때가 아닌 모양이야."},
-    {"selector":"00/29","entry_index":65,"draft_translation":"이거 줄게. // 넷토는 / 강화 프로그램 「[printItem item=101]」을 / 획득했다!! // 소지할 수 있는 서브칩 수가 / 1개 늘었다!"},
-    {"selector":"00/29","entry_index":66,"draft_translation":"이제 없어."},
-    {"selector":"00/29","entry_index":161,"draft_translation":"넷토, 엔잔에게 / 넷배틀을 신청할까? / 예 / 아니요"},
-    {"selector":"00/29","entry_index":162,"draft_translation":"좋아... / 졸개들을 상대하는 데는 / 우리도 질릴 대로 질렸으니까..."},
-    {"selector":"00/29","entry_index":164,"draft_translation":"갈 길이 바쁘다면 / 막지는 않겠다..."},
-    {"selector":"00/29","entry_index":169,"draft_translation":"...그 실력이라면 / 내가 돌아올 때까지 / 시간 끌기를 맡길 수 있겠군."},
-    {"selector":"00/29","entry_index":171,"draft_translation":"고스펠과 싸울 수 있는 넷배틀러는 / 나뿐이라고 생각했는데..."},
-    {"selector":"00/29","entry_index":174,"draft_translation":"훗... / 실력 이상의 가능성인가..."},
-    {"selector":"00/29","entry_index":175,"draft_translation":"역시 믿을 것은 자기 자신뿐... / 한시라도 빨리 / 일본으로 돌아가야 해..."},
-    {"selector":"00/29","entry_index":197,"draft_translation":"뭐, 뭐여? / 아가씨 얼굴을 빤히 쳐다보다니, / 실례잖여!","review_notes":["원문의 도호쿠계 사투리를 일반적인 한국어 시골 말투로 잠정 현지화함."]},
-    {"selector":"00/29","entry_index":198,"draft_translation":"이 근처에서는 듣기 힘든 / 사투리... // 넌 「괴도 세 자매」 중 / 한 명이구나!! // 훔친 보석을 돌려줘!"},
-    {"selector":"00/29","entry_index":199,"draft_translation":"깜짝 놀랐네~! / 어떻게 알아챘당가? // 앗! 말해 버렸네! // 어쩔 수 없구먼! // 이걸 이기면 보석은 / 돌려주겠어!","review_notes":["원문의 도호쿠계 사투리를 일반적인 한국어 시골 말투로 잠정 현지화함."]},
-    {"selector":"00/29","entry_index":200,"draft_translation":"임시"},
-    {"selector":"00/29","entry_index":201,"draft_translation":"또 한 번 놀랐네. / 너 정말 강하구먼. // 날 찾아냈어도 / 언니들은 그렇게 쉽게 / 찾을 수 없을 거야. // 아메롭파 어딘가에 있는 건 / 확실하지만 말이야. // 자, 이걸 돌려줄게. / 우리는 도둑질은 해도 / 거짓말은 안 하거든.","review_notes":["원문의 도호쿠계 사투리를 일반적인 한국어 시골 말투로 잠정 현지화함."]},
-    {"selector":"00/29","entry_index":202,"draft_translation":"넷토는 / 「[printItem item=54]」을 / 획득했다!!"},
-    {"selector":"00/29","entry_index":203,"draft_translation":"이제 도둑질은 그만둘 거야. / 한번 붙잡히면 손을 씻기로 / 정했거든~","review_notes":["원문의 도호쿠계 사투리를 일반적인 한국어 시골 말투로 잠정 현지화함."]},
-    {"selector":"00/29","entry_index":220,"draft_translation":"공항행 버스 정류장이다. / 버스를 기다릴까? / 예 / 아니요"},
-    {"selector":"00/29","entry_index":221,"draft_translation":"공항의 어디로 갈까요? / 출발 로비 / 도착 로비 // ...기다리자 버스가 왔다!![wait 30]"},
-    {"selector":"00/29","entry_index":222,"draft_translation":"...기다리자 버스가 왔다!![wait 30]"},
-
-    {"selector":"00/30","entry_index":0,"draft_translation":"호텔은 여기인 모양이네... / 그럼 방으로 들어갈까?"}
-  ]
+ "schema_version": 1,
+ "kind": "authored_semantic_translation_batch",
+ "batch_number": 12,
+ "entries": [
+  {
+   "selector": "00/28",
+   "entry_index": 23,
+   "draft_translation": "아빠, 괜찮아!? / 비행기가 곧 출발해!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 24,
+   "draft_translation": "저쪽 가족의 아빠가 / 갑자기 배가 아프다고 해서, // 제가 조금 전에 / 구급차를 불렀어요."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 25,
+   "draft_translation": "여기가 비행기 / 탑승구입니다. // 편안한 하늘 여행을 / 즐겨 주세요."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 26,
+   "draft_translation": "이번에 아메롭파 항공을 / 이용해 주셔서 / 진심으로 감사드립니다."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 27,
+   "draft_translation": "·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]·"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 28,
+   "draft_translation": "자, 슬슬 비행기에 / 올라타 볼까..."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 29,
+   "draft_translation": "여기는 아메롭파의 면세점, / 듀티 프리 숍이란다. // 아메롭파는 브랜드의 중심지니까 / 자존심을 걸고 좋은 상품을 / 갖춰 놓았지."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 30,
+   "draft_translation": "으음, 손님이 적군... // 세계 각지에서 일어난 / 천재지변 때문에 / 다들 여행할 때가 아닌가?"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 31,
+   "draft_translation": "언제까지 이런 상황이 / 계속되려나... // 오래 이어지면 회사가 / 파산하고 말 거야..."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 32,
+   "draft_translation": "아메롭파는 위험하니까 / 다른 나라로 가려고 했는데, // 가는 곳마다 재해가 / 일어나고 있네... // 취소할까..."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 33,
+   "draft_translation": "으음... 곤란하군... / 이대로 아메롭파에 있어야 하나, / 아니면 일본으로 돌아가야 하나... // 어떻게 하지..."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 34,
+   "draft_translation": "오! 공들여 짠 / 「나를 찾는 여행」 계획이 / 완전히 엉망이 됐어!! // 이런 상황이면 / 어디에도 갈 수 없잖아!!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 35,
+   "draft_translation": "역시 관광객이 / 적습니다. // 천재지변의 여파를 / 제대로 맞고 있어요!!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 36,
+   "draft_translation": "장사도 끝장이구먼. // 뭐, 좋을 때가 있으면 / 나쁠 때도 있는 법. / 그게 장사라는 거지."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 40,
+   "draft_translation": "이번 표는 / 취소해 버렸어..."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 41,
+   "draft_translation": "여기서는 아메롭파에 머물며 / 상황을 지켜보자..."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 42,
+   "draft_translation": "어쩔 수 없지! 새로운 / 「나를 찾는 여행」 계획을 / 세우겠어!! // 언제나 긍정적으로 생각해야지!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 45,
+   "draft_translation": "재해는 진정된 모양이니 / 집에 돌아갈까. // 공항까지 왔다가 손해만 봤네."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 46,
+   "draft_translation": "의외로 빨리 진정된 모양이군. / 아메롭파에 남은 건 / 정답이었어..."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 47,
+   "draft_translation": "새로운 「나를 찾는 여행」 계획으로 / 나를 찾으러 다녀오겠어!!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 48,
+   "draft_translation": "웰컴!! 웰컴!! // 천재지변도 진정됐으니 / 손님도 분명 늘어날 거예요!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 49,
+   "draft_translation": "여기는 아메롭파의 면세점, / 듀티 프리 숍이란다. // 뭐? 간판에는 / 택스 프리라고 쓰여 있다고? // 같은 뜻이니 됐잖니. / 아이가 사소한 걸 신경 쓰는 게 아니야."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 55,
+   "draft_translation": "어서 오세요! 아메롭파에! // 왜 그렇게 밝으냐고요? // 이런 때에 일부러 먼 곳에서 / 찾아와 주신 손님이니까요... 그렇죠?"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 56,
+   "draft_translation": "휴우~...[waitSkip 20] / 어떻게든 무사히 / 아메롭파에 도착했군..."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 57,
+   "draft_translation": "공항이 또 / 텅 비어 버렸네. // 뭐, 렛 잇 비지. / 될 대로 되라는 정신이야."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 58,
+   "draft_translation": "손님이 조금 없다고 해도, // 보이에게 억지로 물건을 권할 만큼 / 내가 타락하진 않았어. // 그게 아메롭파 여자의 / 자존심이라는 거야."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 59,
+   "draft_translation": "어떻게 해야 승객이 안심하고 / 하늘 여행을 즐길 수 있을까. // 이럴 때일수록 / 객실 승무원인 프로로서 / 제대로 일해야지!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 190,
+   "draft_translation": "나는 이래 봬도 / 아메롭파 국적이야. // 아빠가 아메롭파 사람이라 / 1년 전에 일본에서 이곳으로 왔어. // 이번에 일본에서 남자 친구가 / 놀러 오기로 했는데, // 떨어져 지내는 그의 마음을 / 꽉 붙잡아 두려고 / 선물을 해 주고 싶어. // 그래서 칩을 선물할까 해. // 그는 전부터 / 「[printChip chip=165] [printCode code=A]」, / 「[printChip chip=166] [printCode code=R]」과 // 「[printChip chip=167] [printCode code=S]」, / 「[printChip chip=168] [printCode code=L]」을 / 갖고 싶어 했는데, // 어디에도 없더라고. // 혹시 가지고 있다면 / 내게 넘겨주지 않을래? // 내가 가진 / 「[printChip chip=162] [printCode code=N]」과 / 교환해 줄게. // 어때? / 좋아 / 싫어 // 부탁이니 도와줘. / 응? 제발! // 장거리 연애는 힘들다고~"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 191,
+   "draft_translation": "교환해 주는 거야? 와우! / 기뻐! // 그 사람도 분명 / 기뻐할 거야! // 그러면 우리 사랑도 / 더 깊어지겠지! // 아, 이거랑 교환하기로 했지. / 잊을 뻔했네."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 192,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=162] [printCode code=N]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 193,
+   "draft_translation": "네게 받은 칩으로 / 사랑의 불꽃이 타오를 거야! / 러브 볼티지 MAX야!!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 194,
+   "draft_translation": "아, 너는! / 역시 나를 도와주려는 거지!? // 「[printChip chip=165] [printCode code=A]」, / 「[printChip chip=166] [printCode code=R]」과 // 「[printChip chip=167] [printCode code=S]」, / 「[printChip chip=168] [printCode code=L]」을 / 가져왔어? // 내 「[printChip chip=162] [printCode code=N]」은 / 언제든 교환할 수 있어! // 자, 교환해 줘~! / 여기 / 그만둔다 // 부탁이니 도와줘. / 응? 제발! // 차이면 네 탓이니까!!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 195,
+   "draft_translation": "있잖아, / 「[printChip chip=165] [printCode code=A]」, / 「[printChip chip=166] [printCode code=R]」과 // 「[printChip chip=167] [printCode code=S]」, / 「[printChip chip=168] [printCode code=L]」이 / 없는 것 같은데... // 설마 날 놀린 거야? // 너무해! / 순수한 소녀의 마음을 / 가지고 논 거구나! // 아, 혹시 폴더 안에 / 들어 있는 것 아니야!? // 당장 찾아봐! // 찾으면 가방에 넣고 / 다시 와 줘."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 220,
+   "draft_translation": "진열장이다... / 컴퓨터로 상품을 / 관리하는 듯하다... // 플러그인할 수 있을 것 같다!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 221,
+   "draft_translation": "일본에서 큰 인기를 끄는 브랜드의 / 핸드백이 무려 이 가격!!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 222,
+   "draft_translation": "그림엽서 진열대다."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 223,
+   "draft_translation": "여기서 일본으로 돌아갈 수 있다. // 거짓말!"
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 224,
+   "draft_translation": "여기서는 아메롭파 타운으로 / 갈 수 없다."
+  },
+  {
+   "selector": "00/28",
+   "entry_index": 230,
+   "draft_translation": "그림엽서 사이에 / 무언가 떨어져 있다.[textSpeed delay=10]...[textSpeed delay=2] // 넷토는 / 강화 프로그램 「[printItem item=99]」을 / 획득했다!! // 레귤러 메모리 용량이 / 2메가 늘었다!!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 1,
+   "draft_translation": "허허... // 이 마을에 관해 / 내가 모르는 건 없지. // 믿고 안 믿고는 / 자네 마음이지만 말이야. // 허허..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 2,
+   "draft_translation": "허허... // 도둑맞은 여권과 배틀칩을 / 찾고 있다고... // 허허... // 그런 이야기에 밝은 사람은 / 뒷골목에 사는 짐이지..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 3,
+   "draft_translation": "자, 자! 이게 바로 / 유명한 아메롭파 성이야! / 어서 사진을 찍으렴!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 4,
+   "draft_translation": "엄마한테는 비밀인데...[waitSkip 30] / 디지털카메라를 일본에 두고 왔어."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 5,
+   "draft_translation": "너도 속았구나... // 그 녀석은 늘 그 수법으로 / 일본인에게서 칩을 빼앗아. // 사라진 칩은 암시장으로 흘러가서 / 좀처럼 찾을 수 없지.[waitSkip 30] / 포기하는 게 나을지도 몰라."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 6,
+   "draft_translation": "보이, 어디서 왔니? / 일본 / 아지나 // 그렇겠지... 자네는 / 아지나인처럼 생겼어."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 7,
+   "draft_translation": "호오... / 아주 먼 곳에서 왔구먼. // 일본이라면 잘 알고 있지. / 아지나의 일부잖니?"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 8,
+   "draft_translation": "언덕을 올라가면 아메롭파 성, / 왼쪽은 다운타운과 시가지로 이어져. // 너, 너무 두리번거리면 / 나쁜 녀석들의 표적이 될걸."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 9,
+   "draft_translation": "거기 있던 이상한 일본인이라면 / 엄청난 속도로 어디론가 가 버렸어. // 그게 닌자지!? 그렇지?"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 20,
+   "draft_translation": "「[printChip chip=111] [printCode code=*]」? / 응, 나 많이 가지고 있어. // 바이러스 버스팅을 하면 / 언제나 그것만 나오거든. // 자, 손을 내밀어 봐..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 21,
+   "draft_translation": "촤라라라락!! // 넷토는 / 칩 데이터 「[printChip chip=111] [printCode code=*]」을 / 30장 획득했다!!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 22,
+   "draft_translation": "답례는 필요 없어. / 「[printChip chip=111] [printCode code=*]」을 / 아직 1000장 넘게 가지고 있거든."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 23,
+   "draft_translation": "허허..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 24,
+   "draft_translation": "칩을 되찾았구나! // 일본인은 당하고도 가만히 있을 뿐이라 / 생각했는데, 다시 봤어!!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 25,
+   "draft_translation": "자, 자! 아침 햇살을 받는 / 아메롭파 성도 정말 특별해! / 어서 사진을 찍으렴!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 26,
+   "draft_translation": "빨리 공항에 가지 않으면 / 돌아갈 비행기를 놓치겠어!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 27,
+   "draft_translation": "이곳에 오자마자 속아서 / 칩을 빼앗기고 말았어... // 그냥 일본으로 돌아갈까..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 28,
+   "draft_translation": "좋은 아침이야, 보이! / 날씨 좋은 아침은 기분이 좋구먼. // 아지나의 아침도 / 이처럼 상쾌한가?"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 29,
+   "draft_translation": "아까부터 외국인들이 잔뜩 / 성 안으로 들어가고 있어. // 무슨 일이라도 있나?"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 30,
+   "draft_translation": "허허... // 자네처럼 혈기 왕성한 / 젊은이를 보고 있으면, // 나도 나잇값 못 하고 / 피가 끓어오르는구먼... // 허허..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 31,
+   "draft_translation": "와아, 멋진 성이다~!! / 완전 끝내줘~!! // 아메롭파 여행을 / 마무리하기에 딱 좋달까~"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 32,
+   "draft_translation": "싫은 추억도 있었겠지만, // 좋은 곳도 많이 있으니까 / 아메롭파를 싫어하지 말아 줘."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 33,
+   "draft_translation": "이제 귀국하는구나, / 아지나인 소년아. // 아지나는 바다와 녹음이 / 무척 아름다운 나라라고 들었어... // 조금만 젊었어도 / 나도 가 봤을 텐데..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 34,
+   "draft_translation": "오늘 돌아가는 거야? // 선물을 살 거라면 / 다운타운에 좋은 기념품 가게가 있어."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 40,
+   "draft_translation": "무, 무슨 더위가 이래! / 이런 햇볕 아래 있으면 / 금세 일사병에 걸리겠어! // 하지만 난 모자를 썼으니 / 안심이지."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 41,
+   "draft_translation": "너무 더워... / 어디 그늘에라도 들어가야겠어. // 어지러워지기 시작했어..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 42,
+   "draft_translation": "오, 아지나의 보이여. // 세계 각지가 천재지변을 / 겪고 있다는데... // 아지나도 그런가?"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 43,
+   "draft_translation": "그나저나 햇볕이 엄청나군. / 나도 햇볕에 타 버렸어."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 46,
+   "draft_translation": "이 더위에는 / 모, 모자 따위 아무 소용 없어! / 더는 못 견디겠구먼!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 47,
+   "draft_translation": "헉헉, 슬슬 한계야... / 어서 어디론가 피해야 해."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 48,
+   "draft_translation": "인간은 자신들의 편리함만을 위해 / 자연을 지나치게 파괴했어! // 이번 이상 기후는 / 자연의 분노인 게야!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 49,
+   "draft_translation": "더위에는 아주 강한 나도 / 이제 비틀거릴 지경이야."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 52,
+   "draft_translation": "드디어 평소의 햇볕으로 / 돌아왔구먼. // 그나저나 자연재해는 / 무서운 것이야."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 53,
+   "draft_translation": "이번의 강렬한 햇볕은 / 오존층 관리 시스템이 갑자기 멈춰서, // 오존층에 커다란 구멍이 / 생긴 게 원인이었대. // 그래서 평소보다 수십 배나 강한 / 자외선이 지상에 쏟아졌다고 해. // 무서운 이야기지."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 54,
+   "draft_translation": "자연의 분노가 진정됐군... // 하지만 인간이 계속해서 / 자연을 파괴하는 한, // 언제 또 이번 같은 / 재해가 일어날지 모르는 일이야. // 현대 사회의 편리함은 언제나 / 자연 파괴 위에 세워졌다는 걸 / 잊어서는 안 돼."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 55,
+   "draft_translation": "이번 재해 때문에 / 아메롭파 곳곳에서 / 많은 사람이 쓰러졌다는 모양이야. // 다행히 사망자는 / 없었다고 하지만."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 60,
+   "draft_translation": "어제부터 나타난 바이러스의 움직임... / 완전히 비정상이야. // 히카리,[waitSkip 15] / 어떤 적과도 싸울 수 있도록 / 준비해 둬라."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 61,
+   "draft_translation": "하이...[waitSkip 30] 가이... // 기운이 없어서 쏘리. / 어제부터 바이러스 버스팅으로 / 밤을 새웠거든..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 62,
+   "draft_translation": "허허... // 아메롭파는 세계 제일의 / 대국이니까, // 고스펠의 바이러스 공격도 / 가장 거세지. // 하지만 난 믿고 있어... / 용감히 싸우고 있는 짐과 동료들을... // 허허..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 63,
+   "draft_translation": "모두 당황하지 않고 / 바이러스와 용감히 싸우려 하고 있어... // 이런 힘이 있다는 것이 / 아메롭파인의 대단한 점일지도 몰라."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 64,
+   "draft_translation": "소매치기와 칩 강도는 / 완전히 사라졌어. // 나쁜 녀석들도 지금은 / 그럴 때가 아닌 모양이야."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 65,
+   "draft_translation": "이거 줄게. // 넷토는 / 강화 프로그램 「[printItem item=101]」를 / 획득했다!! // 소지할 수 있는 서브칩 수가 / 1개 늘었다!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 66,
+   "draft_translation": "이제 없어."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 161,
+   "draft_translation": "넷토, 엔잔에게 / 넷배틀을 신청할까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 162,
+   "draft_translation": "좋아... / 졸개들을 상대하는 데는 / 우리도 질릴 대로 질렸으니까..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 164,
+   "draft_translation": "갈 길이 바쁘다면 / 막지는 않겠다..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 169,
+   "draft_translation": "...그 실력이라면 / 내가 돌아올 때까지 / 시간 끌기를 맡길 수 있겠군."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 171,
+   "draft_translation": "고스펠과 싸울 수 있는 넷배틀러는 / 나뿐이라고 생각했는데..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 174,
+   "draft_translation": "훗... / 실력 이상의 가능성인가..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 175,
+   "draft_translation": "역시 믿을 것은 자기 자신뿐... / 한시라도 빨리 / 일본으로 돌아가야 해..."
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 197,
+   "draft_translation": "뭐, 뭐여? / 아가씨 얼굴을 빤히 쳐다보다니, / 실례잖여!",
+   "review_notes": [
+    "원문의 도호쿠계 사투리를 일반적인 한국어 시골 말투로 잠정 현지화함."
+   ]
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 198,
+   "draft_translation": "이 근처에서는 듣기 힘든 / 사투리... // 넌 「괴도 세 자매」 중 / 한 명이구나!! // 훔친 보석을 돌려줘!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 199,
+   "draft_translation": "깜짝 놀랐네~! / 어떻게 알아챘당가? // 앗! 말해 버렸네! // 어쩔 수 없구먼! // 이걸 이기면 보석은 / 돌려주겠어!",
+   "review_notes": [
+    "원문의 도호쿠계 사투리를 일반적인 한국어 시골 말투로 잠정 현지화함."
+   ]
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 200,
+   "draft_translation": "임시"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 201,
+   "draft_translation": "또 한 번 놀랐네. / 너 정말 강하구먼. // 날 찾아냈어도 / 언니들은 그렇게 쉽게 / 찾을 수 없을 거야. // 아메롭파 어딘가에 있는 건 / 확실하지만 말이야. // 자, 이걸 돌려줄게. / 우리는 도둑질은 해도 / 거짓말은 안 하거든.",
+   "review_notes": [
+    "원문의 도호쿠계 사투리를 일반적인 한국어 시골 말투로 잠정 현지화함."
+   ]
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 202,
+   "draft_translation": "넷토는 / 「[printItem item=54]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 203,
+   "draft_translation": "이제 도둑질은 그만둘 거야. / 한번 붙잡히면 손을 씻기로 / 정했거든~",
+   "review_notes": [
+    "원문의 도호쿠계 사투리를 일반적인 한국어 시골 말투로 잠정 현지화함."
+   ]
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 220,
+   "draft_translation": "공항행 버스 정류장이다. / 버스를 기다릴까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 221,
+   "draft_translation": "공항의 어디로 갈까요? / 출발 로비 / 도착 로비 // ...기다리자 버스가 왔다!![wait 30]"
+  },
+  {
+   "selector": "00/29",
+   "entry_index": 222,
+   "draft_translation": "...기다리자 버스가 왔다!![wait 30]"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 0,
+   "draft_translation": "호텔은 여기인 모양이네... / 그럼 방으로 들어갈까?"
+  }
+ ]
 }

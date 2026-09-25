@@ -5,7 +5,47 @@ import json
 import re
 import struct
 from pathlib import Path
-from static_submenu_tables import _read_table, FORWARD, DESC_RELOC, UI_TABLE, UI_RELOC
+from static_submenu_tables import (_read_table, FORWARD, DESC_RELOC, UI_TABLE, UI_RELOC,
+                                   NAME_TABLE, NAME_RELOC, SECOND_NAME_TABLE, SECOND_NAME_RELOC)
+
+
+def decode_names(candidate, base):
+    """Chip names of a relocated table, read back from the candidate's bytes."""
+    names = []
+    for entry in _read_table(candidate, base)[1]:
+        body, pos, text = entry[:-1], 0, ''
+        assert entry[-1:] == b'\xe7'
+        while pos < len(body):
+            if body[pos:pos+2] == b'\xf9\xfc':
+                ordinal = struct.unpack_from('<H', body, pos+2)[0]
+                assert ordinal < 2350
+                text += bytes((0xB0+ordinal//94, 0xA1+ordinal%94)).decode('euc_kr')
+                pos += 4
+            else:
+                matches = [key for key in FORWARD if body.startswith(key, pos)]
+                assert matches, (base, len(names), pos)
+                key = max(matches, key=len)
+                text += FORWARD[key]
+                pos += len(key)
+        names.append(text)
+    return names
+
+
+def verify_chip_names(source, candidate):
+    """Both chip name tables moved, every reader repointed, no Japanese left."""
+    report = {}
+    for label, old, new in (('chip_names', NAME_TABLE, NAME_RELOC), ('chip_names_2', SECOND_NAME_TABLE, SECOND_NAME_RELOC)):
+        old_ptr, new_ptr = struct.pack('<I', 0x08000000+old), struct.pack('<I', 0x08000000+new)
+        readers = [i for i in range(0, 0x800000, 4) if source[i:i+4] == old_ptr]
+        assert readers and all(candidate[i:i+4] == new_ptr for i in readers), label
+        assert not any(candidate[i:i+4] == old_ptr for i in range(0, len(candidate)-3, 4)), label
+        names = decode_names(candidate, new)
+        assert len(names) == len(_read_table(source, old)[1]), label
+        bad = [(i, n) for i, n in enumerate(names) if re.search('[\u3040-\u30ff\u3400-\u9fff]', n)]
+        assert not bad, (label, bad[:5])
+        report[label] = {'entries': len(names), 'named': sum(1 for n in names if n),
+                         'readers': len(readers), 'japanese_names': 0}
+    return report
 
 
 def verify(source, candidate):
@@ -43,7 +83,8 @@ def verify(source, candidate):
         a,b=char.encode('euc_kr')
         expected_label.extend(b'\xf9\xfc'+struct.pack('<H',(a-0xB0)*94+b-0xA1))
     assert after[65] == bytes(expected_label)+b'\xE7', 'Save label must fit eight complete Hangul syllables'
-    return {'status':'PASS (bench)', 'description_count':len(decoded),
+    chip_names = verify_chip_names(source, candidate)
+    return {'status':'PASS (bench)', 'description_count':len(decoded), 'chip_names':chip_names,
             'japanese_description_bodies':0, 'overflowing_descriptions':0,
             'panel_columns':10, 'panel_rows':3, 'numeric_control_parameters_preserved':True,
             'save_label':'데이터라이브러리','save_label_cells':8,

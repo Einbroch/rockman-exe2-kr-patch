@@ -1,107 +1,507 @@
 {
-  "schema_version": 1,
-  "kind": "authored_multi_archive_translation_batch",
-  "batch_number": 76,
-  "entries": [
-    {"selector":"00/397","entry_index":52,"draft_translation":"엄마 선물은 괜찮으니 / 그만큼 실컷 즐기고 오렴."},
-    {"selector":"00/397","entry_index":55,"draft_translation":"어서 오렴, 넷토. // 먼 길 다녀오느라 고생했어!! // 모두에게 인사하고 왔니? / 다들 걱정했단다. // 다녀왔으면 오늘은 / 바로 자렴. // 피곤할 테니까."},
-    {"selector":"00/397","entry_index":60,"draft_translation":"넷토, 밖은 위험하니까 / 조심하렴!"},
-    {"selector":"00/397","entry_index":62,"draft_translation":"엄마는 대피하지 않을 거야. // 아빠가 없는 동안 / 이 집을 지키는 건 / 엄마가 할 일이니까."},
-    {"selector":"00/397","entry_index":71,"draft_translation":"수고했어. / 푹 쉬렴."},
-    {"selector":"00/397","entry_index":80,"draft_translation":"이래서는 한동안 또 / 아빠가 집에 못 오겠네..."},
-    {"selector":"00/397","entry_index":220,"draft_translation":"엄마 취향으로 놓아둔 꽃병이다. / 참 고풍스럽다..."},
-    {"selector":"00/397","entry_index":221,"draft_translation":"엄마가 요즘 도전 중인 / 치즈케이크다... // 만족스러운 케이크가 구워질 때까지 / 매일 만들 생각인가 보다."},
-    {"selector":"00/397","entry_index":222,"draft_translation":"많은 식재료가 / 줄지어 놓여 있다."},
-    {"selector":"00/397","entry_index":223,"draft_translation":"엄마가 케이크를 구울 때 쓰는 / 주문 제작 오븐이다. // 엄마 말로는 화력이 다르다고 한다."},
-    {"selector":"00/397","entry_index":224,"draft_translation":"여러 가지 식기가 놓여 있다. / 하나같이 감각적인 물건이다."},
-    {"selector":"00/397","entry_index":225,"draft_translation":"초박형 TV다. / 이 종류의 TV에는 / 플러그인할 수 없다."},
-    {"selector":"00/397","entry_index":227,"draft_translation":"이 집의 가전제품을 / 이 제어판으로 / 조작할 수 있다. // 플러그인할 수 있다."},
-    {"selector":"00/397","entry_index":228,"draft_translation":"이 집의 가전제품을 / 이 제어판으로 / 조작할 수 있다. // 플러그인할 수 있는 구조지만 / 오늘은 엄마가 이미 바이러스 검사를 / 끝낸 모양이다..."},
-    {"selector":"00/398","entry_index":20,"draft_translation":"넷토, 메일이야!!"},
-    {"selector":"00/398","entry_index":30,"draft_translation":"넷토, 메일이야!!"},
-    {"selector":"00/398","entry_index":220,"draft_translation":"여러 추억이 담긴 물건으로 / 가득하다."},
-    {"selector":"00/398","entry_index":221,"draft_translation":"방학 전에 본 시험 답안지가 / 이곳에 숨겨져 있다. // 아직 엄마에게 들키지는 않았다. / 절대 들켜서는 안 된다."},
-    {"selector":"00/398","entry_index":222,"draft_translation":"넷토의 컴퓨터다. / 플러그인할 수 있다."},
-    {"selector":"00/398","entry_index":224,"draft_translation":"오늘은 이제 잘까? / 예 / 아니요"},
-    {"selector":"00/398","entry_index":225,"draft_translation":"오늘 있었던 일을 / PET에 저장해 둘까? / 예 / 아니요"},
-    {"selector":"00/398","entry_index":226,"draft_translation":"OK!...[waitSkip 30] / 저장했어!"},
-    {"selector":"00/398","entry_index":227,"draft_translation":"넷토, 잘 자!"},
-    {"selector":"00/398","entry_index":228,"draft_translation":"저장에 실패한 것 같아... // 한 번 더 해 볼게. / 예 / 아니요"},
-    {"selector":"00/398","entry_index":229,"draft_translation":"넷토, 지금은 아직 / 자지 않아도 되지 않을까?"},
-    {"selector":"00/398","entry_index":233,"draft_translation":"이미 저장 데이터가 있다면 / 덮어쓰게 되는데 괜찮아? / 예 / 아니요"},
-    {"selector":"00/399","entry_index":10,"draft_translation":"드디어 숙제를 끝냈어. // 넷토도 캠핑하러 가기 전에 / 조금이라도 숙제를 / 해 두는 게 좋아."},
-    {"selector":"00/399","entry_index":20,"draft_translation":"이제 자유 연구를 시작해? / 나는 벌써 끝냈어."},
-    {"selector":"00/399","entry_index":22,"draft_translation":"아지나 에어리어에 갈 거야? / 그럼 [printItem item=60]을 / 땄구나!? // 와~ 대단하다."},
-    {"selector":"00/399","entry_index":24,"draft_translation":"나도 [printItem item=60]에 / 도전해 볼까?"},
-    {"selector":"00/399","entry_index":25,"draft_translation":"시험을 볼 생각으로 / 인터넷에 갔는데, // 무슨 큰 사건이 / 일어난 것 같아서 / 시험을 볼 상황이 아니었어."},
-    {"selector":"00/399","entry_index":26,"draft_translation":"인터넷에서 / 무슨 일이 일어나는 걸까?"},
-    {"selector":"00/399","entry_index":27,"draft_translation":"누군가 오피셜 센터의 / 마더 컴퓨터에 침입했다고? // 그거 큰일이잖아!?"},
-    {"selector":"00/399","entry_index":220,"draft_translation":"훌륭한 관엽식물이다."},
-    {"selector":"00/399","entry_index":221,"draft_translation":"푹신한 소파다. / 앉으면 아주 편할 것 같다."},
-    {"selector":"00/399","entry_index":222,"draft_translation":"메일이 자랑하는 전자 피아노다. / 하지만 연주하는 모습은 / 아무도 본 적이 없다. // 플러그인할 수 있게 되어 있다."},
-    {"selector":"00/399","entry_index":224,"draft_translation":"이 집의 가전제품을 / 이 제어판으로 조작할 수 있다. // 모델이 조금 낡아서 / 플러그인할 수 없다."},
-    {"selector":"00/399","entry_index":225,"draft_translation":"세련된 커튼이다."},
-    {"selector":"00/399","entry_index":226,"draft_translation":"메일이 자랑하는 전자 피아노다. / 하지만 연주하는 모습은 / 아무도 본 적이 없다. // 플러그인할 수 있을 텐데 / 꽤 오랫동안 쓰지 않았는지 / 전원이 꺼져 있다..."},
-    {"selector":"00/400","entry_index":5,"draft_translation":"그런 일이 일어나다니 / 정말 놀랐지... // 그래도 모두 무사해서 다행이야..."},
-    {"selector":"00/400","entry_index":35,"draft_translation":"어서 와, 넷토. / 아메롭파에서 크게 / 활약했다며? // 수고했어!"},
-    {"selector":"00/400","entry_index":36,"draft_translation":"어서 와, 넷토. / 아메롭파에서 크게 / 활약했다며? // 수고했어! // 내 선물이라고? // 와, 예쁘다!! / 나도 이런 반지를 갖고 싶었어. // 넷토, 고마워!"},
-    {"selector":"00/400","entry_index":37,"draft_translation":"그럼 답례로 / 이걸 줄게."},
-    {"selector":"00/400","entry_index":38,"draft_translation":"넷토는 / 칩 데이터 「[printChip chip=127] [printCode code=P]」를 / 획득했다!!"},
-    {"selector":"00/400","entry_index":39,"draft_translation":"넷토, 수고했어. / 오늘은 푹 쉬어."},
-    {"selector":"00/400","entry_index":41,"draft_translation":"아지나 에어리어에서 갑자기 / 롤과 연락이 / 끊겼어. // 롤에게 무슨 일이 생긴 걸까... / 걱정돼서..."},
-    {"selector":"00/400","entry_index":42,"draft_translation":"롤에게 연락이 왔어. / 넷토, 록맨, 고마워. // 지진이 자주 일어나고 있으니 / 조심해."},
-    {"selector":"00/400","entry_index":43,"draft_translation":"아까부터 지진이 몇 번이나 / 일어나고 있어. // 넷토도 너무 / 돌아다니지 않는 게 좋아."},
-    {"selector":"00/400","entry_index":44,"draft_translation":"넷토, 너무 무리하지 마."},
-    {"selector":"00/400","entry_index":47,"draft_translation":"지진은 멎은 것 같네. / 한때는 어떻게 되나 싶었지만... // 넷토가 해결해 준 거지? / 고마워."},
-    {"selector":"00/400","entry_index":50,"draft_translation":"왠지 불길한 예감이 들어... // 넷토, 이럴 때는 / 너무 무리하지 마."},
-    {"selector":"00/400","entry_index":220,"draft_translation":"최고 인기 애니메이션 / 「출동! 본 일가!」의 / 마스코트 캐릭터 코분 인형이다. // 동그랗고 커다란 눈이 / 참 사랑스럽다. // 고장 난 모양이라 / 플러그인할 수 없을 것 같다."},
-    {"selector":"00/400","entry_index":221,"draft_translation":"메일의 컴퓨터다. / 플러그인할 수 있다."},
-    {"selector":"00/400","entry_index":222,"draft_translation":"안은 텅 비어 있다."},
-    {"selector":"00/400","entry_index":223,"draft_translation":"여자아이 방다운 / 커다란 전신 거울이다."},
-    {"selector":"00/400","entry_index":224,"draft_translation":"이 사다리를 올라가면 / 메일의 침대가 있다."},
-    {"selector":"00/401","entry_index":0,"draft_translation":"기다렸다, 넷토! // 이 데카오 님이 정성껏 키운 / 거츠맨과 / 넷배틀해 보지 않겠냐!!"},
-    {"selector":"00/401","entry_index":1,"draft_translation":"오! 넷토! / 내 거츠맨과 / 붙어 보겠다는 거냐!?"},
-    {"selector":"00/401","entry_index":2,"draft_translation":"넷토, 데카오에게 / 넷배틀을 신청할래? // 예 // 아니요"},
-    {"selector":"00/401","entry_index":4,"draft_translation":"뭐야, 재미없게!!"},
-    {"selector":"00/401","entry_index":5,"draft_translation":"...역시 거츠맨을 / 강하게 만들 때까지만 기다려 줘! / 응? 응?"},
-    {"selector":"00/401","entry_index":7,"draft_translation":"이 배틀을 위해 / 어제 사 온 서포트 칩! // 그리고... 마침내 완성된 / 거츠맨의 새 필살기 프로그램, // 로켓 거츠 펀치를 받아라!"},
-    {"selector":"00/401","entry_index":8,"draft_translation":"다음엔 안 질 거야!"},
-    {"selector":"00/401","entry_index":9,"draft_translation":"제길!! / 방금 건 실수야! 분명 그래!"},
-    {"selector":"00/401","entry_index":10,"draft_translation":"어떠냐! / 거츠맨의 강함을 알겠지!"},
-    {"selector":"00/401","entry_index":12,"draft_translation":"넷토는 / 「[printItem item=81]」을 / 획득했다!!"},
-    {"selector":"00/401","entry_index":15,"draft_translation":"헷!! / 져도 울지 마라!!"},
-    {"selector":"00/401","entry_index":16,"draft_translation":"진짜냐! / 제법 하잖아... // 좋아...[waitSkip 30] / 이걸 써!"},
-    {"selector":"00/401","entry_index":17,"draft_translation":"젠장!! / 이래도 못 이기는 거냐!"},
-    {"selector":"00/401","entry_index":18,"draft_translation":"제길!! / 방금 건 실수야! 분명 그래!"},
-    {"selector":"00/401","entry_index":20,"draft_translation":"뭐? 캠핑? // 미안... 오늘은 안 돼. / 엄마가 집을 봐 달라고 / 부탁했거든..."},
-    {"selector":"00/401","entry_index":21,"draft_translation":"그건 그렇고..."},
-    {"selector":"00/401","entry_index":30,"draft_translation":"자유 연구? / 방학은 아직 많이 남았잖아. / 그런 걸 했을 리가 없지!!"},
-    {"selector":"00/401","entry_index":35,"draft_translation":"야! 뭐 하는 거야! / 남의 집에 놀러 와서 / 그렇게 심각한 표정을 짓고 말이야!"},
-    {"selector":"00/401","entry_index":40,"draft_translation":"알고 있겠지, 넷토! / 아메롭파에 간다는 건 내게 / 선물을 사 온다는 뜻이야! // ...뭐, 그건 그렇다 치고! / 한판 승부하자!"},
-    {"selector":"00/401","entry_index":46,"draft_translation":"여, 넷토. 아메롭파는 어땠어? // 내 선물이라고? 주는 거야? // 오! 이건! / 내가 전부터 갖고 싶었던 / [printItem item=28]이잖아! // 내가 원하는 걸 구해 오다니 / 제법 하는데! // 받기만 하기도 미안하니까 / 이걸 줄게!"},
-    {"selector":"00/401","entry_index":47,"draft_translation":"넷토는 / 칩 데이터 「[printChip chip=45] [printCode code=D]」를 / 획득했다!!"},
-    {"selector":"00/401","entry_index":48,"draft_translation":"넷토! 귀국 기념으로 // 이 데카오 님이 정성껏 키운 / 거츠맨과 / 넷배틀해 보지 않겠냐!!"},
-    {"selector":"00/401","entry_index":50,"draft_translation":"으악!! // 뭐야, 넷토였잖아... / 놀라게 하지 마! / 지진인 줄 알았잖아..."},
-    {"selector":"00/401","entry_index":53,"draft_translation":"지진도 멎은 것 같으니 / 넷배틀이라면 받아 주지!"},
-    {"selector":"00/401","entry_index":55,"draft_translation":"시민 넷배틀러로서 / 지금 내가 할 수 있는 건 뭐지? / 넷토가 할 수 있는 건 뭐지? // 훗...[waitSkip 30] // 역시 「이거」겠지!! / 덤벼라, 넷토!!"},
-    {"selector":"00/401","entry_index":220,"draft_translation":"숙제 문제집이 늘어서 있다. / 하지만 조금도 손을 댄 / 흔적이 없다."},
-    {"selector":"00/401","entry_index":221,"draft_translation":"데카오도 마음을 고쳐먹었는지 / 제법 정리되어 있다."},
-    {"selector":"00/401","entry_index":222,"draft_translation":"버려진 것은 / 과자 봉지뿐이다..."},
-    {"selector":"00/401","entry_index":223,"draft_translation":"일본의 정서가 느껴지는 미닫이문이다... / 자세히 보니 이 집은 / 완전한 일본식이다."},
-    {"selector":"00/401","entry_index":224,"draft_translation":"조금 구형인 TV다. / 얇지는 않지만 // TV 위에 물건을 / 올려놓을 수 있다는 점이 / 매력이다."},
-    {"selector":"00/401","entry_index":225,"draft_translation":"데카오의 컴퓨터다. / 플러그인할 수 있을 것 같다."},
-    {"selector":"00/401","entry_index":226,"draft_translation":"화제의 신형 휴대용 게임기다. / 물론 플러그인할 수 있다."},
-    {"selector":"00/401","entry_index":227,"draft_translation":"화제의 게임 잡지다."},
-    {"selector":"00/402","entry_index":15,"draft_translation":"세계 곳곳을 여행했지만 / 역시 우리 집이 가장 편안하네."},
-    {"selector":"00/402","entry_index":17,"draft_translation":"아지나는 인터넷으로 보는 것보다 / 직접 가 보는 게 좋아. // 음식도 맛있고 / 바다도 아름답거든. // 그래 봐야 아직 세 번 정도밖에 / 가 본 적 없지만."},
-    {"selector":"00/402","entry_index":20,"draft_translation":"글라이드에게 들었는데 / 인터넷에서 무슨 사건이 / 일어나는 모양이네. // 그럴 때는 인터넷 따위 하지 말고 // 우아하게 독서나 / 하는 게 최고지. // 「군자는 위험을 가까이하지 않는다」잖아."},
-    {"selector":"00/402","entry_index":25,"draft_translation":"나한테는 이제 와서 아메롭파가 / 신기할 것도 전혀 없어. // 뭐, 그곳에는 치안이 나쁜 곳도 있으니 / 그런 곳에는 가까이 가지 마. // ...그리고 선물은 필요 없어. / 적은 용돈을 더 쓰게 하면 / 불쌍하잖아."},
-    {"selector":"00/402","entry_index":30,"draft_translation":"어머, 돌아왔어? // 첫 해외여행은 어땠어? // 아메롭파는 꽤 분주한 / 느낌이 들잖아? / 별로 느긋하게 쉴 수가 없어. // 다음에 해외로 간다면 / 아지나가 좋아."},
-    {"selector":"00/402","entry_index":31,"draft_translation":"어머, 돌아왔어? // 첫 해외여행은 어땠어? // 어라? 내 선물이라고? / 그렇게 신경 쓰지 않아도 되는데. // 그래도 고맙게 받을게. // 자, 이건 작은 성의니까 / 받아 둬."},
-    {"selector":"00/402","entry_index":32,"draft_translation":"넷토는 / 「10000제니」를 / 획득했다!!"},
-    {"selector":"00/402","entry_index":33,"draft_translation":"해외에 가면 / 세상을 보는 눈이 달라지지. // 너도 나에게 한 걸음 / 가까워졌네."},
-    {"selector":"00/402","entry_index":35,"draft_translation":"이 집은 최신 내진 기술을 / 총동원해서 지었기 때문에 // 아무리 큰 지진이 와도 / 안심이야. // 사실 아키하라 마을에서 / 가장 안전한 곳이 우리 집이거든. // 대피할 거라면 / 우리 집으로 와."},
-    {"selector":"00/402","entry_index":40,"draft_translation":"물건이 이렇게 많으면 / 바이러스 대책도 힘들 수밖에 없어. // 히카리 군...[waitSkip 30] // 너 정말로 / 고스펠을 쓰러뜨린 거야?"},
-    {"selector":"00/402","entry_index":45,"draft_translation":"사실 글라이드는 / 고성능 내비거든. // 그래서 내가 고스펠을 쓰러뜨리겠어! // ...라고 말하고 싶지만, // PET가 너무 커서 / 글라이드를 제대로 조작할 수가 없어..."}
-  ]
+ "schema_version": 1,
+ "kind": "authored_multi_archive_translation_batch",
+ "batch_number": 76,
+ "entries": [
+  {
+   "selector": "00/397",
+   "entry_index": 52,
+   "draft_translation": "엄마 선물은 괜찮으니 / 그만큼 실컷 즐기고 오렴."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 55,
+   "draft_translation": "어서 오렴, 넷토. // 먼 길 다녀오느라 고생했어!! // 모두에게 인사하고 왔니? / 다들 걱정했단다. // 다녀왔으면 오늘은 / 바로 자렴. // 피곤할 테니까."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 60,
+   "draft_translation": "넷토, 밖은 위험하니까 / 조심하렴!"
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 62,
+   "draft_translation": "엄마는 대피하지 않을 거야. // 아빠가 없는 동안 / 이 집을 지키는 건 / 엄마가 할 일이니까."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 71,
+   "draft_translation": "수고했어. / 푹 쉬렴."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 80,
+   "draft_translation": "이래서는 한동안 또 / 아빠가 집에 못 오겠네..."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 220,
+   "draft_translation": "엄마 취향으로 놓아둔 꽃병이다. / 참 고풍스럽다..."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 221,
+   "draft_translation": "엄마가 요즘 도전 중인 / 치즈케이크다... // 만족스러운 케이크가 구워질 때까지 / 매일 만들 생각인가 보다."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 222,
+   "draft_translation": "많은 식재료가 / 줄지어 놓여 있다."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 223,
+   "draft_translation": "엄마가 케이크를 구울 때 쓰는 / 주문 제작 오븐이다. // 엄마 말로는 화력이 다르다고 한다."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 224,
+   "draft_translation": "여러 가지 식기가 놓여 있다. / 하나같이 감각적인 물건이다."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 225,
+   "draft_translation": "초박형 TV다. / 이 종류의 TV에는 / 플러그인할 수 없다."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 227,
+   "draft_translation": "이 집의 가전제품을 / 이 제어판으로 / 조작할 수 있다. // 플러그인할 수 있다."
+  },
+  {
+   "selector": "00/397",
+   "entry_index": 228,
+   "draft_translation": "이 집의 가전제품을 / 이 제어판으로 / 조작할 수 있다. // 플러그인할 수 있는 구조지만 / 오늘은 엄마가 이미 바이러스 검사를 / 끝낸 모양이다..."
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 20,
+   "draft_translation": "넷토, 메일이야!!"
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 30,
+   "draft_translation": "넷토, 메일이야!!"
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 220,
+   "draft_translation": "여러 추억이 담긴 물건으로 / 가득하다."
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 221,
+   "draft_translation": "방학 전에 본 시험 답안지가 / 이곳에 숨겨져 있다. // 아직 엄마에게 들키지는 않았다. / 절대 들켜서는 안 된다."
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 222,
+   "draft_translation": "넷토의 컴퓨터다. / 플러그인할 수 있다."
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 224,
+   "draft_translation": "오늘은 이제 잘까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 225,
+   "draft_translation": "오늘 있었던 일을 / PET에 저장해 둘까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 226,
+   "draft_translation": "OK!...[waitSkip 30] / 저장했어!"
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 227,
+   "draft_translation": "넷토, 잘 자!"
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 228,
+   "draft_translation": "저장에 실패한 것 같아... // 한 번 더 해 볼게. / 예 / 아니요"
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 229,
+   "draft_translation": "넷토, 지금은 아직 / 자지 않아도 되지 않을까?"
+  },
+  {
+   "selector": "00/398",
+   "entry_index": 233,
+   "draft_translation": "이미 저장 데이터가 있다면 / 덮어쓰게 되는데 괜찮아? / 예 / 아니요"
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 10,
+   "draft_translation": "드디어 숙제를 끝냈어. // 넷토도 캠핑하러 가기 전에 / 조금이라도 숙제를 / 해 두는 게 좋아."
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 20,
+   "draft_translation": "이제 자유 연구를 시작해? / 나는 벌써 끝냈어."
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 22,
+   "draft_translation": "아지나 에어리어에 갈 거야? / 그럼 [printItem item=60]를 / 땄구나!? // 와~ 대단하다."
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 24,
+   "draft_translation": "나도 [printItem item=60]에 / 도전해 볼까?"
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 25,
+   "draft_translation": "시험을 볼 생각으로 / 인터넷에 갔는데, // 무슨 큰 사건이 / 일어난 것 같아서 / 시험을 볼 상황이 아니었어."
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 26,
+   "draft_translation": "인터넷에서 / 무슨 일이 일어나는 걸까?"
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 27,
+   "draft_translation": "누군가 오피셜 센터의 / 마더 컴퓨터에 침입했다고? // 그거 큰일이잖아!?"
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 220,
+   "draft_translation": "훌륭한 관엽식물이다."
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 221,
+   "draft_translation": "푹신한 소파다. / 앉으면 아주 편할 것 같다."
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 222,
+   "draft_translation": "메일이 자랑하는 전자 피아노다. / 하지만 연주하는 모습은 / 아무도 본 적이 없다. // 플러그인할 수 있게 되어 있다."
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 224,
+   "draft_translation": "이 집의 가전제품을 / 이 제어판으로 조작할 수 있다. // 모델이 조금 낡아서 / 플러그인할 수 없다."
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 225,
+   "draft_translation": "세련된 커튼이다."
+  },
+  {
+   "selector": "00/399",
+   "entry_index": 226,
+   "draft_translation": "메일이 자랑하는 전자 피아노다. / 하지만 연주하는 모습은 / 아무도 본 적이 없다. // 플러그인할 수 있을 텐데 / 꽤 오랫동안 쓰지 않았는지 / 전원이 꺼져 있다..."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 5,
+   "draft_translation": "그런 일이 일어나다니 / 정말 놀랐지... // 그래도 모두 무사해서 다행이야..."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 35,
+   "draft_translation": "어서 와, 넷토. / 아메롭파에서 크게 / 활약했다며? // 수고했어!"
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 36,
+   "draft_translation": "어서 와, 넷토. / 아메롭파에서 크게 / 활약했다며? // 수고했어! // 내 선물이라고? // 와, 예쁘다!! / 나도 이런 반지를 갖고 싶었어. // 넷토, 고마워!"
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 37,
+   "draft_translation": "그럼 답례로 / 이걸 줄게."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 38,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=127] [printCode code=P]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 39,
+   "draft_translation": "넷토, 수고했어. / 오늘은 푹 쉬어."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 41,
+   "draft_translation": "아지나 에어리어에서 갑자기 / 롤과 연락이 / 끊겼어. // 롤에게 무슨 일이 생긴 걸까... / 걱정돼서..."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 42,
+   "draft_translation": "롤에게 연락이 왔어. / 넷토, 록맨, 고마워. // 지진이 자주 일어나고 있으니 / 조심해."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 43,
+   "draft_translation": "아까부터 지진이 몇 번이나 / 일어나고 있어. // 넷토도 너무 / 돌아다니지 않는 게 좋아."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 44,
+   "draft_translation": "넷토, 너무 무리하지 마."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 47,
+   "draft_translation": "지진은 멎은 것 같네. / 한때는 어떻게 되나 싶었지만... // 넷토가 해결해 준 거지? / 고마워."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 50,
+   "draft_translation": "왠지 불길한 예감이 들어... // 넷토, 이럴 때는 / 너무 무리하지 마."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 220,
+   "draft_translation": "최고 인기 애니메이션 / 「출동! 본 일가!」의 / 마스코트 캐릭터 코분 인형이다. // 동그랗고 커다란 눈이 / 참 사랑스럽다. // 고장 난 모양이라 / 플러그인할 수 없을 것 같다."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 221,
+   "draft_translation": "메일의 컴퓨터다. / 플러그인할 수 있다."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 222,
+   "draft_translation": "안은 텅 비어 있다."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 223,
+   "draft_translation": "여자아이 방다운 / 커다란 전신 거울이다."
+  },
+  {
+   "selector": "00/400",
+   "entry_index": 224,
+   "draft_translation": "이 사다리를 올라가면 / 메일의 침대가 있다."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 0,
+   "draft_translation": "기다렸다, 넷토! // 이 데카오 님이 정성껏 키운 / 거츠맨과 / 넷배틀해 보지 않겠냐!!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 1,
+   "draft_translation": "오! 넷토! / 내 거츠맨과 / 붙어 보겠다는 거냐!?"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 2,
+   "draft_translation": "넷토, 데카오에게 / 넷배틀을 신청할래? // 예 // 아니요"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 4,
+   "draft_translation": "뭐야, 재미없게!!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 5,
+   "draft_translation": "...역시 거츠맨을 / 강하게 만들 때까지만 기다려 줘! / 응? 응?"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 7,
+   "draft_translation": "이 배틀을 위해 / 어제 사 온 서포트 칩! // 그리고... 마침내 완성된 / 거츠맨의 새 필살기 프로그램, // 로켓 거츠 펀치를 받아라!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 8,
+   "draft_translation": "다음엔 안 질 거야!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 9,
+   "draft_translation": "제길!! / 방금 건 실수야! 분명 그래!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 10,
+   "draft_translation": "어떠냐! / 거츠맨의 강함을 알겠지!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 12,
+   "draft_translation": "넷토는 / 「[printItem item=81]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 15,
+   "draft_translation": "헷!! / 져도 울지 마라!!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 16,
+   "draft_translation": "진짜냐! / 제법 하잖아... // 좋아...[waitSkip 30] / 이걸 써!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 17,
+   "draft_translation": "젠장!! / 이래도 못 이기는 거냐!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 18,
+   "draft_translation": "제길!! / 방금 건 실수야! 분명 그래!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 20,
+   "draft_translation": "뭐? 캠핑? // 미안... 오늘은 안 돼. / 엄마가 집을 봐 달라고 / 부탁했거든..."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 21,
+   "draft_translation": "그건 그렇고..."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 30,
+   "draft_translation": "자유 연구? / 방학은 아직 많이 남았잖아. / 그런 걸 했을 리가 없지!!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 35,
+   "draft_translation": "야! 뭐 하는 거야! / 남의 집에 놀러 와서 / 그렇게 심각한 표정을 짓고 말이야!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 40,
+   "draft_translation": "알고 있겠지, 넷토! / 아메롭파에 간다는 건 내게 / 선물을 사 온다는 뜻이야! // ...뭐, 그건 그렇다 치고! / 한판 승부하자!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 46,
+   "draft_translation": "여, 넷토. 아메롭파는 어땠어? // 내 선물이라고? 주는 거야? // 오! 이건! / 내가 전부터 갖고 싶었던 / [printItem item=28]이잖아! // 내가 원하는 걸 구해 오다니 / 제법 하는데! // 받기만 하기도 미안하니까 / 이걸 줄게!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 47,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=45] [printCode code=D]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 48,
+   "draft_translation": "넷토! 귀국 기념으로 // 이 데카오 님이 정성껏 키운 / 거츠맨과 / 넷배틀해 보지 않겠냐!!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 50,
+   "draft_translation": "으악!! // 뭐야, 넷토였잖아... / 놀라게 하지 마! / 지진인 줄 알았잖아..."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 53,
+   "draft_translation": "지진도 멎은 것 같으니 / 넷배틀이라면 받아 주지!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 55,
+   "draft_translation": "시민 넷배틀러로서 / 지금 내가 할 수 있는 건 뭐지? / 넷토가 할 수 있는 건 뭐지? // 훗...[waitSkip 30] // 역시 「이거」겠지!! / 덤벼라, 넷토!!"
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 220,
+   "draft_translation": "숙제 문제집이 늘어서 있다. / 하지만 조금도 손을 댄 / 흔적이 없다."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 221,
+   "draft_translation": "데카오도 마음을 고쳐먹었는지 / 제법 정리되어 있다."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 222,
+   "draft_translation": "버려진 것은 / 과자 봉지뿐이다..."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 223,
+   "draft_translation": "일본의 정서가 느껴지는 미닫이문이다... / 자세히 보니 이 집은 / 완전한 일본식이다."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 224,
+   "draft_translation": "조금 구형인 TV다. / 얇지는 않지만 // TV 위에 물건을 / 올려놓을 수 있다는 점이 / 매력이다."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 225,
+   "draft_translation": "데카오의 컴퓨터다. / 플러그인할 수 있을 것 같다."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 226,
+   "draft_translation": "화제의 신형 휴대용 게임기다. / 물론 플러그인할 수 있다."
+  },
+  {
+   "selector": "00/401",
+   "entry_index": 227,
+   "draft_translation": "화제의 게임 잡지다."
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 15,
+   "draft_translation": "세계 곳곳을 여행했지만 / 역시 우리 집이 가장 편안하네."
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 17,
+   "draft_translation": "아지나는 인터넷으로 보는 것보다 / 직접 가 보는 게 좋아. // 음식도 맛있고 / 바다도 아름답거든. // 그래 봐야 아직 세 번 정도밖에 / 가 본 적 없지만."
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 20,
+   "draft_translation": "글라이드에게 들었는데 / 인터넷에서 무슨 사건이 / 일어나는 모양이네. // 그럴 때는 인터넷 따위 하지 말고 // 우아하게 독서나 / 하는 게 최고지. // 「군자는 위험을 가까이하지 않는다」잖아."
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 25,
+   "draft_translation": "나한테는 이제 와서 아메롭파가 / 신기할 것도 전혀 없어. // 뭐, 그곳에는 치안이 나쁜 곳도 있으니 / 그런 곳에는 가까이 가지 마. // ...그리고 선물은 필요 없어. / 적은 용돈을 더 쓰게 하면 / 불쌍하잖아."
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 30,
+   "draft_translation": "어머, 돌아왔어? // 첫 해외여행은 어땠어? // 아메롭파는 꽤 분주한 / 느낌이 들잖아? / 별로 느긋하게 쉴 수가 없어. // 다음에 해외로 간다면 / 아지나가 좋아."
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 31,
+   "draft_translation": "어머, 돌아왔어? // 첫 해외여행은 어땠어? // 어라? 내 선물이라고? / 그렇게 신경 쓰지 않아도 되는데. // 그래도 고맙게 받을게. // 자, 이건 작은 성의니까 / 받아 둬."
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 32,
+   "draft_translation": "넷토는 / 「10000제니」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 33,
+   "draft_translation": "해외에 가면 / 세상을 보는 눈이 달라지지. // 너도 나에게 한 걸음 / 가까워졌네."
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 35,
+   "draft_translation": "이 집은 최신 내진 기술을 / 총동원해서 지었기 때문에 // 아무리 큰 지진이 와도 / 안심이야. // 사실 아키하라 마을에서 / 가장 안전한 곳이 우리 집이거든. // 대피할 거라면 / 우리 집으로 와."
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 40,
+   "draft_translation": "물건이 이렇게 많으면 / 바이러스 대책도 힘들 수밖에 없어. // 히카리 군...[waitSkip 30] // 너 정말로 / 고스펠을 쓰러뜨린 거야?"
+  },
+  {
+   "selector": "00/402",
+   "entry_index": 45,
+   "draft_translation": "사실 글라이드는 / 고성능 내비거든. // 그래서 내가 고스펠을 쓰러뜨리겠어! // ...라고 말하고 싶지만, // PET가 너무 커서 / 글라이드를 제대로 조작할 수가 없어..."
+  }
+ ]
 }

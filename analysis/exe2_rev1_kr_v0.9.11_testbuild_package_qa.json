@@ -1,0 +1,36 @@
+{
+  "status": "PENDING_RUNTIME_TUTORIAL_CHECK",
+  "candidate_sha256": "783503a014c405b59ed2c4735b78c0f9c98f7f4bad42882d774bb514d97301cd",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "0caa0dcc7c2228dc77f8a310b879ed71877954d0a93f39b5395557ad1f751a83",
+  "content_qa_sha256": "e6b8ab81d890cac94e907c8881f3d50fe90e2a0b3b81a246c2bd273f47ce6ec3",
+  "runtime_evidence": {
+    "kind": "human_on_screen_reading",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "정적 QA",
+      "내용 QA",
+      "후속 스크립트 223건 바이트 일치"
+    ],
+    "automated_menu_regression_run": false
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.11_TestBuild.zip",
+  "package_sha256": "6f505fe68274fe4b9757c4f393e5c7ce5a610b222dec757a695640aa3577c211",
+  "package_size": 876774,
+  "patch_sha256": "58d045611254400c9ad6f5a4748611215295f2ed2db6b096bc9d80eddb8ba7aa",
+  "patch_size": 333982,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

@@ -1,0 +1,766 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/07E8B44",
+ "entry_prefix": "archive_u07E8B44",
+ "rom_offset": 8293188,
+ "storage": "lz77",
+ "byte_length": 757,
+ "payload_byte_length": 1483,
+ "tpl_filename": "uncatalogued_archive_tpl/lz_07E8B44.tpl",
+ "entry_count": 47,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u07E8B44_entry_0000",
+   "source_entry_offset": 128,
+   "source_entry_byte_length": 22,
+   "source_entry_sha256": "ed6cd124af8d6029655910b77c9d5945bf9bc135a59b1c5f757b7c25d00dcaf4",
+   "source_entry_raw_hex": "35 59 12 29 3a 00 00 00 00 00 cf e5 05 9b b6 9b 00 bb ac b9 81 e7",
+   "source_tpl_block_sha256": "b7d37504570cd24c07a7976cc78b8c70319eab75cbc8b2370e506d8db176e00e",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ロックマン     じょうほう もとむ!"
+   ],
+   "translated_literals": [
+    "록맨        정보 구함!"
+   ]
+  },
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u07E8B44_entry_0001",
+   "source_entry_offset": 150,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "9210dc18136a2785c34cca128ddea085ce087e73319c58c2b622f1e9d4996f3d",
+   "source_entry_raw_hex": "b1 c0 a8 b7 c8 00 00 00 00 00 35 59 12 29 3a a3 c8 b5 e7",
+   "source_tpl_block_sha256": "95730110586b2cf88c7e46a61613f3296832ea9d2900b0ac870aebf1d5a4699c",
+   "japanese_characters": 13,
+   "source_literals": [
+    "のりたまん     ロックマンさんへ"
+   ],
+   "translated_literals": [
+    "노리타만      록맨 씨에게"
+   ]
+  },
+  {
+   "entry_index": 2,
+   "entry_id": "archive_u07E8B44_entry_0002",
+   "source_entry_offset": 169,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "e5dbe133c5bc1ffc64ca1be531c2dc658454138ba6257aade093817e38e3860e",
+   "source_entry_raw_hex": "1d 1c 00 00 00 00 00 00 00 00 51 35 3d 31 2b ae a0 c4 a4 9a 25 1e e7",
+   "source_tpl_block_sha256": "3c5c6ca517e3ec7baf73929de78b95d7ba8d74d8db88cbced7cad76f149f816c",
+   "japanese_characters": 14,
+   "source_literals": [
+    "テツ        プログラムにくわしいヒト"
+   ],
+   "translated_literals": [
+    "테츠        프로그램 잘 아는 사람"
+   ]
+  },
+  {
+   "entry_index": 3,
+   "entry_id": "archive_u07E8B44_entry_0003",
+   "source_entry_offset": 192,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "a79674907e7d45d45de44f704ff6a1d5d13ade7d06cd5af0346de3cce9cf8993",
+   "source_entry_raw_hex": "4c 31 59 12 1a 0c 3b 78 00 00 a3 9a 9f c8 88 88 88 e7",
+   "source_tpl_block_sha256": "0ab8e1ce8067f95db318e59d827b9e88313edb2a4bb7ff95a5e503b132026474",
+   "japanese_characters": 15,
+   "source_literals": [
+    "ブラックタイガー  さいきん・・・"
+   ],
+   "translated_literals": [
+    "블랙타이거     요즘..."
+   ]
+  },
+  {
+   "entry_index": 4,
+   "entry_id": "archive_u07E8B44_entry_0004",
+   "source_entry_offset": 210,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "a3df688005c0b3525221f22fc5245e351b1e332be60885f8479bdb3152afe666",
+   "source_entry_raw_hex": "99 c0 9e 00 00 00 00 00 00 00 0d 36 15 88 88 88 e7",
+   "source_tpl_block_sha256": "7d30bde4f103066a66beced2cb12f86e1aa578149cf4f1ce4d7f529634d729b7",
+   "japanese_characters": 9,
+   "source_literals": [
+    "ありか       ウワサ・・・"
+   ],
+   "translated_literals": [
+    "아리카       소문..."
+   ]
+  },
+  {
+   "entry_index": 5,
+   "entry_id": "archive_u07E8B44_entry_0005",
+   "source_entry_offset": 227,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "cbffdc5ccf1fc11d8abff91d07d9ee7dc60f3d443aec4f49b4acfff9cd4a2be7",
+   "source_entry_raw_hex": "12 35 0d 00 00 00 00 00 00 00 2e 2a 9a a4 e5 03 88 88 88 e7",
+   "source_tpl_block_sha256": "48251f786393db1bfec22d96c7eca2605fc29db1d21ee025897ad0ce65f16c92",
+   "japanese_characters": 11,
+   "source_literals": [
+    "クロウ       ヤミいしゃ・・・"
+   ],
+   "translated_literals": [
+    "크로우       암흑 의사..."
+   ]
+  },
+  {
+   "entry_index": 6,
+   "entry_id": "archive_u07E8B44_entry_0006",
+   "source_entry_offset": 247,
+   "source_entry_byte_length": 24,
+   "source_entry_sha256": "cd562a4ec26704a6db72365a7dadf320700d0264c99d2b415441f60356e9f2d0",
+   "source_entry_raw_hex": "14 0c 1b 00 00 00 00 00 00 00 6f e5 0a 7b 2e 2a 9a a4 e5 03 88 88 88 e7",
+   "source_tpl_block_sha256": "86d1470b189ab6846db2b14efbb1992436a9e01f849f80003bbd3f4a8afe5bb4",
+   "japanese_characters": 11,
+   "source_literals": [
+    "コイチ       Re:ヤミいしゃ・・・"
+   ],
+   "translated_literals": [
+    "코이치       Re:암흑 의사..."
+   ]
+  },
+  {
+   "entry_index": 7,
+   "entry_id": "archive_u07E8B44_entry_0007",
+   "source_entry_offset": 271,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "2a107cfa03864a50dc549910da39aaefc5faf60d086c8354266a29693bdb623a",
+   "source_entry_raw_hex": "14 0c 1b 00 00 00 00 00 00 00 b8 c8 ad be c3 a4 a0 81 e7",
+   "source_tpl_block_sha256": "8e571d09f9ee10e14267e9018b47435c013d7fda685c23e27d797a5673b89c52",
+   "japanese_characters": 10,
+   "source_literals": [
+    "コイチ       みんなよろしく!"
+   ],
+   "translated_literals": [
+    "코이치       모두 잘 부탁해!"
+   ]
+  },
+  {
+   "entry_index": 8,
+   "entry_id": "archive_u07E8B44_entry_0008",
+   "source_entry_offset": 290,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "d55c126c1dd0f76c72fd9f57784dbdfdcecf1aa6b1dfcf68639cb908df528b89",
+   "source_entry_raw_hex": "4c 31 59 12 1a 0c 3b 78 00 00 a2 a2 e5 02 ab e7",
+   "source_tpl_block_sha256": "ada9cdedb9c539f14acb4bc476e93dccfc720d7ab4499cec4f4e4b5d1ba42baa",
+   "japanese_characters": 12,
+   "source_literals": [
+    "ブラックタイガー  ここって"
+   ],
+   "translated_literals": [
+    "블랙타이거     여기 말이야"
+   ]
+  },
+  {
+   "entry_index": 9,
+   "entry_id": "archive_u07E8B44_entry_0009",
+   "source_entry_offset": 306,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "484492cd00e341d5a452bacde2e1e10d005fe64f9d2dca5339a2ca2c023dfcf2",
+   "source_entry_raw_hex": "35 78 33 00 00 00 00 00 00 00 a2 c8 ae a9 b2 81 e7",
+   "source_tpl_block_sha256": "1afbcca11441f00caa10e20fe53a421f72510fa08090728934b8d710e55082a2",
+   "japanese_characters": 8,
+   "source_literals": [
+    "ロール       こんにちは!"
+   ],
+   "translated_literals": [
+    "롤         안녕하세요!"
+   ]
+  },
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u07E8B44_entry_0010",
+   "source_entry_offset": 323,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "bdf486fbb00ba9f0ca6172e704542b8421f9dee2a83d95c6160dc112a21aee67",
+   "source_entry_raw_hex": "3b 59 1c 29 3a 00 00 00 00 00 3b 78 78 59 1c e7",
+   "source_tpl_block_sha256": "25814b9c108e7f204bc84f5e0638ae37ccbe1c08072e0d9e5b22d05828803e07",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ガッツマン     ガーーッツ"
+   ],
+   "translated_literals": [
+    "거츠맨       거~~츠"
+   ]
+  },
+  {
+   "entry_index": 11,
+   "entry_id": "archive_u07E8B44_entry_0011",
+   "source_entry_offset": 339,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "fa9b69ead67f8cd3399b7dc47aa726d6db960d8cfd92c3ae9c4aca2deb7c8137",
+   "source_entry_raw_hex": "9e c8 c0 ae c8 00 00 00 00 00 0c 3a 1a 78 22 59 1e ae aa 9a ab 02 e7",
+   "source_tpl_block_sha256": "70be5edfaf8240518121f56ad84fd99507f4c49f7d270258a4097f4520360ac2",
+   "japanese_characters": 16,
+   "source_literals": [
+    "かんりにん     インターネットについて1"
+   ],
+   "translated_literals": [
+    "관리인       인터넷에 대해1"
+   ]
+  },
+  {
+   "entry_index": 12,
+   "entry_id": "archive_u07E8B44_entry_0012",
+   "source_entry_offset": 362,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "157e9e32eac82fbf7d9476efdeabc9bfe25283914bfdc0971531b67a466910f0",
+   "source_entry_raw_hex": "9e c8 c0 ae c8 00 00 00 00 00 0c 3a 1a 78 22 59 1e ae aa 9a ab 03 e7",
+   "source_tpl_block_sha256": "4ccde3d25430a5fc73118a829a15ad991202bc357c9d2954b0fbcc35b7f55db1",
+   "japanese_characters": 16,
+   "source_literals": [
+    "かんりにん     インターネットについて2"
+   ],
+   "translated_literals": [
+    "관리인       인터넷에 대해2"
+   ]
+  },
+  {
+   "entry_index": 13,
+   "entry_id": "archive_u07E8B44_entry_0013",
+   "source_entry_offset": 385,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "0d62adf7def8dd3c7bcbd655d049e4f58942405b7de5c88281858cf62b262f5d",
+   "source_entry_raw_hex": "29 78 dc 78 00 00 00 00 00 00 e5 c5 e5 c6 e5 c7 81 e7",
+   "source_tpl_block_sha256": "5e8d9c61dc4bb72f8d5a4e89bca8ee7c6934d6d9bdaabdb38238c0841fc648f8",
+   "japanese_characters": 7,
+   "source_literals": [
+    "マーぼー      秋原町!"
+   ],
+   "translated_literals": [
+    "마보        아키하라 마을!"
+   ]
+  },
+  {
+   "entry_index": 14,
+   "entry_id": "archive_u07E8B44_entry_0014",
+   "source_entry_offset": 403,
+   "source_entry_byte_length": 22,
+   "source_entry_sha256": "f56003f9fa8bcc6214f1bf4a657201199a4ce82e051c7fa739d978665088deb8",
+   "source_entry_raw_hex": "99 c0 9e 00 00 00 00 00 00 00 14 1e 4c 11 e5 c7 bb 9a 9a b0 81 e7",
+   "source_tpl_block_sha256": "2a423ecc4da4dc29b19b4c257a8db78a8111daf51cb72e07e652c2df8347f175",
+   "japanese_characters": 12,
+   "source_literals": [
+    "ありか       コトブキ町もいいね!"
+   ],
+   "translated_literals": [
+    "아리카       코토부키 마을 좋아!"
+   ]
+  },
+  {
+   "entry_index": 15,
+   "entry_id": "archive_u07E8B44_entry_0015",
+   "source_entry_offset": 425,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "6798e63687e91bd95937c9f6138b2ae843dde27b58429aee3454731de80c410a",
+   "source_entry_raw_hex": "2d 1e 11 00 00 00 00 00 00 00 1b 59 51 16 5c 59 51 e7",
+   "source_tpl_block_sha256": "bbba5d409c96c25a3c22ec0d4f5bfe52441f844eebb9c3f4436beaec1cbc3277",
+   "japanese_characters": 10,
+   "source_literals": [
+    "モトキ       チップショップ"
+   ],
+   "translated_literals": [
+    "모토키       칩 숍"
+   ]
+  },
+  {
+   "entry_index": 16,
+   "entry_id": "archive_u07E8B44_entry_0016",
+   "source_entry_offset": 443,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "116e941dbd14782f95f24971b1f10a55dbe591685c154ac7bcd41dc56455f685",
+   "source_entry_raw_hex": "15 10 2a 1c 00 00 00 00 00 00 1b 59 51 1e 34 78 45 78 7c e7",
+   "source_tpl_block_sha256": "798639cdfd81b51d81abe0424cf2951d643dc1b30ad6122a07a096e37e75a34c",
+   "japanese_characters": 12,
+   "source_literals": [
+    "サカミツ      チップトレーダー?"
+   ],
+   "translated_literals": [
+    "사카미츠      칩 트레이더?"
+   ]
+  },
+  {
+   "entry_index": 17,
+   "entry_id": "archive_u07E8B44_entry_0017",
+   "source_entry_offset": 463,
+   "source_entry_byte_length": 24,
+   "source_entry_sha256": "6bd5a955715e3a193ce95aed056fa8f1f649df5123a05d2206b7426c845a851c",
+   "source_entry_raw_hex": "32 5b 0d 41 00 00 00 00 00 00 6f e5 0a 7b 1b 59 51 1e 34 78 45 78 7c e7",
+   "source_tpl_block_sha256": "e4d682c1d0999c4dd863193f88f8285019fd66102d31dbaa62581ad625f91eb8",
+   "japanese_characters": 12,
+   "source_literals": [
+    "リュウジ      Re:チップトレーダー?"
+   ],
+   "translated_literals": [
+    "류지        Re:칩 트레이더?"
+   ]
+  },
+  {
+   "entry_index": 18,
+   "entry_id": "archive_u07E8B44_entry_0018",
+   "source_entry_offset": 487,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "8a93c828c1841ba76dff5782072b5dfecef4a7f2af4a6e5ec4c3b5672514c3bd",
+   "source_entry_raw_hex": "2e 17 00 00 00 00 00 00 00 00 b5 e5 00 8c 8c e7",
+   "source_tpl_block_sha256": "df8d3783fec4d31389d04789a5b2825382283e7732dc78674474b40e401de3b1",
+   "japanese_characters": 4,
+   "source_literals": [
+    "ヤス        へぇ~~"
+   ],
+   "translated_literals": [
+    "야스        헤에~~"
+   ]
+  },
+  {
+   "entry_index": 19,
+   "entry_id": "archive_u07E8B44_entry_0019",
+   "source_entry_offset": 503,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "cbe48dce242ca51d12dad8048021ad4ce4b3f70d7ce0a3daff9933ca3dde6299",
+   "source_entry_raw_hex": "15 14 2e 29 00 00 00 00 00 00 11 5a 3a 51 cf e5 05 9b e7",
+   "source_tpl_block_sha256": "d43cd43e343db2c2634c0505052ee1f637f63ef1b6edee2955f262b75d2a0473",
+   "japanese_characters": 11,
+   "source_literals": [
+    "サコヤマ      キャンプじょう"
+   ],
+   "translated_literals": [
+    "사코야마      캠핑장"
+   ]
+  },
+  {
+   "entry_index": 20,
+   "entry_id": "archive_u07E8B44_entry_0020",
+   "source_entry_offset": 522,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "32076cf63c1d189834e0e968d7a834d7b8441a48d5b6901b96268e4a16f0b67a",
+   "source_entry_raw_hex": "dc 78 d0 00 00 00 00 00 00 00 6f e5 0a 7b 11 5a 3a 51 cf e5 05 9b e7",
+   "source_tpl_block_sha256": "70ebc42bff39b0b609ecb2c79b1e93ed1b62d19e0f2246ed61808ac7fe73301a",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ぼーず       Re:キャンプじょう"
+   ],
+   "translated_literals": [
+    "보즈        Re:캠핑장"
+   ]
+  },
+  {
+   "entry_index": 21,
+   "entry_id": "archive_u07E8B44_entry_0021",
+   "source_entry_offset": 545,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "a1de112e443b83578c2783046fe08218ed3f4fcbb5aa3b16ffe4c276b5a6485a",
+   "source_entry_raw_hex": "35 78 33 00 00 00 00 00 00 00 6f e5 0a 7b 11 5a 3a 51 cf e5 05 9b e7",
+   "source_tpl_block_sha256": "fbccf5a364223c2d73960ae07e1aa7059533ad6c6ea1a6ccea7f51ea056ba997",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ロール       Re:キャンプじょう"
+   ],
+   "translated_literals": [
+    "롤         Re:캠핑장"
+   ]
+  },
+  {
+   "entry_index": 22,
+   "entry_id": "archive_u07E8B44_entry_0022",
+   "source_entry_offset": 568,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "fe48189e0266dadf0bcb31d8b63f5fe3a3228cbce318990bb05f0df039c2edf2",
+   "source_entry_raw_hex": "2e 17 00 00 00 00 00 00 00 00 1b 59 51 1e 34 78 45 78 03 e7",
+   "source_tpl_block_sha256": "a979ab710aa219561711248400dd2e1bfeb40aa6fdf70232061ab8c8b7e42b54",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ヤス        チップトレーダー2"
+   ],
+   "translated_literals": [
+    "야스        칩 트레이더2"
+   ]
+  },
+  {
+   "entry_index": 23,
+   "entry_id": "archive_u07E8B44_entry_0023",
+   "source_entry_offset": 588,
+   "source_entry_byte_length": 24,
+   "source_entry_sha256": "f0a4d643fe64b652d91e42179e06d9dab787da1e62e93e137266d7990429b867",
+   "source_entry_raw_hex": "12 35 0d 00 00 00 00 00 00 00 6f e5 0a 7b 1b 59 51 1e 34 78 45 78 03 e7",
+   "source_tpl_block_sha256": "ab55e6d7d920082e7f4b9529d82a5f04fe82700ff8f489a115079c1430eb6fb5",
+   "japanese_characters": 11,
+   "source_literals": [
+    "クロウ       Re:チップトレーダー2"
+   ],
+   "translated_literals": [
+    "크로우       Re:칩 트레이더2"
+   ]
+  },
+  {
+   "entry_index": 24,
+   "entry_id": "archive_u07E8B44_entry_0024",
+   "source_entry_offset": 612,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "c598ebd98b2365015a39cdd783ccaadcff74f52a1e3ae8109ba5d0b39acb870c",
+   "source_entry_raw_hex": "4d 33 1c a3 c8 00 00 00 00 00 2a 17 1d 32 78 48 78 1a e7",
+   "source_tpl_block_sha256": "f99fdbb730ab1753675e9bc674c385a2d3ab75f9fcb3099d10bd508cce53b04c",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ベルツさん     ミステリーデータ"
+   ],
+   "translated_literals": [
+    "베르츠 씨     미스터리 데이터"
+   ]
+  },
+  {
+   "entry_index": 25,
+   "entry_id": "archive_u07E8B44_entry_0025",
+   "source_entry_offset": 631,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "0f84778766adc77c73219c403dfc1c14404c10619b863058515a3d930cd9af7b",
+   "source_entry_raw_hex": "9e c8 c0 ae c8 00 00 00 00 00 6f e5 0a 7b 2a 17 1d 32 78 48 78 1a e7",
+   "source_tpl_block_sha256": "bc215cbd3bef4d9a5a2563b701c815209f7353d20c7858ba748cd54d0ceb0997",
+   "japanese_characters": 13,
+   "source_literals": [
+    "かんりにん     Re:ミステリーデータ"
+   ],
+   "translated_literals": [
+    "관리인       Re:미스터리 데이터"
+   ]
+  },
+  {
+   "entry_index": 26,
+   "entry_id": "archive_u07E8B44_entry_0026",
+   "source_entry_offset": 654,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "5a97a710874ee4a8e2451d3a5a1d3cce00a8ffb13a3cf8dd3279b3fa8dd57a29",
+   "source_entry_raw_hex": "4d 33 1c a3 c8 00 00 00 00 00 6f e5 0a 7b 2a 17 1d 32 78 48 78 1a e7",
+   "source_tpl_block_sha256": "f2b89743aa0c0167168015c660bc0a31f30d3e1c768a93203103fb6f06119a02",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ベルツさん     Re:ミステリーデータ"
+   ],
+   "translated_literals": [
+    "베르츠 씨     Re:미스터리 데이터"
+   ]
+  },
+  {
+   "entry_index": 27,
+   "entry_id": "archive_u07E8B44_entry_0027",
+   "source_entry_offset": 677,
+   "source_entry_byte_length": 26,
+   "source_entry_sha256": "0125e22a9ff4f3f1ac099578db43f930c4da82f176c86815b86106b084bfdded",
+   "source_entry_raw_hex": "99 c0 9e 00 00 00 00 00 00 00 11 5a 3a 51 cf e5 05 9b 00 e5 6e c0 e5 71 ae e7",
+   "source_tpl_block_sha256": "0d21fb107be2da05db93a4f8766e56da49631a6d0f26d9c571ffc777b1d780a9",
+   "japanese_characters": 14,
+   "source_literals": [
+    "ありか       キャンプじょう 入り口に"
+   ],
+   "translated_literals": [
+    "아리카       캠핑장 입구에"
+   ]
+  },
+  {
+   "entry_index": 28,
+   "entry_id": "archive_u07E8B44_entry_0028",
+   "source_entry_offset": 703,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "fdb875c755ac68c69e52978f52101415aa0327e0a3ae00bccad5601a4c61e3b0",
+   "source_entry_raw_hex": "51 32 2a 11 00 00 00 00 00 00 9e 9a c9 9a c0 e5 05 a2 9b 81 e7",
+   "source_tpl_block_sha256": "5e77ec7e073329a1f4f3812ece0ae61d4aba41b7510a2226629d3c4b2be2b63a",
+   "japanese_characters": 12,
+   "source_literals": [
+    "プリミキ      かいがいりょこう!"
+   ],
+   "translated_literals": [
+    "프리미키      해외여행!"
+   ]
+  },
+  {
+   "entry_index": 29,
+   "entry_id": "archive_u07E8B44_entry_0029",
+   "source_entry_offset": 724,
+   "source_entry_byte_length": 25,
+   "source_entry_sha256": "8b5a3ef0c5ffc32692c62f6a1d9093cafdff91f812746a5d314b75937104a714",
+   "source_entry_raw_hex": "2f 78 41 00 00 00 00 00 00 00 6f e5 0a 7b 9e 9a c9 9a c0 e5 05 a2 9b 81 e7",
+   "source_tpl_block_sha256": "8150c1c5e732b0424637916e4b05e9d6da8aaa61ec8018f398676646ce754e03",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ユージ       Re:かいがいりょこう!"
+   ],
+   "translated_literals": [
+    "유지        Re:해외여행!"
+   ]
+  },
+  {
+   "entry_index": 30,
+   "entry_id": "archive_u07E8B44_entry_0030",
+   "source_entry_offset": 749,
+   "source_entry_byte_length": 25,
+   "source_entry_sha256": "3d0e24bca0ab215c10ad18bbb9987c8f1a2a6069322ddc7efbc3db28e34e70ba",
+   "source_entry_raw_hex": "51 32 2a 11 00 00 00 00 00 00 6f e5 0a 7b 9e 9a c9 9a c0 e5 05 a2 9b 81 e7",
+   "source_tpl_block_sha256": "7114bccb32c50192d7bf2592cce997921aaad9433169ae15170948cde1d0a2aa",
+   "japanese_characters": 12,
+   "source_literals": [
+    "プリミキ      Re:かいがいりょこう!"
+   ],
+   "translated_literals": [
+    "프리미키      Re:해외여행!"
+   ]
+  },
+  {
+   "entry_index": 31,
+   "entry_id": "archive_u07E8B44_entry_0031",
+   "source_entry_offset": 774,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "f788ab197c4e110ae8ab10dc87ce820c6a923b38560add431dbff3c1ff79012c",
+   "source_entry_raw_hex": "1f 4d a3 c8 00 00 00 00 00 00 0b 2c 35 59 4f e7",
+   "source_tpl_block_sha256": "ce651219772bfb3452299843dee5eb5d438d7a3165b736bbdc20e2ba3c90d2a5",
+   "japanese_characters": 9,
+   "source_literals": [
+    "ナベさん      アメロッパ"
+   ],
+   "translated_literals": [
+    "나베 씨      아메롭파"
+   ]
+  },
+  {
+   "entry_index": 32,
+   "entry_id": "archive_u07E8B44_entry_0032",
+   "source_entry_offset": 790,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "8634a6561664a55e09070d6ccd270726743b34a9ffee525752eeb4a604e59ed1",
+   "source_entry_raw_hex": "51 32 2a 11 00 00 00 00 00 00 a8 b1 a4 9e e5 02 a8 81 e7",
+   "source_tpl_block_sha256": "66edc6528e9ba706c214c38197648f4f555f908e857390981312cc298ecd9f4c",
+   "japanese_characters": 10,
+   "source_literals": [
+    "プリミキ      たのしかった!"
+   ],
+   "translated_literals": [
+    "프리미키      즐거웠어!"
+   ]
+  },
+  {
+   "entry_index": 33,
+   "entry_id": "archive_u07E8B44_entry_0033",
+   "source_entry_offset": 809,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "f0499c96fcc0975ba00315e63ee0e7db65835fb7ad875d36784ed2f7db7acdf4",
+   "source_entry_raw_hex": "51 32 2a 11 00 00 00 00 00 00 a8 b1 a4 9e e5 02 a8 81 00 03 e7",
+   "source_tpl_block_sha256": "3e3dd773bca90f590671d5bfc6db939af38c91116be390b4b8cdb1f37156ffbf",
+   "japanese_characters": 10,
+   "source_literals": [
+    "プリミキ      たのしかった! 2"
+   ],
+   "translated_literals": [
+    "프리미키      즐거웠어! 2"
+   ]
+  },
+  {
+   "entry_index": 34,
+   "entry_id": "archive_u07E8B44_entry_0034",
+   "source_entry_offset": 830,
+   "source_entry_byte_length": 22,
+   "source_entry_sha256": "ed90571e09c78db566f7ad047542c44d5d0695e5678b32913a3cc55b6066ec0e",
+   "source_entry_raw_hex": "2f 78 41 00 00 00 00 00 00 00 1b 59 51 1e 34 78 45 78 88 88 88 e7",
+   "source_tpl_block_sha256": "bca8c28bd24da6cab6490714de86315f00ee228121166dd492b5b4580ee199c6",
+   "japanese_characters": 14,
+   "source_literals": [
+    "ユージ       チップトレーダー・・・"
+   ],
+   "translated_literals": [
+    "유지        칩 트레이더..."
+   ]
+  },
+  {
+   "entry_index": 35,
+   "entry_id": "archive_u07E8B44_entry_0035",
+   "source_entry_offset": 852,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "9036a025a8ce7fd44d86f6b5ac01f659dfa74500390caac557121f4baa07618e",
+   "source_entry_raw_hex": "1f 4d a3 c8 00 00 00 00 00 00 a4 e5 04 e5 02 a9 e5 05 9b c9 9c c0 e7",
+   "source_tpl_block_sha256": "2cdc26f1fca569c8175ec194f7834478b1b3ff498010de60132cfddb301f7f9a",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ナベさん      しゅっちょうがえり"
+   ],
+   "translated_literals": [
+    "나베 씨      출장 다녀옴"
+   ]
+  },
+  {
+   "entry_index": 36,
+   "entry_id": "archive_u07E8B44_entry_0036",
+   "source_entry_offset": 875,
+   "source_entry_byte_length": 24,
+   "source_entry_sha256": "dff0ae68221304bca87fbc2653062cd322b6f1d43bd4635de94bf079fce57b79",
+   "source_entry_raw_hex": "1f 4d a3 c8 00 00 00 00 00 00 a4 e5 04 e5 02 a9 e5 05 9b c9 9c c0 03 e7",
+   "source_tpl_block_sha256": "c6f9f4f180476272b1ee19f98faa442fafbb79cac53fec96fd23aa8bb434b69f",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ナベさん      しゅっちょうがえり2"
+   ],
+   "translated_literals": [
+    "나베 씨      출장 다녀옴2"
+   ]
+  },
+  {
+   "entry_index": 37,
+   "entry_id": "archive_u07E8B44_entry_0037",
+   "source_entry_offset": 899,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "c84ff60b589722e0a74ce7fed8b1d251ec8bbb0509c45f9a4719ae3d0d787354",
+   "source_entry_raw_hex": "29 78 dc 78 00 00 00 00 00 00 ad c8 d3 9e 88 88 88 e7",
+   "source_tpl_block_sha256": "605c364333fc221b675a486b1febe43dcf293575aa7c070ca9aafe43bb107fc6",
+   "japanese_characters": 11,
+   "source_literals": [
+    "マーぼー      なんだか・・・"
+   ],
+   "translated_literals": [
+    "마보        왠지..."
+   ]
+  },
+  {
+   "entry_index": 38,
+   "entry_id": "archive_u07E8B44_entry_0038",
+   "source_entry_offset": 917,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "72b5f8fbb22154e2b5b3aa5525fc1ff2f5e7ef4e2d0b6c55aa2edd9c5a74280f",
+   "source_entry_raw_hex": "15 10 2a 1c 00 00 00 00 00 00 a2 9d c0 7c e7",
+   "source_tpl_block_sha256": "d1816453202cc5d9b78b82d294114e7a7b13e652c107c027e0b1c4aed90460ee",
+   "japanese_characters": 7,
+   "source_literals": [
+    "サカミツ      こおり?"
+   ],
+   "translated_literals": [
+    "사카미츠      얼음?"
+   ]
+  },
+  {
+   "entry_index": 39,
+   "entry_id": "archive_u07E8B44_entry_0039",
+   "source_entry_offset": 932,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "da148fa96fcb7f46636e56c4e93961bfc98fc013d0b8ddced3f3b456ef2acf22",
+   "source_entry_raw_hex": "4c 31 59 12 1a 0c 3b 78 00 00 6f e5 0a 7b a2 9d c0 7c e7",
+   "source_tpl_block_sha256": "8e57bf04d5b643876fceeca69daeb5c376e212fa185a65b5aca1ab0161d1514c",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ブラックタイガー  Re:こおり?"
+   ],
+   "translated_literals": [
+    "블랙타이거     Re:얼음?"
+   ]
+  },
+  {
+   "entry_index": 40,
+   "entry_id": "archive_u07E8B44_entry_0040",
+   "source_entry_offset": 951,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "7765524111ab2fab51a627be8b7709679671f1d2f921f9920f38a5ca6f9494af",
+   "source_entry_raw_hex": "2d 1e 11 00 00 00 00 00 00 00 48 3a 15 3a 0e 32 0b e7",
+   "source_tpl_block_sha256": "0e184d74d3b6249362c7df035dd7e21aa8f70480e50e14278356f42f7eee40d0",
+   "japanese_characters": 10,
+   "source_literals": [
+    "モトキ       デンサンエリア"
+   ],
+   "translated_literals": [
+    "모토키       덴산 에어리어"
+   ]
+  },
+  {
+   "entry_index": 41,
+   "entry_id": "archive_u07E8B44_entry_0041",
+   "source_entry_offset": 969,
+   "source_entry_byte_length": 22,
+   "source_entry_sha256": "8c7812f25f830beedcfefd4e738c60fb8a255a24cf40d42ebfa73fc001ff3c53",
+   "source_entry_raw_hex": "14 0c 1b 00 00 00 00 00 00 00 6f e5 0a 7b 48 3a 15 3a 0e 32 0b e7",
+   "source_tpl_block_sha256": "75ba96c5913a43b1efc79704859b02ea8b483a2dde2be32fd520a293c0aa296c",
+   "japanese_characters": 10,
+   "source_literals": [
+    "コイチ       Re:デンサンエリア"
+   ],
+   "translated_literals": [
+    "코이치       Re:덴산 에어리어"
+   ]
+  },
+  {
+   "entry_index": 42,
+   "entry_id": "archive_u07E8B44_entry_0042",
+   "source_entry_offset": 991,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "80fc5c87e2f53fc7684e6d15ec254315dce51b0c7bfce6e70d51ab1eb0dda1f1",
+   "source_entry_raw_hex": "2f 78 41 00 00 00 00 00 00 00 1b 59 51 1e 34 78 45 78 03 e7",
+   "source_tpl_block_sha256": "9de8d89c48364bd452af20cd39a7ff692d1ed066d323e5c52ca08763e5f35bd8",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ユージ       チップトレーダー2"
+   ],
+   "translated_literals": [
+    "유지        칩 트레이더2"
+   ]
+  },
+  {
+   "entry_index": 43,
+   "entry_id": "archive_u07E8B44_entry_0043",
+   "source_entry_offset": 1011,
+   "source_entry_byte_length": 24,
+   "source_entry_sha256": "ef6e48cc71608636e9be5500601bad269c8c41b6efab653193de173aa5ad068f",
+   "source_entry_raw_hex": "2e 17 00 00 00 00 00 00 00 00 6f e5 0a 7b 1b 59 51 1e 34 78 45 78 03 e7",
+   "source_tpl_block_sha256": "6b902f33936adc1bb71a2c09e0339f7a7e8d74ac3f7c6bfc3800101f0ca51973",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ヤス        Re:チップトレーダー2"
+   ],
+   "translated_literals": [
+    "야스        Re:칩 트레이더2"
+   ]
+  },
+  {
+   "entry_index": 44,
+   "entry_id": "archive_u07E8B44_entry_0044",
+   "source_entry_offset": 1035,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "01f212fd3f055db7428fdd82e495450903e670b71a3daed03161997d062f0cc2",
+   "source_entry_raw_hex": "12 35 0d 00 00 00 00 00 00 00 1b 59 51 b1 a2 9b 9e c8 00 a7 b1 02 e7",
+   "source_tpl_block_sha256": "40cdda2475df3604c5a72262748038adec58ab59700f3e658c4f6df825b04a33",
+   "japanese_characters": 13,
+   "source_literals": [
+    "クロウ       チップのこうかん その1"
+   ],
+   "translated_literals": [
+    "크로우       칩 교환 그 1"
+   ]
+  },
+  {
+   "entry_index": 45,
+   "entry_id": "archive_u07E8B44_entry_0045",
+   "source_entry_offset": 1058,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "4b988e5f7e578c2e64623cf928bcff4e22aa1758bfbb01be3c70d37e2cd76dbf",
+   "source_entry_raw_hex": "dc 78 d0 00 00 00 00 00 00 00 12 0c 42 c7 00 d3 a5 25 1e e7",
+   "source_tpl_block_sha256": "4b495ed8fd7ad4eb698b0eb7344575f081cd7e800f81bf64e3e54c2d1d73e829",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ぼーず       クイズを だすヒト"
+   ],
+   "translated_literals": [
+    "보즈        퀴즈 내는 사람"
+   ]
+  },
+  {
+   "entry_index": 46,
+   "entry_id": "archive_u07E8B44_entry_0046",
+   "source_entry_offset": 1078,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "af2ed05a14cbdcdcc3c017c02bac79f2c0a63d6c23495a79ae1d0d2b5e1e3577",
+   "source_entry_raw_hex": "29 78 dc 78 00 00 00 00 00 00 14 1e 4c 11 e5 c7 00 a7 b1 cd e7",
+   "source_tpl_block_sha256": "0a235498ae943dd4664b0d7e4184ab41de6bf797ea425b93f2db7ad228320914",
+   "japanese_characters": 12,
+   "source_literals": [
+    "マーぼー      コトブキ町 そのご"
+   ],
+   "translated_literals": [
+    "마보        코토부키 마을 그 후"
+   ]
+  }
+ ]
+}

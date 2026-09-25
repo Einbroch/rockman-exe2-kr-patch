@@ -1,109 +1,513 @@
 {
-  "schema_version": 1,
-  "kind": "authored_multi_archive_translation_batch",
-  "batch_number": 26,
-  "entries": [
-    {"selector":"00/129","entry_index":6,"draft_translation":"해냈구나!"},
-    {"selector":"00/129","entry_index":7,"draft_translation":"응!"},
-    {"selector":"00/129","entry_index":15,"draft_translation":"조금 전에 나쁜 녀석에게 / 「[printItem item=5]」을 빼앗겨서...[waitSkip 30] // 걷지 못하게 되었습니다... // 보아하니 당신은 착한 것 같군요... // 죄송하지만 나쁜 녀석에게서 / 되찾아 주시겠습니까? // 예 // 아니요 // 그거 아쉽군요..."},
-    {"selector":"00/129","entry_index":16,"draft_translation":"오오! 감사합니다! / 믿고 있겠습니다."},
-    {"selector":"00/129","entry_index":17,"draft_translation":"어서 「[printItem item=5]」을 / 되찾아 와 주세요."},
-    {"selector":"00/129","entry_index":18,"draft_translation":"오오! 그건 「[printItem item=5]」! / 고맙습니다, 고맙습니다! // 당신에게는 이것이 어울리겠군요. / 받으십시오. // 록맨은 / 「[printItem item=6]」을 / 획득했다!! // 덕분에 걸을 수 있게 되었습니다. / 정말 감사합니다!"},
-    {"selector":"00/129","entry_index":19,"draft_translation":"지금은 프로그램을 / 조정하고 있습니다. // 조금만 더 있으면 걸을 수 있습니다."},
-    {"selector":"00/129","entry_index":20,"draft_translation":"시무룩... // 코토부키 영역으로 심부름 가던 길인데 / 공사 중이라 갈 수 없었어. // 내 첫 번째 일이었는데... // 뭐, 그래도 괜찮아."},
-    {"selector":"00/129","entry_index":24,"draft_translation":"넷토, 메일이야!!"},
-    {"selector":"00/129","entry_index":25,"draft_translation":"여기는 어디죠~? // 도와주세요~ // 네? 주인님이 / 찾으러 와 주신다고요? // 일부러 와 주신다니 / 정말 감사합니다. // 살았습니다~"},
-    {"selector":"00/129","entry_index":26,"draft_translation":"이 은혜는 잊지 않겠습니다."},
-    {"selector":"00/129","entry_index":27,"draft_translation":"이 길을 곧장 가서 / 막다른 곳에서 왼쪽으로 돌면 / 아지나 영역입니다. // 이 영역은 현실 세계로 치면 / 국경에 해당하는 곳입니다."},
-    {"selector":"00/129","entry_index":28,"draft_translation":"이런 곳까지 어린아이의 내비가 / 오다니 보기 드문 일이군요."},
-    {"selector":"00/129","entry_index":31,"draft_translation":"[printItem item=60]을 따셨군요. // 아지나에 가기 위해서... / 휴... // 정말 고생이 많으셨네요~"},
-    {"selector":"00/129","entry_index":33,"draft_translation":"아지나는 어땠습니까? // 아무도 없었다고요? // 그럴 리가 없는데요?"},
-    {"selector":"00/129","entry_index":36,"draft_translation":"우리는 오피셜 내비다. // 수상한 내비가 덴산 영역으로 / 들어오지 않는지 여기서 감시하고 있다."},
-    {"selector":"00/129","entry_index":37,"draft_translation":"민간 내비군요. // 사건이 발생했으니 / 되도록 인터넷을 / 돌아다니지 마십시오."},
-    {"selector":"00/129","entry_index":38,"draft_translation":"이봐! 수사를 방해하지 마! / 돌아가, 돌아가!"},
-    {"selector":"00/129","entry_index":39,"draft_translation":"으악! 갑자기 말 걸지 마세요. / 원래도 겁이 많은데, // 이런 비상 경계 태세라니... / 정말 무서워 죽겠어요... // 덜덜..."},
-    {"selector":"00/129","entry_index":50,"draft_translation":"아메롭파에 가면 / 「[printItem item=86]」을 / 얻을 수도 있겠군요."},
-    {"selector":"00/129","entry_index":51,"draft_translation":"「[printItem item=86]」 덕분에 / 일본의 야만적인 내비가 / 들어오지 못해서 다행이야. // 뭐! 당신 일본 내비야?[waitSkip 15] // 으아아아악!! // ...라는 건 농담. / 아메롭피안 조크라고요. / 아메롭피아~~~안! // 모든 내비는 형제! / 사이좋게 지냅시다."},
-    {"selector":"00/129","entry_index":60,"draft_translation":"아메롭파에 가고 싶은데 / 좀처럼 용기가 나지 않네. // 아메롭파의 바이러스는 / 흉포하다고 하니까..."},
-    {"selector":"00/129","entry_index":65,"draft_translation":"이 앞길을 이상한 얼음이 막아서 / 아지나에도 아메롭파에도 / 갈 수가 없어. // 정말 곤란하군."},
-    {"selector":"00/129","entry_index":70,"draft_translation":"현실 세계도 전뇌 세계도 / 대체 어떻게 되는 걸까?"},
-    {"selector":"00/129","entry_index":75,"draft_translation":"뭐라고!! 그 코토부키 스퀘어가? / 무섭구먼!!"},
-    {"selector":"00/129","entry_index":180,"draft_translation":"저는 넷 상인... / 좋은 물건이 있습니다. // 본다 // 보지 않는다"},
-    {"selector":"00/129","entry_index":181,"draft_translation":"또 찾아와 주십시오!"},
-    {"selector":"00/129","entry_index":182,"draft_translation":"저는 넷 상인이지만, / 지금은 좋은 물건이 없습니다..."},
-    {"selector":"00/129","entry_index":210,"draft_translation":"록맨은 / 「[printItem item=35]」을 / 사용했다! // 얼음이 소리를 내며 부서졌다![wait 18] // 부서진 얼음 속에서 / 바이러스가 나타났다!"},
-    {"selector":"00/129","entry_index":211,"draft_translation":"록맨의 힘만으로는 / 이 얼음을 부술 수 없는 것 같다!"},
-    {"selector":"00/129","entry_index":212,"draft_translation":"록맨은 / 「[printItem item=35]」을 / 사용했다! // 얼음이 소리를 내며 부서졌다![wait 18] // 부서진 얼음 속에서 / 바이러스가 나타났다!"},
-    {"selector":"00/129","entry_index":213,"draft_translation":"록맨의 힘만으로는 / 이 얼음을 부술 수 없는 것 같다!"},
-    {"selector":"00/129","entry_index":214,"draft_translation":"록맨의 힘만으로는 / 이 얼음을 부술 수 없는 것 같다!"},
-    {"selector":"00/129","entry_index":221,"draft_translation":"케로가 관리하는 / 보안 큐브다. // 패스코드가 없어서 / 큐브를 해제할 수 없다."},
-    {"selector":"00/129","entry_index":222,"draft_translation":"케로가 관리하는 / 보안 큐브다. // 록맨은 / 「[printItem item=83]」을 / 사용했다!! // 보안 큐브가 / 해제되었다!![wait 102]"},
-    {"selector":"00/129","entry_index":223,"draft_translation":"아지나 영역으로 이어지는 길을 막은 / 보안 큐브다... / 오피셜 센터에서 관리하고 있다."},
-    {"selector":"00/129","entry_index":225,"draft_translation":"아메롭파 영역으로 이어지는 길을 막은 / 보안 큐브다... // 아메롭파 오피셜이 / 관리하고 있다. // 열려면 「[printItem item=86]」이 / 필요하다."},
-    {"selector":"00/129","entry_index":226,"draft_translation":"아메롭파 오피셜이 관리하는 / 보안 큐브다. // 록맨은 / 「[printItem item=86]」을 / 사용했다!! // 보안 큐브가 / 해제되었다!![wait 102]"},
-    {"selector":"00/129","entry_index":227,"draft_translation":"왼쪽  아지나 영역 / 오른쪽  아메롭파 영역"},
-    {"selector":"00/129","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=97]」을 / 획득했다!!"},
-    {"selector":"00/129","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/129","entry_index":233,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/129","entry_index":234,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!","review_notes":["printChip/printCode의 buffer 값으로 무작위 보상 결과가 표시되므로 재삽입 시 원문 명령 구조를 유지해야 함."]},
-    {"selector":"00/129","entry_index":235,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["원문 TPL의 startGiveRandomZenny 및 printBuffer 명령은 보호되어 있으며, {금액} 자리에 동적 금액이 표시되도록 최종 재삽입 단계에서 배치해야 함."]},
-    {"selector":"00/129","entry_index":236,"draft_translation":"이 미스터리 데이터에는 / 보안이 걸려 있어 / 해석할 수 없다. // 해석하려면 / 다음 서브칩이 필요하다. // 「[printItem item=117]」"},
-    {"selector":"00/129","entry_index":237,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
-
-    {"selector":"00/130","entry_index":0,"draft_translation":"이곳은 오피셜 스퀘어의 / 입구입니다. // 여러 곳에서 모두가 / 이곳으로 모여듭니다. // 자! 위쪽으로 가십시오!"},
-    {"selector":"00/130","entry_index":1,"draft_translation":"아~ 즐거웠다! / 역시 오피셜 스퀘어는 / 좋은 곳이네요. // 모두와 이야기도 하고 / 쇼핑도 할 수 있잖아요! / 정말 즐길 거리가 가득해요! // 게다가 오늘은 / 「시민 넷배틀러」 / 시험도 하고 있었어요!"},
-    {"selector":"00/130","entry_index":2,"draft_translation":"여기는 누군가가 만든 / 「숏컷」의 출구군요. // 「게이트 키」가 있으면 / 어디선가 여기로 단숨에 올 수 있습니다! // ...[waitSkip 30]좋겠다."},
-    {"selector":"00/130","entry_index":3,"draft_translation":"이 워프를 지나 계속 가면 / 「코토부키 영역」에 갈 수 있지만 / 지금은 정비 중이라 갈 수 없습니다. // 참고로 이 근처는 / 「덴산 영역」이라고 합니다."},
-    {"selector":"00/130","entry_index":4,"draft_translation":"이미 알고 계실지도 모르지만... // 칩 폴더에 넣을 수 있는 / 배틀칩은 모두 30장입니다. // 커스텀 화면에서 처음 고르는 / 5장은 그중에서 / 무작위로 정해집니다. // 자주 쓰고 싶은 칩을 / 많이 넣어 두면, // 그만큼 처음부터 나올 / 확률이 높아집니다."},
-    {"selector":"00/130","entry_index":5,"draft_translation":"이곳은 오피셜 스퀘어의 / 입구입니다. // 여러 곳에서 모두가 / 이곳으로 모여듭니다. // 자! 위쪽으로! // ...[waitSkip 30]이미 다녀온 모양이군요."},
-    {"selector":"00/130","entry_index":6,"draft_translation":"「[printItem item=1]」과 / 「[printItem item=2]」 말입니까? // 음, 여기에는 없는 것 같습니다."},
-    {"selector":"00/130","entry_index":10,"draft_translation":"오피셜 스퀘어는 어땠습니까? / 전뇌 세계도 / 점점 편리해지는군요."},
-    {"selector":"00/130","entry_index":11,"draft_translation":"[printItem item=58]을 얻으셨습니까!? // 혹시 당신의 오퍼레이터는 / 넷배틀로 유명한 사람입니까?"},
-    {"selector":"00/130","entry_index":15,"draft_translation":"정비가 끝나서 / 오른쪽 아래 연결 지점 너머로 / 갈 수 있게 되었습니다!"},
-    {"selector":"00/130","entry_index":16,"draft_translation":"「덴산 영역」은 / 덴산시티의 전뇌 세계를 말합니다. // 서브 화면을 열면 / 오른쪽 아래에 현재 위치가 나오니 / 그것으로 확인하면 됩니다. // 「오피셜 스퀘어」도 / 덴산시티의 전뇌 세계라서 / 덴산 영역에 포함되지만, // 「오피셜의 스퀘어」라는 걸 / 쉽게 알 수 있도록 / 「오피셜 스퀘어」라고 부릅니다."},
-    {"selector":"00/130","entry_index":17,"draft_translation":"옛날에 내비가 처음 생겼을 때는 / 말을 하지 못하고 / 명령만 따랐다고 해. // 나라면 그런 건 / 외로워서 싫을 것 같아."},
-    {"selector":"00/130","entry_index":50,"draft_translation":"저 같은 구형 내비가 / 최신 바이러스와 싸우는 건 / 솔직히 벅찹니다."},
-    {"selector":"00/130","entry_index":51,"draft_translation":"저쪽 분도 말씀하셨지만 / 확실히 저희는 / 이제 구형입니다. // 하지만 처음 발매됐을 때는 / 상당히 화제가 되었죠. // 「한 턴에 최대 두 장의 / 배틀칩을 사용할 수 있다!」 // 라면서요."},
-    {"selector":"00/130","entry_index":90,"draft_translation":"이 상태라면 스퀘어도 / 한산하겠군요."},
-    {"selector":"00/130","entry_index":190,"draft_translation":"안녕하세요. 게시판에 / 의뢰를 올린 사람입니다. // 실은 조만간 라이벌과 / 넷배틀로 승부하게 되었습니다. // 제 의뢰는 그 넷배틀에서 / 제가 이길 수 있도록 / 도와 달라는 것입니다. // 바로 일을 시작해 주셨으면 합니다. / 상대를 정찰해 주십시오. // 상대의 약점을 알아내면 / 훨씬 싸우기 쉬우니까요. // 어딘가의 전뇌 세계에서 / 훈련하고 있을 겁니다. / 아마 인터넷 안은 아닐 겁니다. // 마음이 편안해지는 장소를 찾아 / 그곳에서 훈련하겠다고 / 말했다는군요. // 녀석의 혹독한 훈련은 유명하니 / 보면 바로 알아볼 수 / 있을 겁니다."},
-    {"selector":"00/130","entry_index":191,"draft_translation":"의뢰 내용을 확인하시겠습니까? // 조만간 라이벌과 / 넷배틀로 승부하게 되었습니다. // 제 의뢰는 그 넷배틀에서 / 제가 이길 수 있도록 / 도와 달라는 것입니다. // 당신에게는 상대 정찰을 / 부탁드리고 싶습니다. // 상대의 약점을 알아내면 / 훨씬 싸우기 쉬우니까요. // 녀석은 어딘가의 전뇌 세계에서 / 훈련하고 있을 겁니다. / 아마 인터넷 안은 아닐 겁니다. // 녀석이 틀어박힌 장소를 / 모르겠습니까? // 마음이 편안해지는 곳이라는 말이 / 힌트가 되지 않을까요?"},
-    {"selector":"00/130","entry_index":192,"draft_translation":"녀석의 약점을 알아냈습니까? // 특별한 약점은 없다고요? // 계속 움직이며 저를 농락하는 / 스피드 중심의 전법이라... // 그렇다면 명중률 높은 배틀칩으로 / 확실하게 피해를 주고 싶군요... // 그러니 「[printChip chip=71] [printCode code=G]」를 / 주시겠습니까? // 어떻습니까? // 좋아요 // 싫어요 // 이건 의뢰라고요! // 「[printChip chip=71] [printCode code=G]」만 있으면 / 제가 녀석을 이길 수 있습니다!! // 부탁드립니다~"},
-    {"selector":"00/130","entry_index":193,"draft_translation":"오오! 「[printChip chip=71] [printCode code=G]」를 / 주시는 겁니까? 신난다!! // 이제 녀석을 이길 수 있습니다!! / 정말 감사합니다!! // 여기까지 해 주셨으면 / 이제 충분합니다!! // 그럼 이것은 답례입니다. / 받아 주십시오."},
-    {"selector":"00/130","entry_index":194,"draft_translation":"록맨은 / 강화 프로그램 「[printItem item=99]」을 / 획득했다!! // 레귤러 메모리 용량이 / 2메가 늘었다!!"},
-    {"selector":"00/130","entry_index":195,"draft_translation":"좋아, 훈련을 열심히 하자!"},
-    {"selector":"00/130","entry_index":196,"draft_translation":"혹시 「[printChip chip=71] [printCode code=G]」를 / 가져오셨습니까? // 그래요 // 아니에요 // 그, 그럴 수가... / 무책임하잖아요!! / 제발 힘을 빌려주세요~"},
-    {"selector":"00/130","entry_index":197,"draft_translation":"어라? 「[printChip chip=71] [printCode code=G]」가 / 보이지 않는데, 혹시 폴더 안에 / 들어 있지 않습니까? // 주실 칩은 폴더에서 / 빼 두십시오."},
-    {"selector":"00/130","entry_index":221,"draft_translation":"큐브 1"},
-    {"selector":"00/130","entry_index":223,"draft_translation":"큐브 2"},
-    {"selector":"00/130","entry_index":225,"draft_translation":"큐브 3"},
-
-    {"selector":"00/131","entry_index":0,"draft_translation":"「시민 넷배틀러」 모집의 / 첫 단계로, 현재 // [printItem item=58] 시험을 / 실시하고 있습니다. // 당신도 응시하시겠습니까? // 응시한다! // [printItem item=58]? // 그만둔다..."},
-    {"selector":"00/131","entry_index":2,"draft_translation":"그렇습니까... // 지금 합격한 분들께 / 「레귤러 칩 시스템」을 / 한정 선물로 드리고 있는데요..."},
-    {"selector":"00/131","entry_index":3,"draft_translation":"[printItem item=58]을 가지고 있으면 / 라이선스 본시험을 / 치를 수 있습니다. // 본시험에 합격하면 / 「시민 넷배틀러」로 / 인정받게 됩니다. // 그러면 일반 내비는 갈 수 없는 / 인터넷의 여러 영역에 / 갈 수도 있고, // 그 밖에도 좋은 일이 많습니다. // 자, 우선 [printItem item=58]부터 / 시작해 봅시다!"},
-    {"selector":"00/131","entry_index":4,"draft_translation":"어서 오십시오! / 「오피셜 스퀘어」에!"},
-    {"selector":"00/131","entry_index":5,"draft_translation":"와! / 정말 활기찬 곳이네요! // 바이러스도 나오지 않고 / 이거 좋군요!"},
-    {"selector":"00/131","entry_index":6,"draft_translation":"게시판이 생기면 / 틀림없이 여러 정보가 / 이곳에 모일 거야. // 편리하게 활용해야지!"},
-    {"selector":"00/131","entry_index":7,"draft_translation":"이야~ 스퀘어는 즐겁군요! // 나도 모르게 지갑이 / 열려 버립니다!"},
-    {"selector":"00/131","entry_index":8,"draft_translation":"[printItem item=58] 시험을 / 보기로 했거츠! // 기합이 들어간다거츠!!"},
-    {"selector":"00/131","entry_index":9,"draft_translation":"휴일이 되면 아이들의 내비를 / 자주 보게 되는군요."},
-    {"selector":"00/131","entry_index":10,"draft_translation":"오피셜 센터 서버에서 / 플러그인하면 이곳으로 나옵니다. // 당신은 지금 다른 장소에서 / 플러그인했지요?"},
-    {"selector":"00/131","entry_index":11,"draft_translation":"서브칩은 배틀에서 쓰는 게 아니라 / 서브 화면에서 사용하는 / 칩 데이터입니다. // HP를 회복하거나 / 약한 바이러스를 만나지 않게 하는 등 / 여러 가지 서브칩이 있습니다. // 다만 한 번 쓰면 사라지는 / 물건이니 주의하십시오!"},
-    {"selector":"00/131","entry_index":16,"draft_translation":"「[printItem item=1]」과 / 「[printItem item=2]」을 / 열심히 찾아보세요."},
-    {"selector":"00/131","entry_index":17,"draft_translation":"거기 있던 덩치 큰 사람은 / 이미 문제를 풀러 갔습니다. // 아까 왔던 여자아이 내비도 / 지금쯤 문제를 풀러 / 갔을 겁니다."},
-    {"selector":"00/131","entry_index":24,"draft_translation":"게시판이 열렸어!!"},
-    {"selector":"00/131","entry_index":25,"draft_translation":"축하합니다! // 「[printItem item=58]」을 가지고 있으면 / 오피셜 센터에서 / 라이선스 시험 안내가 옵니다. // 힘내서 다음에는 / B 라이선스를 획득하십시오!"},
-    {"selector":"00/131","entry_index":26,"draft_translation":"그럼 레귤러 칩을 / 설명해 줄게. // 조금 긴데 시간 괜찮아? // 예 // 아니요 // 되도록 한 번은 / 들어 뒀으면 좋겠는데..."},
-    {"selector":"00/131","entry_index":27,"draft_translation":"우리도 [printItem item=58]을 / 획득했어. // 다음에 또 함께 / 바이러스 버스팅하자!"},
-    {"selector":"00/131","entry_index":28,"draft_translation":"어떻게든 [printItem item=58]을 / 획득했거츠! // 데카오 님, 해냈습니다![waitSkip 30] // 거츠!!"},
-    {"selector":"00/131","entry_index":29,"draft_translation":"앗, 벌써 시간이 이렇게 됐군. // 빨리 플러그아웃하지 않으면 / 주인님께 혼나겠어."},
-    {"selector":"00/131","entry_index":30,"draft_translation":"칩을 아주 많이 샀습니다! // WWW 바이러스든 뭐든 / 덤비라고 하십시오! // ...헤헤,[waitSkip 30] // WWW 사건이 해결됐으니 / 할 수 있는 말이지만요..."},
-    {"selector":"00/131","entry_index":31,"draft_translation":"그럼 설명할게. // 레귤러 칩은 커스텀 화면에 / 매번 나오는 배틀칩이야. // 야구에서 항상 출전하는 선수를 / 레귤러라고 하잖아? / 그것과 같은 뜻이야. // 칩 폴더 화면에서 레귤러로 / 정할 칩에 커서를 맞추고 셀렉트! // 빨간 테두리가 생기면 OK. / 선택한 칩이 레귤러가 되어 / 매번 나오게 돼. // 하지만![waitSkip 30] // ... // 데이터 크기, 즉 「용량」이 / 너무 큰 배틀칩은 / 레귤러 칩으로 정할 수 없어! // 레귤러로 정할 수 있는 용량은 / 폴더 편집 화면의 / 맨 위에 적혀 있어. // 각 칩 오른쪽에 적힌 용량이 / 그보다 작은 칩을 골라 줘. // 용량은 「레귤러 UP」이라는 / 아이템으로 늘릴 수 있으니 / 열심히 모아 봐. // 그렇게 길지는 않았지?"},
-    {"selector":"00/131","entry_index":32,"draft_translation":"넷토, 메일이야!!"},
-    {"selector":"00/131","entry_index":33,"draft_translation":"저... 한 번 돌아갔지만 / 주인님 몰래 / 다시 와 버렸습니다..."},
-    {"selector":"00/131","entry_index":34,"draft_translation":"결국 제니를 전부 / 써 버렸습니다. // 그, 그래도 아직! / 저것도 갖고 싶고! / 이것도 갖고 싶어요!"},
-    {"selector":"00/131","entry_index":37,"draft_translation":"현재 [printItem item=62] / 시험을 실시하고 있습니다.[waitSkip 20].[waitSkip 20].[waitSkip 20].[waitSkip 20].[waitSkip 20] // [printItem item=62] 시험에 응시하려면 / 별의 증표와, // 당신의 강함을 증명할 물건인 / 「[printItem item=57]」이 필요합니다."},
-    {"selector":"00/131","entry_index":38,"draft_translation":"살았습니다."},
-    {"selector":"00/131","entry_index":40,"draft_translation":"당신은 최고 등급의 / 시민 넷배틀러입니다."},
-    {"selector":"00/131","entry_index":41,"draft_translation":"살았습니다."}
-  ]
+ "schema_version": 1,
+ "kind": "authored_multi_archive_translation_batch",
+ "batch_number": 26,
+ "entries": [
+  {
+   "selector": "00/129",
+   "entry_index": 6,
+   "draft_translation": "해냈구나!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 7,
+   "draft_translation": "응!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 15,
+   "draft_translation": "조금 전에 나쁜 녀석에게 / 「[printItem item=5]」을 빼앗겨서...[waitSkip 30] // 걷지 못하게 되었습니다... // 보아하니 당신은 착한 것 같군요... // 죄송하지만 나쁜 녀석에게서 / 되찾아 주시겠습니까? // 예 // 아니요 // 그거 아쉽군요..."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 16,
+   "draft_translation": "오오! 감사합니다! / 믿고 있겠습니다."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 17,
+   "draft_translation": "어서 「[printItem item=5]」을 / 되찾아 와 주세요."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 18,
+   "draft_translation": "오오! 그건 「[printItem item=5]」! / 고맙습니다, 고맙습니다! // 당신에게는 이것이 어울리겠군요. / 받으십시오. // 록맨은 / 「[printItem item=6]」를 / 획득했다!! // 덕분에 걸을 수 있게 되었습니다. / 정말 감사합니다!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 19,
+   "draft_translation": "지금은 프로그램을 / 조정하고 있습니다. // 조금만 더 있으면 걸을 수 있습니다."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 20,
+   "draft_translation": "시무룩... // 코토부키 영역으로 심부름 가던 길인데 / 공사 중이라 갈 수 없었어. // 내 첫 번째 일이었는데... // 뭐, 그래도 괜찮아."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 24,
+   "draft_translation": "넷토, 메일이야!!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 25,
+   "draft_translation": "여기는 어디죠~? // 도와주세요~ // 네? 주인님이 / 찾으러 와 주신다고요? // 일부러 와 주신다니 / 정말 감사합니다. // 살았습니다~"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 26,
+   "draft_translation": "이 은혜는 잊지 않겠습니다."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 27,
+   "draft_translation": "이 길을 곧장 가서 / 막다른 곳에서 왼쪽으로 돌면 / 아지나 영역입니다. // 이 영역은 현실 세계로 치면 / 국경에 해당하는 곳입니다."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 28,
+   "draft_translation": "이런 곳까지 어린아이의 내비가 / 오다니 보기 드문 일이군요."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 31,
+   "draft_translation": "[printItem item=60]를 따셨군요. // 아지나에 가기 위해서... / 휴... // 정말 고생이 많으셨네요~"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 33,
+   "draft_translation": "아지나는 어땠습니까? // 아무도 없었다고요? // 그럴 리가 없는데요?"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 36,
+   "draft_translation": "우리는 오피셜 내비다. // 수상한 내비가 덴산 영역으로 / 들어오지 않는지 여기서 감시하고 있다."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 37,
+   "draft_translation": "민간 내비군요. // 사건이 발생했으니 / 되도록 인터넷을 / 돌아다니지 마십시오."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 38,
+   "draft_translation": "이봐! 수사를 방해하지 마! / 돌아가, 돌아가!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 39,
+   "draft_translation": "으악! 갑자기 말 걸지 마세요. / 원래도 겁이 많은데, // 이런 비상 경계 태세라니... / 정말 무서워 죽겠어요... // 덜덜..."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 50,
+   "draft_translation": "아메롭파에 가면 / 「[printItem item=86]」를 / 얻을 수도 있겠군요."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 51,
+   "draft_translation": "「[printItem item=86]」 덕분에 / 일본의 야만적인 내비가 / 들어오지 못해서 다행이야. // 뭐! 당신 일본 내비야?[waitSkip 15] // 으아아아악!! // ...라는 건 농담. / 아메롭피안 조크라고요. / 아메롭피아~~~안! // 모든 내비는 형제! / 사이좋게 지냅시다."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 60,
+   "draft_translation": "아메롭파에 가고 싶은데 / 좀처럼 용기가 나지 않네. // 아메롭파의 바이러스는 / 흉포하다고 하니까..."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 65,
+   "draft_translation": "이 앞길을 이상한 얼음이 막아서 / 아지나에도 아메롭파에도 / 갈 수가 없어. // 정말 곤란하군."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 70,
+   "draft_translation": "현실 세계도 전뇌 세계도 / 대체 어떻게 되는 걸까?"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 75,
+   "draft_translation": "뭐라고!! 그 코토부키 스퀘어가? / 무섭구먼!!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 180,
+   "draft_translation": "저는 넷 상인... / 좋은 물건이 있습니다. // 본다 // 보지 않는다"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 181,
+   "draft_translation": "또 찾아와 주십시오!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 182,
+   "draft_translation": "저는 넷 상인이지만, / 지금은 좋은 물건이 없습니다..."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 210,
+   "draft_translation": "록맨은 / 「[printItem item=35]」을 / 사용했다! // 얼음이 소리를 내며 부서졌다![wait 18] // 부서진 얼음 속에서 / 바이러스가 나타났다!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 211,
+   "draft_translation": "록맨의 힘만으로는 / 이 얼음을 부술 수 없는 것 같다!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 212,
+   "draft_translation": "록맨은 / 「[printItem item=35]」을 / 사용했다! // 얼음이 소리를 내며 부서졌다![wait 18] // 부서진 얼음 속에서 / 바이러스가 나타났다!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 213,
+   "draft_translation": "록맨의 힘만으로는 / 이 얼음을 부술 수 없는 것 같다!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 214,
+   "draft_translation": "록맨의 힘만으로는 / 이 얼음을 부술 수 없는 것 같다!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 221,
+   "draft_translation": "케로가 관리하는 / 보안 큐브다. // 패스코드가 없어서 / 큐브를 해제할 수 없다."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 222,
+   "draft_translation": "케로가 관리하는 / 보안 큐브다. // 록맨은 / 「[printItem item=83]」를 / 사용했다!! // 보안 큐브가 / 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 223,
+   "draft_translation": "아지나 영역으로 이어지는 길을 막은 / 보안 큐브다... / 오피셜 센터에서 관리하고 있다."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 225,
+   "draft_translation": "아메롭파 영역으로 이어지는 길을 막은 / 보안 큐브다... // 아메롭파 오피셜이 / 관리하고 있다. // 열려면 「[printItem item=86]」가 / 필요하다."
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 226,
+   "draft_translation": "아메롭파 오피셜이 관리하는 / 보안 큐브다. // 록맨은 / 「[printItem item=86]」를 / 사용했다!! // 보안 큐브가 / 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 227,
+   "draft_translation": "왼쪽  아지나 영역 / 오른쪽  아메롭파 영역"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 강화 프로그램 「[printItem item=97]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 233,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 234,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!",
+   "review_notes": [
+    "printChip/printCode의 buffer 값으로 무작위 보상 결과가 표시되므로 재삽입 시 원문 명령 구조를 유지해야 함."
+   ]
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 235,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "원문 TPL의 startGiveRandomZenny 및 printBuffer 명령은 보호되어 있으며, {금액} 자리에 동적 금액이 표시되도록 최종 재삽입 단계에서 배치해야 함."
+   ]
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 236,
+   "draft_translation": "이 미스터리 데이터에는 / 보안이 걸려 있어 / 해석할 수 없다. // 해석하려면 / 다음 서브칩이 필요하다. // 「[printItem item=117]」"
+  },
+  {
+   "selector": "00/129",
+   "entry_index": 237,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 0,
+   "draft_translation": "이곳은 오피셜 스퀘어의 / 입구입니다. // 여러 곳에서 모두가 / 이곳으로 모여듭니다. // 자! 위쪽으로 가십시오!"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 1,
+   "draft_translation": "아~ 즐거웠다! / 역시 오피셜 스퀘어는 / 좋은 곳이네요. // 모두와 이야기도 하고 / 쇼핑도 할 수 있잖아요! / 정말 즐길 거리가 가득해요! // 게다가 오늘은 / 「시민 넷배틀러」 / 시험도 하고 있었어요!"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 2,
+   "draft_translation": "여기는 누군가가 만든 / 「숏컷」의 출구군요. // 「게이트 키」가 있으면 / 어디선가 여기로 단숨에 올 수 있습니다! // ...[waitSkip 30]좋겠다."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 3,
+   "draft_translation": "이 워프를 지나 계속 가면 / 「코토부키 영역」에 갈 수 있지만 / 지금은 정비 중이라 갈 수 없습니다. // 참고로 이 근처는 / 「덴산 영역」이라고 합니다."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 4,
+   "draft_translation": "이미 알고 계실지도 모르지만... // 칩 폴더에 넣을 수 있는 / 배틀칩은 모두 30장입니다. // 커스텀 화면에서 처음 고르는 / 5장은 그중에서 / 무작위로 정해집니다. // 자주 쓰고 싶은 칩을 / 많이 넣어 두면, // 그만큼 처음부터 나올 / 확률이 높아집니다."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 5,
+   "draft_translation": "이곳은 오피셜 스퀘어의 / 입구입니다. // 여러 곳에서 모두가 / 이곳으로 모여듭니다. // 자! 위쪽으로! // ...[waitSkip 30]이미 다녀온 모양이군요."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 6,
+   "draft_translation": "「[printItem item=1]」와 / 「[printItem item=2]」 말입니까? // 음, 여기에는 없는 것 같습니다."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 10,
+   "draft_translation": "오피셜 스퀘어는 어땠습니까? / 전뇌 세계도 / 점점 편리해지는군요."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 11,
+   "draft_translation": "[printItem item=58]를 얻으셨습니까!? // 혹시 당신의 오퍼레이터는 / 넷배틀로 유명한 사람입니까?"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 15,
+   "draft_translation": "정비가 끝나서 / 오른쪽 아래 연결 지점 너머로 / 갈 수 있게 되었습니다!"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 16,
+   "draft_translation": "「덴산 영역」은 / 덴산시티의 전뇌 세계를 말합니다. // 서브 화면을 열면 / 오른쪽 아래에 현재 위치가 나오니 / 그것으로 확인하면 됩니다. // 「오피셜 스퀘어」도 / 덴산시티의 전뇌 세계라서 / 덴산 영역에 포함되지만, // 「오피셜의 스퀘어」라는 걸 / 쉽게 알 수 있도록 / 「오피셜 스퀘어」라고 부릅니다."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 17,
+   "draft_translation": "옛날에 내비가 처음 생겼을 때는 / 말을 하지 못하고 / 명령만 따랐다고 해. // 나라면 그런 건 / 외로워서 싫을 것 같아."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 50,
+   "draft_translation": "저 같은 구형 내비가 / 최신 바이러스와 싸우는 건 / 솔직히 벅찹니다."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 51,
+   "draft_translation": "저쪽 분도 말씀하셨지만 / 확실히 저희는 / 이제 구형입니다. // 하지만 처음 발매됐을 때는 / 상당히 화제가 되었죠. // 「한 턴에 최대 두 장의 / 배틀칩을 사용할 수 있다!」 // 라면서요."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 90,
+   "draft_translation": "이 상태라면 스퀘어도 / 한산하겠군요."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 190,
+   "draft_translation": "안녕하세요. 게시판에 / 의뢰를 올린 사람입니다. // 실은 조만간 라이벌과 / 넷배틀로 승부하게 되었습니다. // 제 의뢰는 그 넷배틀에서 / 제가 이길 수 있도록 / 도와 달라는 것입니다. // 바로 일을 시작해 주셨으면 합니다. / 상대를 정찰해 주십시오. // 상대의 약점을 알아내면 / 훨씬 싸우기 쉬우니까요. // 어딘가의 전뇌 세계에서 / 훈련하고 있을 겁니다. / 아마 인터넷 안은 아닐 겁니다. // 마음이 편안해지는 장소를 찾아 / 그곳에서 훈련하겠다고 / 말했다는군요. // 녀석의 혹독한 훈련은 유명하니 / 보면 바로 알아볼 수 / 있을 겁니다."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 191,
+   "draft_translation": "의뢰 내용을 확인하시겠습니까? // 조만간 라이벌과 / 넷배틀로 승부하게 되었습니다. // 제 의뢰는 그 넷배틀에서 / 제가 이길 수 있도록 / 도와 달라는 것입니다. // 당신에게는 상대 정찰을 / 부탁드리고 싶습니다. // 상대의 약점을 알아내면 / 훨씬 싸우기 쉬우니까요. // 녀석은 어딘가의 전뇌 세계에서 / 훈련하고 있을 겁니다. / 아마 인터넷 안은 아닐 겁니다. // 녀석이 틀어박힌 장소를 / 모르겠습니까? // 마음이 편안해지는 곳이라는 말이 / 힌트가 되지 않을까요?"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 192,
+   "draft_translation": "녀석의 약점을 알아냈습니까? // 특별한 약점은 없다고요? // 계속 움직이며 저를 농락하는 / 스피드 중심의 전법이라... // 그렇다면 명중률 높은 배틀칩으로 / 확실하게 피해를 주고 싶군요... // 그러니 「[printChip chip=71] [printCode code=G]」를 / 주시겠습니까? // 어떻습니까? // 좋아요 // 싫어요 // 이건 의뢰라고요! // 「[printChip chip=71] [printCode code=G]」만 있으면 / 제가 녀석을 이길 수 있습니다!! // 부탁드립니다~"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 193,
+   "draft_translation": "오오! 「[printChip chip=71] [printCode code=G]」를 / 주시는 겁니까? 신난다!! // 이제 녀석을 이길 수 있습니다!! / 정말 감사합니다!! // 여기까지 해 주셨으면 / 이제 충분합니다!! // 그럼 이것은 답례입니다. / 받아 주십시오."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 194,
+   "draft_translation": "록맨은 / 강화 프로그램 「[printItem item=99]」을 / 획득했다!! // 레귤러 메모리 용량이 / 2메가 늘었다!!"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 195,
+   "draft_translation": "좋아, 훈련을 열심히 하자!"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 196,
+   "draft_translation": "혹시 「[printChip chip=71] [printCode code=G]」를 / 가져오셨습니까? // 그래요 // 아니에요 // 그, 그럴 수가... / 무책임하잖아요!! / 제발 힘을 빌려주세요~"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 197,
+   "draft_translation": "어라? 「[printChip chip=71] [printCode code=G]」가 / 보이지 않는데, 혹시 폴더 안에 / 들어 있지 않습니까? // 주실 칩은 폴더에서 / 빼 두십시오."
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 221,
+   "draft_translation": "큐브 1"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 223,
+   "draft_translation": "큐브 2"
+  },
+  {
+   "selector": "00/130",
+   "entry_index": 225,
+   "draft_translation": "큐브 3"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 0,
+   "draft_translation": "「시민 넷배틀러」 모집의 / 첫 단계로, 현재 // [printItem item=58] 시험을 / 실시하고 있습니다. // 당신도 응시하시겠습니까? // 응시한다! // [printItem item=58]? // 그만둔다..."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 2,
+   "draft_translation": "그렇습니까... // 지금 합격한 분들께 / 「레귤러 칩 시스템」을 / 한정 선물로 드리고 있는데요..."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 3,
+   "draft_translation": "[printItem item=58]를 가지고 있으면 / 라이선스 본시험을 / 치를 수 있습니다. // 본시험에 합격하면 / 「시민 넷배틀러」로 / 인정받게 됩니다. // 그러면 일반 내비는 갈 수 없는 / 인터넷의 여러 영역에 / 갈 수도 있고, // 그 밖에도 좋은 일이 많습니다. // 자, 우선 [printItem item=58]부터 / 시작해 봅시다!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 4,
+   "draft_translation": "어서 오십시오! / 「오피셜 스퀘어」에!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 5,
+   "draft_translation": "와! / 정말 활기찬 곳이네요! // 바이러스도 나오지 않고 / 이거 좋군요!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 6,
+   "draft_translation": "게시판이 생기면 / 틀림없이 여러 정보가 / 이곳에 모일 거야. // 편리하게 활용해야지!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 7,
+   "draft_translation": "이야~ 스퀘어는 즐겁군요! // 나도 모르게 지갑이 / 열려 버립니다!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 8,
+   "draft_translation": "[printItem item=58] 시험을 / 보기로 했거츠! // 기합이 들어간다거츠!!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 9,
+   "draft_translation": "휴일이 되면 아이들의 내비를 / 자주 보게 되는군요."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 10,
+   "draft_translation": "오피셜 센터 서버에서 / 플러그인하면 이곳으로 나옵니다. // 당신은 지금 다른 장소에서 / 플러그인했지요?"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 11,
+   "draft_translation": "서브칩은 배틀에서 쓰는 게 아니라 / 서브 화면에서 사용하는 / 칩 데이터입니다. // HP를 회복하거나 / 약한 바이러스를 만나지 않게 하는 등 / 여러 가지 서브칩이 있습니다. // 다만 한 번 쓰면 사라지는 / 물건이니 주의하십시오!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 16,
+   "draft_translation": "「[printItem item=1]」와 / 「[printItem item=2]」를 / 열심히 찾아보세요."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 17,
+   "draft_translation": "거기 있던 덩치 큰 사람은 / 이미 문제를 풀러 갔습니다. // 아까 왔던 여자아이 내비도 / 지금쯤 문제를 풀러 / 갔을 겁니다."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 24,
+   "draft_translation": "게시판이 열렸어!!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 25,
+   "draft_translation": "축하합니다! // 「[printItem item=58]」를 가지고 있으면 / 오피셜 센터에서 / 라이선스 시험 안내가 옵니다. // 힘내서 다음에는 / B 라이선스를 획득하십시오!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 26,
+   "draft_translation": "그럼 레귤러 칩을 / 설명해 줄게. // 조금 긴데 시간 괜찮아? // 예 // 아니요 // 되도록 한 번은 / 들어 뒀으면 좋겠는데..."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 27,
+   "draft_translation": "우리도 [printItem item=58]를 / 획득했어. // 다음에 또 함께 / 바이러스 버스팅하자!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 28,
+   "draft_translation": "어떻게든 [printItem item=58]를 / 획득했거츠! // 데카오 님, 해냈습니다![waitSkip 30] // 거츠!!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 29,
+   "draft_translation": "앗, 벌써 시간이 이렇게 됐군. // 빨리 플러그아웃하지 않으면 / 주인님께 혼나겠어."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 30,
+   "draft_translation": "칩을 아주 많이 샀습니다! // WWW 바이러스든 뭐든 / 덤비라고 하십시오! // ...헤헤,[waitSkip 30] // WWW 사건이 해결됐으니 / 할 수 있는 말이지만요..."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 31,
+   "draft_translation": "그럼 설명할게. // 레귤러 칩은 커스텀 화면에 / 매번 나오는 배틀칩이야. // 야구에서 항상 출전하는 선수를 / 레귤러라고 하잖아? / 그것과 같은 뜻이야. // 칩 폴더 화면에서 레귤러로 / 정할 칩에 커서를 맞추고 셀렉트! // 빨간 테두리가 생기면 OK. / 선택한 칩이 레귤러가 되어 / 매번 나오게 돼. // 하지만![waitSkip 30] // ... // 데이터 크기, 즉 「용량」이 / 너무 큰 배틀칩은 / 레귤러 칩으로 정할 수 없어! // 레귤러로 정할 수 있는 용량은 / 폴더 편집 화면의 / 맨 위에 적혀 있어. // 각 칩 오른쪽에 적힌 용량이 / 그보다 작은 칩을 골라 줘. // 용량은 「레귤러 UP」이라는 / 아이템으로 늘릴 수 있으니 / 열심히 모아 봐. // 그렇게 길지는 않았지?"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 32,
+   "draft_translation": "넷토, 메일이야!!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 33,
+   "draft_translation": "저... 한 번 돌아갔지만 / 주인님 몰래 / 다시 와 버렸습니다..."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 34,
+   "draft_translation": "결국 제니를 전부 / 써 버렸습니다. // 그, 그래도 아직! / 저것도 갖고 싶고! / 이것도 갖고 싶어요!"
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 37,
+   "draft_translation": "현재 [printItem item=62] / 시험을 실시하고 있습니다.[waitSkip 20].[waitSkip 20].[waitSkip 20].[waitSkip 20].[waitSkip 20] // [printItem item=62] 시험에 응시하려면 / 별의 증표와, // 당신의 강함을 증명할 물건인 / 「[printItem item=57]」가 필요합니다."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 38,
+   "draft_translation": "살았습니다."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 40,
+   "draft_translation": "당신은 최고 등급의 / 시민 넷배틀러입니다."
+  },
+  {
+   "selector": "00/131",
+   "entry_index": 41,
+   "draft_translation": "살았습니다."
+  }
+ ]
 }

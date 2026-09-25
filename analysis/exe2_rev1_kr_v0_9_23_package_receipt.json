@@ -1,0 +1,38 @@
+{
+  "status": "PENDING_RUNTIME_CHECK",
+  "candidate_sha256": "08c04380ffd97cd368daee8cc3af15d70d58c617f8ab242cbde4f37de4339fb4",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "faf9a7047209ae6852e4ed0103eca6ac8983b0113b2fdf55da98ac0a019b19c8",
+  "content_qa_sha256": "694b17250573330878bcb8748cae3f3d35ab25910ad5711f6e142099447c53e7",
+  "runtime_evidence": {
+    "kind": "human_on_screen_reading",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "케이스",
+      "데크",
+      "메",
+      "라",
+      "러"
+    ],
+    "automated_menu_regression_run": false
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.23_BBS.zip",
+  "package_sha256": "fde88e448b3b067721c6e37805aad5eb7987e691c58a02e2eb4b3ccd17bae9a3",
+  "package_size": 930318,
+  "patch_sha256": "20df5a61d6e670266fd7281ef3e9ecdd59e307d209896e4e3762638b92a8b895",
+  "patch_size": 390335,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

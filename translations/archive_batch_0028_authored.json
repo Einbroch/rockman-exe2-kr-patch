@@ -1,110 +1,519 @@
 {
-  "schema_version": 1,
-  "kind": "authored_multi_archive_translation_batch",
-  "batch_number": 28,
-  "entries": [
-    {"selector":"00/133","entry_index":59,"draft_translation":"아까 그 시끄러운 오피셜이 / 황급히 날아갔습니다. // 누군가 오피셜 스퀘어에 / 침입했다느니 뭐라느니 / 하더군요."},
-    {"selector":"00/133","entry_index":60,"draft_translation":"아까 잠깐 덴산 영역을 / 들여다보고 왔는데, / 쥐 죽은 듯 조용했습니다."},
-    {"selector":"00/133","entry_index":61,"draft_translation":"아무래도 큰일이 / 벌어진 모양이니, / 슬슬 플러그아웃할까요."},
-    {"selector":"00/133","entry_index":62,"draft_translation":"덴산 영역이 저 모양이면 / 오피셜 센터는 // 난리가 난 것 / 아닙니까?"},
-    {"selector":"00/133","entry_index":75,"draft_translation":"덴산 영역도 / 많이 진정된 모양이군요. // 뭐, 이곳과는 / 별 상관없는 일이지만요."},
-    {"selector":"00/133","entry_index":105,"draft_translation":"길을 걷다가 갑자기 / 아까 그 얼음에 갇혀서... // 아~ 무서웠어~! / 평생 못 나오는 줄 알았어요. // 구해 줘서 고마워요~ // 보답이라고 하긴 뭐하지만 / 이걸 드릴게요. // 아까 근처에서 주웠어요. / 반짝반짝 빛나서 예쁘죠?"},
-    {"selector":"00/133","entry_index":106,"draft_translation":"록맨은 / 「[printItem item=34]」을 / 획득했다!!"},
-    {"selector":"00/133","entry_index":107,"draft_translation":"구해 줘서 / 고마워요."},
-    {"selector":"00/133","entry_index":108,"draft_translation":"인터넷 곳곳에 이상한 / 얼음이 잔뜩 떨어져 있고, // 현실 세계에는 천재지변까지... // 이럴 때 오피셜은 / 뭘 하고 있는 거야?"},
-    {"selector":"00/133","entry_index":109,"draft_translation":"넷토, 이게 뭘까? / 아주 약한 전파를 / 내보내는 것 같아... // 어쩌면 인터넷의 얼음과 / 관련이 있을지도 몰라... // 그래, 아빠에게 보여 드리자."},
-    {"selector":"00/133","entry_index":130,"draft_translation":"넷토, 메일이야!!"},
-    {"selector":"00/133","entry_index":140,"draft_translation":"코토부키 스퀘어... // 가서 조사해야 하는데...[waitSkip 20] // 그래도... // 그래도 역시 가야겠지...[waitSkip 20]"},
-    {"selector":"00/133","entry_index":145,"draft_translation":"벌써 코토부키 스퀘어 조사가 / 끝났습니까... // 모처럼 가 보려 했는데...[waitSkip 20] // 아쉽군요...[waitSkip 15] // 헤헤."},
-    {"selector":"00/133","entry_index":210,"draft_translation":"록맨은 / 「[printItem item=35]」을 / 사용했다! // 얼음이 소리를 내며 부서졌다![wait 18] // 부서진 얼음 속에서 / 바이러스가 나타났다!"},
-    {"selector":"00/133","entry_index":211,"draft_translation":"록맨은 백신이 없어서 / 얼음을 부술 수 없다!"},
-    {"selector":"00/133","entry_index":212,"draft_translation":"록맨은 얼음을 부쉈다![wait 18] // 부서진 얼음 속에서 / 바이러스가 나타났다!"},
-    {"selector":"00/133","entry_index":213,"draft_translation":"록맨은 얼음을 부쉈다![wait 18] // 부서진 얼음 속에서 / 바이러스가 나타났다!"},
-    {"selector":"00/133","entry_index":220,"draft_translation":"왼쪽  코토부키 스퀘어 / 오른쪽  막다른 길"},
-    {"selector":"00/133","entry_index":221,"draft_translation":"정체를 알 수 없는 / 보안 큐브다. // 패스코드가 없어서 / 큐브를 해제할 수 없다."},
-    {"selector":"00/133","entry_index":222,"draft_translation":"록맨은 / 「[printItem item=87]」을 / 사용했다!! // 보안 큐브가 / 해제되었다!![wait 102]"},
-    {"selector":"00/133","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=25] [printCode code=L]」를 / 획득했다!!"},
-    {"selector":"00/133","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=177] [printCode code=I]」를 / 획득했다!!"},
-    {"selector":"00/133","entry_index":232,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/133","entry_index":234,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/133","entry_index":235,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/133","entry_index":236,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/133","entry_index":237,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
-
-    {"selector":"00/134","entry_index":20,"draft_translation":"언더넷으로 가는 / 지름길을 쓰려 했더니, / 오히려 길을 잃고 말았습니다."},
-    {"selector":"00/134","entry_index":180,"draft_translation":"저는 넷 상인... / 좋은 물건이 있습니다. // 본다 // 보지 않는다"},
-    {"selector":"00/134","entry_index":181,"draft_translation":"또 찾아와 주십시오!"},
-    {"selector":"00/134","entry_index":182,"draft_translation":"저는 넷 상인이지만, / 지금은 좋은 물건이 없습니다..."},
-    {"selector":"00/134","entry_index":190,"draft_translation":"처음 뵙는군. 넘버 2에게 / 이야기는 들었다. // 내가 「블랙 내비스」의 / 리더, 넘버 1이다. // 설마 내 부하들이 / 전부 당할 줄이야... // 하지만 나는 조금도 / 화가 나지 않았다... // 오히려 네 뛰어난 능력을 / 높이 평가하고 있지. // 어떤가? 나와 함께 / 네트워크 세계를 지배하지 않겠나? // 네가 우리 「블랙 내비스」에 / 들어오면 백 명 몫은 할 테지. // 물론 간부로서 / 특별 대우해 주겠다."},
-    {"selector":"00/134","entry_index":191,"draft_translation":"악의 편 따위가 / 되지는 않겠어!!"},
-    {"selector":"00/134","entry_index":192,"draft_translation":"그런가... 아쉽군... // 그렇다면 너는 내 야망을 / 이루는 데 대단히 거슬리는 / 존재가 되겠군. // 나는 아주 조심성이 많아서 말이지. / 불안 요소는 전부 없애야 / 직성이 풀린다... // 아무리 작은 것이라도 말이야!!"},
-    {"selector":"00/134","entry_index":220,"draft_translation":"록맨은 백신이 없어서 / 얼음을 부술 수 없다!"},
-    {"selector":"00/134","entry_index":230,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"},
-    {"selector":"00/134","entry_index":231,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/134","entry_index":233,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/134","entry_index":234,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/134","entry_index":235,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/134","entry_index":236,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"},
-    {"selector":"00/134","entry_index":238,"draft_translation":"놀랍게도 미스터리 데이터는 / 바이러스였다!!"},
-    {"selector":"00/134","entry_index":239,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"},
-    {"selector":"00/134","entry_index":240,"draft_translation":"록맨은 / 「{금액}제니」를 / 획득했다!!","review_notes":["금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."]},
-    {"selector":"00/134","entry_index":241,"draft_translation":"록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=187] [printCode code=M]」를 / 획득했다!!"},
-    {"selector":"00/134","entry_index":242,"draft_translation":"이 미스터리 데이터에는 / 보안이 걸려 있어 / 해석할 수 없다. // 해석하려면 / 다음 서브칩이 필요하다. // 「[printItem item=117]」"},
-
-    {"selector":"00/136","entry_index":0,"draft_translation":"안녕하세요! 행복하십니까? / 코토부키하십니까? // 그렇습니다. 이곳은 행복의 도시, / 코토부키 스퀘어입니다!","review_notes":["「코토부키」를 인사말처럼 동사화한 원문의 기묘한 선전 문구를 살렸다."]},
-    {"selector":"00/136","entry_index":1,"draft_translation":"「버그 조각 교환소」에는 / 벌써 가 봤어? // 이 문으로 들어간 곳에 / 있는데, // 전뇌 세계에 흩어진 / 「[printItem item=69]」을 / 칩으로 교환해 줘."},
-    {"selector":"00/136","entry_index":2,"draft_translation":"「[printItem item=69]」을 / 알고 계십니까? // 「[printItem item=69]」은 / 그 자체로는 아무 쓸모가 없는 / 찌꺼기 데이터입니다만, // 내버려 두면 버그로 진화하는 / 성가신 물건입니다. // 저희 코토부키 스퀘어에서는 / 「[printItem item=69]」을 / 한데 모아 처분하고 있습니다."},
-    {"selector":"00/136","entry_index":3,"draft_translation":"죄송하지만 / 이 앞은 일반인은 / 들어갈 수 없습니다."},
-    {"selector":"00/136","entry_index":4,"draft_translation":"처음 이곳에 왔는데... // 눈이 어질어질하면서도 / 이상하게 기분이 좋아졌어요. // 모두 친절하고... / 돌아가고 싶지 않아졌어요."},
-    {"selector":"00/136","entry_index":12,"draft_translation":"저희는 일본에서 하루라도 빨리 / 위기가 사라지도록 / 평화를 기원합니다. // 일본의 평화를 바라며 / 이곳에서 함께 기도합시다. // 평·화! / 평·화!! / 평·화!!!"},
-    {"selector":"00/136","entry_index":13,"draft_translation":"오오~! 일본에 평화가 / 찾아오기를~!!! // 평·화! / 평·화!! / 평·화!!!"},
-    {"selector":"00/136","entry_index":14,"draft_translation":"코토부키 스퀘어 모두가 / 일본의 평화를 기원합니다. // 위기가 사라질 때까지 / 이 기도는 계속됩니다. // 평·화! / 평·화!! / 평·화!!!"},
-    {"selector":"00/136","entry_index":15,"draft_translation":"어라? 잘 모르겠지만 / 나도 기도하고 / 싶어졌어... // 평·화! / 평·화!! / 평·화!!!"},
-    {"selector":"00/136","entry_index":16,"draft_translation":"아무래도 우리의 기도가 / 닿았는지, 위기는 / 사라진 것 같군요."},
-    {"selector":"00/136","entry_index":17,"draft_translation":"일본에 닥쳤던 위협은 / 사라진 모양이군요... // 행복한 나날이 / 돌아오겠군요."},
-    {"selector":"00/136","entry_index":18,"draft_translation":"정말 흉흉한 / 세상이 되고 말았습니다. // 모두 코토부키 스퀘어에 오면 / 행복해질 수 있을 텐데요."},
-    {"selector":"00/136","entry_index":19,"draft_translation":"평화를 빌었고, 평화가 / 찾아왔다... // 아주 좋은 일을 한 기분입니다."},
-    {"selector":"00/136","entry_index":40,"draft_translation":"시민 넷배틀러십니까? / 제가 의뢰인입니다. // 바로 말씀드리죠. 제 의뢰는 / 오피셜 센터의 // 커피 서버에 플러그인해서 / 안에 있는 내비에게서 프로그램을 / 되찾아 주시는 것입니다. // 제게 아주 소중한 프로그램인데 / 어떤 내비가 빼앗아 갔습니다. // 그 내비는 바이러스를 퍼뜨리는 / 아주 나쁜 내비입니다. // 시간이 없으니 / 신속히 부탁드립니다."},
-    {"selector":"00/136","entry_index":41,"draft_translation":"오피셜 센터의 / 커피 서버입니다. / 서둘러 주십시오."},
-    {"selector":"00/136","entry_index":42,"draft_translation":"오오, 해내셨습니까? / 감사합니다. / 덕분에 살았습니다. // 그래서 빼앗긴 프로그램은 / 되찾아 오셨습니까?"},
-    {"selector":"00/136","entry_index":43,"draft_translation":"록맨은 / 「[printItem item=15]」을 / 건넸다!!"},
-    {"selector":"00/136","entry_index":44,"draft_translation":"틀림없군... / 이 프로그램입니다. // ...훌륭했습니다! / 저는 라이선스 시험의 / 시험관입니다. // 당신이 신속하게 행동할 수 있는지 / 시험해 보았습니다. // 합격입니다. / 굿 잡이었습니다. // 뭐, 이건 당신이 가져온 / 프로그램의 내용물이지만... // 합격 축하 선물로 / 받아 주십시오."},
-    {"selector":"00/136","entry_index":45,"draft_translation":"록맨은 / 칩 데이터 「[printChip chip=123] [printCode code=*]」를 / 획득했다!!"},
-    {"selector":"00/136","entry_index":46,"draft_translation":"시험 열심히 보십시오."},
-    {"selector":"00/136","entry_index":60,"draft_translation":"아, 그 프로그램이라면 / 아지나 스퀘어에 / 있는 모양이야. // 친구의 메시지를 / 전해 준 답례로 / 이걸 줄게."},
-    {"selector":"00/136","entry_index":61,"draft_translation":"록맨은 / 「[printItem item=19]」을 / 획득했다!!"},
-    {"selector":"00/136","entry_index":62,"draft_translation":"프로그램이 있는 곳은 / 아지나 스퀘어야. / 갈 거라면 조심해."},
-    {"selector":"00/136","entry_index":63,"draft_translation":"최근에 친구가 / 결혼했대. // 부럽다."},
-    {"selector":"00/136","entry_index":80,"draft_translation":"어서 오십시오! / 코토부키 스퀘어에 오신 것을 환영합니다! // 한 분 안내합니다![waitSkip 15] // 기꺼이 모시겠습니다~ // 기꺼이 모시겠습니다~!"},
-    {"selector":"00/136","entry_index":81,"draft_translation":"오피셜 스퀘어에 가려다 말고 / 처음 이곳에 와 봤는데, // 코토부키 스퀘어![waitSkip 15] // 즐거워 보여서 왠지 좋네요."},
-    {"selector":"00/136","entry_index":82,"draft_translation":"평소보다 여기가 / 더 붐비지 않습니까? // 이것도 오피셜 센터 습격 사건의 / 영향일까요?"},
-    {"selector":"00/136","entry_index":83,"draft_translation":"루루루루~♪"},
-    {"selector":"00/136","entry_index":84,"draft_translation":"여기에 오면 / 왠지 마음이 들떠요. // 라라라라~♪"},
-    {"selector":"00/136","entry_index":85,"draft_translation":"「회원 전용 영역」이라... / 즐거운 곳이겠지? / 가 보고 싶다."},
-    {"selector":"00/136","entry_index":86,"draft_translation":"즐거운 미소![waitSkip 10] // 행복한 미소![waitSkip 10] // 경사스러운 미소![waitSkip 10] // 스마일풀 스퀘어![waitSkip 20] // 그것이 코토부키 스퀘어의 / 좌우명입니다! // 하하하하하하하하하하하하하하!"},
-    {"selector":"00/136","entry_index":90,"draft_translation":"해피, 해피 코토부키 스퀘어! / 이곳은 행복의 도시입니다. // 당신도 행복한 기분이 되어라!"},
-    {"selector":"00/136","entry_index":91,"draft_translation":"저희의 소원은 단 하나, / 세계 평화입니다. // 다툼은 좋지 않습니다. / 네."},
-    {"selector":"00/136","entry_index":92,"draft_translation":"코토부키 스퀘어의 단골은 / 모두 평온한 마음을 지녔습니다. // 이 스퀘어에 있기만 해도 / 마음이 평온해집니다."},
-    {"selector":"00/136","entry_index":93,"draft_translation":"오늘도 세계를 향해 / 행복 전파를 / 송출 중!!"},
-    {"selector":"00/136","entry_index":94,"draft_translation":"나도 이 스퀘어의 / 단골이 됐어! // 뭐니 뭐니 해도 행복하니까!"},
-    {"selector":"00/136","entry_index":100,"draft_translation":"현실 세계에서는 무서운 / 천재지변이 일어나는 모양이군요. // 이럴 때일수록 우리가 / 기도를 올려 / 천재지변을 잠재우는 겁니다."},
-    {"selector":"00/136","entry_index":101,"draft_translation":"잠·잠·해·라! 잠·잠·해·라! / 천·재·지·변!! // 잠·잠·해·라! 잠·잠·해·라! / 천·재·지·변!! // 자! 함께 외칩시다!!"},
-    {"selector":"00/136","entry_index":102,"draft_translation":"설마 이런 일이 / 일어날 줄은 / 예상하지 못했군요."},
-    {"selector":"00/136","entry_index":103,"draft_translation":"세계가 멸망하는 그 순간까지 / 코토부키 스퀘어는 행복을 / 기원합니다."},
-    {"selector":"00/136","entry_index":104,"draft_translation":"현실 세계는 대단히 / 위험한 상태입니다. // 제가 할 수 있는 일이라면 / 역시 기도하는 것뿐입니다. // 잠·잠·해·라! 잠·잠·해·라! / 천·재·지·변!! // 잠·잠·해·라! 잠·잠·해·라! / 천·재·지·변!!"},
-    {"selector":"00/136","entry_index":150,"draft_translation":"아무도 없어졌어... // 그래도 어디선가 / 목소리가 들려..."},
-    {"selector":"00/136","entry_index":220,"draft_translation":"회원 외 / 출입 금지"},
-    {"selector":"00/136","entry_index":221,"draft_translation":"록맨은 / 「[printItem item=40]」을 / 사용했다!"},
-
-    {"selector":"00/137","entry_index":0,"draft_translation":"저는 넷 상인... / 좋은 물건이 있습니다. // 본다 // 보지 않는다"},
-    {"selector":"00/137","entry_index":1,"draft_translation":"또 찾아와 주십시오."},
-    {"selector":"00/137","entry_index":2,"draft_translation":"저는 넷 상인이지만, / 지금은 좋은 물건이 없습니다..."},
-    {"selector":"00/137","entry_index":3,"draft_translation":"저는 서브칩 상인... / 좋은 물건이 있습니다. // 본다 // 보지 않는다"},
-    {"selector":"00/137","entry_index":4,"draft_translation":"또 찾아와 주십시오."},
-    {"selector":"00/137","entry_index":5,"draft_translation":"저는 넷 상인이지만, / 지금은 좋은 물건이 없습니다..."},
-    {"selector":"00/137","entry_index":20,"draft_translation":"물건을 많이 사면 / 회원이 될 수 있을 줄 알았는데, / 그런 것도 아니었나 봐... // 주인님 몰래 쓴 돈을... / 어쩌지?"},
-    {"selector":"00/137","entry_index":180,"draft_translation":"저는 버그 조각 교환상... / 교환하시겠습니까? // 예 // 아니요"},
-    {"selector":"00/137","entry_index":181,"draft_translation":"또 찾아와 주십시오!"},
-    {"selector":"00/137","entry_index":182,"draft_translation":"저는 버그 조각 교환상이지만... / 지금은 좋은 물건이 없습니다..."}
-  ]
+ "schema_version": 1,
+ "kind": "authored_multi_archive_translation_batch",
+ "batch_number": 28,
+ "entries": [
+  {
+   "selector": "00/133",
+   "entry_index": 59,
+   "draft_translation": "아까 그 시끄러운 오피셜이 / 황급히 날아갔습니다. // 누군가 오피셜 스퀘어에 / 침입했다느니 뭐라느니 / 하더군요."
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 60,
+   "draft_translation": "아까 잠깐 덴산 영역을 / 들여다보고 왔는데, / 쥐 죽은 듯 조용했습니다."
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 61,
+   "draft_translation": "아무래도 큰일이 / 벌어진 모양이니, / 슬슬 플러그아웃할까요."
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 62,
+   "draft_translation": "덴산 영역이 저 모양이면 / 오피셜 센터는 // 난리가 난 것 / 아닙니까?"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 75,
+   "draft_translation": "덴산 영역도 / 많이 진정된 모양이군요. // 뭐, 이곳과는 / 별 상관없는 일이지만요."
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 105,
+   "draft_translation": "길을 걷다가 갑자기 / 아까 그 얼음에 갇혀서... // 아~ 무서웠어~! / 평생 못 나오는 줄 알았어요. // 구해 줘서 고마워요~ // 보답이라고 하긴 뭐하지만 / 이걸 드릴게요. // 아까 근처에서 주웠어요. / 반짝반짝 빛나서 예쁘죠?"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 106,
+   "draft_translation": "록맨은 / 「[printItem item=34]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 107,
+   "draft_translation": "구해 줘서 / 고마워요."
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 108,
+   "draft_translation": "인터넷 곳곳에 이상한 / 얼음이 잔뜩 떨어져 있고, // 현실 세계에는 천재지변까지... // 이럴 때 오피셜은 / 뭘 하고 있는 거야?"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 109,
+   "draft_translation": "넷토, 이게 뭘까? / 아주 약한 전파를 / 내보내는 것 같아... // 어쩌면 인터넷의 얼음과 / 관련이 있을지도 몰라... // 그래, 아빠에게 보여 드리자."
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 130,
+   "draft_translation": "넷토, 메일이야!!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 140,
+   "draft_translation": "코토부키 스퀘어... // 가서 조사해야 하는데...[waitSkip 20] // 그래도... // 그래도 역시 가야겠지...[waitSkip 20]"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 145,
+   "draft_translation": "벌써 코토부키 스퀘어 조사가 / 끝났습니까... // 모처럼 가 보려 했는데...[waitSkip 20] // 아쉽군요...[waitSkip 15] // 헤헤."
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 210,
+   "draft_translation": "록맨은 / 「[printItem item=35]」을 / 사용했다! // 얼음이 소리를 내며 부서졌다![wait 18] // 부서진 얼음 속에서 / 바이러스가 나타났다!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 211,
+   "draft_translation": "록맨은 백신이 없어서 / 얼음을 부술 수 없다!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 212,
+   "draft_translation": "록맨은 얼음을 부쉈다![wait 18] // 부서진 얼음 속에서 / 바이러스가 나타났다!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 213,
+   "draft_translation": "록맨은 얼음을 부쉈다![wait 18] // 부서진 얼음 속에서 / 바이러스가 나타났다!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 220,
+   "draft_translation": "왼쪽  코토부키 스퀘어 / 오른쪽  막다른 길"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 221,
+   "draft_translation": "정체를 알 수 없는 / 보안 큐브다. // 패스코드가 없어서 / 큐브를 해제할 수 없다."
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 222,
+   "draft_translation": "록맨은 / 「[printItem item=87]」를 / 사용했다!! // 보안 큐브가 / 해제되었다!![wait 102]"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=25] [printCode code=L]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=177] [printCode code=I]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 232,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 234,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 235,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 236,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/133",
+   "entry_index": 237,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 20,
+   "draft_translation": "언더넷으로 가는 / 지름길을 쓰려 했더니, / 오히려 길을 잃고 말았습니다."
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 180,
+   "draft_translation": "저는 넷 상인... / 좋은 물건이 있습니다. // 본다 // 보지 않는다"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 181,
+   "draft_translation": "또 찾아와 주십시오!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 182,
+   "draft_translation": "저는 넷 상인이지만, / 지금은 좋은 물건이 없습니다..."
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 190,
+   "draft_translation": "처음 뵙는군. 넘버 2에게 / 이야기는 들었다. // 내가 「블랙 내비스」의 / 리더, 넘버 1이다. // 설마 내 부하들이 / 전부 당할 줄이야... // 하지만 나는 조금도 / 화가 나지 않았다... // 오히려 네 뛰어난 능력을 / 높이 평가하고 있지. // 어떤가? 나와 함께 / 네트워크 세계를 지배하지 않겠나? // 네가 우리 「블랙 내비스」에 / 들어오면 백 명 몫은 할 테지. // 물론 간부로서 / 특별 대우해 주겠다."
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 191,
+   "draft_translation": "악의 편 따위가 / 되지는 않겠어!!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 192,
+   "draft_translation": "그런가... 아쉽군... // 그렇다면 너는 내 야망을 / 이루는 데 대단히 거슬리는 / 존재가 되겠군. // 나는 아주 조심성이 많아서 말이지. / 불안 요소는 전부 없애야 / 직성이 풀린다... // 아무리 작은 것이라도 말이야!!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 220,
+   "draft_translation": "록맨은 백신이 없어서 / 얼음을 부술 수 없다!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 230,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 「[printItem item=69]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 231,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 233,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 234,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 235,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 236,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 서브칩 「[printItem item=115]」이 / 효과를 발휘했다!! // 미스터리 데이터에 숨어 있던 / 바이러스 데이터가 딜리트되었다!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 238,
+   "draft_translation": "놀랍게도 미스터리 데이터는 / 바이러스였다!!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 239,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 240,
+   "draft_translation": "록맨은 / 「{금액}제니」를 / 획득했다!!",
+   "review_notes": [
+    "금액은 런타임 버퍼로 출력되므로 의미 초안에서는 {금액} 자리표시자로 보존했다."
+   ]
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 241,
+   "draft_translation": "록맨은 / 미스터리 데이터를 조사했다.[wait 10].[wait 10].[wait 10] // 록맨은 / 칩 데이터 「[printChip chip=187] [printCode code=M]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/134",
+   "entry_index": 242,
+   "draft_translation": "이 미스터리 데이터에는 / 보안이 걸려 있어 / 해석할 수 없다. // 해석하려면 / 다음 서브칩이 필요하다. // 「[printItem item=117]」"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 0,
+   "draft_translation": "안녕하세요! 행복하십니까? / 코토부키하십니까? // 그렇습니다. 이곳은 행복의 도시, / 코토부키 스퀘어입니다!",
+   "review_notes": [
+    "「코토부키」를 인사말처럼 동사화한 원문의 기묘한 선전 문구를 살렸다."
+   ]
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 1,
+   "draft_translation": "「버그 조각 교환소」에는 / 벌써 가 봤어? // 이 문으로 들어간 곳에 / 있는데, // 전뇌 세계에 흩어진 / 「[printItem item=69]」을 / 칩으로 교환해 줘."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 2,
+   "draft_translation": "「[printItem item=69]」을 / 알고 계십니까? // 「[printItem item=69]」은 / 그 자체로는 아무 쓸모가 없는 / 찌꺼기 데이터입니다만, // 내버려 두면 버그로 진화하는 / 성가신 물건입니다. // 저희 코토부키 스퀘어에서는 / 「[printItem item=69]」을 / 한데 모아 처분하고 있습니다."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 3,
+   "draft_translation": "죄송하지만 / 이 앞은 일반인은 / 들어갈 수 없습니다."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 4,
+   "draft_translation": "처음 이곳에 왔는데... // 눈이 어질어질하면서도 / 이상하게 기분이 좋아졌어요. // 모두 친절하고... / 돌아가고 싶지 않아졌어요."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 12,
+   "draft_translation": "저희는 일본에서 하루라도 빨리 / 위기가 사라지도록 / 평화를 기원합니다. // 일본의 평화를 바라며 / 이곳에서 함께 기도합시다. // 평·화! / 평·화!! / 평·화!!!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 13,
+   "draft_translation": "오오~! 일본에 평화가 / 찾아오기를~!!! // 평·화! / 평·화!! / 평·화!!!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 14,
+   "draft_translation": "코토부키 스퀘어 모두가 / 일본의 평화를 기원합니다. // 위기가 사라질 때까지 / 이 기도는 계속됩니다. // 평·화! / 평·화!! / 평·화!!!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 15,
+   "draft_translation": "어라? 잘 모르겠지만 / 나도 기도하고 / 싶어졌어... // 평·화! / 평·화!! / 평·화!!!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 16,
+   "draft_translation": "아무래도 우리의 기도가 / 닿았는지, 위기는 / 사라진 것 같군요."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 17,
+   "draft_translation": "일본에 닥쳤던 위협은 / 사라진 모양이군요... // 행복한 나날이 / 돌아오겠군요."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 18,
+   "draft_translation": "정말 흉흉한 / 세상이 되고 말았습니다. // 모두 코토부키 스퀘어에 오면 / 행복해질 수 있을 텐데요."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 19,
+   "draft_translation": "평화를 빌었고, 평화가 / 찾아왔다... // 아주 좋은 일을 한 기분입니다."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 40,
+   "draft_translation": "시민 넷배틀러십니까? / 제가 의뢰인입니다. // 바로 말씀드리죠. 제 의뢰는 / 오피셜 센터의 // 커피 서버에 플러그인해서 / 안에 있는 내비에게서 프로그램을 / 되찾아 주시는 것입니다. // 제게 아주 소중한 프로그램인데 / 어떤 내비가 빼앗아 갔습니다. // 그 내비는 바이러스를 퍼뜨리는 / 아주 나쁜 내비입니다. // 시간이 없으니 / 신속히 부탁드립니다."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 41,
+   "draft_translation": "오피셜 센터의 / 커피 서버입니다. / 서둘러 주십시오."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 42,
+   "draft_translation": "오오, 해내셨습니까? / 감사합니다. / 덕분에 살았습니다. // 그래서 빼앗긴 프로그램은 / 되찾아 오셨습니까?"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 43,
+   "draft_translation": "록맨은 / 「[printItem item=15]」을 / 건넸다!!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 44,
+   "draft_translation": "틀림없군... / 이 프로그램입니다. // ...훌륭했습니다! / 저는 라이선스 시험의 / 시험관입니다. // 당신이 신속하게 행동할 수 있는지 / 시험해 보았습니다. // 합격입니다. / 굿 잡이었습니다. // 뭐, 이건 당신이 가져온 / 프로그램의 내용물이지만... // 합격 축하 선물로 / 받아 주십시오."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 45,
+   "draft_translation": "록맨은 / 칩 데이터 「[printChip chip=123] [printCode code=*]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 46,
+   "draft_translation": "시험 열심히 보십시오."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 60,
+   "draft_translation": "아, 그 프로그램이라면 / 아지나 스퀘어에 / 있는 모양이야. // 친구의 메시지를 / 전해 준 답례로 / 이걸 줄게."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 61,
+   "draft_translation": "록맨은 / 「[printItem item=19]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 62,
+   "draft_translation": "프로그램이 있는 곳은 / 아지나 스퀘어야. / 갈 거라면 조심해."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 63,
+   "draft_translation": "최근에 친구가 / 결혼했대. // 부럽다."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 80,
+   "draft_translation": "어서 오십시오! / 코토부키 스퀘어에 오신 것을 환영합니다! // 한 분 안내합니다![waitSkip 15] // 기꺼이 모시겠습니다~ // 기꺼이 모시겠습니다~!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 81,
+   "draft_translation": "오피셜 스퀘어에 가려다 말고 / 처음 이곳에 와 봤는데, // 코토부키 스퀘어![waitSkip 15] // 즐거워 보여서 왠지 좋네요."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 82,
+   "draft_translation": "평소보다 여기가 / 더 붐비지 않습니까? // 이것도 오피셜 센터 습격 사건의 / 영향일까요?"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 83,
+   "draft_translation": "루루루루~♪"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 84,
+   "draft_translation": "여기에 오면 / 왠지 마음이 들떠요. // 라라라라~♪"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 85,
+   "draft_translation": "「회원 전용 영역」이라... / 즐거운 곳이겠지? / 가 보고 싶다."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 86,
+   "draft_translation": "즐거운 미소![waitSkip 10] // 행복한 미소![waitSkip 10] // 경사스러운 미소![waitSkip 10] // 스마일풀 스퀘어![waitSkip 20] // 그것이 코토부키 스퀘어의 / 좌우명입니다! // 하하하하하하하하하하하하하하!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 90,
+   "draft_translation": "해피, 해피 코토부키 스퀘어! / 이곳은 행복의 도시입니다. // 당신도 행복한 기분이 되어라!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 91,
+   "draft_translation": "저희의 소원은 단 하나, / 세계 평화입니다. // 다툼은 좋지 않습니다. / 네."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 92,
+   "draft_translation": "코토부키 스퀘어의 단골은 / 모두 평온한 마음을 지녔습니다. // 이 스퀘어에 있기만 해도 / 마음이 평온해집니다."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 93,
+   "draft_translation": "오늘도 세계를 향해 / 행복 전파를 / 송출 중!!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 94,
+   "draft_translation": "나도 이 스퀘어의 / 단골이 됐어! // 뭐니 뭐니 해도 행복하니까!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 100,
+   "draft_translation": "현실 세계에서는 무서운 / 천재지변이 일어나는 모양이군요. // 이럴 때일수록 우리가 / 기도를 올려 / 천재지변을 잠재우는 겁니다."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 101,
+   "draft_translation": "잠·잠·해·라! 잠·잠·해·라! / 천·재·지·변!! // 잠·잠·해·라! 잠·잠·해·라! / 천·재·지·변!! // 자! 함께 외칩시다!!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 102,
+   "draft_translation": "설마 이런 일이 / 일어날 줄은 / 예상하지 못했군요."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 103,
+   "draft_translation": "세계가 멸망하는 그 순간까지 / 코토부키 스퀘어는 행복을 / 기원합니다."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 104,
+   "draft_translation": "현실 세계는 대단히 / 위험한 상태입니다. // 제가 할 수 있는 일이라면 / 역시 기도하는 것뿐입니다. // 잠·잠·해·라! 잠·잠·해·라! / 천·재·지·변!! // 잠·잠·해·라! 잠·잠·해·라! / 천·재·지·변!!"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 150,
+   "draft_translation": "아무도 없어졌어... // 그래도 어디선가 / 목소리가 들려..."
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 220,
+   "draft_translation": "회원 외 / 출입 금지"
+  },
+  {
+   "selector": "00/136",
+   "entry_index": 221,
+   "draft_translation": "록맨은 / 「[printItem item=40]」를 / 사용했다!"
+  },
+  {
+   "selector": "00/137",
+   "entry_index": 0,
+   "draft_translation": "저는 넷 상인... / 좋은 물건이 있습니다. // 본다 // 보지 않는다"
+  },
+  {
+   "selector": "00/137",
+   "entry_index": 1,
+   "draft_translation": "또 찾아와 주십시오."
+  },
+  {
+   "selector": "00/137",
+   "entry_index": 2,
+   "draft_translation": "저는 넷 상인이지만, / 지금은 좋은 물건이 없습니다..."
+  },
+  {
+   "selector": "00/137",
+   "entry_index": 3,
+   "draft_translation": "저는 서브칩 상인... / 좋은 물건이 있습니다. // 본다 // 보지 않는다"
+  },
+  {
+   "selector": "00/137",
+   "entry_index": 4,
+   "draft_translation": "또 찾아와 주십시오."
+  },
+  {
+   "selector": "00/137",
+   "entry_index": 5,
+   "draft_translation": "저는 넷 상인이지만, / 지금은 좋은 물건이 없습니다..."
+  },
+  {
+   "selector": "00/137",
+   "entry_index": 20,
+   "draft_translation": "물건을 많이 사면 / 회원이 될 수 있을 줄 알았는데, / 그런 것도 아니었나 봐... // 주인님 몰래 쓴 돈을... / 어쩌지?"
+  },
+  {
+   "selector": "00/137",
+   "entry_index": 180,
+   "draft_translation": "저는 버그 조각 교환상... / 교환하시겠습니까? // 예 // 아니요"
+  },
+  {
+   "selector": "00/137",
+   "entry_index": 181,
+   "draft_translation": "또 찾아와 주십시오!"
+  },
+  {
+   "selector": "00/137",
+   "entry_index": 182,
+   "draft_translation": "저는 버그 조각 교환상이지만... / 지금은 좋은 물건이 없습니다..."
+  }
+ ]
 }

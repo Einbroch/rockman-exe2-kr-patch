@@ -1,0 +1,2236 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/07E9970",
+ "entry_prefix": "archive_u07E9970",
+ "rom_offset": 8296816,
+ "storage": "lz77",
+ "byte_length": 4177,
+ "payload_byte_length": 7607,
+ "tpl_filename": "uncatalogued_archive_tpl/lz_07E9970.tpl",
+ "entry_count": 117,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u07E9970_entry_0000",
+   "source_entry_offset": 238,
+   "source_entry_byte_length": 173,
+   "source_entry_sha256": "117a6f5d98160aac75df8c604f5faf7b35e2d4a1ddcd632014c5965545ba1df8",
+   "source_entry_raw_hex": "f3 00 80 0c 44 ff f3 00 c0 0c 45 ff f1 02 ac ab bb 00 a2 b7 e5 02 ab 9a b7 a5 eb e9 a0 c4 a4 9a 00 24 1f 16 b2 e8 a2 a2 d6 b2 85 10 11 14 2a ae a0 9a b1 d6 e8 a9 e5 05 a0 a6 aa 00 9d b2 ad a4 a4 b7 a5 eb e9 0d 0c 33 17 4a 17 1d 55 3a 3d ae e8 cf a4 c8 b1 00 99 c1 9e a8 9d b0 c9 9a a4 b7 a5 eb e9 e5 c5 e5 c6 e5 c7 b1 9c 9f b7 9c d6 00 b7 e5 02 ab 9a b7 a5 e8 d7 9b d2 85 be c3 a4 a0 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 40 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "d047a060a5aa3371fdee718dac02798267481d2307949ee42e60363b731cb005",
+   "japanese_characters": 107,
+   "source_literals": [
+    "とても こまっています",
+    "くわしい ハナシは\nここでは、カキコミにくいので\nちょくせつ おはなしします",
+    "ウイルスバスティングに\nじしんの あるかたおねがいします",
+    "秋原町のえきまえで まっています\nどうぞ、よろしく",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "무척 곤란한 상황입니다",
+    "자세한 이야기는\n여기에 쓰기 어려우니\n직접 말씀드리겠습니다",
+    "바이러스 버스팅에\n자신 있는 분께 부탁드립니다",
+    "아키하라 마을 역 앞에서\n기다리겠습니다\n잘 부탁드립니다",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u07E9970_entry_0001",
+   "source_entry_offset": 411,
+   "source_entry_byte_length": 130,
+   "source_entry_sha256": "95086eac875535a1b30465dfebed0c0c4e110b9b925dbce00c70fb60b34dd367",
+   "source_entry_raw_hex": "f3 00 81 0c 46 ff f3 00 c1 0c 47 ff f1 02 ac ab bb 00 9e c8 a8 c8 ad 16 3f 1e d6 a5 e8 b7 d0 b2 85 14 1e 4c 11 17 12 0e 0b ae e8 9a bf a4 ab a0 d3 a3 9a 81 eb e9 1b 5c 59 1e 85 ae c8 a7 9b b1 36 33 9a 1f 4b c9 e8 99 ad a8 c7 00 9d b7 a9 a4 ab 9d c0 b7 a5 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 41 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "cf3710a3f36889d023afbd904e5702c8d0c423805c74e23ae21f98cdc63b3090",
+   "japanese_characters": 77,
+   "source_literals": [
+    "とても かんたんなシゴトです\nまずは、コトブキスクエアに\nいらしてください!",
+    "チョット、にんそうのワルいナビが\nあなたを おまちしております",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "아주 간단한 일입니다\n우선 코토부키 스퀘어로\n와 주세요!",
+    "인상이 좀 험악한 내비가\n당신을 기다리고 있습니다",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 2,
+   "entry_id": "archive_u07E9970_entry_0002",
+   "source_entry_offset": 541,
+   "source_entry_byte_length": 132,
+   "source_entry_sha256": "014f932b90e479fb2858475cbcefce34d10dfc94dc5aba243f72880d485c4c2e",
+   "source_entry_raw_hex": "f3 00 82 0c 48 ff f3 00 c2 0c 49 ff f1 02 b7 9a cd b1 00 51 35 3d 31 2b e8 a3 c9 a4 ab a0 d3 a3 9a 81 eb e9 a0 c4 a4 9a 14 1e b2 85 e8 9d a0 48 3a d3 ae 11 5a 3a 51 cf e5 05 9b 00 ae ab eb e9 e5 fc b1 00 b7 c8 ad 9e ae 00 e5 e7 e5 02 ab e8 b7 e5 02 ab 9a b7 a5 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 42 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "7eeb0896fecc0bc5e7eee8e1df730dc39a741783b79cbb6bd3923d9da36994eb",
+   "japanese_characters": 71,
+   "source_literals": [
+    "まいごの プログラム\nさがしてください!",
+    "くわしいコトは、\nおくデンだにキャンプじょう にて",
+    "川の まんなかに 立って\nまっています",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "길 잃은 프로그램을\n찾아 주세요!",
+    "자세한 건\n오쿠덴 계곡 캠핑장에서",
+    "강 한가운데에 서서\n기다리고 있겠습니다",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 3,
+   "entry_id": "archive_u07E9970_entry_0003",
+   "source_entry_offset": 673,
+   "source_entry_byte_length": 123,
+   "source_entry_sha256": "5d075808fa7984cf1a581818cbe47ae16597d5e4908b3ce10cfa3a2021c9453b",
+   "source_entry_raw_hex": "f3 00 83 0c 59 ff f3 00 c3 0c 5a ff f1 02 a4 c8 a6 9f b1 00 9d c8 ad b1 14 c9 e8 d7 a2 9e ae 9a e5 02 a9 e5 03 e5 02 a8 b1 e8 d7 ad a8 9e a3 c9 a4 ab a0 c2 b7 a6 c8 9e 7c eb e9 e5 c5 e5 c6 e5 c7 b1 c9 e5 02 a2 9b d6 b7 e5 02 ab b7 a5 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 4a ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "4e1d1419e7e7af497b3bb54973a894d6309726733066f2abdd0b1d58a0b594d1",
+   "japanese_characters": 66,
+   "source_literals": [
+    "しんせきの おんなのコが\nどこかにいっちゃったの\nどなたかさがしてくれませんか?",
+    "秋原町のがっこうでまってます",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "친척 여자아이가\n어딘가로 가 버렸어요\n누가 좀 찾아 주지 않을래요?",
+    "아키하라 마을 학교에서 기다릴게요",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 4,
+   "entry_id": "archive_u07E9970_entry_0004",
+   "source_entry_offset": 796,
+   "source_entry_byte_length": 141,
+   "source_entry_sha256": "ea8b7f809827fc1971dccd01bb19d677e0d008d60e23f6cd6d678a6fbda1ff1d",
+   "source_entry_raw_hex": "f3 00 84 0c 5b ff f3 00 c4 0c 5c ff f1 02 9b b8 b1 b8 9c c1 10 26 57 d6 00 b7 e5 02 ab 9a b7 a5 eb e9 9a bf 9a ad 9a be 9b b2 85 e8 a7 a2 d6 9d a4 bf a6 a4 b7 a5 eb e9 a8 a4 e5 05 9b 11 13 3a c7 ac bb ad 9b b1 d6 e8 99 c1 ab 9a d7 00 aa be 9a 1f 4b c7 e8 9d bb a9 b1 9e a8 85 be c3 a4 a0 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 4b ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "bd41fe1e57a5d64f11b2ecf927e33a6cf616ba1d85cadf79d3f5284afdce4978",
+   "japanese_characters": 85,
+   "source_literals": [
+    "うみのみえるカフェで まっています",
+    "いらいないようは、\nそこでおしらせします",
+    "たしょうキケンをともなうので\nあるていど つよいナビを\nおもちのかた、よろしく",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "바다가 보이는 카페에서 기다립니다",
+    "의뢰 내용은\n거기서 알려 드리겠습니다",
+    "다소 위험이 따르니\n어느 정도 강한 내비를\n가진 분께 부탁드립니다",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 5,
+   "entry_id": "archive_u07E9970_entry_0005",
+   "source_entry_offset": 937,
+   "source_entry_byte_length": 216,
+   "source_entry_sha256": "93e851d6f4947dd6ff9d432829b6ee2d5ad2ff87e9554b712c5856878789a980",
+   "source_entry_raw_hex": "f3 00 85 0c 5d ff f3 00 c5 0c 5e ff f1 02 0d 1b b1 bd c4 9e a4 51 35 3d 31 2b c9 e8 a2 c4 c2 ab a4 b7 e5 02 ab e8 9d bd c9 00 d6 ad 9a c8 d3 be eb e9 1b 59 51 c7 a8 a0 a3 c8 bb e5 02 ab 9a c1 25 1e eb e9 90 f9 00 1a 01 00 f9 00 05 03 91 c7 85 e8 c4 a1 ab a0 c2 ad 9a 9e 9a 7c eb e9 bb a9 c3 c8 1a 45 ac b2 9a c4 ad 9a be e8 90 f9 00 26 01 00 f9 00 0b 03 91 ac 85 e8 a2 9b 9e c8 a5 c1 9e bf b0 eb e9 0f 26 55 16 5a 33 18 3a 1a 78 b1 35 4b 78 ae 9a c1 9e bf e8 a3 c9 a4 ab 9d a0 c2 eb e9 b2 bc 9a bb c8 c9 a9 d3 be eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 4c ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "0f66b9603096818c601f9fa4b90799fb8567ddd356c0212e9956ef0d501afc75",
+   "japanese_characters": 129,
+   "source_literals": [
+    "ウチのゆわかしプログラムが\nこわれてしまって\nおゆが でないんだよ",
+    "チップをたくさんもっているヒト",
+    "「",
+    " ",
+    "」を、\nわけてくれないかい?",
+    "もちろんタダとはいわないよ\n「",
+    " ",
+    "」と、\nこうかんするからね",
+    "オフィシャルセンターのロビーにいるから\nさがしておくれ",
+    "はやいもんがちだよ",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "우리 집 물 데우기 프로그램이\n고장 나 버려서\n뜨거운 물이 안 나온단다",
+    "칩을 많이 가진 사람",
+    "「",
+    " ",
+    "」를\n나눠 주지 않겠니?",
+    "물론 공짜로 달라는 건 아니야\n「",
+    " ",
+    "」과\n교환해 줄 테니까",
+    "오피셜 센터 로비에 있을 테니\n찾아 주렴",
+    "먼저 오는 사람이 임자란다",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 6,
+   "entry_id": "archive_u07E9970_entry_0006",
+   "source_entry_offset": 1153,
+   "source_entry_byte_length": 212,
+   "source_entry_sha256": "51d712a4c919437c300c4eda9e868ef2da600e81b65dac1f702b624104514e0a",
+   "source_entry_raw_hex": "f3 00 86 0c 5f ff f3 00 c6 0c 60 ff f1 02 a3 9a 9f c8 85 48 3a 23 0d 00 18 10 0c ae e8 3b 31 b1 36 33 9a 1f 4b c9 99 bf c4 c2 ab eb e9 9a e5 02 dd c8 b1 1f 4b ae 0c 3a 22 3a c7 aa a1 e8 0d 0c 33 17 c7 00 a1 a4 9e a1 c1 ac 9a 9b 25 3b 0c c9 e8 d2 a0 a4 e5 04 aa a4 ab 9a b7 a5 eb e9 36 1a 16 bb 00 2c c7 aa a1 bf c2 ab e8 0b 1b 14 1b c7 00 ae cc b7 c4 e5 02 ab 9a b7 a5 eb e9 ad c8 ac 9e a4 ab bb bf 9c ad 9a d6 a4 e5 05 9b 9e 7c eb e9 99 c1 9a 9c b1 00 48 3a 36 b1 ad 9e d6 e8 9d b7 a9 a4 ab 9a b7 a5 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 4d ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "8b1040e1c4ea0b123fb5ace09800befe45d14c77428c5308eb56fbbc93482a0c",
+   "japanese_characters": 145,
+   "source_literals": [
+    "さいきん、デンノウ セカイに\nガラのワルいナビがあらわれて",
+    "いっぱんのナビにインネンをつけ\nウイルスを けしかけるというヒガイが\nぞくしゅつしています",
+    "ワタシも メをつけられて\nアチコチを にげまわっています",
+    "なんとかしてもらえないでしょうか?",
+    "あるいえの デンワのなかで\nおまちしています",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "최근 전뇌세계에\n질 나쁜 내비가 나타나서",
+    "일반 내비에게 시비를 걸고\n바이러스를 부추겨 덤비게 하는\n피해가 속출하고 있습니다",
+    "저도 찍혀서\n여기저기 도망 다니고 있습니다",
+    "어떻게 좀 해 주실 수 없을까요?",
+    "어느 집 전화 속에서\n기다리고 있겠습니다",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 7,
+   "entry_id": "archive_u07E9970_entry_0007",
+   "source_entry_offset": 1365,
+   "source_entry_byte_length": 116,
+   "source_entry_sha256": "9eeb22899b6510812df710296b56d1e795fa2d9354d818adfaff8a6c86762c31",
+   "source_entry_raw_hex": "f3 00 87 0c 61 ff f3 00 c7 0c 62 ff f1 02 99 c1 25 1e c7 a3 c9 a4 ab 9a b7 a5 e8 9d ab aa d3 9a a4 ab 9a a8 d3 a1 c1 25 1e e8 e5 c5 e5 c6 e5 c7 b5 9f ab a0 d3 a3 9a eb e9 32 17 b1 b7 9c d6 85 b7 e5 02 ab 9a b7 a5 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 4e ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "191563714549d671894a489dcc7a7c51842e32636f7a2b74b00ffa582a0ff34e",
+   "japanese_characters": 64,
+   "source_literals": [
+    "あるヒトをさがしています\nおてつだいしていただけるヒト\n秋原町へきてください",
+    "リスのまえで、まっています",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "어떤 사람을 찾고 있습니다\n도와주실 분은\n아키하라 마을로 와 주세요",
+    "다람쥐 동상 앞에서 기다리겠습니다",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 8,
+   "entry_id": "archive_u07E9970_entry_0008",
+   "source_entry_offset": 1481,
+   "source_entry_byte_length": 204,
+   "source_entry_sha256": "e6dd77909f24a262b1b9a14a59591ee90e2bddadf9132f2e6904937e74c22d2b",
+   "source_entry_raw_hex": "f3 00 88 0c 63 ff f3 00 c8 0c 64 ff f1 02 b6 9b a4 e5 04 9b 00 a3 9f d8 bf 9a d6 a5 e8 a7 a2 bf cf e5 03 85 ab ae 00 b2 9a bf ad 9a e8 0b 0c 1d 2b c7 00 cd be 9b 9a a4 ab 9a b7 a5 eb e9 10 3a 1a 3a ad a4 cd ac d6 85 9d 9d 9f ad 00 c0 9c 9f e8 a2 c8 ad ae 00 9d 9a a4 9a 24 1f 16 b2 ad 9a 81 81 eb e9 9b a1 ab a0 d3 a3 c1 10 1a b2 85 e8 0b 41 78 1f 0e 32 0b 02 b5 9a b7 a5 cb e8 9d 9a d6 a0 d3 a3 9a 81 81 eb e9 ac 9b b6 9b b1 85 12 35 9a 1f 4b c9 e8 9d b7 a9 a4 ab 9d c0 b7 a5 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 4f ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "e0bd5d165af38e5cf0ba785ad3113c1e29c21ca491d079d135d34f85b89b08e2",
+   "japanese_characters": 133,
+   "source_literals": [
+    "ほうしゅう さきばらいです\nそこらじゃ、てに はいらない\nアイテムを ごよういしています",
+    "カンタンなしごとで、おおきな りえき\nこんなに おいしいハナシはない!!",
+    "うけてくださるカタは、\nアジーナエリア1へいますぐ\nおいでください!!",
+    "とうほうの、クロいナビが\nおまちしております",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "보수는 선불입니다\n어디서도 구할 수 없는\n아이템을 준비해 두었습니다",
+    "간단한 일로 큰 이익\n이렇게 좋은 이야기는 없다!!",
+    "받아 주실 분은\n아지나 에어리어 1로 지금 당장\n와 주세요!!",
+    "저희 쪽 검은 내비가\n기다리고 있겠습니다",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 9,
+   "entry_id": "archive_u07E9970_entry_0009",
+   "source_entry_offset": 1685,
+   "source_entry_byte_length": 196,
+   "source_entry_sha256": "7291e0b25a813cb16d3856305b6ff5da1cbf9002a938173f6e4a07a1cf2ef708",
+   "source_entry_raw_hex": "f3 00 89 0c 65 ff f3 00 c9 0c 66 ff f1 02 36 1a 12 16 85 a8 d3 9a b7 2d 78 34 1c ae e8 a2 9a c7 a4 ab 9d c0 b7 a5 81 81 eb e9 a4 9e a4 85 a6 9a bf 9a b1 00 9b a9 9f ad e8 a6 9a 9e a0 b1 a6 9a d6 e8 a2 b1 11 2d 1b c7 00 9b a9 99 a1 bf c2 b7 a6 c8 eb e9 d7 ad a8 9e 85 a2 c8 ad 36 1a 16 ae 1b 10 31 c7 e8 9e a4 ab a0 d3 a3 9a 81 81 eb e9 9a bf 9a c7 00 9b a1 ab a0 d3 a3 c1 9e a8 b2 85 e8 11 5a 3a 51 cf e5 05 9b 9a c0 cb a9 00 b7 d6 e8 9f ab a0 d3 a3 9a eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 50 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "af0cc8bfa39e47d7b701983367eab25b471f62972e953efd754a6af943392f83",
+   "japanese_characters": 128,
+   "source_literals": [
+    "ワタクシ、ただいまモーレツに\nこいをしております!!",
+    "しかし、せいらいの うちきな\nせいかくのせいで\nこのキモチを うちあけられません",
+    "どなたか、こんなワタシにチカラを\nかしてください!!",
+    "いらいを うけてくださるかたは、\nキャンプじょういりぐち まで\nきてください",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "저는 지금 맹렬하게\n사랑에 빠져 있습니다!!",
+    "하지만 타고난 소심한\n성격 탓에\n이 마음을 고백하지 못합니다",
+    "누군가 이런 저에게 힘을\n빌려 주세요!!",
+    "의뢰를 받아 주실 분은\n캠핑장 입구까지\n와 주세요",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u07E9970_entry_0010",
+   "source_entry_offset": 1881,
+   "source_entry_byte_length": 207,
+   "source_entry_sha256": "6c95a4a97a456eaed8c2299c0ff9435e857554a9c2afb95e03381332ba15ba20",
+   "source_entry_raw_hex": "f3 00 8a 0c 67 ff f3 00 ca 0c 68 ff f1 02 a2 c8 d7 85 99 c1 0f 1e 14 ac 22 59 1e 4a 1e 33 d6 e8 1a 1a 10 9a b7 a5 eb e9 a4 9e a4 85 10 ab c1 9e d7 9b 9e 36 10 c0 b7 a6 c8 e8 d7 ad a8 9e 85 36 1a 16 b1 16 5c 0d 32 b1 1a 2c ae e8 1b 10 31 c7 10 a4 ab 0c 1a 45 a1 b7 a6 c8 9e 7c eb e9 0f 26 55 16 5a 33 17 12 0e 0b b1 00 9a c0 cb a9 d6 e8 b7 e5 02 ab 9a b7 a5 eb e9 a2 b1 9a bf 9a ae b2 85 0f 1e 14 b1 51 31 0c 49 c9 e8 9e 9e e5 02 ab 9a b7 a5 eb e9 d1 b3 1b 10 31 c7 9e a4 ab a0 d3 a3 9a eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 51 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "b3931e7b6e4e3587c67f38df1de5ea9a94b21ba4350f020757033dfd7e8737c9",
+   "japanese_characters": 143,
+   "source_literals": [
+    "こんど、あるオトコとネットバトルで\nタタカいます",
+    "しかし、カてるかどうかワカりません\nどなたか、ワタシのショウリのタメに\nチカラをカしてイタダけませんか?",
+    "オフィシャルスクエアの いりぐちで\nまっています",
+    "このいらいには、オトコのプライドが\nかかっています",
+    "ぜひチカラをかしてください",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "이번에 어떤 남자와 넷배틀로\n싸웁니다",
+    "하지만 이길 수 있을지 모릅니다\n누군가 제 승리를 위해\n힘을 빌려주실 수 없겠습니까?",
+    "오피셜 스퀘어 입구에서\n기다리고 있습니다",
+    "이 의뢰에는 남자의 자존심이\n걸려 있습니다",
+    "부디 힘을 빌려 주세요",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 11,
+   "entry_id": "archive_u07E9970_entry_0011",
+   "source_entry_offset": 2088,
+   "source_entry_byte_length": 309,
+   "source_entry_sha256": "e45096e6d419bebf9a451b47816e11bddf4253489f4a67d29b05ef8004a5c8df",
+   "source_entry_raw_hex": "f3 00 8b 0c 69 ff f3 00 cb 0c 6a ff f1 02 a8 d3 9a b7 85 dc 9b 1d 34 4b 9f e5 05 a0 b1 e8 9f e5 05 9b c0 e5 05 a0 c7 00 9c ab eb e9 0d 0c 33 17 4a 17 1d 55 3a 3d b1 e8 a1 c8 9f e5 04 9b c7 a4 ab 9a b7 a5 eb e9 a1 c8 9f e5 04 9b ae 1b 10 31 c7 00 9e a4 ab a0 d3 a3 9a e8 bc c1 a2 ac b2 10 3a 1a 3a d6 a5 eb e9 0d 0c 33 17 c7 00 ad c8 d9 9f 9e e8 48 32 78 1e a4 ab 9a a8 d3 9a ab e8 1f 4b b1 48 78 1a c7 00 a7 a0 ab 9a a5 c1 d3 a1 d6 a5 eb e9 9b c2 a4 9a 00 0b 0c 1d 2b c7 85 51 34 43 3a 1e eb e9 a8 d3 a4 85 1f 4b c9 48 32 78 1e a3 c2 ab bb e8 ac 9b b6 9b b2 85 9a e5 02 a3 9a a6 9f ae c8 c7 e8 bb a9 b7 a6 c8 eb e9 99 a4 9e bf d0 eb e9 a2 b1 9a bf 9a c7 00 9b a1 ab 9a a8 d3 a1 c1 10 1a b2 e8 dc 9b 1d 34 4b 9f e5 05 a0 b1 e8 a9 e5 04 9b a1 9a a4 e5 03 b1 e5 73 e5 61 ae 00 9f ab a0 d3 a3 9a eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 52 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "b06abf197f44c16bb3dd2f6c17fab72ed002eeb55036c472a97db3dde16a0459",
+   "japanese_characters": 221,
+   "source_literals": [
+    "ただいま、ぼうテレビきょくの\nきょうりょくを えて",
+    "ウイルスバスティングの\nけんきゅうをしています",
+    "けんきゅうにチカラを かしてください\nやることはカンタンです",
+    "ウイルスを なんびきか\nデリートしていただいて\nナビのデータを そくていするだけです",
+    "うれしい アイテムを、プレゼント",
+    "ただし、ナビがデリートされても\nとうほうは、いっさいせきにんを\nもちません",
+    "あしからず",
+    "このいらいを うけていただけるカタは\nぼうテレビきょくの\nちゅうけいしゃの電脳に きてください",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "현재 모 방송국의\n협력을 얻어",
+    "바이러스 버스팅\n연구를 하고 있습니다",
+    "연구에 힘을 빌려 주세요\n하실 일은 간단합니다",
+    "바이러스를 몇 마리\n딜리트해 주시면\n내비의 데이터를 측정할 뿐입니다",
+    "좋은 아이템을 선물로 드립니다",
+    "단、 내비가 딜리트되더라도\n저희는 일절 책임을\n지지 않습니다",
+    "양해 바랍니다",
+    "이 의뢰를 받아 주실 분은\n모 방송국\n중계차 전뇌로 와 주세요",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 12,
+   "entry_id": "archive_u07E9970_entry_0012",
+   "source_entry_offset": 2397,
+   "source_entry_byte_length": 183,
+   "source_entry_sha256": "cac011640a0c14f0eca76b31cc2572e167cb4fa47bbfbc2459788921a7e0d196",
+   "source_entry_raw_hex": "f3 00 8c 0c 6b ff f3 00 cc 0c 6c ff f1 02 a2 c2 9e bf 00 e5 bc e5 ed ae 9a 9f b7 a5 b0 c8 e8 d6 bb 85 99 b7 c0 1c 30 9a 1b 59 51 c7 e8 bb e5 02 ab b5 c8 9e bf 85 b4 99 c8 d6 a5 eb e9 be c3 a4 a1 c2 d8 85 e8 90 f9 00 88 01 00 f9 00 0d 03 91 c7 e8 c4 a1 ab bb bf c4 c2 b5 c8 bc c3 9e 7c eb e9 9d c2 9a b2 85 cc c8 9f c8 d6 00 a3 a6 ab bb bf 9a b7 a5 eb e9 48 3a 15 3a a0 9b a2 9b d6 00 9d b7 a9 a4 ab 9a b7 e5 02 a6 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 53 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "3a73fdee1f06687905083c189c71884ae2fd449b5bff95e6896e73c0fa348c32",
+   "japanese_characters": 107,
+   "source_literals": [
+    "これから 外国にいきますねん\nでも、あまりツヨいチップを\nもってへんから、ふあんです",
+    "よろしければ、\n「",
+    " ",
+    "」を\nわけてもらわれへんやろか?",
+    "おれいは、げんきんで させてもらいます",
+    "デンサンくうこうで おまちしていまっせ",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "이제 곧 외국에 가는데요\n센 칩을 별로\n안 가지고 있어서 불안합니다",
+    "괜찮으시면\n「",
+    " ",
+    "」을\n나눠 주실 수 없을까요?",
+    "사례는 현금으로 하겠습니다",
+    "덴산 공항에서 기다리고 있겠습니다",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 13,
+   "entry_id": "archive_u07E9970_entry_0013",
+   "source_entry_offset": 2580,
+   "source_entry_byte_length": 153,
+   "source_entry_sha256": "5af2318b45f7690446d3caa5e32d31cf5d12aac70fa47bf9387c1b6a52208a0e",
+   "source_entry_raw_hex": "f3 00 8d 0c 6d ff f3 00 cd 0c 6e ff f1 02 9d ac aa 9a 85 bb a9 1f 4b ac 00 13 3a 10 a4 a8 b1 c9 e8 cc c8 9a c8 d6 85 1f 4b c9 00 9a 9c d6 00 a4 b7 a4 a8 eb e9 45 34 9e 85 a3 c9 a4 d3 a4 ab e8 bb bf 9c ad 9a d6 a4 e5 05 9b 9e 7c eb e9 4e 12 b2 85 e5 c5 e5 c6 e5 c7 b1 9c 9f ae 9a b7 a5 e8 be c3 a4 a0 9d b0 c9 9a a4 b7 a5 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c eb e9 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 54 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "e094b82f6d2271e3f971c335b06bb1cc26fb9a522ca274c9864f0be02e94ed12",
+   "japanese_characters": 90,
+   "source_literals": [
+    "おとつい、もちナビと ケンカしたのが\nげんいんで、ナビが いえで しました",
+    "ダレか、さがしだして\nもらえないでしょうか?",
+    "ボクは、秋原町のえきにいます\nよろしくおねがいします",
+    "この いらいを うけますか?",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "그저께 제 내비와 싸운 게\n원인이 되어 내비가 가출했습니다",
+    "누군가 찾아 주실 수\n없을까요?",
+    "저는 아키하라 마을 역에 있습니다\n잘 부탁드립니다",
+    "이 의뢰를 받겠습니까?",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 14,
+   "entry_id": "archive_u07E9970_entry_0014",
+   "source_entry_offset": 2733,
+   "source_entry_byte_length": 212,
+   "source_entry_sha256": "a37e199a71bf8ea1dad017d5abbbee67ba3c13b89125673d104175354bbaad12",
+   "source_entry_raw_hex": "f3 00 8e 0c 6f ff f3 00 ce 0c 70 ff f1 02 20 28 3a b2 00 0d 0c 33 17 4a 17 1d 55 3a 3d b1 e8 34 4d 33 c9 00 a8 9e 9a 12 20 d3 ac 00 9f 9f b7 a4 a8 eb e9 d7 ad a8 9e 85 0b 2c 35 59 4f ae 00 a4 e5 04 aa dc aa a5 c1 e8 90 1b 3a 50 31 00 a4 ab c8 b1 9b 91 c7 00 a8 9a cf a4 ab e8 bb bf 9c ad 9a d6 a4 e5 05 9b 9e 7c eb e9 36 1a 16 a8 a9 d6 b2 85 ab ae 00 9d 9c ad 9a b1 d6 a5 eb e9 36 1a 16 b2 85 0b 2c 35 59 4f ae 99 c1 e8 0b 2c 35 59 4f 1a 0d 3a ae 9d c0 b7 a5 eb e9 be c3 a4 a0 00 9d b0 c9 9a a4 b7 a5 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 55 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "0362abad8219cbb0b6967e1cf318db7fbf902639b4fc16ff57982d945b70cb29",
+   "japanese_characters": 141,
+   "source_literals": [
+    "ニホンは ウイルスバスティングの\nレベルが たかいクニだと ききました",
+    "どなたか、アメロッパに しゅつぼつする\n「チンピラ してんのう」を たいじして\nもらえないでしょうか?",
+    "ワタシたちでは、てに おえないのです",
+    "ワタシは、アメロッパにある\nアメロッパタウンにおります",
+    "よろしく おねがいします",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "일본은 바이러스 버스팅\n수준이 높은 나라라고 들었습니다",
+    "누군가 아메롭파에 출몰하는\n「건달 사천왕」을 퇴치해\n주실 수 없을까요?",
+    "저희로서는 감당할 수가 없습니다",
+    "저는 아메롭파의\n아메롭파 타운에 있습니다",
+    "잘 부탁드립니다",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 15,
+   "entry_id": "archive_u07E9970_entry_0015",
+   "source_entry_offset": 2945,
+   "source_entry_byte_length": 227,
+   "source_entry_sha256": "7de81345f63c8409b37cfc4e43cc90803fcb4c64b307a9b3913fedd3112b7c84",
+   "source_entry_raw_hex": "f3 00 8f 0c 71 ff f3 00 cf 0c 72 ff f1 02 36 1a 16 b1 00 a1 9a 9c 9a a5 c1 00 9e 9a a4 e5 03 c9 85 e8 ac 9b a3 c8 00 a5 c8 d1 c8 d6 85 eb e9 9f c8 9f e5 04 9b ae 85 06 01 01 01 01 43 20 78 e8 b3 aa be 9b ad c8 d6 a5 eb e9 a2 c8 cc aa c7 00 b1 c0 9f e5 02 ab e8 a1 9a 9c 9a c9 85 9f d7 9b ae b1 c2 d8 eb e9 c0 a4 c7 00 aa a1 ab 00 9d 9e 9c a4 d6 9f c1 ac e8 9d bb 9a b7 a5 eb e9 9d 9e b0 c7 85 bd 9b a4 00 a4 ab a0 d3 a3 c1 00 9e a8 b2 85 e8 9a b7 17 3d 00 e5 c5 e5 c6 e5 c7 d6 0c 1b 4a 3a 9d 9d 9f ad e8 9d bc a4 9f ae 00 9a bf a4 ab a0 d3 a3 9a eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 56 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "e241f178ad92889890902274783888b96eb644b172e75b0b4b1471e273a5e15f",
+   "japanese_characters": 143,
+   "source_literals": [
+    "ワタシの けいえいする かいしゃが、\nとうさん すんぜんで、",
+    "きんきゅうに、50000ゼニー\nひつようなんです",
+    "こんげつを のりきって\nけいえいが、きどうにのれば",
+    "りしを つけて おかえしできると\nおもいます",
+    "おかねを、ゆうし してくださる かたは、\nいまスグ 秋原町でイチバンおおきな\nおやしきに いらしてください",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "제가 경영하는 회사가\n도산 직전이라",
+    "급하게 50000제니가\n필요합니다",
+    "이번 달을 버텨 내고\n경영이 궤도에 오르면",
+    "이자를 붙여 갚을 수 있을\n것 같습니다",
+    "돈을 융자해 주실 분은\n지금 바로 아키하라 마을에서 가장 큰\n저택으로 와 주세요",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 16,
+   "entry_id": "archive_u07E9970_entry_0016",
+   "source_entry_offset": 3172,
+   "source_entry_byte_length": 271,
+   "source_entry_sha256": "1190a79a29b89f40f0743a830c9ae9465bcd95e018d2acab5812bebef9d4321f",
+   "source_entry_raw_hex": "f3 00 90 0c 73 ff f3 00 d0 0c 74 ff f1 02 36 1a 16 b2 85 90 20 28 3a a2 c8 a9 e5 04 9b c9 e5 02 9e 9a 91 b1 e8 bb b1 d6 a5 eb e9 aa ca b1 00 90 a2 c8 a9 e5 04 9b 00 16 3a 53 41 0d 2b 91 d6 e8 b2 e5 02 de e5 05 9b a5 c1 00 a1 c8 9f e5 04 9b b1 a8 ba 85 e8 20 28 3a ae a4 9e 00 a6 9a a7 a0 a4 ad 9a eb e9 90 48 3a 15 3a 00 0f 0f 3e 3a 3f 35 0d 91 c7 e8 a3 c9 a4 ab 9a b7 a5 eb e9 a8 9a b5 c8 00 ba d0 bf a4 9a 2b 16 ad b1 d6 e8 ad 9e ad 9e b8 aa a1 c1 14 1e c9 00 d6 9f b7 a6 c8 eb e9 a3 c9 a4 ab a0 d3 a3 c1 00 9e a8 c7 85 dc a4 e5 04 9b a4 b7 a5 e8 c4 c2 a2 a7 b2 ac 85 9d bb c4 c2 c1 00 9e a8 b2 85 eb e9 9d a0 48 3a d3 ae 11 5a 3a 51 cf e5 05 9b 00 b7 d6 e8 9f ab a0 d3 a3 9a eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 57 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "eebe41a1d6f4ed6aa16d238ace2d11e89eb24ef67b1f0adaaa239680e83cd88c",
+   "japanese_characters": 182,
+   "source_literals": [
+    "ワタシは、「ニホンこんちゅうがっかい」の\nものです",
+    "つぎの 「こんちゅう シンポジウム」で\nはっぴょうする けんきゅうのため、\nニホンにしか せいそくしない",
+    "「デンサン オオゲンゴロウ」を\nさがしています",
+    "たいへん めずらしいムシなので\nなかなかみつけるコトが できません",
+    "さがしてくださる かたを、ぼしゅうします\nわれこそはと、おもわれる かたは、",
+    "おくデンだにキャンプじょう まで\nきてください",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "저는 「일본 곤충 학회」의\n회원입니다",
+    "다음 「곤충 심포지엄」에서\n발표할 연구를 위해\n일본에만 서식하는",
+    "「덴산 왕물방개」를\n찾고 있습니다",
+    "매우 희귀한 벌레라서\n좀처럼 찾을 수가 없습니다",
+    "찾아 주실 분을 모집합니다\n자신 있는 분은",
+    "오쿠덴 계곡 캠핑장까지\n와 주세요",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 17,
+   "entry_id": "archive_u07E9970_entry_0017",
+   "source_entry_offset": 3443,
+   "source_entry_byte_length": 230,
+   "source_entry_sha256": "2918fb7f9426b5d3fee88fe5396b761e04820573b1d64ddd3296e8c4e8d4de23",
+   "source_entry_raw_hex": "f3 00 91 0c 75 ff f3 00 d1 0c 76 ff f1 02 0b 2c 35 59 4f b1 85 b6 9b a6 9f ab c8 d6 e8 b2 a8 bf 9a ab 9a c1 bb b1 00 ad c8 d6 a5 c9 85 e8 a6 c8 cf aa 85 9d b8 a6 9e bf eb e9 90 0b 41 78 1f b1 ad b8 d3 91 e8 90 11 3a 3d 00 17 1e 78 3a 91 e8 90 d9 cf e5 05 b1 a8 a7 c9 c2 91 eb e9 ac 9a 9b 04 aa b1 00 b6 9b a6 9f c9 e8 af a5 b7 c2 b7 a4 a8 88 88 88 eb e9 b2 c8 ae c8 b1 00 a1 c8 ac 9b b2 85 e8 aa 9a ab 9a c1 b1 d6 a5 c9 85 e8 d7 a2 ae 9a c1 b1 9e 00 c4 9e c0 b7 a6 c8 eb e9 d7 ad a8 9e 85 a7 9b a3 ae 00 cd 9f e5 05 9b c0 e5 05 a0 e8 9d b0 c9 9a a4 b7 a5 eb e9 a2 b1 00 9a bf 9a c7 00 9b a1 b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 58 ff ff ea ff 00 00",
+   "source_tpl_block_sha256": "a01233cafaa3f73f2781a9e882f0af3e4e592f36ba41302e3642e9c80c19101d",
+   "japanese_characters": 149,
+   "source_literals": [
+    "アメロッパの、ほうせきてんで\nはたらいているもの なんですが、\nせんじつ、おみせから",
+    "「アジーナのなみだ」\n「キング ストーン」\n「びじょのたそがれ」",
+    "という3つの ほうせきが\nぬすまれました・・・",
+    "はんにんの けんとうは、\nついているのですが、\nどこにいるのか わかりません",
+    "どなたか、そうさに ごきょうりょく\nおねがいします",
+    "この いらいを うけますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "아메롭파의 보석상에서\n일하는 사람입니다만\n얼마 전 가게에서",
+    "「아지나의 눈물」\n「킹 스톤」\n「미녀의 황혼」",
+    "이라는 보석 3개를\n도둑맞았습니다...",
+    "범인이 누군지는\n짐작이 가지만\n어디 있는지 모릅니다",
+    "누군가 수사에\n협력해 주세요",
+    "이 의뢰를 받겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 18,
+   "entry_id": "archive_u07E9970_entry_0018",
+   "source_entry_offset": 3673,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "3c6fd39a52cbb40194685174799ff81eb43ed5ae6068cbdf50be0fd63960395c",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 03 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "b6c3563eb730d77e02e5e72dbdc960b8a98f63a4e4466601ab56aa7f8d99fd1e",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS012 せつめい"
+   ],
+   "translated_literals": [
+    "BBS012 설명"
+   ]
+  },
+  {
+   "entry_index": 19,
+   "entry_id": "archive_u07E9970_entry_0019",
+   "source_entry_offset": 3691,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "e5fcc7d5ec753d824fc34348484d04f0e5412656c12d79e3a61fa323a0cc05c3",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 04 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "8d01306bfedceda85eafd6640cfeac1090ed2b5388d9c6fab9dcae4b85394a0d",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS013 せつめい"
+   ],
+   "translated_literals": [
+    "BBS013 설명"
+   ]
+  },
+  {
+   "entry_index": 20,
+   "entry_id": "archive_u07E9970_entry_0020",
+   "source_entry_offset": 3709,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "2bad9271cbbbd2f50399087b554f5b0addcd19ec08d4b6bf930fece2896839f5",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 05 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "c82d0689d057d8a166ff2b604aa628c8985652e751ca9e4d98a7b54bb33acea6",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS014 せつめい"
+   ],
+   "translated_literals": [
+    "BBS014 설명"
+   ]
+  },
+  {
+   "entry_index": 21,
+   "entry_id": "archive_u07E9970_entry_0021",
+   "source_entry_offset": 3727,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "e5129e5ec4ce61e7356e1b336fa194e8f720bfca1548a356d060892314d7dad3",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 06 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "8d09291c6ff9ec963f0927212556ff1ea3e355f70357601ccb9ac74b02b19d1e",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS015 せつめい"
+   ],
+   "translated_literals": [
+    "BBS015 설명"
+   ]
+  },
+  {
+   "entry_index": 22,
+   "entry_id": "archive_u07E9970_entry_0022",
+   "source_entry_offset": 3745,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "65e358598f79f8149b8499bd543ba351b7ca791fe5b06857ef8bdbeeb79e8d75",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 07 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "5f9898c86fd30754655247e24c78eadbb763ce67292452d9848852d7a87a3617",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS016 せつめい"
+   ],
+   "translated_literals": [
+    "BBS016 설명"
+   ]
+  },
+  {
+   "entry_index": 23,
+   "entry_id": "archive_u07E9970_entry_0023",
+   "source_entry_offset": 3763,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "1215953fcb26df7e989e60f4567fa70b8e8091b26a0330a957ab487b6b22c4de",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 08 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "ddcf08fe95a13453f7d4328d206db1256daa1af61ee580021aa057c73e97e2d2",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS017 せつめい"
+   ],
+   "translated_literals": [
+    "BBS017 설명"
+   ]
+  },
+  {
+   "entry_index": 24,
+   "entry_id": "archive_u07E9970_entry_0024",
+   "source_entry_offset": 3781,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "130c1149c697e34e2106225316388e9209d4993eccb59e989fc0270a065d707b",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 09 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "1857b1686de8d38a3320e99be9e0408ec12e9746cc1bced80e64e54d65a3b109",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS018 せつめい"
+   ],
+   "translated_literals": [
+    "BBS018 설명"
+   ]
+  },
+  {
+   "entry_index": 25,
+   "entry_id": "archive_u07E9970_entry_0025",
+   "source_entry_offset": 3799,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "2bbb49dd0847bdeccc8ab98738e8ddc3e2ee6c174052854f94830de1e9dca253",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 0a 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "9fb19361524bccb34a144925bba2813a3a6c89a96d8f627cbd47331d0b4c6dd1",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS019 せつめい"
+   ],
+   "translated_literals": [
+    "BBS019 설명"
+   ]
+  },
+  {
+   "entry_index": 26,
+   "entry_id": "archive_u07E9970_entry_0026",
+   "source_entry_offset": 3817,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "22a054e284020451f25f347c0527dcb5c947bf60995cd815c1b85d0bf0599fdc",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 5e 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "440baf88a46121a6ec67fdb0664812798fbbedb4ea0865bce5f1bfd855252b6b",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS01A せつめい"
+   ],
+   "translated_literals": [
+    "BBS01A 설명"
+   ]
+  },
+  {
+   "entry_index": 27,
+   "entry_id": "archive_u07E9970_entry_0027",
+   "source_entry_offset": 3835,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "ab12df47065b0c72a4076b2484914d2c689eb9d7c9527117228be2bf40a0e41d",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 5f 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "2ce06475a05c460304bc92affb9719fe1cee0133e86c749670dbc40f66e4630a",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS01B せつめい"
+   ],
+   "translated_literals": [
+    "BBS01B 설명"
+   ]
+  },
+  {
+   "entry_index": 28,
+   "entry_id": "archive_u07E9970_entry_0028",
+   "source_entry_offset": 3853,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "5e5e3de7a624937603a207acff9e52fcdec05fbb9c0f8183de0942586347ea58",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 60 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "01edbbbced84d8a2a3adb545f671f5400a0d89cb59a433c8d59defc21ab3aa30",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS01C せつめい"
+   ],
+   "translated_literals": [
+    "BBS01C 설명"
+   ]
+  },
+  {
+   "entry_index": 29,
+   "entry_id": "archive_u07E9970_entry_0029",
+   "source_entry_offset": 3871,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "7445ba21e687d75e0c6878b27d6567278b9150bc961bb7e592594d1d4241035b",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 61 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "2624e50fe44c5dec497da9d5f7e5656538ce9b959f55f3b0fc4a6e2ff4325aed",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS01D せつめい"
+   ],
+   "translated_literals": [
+    "BBS01D 설명"
+   ]
+  },
+  {
+   "entry_index": 30,
+   "entry_id": "archive_u07E9970_entry_0030",
+   "source_entry_offset": 3889,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "d94b5043be61a1c95fac6bb27c2b9200c88130360806e5ac9d137ed0b38bc6f4",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 62 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "b5812d2234d04d9e36c0ad700c1bf09e18f71a9fbc56fa6fec39f796f7aeef29",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS01E せつめい"
+   ],
+   "translated_literals": [
+    "BBS01E 설명"
+   ]
+  },
+  {
+   "entry_index": 31,
+   "entry_id": "archive_u07E9970_entry_0031",
+   "source_entry_offset": 3907,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "8538692c4622428c900309c64c9e66c5315ee70009b8d727ec56278187f00971",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 02 63 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "028ca00348d9db51c4cd0f9f72771ad51a3d722419203a1950cd13eee723a099",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS01F せつめい"
+   ],
+   "translated_literals": [
+    "BBS01F 설명"
+   ]
+  },
+  {
+   "entry_index": 32,
+   "entry_id": "archive_u07E9970_entry_0032",
+   "source_entry_offset": 3925,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "c7b4f0de822f04bcc0df96e81333b4b772c11aca52d5024b278bb0e6c80be3ad",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 01 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "0082a7b9b0ddd065117f1b6ad37a7ea8807516c982539aa2b989e46eb0377ce4",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS020 せつめい"
+   ],
+   "translated_literals": [
+    "BBS020 설명"
+   ]
+  },
+  {
+   "entry_index": 33,
+   "entry_id": "archive_u07E9970_entry_0033",
+   "source_entry_offset": 3943,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "508b3582cee08ce8ce53d2ffe3970bfb76d7a6913a203673e1257e6f6bd1d3b6",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 02 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "65b940359e4a44257935e96709e202cb435f4e3aa4ce513c08a6adc57f72a5a8",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS021 せつめい"
+   ],
+   "translated_literals": [
+    "BBS021 설명"
+   ]
+  },
+  {
+   "entry_index": 34,
+   "entry_id": "archive_u07E9970_entry_0034",
+   "source_entry_offset": 3961,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "a7aaf3b1bd251887ea39a55ebea70816f76a5032effcd8c2b684d1017f85e432",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 03 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "774ed8447cec11aec2753507d9aadab9e6d37179029e7b489b5c5b73405eb566",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS022 せつめい"
+   ],
+   "translated_literals": [
+    "BBS022 설명"
+   ]
+  },
+  {
+   "entry_index": 35,
+   "entry_id": "archive_u07E9970_entry_0035",
+   "source_entry_offset": 3979,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "9c22cbc26e1596f39e4161b26da69b81f43d6a7ebde7adb7f2b3e11f42c6de94",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 04 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "c21878476ea2b4b9c394b1fe7453951f632bb469350e1eb4aee778a39c2eb9b0",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS023 せつめい"
+   ],
+   "translated_literals": [
+    "BBS023 설명"
+   ]
+  },
+  {
+   "entry_index": 36,
+   "entry_id": "archive_u07E9970_entry_0036",
+   "source_entry_offset": 3997,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "241fd1943ce4824afab086f1cbd77620ee4adc8aae2e9e21d9a578bb59c80327",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 05 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "cfd6e24d1174be4720846cb45a480c3927bfc33b6fda4737bbc1a3303b746688",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS024 せつめい"
+   ],
+   "translated_literals": [
+    "BBS024 설명"
+   ]
+  },
+  {
+   "entry_index": 37,
+   "entry_id": "archive_u07E9970_entry_0037",
+   "source_entry_offset": 4015,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "8294ac0db228cd317785b930d5640f9273df3526a1638b813c9299ec06a28144",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 06 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "b0b7dc7c9b9a69eb81c5cfdde25945e00dd3a49c731d9480ee591e10538eb776",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS025 せつめい"
+   ],
+   "translated_literals": [
+    "BBS025 설명"
+   ]
+  },
+  {
+   "entry_index": 38,
+   "entry_id": "archive_u07E9970_entry_0038",
+   "source_entry_offset": 4033,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "a4dd22b4e11d1f95772163b898d37ca741e46adc82a7014cc95df396d74e1e6b",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 07 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "908b54cad92cc174f967d1a530fe15488b48962cdbe4329e4461d8ac04bdf0fe",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS026 せつめい"
+   ],
+   "translated_literals": [
+    "BBS026 설명"
+   ]
+  },
+  {
+   "entry_index": 39,
+   "entry_id": "archive_u07E9970_entry_0039",
+   "source_entry_offset": 4051,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "f90655996f579cbed8200fc4428ab94f3c309c1be79be17e56787eb13ef63c70",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 08 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "3f7252efbc41a8dff5c831fa3fdf3fd4c837f7b587d791f4d6c0c0a7eb2dd93c",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS027 せつめい"
+   ],
+   "translated_literals": [
+    "BBS027 설명"
+   ]
+  },
+  {
+   "entry_index": 40,
+   "entry_id": "archive_u07E9970_entry_0040",
+   "source_entry_offset": 4069,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "d95523b25807f40bc42408be06f2ff012eb80ca32b273a36b1478e02947882b6",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 09 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "817ea3a185dd6ee4c4449fa630b54d01ddf3799faba2a333ab064b15bf9a86aa",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS028 せつめい"
+   ],
+   "translated_literals": [
+    "BBS028 설명"
+   ]
+  },
+  {
+   "entry_index": 41,
+   "entry_id": "archive_u07E9970_entry_0041",
+   "source_entry_offset": 4087,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "07dcc3b31732f10e15283b08a83604bd11d7f1dc241ea9e61277d73dc4bf5c2a",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 0a 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "7827c37688a897169e4923cdcee2478b1751e31e83da41756fdd5032e7d09f4b",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS029 せつめい"
+   ],
+   "translated_literals": [
+    "BBS029 설명"
+   ]
+  },
+  {
+   "entry_index": 42,
+   "entry_id": "archive_u07E9970_entry_0042",
+   "source_entry_offset": 4105,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "e4e4e724a3a8733fccab96d210d147a8861e21505b8e1d3fe929ab9a18bd44f9",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 5e 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "90b276846e2d75aac3d44d22d731cbd9da9dcab2e3265b5298770978e6ac05a3",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS02A せつめい"
+   ],
+   "translated_literals": [
+    "BBS02A 설명"
+   ]
+  },
+  {
+   "entry_index": 43,
+   "entry_id": "archive_u07E9970_entry_0043",
+   "source_entry_offset": 4123,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "cad8074ca44646692decc1a29d334c746761a18c6c9eceb53a42f8c61cc13e95",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 5f 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "1eefffdbb97701c8ec7cef3a89f0c6c8804a260312861edaa63736c5d4b51388",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS02B せつめい"
+   ],
+   "translated_literals": [
+    "BBS02B 설명"
+   ]
+  },
+  {
+   "entry_index": 44,
+   "entry_id": "archive_u07E9970_entry_0044",
+   "source_entry_offset": 4141,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "7e28bbf38cec96e8c46179825883d711472c46db0bd34534add0ea8e22e21928",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 60 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "68530acae1d0fabddcfe6d85a91f00a229e6a67a72122de0bce66de1cff48c64",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS02C せつめい"
+   ],
+   "translated_literals": [
+    "BBS02C 설명"
+   ]
+  },
+  {
+   "entry_index": 45,
+   "entry_id": "archive_u07E9970_entry_0045",
+   "source_entry_offset": 4159,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "31f81a42755c54247408849aafb78aa305b45e713c8ce4b2b92cc4f69bbc87db",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 61 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "8a7a46a18deeb96391a3338f4774dcb0c097763a44ed462ed398a3f9934d18c0",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS02D せつめい"
+   ],
+   "translated_literals": [
+    "BBS02D 설명"
+   ]
+  },
+  {
+   "entry_index": 46,
+   "entry_id": "archive_u07E9970_entry_0046",
+   "source_entry_offset": 4177,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "843cb8de4ce438db6450cc12fce3dae2441806dc0df7d2549fb165d2f7c11e43",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 62 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "0110c1e49867df47574025b0e170fdbf259a8132d412d745d15e3ec1f4a598df",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS02E せつめい"
+   ],
+   "translated_literals": [
+    "BBS02E 설명"
+   ]
+  },
+  {
+   "entry_index": 47,
+   "entry_id": "archive_u07E9970_entry_0047",
+   "source_entry_offset": 4195,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "f382bf520cec8fb75d2226be3052a3002d4ce42ce906a18065c40319f50defca",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 03 63 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "ac5ca060a8b9b56e95873f18ac30ec37f4461ef2421f8d69607dccf91d996dcc",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS02F せつめい"
+   ],
+   "translated_literals": [
+    "BBS02F 설명"
+   ]
+  },
+  {
+   "entry_index": 48,
+   "entry_id": "archive_u07E9970_entry_0048",
+   "source_entry_offset": 4213,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "ddfb0f50e32337cd92dc61837b0529b3281c99f74c18ef1ccaeeda8f9245a847",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 01 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "9f1f6e8e6e00eee831fc085d48059e07fec087d9d65248add374c134f3df58a6",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS030 せつめい"
+   ],
+   "translated_literals": [
+    "BBS030 설명"
+   ]
+  },
+  {
+   "entry_index": 49,
+   "entry_id": "archive_u07E9970_entry_0049",
+   "source_entry_offset": 4231,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "b51f770a210b32d68ad913ae17b7cabb2d85870e045c84080d77239da1290b8e",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 02 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "097156775661cbd8ab08f4f42bc866d75e84f13a5e619befb20fc43d25190526",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS031 せつめい"
+   ],
+   "translated_literals": [
+    "BBS031 설명"
+   ]
+  },
+  {
+   "entry_index": 50,
+   "entry_id": "archive_u07E9970_entry_0050",
+   "source_entry_offset": 4249,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "6430a0738f034a38ef3de0048ee611b6036d4bd4d7a8be383050d589032a14c6",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 03 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "13d3b5e375a8246da61fd36a6c633a2ab8d6a425098742d07c96582f33d25ddb",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS032 せつめい"
+   ],
+   "translated_literals": [
+    "BBS032 설명"
+   ]
+  },
+  {
+   "entry_index": 51,
+   "entry_id": "archive_u07E9970_entry_0051",
+   "source_entry_offset": 4267,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "afe4852a5c90278296389b3894a976d2929aaaa3869a6bf880b0d13193a3c07a",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 04 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "0a76cf6ff026b97308a6c522ff7fa30f296602405ea14109913118fd6e9bddf1",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS033 せつめい"
+   ],
+   "translated_literals": [
+    "BBS033 설명"
+   ]
+  },
+  {
+   "entry_index": 52,
+   "entry_id": "archive_u07E9970_entry_0052",
+   "source_entry_offset": 4285,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "046a11f6515f6801ffe742ae9a27e2468aceebb26dc511f2f57fdd73a12c1ee5",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 05 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "dfdaf3793c1f42793a0cac29e247842593e2934522a7561c341260f266974ada",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS034 せつめい"
+   ],
+   "translated_literals": [
+    "BBS034 설명"
+   ]
+  },
+  {
+   "entry_index": 53,
+   "entry_id": "archive_u07E9970_entry_0053",
+   "source_entry_offset": 4303,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "8b7b844bfafbda27eec44f6f0536fc23509de89f1ca64d9ab9358c1a5f5e4927",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 06 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "61f48504c0601fad72ede3b010e80931103485fc8067f74240a2809a6ce8348b",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS035 せつめい"
+   ],
+   "translated_literals": [
+    "BBS035 설명"
+   ]
+  },
+  {
+   "entry_index": 54,
+   "entry_id": "archive_u07E9970_entry_0054",
+   "source_entry_offset": 4321,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "9a1464024dab529476c2345a08667b52eb2e549f2dccc2fa9d3b571ece72608a",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 07 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "aa2cd2012a3d6f96388b3fc716b19adf47393a6e1f776686d9e972f617e6d0a0",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS036 せつめい"
+   ],
+   "translated_literals": [
+    "BBS036 설명"
+   ]
+  },
+  {
+   "entry_index": 55,
+   "entry_id": "archive_u07E9970_entry_0055",
+   "source_entry_offset": 4339,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "c8963d6cf9c47bc59aa835173b4fb1dc814113b2c9c6a36075066eb852f7862b",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 08 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "c9d865dfb60876515ad5279fc7dcdf8226fb1ac9aa227391fd06c0a3b8b3d2b7",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS037 せつめい"
+   ],
+   "translated_literals": [
+    "BBS037 설명"
+   ]
+  },
+  {
+   "entry_index": 56,
+   "entry_id": "archive_u07E9970_entry_0056",
+   "source_entry_offset": 4357,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "7816729fe3d1c75d8bafeb1279cb3c54404e695046633db79ef0f267c6938c4b",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 09 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "a99f1f25b3a68da53912460204eebe8865e72f28c380614fdab1e9b83a0d4d41",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS038 せつめい"
+   ],
+   "translated_literals": [
+    "BBS038 설명"
+   ]
+  },
+  {
+   "entry_index": 57,
+   "entry_id": "archive_u07E9970_entry_0057",
+   "source_entry_offset": 4375,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "a22abf1a7b6a700ea14e4a8ad14a135a9d43a8314045106aea0f654d7cd1313e",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 0a 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "3d6d5194f1edf210df93f952079f774e2e07ca1f21758077e1ae315760276efc",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS039 せつめい"
+   ],
+   "translated_literals": [
+    "BBS039 설명"
+   ]
+  },
+  {
+   "entry_index": 58,
+   "entry_id": "archive_u07E9970_entry_0058",
+   "source_entry_offset": 4393,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "6d64f388bc34ab94b93e794b59343522faa52fe93c872bd589b1598191276635",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 5e 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "06dc542bd914f1456a90e0ffc1d31ce735ba7a82c2462b69b0ea76762e70c584",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS03A せつめい"
+   ],
+   "translated_literals": [
+    "BBS03A 설명"
+   ]
+  },
+  {
+   "entry_index": 59,
+   "entry_id": "archive_u07E9970_entry_0059",
+   "source_entry_offset": 4411,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "5b7302f435ac47055cd65ccc59b0f8e2b6e02c0974e9899a33c6b74c7d70ebb9",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 5f 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "2b04c1eea24bde3de2e5b81c3a8a931f4495b4aab2782b514ac6b4f427dc3a46",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS03B せつめい"
+   ],
+   "translated_literals": [
+    "BBS03B 설명"
+   ]
+  },
+  {
+   "entry_index": 60,
+   "entry_id": "archive_u07E9970_entry_0060",
+   "source_entry_offset": 4429,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "b299d69c631aea78ff37f50cd4639892a9c5f02b2851dcee1a797c08bc597884",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 60 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "7edbb4e765753c7ae1604b296c593a5baa1c6a51e50ed0a03f4cd675c53fe385",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS03C せつめい"
+   ],
+   "translated_literals": [
+    "BBS03C 설명"
+   ]
+  },
+  {
+   "entry_index": 61,
+   "entry_id": "archive_u07E9970_entry_0061",
+   "source_entry_offset": 4447,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "8a2c297db02683ad719f3e1f40774659d55bd83beb6b891b2253939b45888fcb",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 61 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "01347b8bfd015deaea4de98de0a7692e06073401b51729229fe8e7360e1d96af",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS03D せつめい"
+   ],
+   "translated_literals": [
+    "BBS03D 설명"
+   ]
+  },
+  {
+   "entry_index": 62,
+   "entry_id": "archive_u07E9970_entry_0062",
+   "source_entry_offset": 4465,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "fc558a5e11f4591b287a98abec80c6d3a1dd2f519f916dcd75a46c8be0bdda28",
+   "source_entry_raw_hex": "f1 02 5f 5f 70 01 04 62 00 a6 aa ba 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "c9221e6183fb3190f1ac6cfd4d7e3217a2546ad846e3c0490ee5413d378aecda",
+   "japanese_characters": 4,
+   "source_literals": [
+    "BBS03E せつめい"
+   ],
+   "translated_literals": [
+    "BBS03E 설명"
+   ]
+  },
+  {
+   "entry_index": 64,
+   "entry_id": "archive_u07E9970_entry_0064",
+   "source_entry_offset": 4489,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "70fd2e9b63778362971c1c7680b62654a180d80de0f52e59452a131688739683",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 c0 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "5c36839bc135854d6e4e4708f8b959ddfe9f0a34bf13dc85fc050b416b2a42ae",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 65,
+   "entry_id": "archive_u07E9970_entry_0065",
+   "source_entry_offset": 4519,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "5fa49b659fa23ce9135d603624e40aba4215f7bb810fa2324f73918947c40e7e",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 c1 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "a52bc471c50872a23a239fffbe5b5957eedd2a937906bff4e1fb93b3f21891ef",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 66,
+   "entry_id": "archive_u07E9970_entry_0066",
+   "source_entry_offset": 4549,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "4586ed6404d7e935def41912951dc8e701db2819dc2ff905eb970df9c1c700ce",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 c2 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "50eea5a491c3e9d789eba86c9012018c3128715224adee93cf5b50cc9c34880b",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 67,
+   "entry_id": "archive_u07E9970_entry_0067",
+   "source_entry_offset": 4579,
+   "source_entry_byte_length": 78,
+   "source_entry_sha256": "f3e223adeeff45b09cda2460a117561d37596d567b14d547900caad19b2387e0",
+   "source_entry_raw_hex": "f1 02 9a bf 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 b1 d6 e8 a2 b1 9a bf 9a c7 00 9b a1 c1 14 1e b2 d6 9f b7 a6 c8 eb e9 cc c8 ce 9a 00 9b a1 9d e5 02 ab 9a c1 00 9a bf 9a c7 e8 9e 9a a1 aa a4 ab 9e bf 00 9f ab a0 d3 a3 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "019404b025fcc0bb9a26a050415d613912a4397f9719afba55d3512514163509",
+   "japanese_characters": 60,
+   "source_literals": [
+    "いらいじっこうちゅうですので\nこのいらいを うけるコトはできません",
+    "げんざい うけおっている いらいを\nかいけつしてから きてください"
+   ],
+   "translated_literals": [
+    "다른 의뢰를 수행 중이므로\n이 의뢰는 받을 수 없습니다",
+    "지금 맡고 있는 의뢰를\n해결한 뒤에 와 주세요"
+   ]
+  },
+  {
+   "entry_index": 68,
+   "entry_id": "archive_u07E9970_entry_0068",
+   "source_entry_offset": 4657,
+   "source_entry_byte_length": 100,
+   "source_entry_sha256": "33909fb312815ac921fd13350826dd591a1cc999431c0105732e5e86ba49eab5",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 a8 9a a4 a8 85 4a 17 1d 55 3a 3d 1d 12 20 59 12 d6 a5 eb e9 ad 9e ad 9e 00 b8 a2 b8 b1 99 c1 e8 a4 e5 05 9b b0 c8 d6 a5 b0 eb e9 bb e5 02 ac 00 a1 9a a1 c8 c7 aa ba d8 e8 be 9a 22 59 1e 4a 1e 31 78 ae 00 ad c2 c1 d6 a4 e5 05 9b eb ea ff 00 00",
+   "source_tpl_block_sha256": "90a079799f66aa93788e822f6ed6d856330f87192b444f05c63aa33adfc07f35",
+   "japanese_characters": 75,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "たいした、バスティングテクニックです",
+    "なかなか みこみのある\nしょうねんですね",
+    "もっと けいけんをつめば\nよいネットバトラーに なれるでしょう"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "대단한 버스팅 테크닉입니다",
+    "꽤 장래가 촉망되는\n소년이군요",
+    "경험을 더 쌓으면\n좋은 넷배틀러가 될 겁니다"
+   ]
+  },
+  {
+   "entry_index": 69,
+   "entry_id": "archive_u07E9970_entry_0069",
+   "source_entry_offset": 4757,
+   "source_entry_byte_length": 48,
+   "source_entry_sha256": "d38d63f4d1e9aadba08e055a90188f94b2b075542f85c2d1bea23a27b150955e",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 00 e5 c5 e5 c6 e5 c7 eb ea ff 00 00",
+   "source_tpl_block_sha256": "661821d9c830936d03c2e4d9b2b15110abdec0a99a017d54a12d52be7f89cefb",
+   "japanese_characters": 30,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ 秋原町"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소 아키하라 마을"
+   ]
+  },
+  {
+   "entry_index": 70,
+   "entry_id": "archive_u07E9970_entry_0070",
+   "source_entry_offset": 4805,
+   "source_entry_byte_length": 72,
+   "source_entry_sha256": "f81898fe2ba3113c8d4b5c1f10e1e0247da0723a975ce6fb4c7d727263969512",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 cf c8 a7 a0 ad 85 0f 52 34 78 16 5c 3a c9 d6 9f c1 e8 a4 e5 05 9b b0 c8 d6 a5 eb e9 a2 c2 9e bf b1 00 a6 9a a9 e5 05 9b c9 e8 a8 b1 a4 b8 d6 a5 eb ea ff 00 00",
+   "source_tpl_block_sha256": "de54d5253f35f9aaf8a4fec299ffae29695ec421ceeb6270fa7b6991b7b76522",
+   "japanese_characters": 52,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "じんそくな、オペレーションができる\nしょうねんです",
+    "これからの せいちょうが\nたのしみです"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "신속한 오퍼레이션을 할 줄 아는\n소년입니다",
+    "앞으로의 성장이\n기대됩니다"
+   ]
+  },
+  {
+   "entry_index": 71,
+   "entry_id": "archive_u07E9970_entry_0071",
+   "source_entry_offset": 4877,
+   "source_entry_byte_length": 50,
+   "source_entry_sha256": "a17e3175dcff4be8cea015b748ff3728c91fde870bbbcb8979811d41c511d909",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 00 14 1e 4c 11 17 12 0e 0b eb ea ff 00 00",
+   "source_tpl_block_sha256": "322f7ad39f05c45149fcb761bb1350a4f8bf0689a0c29f88fab7175a7bfd0f65",
+   "japanese_characters": 35,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ コトブキスクエア"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소 코토부키 스퀘어"
+   ]
+  },
+  {
+   "entry_index": 72,
+   "entry_id": "archive_u07E9970_entry_0072",
+   "source_entry_offset": 4927,
+   "source_entry_byte_length": 70,
+   "source_entry_sha256": "5d4a76834b9d55be3ac75c5bbf410307479f3acb4e7ce6f4a398d7e5385c6c5e",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 9e c8 a3 aa c9 c8 b1 00 17 33 49 0c a4 e5 05 9b b0 c8 d6 a5 e8 a2 c2 9e bf bb 85 9f e5 02 ac 00 be 9a 16 3f 1e c7 e8 a5 c1 d6 a4 e5 05 9b eb ea ff 00 00",
+   "source_tpl_block_sha256": "afe478c043f5e5ba8edf8422e44f0b6e1f8bcd224afd853c3f06665abf937b57",
+   "japanese_characters": 50,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "かんさつがんの スルドイしょうねんです\nこれからも、きっと よいシゴトを\nするでしょう"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "관찰력이 날카로운 소년입니다\n앞으로도 분명 좋은 일을\n해낼 겁니다"
+   ]
+  },
+  {
+   "entry_index": 73,
+   "entry_id": "archive_u07E9970_entry_0073",
+   "source_entry_offset": 4997,
+   "source_entry_byte_length": 50,
+   "source_entry_sha256": "a865f34a7695b4683c7f82dec4ffde752ddf3fa6fbbf94668dbfe6e2c85264d0",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 00 11 5a 3a 51 cf e5 05 9b eb ea ff 00 00",
+   "source_tpl_block_sha256": "4ca6f7411cfec04c7551efcbd780894c1437cdb0107c12ac90ee90047b0d1c13",
+   "japanese_characters": 34,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ キャンプじょう"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소 캠핑장"
+   ]
+  },
+  {
+   "entry_index": 74,
+   "entry_id": "archive_u07E9970_entry_0074",
+   "source_entry_offset": 5047,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "6000bb55cc7537cd17688ab9487c627f799cb548ea598e61eaf5529a1a1366c6",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 c3 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "26f1819ca311f2f65bf9a630e2d500db88e61f78910c1f796f8699a94d037815",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 75,
+   "entry_id": "archive_u07E9970_entry_0075",
+   "source_entry_offset": 5077,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "3c3c808fa56b6ac59daba53770d54f9a06828cbeca382126323d8b7dacfddadb",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 c4 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "273549117f1a8358679c834ff51b66459102321039fe4bc6c1be720bfc3ff41f",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 76,
+   "entry_id": "archive_u07E9970_entry_0076",
+   "source_entry_offset": 5107,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "8e253f4bac46671f4f16405b4b1a1e87f93ea67d40a497c053afdf7c6b68f790",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 c5 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "83d753af7e24472b0c6a2f8f99abcc8b5fdbb8a591ed79fc3db4196b0b160351",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 77,
+   "entry_id": "archive_u07E9970_entry_0077",
+   "source_entry_offset": 5137,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "4a865d2ddc763b9bece5f3f709db05ef16a8ab3bed97b50e43ec178613fbdf59",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 c6 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "b4433e1de8e5726997887fba9a238f779c24773be128278f1226e1eb80b5b080",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 78,
+   "entry_id": "archive_u07E9970_entry_0078",
+   "source_entry_offset": 5167,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "8bea9ba5aba554f67813234eaf471731e4a363c982528e5c39bb6f7940e5d320",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 c7 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "18bfb4154fc7e07219566babf8c232bd6e87d2d0ac1d2905ca515a1b625d56bf",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 79,
+   "entry_id": "archive_u07E9970_entry_0079",
+   "source_entry_offset": 5197,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "09cc1e5920e6e7d942676dee3783f2a1874b5b72039d71dd07a5b5a6228bf7e2",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 c8 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "77b8fbf41514f5b406a8d5e91466816aa1462d46f118780e139a52060a0ac3d3",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 80,
+   "entry_id": "archive_u07E9970_entry_0080",
+   "source_entry_offset": 5227,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "e3173e263da5bc8bddf244caebb5f117bdf71626241112a2a9e034a417b4579e",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 c9 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "f56ef43ae57a95e2a7c04fd7b44ba5935459750207baf7eb153c3d34ce634a4a",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 81,
+   "entry_id": "archive_u07E9970_entry_0081",
+   "source_entry_offset": 5257,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "aa89884bbcdd1f7ffe70c31613022ec8f822afc19b3e7d1dcd19207201080069",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 ca 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "52e2c388669c3bb51db4074f565be847eb552a898eb52cbb405bd6798f95fde8",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 82,
+   "entry_id": "archive_u07E9970_entry_0082",
+   "source_entry_offset": 5287,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "ce71cf4a986c509e765bee539bd1ac9991c9ed44625633d7c0f66d12bf52a62b",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 cb 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "aac184f11459996d0fc9f2d218c822af59f558edca9b5c22806e94e708771e28",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 83,
+   "entry_id": "archive_u07E9970_entry_0083",
+   "source_entry_offset": 5317,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "d2b411f80592ff029e7e96306a949de458e75c994e4696fcf9a3156fbf728e77",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 cc 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "c2cf8b12612a02b0dcafdfd0befe03698b216c7ff03a5fffc1d24c21ed936fd5",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 84,
+   "entry_id": "archive_u07E9970_entry_0084",
+   "source_entry_offset": 5347,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "4434f700504f29104b35b9cacd77cbdf6e2327624592daa1d863c8b2736a8cd7",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 cd 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "acf9f848ba8a9c9bf8efdd736d94933237fcc9ff727a528e091f6ae887861790",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 85,
+   "entry_id": "archive_u07E9970_entry_0085",
+   "source_entry_offset": 5377,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "dc564296451f8073efaa1064fa5fa09a27d22568f93f0b00c9dbacc2a099aca4",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 ce 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "9768cb86058cf44a07248e8490c878ad3120a57b272595962e354877f3bc9dcd",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 86,
+   "entry_id": "archive_u07E9970_entry_0086",
+   "source_entry_offset": 5407,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "587813f757202262762256cddd05f4cfbc9781a623af10772f8b68ab99410776",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 cf 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "1631bda01b1f15a7b9c7900e40336531ba59083d8c65ba019ec6e0473122fb9b",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 87,
+   "entry_id": "archive_u07E9970_entry_0087",
+   "source_entry_offset": 5437,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "e35492b009c66df91968dfd51f9431b145958a62b64d2b8b84d7886022a5d402",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 d0 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "d3f9c19743d0fe7da30544ae9f8396786c157249b677587b7f6eaeeb30d5304b",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 88,
+   "entry_id": "archive_u07E9970_entry_0088",
+   "source_entry_offset": 5467,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "3df2967e56dbcf06b541d47f8b716e74a51524522edde6e93aa732b88806dbfe",
+   "source_entry_raw_hex": "f3 00 52 00 43 ff f2 00 d1 0c f2 00 52 00 f1 02 9a bf 9a c7 9b a1 b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "8c47511ea3a468ffd963ed4c53e21df16f48134b7d09956f52c2654143b1b235",
+   "japanese_characters": 9,
+   "source_literals": [
+    "いらいをうけました"
+   ],
+   "translated_literals": [
+    "의뢰를 받았습니다"
+   ]
+  },
+  {
+   "entry_index": 89,
+   "entry_id": "archive_u07E9970_entry_0089",
+   "source_entry_offset": 5497,
+   "source_entry_byte_length": 51,
+   "source_entry_sha256": "1a0a46941af41067f70a1e8fdd20f4816dbf095b3c375ec6f7592fe4da7c0a61",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 e5 72 a0 c8 85 99 c0 c9 ac 9b e8 e5 72 a0 c8 e5 02 ab bc e5 02 dd c0 17 3f 9a b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "545618ad2aa6f67aa1f65e0ef7e0351cd64b607b4b9183f9ebcb52ca092f4ea1",
+   "japanese_characters": 33,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "光くん、ありがとう\n光くんってやっぱりスゴいね"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "히카리、 고마워\n히카리는 역시 대단해"
+   ]
+  },
+  {
+   "entry_index": 90,
+   "entry_id": "archive_u07E9970_entry_0090",
+   "source_entry_offset": 5548,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "8484388da4c50944bc004ce8971e7849d1ea9a0a2f0c059337a96225f252b500",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 00 e5 c5 e5 c6 e5 c7 00 c9 e5 02 a2 9b eb ea ff 00 00",
+   "source_tpl_block_sha256": "0ad96bdaef15e1676df9ac0b12a19615c96c533f8596a8dd99fc41375b00a110",
+   "japanese_characters": 34,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ 秋原町 がっこう"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소 아키하라 마을 학교"
+   ]
+  },
+  {
+   "entry_index": 91,
+   "entry_id": "archive_u07E9970_entry_0091",
+   "source_entry_offset": 5602,
+   "source_entry_byte_length": 74,
+   "source_entry_sha256": "56f356a42185e4f9259c78901155c53e9adca66a9958e5b46ec561a305a45a67",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 a2 c8 9e 9a b1 00 9a bf 9a b2 85 e8 ad 9e ad 9e 28 22 b1 99 c1 c4 9e bb b1 c9 e8 9e 9a a1 aa a4 ab a0 c2 a8 eb e9 a4 e5 05 9b bf 9a c9 a8 b1 a4 b8 d3 eb ea ff 00 00",
+   "source_tpl_block_sha256": "ee13c64412120389f855ad7d055be6f216fa3f037b45c997d546896a2e175421",
+   "japanese_characters": 55,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "こんかいの いらいは、\nなかなかホネのあるわかものが\nかいけつしてくれた",
+    "しょうらいがたのしみだ"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "이번 의뢰는\n꽤 근성 있는 젊은이가\n해결해 주었다",
+    "장래가 기대되는군"
+   ]
+  },
+  {
+   "entry_index": 92,
+   "entry_id": "archive_u07E9970_entry_0092",
+   "source_entry_offset": 5676,
+   "source_entry_byte_length": 51,
+   "source_entry_sha256": "6357bb9bdaf5fc401df091ac1321c45084c32a54f581fb84787b2542aaf24ec8",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 00 9b b8 b1 b8 9c c1 10 26 57 eb ea ff 00 00",
+   "source_tpl_block_sha256": "f523ec6ee6e49b2fbe7cfb5b6215bfe1a6457fa8508a024085a222f6d643eb0f",
+   "japanese_characters": 36,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ うみのみえるカフェ"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소 바다가 보이는 카페"
+   ]
+  },
+  {
+   "entry_index": 93,
+   "entry_id": "archive_u07E9970_entry_0093",
+   "source_entry_offset": 5727,
+   "source_entry_byte_length": 143,
+   "source_entry_sha256": "a32216e8d80a8903793c863ab930d699f9665d80c057dd609f223f1529e0140d",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 c4 a8 a4 e5 03 85 0d 0c 33 17 4a 17 1d 55 3a 3d ad c8 ab e8 a3 e5 02 dd c0 c4 9e bf ad 9a 9e bf b0 eb e9 cf da c8 d6 1b 59 51 c7 99 aa ba a8 c0 e8 a4 a8 14 1e ad 9a a1 d7 85 eb e9 a2 c8 9e 9a b8 a8 9a ae a4 c8 a6 aa ad 25 1e ae e8 c4 a1 ab bb bf 9b e5 02 ab b1 bb e8 1b 59 51 99 aa ba b1 00 b6 9b b6 9b b1 25 1e 1c d3 b0 eb e9 dc 9b bc 85 99 c0 c9 ac 9b b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "bb45df55a2a1eea723a1d00fcff5293a6b90a1dbc021a92588cc3d54aa8f659a",
+   "japanese_characters": 114,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "わたしゃ、ウイルスバスティングなんて\nさっぱりわからないからね",
+    "じぶんでチップをあつめたり\nしたコトないけど、",
+    "こんかいみたいにしんせつなヒトに\nわけてもらうってのも\nチップあつめの ほうほうのヒトツだね",
+    "ぼうや、ありがとうね"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "난 바이러스 버스팅 같은 건\n하나도 모르거든",
+    "직접 칩을 모아 본\n적은 없지만、",
+    "이번처럼 친절한 사람에게\n나눠 받는 것도\n칩을 모으는 방법 중 하나구나",
+    "얘야、 고마웠단다"
+   ]
+  },
+  {
+   "entry_index": 94,
+   "entry_id": "archive_u07E9970_entry_0094",
+   "source_entry_offset": 5870,
+   "source_entry_byte_length": 55,
+   "source_entry_sha256": "e701544e7ada28d8832b5dbc0b71bf6d259fd452c6fe585f6afe6ba3d50cba90",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 e8 0f 26 55 16 5a 33 18 3a 1a 78 35 4b 78 eb ea ff 00 00",
+   "source_tpl_block_sha256": "33811c679a674321bed89dcc68b3d4b898b9c8abce054b0630be571271086374",
+   "japanese_characters": 40,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ\nオフィシャルセンターロビー"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소\n오피셜 센터 로비"
+   ]
+  },
+  {
+   "entry_index": 95,
+   "entry_id": "archive_u07E9970_entry_0095",
+   "source_entry_offset": 5925,
+   "source_entry_byte_length": 95,
+   "source_entry_sha256": "40943dc711e29a4191b90f8ba4df29b59aafdf52b89758fa8e179cd42a9b9dc1",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 99 da ad 9a 1e 14 35 c7 a8 a5 a1 ab 9a a8 d3 9f e8 99 c0 c9 ac 9b cd ce 9a b7 a4 a8 eb e9 36 1a 16 bb 00 a4 e5 04 9b c2 c8 c7 aa c8 d6 85 e8 0b 12 ae a0 e5 02 a4 ad 9a 1b 10 31 c7 e8 aa a1 a8 9a ac 9d bb 9a b7 a5 eb ea ff 00 00",
+   "source_tpl_block_sha256": "cc3cf8caefd51ed7daff0ff8961a806b11c17c6e5524f3855b714da4906a898c",
+   "japanese_characters": 74,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "あぶないトコロをたすけていただき\nありがとうございました",
+    "ワタシも しゅうれんをつんで、\nアクにくっしないチカラを\nつけたいとおもいます"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "위험한 순간에 도와주셔서\n감사했습니다",
+    "저도 수련을 쌓아서\n악에 굴하지 않는 힘을\n기르고 싶습니다"
+   ]
+  },
+  {
+   "entry_index": 96,
+   "entry_id": "archive_u07E9970_entry_0096",
+   "source_entry_offset": 6020,
+   "source_entry_byte_length": 53,
+   "source_entry_sha256": "d921361ee1106d500bc1af5ccd3745583d4fd4fdfcd385353e881ccba3642967",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 e8 99 c1 00 48 3a 36 b1 e5 73 e5 61 eb ea ff 00 00",
+   "source_tpl_block_sha256": "cedc4f58e8cf6346eb8a248e4752b470c4da9c506835f518358ffef0f2673cc7",
+   "japanese_characters": 35,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ\nある デンワの電脳"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소\n어느 전화의 전뇌"
+   ]
+  },
+  {
+   "entry_index": 97,
+   "entry_id": "archive_u07E9970_entry_0097",
+   "source_entry_offset": 6073,
+   "source_entry_byte_length": 72,
+   "source_entry_sha256": "ca871b821f125879ac42dc9437d22f263069eec67b70ea83fc6d76f9bacf4e21",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 9d 9e cc a3 b7 d6 85 9f e5 05 9b 99 a0 b2 c8 c7 e8 1a 0c 28 a5 c1 14 1e c9 d6 9f b7 a4 a8 e8 cd 9f e5 05 9b c0 e5 05 a0 9e c8 a4 e5 03 a4 b7 a5 eb ea ff 00 00",
+   "source_tpl_block_sha256": "4c802ea0faf1e903eb3be20865171f6bf71f52f0ade0a125101f4759b88658e2",
+   "japanese_characters": 53,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "おかげさまで、きょうあくはんを\nタイホするコトができました\nごきょうりょくかんしゃします"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "덕분에 흉악범을\n체포할 수 있었습니다\n협력에 감사드립니다"
+   ]
+  },
+  {
+   "entry_index": 98,
+   "entry_id": "archive_u07E9970_entry_0098",
+   "source_entry_offset": 6145,
+   "source_entry_byte_length": 48,
+   "source_entry_sha256": "d38d63f4d1e9aadba08e055a90188f94b2b075542f85c2d1bea23a27b150955e",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 00 e5 c5 e5 c6 e5 c7 eb ea ff 00 00",
+   "source_tpl_block_sha256": "de76a84597c0e272ab87238966be87ebf0f5a4f3c5c647df8f8d2b38c863c397",
+   "japanese_characters": 30,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ 秋原町"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소 아키하라 마을"
+   ]
+  },
+  {
+   "entry_index": 99,
+   "entry_id": "archive_u07E9970_entry_0099",
+   "source_entry_offset": 6193,
+   "source_entry_byte_length": 98,
+   "source_entry_sha256": "1d0b01fe8f6217a9b87170e943dade1929599caa9604e974ccc4a359ec845007",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 a2 a9 bf b2 85 0f 26 55 16 5a 33 18 3a 1a 78 d6 a5 eb e9 a4 b8 c8 22 59 1e 4a 1e 31 78 c7 1a 78 3e 59 1e ae a4 a8 e8 c2 c8 d2 a0 15 3c cf a1 c8 c7 be a0 d2 e8 9e 9a a1 aa a4 ab a0 d3 a3 9a b7 a4 a8 eb e9 9d ab c9 bf d6 a5 eb ea ff 00 00",
+   "source_tpl_block_sha256": "d5e43d8291f3cb2756ad0eb292f86890d7f0c699d7559fb0fd120970cafdea0d",
+   "japanese_characters": 79,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "こちらは、オフィシャルセンターです",
+    "しみんネットバトラーをターゲットにした\nれんぞくサギじけんをよくぞ\nかいけつしてくださいました",
+    "おてがらです"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "여기는 오피셜 센터입니다",
+    "시민 넷배틀러를 노린\n연쇄 사기 사건을 훌륭히\n해결해 주셨습니다",
+    "큰 공을 세우셨습니다"
+   ]
+  },
+  {
+   "entry_index": 100,
+   "entry_id": "archive_u07E9970_entry_0100",
+   "source_entry_offset": 6291,
+   "source_entry_byte_length": 50,
+   "source_entry_sha256": "1c069607e90b16921185f835835bbc1864a15ce0961ea29f6c497d21b41a6f5c",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 e8 0b 41 78 1f 0e 32 0b 02 eb ea ff 00 00",
+   "source_tpl_block_sha256": "f9f82d61f374b2a6863755a7355b3f0818118fd37fc4bfd11643e1be94fb4b0a",
+   "japanese_characters": 34,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ\nアジーナエリア1"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소\n아지나 에어리어 1"
+   ]
+  },
+  {
+   "entry_index": 101,
+   "entry_id": "archive_u07E9970_entry_0101",
+   "source_entry_offset": 6341,
+   "source_entry_byte_length": 72,
+   "source_entry_sha256": "208d2f490572105e7b4ceae2128927d88fd7d595cf7632de34154ef487b40997",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 11 5b 78 50 59 49 be e8 9e c8 a4 e5 03 a4 ab 9d c1 d2 9a 81 eb e9 9a b7 b2 85 9a 9f ad c9 bf 00 ab c8 cd a0 ae 9f a8 e8 9f da c8 cf e5 03 81 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "f072306178d17c9c6e40d6c3fd73f5a28a9690d95c1d00f6ce084a6357175f90",
+   "japanese_characters": 49,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "キューピッドよ\nかんしゃしておるぞい!",
+    "いまは、いきながら てんごくにきた\nきぶんじゃ!!"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "큐피드여\n고맙구먼!",
+    "지금은 살아서 천국에 온\n기분이라네!!"
+   ]
+  },
+  {
+   "entry_index": 102,
+   "entry_id": "archive_u07E9970_entry_0102",
+   "source_entry_offset": 6413,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "dbebbf526565504eae49b3abaf1430d5aca7a3ba62fe745f48f298f8fd31528b",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 e8 11 5a 3a 51 cf e5 05 9b 9a c0 cb a9 eb ea ff 00 00",
+   "source_tpl_block_sha256": "8e7cb00f3d25f9030b9ff8a07a30e578829ae6a7e1822f8eef093b41987a3f6b",
+   "japanese_characters": 38,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ\nキャンプじょういりぐち"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소\n캠핑장 입구"
+   ]
+  },
+  {
+   "entry_index": 103,
+   "entry_id": "archive_u07E9970_entry_0103",
+   "source_entry_offset": 6467,
+   "source_entry_byte_length": 65,
+   "source_entry_sha256": "5a6190578acd5096502f2cd37594cb8751aa5587e8d9a20c0b58b2668820a18f",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 10 34 b1 9d 9e cc d6 85 a2 c8 d7 b1 4a 1e 33 ae e8 10 ab a7 9b ad 11 c9 a4 b7 a5 81 eb e9 b6 c8 ac 9b ae 99 c0 c9 ac 9b 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "e661bf8feabdd60912377146620304da2056adcf6ecb1c5e81194d4047b873bd",
+   "japanese_characters": 47,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "カレのおかげで、こんどのバトルに\nカてそうなキがします!",
+    "ほんとうにありがとう!"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "그 사람 덕분에 이번 배틀에서\n이길 수 있을 것 같습니다!",
+    "정말 고맙습니다!"
+   ]
+  },
+  {
+   "entry_index": 104,
+   "entry_id": "archive_u07E9970_entry_0104",
+   "source_entry_offset": 6532,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "bffe092b4ed2cf959898727bb123f79681a1a229db4aaca5807ff107431bc354",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 e8 0f 26 55 16 5a 33 17 12 0e 0b 9a c0 cb a9 eb ea ff 00 00",
+   "source_tpl_block_sha256": "5cf248547664dc03075292e06875ffa543c41efa16e5b6b46bea8ddfbe472d93",
+   "japanese_characters": 41,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ\nオフィシャルスクエアいりぐち"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소\n오피셜 스퀘어 입구"
+   ]
+  },
+  {
+   "entry_index": 105,
+   "entry_id": "archive_u07E9970_entry_0105",
+   "source_entry_offset": 6588,
+   "source_entry_byte_length": 132,
+   "source_entry_sha256": "413c7fb5e940e4541eac7797b51d3b8bb5fe614efdf7502866fe11f36ca7ba18",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 9e c2 b1 1f 4b 9e bf b2 85 9f e5 05 9b b8 da 9e 9a e8 48 78 1a c7 ac c1 a2 ac c9 d6 9f b7 a4 a8 eb e9 a4 9e a4 85 36 1a 16 a8 a9 b1 00 ca cf e5 04 aa d6 b2 e8 a7 b1 48 78 1a c7 00 d7 9b a5 c1 a2 ac bb d6 9f b7 a6 c8 eb e9 9e c2 b1 1f 4b c7 aa a0 e5 02 a8 25 1e b2 e8 9f e5 02 ac 85 ab c8 a3 9a ae 00 a9 c9 9a 99 c0 b7 a6 c8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "c1247a3f52523c62f3e6b4c4ddf5046644dc626a60b885ff05115b4212ee3447",
+   "japanese_characters": 103,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "かれのナビからは、きょうみぶかい\nデータをとることができました",
+    "しかし、ワタシたちの ぎじゅつでは\nそのデータを どうすることもできません",
+    "かれのナビをつくったヒトは\nきっと、てんさいに ちがいありません"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "그의 내비에게서 흥미로운\n데이터를 얻을 수 있었습니다",
+    "하지만 저희 기술로는\n그 데이터를 어떻게 할 수가 없습니다",
+    "그의 내비를 만든 사람은\n분명 천재임이 틀림없습니다"
+   ]
+  },
+  {
+   "entry_index": 106,
+   "entry_id": "archive_u07E9970_entry_0106",
+   "source_entry_offset": 6720,
+   "source_entry_byte_length": 67,
+   "source_entry_sha256": "c3012c009a51838b4002936ba6b51dd3d5afc8b993e0b67f9c4d99519b129ddf",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 e8 dc 9b 1d 34 4b 9f e5 05 a0 b1 00 a9 e5 04 9b a1 9a a4 e5 03 b1 e5 73 e5 61 eb ea ff 00 00",
+   "source_tpl_block_sha256": "7700188aa7eb77077f799a7171466008a400b2205a164a0428ad7533f1bd99fd",
+   "japanese_characters": 46,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ\nぼうテレビきょくの ちゅうけいしゃの電脳"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소\n모 방송국 중계차의 전뇌"
+   ]
+  },
+  {
+   "entry_index": 107,
+   "entry_id": "archive_u07E9970_entry_0107",
+   "source_entry_offset": 6787,
+   "source_entry_byte_length": 63,
+   "source_entry_sha256": "30c23236979fb3a3e0aa56019cdf16e3a47198b7af501ca13873370b50b6398b",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 99 c8 a4 c8 a4 ab 85 9e 9a c9 9a c0 e5 05 a2 9b ae e8 e5 98 a1 b7 a5 e8 d7 9b bb 85 99 c0 c9 ac 9b cd ce 9a b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "99f7543eba3c98b3a4186b2356abfe51d340820e2f9eb39a797470a0992462a0",
+   "japanese_characters": 45,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "あんしんして、かいがいりょこうに\n行けます\nどうも、ありがとうございました"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "안심하고 해외여행을\n갈 수 있겠습니다\n정말 감사합니다"
+   ]
+  },
+  {
+   "entry_index": 108,
+   "entry_id": "archive_u07E9970_entry_0108",
+   "source_entry_offset": 6850,
+   "source_entry_byte_length": 46,
+   "source_entry_sha256": "12788f277da46c3ad529088e0b3b543f9b8f1384eac4758888a179f0c14eec0f",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 00 a0 9b a2 9b eb ea ff 00 00",
+   "source_tpl_block_sha256": "2d0d36de070668271471a1bed030b0959f4839bb066ee5a0071081d52d289ec3",
+   "japanese_characters": 31,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ くうこう"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소 공항"
+   ]
+  },
+  {
+   "entry_index": 109,
+   "entry_id": "archive_u07E9970_entry_0109",
+   "source_entry_offset": 6896,
+   "source_entry_byte_length": 60,
+   "source_entry_sha256": "8cac778c565d0a817d757adae854cd4a9b59ce18c3e58b0619e58c79e105f19c",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 a4 b8 c8 22 59 1e 4a 1e 31 78 a3 c8 b1 e8 9d 9e cc d6 85 e8 1f 4b ac 85 ad 9e ad 9d c0 00 d6 9f a7 9b d6 a5 eb ea ff 00 00",
+   "source_tpl_block_sha256": "87501f59a651c569ecd76b7777c1c79f5da08a7a9e3d0c2d77536453bbe0e5eb",
+   "japanese_characters": 43,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "しみんネットバトラーさんの\nおかげで、\nナビと、なかなおり できそうです"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "시민 넷배틀러 님\n덕분에\n내비와 화해할 수 있을 것 같습니다"
+   ]
+  },
+  {
+   "entry_index": 110,
+   "entry_id": "archive_u07E9970_entry_0110",
+   "source_entry_offset": 6956,
+   "source_entry_byte_length": 51,
+   "source_entry_sha256": "025282c1fcf2ed27a1571d54dee63002807aa05248478286be1c26200c23b980",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 00 2c 1e 35 e5 c5 e5 c6 9c 9f eb ea ff 00 00",
+   "source_tpl_block_sha256": "dab77034301103e3e53c9950617ef1891c8db24930dc2bc46477ae9708c2c854",
+   "japanese_characters": 34,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ メトロ秋原えき"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소 메트로 아키하라역"
+   ]
+  },
+  {
+   "entry_index": 111,
+   "entry_id": "archive_u07E9970_entry_0111",
+   "source_entry_offset": 7007,
+   "source_entry_byte_length": 70,
+   "source_entry_sha256": "e9d69db9bdaf72b9c96794a37fb9fabd7a95ec271b025c97dc6e4771b78702fc",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 90 1b 3a 50 31 00 a4 ab c8 b1 9b 91 c9 e8 9a ad a0 ad e5 02 ab 85 b8 c8 ad 00 be c3 a2 c8 d6 9a b7 a5 e8 99 c0 c9 ac 9b cd ce 9a b7 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "6bdc5440f2d8c915c0cbd92d56e9139f3aa6f92e7632baae30333d75d4ccb52a",
+   "japanese_characters": 50,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "「チンピラ してんのう」が\nいなくなって、みんな よろこんでいます\nありがとうございました"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "「건달 사천왕」이\n사라져서 다들 기뻐하고 있습니다\n감사합니다"
+   ]
+  },
+  {
+   "entry_index": 112,
+   "entry_id": "archive_u07E9970_entry_0112",
+   "source_entry_offset": 7077,
+   "source_entry_byte_length": 50,
+   "source_entry_sha256": "38cd1e5cb8b28723af15e0538f6041cc3b5918e03d919ce5d71ad14ff6ae4eba",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 00 0b 2c 35 59 4f 1a 0d 3a eb ea ff 00 00",
+   "source_tpl_block_sha256": "67dee01172686c4019399adfa54e6052f8e139d21a7b79bbb55ead78a0395ae2",
+   "japanese_characters": 35,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ アメロッパタウン"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소 아메롭파 타운"
+   ]
+  },
+  {
+   "entry_index": 113,
+   "entry_id": "archive_u07E9970_entry_0113",
+   "source_entry_offset": 7127,
+   "source_entry_byte_length": 137,
+   "source_entry_sha256": "c8609dbaf451c42b928a19b6b1a7ce3cecd4e80c3051be444bd3795c0b24d33e",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 9d 9e cc a3 b7 d6 85 9e 9a a4 e5 03 c7 e8 ac 9b a3 c8 a3 a6 d0 ae 00 a5 b8 b7 a4 a8 eb e9 99 b1 00 a4 e5 05 9b b0 c8 b2 85 e8 9f e5 02 ac 00 b4 a0 b1 10 2a 00 d3 e5 02 a8 c8 d6 a5 eb e9 b6 c8 ac 9b ae 85 9e c8 a4 e5 03 a4 ab 9a b7 a5 eb e9 90 9e d1 c9 00 b4 a1 d8 85 9d a1 bc c9 bb 9b 9e c1 91 ac b2 e8 be a0 9a e5 02 a8 00 bb b1 d6 a5 b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "fa01f31f1e53cfdfab8031f928bac14438035c1e7ed2febee0e3af9e7b95fb07",
+   "japanese_characters": 98,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "おかげさまで、かいしゃを\nとうさんさせずに すみました",
+    "あの しょうねんは、\nきっと ふくのカミ だったんです",
+    "ほんとうに、かんしゃしています",
+    "「かぜが ふけば、おけやがもうかる」とは\nよくいった ものですね"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "덕분에 회사를\n도산시키지 않을 수 있었습니다",
+    "그 소년은\n분명 복을 부르는 신이었을 거예요",
+    "정말 감사하고 있습니다",
+    "「바람이 불면 통장수가 돈을 번다」\n라는 말이 딱 맞네요"
+   ]
+  },
+  {
+   "entry_index": 114,
+   "entry_id": "archive_u07E9970_entry_0114",
+   "source_entry_offset": 7264,
+   "source_entry_byte_length": 64,
+   "source_entry_sha256": "833e72d74b156cf703c7ec3f370400e0007f889bc335d9b7df035c6277fa0f37",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 e8 e5 c5 e5 c6 e5 c7 d6 00 9a a9 d8 c8 00 9d 9d 9f 9a e8 9d bc a4 9f eb ea ff 00 00",
+   "source_tpl_block_sha256": "04ffa87a593becdc5715a873d0c72e1187f51713d079e16869ffc3da67e5de0c",
+   "japanese_characters": 43,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ\n秋原町で いちばん おおきい\nおやしき"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소\n아키하라 마을에서 가장 큰\n저택"
+   ]
+  },
+  {
+   "entry_index": 115,
+   "entry_id": "archive_u07E9970_entry_0115",
+   "source_entry_offset": 7328,
+   "source_entry_byte_length": 123,
+   "source_entry_sha256": "2bb53cddfc65796adfdb88b12a264ad50f8bd5358460b250e07eb6e6bf5d2719",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 a8 9a b5 c8 00 b8 aa a1 ae a0 9a e8 90 48 3a 15 3a 00 0f 0f 3e 3a 3f 35 0d 91 c7 e8 b8 aa a1 ab bb bf 9a eb e9 99 c0 c9 ac 9b 00 cd ce 9a b7 a4 a8 eb e9 a2 c2 d6 85 1f 44 b1 9d 9d 9e e5 02 a8 e8 90 48 3a 15 3a 00 0f 0f 3e 3a 3f 35 0d 91 b1 e8 25 2a 1c c9 85 99 9f bf 9e ae 00 ad c1 d6 a4 e5 05 9b eb ea ff 00 00",
+   "source_tpl_block_sha256": "12ae46c68889189d54097d610dc94111c07d12a57eed9f2c627ff63be5d1e00c",
+   "japanese_characters": 90,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "たいへん みつけにくい\n「デンサン オオゲンゴロウ」を\nみつけてもらい",
+    "ありがとう ございました",
+    "これで、ナゾのおおかった\n「デンサン オオゲンゴロウ」の\nヒミツが、あきらかに なるでしょう"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "무척 찾기 힘든\n「덴산 왕물방개」를\n찾아 주셔서",
+    "감사했습니다",
+    "이제 수수께끼가 많던\n「덴산 왕물방개」의\n비밀이 밝혀질 겁니다"
+   ]
+  },
+  {
+   "entry_index": 116,
+   "entry_id": "archive_u07E9970_entry_0116",
+   "source_entry_offset": 7451,
+   "source_entry_byte_length": 50,
+   "source_entry_sha256": "a865f34a7695b4683c7f82dec4ffde752ddf3fa6fbbf94668dbfe6e2c85264d0",
+   "source_entry_raw_hex": "f1 02 a2 b1 9a bf 9a b2 85 e8 cc c8 ce 9a cf e5 02 a2 9b a9 e5 04 9b d6 a5 eb e9 b7 a9 99 c4 a6 d8 a4 e5 05 00 11 5a 3a 51 cf e5 05 9b eb ea ff 00 00",
+   "source_tpl_block_sha256": "39d5d3f7d799b5acdd51ac9b0a4791bdb6d9c7c2d729d8839030b4d0f6ac5ea7",
+   "japanese_characters": 34,
+   "source_literals": [
+    "このいらいは、\nげんざいじっこうちゅうです",
+    "まちあわせばしょ キャンプじょう"
+   ],
+   "translated_literals": [
+    "이 의뢰는\n현재 수행 중입니다",
+    "약속 장소 캠핑장"
+   ]
+  },
+  {
+   "entry_index": 117,
+   "entry_id": "archive_u07E9970_entry_0117",
+   "source_entry_offset": 7501,
+   "source_entry_byte_length": 106,
+   "source_entry_sha256": "98d96814fca81277360f49091dd61229e08ef2d07176e77f79862c2d4e2251e8",
+   "source_entry_raw_hex": "f1 02 9a bf 9a a4 e5 03 00 9e c8 a4 e5 03 b1 a2 9c eb e9 99 bc 9b a0 00 12 4b ae ad c1 1e 14 35 d6 a4 a8 e8 b6 c8 ac 9b ae 00 9e c8 a4 e5 03 a4 ab 9a b7 a5 eb e9 b6 9b a6 9f c7 00 9e c4 c2 c1 ac 9f b2 85 e8 d1 b3 00 0d 1b b1 9d b8 a6 ae 00 9f ab a0 d3 a3 9a eb e9 15 78 4b 17 a3 a6 ab bb bf 9a b7 a5 be eb ea ff 00 00",
+   "source_tpl_block_sha256": "f86386e5e24cf686f6a7c4a0f51c22e25ce1d177a3886ce9914f8892ab60f2d5",
+   "japanese_characters": 81,
+   "source_literals": [
+    "いらいしゃ かんしゃのこえ",
+    "あやうく クビになるトコロでした\nほんとうに かんしゃしています",
+    "ほうせきを かわれるときは、\nぜひ ウチのおみせに きてください",
+    "サービスさせてもらいますよ"
+   ],
+   "translated_literals": [
+    "의뢰인의 감사 인사",
+    "하마터면 잘릴 뻔했습니다\n정말 감사드립니다",
+    "보석을 사실 때는\n꼭 저희 가게에 와 주세요",
+    "서비스해 드릴게요"
+   ]
+  }
+ ]
+}

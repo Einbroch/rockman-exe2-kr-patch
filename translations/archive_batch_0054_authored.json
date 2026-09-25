@@ -2,7 +2,7 @@
   "schema_version": 1,
   "batch_number": 54,
   "entries": [
-    {"selector":"00/352","entry_index":8,"draft_translation":"선택할 수 있는 칩이 늘었죠! / 3장이 늘어난 건 3장을 버렸기 때문에, / 이 배틀 중에는 계속 이대로 싸울 수 있어요. // 그럼 단숨에 바이러스들을 / 딜리트해 버리죠. / 여기서부터는 혼자 해 보세요."},
+    {"selector":"00/352","entry_index":8,"draft_translation":"선택할 수 있는 칩이 늘었죠! / 3장 늘어난 건 3장을 버렸기 때문에, / 이 배틀 중에는 계속 이대로 있어요. // 그럼 단숨에 바이러스들을 / 딜리트해 버리죠. / 여기서부터는 혼자 해 보세요."},
     {"selector":"00/352","entry_index":9,"draft_translation":"리커버리10을 3장 고른 뒤 / ADD 버튼을 눌러 보세요!"},
 
     {"selector":"00/353","entry_index":0,"draft_translation":"록맨"},

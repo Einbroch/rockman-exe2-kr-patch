@@ -1,107 +1,507 @@
 {
-  "schema_version": 1,
-  "kind": "authored_multi_archive_translation_batch",
-  "batch_number": 73,
-  "entries": [
-    {"selector":"00/394","entry_index":12,"draft_translation":"PET 서브 화면에서 볼 수 있는 / 「데이터 라이브러리」는 / 배틀칩 도감 같은 거야. // 얻은 칩의 정보가 등록돼서 / 언제든 확인할 수 있지. // 내 데이터 라이브러리에는 / 벌써 100종류가 넘는 / 칩이 등록되어 있다고!"},
-    {"selector":"00/394","entry_index":15,"draft_translation":"메일이랑 데카오가 / 아까 집에 돌아온 것 같아."},
-    {"selector":"00/394","entry_index":16,"draft_translation":"이걸로 1단계는 OK![waitSkip 30] // ...인 셈이지! // 이제 남은 건..."},
-    {"selector":"00/394","entry_index":20,"draft_translation":"넷토! 나도 갈래![waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // 알았어...[waitSkip 30] // 기다릴게. // 하지만 꼭 두 사람을 구해서 / 무사히 돌아와야 해."},
-    {"selector":"00/394","entry_index":21,"draft_translation":"모든 게 순조롭군..."},
-    {"selector":"00/394","entry_index":22,"draft_translation":"메일이 방금 서둘러 나갔어. / 무슨 일 있었어? // 뭐, 야이토가!! / 그거 큰일이잖아!"},
-    {"selector":"00/394","entry_index":23,"draft_translation":"이 집, 아까부터 / 쥐 죽은 듯 조용하네. // 불길한 예감이 드는 건 / 나뿐인가?"},
-    {"selector":"00/394","entry_index":24,"draft_translation":"왜 그래, 히카리? / 표정이 심각해..."},
-    {"selector":"00/394","entry_index":25,"draft_translation":"「바이러스 버스팅」 실력이 좋으면 / 오피셜 센터에서 / 라이선스를 받을 수 있대. // 응? // [printItem item=58]을 따 왔다고? / 제법인데!"},
-    {"selector":"00/394","entry_index":26,"draft_translation":"왠지 / 큰 집 쪽에서 냄새가 나. / 기분 탓인가?"},
-    {"selector":"00/394","entry_index":27,"draft_translation":"후... 후... // 아저씨가 좀 많이 걸었나? / 머리가 어질어질하네."},
-    {"selector":"00/394","entry_index":30,"draft_translation":"여기 있던 가게 점장님이랑 / 형이 아는 사이였지?"},
-    {"selector":"00/394","entry_index":31,"draft_translation":"친구 집은 외워 두는 게 좋아. // 놀러 가서 인터넷에 / 접속할 수 있게 되면 뜻밖의 / 지름길이 생기기도 하거든. // 그러려면 친구에게 / 전자 기기의 패스코드를 / 미리 알려 달라고 해야 해."},
-    {"selector":"00/394","entry_index":32,"draft_translation":"이 집, 아까부터 / 쥐 죽은 듯 조용하네. // ...[waitSkip 30] // 어머! / 그런 일이 있었어!? / 그래서 친구를 구해 줬다고? // 정말 장하네~"},
-    {"selector":"00/394","entry_index":33,"draft_translation":"세일 정보 확인도 데이트 약속도 / PET만 있으면 뭐든 할 수 있지~"},
-    {"selector":"00/394","entry_index":34,"draft_translation":"저 애가 자꾸 달라고 조르는 바람에 / 도망쳐 왔어..."},
-    {"selector":"00/394","entry_index":35,"draft_translation":"아까 칩 잔뜩 갖고 있던 / 형 어디 갔는지 몰라? // 으아아앙!!"},
-    {"selector":"00/394","entry_index":36,"draft_translation":"걱정거리가 사라졌구나. / 얼굴이 환해졌는걸. / 후훗."},
-    {"selector":"00/394","entry_index":37,"draft_translation":"어때? / 바이러스 버스팅 열심히 하고 있어? // 나도 바이러스 버스팅은 / 꽤 잘하는 편인데, // 메톨만큼은 정말 약해. // 그래서 레귤러 칩에 / 패널아웃1을 넣어 뒀어. // 너도 상대하기 힘든 바이러스가 있으면 / 그 녀석에게 효과적인 칩을 / 레귤러로 정해 봐!"},
-    {"selector":"00/394","entry_index":38,"draft_translation":"댁의 개집 말인데 / 거기에도 플러그인할 수 있다네. // 뜻밖의 곳에도 / 플러그인할 수 있으니 / 이것저것 시험해 보는 게 좋다네. // 자! 플러그인![waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // 여기는 안 되는군."},
-    {"selector":"00/394","entry_index":45,"draft_translation":"메일이 공부 도구를 들고 / 어디론가 나갔어."},
-    {"selector":"00/394","entry_index":46,"draft_translation":"넷토, 오피셜 넷배틀러가 / 뭔지 알아? // 예 // 아니요 // 오피셜 넷배틀러는 / 국가가 정식으로 인정한 / 넷배틀러를 말해. // 네트워크 범죄가 일어나면 사건 해결을 / 위해 넷배틀을 하는 것이 / 허가되어 있대. // 그 목적이라면 출입 금지 구역에 / 들어가거나, 일반인은 접속할 수 없는 / 곳에 플러그인해도 된다는 모양이야. // 오피셜 넷배틀러는 / 특별한 존재인 거지. / 멋있다..."},
-    {"selector":"00/394","entry_index":47,"draft_translation":"그럼 시민 넷배틀러는? / 알아 / 몰라 // 시민 넷배틀러도 네트워크 범죄를 / 해결하기 위한 넷배틀은 / 허용되지만, // 오피셜 넷배틀러 같은 / 특권은 없어."},
-    {"selector":"00/394","entry_index":48,"draft_translation":"참고로 B 라이선스 이상을 가진 사람이 / 시민 넷배틀러야."},
-    {"selector":"00/394","entry_index":49,"draft_translation":"난 오피셜 넷배틀러야! // 네트워크 범죄가 일어나지 않는지 / 이렇게 마을을 순찰하는 것도 / 임무 중 하나지!"},
-    {"selector":"00/394","entry_index":50,"draft_translation":"이 나라는 아직 평화롭지만... // 외국에서는 넷 마피아 때문에 / 큰 사건이 잇달아 / 일어난다는군. // 그 수법은 예전 WWW와는 / 비교도 안 될 만큼 / 잔인하다고 해... // 만약 녀석들이 일본에서 / 활동을 시작한다면 / 끔찍한 일이 벌어질 거야..."},
-    {"selector":"00/394","entry_index":51,"draft_translation":"PET 사용법을 배우는 건 / 우리 늙은이들에겐 / 큰 고생이었지. // 하지만 이젠 PET 덕분에 / 꽤 편리하게 살고 있다네. // ...어디,[waitSkip 30] // 내일 병원 예약이나 / 해 볼까..."},
-    {"selector":"00/394","entry_index":52,"draft_translation":"내 메톨가드 / 소중히 써 줘."},
-    {"selector":"00/394","entry_index":53,"draft_translation":"내 브이건이랑 / 바꿔 줄게~"},
-    {"selector":"00/394","entry_index":54,"draft_translation":"선생님은 쉬는 날에도 / 가끔 학교에 와. 알고 있었니? // 마침 잘됐으니 여기서 / 내비의 레벨 업에 관해 / 보충 수업을 해 줄게. // 내비의 레벨 업은 / 「강화 프로그램」을 장비해서 / 하는 거야. // 「HP 메모리」는 / 내비의 최대 HP를 올리는 프로그램이라 / 얻기만 해도 효과가 있어. // 「버스터 UP」은 / 버스터를 강화하는 프로그램이야. // 서브 화면의 「록맨」으로 들어가서 / 강화하고 싶은 능력치를 / 골라야 해. // 「강화 프로그램」은 / 미스터리 데이터 안에 들어 있거나 / 넷 상인이 팔기도 해."},
-    {"selector":"00/394","entry_index":55,"draft_translation":"아키하라 마을 밖으로 가실 때는 / 이곳에서 지하철 메트로라인을 / 이용해 주세요. // 현재 마린하버행을 / 이용하실 수 있습니다."},
-    {"selector":"00/394","entry_index":56,"draft_translation":"메일이 방금 돌아왔어."},
-    {"selector":"00/394","entry_index":57,"draft_translation":"캠핑 가는 거야?[waitSkip 15] // 좋겠다!"},
-    {"selector":"00/394","entry_index":58,"draft_translation":"시민 넷배틀러 시험? / 우와~ 멋지다!"},
-    {"selector":"00/394","entry_index":59,"draft_translation":"넷토, 메일이야!!"},
-    {"selector":"00/394","entry_index":60,"draft_translation":"정말! 늦었잖아! // 캠핑장... 오쿠덴 계곡까지는 / 버스로 가기로 벌써 정했어."},
-    {"selector":"00/394","entry_index":61,"draft_translation":"이제야 왔냐, 넷토! 늦었잖아!! // 뭐, 됐어. 어쨌든! // 캠핑이라고~~~!! / 왠지 두근두근하는걸~~~~!!"},
-    {"selector":"00/394","entry_index":62,"draft_translation":"흙투성이가 되는 건 / 이 야이토 님 캐릭터엔 / 안 어울리거든. // 그래도 가끔은 괜찮겠지, 후훗."},
-    {"selector":"00/394","entry_index":63,"draft_translation":"메일이랑 캠핑 가는구나~ // 좋겠다~"},
-    {"selector":"00/394","entry_index":64,"draft_translation":"와하하하! // 나는 넷 마피아다~~~!! / 바이러스를 마구 뿌려 주마~~!!"},
-    {"selector":"00/394","entry_index":65,"draft_translation":"넷 마피아 무서워~~~~ / 으아아앙!!!!"},
-    {"selector":"00/394","entry_index":66,"draft_translation":"따라 하는 아이에게 / 죄는 없지만... // 이런 나쁜 놀이가 유행하지 않도록 / 넷 마피아의 정보를 / 한시라도 빨리 모아야겠어..."},
-    {"selector":"00/394","entry_index":67,"draft_translation":"선생님도 캠핑에 같이 가자고? // 초대는 고맙지만 / 선생님 치마 차림인데..."},
-    {"selector":"00/394","entry_index":68,"draft_translation":"캠핑 가니? / 좋은 일이지. // 요즘 아이들은 / 운동 부족에 빠지기 쉬우니까. // 그래도 PET는 가져가렴. / 무슨 일이 생겼을 때 PET가 없으면 / 여러모로 불편하거든."},
-    {"selector":"00/394","entry_index":69,"draft_translation":"오늘도 덥네~ // 집에서 시원하게 / 인터넷이나 할까..."},
-    {"selector":"00/394","entry_index":75,"draft_translation":"이 가게 점장님은 / 어디로 가 버린 걸까? // 빨리 돌아왔으면 좋겠다."},
-    {"selector":"00/394","entry_index":76,"draft_translation":"이 더위에 외근은 / 상당히 힘들어... // 서 있는 것만도 벅차. // 응? 아지나에 간다고? / 그곳 더위는 장난 아니야. // 인터넷으로? / 아, 그러면 덥지 않겠네."},
-    {"selector":"00/394","entry_index":77,"draft_translation":"아줌마도 저축을 / 시작했어. // 언젠가 이런 큰 집을 / 지으려고 말이야. // 「천 리 길도 한 걸음부터」라고 하잖아?"},
-    {"selector":"00/394","entry_index":78,"draft_translation":"얼마 전 인터넷에서 / 메일 친구를 사귀었어. // 이게 새로운 만남의 방식이지~ // 너도 메일 친구 있어?"},
-    {"selector":"00/394","entry_index":79,"draft_translation":"싫어~"},
-    {"selector":"00/394","entry_index":80,"draft_translation":"그 칩 나 줘~"},
-    {"selector":"00/394","entry_index":81,"draft_translation":"히카리는 자유 연구 / 주제 정했어? // 난 우유부단해서 / 좀처럼 못 정하겠어."},
-    {"selector":"00/394","entry_index":82,"draft_translation":"들어 봐! // 나 얼마 전에 / 결혼했어~ // 결혼식은 아메롭파에서 / 올렸지."},
-    {"selector":"00/394","entry_index":90,"draft_translation":"내 의뢰를 / 맡아 줄 사람이 너구나. // 지금부터 의뢰 내용을 / 설명할 텐데... // 절대로 누구에게도 말하지 마. // 사실 실험 중이던 내비들을 / 놓쳐 버렸어. // 내비는 모두 세 대야. / 이 아키하라 마을 어딘가의 전뇌 세계에 / 숨어 있는 모양이야. // 인터넷에는 가지 않았다는 건 / 확인했지만... // 네 의뢰는 도망친 내비를 / 찾아 딜리트하는 거야. // 조심해야 할 건 / 그 내비들이 바이러스를 / 발생시킬 수 있다는 점이야. // 내비가 발생시킨 / 바이러스를 쓰러뜨리면 / 내비를 딜리트할 수 있어. // 그럼 잘 부탁해."},
-    {"selector":"00/394","entry_index":91,"draft_translation":"의뢰 내용을 다시 확인해 줄게. // 사실 실험 중이던 내비들을 / 놓쳐 버렸어. // 내비는 모두 세 대야. / 이 아키하라 마을 어딘가의 전뇌 세계에 / 숨어 있는 모양이야. // 인터넷에는 가지 않았다는 건 / 확인했지만... // 네 의뢰는 도망친 내비를 / 찾아 딜리트하는 거야. // 조심해야 할 건 / 그 내비들이 바이러스를 / 발생시킬 수 있다는 점이야. // 틀림없이 아키하라 마을 안에 / 있을 테니 / 힘내서 찾아 줘!"},
-    {"selector":"00/394","entry_index":92,"draft_translation":"축하해! // 너, 의외로 제법이네! / 내 테스트를 통과하다니. // 난 라이선스 시험의 / 시험관이야. // 네 버스팅 기술을 / 시험해 봤지. // 그 실력을 더 갈고닦으면 / 장차 오피셜도 / 될 수 있지 않겠어?"},
-    {"selector":"00/394","entry_index":93,"draft_translation":"난 크면 / 꼭 오피셜 넷배틀러가 / 될 거야! // 하지만 오피셜이 되려면 / 시험을 봐야 한대. // 시험은 싫은데~"},
-    {"selector":"00/394","entry_index":94,"draft_translation":"이맘때는 다들 여행을 / 떠나서 빈집이 많으니 / 아저씨도 일이 안 되네. // 그런데 이 더위는 장난이 아니야. / 어디 시원하게 쉴 곳 없나?"},
-    {"selector":"00/394","entry_index":95,"draft_translation":"항상 여기서 뭘 하냐고? // 그야 돈 떨어진 게 없나 / 찾는 거지. // ·[waitSkip 20] // ·[waitSkip 20] // ·[waitSkip 20] // 농담이야, 농담! // 언젠가 이런 집을 짓겠다는 / 결심을 다지러 오는 거야!"},
-    {"selector":"00/394","entry_index":96,"draft_translation":"얼마 전에 메일 친구를 / 만나 봤는데~~ / 완전 즐거웠어. // 메일 친구 잔뜩 사귀어야지!!"},
-    {"selector":"00/394","entry_index":97,"draft_translation":"헤헹~ / 억울하면 잡아 보시지~"},
-    {"selector":"00/394","entry_index":98,"draft_translation":"치사해~ // 칩 한 장 정도는 / 줘도 되잖아~"},
-    {"selector":"00/394","entry_index":99,"draft_translation":"이 꽃에 나비 / 애벌레가 있어. // 자유 연구 주제로 / 삼으려고 해."},
-    {"selector":"00/394","entry_index":100,"draft_translation":"이야~ 아메롭파에서 올린 / 결혼식... // 잊을 수가 없네."},
-    {"selector":"00/394","entry_index":101,"draft_translation":"장래가 유망한 너에게 / 내가 선물을 주마."},
-    {"selector":"00/394","entry_index":102,"draft_translation":"넷토는 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"},
-    {"selector":"00/394","entry_index":103,"draft_translation":"현재에 / 만족해선 안 돼. // 언제나 더 높은 곳을 목표로 해!"},
-    {"selector":"00/394","entry_index":105,"draft_translation":"형, [printItem item=60]을 / 가지고 있구나! / 굉장하다!! // 보여 줘, 보여 줘!"},
-    {"selector":"00/394","entry_index":106,"draft_translation":"아저씨는 일 때문에 여러 곳에 / 다니는데, // 여기저기서 칩을 원하는 / 사람이 있는 모양이더라. // 아저씨는 별로 / 관심이 없어서 / 잘 모르지만 말이야. // 아~ 그나저나 덥다!"},
-    {"selector":"00/394","entry_index":107,"draft_translation":"나도 시민 넷배틀러 / 자격을 따 볼까? // 의뢰를 많이 맡으면 / 금방 돈이 모일지도 모르고. // 의뢰도 꽤 자주 / 올라오는 모양이니까. // 다음에 한번 들여다볼까~"},
-    {"selector":"00/394","entry_index":108,"draft_translation":"인터넷은 여러 사람의 / 홈페이지에서 접속할 수 있어~ // 목적지에서 가장 가까운 / 홈페이지에서 플러그인하면 // 효율적으로 / 이동할 수 있지~ // 메일 친구도 바로 만날 수 있고~ / 괜찮지 않아?"},
-    {"selector":"00/394","entry_index":109,"draft_translation":"자, 자! / 따라잡아 봐~!! // 아직 더 달릴 수 있다고~~~"},
-    {"selector":"00/394","entry_index":110,"draft_translation":"칩 줘~!! / 제발 좀~~~! // 으아아아아앙!!"},
-    {"selector":"00/394","entry_index":111,"draft_translation":"나비 애벌레가 / 번데기가 되려고 해. / 봐, 전혀 움직이지 않지? // 빨리 나비가 되면 좋겠다."},
-    {"selector":"00/394","entry_index":112,"draft_translation":"신혼인데 왜 / 늘 혼자냐고? // 내 아내는 야외 활동파라 / 언제나 멋대로 어딘가로 떠나 버려. // 꽤 외롭긴 하지만 / 그 점도 그녀의 매력이지!"},
-    {"selector":"00/394","entry_index":115,"draft_translation":"오피셜이 되려고 / 몸을 단련하고 있어! // 하나, 둘! 하나, 둘!"},
-    {"selector":"00/394","entry_index":116,"draft_translation":"으으... 속이 안 좋아... / 일사병인가... // 어디 그늘을 찾아야겠어..."},
-    {"selector":"00/394","entry_index":117,"draft_translation":"시민 넷배틀러 시험을 / 보고 왔는데, // 아무래도 난 적성에 / 안 맞는 모양이야... // 「[printItem item=1]」, / 대체 어디에 있었던 걸까?"},
-    {"selector":"00/394","entry_index":118,"draft_translation":"응? 아지나 스퀘어를 / 아느냐고? // 가 본 적은 없지만~ // 보안 기술이 / 대단히 뛰어나기로 유명한 곳이지~ // 한 번쯤 가 보고 싶지만~ / 라이선스도 없고~"},
-    {"selector":"00/394","entry_index":119,"draft_translation":"헉, 헉... / 따라잡아 봐! 헉헉..."},
-    {"selector":"00/394","entry_index":120,"draft_translation":"기, 기다려~~~... / 헉헉... // 칩 좀 줘~..."},
-    {"selector":"00/394","entry_index":121,"draft_translation":"나비 애벌레가 / 완전히 번데기가 됐어. // 움직이지 않아서 / 별로 재미없어..."},
-    {"selector":"00/394","entry_index":122,"draft_translation":"아이들은 천진난만해서 좋네. // 그런데 체력이 정말 대단해. / 저 둘은 계속 달리고 있잖아."},
-    {"selector":"00/394","entry_index":125,"draft_translation":"새 칩 갖고 싶다~ / 역시 바이러스 버스팅을 해야 / 얻을 수 있으려나?"},
-    {"selector":"00/394","entry_index":126,"draft_translation":"후~ 여기라면 좀 시원하군. // 어때? 너도 들어갈래? // 응? 여긴 네 친구 집이라고? / 뭐, 그런 딱딱한 소린 말자고."},
-    {"selector":"00/394","entry_index":127,"draft_translation":"요즘 인터넷에서~ // 오피셜 내비를 / 자주 보는데~ // 무슨 큰 사건이라도 / 일어난 걸까? // 말을 걸어도 / 아무것도 안 알려 주고~ // 조금 걱정돼~"},
-    {"selector":"00/394","entry_index":128,"draft_translation":"숙제는 잘돼 가? // 난 굼떠서 / 아직 하나도 못 했어."},
-    {"selector":"00/394","entry_index":129,"draft_translation":"늘 여기서 놀던 아이들이 / 싸운 모양이라 / 집에 돌아가 버렸어."},
-    {"selector":"00/394","entry_index":135,"draft_translation":"형, / 시민 넷배틀러야? // 굉장하다!"},
-    {"selector":"00/394","entry_index":136,"draft_translation":"이야, / 여기서 더위를 식혔더니 / 땀이 많이 가셨네."},
-    {"selector":"00/394","entry_index":137,"draft_translation":"아까 인터넷에서 / 오피셜 내비와 얘기했는데~ // 「플러그아웃하세요」라는 / 말을 들었어. // 이건 역시 무슨 일이 / 생긴 게 틀림없어~"},
-    {"selector":"00/394","entry_index":138,"draft_translation":"야이토가 / 숙제를 보여 주면 좋겠다. // 하지만 숙제는 / 스스로 해야 하잖아. // 남에게 기대면 자신에게 / 도움이 안 되는걸."},
-    {"selector":"00/394","entry_index":139,"draft_translation":"응? 나랑 / 자주 함께 있는 여자? // 내 아내 말이야? // 아, 아내라면 / 캠핑장에 갔어. // 신혼인데 남편을 두고 / 혼자 캠핑을 가 버리다니. // 너, 아내에게 볼일이 있지? / 그럼 이것 좀 / 전해 주지 않을래? // 아내 PET의 / 충전지야. // 산속에서 배터리가 떨어지면 / 큰일이니까! // 그럼 부탁할게."},
-    {"selector":"00/394","entry_index":140,"draft_translation":"넷토는 / 「[printItem item=18]」 / 획득 성공!!"},
-    {"selector":"00/394","entry_index":141,"draft_translation":"확인 삼아 말해 두는데 / 내 아내는 캠핑장에 / 있으니까. // 잘 부탁해."},
-    {"selector":"00/394","entry_index":142,"draft_translation":"내 아내, 예쁘지? / 헤헷."},
-    {"selector":"00/394","entry_index":143,"draft_translation":"사실 또 몰래 / 인터넷을 돌아다니고 있었는데~ // 보기에도 수상한 내비가 / 오피셜 스퀘어로 / 들어가는 걸 봤어."},
-    {"selector":"00/394","entry_index":144,"draft_translation":"호기심에 인터넷에 / 들어가 봤는데~ // 오피셜 내비가 / 한 명도 없더라~ // 이제 사건이 해결된 걸까?"},
-    {"selector":"00/394","entry_index":145,"draft_translation":"혼자라 심심해서 / 인터넷에 가 봤는데, // 아무도 없었어... / 평소라면 반드시 누군가와 / 마주칠 텐데..."},
-    {"selector":"00/394","entry_index":146,"draft_translation":"인터넷에 / 내비가 거의 없더라. // 별일도 다 있네~"}
-  ]
+ "schema_version": 1,
+ "kind": "authored_multi_archive_translation_batch",
+ "batch_number": 73,
+ "entries": [
+  {
+   "selector": "00/394",
+   "entry_index": 12,
+   "draft_translation": "PET 서브 화면에서 볼 수 있는 / 「데이터 라이브러리」는 / 배틀칩 도감 같은 거야. // 얻은 칩의 정보가 등록돼서 / 언제든 확인할 수 있지. // 내 데이터 라이브러리에는 / 벌써 100종류가 넘는 / 칩이 등록되어 있다고!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 15,
+   "draft_translation": "메일이랑 데카오가 / 아까 집에 돌아온 것 같아."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 16,
+   "draft_translation": "이걸로 1단계는 OK![waitSkip 30] // ...인 셈이지! // 이제 남은 건..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 20,
+   "draft_translation": "넷토! 나도 갈래![waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // 알았어...[waitSkip 30] // 기다릴게. // 하지만 꼭 두 사람을 구해서 / 무사히 돌아와야 해."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 21,
+   "draft_translation": "모든 게 순조롭군..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 22,
+   "draft_translation": "메일이 방금 서둘러 나갔어. / 무슨 일 있었어? // 뭐, 야이토가!! / 그거 큰일이잖아!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 23,
+   "draft_translation": "이 집, 아까부터 / 쥐 죽은 듯 조용하네. // 불길한 예감이 드는 건 / 나뿐인가?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 24,
+   "draft_translation": "왜 그래, 히카리? / 표정이 심각해..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 25,
+   "draft_translation": "「바이러스 버스팅」 실력이 좋으면 / 오피셜 센터에서 / 라이선스를 받을 수 있대. // 응? // [printItem item=58]를 따 왔다고? / 제법인데!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 26,
+   "draft_translation": "왠지 / 큰 집 쪽에서 냄새가 나. / 기분 탓인가?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 27,
+   "draft_translation": "후... 후... // 아저씨가 좀 많이 걸었나? / 머리가 어질어질하네."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 30,
+   "draft_translation": "여기 있던 가게 점장님이랑 / 형이 아는 사이였지?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 31,
+   "draft_translation": "친구 집은 외워 두는 게 좋아. // 놀러 가서 인터넷에 / 접속할 수 있게 되면 뜻밖의 / 지름길이 생기기도 하거든. // 그러려면 친구에게 / 전자 기기의 패스코드를 / 미리 알려 달라고 해야 해."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 32,
+   "draft_translation": "이 집, 아까부터 / 쥐 죽은 듯 조용하네. // ...[waitSkip 30] // 어머! / 그런 일이 있었어!? / 그래서 친구를 구해 줬다고? // 정말 장하네~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 33,
+   "draft_translation": "세일 정보 확인도 데이트 약속도 / PET만 있으면 뭐든 할 수 있지~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 34,
+   "draft_translation": "저 애가 자꾸 달라고 조르는 바람에 / 도망쳐 왔어..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 35,
+   "draft_translation": "아까 칩 잔뜩 갖고 있던 / 형 어디 갔는지 몰라? // 으아아앙!!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 36,
+   "draft_translation": "걱정거리가 사라졌구나. / 얼굴이 환해졌는걸. / 후훗."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 37,
+   "draft_translation": "어때? / 바이러스 버스팅 열심히 하고 있어? // 나도 바이러스 버스팅은 / 꽤 잘하는 편인데, // 메톨만큼은 정말 약해. // 그래서 레귤러 칩에 / 패널아웃1을 넣어 뒀어. // 너도 상대하기 힘든 바이러스가 있으면 / 그 녀석에게 효과적인 칩을 / 레귤러로 정해 봐!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 38,
+   "draft_translation": "댁의 개집 말인데 / 거기에도 플러그인할 수 있다네. // 뜻밖의 곳에도 / 플러그인할 수 있으니 / 이것저것 시험해 보는 게 좋다네. // 자! 플러그인![waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // 여기는 안 되는군."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 45,
+   "draft_translation": "메일이 공부 도구를 들고 / 어디론가 나갔어."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 46,
+   "draft_translation": "넷토, 오피셜 넷배틀러가 / 뭔지 알아? // 예 // 아니요 // 오피셜 넷배틀러는 / 국가가 정식으로 인정한 / 넷배틀러를 말해. // 네트워크 범죄가 일어나면 사건 해결을 / 위해 넷배틀을 하는 것이 / 허가되어 있대. // 그 목적이라면 출입 금지 구역에 / 들어가거나, 일반인은 접속할 수 없는 / 곳에 플러그인해도 된다는 모양이야. // 오피셜 넷배틀러는 / 특별한 존재인 거지. / 멋있다..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 47,
+   "draft_translation": "그럼 시민 넷배틀러는? / 알아 / 몰라 // 시민 넷배틀러도 네트워크 범죄를 / 해결하기 위한 넷배틀은 / 허용되지만, // 오피셜 넷배틀러 같은 / 특권은 없어."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 48,
+   "draft_translation": "참고로 B 라이선스 이상을 가진 사람이 / 시민 넷배틀러야."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 49,
+   "draft_translation": "난 오피셜 넷배틀러야! // 네트워크 범죄가 일어나지 않는지 / 이렇게 마을을 순찰하는 것도 / 임무 중 하나지!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 50,
+   "draft_translation": "이 나라는 아직 평화롭지만... // 외국에서는 넷 마피아 때문에 / 큰 사건이 잇달아 / 일어난다는군. // 그 수법은 예전 WWW와는 / 비교도 안 될 만큼 / 잔인하다고 해... // 만약 녀석들이 일본에서 / 활동을 시작한다면 / 끔찍한 일이 벌어질 거야..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 51,
+   "draft_translation": "PET 사용법을 배우는 건 / 우리 늙은이들에겐 / 큰 고생이었지. // 하지만 이젠 PET 덕분에 / 꽤 편리하게 살고 있다네. // ...어디,[waitSkip 30] // 내일 병원 예약이나 / 해 볼까..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 52,
+   "draft_translation": "내 메톨가드 / 소중히 써 줘."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 53,
+   "draft_translation": "내 브이건이랑 / 바꿔 줄게~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 54,
+   "draft_translation": "선생님은 쉬는 날에도 / 가끔 학교에 와. 알고 있었니? // 마침 잘됐으니 여기서 / 내비의 레벨 업에 관해 / 보충 수업을 해 줄게. // 내비의 레벨 업은 / 「강화 프로그램」을 장비해서 / 하는 거야. // 「HP 메모리」는 / 내비의 최대 HP를 올리는 프로그램이라 / 얻기만 해도 효과가 있어. // 「버스터 UP」은 / 버스터를 강화하는 프로그램이야. // 서브 화면의 「록맨」으로 들어가서 / 강화하고 싶은 능력치를 / 골라야 해. // 「강화 프로그램」은 / 미스터리 데이터 안에 들어 있거나 / 넷 상인이 팔기도 해."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 55,
+   "draft_translation": "아키하라 마을 밖으로 가실 때는 / 이곳에서 지하철 메트로라인을 / 이용해 주세요. // 현재 마린하버행을 / 이용하실 수 있습니다."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 56,
+   "draft_translation": "메일이 방금 돌아왔어."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 57,
+   "draft_translation": "캠핑 가는 거야?[waitSkip 15] // 좋겠다!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 58,
+   "draft_translation": "시민 넷배틀러 시험? / 우와~ 멋지다!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 59,
+   "draft_translation": "넷토, 메일이야!!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 60,
+   "draft_translation": "정말! 늦었잖아! // 캠핑장... 오쿠덴 계곡까지는 / 버스로 가기로 벌써 정했어."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 61,
+   "draft_translation": "이제야 왔냐, 넷토! 늦었잖아!! // 뭐, 됐어. 어쨌든! // 캠핑이라고~~~!! / 왠지 두근두근하는걸~~~~!!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 62,
+   "draft_translation": "흙투성이가 되는 건 / 이 야이토 님 캐릭터엔 / 안 어울리거든. // 그래도 가끔은 괜찮겠지, 후훗."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 63,
+   "draft_translation": "메일이랑 캠핑 가는구나~ // 좋겠다~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 64,
+   "draft_translation": "와하하하! // 나는 넷 마피아다~~~!! / 바이러스를 마구 뿌려 주마~~!!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 65,
+   "draft_translation": "넷 마피아 무서워~~~~ / 으아아앙!!!!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 66,
+   "draft_translation": "따라 하는 아이에게 / 죄는 없지만... // 이런 나쁜 놀이가 유행하지 않도록 / 넷 마피아의 정보를 / 한시라도 빨리 모아야겠어..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 67,
+   "draft_translation": "선생님도 캠핑에 같이 가자고? // 초대는 고맙지만 / 선생님 치마 차림인데..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 68,
+   "draft_translation": "캠핑 가니? / 좋은 일이지. // 요즘 아이들은 / 운동 부족에 빠지기 쉬우니까. // 그래도 PET는 가져가렴. / 무슨 일이 생겼을 때 PET가 없으면 / 여러모로 불편하거든."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 69,
+   "draft_translation": "오늘도 덥네~ // 집에서 시원하게 / 인터넷이나 할까..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 75,
+   "draft_translation": "이 가게 점장님은 / 어디로 가 버린 걸까? // 빨리 돌아왔으면 좋겠다."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 76,
+   "draft_translation": "이 더위에 외근은 / 상당히 힘들어... // 서 있는 것만도 벅차. // 응? 아지나에 간다고? / 그곳 더위는 장난 아니야. // 인터넷으로? / 아, 그러면 덥지 않겠네."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 77,
+   "draft_translation": "아줌마도 저축을 / 시작했어. // 언젠가 이런 큰 집을 / 지으려고 말이야. // 「천 리 길도 한 걸음부터」라고 하잖아?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 78,
+   "draft_translation": "얼마 전 인터넷에서 / 메일 친구를 사귀었어. // 이게 새로운 만남의 방식이지~ // 너도 메일 친구 있어?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 79,
+   "draft_translation": "싫어~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 80,
+   "draft_translation": "그 칩 나 줘~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 81,
+   "draft_translation": "히카리는 자유 연구 / 주제 정했어? // 난 우유부단해서 / 좀처럼 못 정하겠어."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 82,
+   "draft_translation": "들어 봐! // 나 얼마 전에 / 결혼했어~ // 결혼식은 아메롭파에서 / 올렸지."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 90,
+   "draft_translation": "내 의뢰를 / 맡아 줄 사람이 너구나. // 지금부터 의뢰 내용을 / 설명할 텐데... // 절대로 누구에게도 말하지 마. // 사실 실험 중이던 내비들을 / 놓쳐 버렸어. // 내비는 모두 세 대야. / 이 아키하라 마을 어딘가의 전뇌 세계에 / 숨어 있는 모양이야. // 인터넷에는 가지 않았다는 건 / 확인했지만... // 네 의뢰는 도망친 내비를 / 찾아 딜리트하는 거야. // 조심해야 할 건 / 그 내비들이 바이러스를 / 발생시킬 수 있다는 점이야. // 내비가 발생시킨 / 바이러스를 쓰러뜨리면 / 내비를 딜리트할 수 있어. // 그럼 잘 부탁해."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 91,
+   "draft_translation": "의뢰 내용을 다시 확인해 줄게. // 사실 실험 중이던 내비들을 / 놓쳐 버렸어. // 내비는 모두 세 대야. / 이 아키하라 마을 어딘가의 전뇌 세계에 / 숨어 있는 모양이야. // 인터넷에는 가지 않았다는 건 / 확인했지만... // 네 의뢰는 도망친 내비를 / 찾아 딜리트하는 거야. // 조심해야 할 건 / 그 내비들이 바이러스를 / 발생시킬 수 있다는 점이야. // 틀림없이 아키하라 마을 안에 / 있을 테니 / 힘내서 찾아 줘!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 92,
+   "draft_translation": "축하해! // 너, 의외로 제법이네! / 내 테스트를 통과하다니. // 난 라이선스 시험의 / 시험관이야. // 네 버스팅 기술을 / 시험해 봤지. // 그 실력을 더 갈고닦으면 / 장차 오피셜도 / 될 수 있지 않겠어?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 93,
+   "draft_translation": "난 크면 / 꼭 오피셜 넷배틀러가 / 될 거야! // 하지만 오피셜이 되려면 / 시험을 봐야 한대. // 시험은 싫은데~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 94,
+   "draft_translation": "이맘때는 다들 여행을 / 떠나서 빈집이 많으니 / 아저씨도 일이 안 되네. // 그런데 이 더위는 장난이 아니야. / 어디 시원하게 쉴 곳 없나?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 95,
+   "draft_translation": "항상 여기서 뭘 하냐고? // 그야 돈 떨어진 게 없나 / 찾는 거지. // ·[waitSkip 20] // ·[waitSkip 20] // ·[waitSkip 20] // 농담이야, 농담! // 언젠가 이런 집을 짓겠다는 / 결심을 다지러 오는 거야!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 96,
+   "draft_translation": "얼마 전에 메일 친구를 / 만나 봤는데~~ / 완전 즐거웠어. // 메일 친구 잔뜩 사귀어야지!!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 97,
+   "draft_translation": "헤헹~ / 억울하면 잡아 보시지~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 98,
+   "draft_translation": "치사해~ // 칩 한 장 정도는 / 줘도 되잖아~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 99,
+   "draft_translation": "이 꽃에 나비 / 애벌레가 있어. // 자유 연구 주제로 / 삼으려고 해."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 100,
+   "draft_translation": "이야~ 아메롭파에서 올린 / 결혼식... // 잊을 수가 없네."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 101,
+   "draft_translation": "장래가 유망한 너에게 / 내가 선물을 주마."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 102,
+   "draft_translation": "넷토는 / 강화 프로그램 「[printItem item=98]」을 / 획득했다!! // 레귤러 메모리 용량이 / 1메가 늘었다!!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 103,
+   "draft_translation": "현재에 / 만족해선 안 돼. // 언제나 더 높은 곳을 목표로 해!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 105,
+   "draft_translation": "형, [printItem item=60]를 / 가지고 있구나! / 굉장하다!! // 보여 줘, 보여 줘!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 106,
+   "draft_translation": "아저씨는 일 때문에 여러 곳에 / 다니는데, // 여기저기서 칩을 원하는 / 사람이 있는 모양이더라. // 아저씨는 별로 / 관심이 없어서 / 잘 모르지만 말이야. // 아~ 그나저나 덥다!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 107,
+   "draft_translation": "나도 시민 넷배틀러 / 자격을 따 볼까? // 의뢰를 많이 맡으면 / 금방 돈이 모일지도 모르고. // 의뢰도 꽤 자주 / 올라오는 모양이니까. // 다음에 한번 들여다볼까~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 108,
+   "draft_translation": "인터넷은 여러 사람의 / 홈페이지에서 접속할 수 있어~ // 목적지에서 가장 가까운 / 홈페이지에서 플러그인하면 // 효율적으로 / 이동할 수 있지~ // 메일 친구도 바로 만날 수 있고~ / 괜찮지 않아?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 109,
+   "draft_translation": "자, 자! / 따라잡아 봐~!! // 아직 더 달릴 수 있다고~~~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 110,
+   "draft_translation": "칩 줘~!! / 제발 좀~~~! // 으아아아아앙!!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 111,
+   "draft_translation": "나비 애벌레가 / 번데기가 되려고 해. / 봐, 전혀 움직이지 않지? // 빨리 나비가 되면 좋겠다."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 112,
+   "draft_translation": "신혼인데 왜 / 늘 혼자냐고? // 내 아내는 야외 활동파라 / 언제나 멋대로 어딘가로 떠나 버려. // 꽤 외롭긴 하지만 / 그 점도 그녀의 매력이지!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 115,
+   "draft_translation": "오피셜이 되려고 / 몸을 단련하고 있어! // 하나, 둘! 하나, 둘!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 116,
+   "draft_translation": "으으... 속이 안 좋아... / 일사병인가... // 어디 그늘을 찾아야겠어..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 117,
+   "draft_translation": "시민 넷배틀러 시험을 / 보고 왔는데, // 아무래도 난 적성에 / 안 맞는 모양이야... // 「[printItem item=1]」, / 대체 어디에 있었던 걸까?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 118,
+   "draft_translation": "응? 아지나 스퀘어를 / 아느냐고? // 가 본 적은 없지만~ // 보안 기술이 / 대단히 뛰어나기로 유명한 곳이지~ // 한 번쯤 가 보고 싶지만~ / 라이선스도 없고~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 119,
+   "draft_translation": "헉, 헉... / 따라잡아 봐! 헉헉..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 120,
+   "draft_translation": "기, 기다려~~~... / 헉헉... // 칩 좀 줘~..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 121,
+   "draft_translation": "나비 애벌레가 / 완전히 번데기가 됐어. // 움직이지 않아서 / 별로 재미없어..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 122,
+   "draft_translation": "아이들은 천진난만해서 좋네. // 그런데 체력이 정말 대단해. / 저 둘은 계속 달리고 있잖아."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 125,
+   "draft_translation": "새 칩 갖고 싶다~ / 역시 바이러스 버스팅을 해야 / 얻을 수 있으려나?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 126,
+   "draft_translation": "후~ 여기라면 좀 시원하군. // 어때? 너도 들어갈래? // 응? 여긴 네 친구 집이라고? / 뭐, 그런 딱딱한 소린 말자고."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 127,
+   "draft_translation": "요즘 인터넷에서~ // 오피셜 내비를 / 자주 보는데~ // 무슨 큰 사건이라도 / 일어난 걸까? // 말을 걸어도 / 아무것도 안 알려 주고~ // 조금 걱정돼~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 128,
+   "draft_translation": "숙제는 잘돼 가? // 난 굼떠서 / 아직 하나도 못 했어."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 129,
+   "draft_translation": "늘 여기서 놀던 아이들이 / 싸운 모양이라 / 집에 돌아가 버렸어."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 135,
+   "draft_translation": "형, / 시민 넷배틀러야? // 굉장하다!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 136,
+   "draft_translation": "이야, / 여기서 더위를 식혔더니 / 땀이 많이 가셨네."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 137,
+   "draft_translation": "아까 인터넷에서 / 오피셜 내비와 얘기했는데~ // 「플러그아웃하세요」라는 / 말을 들었어. // 이건 역시 무슨 일이 / 생긴 게 틀림없어~"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 138,
+   "draft_translation": "야이토가 / 숙제를 보여 주면 좋겠다. // 하지만 숙제는 / 스스로 해야 하잖아. // 남에게 기대면 자신에게 / 도움이 안 되는걸."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 139,
+   "draft_translation": "응? 나랑 / 자주 함께 있는 여자? // 내 아내 말이야? // 아, 아내라면 / 캠핑장에 갔어. // 신혼인데 남편을 두고 / 혼자 캠핑을 가 버리다니. // 너, 아내에게 볼일이 있지? / 그럼 이것 좀 / 전해 주지 않을래? // 아내 PET의 / 충전지야. // 산속에서 배터리가 떨어지면 / 큰일이니까! // 그럼 부탁할게."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 140,
+   "draft_translation": "넷토는 / 「[printItem item=18]」 / 획득 성공!!"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 141,
+   "draft_translation": "확인 삼아 말해 두는데 / 내 아내는 캠핑장에 / 있으니까. // 잘 부탁해."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 142,
+   "draft_translation": "내 아내, 예쁘지? / 헤헷."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 143,
+   "draft_translation": "사실 또 몰래 / 인터넷을 돌아다니고 있었는데~ // 보기에도 수상한 내비가 / 오피셜 스퀘어로 / 들어가는 걸 봤어."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 144,
+   "draft_translation": "호기심에 인터넷에 / 들어가 봤는데~ // 오피셜 내비가 / 한 명도 없더라~ // 이제 사건이 해결된 걸까?"
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 145,
+   "draft_translation": "혼자라 심심해서 / 인터넷에 가 봤는데, // 아무도 없었어... / 평소라면 반드시 누군가와 / 마주칠 텐데..."
+  },
+  {
+   "selector": "00/394",
+   "entry_index": 146,
+   "draft_translation": "인터넷에 / 내비가 거의 없더라. // 별일도 다 있네~"
+  }
+ ]
 }

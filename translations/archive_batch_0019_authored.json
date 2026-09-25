@@ -1,510 +1,510 @@
 {
-  "schema_version": 1,
-  "kind": "authored_multi_archive_translation_batch",
-  "batch_number": 19,
-  "entries": [
-    {
-      "selector": "00/47",
-      "entry_index": 95,
-      "draft_translation": "저희는 코토부키 마을의 / 호화 맨션에 살았는데, // 어제부터 머리가 아파서 / 도망쳐 왔어요... // 여긴 우리 집만큼 호화롭고 / 상태도 괜찮네요."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 96,
-      "draft_translation": "엄마! 엄마!"
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 97,
-      "draft_translation": "밥 안 나와~"
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 98,
-      "draft_translation": "집에 가고 싶어~"
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 99,
-      "draft_translation": "평소라면 돌아가 달라고 / 하겠지만, // 사정이 사정이니..."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 190,
-      "draft_translation": "야! 일본은 정말 좋은 곳이네! // 난 곧 아메롭파로 돌아가... // 고향에서 기다리는 동생에게 / 일본 칩을 선물로 가져가려는데, // 원하는 칩을 구할 수가 없어. // 너, 「[printChip chip=212] [printCode code=S]」 / 「[printChip chip=213] [printCode code=S]」 / 「[printChip chip=214] [printCode code=S]」를 갖고 있니? // 괜찮다면 내가 가진 / 「[printChip chip=184] [printCode code=S]」와 / 교환해 주지 않을래? // 동생을 위해서야. 부탁할게. // 좋아 // 싫어 // 어떻게 안 될까?"
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 191,
-      "draft_translation": "와~! 고마워!! / 이제 가슴 펴고 돌아갈 수 있겠어. // 사실 일본에 올 때 / 동생과 크게 싸우고 나왔거든. // 이 칩으로 화해할 수 있으려나. // 자, 이걸 받아 줘."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 192,
-      "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=184] [printCode code=S]」를 / 획득했다!!"
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 193,
-      "draft_translation": "네게 받은 칩은 / 일본에서의 좋은 추억이 / 될 것 같아. // 고마워."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 194,
-      "draft_translation": "역시 와 줬구나. / 넌 꼭 올 거라고 생각했어. // 네 「[printChip chip=212] [printCode code=S]」, / 「[printChip chip=213] [printCode code=S]」, / 「[printChip chip=214] [printCode code=S]」와 // 내 「[printChip chip=184] [printCode code=S]」를 / 교환하러 온 거지? // 응 // 아니야 // 그렇게 말해도 / 넌 다시 와 줄 거야. // 다정해 보이는 얼굴을 / 하고 있으니까."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 195,
-      "draft_translation": "「[printChip chip=212] [printCode code=S]」, / 「[printChip chip=213] [printCode code=S]」, / 「[printChip chip=214] [printCode code=S]」가 없어. // 이래선 교환할 수 없겠네. // 혹시 폴더 안에 / 들어 있는 건 아니니? // 한번 확인해 봐. // 폴더 안에 있다면 / 가방으로 옮겨 둬."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 220,
-      "draft_translation": "정말 굉장한 좌석이다. / 호화롭다는 말밖에 안 나온다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 221,
-      "draft_translation": "보기에는 알 수 없지만 / 최신형 TV다. // 플러그인은 할 수 없게 / 되어 있다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 222,
-      "draft_translation": "커튼이 닫혀 있어 / 들어갈 수 없다. // 퍼스트 클래스의 커튼은 / 왠지 좋은 천을 쓴 것처럼 보인다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 223,
-      "draft_translation": "조화 같은 게 아니다. / 진짜 꽃이 꽂혀 있다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 224,
-      "draft_translation": "달콤한 향기가 풍겨 온다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 225,
-      "draft_translation": "여성용 패션 잡지다. / 최신 유행을 한눈에 알 수 있다. // 「올가을은 검정으로 결정」 / 이라고 한다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 226,
-      "draft_translation": "최신 음악계의 동향을 / 파악할 수 있는 음악 잡지다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 227,
-      "draft_translation": "한 병에 얼마인지 짐작도 안 되는 / 고급 와인이다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 228,
-      "draft_translation": "보기만 해도 도수가 높아 보이는 / 최고급 위스키다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 229,
-      "draft_translation": "밖으로 나갈 때 쓰는 문이다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 230,
-      "draft_translation": "에어컨 등을 조절하는 / 제어판이다. // 플러그인은 할 수 없다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 231,
-      "draft_translation": "창밖에는 아름다운 푸른 하늘이 / 펼쳐져 있다."
-    },
-    {
-      "selector": "00/47",
-      "entry_index": 233,
-      "draft_translation": "공항의 모습이 보인다. / 수많은 비행기가 늘어서 있다."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 1,
-      "draft_translation": "이 비행기는 자동 조종이라 / 이착륙할 때 말고는 // 우리는 계기판을 / 점검하고 있어."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 5,
-      "draft_translation": "아까 크게 흔들렸는데 / 다치진 않았니? // 나도 깜짝 놀랐어. / 하하하."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 6,
-      "draft_translation": "아무리 자동 조종이라도 / 아까 에어 포켓 같은 돌발 상황에는 / 대처할 수 없어서 // 수동 조종으로 전환하는 거야. // 프로그램에만 맡길 수 없는 / 일도 있거든."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 10,
-      "draft_translation": "순조롭군, 순조로워!"
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 11,
-      "draft_translation": "뭐든 프로그램이 / 해 주다니, / 편리한 세상이네."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 15,
-      "draft_translation": "왜 그래? / 무슨 일이라도 있어?"
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 16,
-      "draft_translation": "하아암, 졸리기 시작했어."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 26,
-      "draft_translation": "부탁한다."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 27,
-      "draft_translation": "어떻게 된 거야? / 아와와와왓!"
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 32,
-      "draft_translation": "후우, 살았다... // 넌 승객과 승무원 모두의 / 생명의 은인이야!"
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 33,
-      "draft_translation": "고마워! 정말 고마워!"
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 222,
-      "draft_translation": "비행기의 상태를 나타내는 / 계기들이 늘어서 있다."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 223,
-      "draft_translation": "계기들이 늘어서 있다. / 플러그인할 수 있다."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 224,
-      "draft_translation": "여러 가지 계기가 늘어서 있지만 / 무슨 뜻인지는 전혀 모르겠다."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 225,
-      "draft_translation": "기장님의 멋진 모자다... // 상당히 크다. / 아니, 너무 크다..."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 226,
-      "draft_translation": "이 모자, 쓸 수 있겠는데... / 몰래 가져가도 안 들키겠지. // 기장님, 죄송합니다. / 잠깐 빌릴게요."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 227,
-      "draft_translation": "모자가 없는 모자걸이는 / 조금 쓸쓸해 보인다..."
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 228,
-      "draft_translation": "넷토는 / 「[printItem item=30]」을 / 획득했다!!"
-    },
-    {
-      "selector": "00/48",
-      "entry_index": 229,
-      "draft_translation": "뭔가 적혀 있다... // 「이문화를 내려다보는 곳」"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 0,
-      "draft_translation": "일단 마린 하버로 / 돌아가시겠습니까? // 예 // 아니요"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 2,
-      "draft_translation": "이제 괜찮다니까! / 이 데카오 님은 그렇게 약하지 않아!"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 3,
-      "draft_translation": "이 정도 전자파라면 / 우리 방호복으로도 / 괜찮은 것 같네."
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 4,
-      "draft_translation": "넷토, 힘내! // 아, 하지만 역시...[waitSkip 30] // 아니야...[waitSkip 15] / 아무것도 아니야."
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 5,
-      "draft_translation": "어제부터 저 맨션에서 / 이상한 일이 일어나기 시작해서... // 모두 이미 대피했지만... // 괴, 괴로워..."
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 6,
-      "draft_translation": "저, 전자파 때문에 / 생각한 방향으로 걸을 수가 없어..."
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 7,
-      "draft_translation": "그러니까 이걸 가지고 / 얼른 고스펠을 쓰러뜨리고 와."
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 8,
-      "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=47] [printCode code=*]」를 / 획득했다!!"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 9,
-      "draft_translation": "힘내라니까."
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 181,
-      "draft_translation": "넷토, 데카오에게 / 넷배틀을 신청할래? // 예 // 아니요"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 184,
-      "draft_translation": "실력을 키우고 싶다면 / 언제든 상대해 주마!"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 185,
-      "draft_translation": "...역시 거츠맨을 / 강하게 만들 때까지만 기다려 줘! / 응? 응?"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 187,
-      "draft_translation": "진짜냐! / 제법 하잖아... // 좋아...[waitSkip 30] / 이걸 써!"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 188,
-      "draft_translation": "넷토는 / 「[printItem item=81]」을 / 획득했다!!"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 189,
-      "draft_translation": "젠장!! / 이래도 못 이기는 거냐!"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 191,
-      "draft_translation": "제길!! / 방금 건 실수야! 분명 그래!"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 193,
-      "draft_translation": "다음엔 안 질 거야!"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 194,
-      "draft_translation": "제길!! / 방금 건 실수야! 분명 그래!"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 195,
-      "draft_translation": "역시 내가 가지 않으면 / 고스펠을 쓰러뜨릴 수 없는 건가..."
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 196,
-      "draft_translation": "헷!! / 져도 울지 마라!!"
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 197,
-      "draft_translation": "이 배틀을 위해 / 어제 사 온 서포트 칩! // 그리고... 마침내 완성된 / 거츠맨의 새 필살기 프로그램, // 로켓 거츠 펀치를 받아라!",
-      "review_notes": [
-        "필살기명 'ロケットガッツパンチ'를 기존 고유명 표기 원칙에 맞춰 '로켓 거츠 펀치'로 옮김."
-      ]
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 220,
-      "draft_translation": "맨션이다. / 전자파 이상의 영향으로 / 폐허처럼 변해 있다."
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 221,
-      "draft_translation": "맨션이다. / 전자파 이상의 영향으로 / 폐허처럼 변해 있다."
-    },
-    {
-      "selector": "00/49",
-      "entry_index": 222,
-      "draft_translation": "주스 자동판매기다! // 정비를 위해 / 플러그인할 수 있게 되어 있다."
-    },
-    {
-      "selector": "00/50",
-      "entry_index": 220,
-      "draft_translation": "관리인실이다... // 쥐 죽은 듯 조용하다... / 사람의 기척은 없다."
-    },
-    {
-      "selector": "00/50",
-      "entry_index": 221,
-      "draft_translation": "우편함이다."
-    },
-    {
-      "selector": "00/50",
-      "entry_index": 222,
-      "draft_translation": "자동 잠금이지만 문은 잠기지 않았다. / 플러그인할 수 있을 것 같다!"
-    },
-    {
-      "selector": "00/50",
-      "entry_index": 223,
-      "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
-    },
-    {
-      "selector": "00/50",
-      "entry_index": 225,
-      "draft_translation": "맨션 주민들의 / 이름이 적혀 있다..."
-    },
-    {
-      "selector": "00/51",
-      "entry_index": 220,
-      "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
-    },
-    {
-      "selector": "00/51",
-      "entry_index": 223,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/51",
-      "entry_index": 224,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/52",
-      "entry_index": 220,
-      "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
-    },
-    {
-      "selector": "00/52",
-      "entry_index": 222,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/52",
-      "entry_index": 224,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/53",
-      "entry_index": 220,
-      "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
-    },
-    {
-      "selector": "00/53",
-      "entry_index": 222,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/53",
-      "entry_index": 223,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/54",
-      "entry_index": 220,
-      "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
-    },
-    {
-      "selector": "00/54",
-      "entry_index": 223,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/54",
-      "entry_index": 224,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/55",
-      "entry_index": 220,
-      "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
-    },
-    {
-      "selector": "00/55",
-      "entry_index": 222,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/55",
-      "entry_index": 224,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/56",
-      "entry_index": 220,
-      "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
-    },
-    {
-      "selector": "00/56",
-      "entry_index": 222,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/56",
-      "entry_index": 223,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/56",
-      "entry_index": 230,
-      "draft_translation": "...그런데, / 문손잡이 위에 뭔가 놓여 있다. // [textSpeed delay=10]...[textSpeed delay=2] // 넷토는 / 강화 프로그램 「[printItem item=96]」을 / 획득했다!!"
-    },
-    {
-      "selector": "00/57",
-      "entry_index": 220,
-      "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
-    },
-    {
-      "selector": "00/57",
-      "entry_index": 223,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/57",
-      "entry_index": 224,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/58",
-      "entry_index": 220,
-      "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
-    },
-    {
-      "selector": "00/58",
-      "entry_index": 222,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/58",
-      "entry_index": 224,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/59",
-      "entry_index": 220,
-      "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
-    },
-    {
-      "selector": "00/59",
-      "entry_index": 222,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    },
-    {
-      "selector": "00/59",
-      "entry_index": 223,
-      "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
-    }
-  ]
+ "schema_version": 1,
+ "kind": "authored_multi_archive_translation_batch",
+ "batch_number": 19,
+ "entries": [
+  {
+   "selector": "00/47",
+   "entry_index": 95,
+   "draft_translation": "저희는 코토부키 마을의 / 호화 맨션에 살았는데, // 어제부터 머리가 아파서 / 도망쳐 왔어요... // 여긴 우리 집만큼 호화롭고 / 상태도 괜찮네요."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 96,
+   "draft_translation": "엄마! 엄마!"
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 97,
+   "draft_translation": "밥 안 나와~"
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 98,
+   "draft_translation": "집에 가고 싶어~"
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 99,
+   "draft_translation": "평소라면 돌아가 달라고 / 하겠지만, // 사정이 사정이니..."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 190,
+   "draft_translation": "야! 일본은 정말 좋은 곳이네! // 난 곧 아메롭파로 돌아가... // 고향에서 기다리는 동생에게 / 일본 칩을 선물로 가져가려는데, // 원하는 칩을 구할 수가 없어. // 너, 「[printChip chip=212] [printCode code=S]」 / 「[printChip chip=213] [printCode code=S]」 / 「[printChip chip=214] [printCode code=S]」를 갖고 있니? // 괜찮다면 내가 가진 / 「[printChip chip=184] [printCode code=S]」와 / 교환해 주지 않을래? // 동생을 위해서야. 부탁할게. // 좋아 // 싫어 // 어떻게 안 될까?"
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 191,
+   "draft_translation": "와~! 고마워!! / 이제 가슴 펴고 돌아갈 수 있겠어. // 사실 일본에 올 때 / 동생과 크게 싸우고 나왔거든. // 이 칩으로 화해할 수 있으려나. // 자, 이걸 받아 줘."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 192,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=184] [printCode code=S]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 193,
+   "draft_translation": "네게 받은 칩은 / 일본에서의 좋은 추억이 / 될 것 같아. // 고마워."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 194,
+   "draft_translation": "역시 와 줬구나. / 넌 꼭 올 거라고 생각했어. // 네 「[printChip chip=212] [printCode code=S]」, / 「[printChip chip=213] [printCode code=S]」, / 「[printChip chip=214] [printCode code=S]」와 // 내 「[printChip chip=184] [printCode code=S]」를 / 교환하러 온 거지? // 응 // 아니야 // 그렇게 말해도 / 넌 다시 와 줄 거야. // 다정해 보이는 얼굴을 / 하고 있으니까."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 195,
+   "draft_translation": "「[printChip chip=212] [printCode code=S]」, / 「[printChip chip=213] [printCode code=S]」, / 「[printChip chip=214] [printCode code=S]」가 없어. // 이래선 교환할 수 없겠네. // 혹시 폴더 안에 / 들어 있는 건 아니니? // 한번 확인해 봐. // 폴더 안에 있다면 / 가방으로 옮겨 둬."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 220,
+   "draft_translation": "정말 굉장한 좌석이다. / 호화롭다는 말밖에 안 나온다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 221,
+   "draft_translation": "보기에는 알 수 없지만 / 최신형 TV다. // 플러그인은 할 수 없게 / 되어 있다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 222,
+   "draft_translation": "커튼이 닫혀 있어 / 들어갈 수 없다. // 퍼스트 클래스의 커튼은 / 왠지 좋은 천을 쓴 것처럼 보인다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 223,
+   "draft_translation": "조화 같은 게 아니다. / 진짜 꽃이 꽂혀 있다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 224,
+   "draft_translation": "달콤한 향기가 풍겨 온다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 225,
+   "draft_translation": "여성용 패션 잡지다. / 최신 유행을 한눈에 알 수 있다. // 「올가을은 검정으로 결정」 / 이라고 한다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 226,
+   "draft_translation": "최신 음악계의 동향을 / 파악할 수 있는 음악 잡지다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 227,
+   "draft_translation": "한 병에 얼마인지 짐작도 안 되는 / 고급 와인이다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 228,
+   "draft_translation": "보기만 해도 도수가 높아 보이는 / 최고급 위스키다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 229,
+   "draft_translation": "밖으로 나갈 때 쓰는 문이다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 230,
+   "draft_translation": "에어컨 등을 조절하는 / 제어판이다. // 플러그인은 할 수 없다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 231,
+   "draft_translation": "창밖에는 아름다운 푸른 하늘이 / 펼쳐져 있다."
+  },
+  {
+   "selector": "00/47",
+   "entry_index": 233,
+   "draft_translation": "공항의 모습이 보인다. / 수많은 비행기가 늘어서 있다."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 1,
+   "draft_translation": "이 비행기는 자동 조종이라 / 이착륙할 때 말고는 // 우리는 계기판을 / 점검하고 있어."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 5,
+   "draft_translation": "아까 크게 흔들렸는데 / 다치진 않았니? // 나도 깜짝 놀랐어. / 하하하."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 6,
+   "draft_translation": "아무리 자동 조종이라도 / 아까 에어 포켓 같은 돌발 상황에는 / 대처할 수 없어서 // 수동 조종으로 전환하는 거야. // 프로그램에만 맡길 수 없는 / 일도 있거든."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 10,
+   "draft_translation": "순조롭군, 순조로워!"
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 11,
+   "draft_translation": "뭐든 프로그램이 / 해 주다니, / 편리한 세상이네."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 15,
+   "draft_translation": "왜 그래? / 무슨 일이라도 있어?"
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 16,
+   "draft_translation": "하아암, 졸리기 시작했어."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 26,
+   "draft_translation": "부탁한다."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 27,
+   "draft_translation": "어떻게 된 거야? / 아와와와왓!"
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 32,
+   "draft_translation": "후우, 살았다... // 넌 승객과 승무원 모두의 / 생명의 은인이야!"
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 33,
+   "draft_translation": "고마워! 정말 고마워!"
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 222,
+   "draft_translation": "비행기의 상태를 나타내는 / 계기들이 늘어서 있다."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 223,
+   "draft_translation": "계기들이 늘어서 있다. / 플러그인할 수 있다."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 224,
+   "draft_translation": "여러 가지 계기가 늘어서 있지만 / 무슨 뜻인지는 전혀 모르겠다."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 225,
+   "draft_translation": "기장님의 멋진 모자다... // 상당히 크다. / 아니, 너무 크다..."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 226,
+   "draft_translation": "이 모자, 쓸 수 있겠는데... / 몰래 가져가도 안 들키겠지. // 기장님, 죄송합니다. / 잠깐 빌릴게요."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 227,
+   "draft_translation": "모자가 없는 모자걸이는 / 조금 쓸쓸해 보인다..."
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 228,
+   "draft_translation": "넷토는 / 「[printItem item=30]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/48",
+   "entry_index": 229,
+   "draft_translation": "뭔가 적혀 있다... // 「이문화를 내려다보는 곳」"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 0,
+   "draft_translation": "일단 마린 하버로 / 돌아가시겠습니까? // 예 // 아니요"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 2,
+   "draft_translation": "이제 괜찮다니까! / 이 데카오 님은 그렇게 약하지 않아!"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 3,
+   "draft_translation": "이 정도 전자파라면 / 우리 방호복으로도 / 괜찮은 것 같네."
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 4,
+   "draft_translation": "넷토, 힘내! // 아, 하지만 역시...[waitSkip 30] // 아니야...[waitSkip 15] / 아무것도 아니야."
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 5,
+   "draft_translation": "어제부터 저 맨션에서 / 이상한 일이 일어나기 시작해서... // 모두 이미 대피했지만... // 괴, 괴로워..."
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 6,
+   "draft_translation": "저, 전자파 때문에 / 생각한 방향으로 걸을 수가 없어..."
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 7,
+   "draft_translation": "그러니까 이걸 가지고 / 얼른 고스펠을 쓰러뜨리고 와."
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 8,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=47] [printCode code=*]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 9,
+   "draft_translation": "힘내라니까."
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 181,
+   "draft_translation": "넷토, 데카오에게 / 넷배틀을 신청할래? // 예 // 아니요"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 184,
+   "draft_translation": "실력을 키우고 싶다면 / 언제든 상대해 주마!"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 185,
+   "draft_translation": "...역시 거츠맨을 / 강하게 만들 때까지만 기다려 줘! / 응? 응?"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 187,
+   "draft_translation": "진짜냐! / 제법 하잖아... // 좋아...[waitSkip 30] / 이걸 써!"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 188,
+   "draft_translation": "넷토는 / 「[printItem item=81]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 189,
+   "draft_translation": "젠장!! / 이래도 못 이기는 거냐!"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 191,
+   "draft_translation": "제길!! / 방금 건 실수야! 분명 그래!"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 193,
+   "draft_translation": "다음엔 안 질 거야!"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 194,
+   "draft_translation": "제길!! / 방금 건 실수야! 분명 그래!"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 195,
+   "draft_translation": "역시 내가 가지 않으면 / 고스펠을 쓰러뜨릴 수 없는 건가..."
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 196,
+   "draft_translation": "헷!! / 져도 울지 마라!!"
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 197,
+   "draft_translation": "이 배틀을 위해 / 어제 사 온 서포트 칩! // 그리고... 마침내 완성된 / 거츠맨의 새 필살기 프로그램, // 로켓 거츠 펀치를 받아라!",
+   "review_notes": [
+    "필살기명 'ロケットガッツパンチ'를 기존 고유명 표기 원칙에 맞춰 '로켓 거츠 펀치'로 옮김."
+   ]
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 220,
+   "draft_translation": "맨션이다. / 전자파 이상의 영향으로 / 폐허처럼 변해 있다."
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 221,
+   "draft_translation": "맨션이다. / 전자파 이상의 영향으로 / 폐허처럼 변해 있다."
+  },
+  {
+   "selector": "00/49",
+   "entry_index": 222,
+   "draft_translation": "주스 자동판매기다! // 정비를 위해 / 플러그인할 수 있게 되어 있다."
+  },
+  {
+   "selector": "00/50",
+   "entry_index": 220,
+   "draft_translation": "관리인실이다... // 쥐 죽은 듯 조용하다... / 사람의 기척은 없다."
+  },
+  {
+   "selector": "00/50",
+   "entry_index": 221,
+   "draft_translation": "우편함이다."
+  },
+  {
+   "selector": "00/50",
+   "entry_index": 222,
+   "draft_translation": "자동 잠금이지만 문은 잠기지 않았다. / 플러그인할 수 있을 것 같다!"
+  },
+  {
+   "selector": "00/50",
+   "entry_index": 223,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
+  },
+  {
+   "selector": "00/50",
+   "entry_index": 225,
+   "draft_translation": "맨션 주민들의 / 이름이 적혀 있다..."
+  },
+  {
+   "selector": "00/51",
+   "entry_index": 220,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
+  },
+  {
+   "selector": "00/51",
+   "entry_index": 223,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/51",
+   "entry_index": 224,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/52",
+   "entry_index": 220,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
+  },
+  {
+   "selector": "00/52",
+   "entry_index": 222,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/52",
+   "entry_index": 224,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/53",
+   "entry_index": 220,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
+  },
+  {
+   "selector": "00/53",
+   "entry_index": 222,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/53",
+   "entry_index": 223,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/54",
+   "entry_index": 220,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
+  },
+  {
+   "selector": "00/54",
+   "entry_index": 223,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/54",
+   "entry_index": 224,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/55",
+   "entry_index": 220,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
+  },
+  {
+   "selector": "00/55",
+   "entry_index": 222,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/55",
+   "entry_index": 224,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/56",
+   "entry_index": 220,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
+  },
+  {
+   "selector": "00/56",
+   "entry_index": 222,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/56",
+   "entry_index": 223,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/56",
+   "entry_index": 230,
+   "draft_translation": "...그런데, / 문손잡이 위에 뭔가 놓여 있다. // [textSpeed delay=10]...[textSpeed delay=2] // 넷토는 / 강화 프로그램 「[printItem item=96]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/57",
+   "entry_index": 220,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
+  },
+  {
+   "selector": "00/57",
+   "entry_index": 223,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/57",
+   "entry_index": 224,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/58",
+   "entry_index": 220,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
+  },
+  {
+   "selector": "00/58",
+   "entry_index": 222,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/58",
+   "entry_index": 224,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/59",
+   "entry_index": 220,
+   "draft_translation": "넷토, 엘리베이터를 타려면 / 스위치를 눌러야 해."
+  },
+  {
+   "selector": "00/59",
+   "entry_index": 222,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  },
+  {
+   "selector": "00/59",
+   "entry_index": 223,
+   "draft_translation": "전자파의 영향으로 / 잠겨 있다... / 들어갈 수 없을 것 같다."
+  }
+ ]
 }

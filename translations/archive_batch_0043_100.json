@@ -1677,7 +1677,7 @@
       "source_entry_raw_hex": "ed 00 37 f1 00 e5 93 e5 94 a0 c8 b1 00 9a 9b ac 9d c0 88 88 88 d3 e8 90 3f 17 52 33 91 b2 00 11 2a a8 a9 b1 e8 d7 a9 bf d6 bb ad 9a eb e9 b6 c8 ac 9b b1 00 b2 c8 ae c8 b2 00 99 9a aa d3 88 88 88 eb e9 fa 04 0d 00 99 9a aa b2 00 90 3f 17 52 33 91 ae e8 bc bf c2 ab ad c8 9e 00 9a ad 9e e5 02 a8 88 88 88 ea 01 1e 00 e8 0f 34 a8 a9 b2 00 d3 b7 a3 c2 ab 9a a8 c8 d3 88 88 88 eb e9 f5 00 0b",
       "source_tpl_block_sha256": "f5d064641e671f95a2ad2450331c880dffc91cb0486246fbf48147c01188d473",
       "source_text_transcription": "熱斗くんの いうとおり・・・だ / 「ゴスペル」は キミたちの / どちらでもない // ほんとうの はんにんは あいつだ・・・ // あいつは 「ゴスペル」に / やられてなんか いなかった・・・ // \\nオレたちは だまされていたんだ・・・",
-      "draft_translation": "넷토 군의 말이 맞... 다.[waitSkip 30] / 「고스펠」은 너희 둘 중 / 누구도 아니야. // 진짜 범인은 그 녀석이다... // 그 녀석은 「고스펠」에게 / 당한 게 아니었어... // 우린 속고 있었던 거야...",
+      "draft_translation": "넷토 군의 말이 맞... 다. / 「고스펠」은 너희 둘 중 / 누구도 아니야. // 진짜 범인은 그 녀석이다... // 그 녀석은 「고스펠」에게 / 당한 게 아니었어...[waitSkip 30] // 우린 속고 있었던 거야...",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     }

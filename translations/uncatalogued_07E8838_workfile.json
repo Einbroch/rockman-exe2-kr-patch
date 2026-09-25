@@ -1,0 +1,1022 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/07E8838",
+ "entry_prefix": "archive_u07E8838",
+ "rom_offset": 8292408,
+ "storage": "lz77",
+ "byte_length": 779,
+ "payload_byte_length": 1246,
+ "tpl_filename": "uncatalogued_archive_tpl/lz_07E8838.tpl",
+ "entry_count": 63,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u07E8838_entry_0000",
+   "source_entry_offset": 128,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "a939acb0fb581d4c43b5b8048d10ef556502c547b85ee94c65ac276cccc316b9",
+   "source_entry_raw_hex": "a0 e5 02 a0 c1 9b 00 00 cf e5 05 9b b6 9b a2 9b 9e c8 81 81 e7",
+   "source_tpl_block_sha256": "37eae1390867257c237cf73c376c1a4ef75d2e3a4db979cf3d023af855416365",
+   "japanese_characters": 14,
+   "source_literals": [
+    "くっくるう  じょうほうこうかん!!"
+   ],
+   "translated_literals": [
+    "쿡쿠루    정보 교환!!"
+   ]
+  },
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u07E8838_entry_0001",
+   "source_entry_offset": 149,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "4e33455f41640782a0e00094d6bb26c2d27a95a549e9b01bce10bb165a8dd035",
+   "source_entry_raw_hex": "4a 22 59 15 00 00 00 0d 0c 33 17 cf e5 05 9b b6 9b 81 e7",
+   "source_tpl_block_sha256": "917b0b5a202ace9a9ba51c000434e03ab9263f0612ef8e186210ce4fb4754176",
+   "japanese_characters": 13,
+   "source_literals": [
+    "バネッサ   ウイルスじょうほう!"
+   ],
+   "translated_literals": [
+    "바네사    바이러스 정보!"
+   ]
+  },
+  {
+   "entry_index": 2,
+   "entry_id": "archive_u07E8838_entry_0002",
+   "source_entry_offset": 168,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "43bb9e61a19462b9d6a2972a2c81620c6755ba786a6b34d447cbed7c8f5799b2",
+   "source_entry_raw_hex": "1f 4b 1f 4b 00 00 00 2c 59 1e 78 33 a8 9a a3 a0 81 e7",
+   "source_tpl_block_sha256": "a87217f7f9cd0030c0d226a0676380a54c6ef191780e54f1d0246ecacfc04693",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ナビナビ   メットールたいさく!"
+   ],
+   "translated_literals": [
+    "내비내비   메톨 대책!"
+   ]
+  },
+  {
+   "entry_index": 3,
+   "entry_id": "archive_u07E8838_entry_0003",
+   "source_entry_offset": 186,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "369b79e0eaee7648223d5c652fe29f61886090ef557602f9699615039248594d",
+   "source_entry_raw_hex": "0b 11 31 00 00 00 00 34 3c 5b 31 78 1b 59 51 e7",
+   "source_tpl_block_sha256": "37bea1148475699df00156b10ceaae8990c3692d6979ffec9563f5c169f845f4",
+   "japanese_characters": 11,
+   "source_literals": [
+    "アキラ    レギュラーチップ"
+   ],
+   "translated_literals": [
+    "아키라    레귤러 칩"
+   ]
+  },
+  {
+   "entry_index": 4,
+   "entry_id": "archive_u07E8838_entry_0004",
+   "source_entry_offset": 202,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "a2f719ca539686667bd40a29944b513e48ae8d312522b0a59a4f4bef75b8b09c",
+   "source_entry_raw_hex": "1d 33 0f 00 00 00 00 b7 d3 b7 d3 00 d3 b0 e7",
+   "source_tpl_block_sha256": "f47a71db21cd92ab5127a7831de74dbb41c285b3c2486179d1b7d0a42245a00d",
+   "japanese_characters": 9,
+   "source_literals": [
+    "テルオ    まだまだ だね"
+   ],
+   "translated_literals": [
+    "테루오    아직 멀었군"
+   ]
+  },
+  {
+   "entry_index": 5,
+   "entry_id": "archive_u07E8838_entry_0005",
+   "source_entry_offset": 217,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "dd0d8db6ef6d7ffd0507e654e2f0bbbf455e716c5fec13649857f48448a4370d",
+   "source_entry_raw_hex": "21 59 11 78 00 00 00 0c 3a 1a 78 22 59 1e ae 88 88 88 e7",
+   "source_tpl_block_sha256": "01a984fe3e26940828e27cc518e6a11a6c7115346bdae07aceec5f9a7ed78d14",
+   "japanese_characters": 15,
+   "source_literals": [
+    "ヌッキー   インターネットに・・・"
+   ],
+   "translated_literals": [
+    "누키     인터넷에..."
+   ]
+  },
+  {
+   "entry_index": 6,
+   "entry_id": "archive_u07E8838_entry_0006",
+   "source_entry_offset": 236,
+   "source_entry_byte_length": 14,
+   "source_entry_sha256": "2e78de6adbbb7287c402f02320ba8c4ea0caa0834c43627d3568f2294a1bf020",
+   "source_entry_raw_hex": "dc 78 d0 00 00 00 00 0f 34 bb b8 a8 81 e7",
+   "source_tpl_block_sha256": "5ab9502d9689b4307ed6e9c40d505af91a3cc6ee472876a3cadcfa992313195b",
+   "japanese_characters": 8,
+   "source_literals": [
+    "ぼーず    オレもみた!"
+   ],
+   "translated_literals": [
+    "보즈     나도 봤어!"
+   ]
+  },
+  {
+   "entry_index": 7,
+   "entry_id": "archive_u07E8838_entry_0007",
+   "source_entry_offset": 250,
+   "source_entry_byte_length": 14,
+   "source_entry_sha256": "dfb225e2cc4cec8dd5ba4edbc9abec2801cd89497a9268fea48259bb2366c1f7",
+   "source_entry_raw_hex": "a0 e5 02 a0 c1 9b 00 00 1d 12 20 59 12 e7",
+   "source_tpl_block_sha256": "507d538e8d24baaf37de6d19eb3f383876e8044c16036932834a9adc984db17c",
+   "japanese_characters": 10,
+   "source_literals": [
+    "くっくるう  テクニック"
+   ],
+   "translated_literals": [
+    "쿡쿠루    테크닉"
+   ]
+  },
+  {
+   "entry_index": 8,
+   "entry_id": "archive_u07E8838_entry_0008",
+   "source_entry_offset": 264,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "a7a39b5431d8f41f5e1a9184edf2b167f88bc50f6f6a5121c92cc74e9358ebc6",
+   "source_entry_raw_hex": "0b 11 31 00 00 00 00 90 0b 1a 59 12 7d 02 01 91 e7",
+   "source_tpl_block_sha256": "dc24b5302298b3bc38b2f1088d993a5cc4674c59d7624886d38301fb6511ce65",
+   "japanese_characters": 7,
+   "source_literals": [
+    "アキラ    「アタック+10」"
+   ],
+   "translated_literals": [
+    "아키라    「어택+10」"
+   ]
+  },
+  {
+   "entry_index": 9,
+   "entry_id": "archive_u07E8838_entry_0009",
+   "source_entry_offset": 281,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "ad1315c24e59cc76b3f2d0c7a2627cbd51c0e9ea6059fe8e2ec900f90223c6f9",
+   "source_entry_raw_hex": "9e c7 c1 00 00 00 00 4a 17 1d 55 3a 3d 34 4d 33 e7",
+   "source_tpl_block_sha256": "60e644e5f8e0c108090770cb53c2450329e263f27d2d4c45b9f46af4000ed552",
+   "japanese_characters": 12,
+   "source_literals": [
+    "かをる    バスティングレベル"
+   ],
+   "translated_literals": [
+    "카오루    버스팅 레벨"
+   ]
+  },
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u07E8838_entry_0010",
+   "source_entry_offset": 298,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "cdea1256c72313d39c40b76137e55ebffd75acb12fc4e27eb00b24e381c738b7",
+   "source_entry_raw_hex": "51 32 2a 11 00 00 00 19 78 49 b1 0d 36 15 e7",
+   "source_tpl_block_sha256": "4f25f9e76fe4f4408244364593abf736cdf8f5a2f01415af8c0302ce6f927652",
+   "japanese_characters": 11,
+   "source_literals": [
+    "プリミキ   ソードのウワサ"
+   ],
+   "translated_literals": [
+    "프리미키   소드 소문"
+   ]
+  },
+  {
+   "entry_index": 11,
+   "entry_id": "archive_u07E8838_entry_0011",
+   "source_entry_offset": 313,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "1f86a4d8d3b92c698b345316bbdbfc4f0e3d035e38b56d8ca4c831b73e40db3f",
+   "source_entry_raw_hex": "3b 30 35 3a 00 00 00 28 3a 1e d6 a5 9e 7c e7",
+   "source_tpl_block_sha256": "5604f133ee649fa49affd0c49f8bb79cfe2b418021ad09f27d3a1c751a054105",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ガヨロン   ホントですか?"
+   ],
+   "translated_literals": [
+    "가요론    정말인가요?"
+   ]
+  },
+  {
+   "entry_index": 12,
+   "entry_id": "archive_u07E8838_entry_0012",
+   "source_entry_offset": 328,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "5d17a4ee79425493281141ebe0de63bb386d00c66d299defeb858b3294a3e2e6",
+   "source_entry_raw_hex": "14 35 3a 00 00 00 00 b8 c8 ad 85 1f 20 9a c2 ab c1 7c e7",
+   "source_tpl_block_sha256": "0714d9c8dd9af1064175ad5ff81827b05c113a20ee0ea808a3498be160d1afb6",
+   "japanese_characters": 12,
+   "source_literals": [
+    "コロン    みんな、ナニいれてる?"
+   ],
+   "translated_literals": [
+    "코론     다들 뭐 넣어?"
+   ]
+  },
+  {
+   "entry_index": 13,
+   "entry_id": "archive_u07E8838_entry_0013",
+   "source_entry_offset": 347,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "3ab58c751935acead98dc4fef055d36c1abd4f2629cdc8458535c3114f0e7bbb",
+   "source_entry_raw_hex": "21 59 11 78 00 00 00 a7 c2 e5 02 ab 88 88 88 e7",
+   "source_tpl_block_sha256": "5932a904093aed854369a6ce1e419ffec0302b76625bddbcc623aec654587874",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ヌッキー   それって・・・"
+   ],
+   "translated_literals": [
+    "누키     그거..."
+   ]
+  },
+  {
+   "entry_index": 14,
+   "entry_id": "archive_u07E8838_entry_0014",
+   "source_entry_offset": 363,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "7e2e071991f8dd3c7d8a1671efb323b1ef8be523c78256b41bf1e3ef32c56c8f",
+   "source_entry_raw_hex": "4f 0f 00 00 00 00 00 0d 0c 33 17 cf e5 05 9b b6 9b e7",
+   "source_tpl_block_sha256": "0d35ae4ed0389ef91f08fd991c246326168d7544053793c2030e06d974e27bc2",
+   "japanese_characters": 11,
+   "source_literals": [
+    "パオ     ウイルスじょうほう"
+   ],
+   "translated_literals": [
+    "파오     바이러스 정보"
+   ]
+  },
+  {
+   "entry_index": 15,
+   "entry_id": "archive_u07E8838_entry_0015",
+   "source_entry_offset": 381,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "f1e0894ede3d0720868995d548e8facb75096b8365e361796b8bc741a4888a56",
+   "source_entry_raw_hex": "14 4c 3a 00 00 00 00 0b 17 1a 32 17 12 81 e7",
+   "source_tpl_block_sha256": "67311e5b1259b30f5663e7225261263ebddac4cee4df5f7d5f8ab9340fd99df5",
+   "japanese_characters": 9,
+   "source_literals": [
+    "コブン    アスタリスク!"
+   ],
+   "translated_literals": [
+    "코분     애스터리스크!"
+   ]
+  },
+  {
+   "entry_index": 16,
+   "entry_id": "archive_u07E8838_entry_0016",
+   "source_entry_offset": 396,
+   "source_entry_byte_length": 14,
+   "source_entry_sha256": "75cf8fcee3386ae491b367d9d10a5566d35d0b6abb58bc37ad89ddfac70242d9",
+   "source_entry_raw_hex": "3e 3a 00 00 00 00 00 9f a4 e5 04 aa 7c e7",
+   "source_tpl_block_sha256": "19a9e1e9a5e7ae2aeca75aaeacebde95aad882a36c6c2b105b3cc9c50ddd6fbd",
+   "japanese_characters": 6,
+   "source_literals": [
+    "ゲン     きしゅつ?"
+   ],
+   "translated_literals": [
+    "겐      이미 나온 얘기?"
+   ]
+  },
+  {
+   "entry_index": 17,
+   "entry_id": "archive_u07E8838_entry_0017",
+   "source_entry_offset": 410,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "b9a4a50ef9eb18c28a8c90e67c2c7143f6d311d55d47ce4109bef1e969390260",
+   "source_entry_raw_hex": "b2 e5 02 a5 e3 78 00 00 99 c2 e5 02 ab 00 0d 36 15 b1 7c e7",
+   "source_tpl_block_sha256": "c159ea232f9d99283384e1cd1b7245d5c322a748df11210a81ec0b6768ca70f1",
+   "japanese_characters": 13,
+   "source_literals": [
+    "はっすぃー  あれって ウワサの?"
+   ],
+   "translated_literals": [
+    "핫시     그거 소문의 그?"
+   ]
+  },
+  {
+   "entry_index": 18,
+   "entry_id": "archive_u07E8838_entry_0018",
+   "source_entry_offset": 430,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "78084b14e691eb5684a6b9c7ddb577326d82c13ca910520a0d9ee09a3d2bdd42",
+   "source_entry_raw_hex": "2e 17 00 00 00 00 00 29 41 e5 02 a5 9e 81 e7",
+   "source_tpl_block_sha256": "0a6d4627686542f9ba5d796a8cf52c8137282f427e028098663f829489545c16",
+   "japanese_characters": 7,
+   "source_literals": [
+    "ヤス     マジっすか!"
+   ],
+   "translated_literals": [
+    "야스     진짜예요!"
+   ]
+  },
+  {
+   "entry_index": 19,
+   "entry_id": "archive_u07E8838_entry_0019",
+   "source_entry_offset": 445,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "a5e0775a76823cd59ca3e1c9eeb604ad5b7e2618ffdc0f6956229249fda1b7a2",
+   "source_entry_raw_hex": "b2 e5 02 a5 e3 78 00 00 6f e5 0a 7b 29 41 e5 02 a5 9e 7c e7",
+   "source_tpl_block_sha256": "3528a6f0ace985752893e2d6e1656a1997e014f102232a635c7b7413a4aad0be",
+   "japanese_characters": 10,
+   "source_literals": [
+    "はっすぃー  Re:マジっすか?"
+   ],
+   "translated_literals": [
+    "핫시     Re:진짜예요?"
+   ]
+  },
+  {
+   "entry_index": 20,
+   "entry_id": "archive_u07E8838_entry_0020",
+   "source_entry_offset": 465,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "b725eefaa4043d9295fb99b46a106ed88580327dd50bcc262cccba9c9de4ab8e",
+   "source_entry_raw_hex": "dc 78 d0 00 00 00 00 45 59 16 5b 0b 1a 59 12 e5 02 ab e7",
+   "source_tpl_block_sha256": "9be98b629e4b9d954dfc890ff7260f23406d0b26bb6f508f8c3150682f336b5d",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ぼーず    ダッシュアタックって"
+   ],
+   "translated_literals": [
+    "보즈     대시어택 말인데"
+   ]
+  },
+  {
+   "entry_index": 21,
+   "entry_id": "archive_u07E8838_entry_0021",
+   "source_entry_offset": 484,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "995333207dde14bfb54cac8054468f1124faca197c27456642f12c9e8f101834",
+   "source_entry_raw_hex": "21 59 11 78 00 00 00 6f e5 0a 7b 45 59 16 5b 0b 1a 59 12 e5 02 ab e7",
+   "source_tpl_block_sha256": "4abc9a53bf784e3cf1ce403f63c089fa2148d1fe94fa3249e4007137f18adb08",
+   "japanese_characters": 14,
+   "source_literals": [
+    "ヌッキー   Re:ダッシュアタックって"
+   ],
+   "translated_literals": [
+    "누키     Re:대시어택 말인데"
+   ]
+  },
+  {
+   "entry_index": 22,
+   "entry_id": "archive_u07E8838_entry_0022",
+   "source_entry_offset": 507,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "f95814e39bf9173083825af7d614137bce7a00da5a86775e8436f6cb7ef8b507",
+   "source_entry_raw_hex": "0b 11 31 00 00 00 00 4a 17 1d 55 3a 3d 34 4d 33 e7",
+   "source_tpl_block_sha256": "5db0e61872be6f317b9e83a944465229858d8b1d560336a159bbed8766ee2d76",
+   "japanese_characters": 12,
+   "source_literals": [
+    "アキラ    バスティングレベル"
+   ],
+   "translated_literals": [
+    "아키라    버스팅 레벨"
+   ]
+  },
+  {
+   "entry_index": 23,
+   "entry_id": "archive_u07E8838_entry_0023",
+   "source_entry_offset": 524,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "4f1bf854d166001bc0e49f933fbf8cefcedc3a783c6fde7a7c8b315a4bc9292e",
+   "source_entry_raw_hex": "e5 78 e5 6d 00 00 00 00 00 6f e5 0a 7b 4a 17 1d 55 3a 3d 34 4d 33 e7",
+   "source_tpl_block_sha256": "8fc2a6a641bd9b96e82a779cd5f107f37b74a8d4f490c19a999ea4e0de03987f",
+   "japanese_characters": 11,
+   "source_literals": [
+    "名人     Re:バスティングレベル"
+   ],
+   "translated_literals": [
+    "명인     Re:버스팅 레벨"
+   ]
+  },
+  {
+   "entry_index": 24,
+   "entry_id": "archive_u07E8838_entry_0024",
+   "source_entry_offset": 547,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "d9730acb9ea1d0369156af87ff3aae0b61b8d3564839d3ba26d8c095c1b5088a",
+   "source_entry_raw_hex": "b2 e5 02 a5 e3 78 00 00 e5 78 e5 6d 81 7c e7",
+   "source_tpl_block_sha256": "0003bd866aff030d2ac72baa6dc0b1aeb5f5c2201aa289a5213c5c00782aa632",
+   "japanese_characters": 7,
+   "source_literals": [
+    "はっすぃー  名人!?"
+   ],
+   "translated_literals": [
+    "핫시     명인!?"
+   ]
+  },
+  {
+   "entry_index": 25,
+   "entry_id": "archive_u07E8838_entry_0025",
+   "source_entry_offset": 562,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "fc3ec075ee0753873bd81b8e9ffeea2d1fa4e4ee8470d478bfe39129367cbbfe",
+   "source_entry_raw_hex": "3b 30 35 3a 00 00 00 6f e5 0a 7b e5 78 e5 6d 81 7c e7",
+   "source_tpl_block_sha256": "19d378284e0197a6f7932daae7f125944271a27228ffdc4beb55845ffd8cf2e2",
+   "japanese_characters": 6,
+   "source_literals": [
+    "ガヨロン   Re:名人!?"
+   ],
+   "translated_literals": [
+    "가요론    Re:명인!?"
+   ]
+  },
+  {
+   "entry_index": 26,
+   "entry_id": "archive_u07E8838_entry_0026",
+   "source_entry_offset": 580,
+   "source_entry_byte_length": 14,
+   "source_entry_sha256": "0d121a296c5675cb935565b42f0456d1e76842648b57974dda1982e60daa37de",
+   "source_entry_raw_hex": "2e 17 00 00 00 00 00 0f 34 b1 48 59 11 e7",
+   "source_tpl_block_sha256": "8f23a2bc750426bcc683df38409f3b66ae944feda4d2e60fcf647c9ff5e693b6",
+   "japanese_characters": 8,
+   "source_literals": [
+    "ヤス     オレのデッキ"
+   ],
+   "translated_literals": [
+    "야스     내 덱"
+   ]
+  },
+  {
+   "entry_index": 27,
+   "entry_id": "archive_u07E8838_entry_0027",
+   "source_entry_offset": 594,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "142241c32b9be4481974e49dc3148fd6f0e519e81303ce2073e7fbfe0203e1c8",
+   "source_entry_raw_hex": "4f 0f 00 00 00 00 00 6f e5 0a 7b 0f 34 b1 48 59 11 e7",
+   "source_tpl_block_sha256": "0cbe6d81e196c0d7ff319114ca77ccdbb2d876e993905f51baa46914cffdaf0e",
+   "japanese_characters": 8,
+   "source_literals": [
+    "パオ     Re:オレのデッキ"
+   ],
+   "translated_literals": [
+    "파오     Re:내 덱"
+   ]
+  },
+  {
+   "entry_index": 28,
+   "entry_id": "archive_u07E8838_entry_0028",
+   "source_entry_offset": 612,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "4cfd83d7e66c44d34b6715ba8d489c5241cf8d8d18e37526705f2aafe6166e77",
+   "source_entry_raw_hex": "48 10 0f 00 00 00 00 6f e5 0a 7b 0f 34 b1 48 59 11 e7",
+   "source_tpl_block_sha256": "0ae8a9920322901b0ddca0596899f0a5ecb04cadf428879f89d49b2b65028693",
+   "japanese_characters": 9,
+   "source_literals": [
+    "デカオ    Re:オレのデッキ"
+   ],
+   "translated_literals": [
+    "데카오    Re:내 덱"
+   ]
+  },
+  {
+   "entry_index": 29,
+   "entry_id": "archive_u07E8838_entry_0029",
+   "source_entry_offset": 630,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "e26deb83ecdbd72237b9e72e9578194a3fe9348289757aa61cf5e3914b009ad9",
+   "source_entry_raw_hex": "14 35 3a 00 00 00 00 3b 78 49 4c 34 0c 12 e7",
+   "source_tpl_block_sha256": "b57a0cf8cc1383673d899b33c64b749c266a92191fa6d11e37c341ad40fd2fe3",
+   "japanese_characters": 10,
+   "source_literals": [
+    "コロン    ガードブレイク"
+   ],
+   "translated_literals": [
+    "코론     가드 브레이크"
+   ]
+  },
+  {
+   "entry_index": 30,
+   "entry_id": "archive_u07E8838_entry_0030",
+   "source_entry_offset": 645,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "87c19c31ad34c22c09a01494d82fb757eb8cb8fd824c25b8c0dc30c9fc90b4b4",
+   "source_entry_raw_hex": "b2 e5 02 a5 e3 78 00 00 6f e5 0a 7b 3b 78 49 4c 34 0c 12 e7",
+   "source_tpl_block_sha256": "8fcb3a7a1977b18899e2d675af4b788e320c6f18e57ff2838433a256b31df444",
+   "japanese_characters": 12,
+   "source_literals": [
+    "はっすぃー  Re:ガードブレイク"
+   ],
+   "translated_literals": [
+    "핫시     Re:가드 브레이크"
+   ]
+  },
+  {
+   "entry_index": 31,
+   "entry_id": "archive_u07E8838_entry_0031",
+   "source_entry_offset": 665,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "b6cd4d6c700b3f88dad1ac10f4039b0ba403ff84b4f6a94bbcb0a24cf72a8439",
+   "source_entry_raw_hex": "3b 30 35 3a 00 00 00 6f e5 0a 7b 3b 78 49 4c 34 0c 12 e7",
+   "source_tpl_block_sha256": "895fbbf5848a544e2e0394765d50d29bff177942c357b77439aa586bb05e321f",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ガヨロン   Re:ガードブレイク"
+   ],
+   "translated_literals": [
+    "가요론    Re:가드 브레이크"
+   ]
+  },
+  {
+   "entry_index": 32,
+   "entry_id": "archive_u07E8838_entry_0032",
+   "source_entry_offset": 684,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "3e3c45f43752f8c0573af4bfc343b9f3bae45110526f2e65b36847d06a83abc4",
+   "source_entry_raw_hex": "dc 78 d0 00 00 00 00 17 1e 78 3a 11 5b 78 4c e7",
+   "source_tpl_block_sha256": "7c4370cc7a62d6317a6bcf7ec9dea6b805336d3209bab02cf0c5b21290fe1e42",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ぼーず    ストーンキューブ"
+   ],
+   "translated_literals": [
+    "보즈     스톤큐브"
+   ]
+  },
+  {
+   "entry_index": 33,
+   "entry_id": "archive_u07E8838_entry_0033",
+   "source_entry_offset": 700,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "661163da667c4b6276456032ce737c50077689454d0e61ab61c2376092b5f85f",
+   "source_entry_raw_hex": "21 59 11 78 00 00 00 6f e5 0a 7b 17 1e 78 3a 11 5b 78 4c e7",
+   "source_tpl_block_sha256": "98dd22af2caa5d67fa71141afc1f4be0fc787de73c5e675b518ec672094b2e43",
+   "japanese_characters": 12,
+   "source_literals": [
+    "ヌッキー   Re:ストーンキューブ"
+   ],
+   "translated_literals": [
+    "누키     Re:스톤큐브"
+   ]
+  },
+  {
+   "entry_index": 34,
+   "entry_id": "archive_u07E8838_entry_0034",
+   "source_entry_offset": 720,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "e8eeecd952c3c828d72ce98472353bdbbbe972a90a78593187847a49ed717fb6",
+   "source_entry_raw_hex": "51 32 2a 11 00 00 00 6f e5 0a 7b 17 1e 78 3a 11 5b 78 4c e7",
+   "source_tpl_block_sha256": "42a391bb173b117d952c0d61971244ff70790e9dbd2798141f97b7d51de66295",
+   "japanese_characters": 12,
+   "source_literals": [
+    "プリミキ   Re:ストーンキューブ"
+   ],
+   "translated_literals": [
+    "프리미키   Re:스톤큐브"
+   ]
+  },
+  {
+   "entry_index": 35,
+   "entry_id": "archive_u07E8838_entry_0035",
+   "source_entry_offset": 740,
+   "source_entry_byte_length": 13,
+   "source_entry_sha256": "2abc4f48ece68ba80e00d4b45bcba3383a24169caaefb9716600730e6eae7dc2",
+   "source_entry_raw_hex": "21 59 11 78 00 00 00 e5 88 25 3a 1e e7",
+   "source_tpl_block_sha256": "06f0fc82e0265e42d267b8df2b36a0b8afa213c8fdc3ca3d87d2b72a9ea5594f",
+   "japanese_characters": 8,
+   "source_literals": [
+    "ヌッキー   大ヒント"
+   ],
+   "translated_literals": [
+    "누키     대힌트"
+   ]
+  },
+  {
+   "entry_index": 36,
+   "entry_id": "archive_u07E8838_entry_0036",
+   "source_entry_offset": 753,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "4e8c346dcce9d63560ae3988488013417e74ff18e65341b0eb3dd0c166d11799",
+   "source_entry_raw_hex": "dc 78 d0 00 00 00 00 c4 9e e5 02 a9 e5 02 a8 81 81 e7",
+   "source_tpl_block_sha256": "60dde325668dbec2ba0b7d33e9c9d87b812bc64850f6ec7d71c5c0bf94a233f5",
+   "japanese_characters": 9,
+   "source_literals": [
+    "ぼーず    わかっちった!!"
+   ],
+   "translated_literals": [
+    "보즈     알아냈다!!"
+   ]
+  },
+  {
+   "entry_index": 37,
+   "entry_id": "archive_u07E8838_entry_0037",
+   "source_entry_offset": 771,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "08fca33bcd78bc919d947e1990cb1a6392ae4838a6611a6ce5abaea5805915f1",
+   "source_entry_raw_hex": "e5 78 e5 6d 00 00 00 00 00 a2 c8 ad 00 aa 9e 9a 9e a8 bb e7",
+   "source_tpl_block_sha256": "ed291d02f6cb88e7d199bf0ad022b5f609b96f617a50bc7bd5380bf3df65f977",
+   "japanese_characters": 11,
+   "source_literals": [
+    "名人     こんな つかいかたも"
+   ],
+   "translated_literals": [
+    "명인     이런 사용법도"
+   ]
+  },
+  {
+   "entry_index": 38,
+   "entry_id": "archive_u07E8838_entry_0038",
+   "source_entry_offset": 791,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "efb983867d984a22a080ce77edeaf9f08573cd91aa220bc40b04093efd4c987c",
+   "source_entry_raw_hex": "a0 e5 02 a0 c1 9b 00 00 6f e5 0a 7b a2 c8 ad 00 aa 9e 9a 9e a8 bb e7",
+   "source_tpl_block_sha256": "dada13a5057ea7be7fad1df4c266468c41835c7187346dd065cc9489a8abf10a",
+   "japanese_characters": 14,
+   "source_literals": [
+    "くっくるう  Re:こんな つかいかたも"
+   ],
+   "translated_literals": [
+    "쿡쿠루    Re:이런 사용법도"
+   ]
+  },
+  {
+   "entry_index": 39,
+   "entry_id": "archive_u07E8838_entry_0039",
+   "source_entry_offset": 814,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "0041fcd0a4924ff7b3b9080a8e429aa1c783e399e06ffac2744b83d1554b1fce",
+   "source_entry_raw_hex": "48 10 0f 00 00 00 00 1f 20 c9 a8 c0 ad 9a 7c e7",
+   "source_tpl_block_sha256": "1f399dad7b657e071fbebf4418573a0df6990063685b4b60f74c2845d236b29b",
+   "japanese_characters": 10,
+   "source_literals": [
+    "デカオ    ナニがたりない?"
+   ],
+   "translated_literals": [
+    "데카오    뭐가 부족해?"
+   ]
+  },
+  {
+   "entry_index": 40,
+   "entry_id": "archive_u07E8838_entry_0040",
+   "source_entry_offset": 830,
+   "source_entry_byte_length": 22,
+   "source_entry_sha256": "ce2aef4e6b52bf48b40a149d8507b343874089277fc844d3790b230faba651ca",
+   "source_entry_raw_hex": "e5 78 e5 6d 00 00 00 00 00 6f e5 0a 7b 1f 20 c9 a8 c0 ad 9a 7c e7",
+   "source_tpl_block_sha256": "fc19cba7110983447a127da1e748792a72dcbd15201b36604ff0222fdc827a7f",
+   "japanese_characters": 9,
+   "source_literals": [
+    "名人     Re:ナニがたりない?"
+   ],
+   "translated_literals": [
+    "명인     Re:뭐가 부족해?"
+   ]
+  },
+  {
+   "entry_index": 41,
+   "entry_id": "archive_u07E8838_entry_0041",
+   "source_entry_offset": 852,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "ffba991ab5ba6a33f0e2c2299f1ed8d8487f2498467465b27f0840f514a20c4f",
+   "source_entry_raw_hex": "4f 0f 00 00 00 00 00 17 3f 9a 1b 59 51 81 7c e7",
+   "source_tpl_block_sha256": "75c8953d26058ab17919f65bd287aada1af7bf41b10eb3a4ddabccefe2b52075",
+   "japanese_characters": 8,
+   "source_literals": [
+    "パオ     スゴいチップ!?"
+   ],
+   "translated_literals": [
+    "파오     굉장한 칩!?"
+   ]
+  },
+  {
+   "entry_index": 42,
+   "entry_id": "archive_u07E8838_entry_0042",
+   "source_entry_offset": 868,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "68dba377f04549e2f9e8576e8e7768c67afee68a69102341daedfd4823272458",
+   "source_entry_raw_hex": "3e 3a 00 00 00 00 00 6f e5 0a 7b 17 3f 9a 1b 59 51 81 7c e7",
+   "source_tpl_block_sha256": "46ea65e4e1648b7d4eb3dcc21b6982cfe44a0a9e561cdd3de6e20dcf33f29a10",
+   "japanese_characters": 8,
+   "source_literals": [
+    "ゲン     Re:スゴいチップ!?"
+   ],
+   "translated_literals": [
+    "겐      Re:굉장한 칩!?"
+   ]
+  },
+  {
+   "entry_index": 43,
+   "entry_id": "archive_u07E8838_entry_0043",
+   "source_entry_offset": 888,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "979f2f5b809a31a304a73deb4ff035e9c13ee47b7c9f8a5fcf5f0db9f1ab181e",
+   "source_entry_raw_hex": "4f 0f 00 00 00 00 00 6f e5 0a 7b 17 3f 9a 1b 59 51 81 7c e7",
+   "source_tpl_block_sha256": "2547fd95168d9780e9a6cb2494cc1538da0e0cf4501b71947fcca115db7a1b4f",
+   "japanese_characters": 8,
+   "source_literals": [
+    "パオ     Re:スゴいチップ!?"
+   ],
+   "translated_literals": [
+    "파오     Re:굉장한 칩!?"
+   ]
+  },
+  {
+   "entry_index": 44,
+   "entry_id": "archive_u07E8838_entry_0044",
+   "source_entry_offset": 908,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "d0918eee7958bb76e2632af9d5f09f58c810a0afe7260b7871617cc83f222884",
+   "source_entry_raw_hex": "3b 30 35 3a 00 00 00 a0 a3 b9 bf b1 e5 62 d6 e7",
+   "source_tpl_block_sha256": "c7932f554f77ba109a16f0eaf4cff7d04702461a25d3827dd276302051f72402",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ガヨロン   くさむらの上で"
+   ],
+   "translated_literals": [
+    "가요론    풀밭 위에서"
+   ]
+  },
+  {
+   "entry_index": 45,
+   "entry_id": "archive_u07E8838_entry_0045",
+   "source_entry_offset": 924,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "d20ee4d03ae20e803c8d346f4fc3970bde27d4ad39efaf926be6178dcfcd64f0",
+   "source_entry_raw_hex": "2e 17 00 00 00 00 00 6f e5 0a 7b a0 a3 b9 bf b1 e5 62 d6 e7",
+   "source_tpl_block_sha256": "dbd6d719665e1f37149066920f8cb6a8e5900c70c14bf56b5a64d35109c701f6",
+   "japanese_characters": 9,
+   "source_literals": [
+    "ヤス     Re:くさむらの上で"
+   ],
+   "translated_literals": [
+    "야스     Re:풀밭 위에서"
+   ]
+  },
+  {
+   "entry_index": 46,
+   "entry_id": "archive_u07E8838_entry_0046",
+   "source_entry_offset": 944,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "b6b9b5d7ec8fc6607a4e26fa3bf6e3a9b394ca319209ed8a0da3655f2f0be565",
+   "source_entry_raw_hex": "14 4c 3a 00 00 00 00 29 3d 29 b1 e5 62 d6 bb e7",
+   "source_tpl_block_sha256": "17a076164c44ac4ed1ff7b292495e8eb6f4567a51dd65a435df8212b00ec0f2f",
+   "japanese_characters": 10,
+   "source_literals": [
+    "コブン    マグマの上でも"
+   ],
+   "translated_literals": [
+    "코분     마그마 위에서도"
+   ]
+  },
+  {
+   "entry_index": 47,
+   "entry_id": "archive_u07E8838_entry_0047",
+   "source_entry_offset": 960,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "7a82bcb715a6268f66654c8a907c0abfe44aa2c92c8e0b7928d652f9cfece706",
+   "source_entry_raw_hex": "3e 3a 00 00 00 00 00 6f e5 0a 7b 29 3d 29 b1 e5 62 d6 bb e7",
+   "source_tpl_block_sha256": "5b5e78d6d38694707d6678be33b5d8bbd86834ecc721bc6dbd5833a232f975a6",
+   "japanese_characters": 9,
+   "source_literals": [
+    "ゲン     Re:マグマの上でも"
+   ],
+   "translated_literals": [
+    "겐      Re:마그마 위에서도"
+   ]
+  },
+  {
+   "entry_index": 48,
+   "entry_id": "archive_u07E8838_entry_0048",
+   "source_entry_offset": 980,
+   "source_entry_byte_length": 15,
+   "source_entry_sha256": "b6fc2c0068f31b5e1abdfa1321529960bbca2811d647a8785368e031198d51ca",
+   "source_entry_raw_hex": "1d 33 0f 00 00 00 00 10 17 1a 2b 19 78 49 e7",
+   "source_tpl_block_sha256": "9b268c3974c7880f934d0765159191ccdd59c26767a65ca8e93e9712474d447e",
+   "japanese_characters": 10,
+   "source_literals": [
+    "テルオ    カスタムソード"
+   ],
+   "translated_literals": [
+    "테루오    커스텀소드"
+   ]
+  },
+  {
+   "entry_index": 49,
+   "entry_id": "archive_u07E8838_entry_0049",
+   "source_entry_offset": 995,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "e5cf3dde66a18a8df8a9c028430bcd335e8ea30099367747bba9613364083b6d",
+   "source_entry_raw_hex": "21 59 11 78 00 00 00 6f e5 0a 7b 10 17 1a 2b 19 78 49 e7",
+   "source_tpl_block_sha256": "1fec89e4626301c15e1ac10a082bd2a221227eb9365cfb9e81193f7a0178a04e",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ヌッキー   Re:カスタムソード"
+   ],
+   "translated_literals": [
+    "누키     Re:커스텀소드"
+   ]
+  },
+  {
+   "entry_index": 50,
+   "entry_id": "archive_u07E8838_entry_0050",
+   "source_entry_offset": 1014,
+   "source_entry_byte_length": 14,
+   "source_entry_sha256": "8a87aee1f020e80d77e12749bf1e076474e4dc0854b6422959b1c4634f283547",
+   "source_entry_raw_hex": "1d 33 0f 00 00 00 00 a5 e5 02 cc 78 81 e7",
+   "source_tpl_block_sha256": "086bd451f3107b9cc73168596f67ef1484fac077620ba7a980be21e8bc08a13f",
+   "japanese_characters": 7,
+   "source_literals": [
+    "テルオ    すっげー!"
+   ],
+   "translated_literals": [
+    "테루오    대박!"
+   ]
+  },
+  {
+   "entry_index": 51,
+   "entry_id": "archive_u07E8838_entry_0051",
+   "source_entry_offset": 1028,
+   "source_entry_byte_length": 14,
+   "source_entry_sha256": "88a5f5defc2cd3a67219404231e438db09b0bb873646f55f229cb68a3911c3da",
+   "source_entry_raw_hex": "29 78 dc 78 00 00 00 1f 44 b1 a2 9d c0 e7",
+   "source_tpl_block_sha256": "dac6ccd4defd2708111212b587e7a57298079afae022c43b625292f7078c6511",
+   "japanese_characters": 10,
+   "source_literals": [
+    "マーぼー   ナゾのこおり"
+   ],
+   "translated_literals": [
+    "마보     수수께끼의 얼음"
+   ]
+  },
+  {
+   "entry_index": 52,
+   "entry_id": "archive_u07E8838_entry_0052",
+   "source_entry_offset": 1042,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "a33c650bf7231b874b2d34cb65e8d6233790154494f8e06918d84d84976a0d08",
+   "source_entry_raw_hex": "1f 4b 1f 4b 00 00 00 6f e5 0a 7b 1f 44 b1 a2 9d c0 e7",
+   "source_tpl_block_sha256": "262de93833b205ce97abc4154b1b5524d761bbe650db5f5296c85929f1286766",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ナビナビ   Re:ナゾのこおり"
+   ],
+   "translated_literals": [
+    "내비내비   Re:수수께끼의 얼음"
+   ]
+  },
+  {
+   "entry_index": 53,
+   "entry_id": "archive_u07E8838_entry_0053",
+   "source_entry_offset": 1060,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "c812fe237522e7a78b819a319811f35ae2e3c9b2ee8f721b87a2d5d9e4925bab",
+   "source_entry_raw_hex": "29 78 dc 78 00 00 00 a2 9d c0 b1 e5 62 d6 b2 e7",
+   "source_tpl_block_sha256": "33ef9c1dccfcc79829b8f1638555ac26e7f723998075f5c4e4042defc5a7de93",
+   "japanese_characters": 11,
+   "source_literals": [
+    "マーぼー   こおりの上では"
+   ],
+   "translated_literals": [
+    "마보     얼음 위에서는"
+   ]
+  },
+  {
+   "entry_index": 54,
+   "entry_id": "archive_u07E8838_entry_0054",
+   "source_entry_offset": 1076,
+   "source_entry_byte_length": 14,
+   "source_entry_sha256": "446a7068f1c914e1acbcb31cba865786bcad05e758ff723e9e701084be2f0db1",
+   "source_entry_raw_hex": "3e 3a 00 00 00 00 00 e5 f1 e6 01 e6 02 e7",
+   "source_tpl_block_sha256": "55635a40c8b0d41d2389d02c276334f66f3953c07d6814b6b36811833a5a46fe",
+   "japanese_characters": 5,
+   "source_literals": [
+    "ゲン     炎属性"
+   ],
+   "translated_literals": [
+    "겐      불 속성"
+   ]
+  },
+  {
+   "entry_index": 55,
+   "entry_id": "archive_u07E8838_entry_0055",
+   "source_entry_offset": 1090,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "95a8b3712751cc0efb7bd596e01408434082923abfc2ee45b5a9bbe4694dcd68",
+   "source_entry_raw_hex": "b2 e5 02 a5 e3 78 00 00 6d 88 5e cf e5 05 9b b6 9b e7",
+   "source_tpl_block_sha256": "7de9786821be6fb223dc843a39a68a15f09bbdadd8e7fc217f41a5823fd22e44",
+   "japanese_characters": 11,
+   "source_literals": [
+    "はっすぃー  P・Aじょうほう"
+   ],
+   "translated_literals": [
+    "핫시     P・A 정보"
+   ]
+  },
+  {
+   "entry_index": 56,
+   "entry_id": "archive_u07E8838_entry_0056",
+   "source_entry_offset": 1108,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "24b4fc222ce778e6b0d18693585242a636f28b4de01574ef0fc7550f94a8fe52",
+   "source_entry_raw_hex": "10 42 6d 00 00 00 00 6f e5 0a 7b 6d 88 5e cf e5 05 9b b6 9b e7",
+   "source_tpl_block_sha256": "c431f15306e5256a5e8a99617c384432ca982db75c81e63a95d4a59b70b77f23",
+   "japanese_characters": 8,
+   "source_literals": [
+    "カズP    Re:P・Aじょうほう"
+   ],
+   "translated_literals": [
+    "카즈P    Re:P・A 정보"
+   ]
+  },
+  {
+   "entry_index": 57,
+   "entry_id": "archive_u07E8838_entry_0057",
+   "source_entry_offset": 1129,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "6f4ff047c38bb0c19ebf81d4276d0c63aca0ad1fa07ea4eba13932550b271827",
+   "source_entry_raw_hex": "2e 17 00 00 00 00 00 6f e5 0a 7b 6d 88 5e cf e5 05 9b b6 9b e7",
+   "source_tpl_block_sha256": "1925068770981465d2f93f15cc57892288f33e3bae382bba6ae0c0450215a751",
+   "japanese_characters": 8,
+   "source_literals": [
+    "ヤス     Re:P・Aじょうほう"
+   ],
+   "translated_literals": [
+    "야스     Re:P・A 정보"
+   ]
+  },
+  {
+   "entry_index": 58,
+   "entry_id": "archive_u07E8838_entry_0058",
+   "source_entry_offset": 1150,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "6973f4f2df3b50470aafa91195c8325c728ca931daf589769b3044a9c61927ec",
+   "source_entry_raw_hex": "b2 e5 02 a5 e3 78 00 00 c4 9e e5 02 a9 e5 03 e5 02 a8 7c e7",
+   "source_tpl_block_sha256": "e66eed78e2b9af68df1099537c142f336104d62b5cd203ecb7264853f9b768fb",
+   "japanese_characters": 12,
+   "source_literals": [
+    "はっすぃー  わかっちゃった?"
+   ],
+   "translated_literals": [
+    "핫시     알아 버렸어?"
+   ]
+  },
+  {
+   "entry_index": 59,
+   "entry_id": "archive_u07E8838_entry_0059",
+   "source_entry_offset": 1170,
+   "source_entry_byte_length": 18,
+   "source_entry_sha256": "83804dcccfd7c4e4faafc14ece729a64f630a08dd42f0e95e5b64475312b5149",
+   "source_entry_raw_hex": "2e 17 00 00 00 00 00 6d 88 5e cf e5 05 9b b6 9b 03 e7",
+   "source_tpl_block_sha256": "67ff0915e4a8351a95e73f3897e62a7cef20343fcc0f7218ebe0267683981ef8",
+   "japanese_characters": 8,
+   "source_literals": [
+    "ヤス     P・Aじょうほう2"
+   ],
+   "translated_literals": [
+    "야스     P・A 정보2"
+   ]
+  },
+  {
+   "entry_index": 60,
+   "entry_id": "archive_u07E8838_entry_0060",
+   "source_entry_offset": 1188,
+   "source_entry_byte_length": 22,
+   "source_entry_sha256": "6360327b6045615ae4b14558de2a5457c31255580f1226efa3da7a52e53a83df",
+   "source_entry_raw_hex": "4d 33 1c a3 c8 00 00 6f e5 0a 7b 6d 88 5e cf e5 05 9b b6 9b 03 e7",
+   "source_tpl_block_sha256": "54cf0c22c5791618958c56875f03d1d387156d0c908b5950c685734c372e03ee",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ベルツさん  Re:P・Aじょうほう2"
+   ],
+   "translated_literals": [
+    "베르츠 씨  Re:P・A 정보2"
+   ]
+  },
+  {
+   "entry_index": 61,
+   "entry_id": "archive_u07E8838_entry_0061",
+   "source_entry_offset": 1210,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "1104ea1dae74e513ca0302c26389810b2bd0c267c4cffb378326326544ac2592",
+   "source_entry_raw_hex": "45 0c 00 00 00 00 00 26 54 0c 1a 78 19 78 49 e7",
+   "source_tpl_block_sha256": "412d19e4fcf92f7627972db1da50e1c5c5709233ac34be3b9d3d4c4a63e20d0c",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ダイ     ファイターソード"
+   ],
+   "translated_literals": [
+    "다이     파이터소드"
+   ]
+  },
+  {
+   "entry_index": 62,
+   "entry_id": "archive_u07E8838_entry_0062",
+   "source_entry_offset": 1226,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "ff2cb5fb8eb1d0b3985dfaf60dee6fcb46104c41c0dc507a860067c687b4277a",
+   "source_entry_raw_hex": "e5 78 e5 6d 00 00 00 00 00 1f 44 b1 1b 59 51 ae aa 9a ab e7",
+   "source_tpl_block_sha256": "2f247e114ebcd14044fba780f3cb4c6f780cf630433ae7b97a3131a46cbbb060",
+   "japanese_characters": 12,
+   "source_literals": [
+    "名人     ナゾのチップについて"
+   ],
+   "translated_literals": [
+    "명인     수수께끼의 칩에 대해"
+   ]
+  }
+ ]
+}

@@ -1,114 +1,506 @@
 {
-  "schema_version": 1,
-  "batch_number": 34,
-  "entries": [
-    {"selector":"00/160","entry_index":22,"draft_translation":"록맨의 파워 업 파츠와 / 배틀칩을 전부 빼앗겼다! // 록맨의 레벨이 1이 되었다!!"},
-    {"selector":"00/160","entry_index":23,"draft_translation":"·[waitSkip 20] // ·[waitSkip 20] // ·[waitSkip 20] // ·[waitSkip 20] // ·[waitSkip 20] // · / 음! 배짱이 아주 좋구나! / 마음에 들었다. 백신을 만들어 주마. // 그 전에, 자! / 이건 돌려주마. 이자까지 붙여서 말이다!"},
-    {"selector":"00/160","entry_index":24,"draft_translation":"그럼 백신을 만들 테니 / 그걸 이리 내놓거라."},
-    {"selector":"00/160","entry_index":25,"draft_translation":"록맨은 / 「작열 데이터」를 / 건네주었다!!"},
-    {"selector":"00/160","entry_index":26,"draft_translation":"좋았어! // 타다다닥, // 삐삐삐삣이다! // 자, 다 됐다! // 역시 나는 천재라니까!!"},
-    {"selector":"00/160","entry_index":27,"draft_translation":"록맨은 / 「[printItem item=37]」을 / 획득했다!! // 이제 노란 얼음을 부술 수 있단다. // 그러고 보니 아메롭파 에리어 2에 / 내 아는 사람이 있는데, // 그자의 동생이 얼음을 부수려고 / 이것저것 조사하고 있었다더군. // 뭔가 정보를 얻을 수 있을지도 / 모르겠구나."},
-    {"selector":"00/160","entry_index":28,"draft_translation":"응? 왜 그러느냐? / 파워 업 파츠와 배틀칩을 전부 / 넘길 마음이 든 게냐? // 좋아! // 무리야! // 그렇다면 백신은 만들지 않겠다. // 내게 백신을 부탁하려면 / 그만한 각오를 하고 / 다시 찾아오거라. // 몇 번이나 말하게 하지 마라!"},
-    {"selector":"00/160","entry_index":29,"draft_translation":"뭐냐, 가지고 있지도 않잖느냐. / 허세 부리지 마라! // 불을 일으키는 프로그램 어딘가에 / 있을 게다. // 아무튼 찾아서 가져오너라."},
-    {"selector":"00/160","entry_index":30,"draft_translation":"오, 「작열 데이터」를 / 가져왔느냐! // 예! // 아직이에요 // 불을 일으키는 프로그램 어딘가에 / 있을 게다. // 아무튼 찾아서 가져오너라."},
-    {"selector":"00/160","entry_index":31,"draft_translation":"홋홋홋, 노력하면 길은 열리는 법이니라."},
-    {"selector":"00/160","entry_index":32,"draft_translation":"록맨은 강화 프로그램과 배틀칩을 / 돌려받았다!! // 록맨의 레벨이 원래대로 돌아왔다! // 록맨은 / 칩 데이터 「[printChip chip=187] [printCode code=D]」를 / 획득했다!!"},
-    {"selector":"00/160","entry_index":33,"draft_translation":"사실 나도 그 얼음을 / 조사하고 있었단다. // 노란 얼음을 부수는 / 「[printItem item=37]」을 만들려면, // 「노란 조각」과 / 「[printItem item=36]」이 필요하지. // 지금까지 알아낸 건 그것뿐이다. // 내게 「노란 조각」은 있지만... // 「[printItem item=36]」만 있으면 / 「[printItem item=37]」을 만들 수 있지... // 너, 「[printItem item=36]」을 / 가지고 있느냐? // 예! // 없어요 // 불을 일으키는 프로그램 어딘가에 / 있을 게다. // 아무튼 찾아서 가져오너라."},
-    {"selector":"00/160","entry_index":34,"draft_translation":"너, 역시 어디선가 / 본 적이 있어... // 분명... WWW 사건 때...[waitSkip 20] / ·[waitSkip 20] / ·[waitSkip 20] / ·[waitSkip 20] / ! // 생각났다!! // 어, 어서 와. 언더 스퀘어에... / ...하하."},
-    {"selector":"00/160","entry_index":35,"draft_translation":"얼음 피해 같은 건 / 전혀 받지 않았어! // 알겠냐? // 여긴 우는 아이도 울음을 그친다는 / 언더넷이라고."},
-    {"selector":"00/160","entry_index":36,"draft_translation":"언더넷에는 / 우리도 들어갈 수 없는 에리어가 있어. // 뭐, 갈 수 있다고 해도 / 살아 돌아온다는 보장은 없지만."},
-    {"selector":"00/160","entry_index":37,"draft_translation":"내 오퍼레이터는 말이야!! / 소문난 악당이라고!! // 이 정도 천재지변에 / 플러그아웃할 만큼 / 약골이 아니란 말이다!! // 으라앗! 켁, 케헥!"},
-    {"selector":"00/160","entry_index":40,"draft_translation":"그런데 당신 같은 사내가 / 왜 이런 곳에? // 설마 우리를 없애려고... / 그건 좀 봐줘!!"},
-    {"selector":"00/160","entry_index":41,"draft_translation":"길을 잃고 여기까지 왔는데... // 아무래도 오면 안 되는 곳에 / 와 버린 모양이야. // 다들 인상이 험악한데 / 이거 위험한 거 아냐?"},
-    {"selector":"00/160","entry_index":42,"draft_translation":"뭐냐? 요즘은 양지 녀석들이 / 자주 들어오는군... // 언더넷의 무서움을 / 제대로 보여 줄까?"},
-    {"selector":"00/160","entry_index":43,"draft_translation":"고스펠 본부가 괴멸했다는 / 소문이 퍼지고 있어. // 켁! 꼴좋다니까!"},
-    {"selector":"00/160","entry_index":180,"draft_translation":"나는 넷 상인... / 좋은 물건이 있는데? // 본다 // 안 본다"},
-    {"selector":"00/160","entry_index":181,"draft_translation":"또 찾아와 주세요!"},
-    {"selector":"00/160","entry_index":182,"draft_translation":"나는 넷 상인이지만 / 지금은 좋은 물건이 없어..."},
-    {"selector":"00/160","entry_index":183,"draft_translation":"나는 서브칩 상인... / 좋은 물건이 있는데? // 본다 // 안 본다"},
-    {"selector":"00/160","entry_index":184,"draft_translation":"또 찾아와 주세요."},
-    {"selector":"00/160","entry_index":185,"draft_translation":"나는 서브칩 상인이지만 / 지금은 좋은 물건이 없어..."},
-    {"selector":"00/160","entry_index":222,"draft_translation":"임시입니다."},
-    {"selector":"00/160","entry_index":223,"draft_translation":"임시입니다."},
-
-    {"selector":"00/161","entry_index":220,"draft_translation":"언더 정보 게시판이다!"},
-    {"selector":"00/161","entry_index":221,"draft_translation":"비밀 정보 게시판이다."},
-    {"selector":"00/161","entry_index":222,"draft_translation":"임시입니다."},
-    {"selector":"00/161","entry_index":223,"draft_translation":"임시입니다."},
-    {"selector":"00/161","entry_index":225,"draft_translation":"언더 정보 게시판이다!"},
-
-    {"selector":"00/162","entry_index":0,"draft_translation":"...님, / 마침내 ... 연구가 / 최종 ...에 들어갔...습니다."},
-    {"selector":"00/162","entry_index":1,"draft_translation":"시간이 꽤... 걸렸군..."},
-    {"selector":"00/162","entry_index":2,"draft_translation":"죄송...합니다."},
-    {"selector":"00/162","entry_index":3,"draft_translation":"흥... ... 지각이다. / 벌을...!"},
-    {"selector":"00/162","entry_index":4,"draft_translation":"넵! ..."},
-    {"selector":"00/162","entry_index":5,"draft_translation":"아무튼... 실행하라!"},
-    {"selector":"00/162","entry_index":6,"draft_translation":"그럼 우리... / WWW와 같은... / ...세계 정복을...!"},
-    {"selector":"00/162","entry_index":7,"draft_translation":"어리석은 놈...! / WWW 따위와... 같다고... / 우리 「....」를 ...하지 마라! // ...프로젝... 개시하라!"},
-    {"selector":"00/162","entry_index":8,"draft_translation":"넵! // ·[waitSkip 15] // ·[waitSkip 15] // ·[waitSkip 15]"},
-
-    {"selector":"00/163","entry_index":0,"draft_translation":"덴산시티, 아키하라 초등학교 / 종업식 날 아침..."},
-    {"selector":"00/163","entry_index":1,"draft_translation":"넷토! / 오늘은 제시간에 왔네!"},
-    {"selector":"00/163","entry_index":2,"draft_translation":"헉... 헉..."},
-    {"selector":"00/163","entry_index":3,"draft_translation":"조금만 더 일찍 일어나면 / 느긋하게 올 수 있을 텐데!"},
-    {"selector":"00/163","entry_index":4,"draft_translation":"록맨이 말하지 않아도 / 알고 있어!"},
-    {"selector":"00/163","entry_index":5,"draft_translation":"알았어, 알았어. 그보다!"},
-    {"selector":"00/163","entry_index":6,"draft_translation":"응, 오늘로 학교도 끝! / 방학이 기대된다!"},
-    {"selector":"00/163","entry_index":7,"draft_translation":"통지표도 말이지!"},
-    {"selector":"00/163","entry_index":8,"draft_translation":"응! 나만 믿으라니까!"},
-
-    {"selector":"00/164","entry_index":0,"draft_translation":"딩―[wait 40] // 동―[wait 40] // 댕―[wait 40] // 동―[wait 60]"},
-    {"selector":"00/164","entry_index":1,"draft_translation":"...! 선생님 오셨어!"},
-    {"selector":"00/164","entry_index":2,"draft_translation":"안녕하세요! 드디어 / 내일부터 기다리던 방학이네, / 얘들아!"},
-    {"selector":"00/164","entry_index":3,"draft_translation":"네―엣!"},
-    {"selector":"00/164","entry_index":4,"draft_translation":"다들 / 방학을 어떻게 보낼 거니?"},
-    {"selector":"00/164","entry_index":5,"draft_translation":"할아버지 댁에 놀러 갈 거예요!"},
-    {"selector":"00/164","entry_index":6,"draft_translation":"후훗,[waitSkip 30] // 나는 가볍게 / 세계 일주 여행이나 / 할 생각이야."},
-    {"selector":"00/164","entry_index":7,"draft_translation":"어머나, 다들 계획이 / 잔뜩 있어서 좋겠네. // ...하―지만![waitSkip 30] // 공부도 잊으면 안 돼!?"},
-    {"selector":"00/164","entry_index":8,"draft_translation":"네―에."},
-    {"selector":"00/164","entry_index":9,"draft_translation":"그럼 다들 기다렸지! / 통지표를 나눠 줄게요!"},
-    {"selector":"00/164","entry_index":10,"draft_translation":"에―!"},
-    {"selector":"00/164","entry_index":11,"draft_translation":"에―!"},
-    {"selector":"00/164","entry_index":12,"draft_translation":"...그럼 다들 방학 재미있게 보내! / 그래도 다치거나 아프지 않게 / 조심해야 해!"},
-    {"selector":"00/164","entry_index":13,"draft_translation":"네―에!"},
-    {"selector":"00/164","entry_index":14,"draft_translation":"네―에!"},
-    {"selector":"00/164","entry_index":15,"draft_translation":"·[waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // · // ·"},
-    {"selector":"00/164","entry_index":16,"draft_translation":"어머나, 넷토와 데카오는 / 기운이 쏙 빠진 모양이네."},
-
-    {"selector":"00/165","entry_index":0,"draft_translation":"넷토―!![wait 20]"},
-    {"selector":"00/165","entry_index":1,"draft_translation":"생각났다! 자, 어서 내놓으렴!"},
-    {"selector":"00/165","entry_index":2,"draft_translation":"뭐가, 엄마?"},
-    {"selector":"00/165","entry_index":3,"draft_translation":"뭐냐니, / 통![waitSkip 10] // 지![waitSkip 10] // 표![waitSkip 10] // 말![waitSkip 10] // 이야!"},
-    {"selector":"00/165","entry_index":4,"draft_translation":"쳇, 생각나 버렸네.[waitSkip 30] // ...자, 여기."},
-    {"selector":"00/165","entry_index":5,"draft_translation":"어디 보자...[waitSkip 30] // 이게 뭐니![waitSkip 30] // ...정말, 넷토!"},
-    {"selector":"00/165","entry_index":6,"draft_translation":"큰일이다!"},
-    {"selector":"00/165","entry_index":7,"draft_translation":"큰일이다가 아니잖아!"},
-    {"selector":"00/165","entry_index":8,"draft_translation":"넷토, 지금은 사과하는 게..."},
-    {"selector":"00/165","entry_index":9,"draft_translation":"그렇지...[waitSkip 30] // 엄마, 미안해.[waitSkip 30] // 응?[waitSkip 30] // 친구들과 약속했는데 / 인터넷에서 놀아도..."},
-    {"selector":"00/165","entry_index":10,"draft_translation":"될 리가 없잖니!! / 숙제부터 해!"},
-    {"selector":"00/165","entry_index":11,"draft_translation":"으에엑!"},
-
-    {"selector":"00/166","entry_index":0,"draft_translation":"드디어 끝났네!"},
-    {"selector":"00/166","entry_index":1,"draft_translation":"...어,[waitSkip 30] // 메일이다!"},
-    {"selector":"00/166","entry_index":2,"draft_translation":"누구한테서?"},
-    {"selector":"00/166","entry_index":3,"draft_translation":"어디 보자, 데카오한테서야! / 「오피셜 스퀘어」로 / 빨리 오래!"},
-    {"selector":"00/166","entry_index":4,"draft_translation":"앗! 맞다!"},
-
-    {"selector":"00/167","entry_index":0,"draft_translation":"늦었구려, 거츠!!"},
-    {"selector":"00/167","entry_index":1,"draft_translation":"록―! 빨리빨리―!"},
-    {"selector":"00/167","entry_index":2,"draft_translation":"롤에 거츠맨! / 지금 갈게!"},
-    {"selector":"00/167","entry_index":3,"draft_translation":"오! 드디어 록맨이 왔군![waitSkip 30] // 기다리다 지쳤다고! 넷토!"},
-    {"selector":"00/167","entry_index":4,"draft_translation":"미안, 미안! 메일도 미안!"},
-    {"selector":"00/167","entry_index":5,"draft_translation":"너무 늦었어! / 정말... 시간 좀 잘 지켜! // 난 집에 오자마자 플러그인해서 / 롤을 보내 놓고 / 계속 기다렸단 말이야. // 미안, 미안! / 엄마한테 붙잡혀서 말이지... // 정말! 넷토도 참!"},
-    {"selector":"00/167","entry_index":6,"draft_translation":"록도 조심해!"},
-    {"selector":"00/167","entry_index":7,"draft_translation":"미안해, 롤..."},
-    {"selector":"00/167","entry_index":8,"draft_translation":"헤헤, 혼나고 있네."},
-    {"selector":"00/167","entry_index":9,"draft_translation":"잠깐만, / 애초에 넷토의 성적이 / 나쁘니까..."},
-    {"selector":"00/167","entry_index":10,"draft_translation":"너희들! / 떠드는 건 나중에 해! / 우리는 먼저 간다! // 거츠맨! / 「시민 넷배틀러」 모집에 대해 / 물어보러 가자!"},
-    {"selector":"00/167","entry_index":11,"draft_translation":"거츠하게 가겠구려!"},
-    {"selector":"00/167","entry_index":12,"draft_translation":"롤! 우리도 가자!"},
-
-    {"selector":"00/168","entry_index":0,"draft_translation":"그럼 지금부터 / [printItem item=58] 시험을 / 시작하겠습니다! // 이번에는 바이러스에게 지지 않고 / 인터넷을 돌아다닐 수 있는지 / 확인하는 시험입니다!"},
-    {"selector":"00/168","entry_index":1,"draft_translation":"삐로삐로삐로삐로[waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // ·"}
-  ]
+ "schema_version": 1,
+ "batch_number": 34,
+ "entries": [
+  {
+   "selector": "00/160",
+   "entry_index": 22,
+   "draft_translation": "록맨의 파워 업 파츠와 / 배틀칩을 전부 빼앗겼다! // 록맨의 레벨이 1이 되었다!!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 23,
+   "draft_translation": "·[waitSkip 20] // ·[waitSkip 20] // ·[waitSkip 20] // ·[waitSkip 20] // ·[waitSkip 20] // · / 음! 배짱이 아주 좋구나! / 마음에 들었다. 백신을 만들어 주마. // 그 전에, 자! / 이건 돌려주마. 이자까지 붙여서 말이다!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 24,
+   "draft_translation": "그럼 백신을 만들 테니 / 그걸 이리 내놓거라."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 25,
+   "draft_translation": "록맨은 / 「작열 데이터」를 / 건네주었다!!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 26,
+   "draft_translation": "좋았어! // 타다다닥, // 삐삐삐삣이다! // 자, 다 됐다! // 역시 나는 천재라니까!!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 27,
+   "draft_translation": "록맨은 / 「[printItem item=37]」을 / 획득했다!! // 이제 노란 얼음을 부술 수 있단다. // 그러고 보니 아메롭파 에어리어 2에 / 내 아는 사람이 있는데, // 그자의 동생이 얼음을 부수려고 / 이것저것 조사하고 있었다더군. // 뭔가 정보를 얻을 수 있을지도 / 모르겠구나."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 28,
+   "draft_translation": "응? 왜 그러느냐? / 파워 업 파츠와 배틀칩을 전부 / 넘길 마음이 든 게냐? // 좋아! // 무리야! // 그렇다면 백신은 만들지 않겠다. // 내게 백신을 부탁하려면 / 그만한 각오를 하고 / 다시 찾아오거라. // 몇 번이나 말하게 하지 마라!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 29,
+   "draft_translation": "뭐냐, 가지고 있지도 않잖느냐. / 허세 부리지 마라! // 불을 일으키는 프로그램 어딘가에 / 있을 게다. // 아무튼 찾아서 가져오너라."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 30,
+   "draft_translation": "오, 「작열 데이터」를 / 가져왔느냐! // 예! // 아직이에요 // 불을 일으키는 프로그램 어딘가에 / 있을 게다. // 아무튼 찾아서 가져오너라."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 31,
+   "draft_translation": "홋홋홋, 노력하면 길은 열리는 법이니라."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 32,
+   "draft_translation": "록맨은 강화 프로그램과 배틀칩을 / 돌려받았다!! // 록맨의 레벨이 원래대로 돌아왔다! // 록맨은 / 칩 데이터 「[printChip chip=187] [printCode code=D]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 33,
+   "draft_translation": "사실 나도 그 얼음을 / 조사하고 있었단다. // 노란 얼음을 부수는 / 「[printItem item=37]」을 만들려면, // 「노란 조각」과 / 「[printItem item=36]」가 필요하지. // 지금까지 알아낸 건 그것뿐이다. // 내게 「노란 조각」은 있지만... // 「[printItem item=36]」만 있으면 / 「[printItem item=37]」을 만들 수 있지... // 너, 「[printItem item=36]」를 / 가지고 있느냐? // 예! // 없어요 // 불을 일으키는 프로그램 어딘가에 / 있을 게다. // 아무튼 찾아서 가져오너라."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 34,
+   "draft_translation": "너, 역시 어디선가 / 본 적이 있어... // 분명... WWW 사건 때...[waitSkip 20] / ·[waitSkip 20] / ·[waitSkip 20] / ·[waitSkip 20] / ! // 생각났다!! // 어, 어서 와. 언더 스퀘어에... / ...하하."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 35,
+   "draft_translation": "얼음 피해 같은 건 / 전혀 받지 않았어! // 알겠냐? // 여긴 우는 아이도 울음을 그친다는 / 언더넷이라고."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 36,
+   "draft_translation": "언더넷에는 / 우리도 들어갈 수 없는 에어리어가 있어. // 뭐, 갈 수 있다고 해도 / 살아 돌아온다는 보장은 없지만."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 37,
+   "draft_translation": "내 오퍼레이터는 말이야!! / 소문난 악당이라고!! // 이 정도 천재지변에 / 플러그아웃할 만큼 / 약골이 아니란 말이다!! // 으라앗! 켁, 케헥!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 40,
+   "draft_translation": "그런데 당신 같은 사내가 / 왜 이런 곳에? // 설마 우리를 없애려고... / 그건 좀 봐줘!!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 41,
+   "draft_translation": "길을 잃고 여기까지 왔는데... // 아무래도 오면 안 되는 곳에 / 와 버린 모양이야. // 다들 인상이 험악한데 / 이거 위험한 거 아냐?"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 42,
+   "draft_translation": "뭐냐? 요즘은 양지 녀석들이 / 자주 들어오는군... // 언더넷의 무서움을 / 제대로 보여 줄까?"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 43,
+   "draft_translation": "고스펠 본부가 괴멸했다는 / 소문이 퍼지고 있어. // 켁! 꼴좋다니까!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 180,
+   "draft_translation": "나는 넷 상인... / 좋은 물건이 있는데? // 본다 // 안 본다"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 181,
+   "draft_translation": "또 찾아와 주세요!"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 182,
+   "draft_translation": "나는 넷 상인이지만 / 지금은 좋은 물건이 없어..."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 183,
+   "draft_translation": "나는 서브칩 상인... / 좋은 물건이 있는데? // 본다 // 안 본다"
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 184,
+   "draft_translation": "또 찾아와 주세요."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 185,
+   "draft_translation": "나는 서브칩 상인이지만 / 지금은 좋은 물건이 없어..."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 222,
+   "draft_translation": "임시입니다."
+  },
+  {
+   "selector": "00/160",
+   "entry_index": 223,
+   "draft_translation": "임시입니다."
+  },
+  {
+   "selector": "00/161",
+   "entry_index": 220,
+   "draft_translation": "언더 정보 게시판이다!"
+  },
+  {
+   "selector": "00/161",
+   "entry_index": 221,
+   "draft_translation": "비밀 정보 게시판이다."
+  },
+  {
+   "selector": "00/161",
+   "entry_index": 222,
+   "draft_translation": "임시입니다."
+  },
+  {
+   "selector": "00/161",
+   "entry_index": 223,
+   "draft_translation": "임시입니다."
+  },
+  {
+   "selector": "00/161",
+   "entry_index": 225,
+   "draft_translation": "언더 정보 게시판이다!"
+  },
+  {
+   "selector": "00/162",
+   "entry_index": 0,
+   "draft_translation": "...님, / 마침내 ... 연구가 / 최종 ...에 들어갔...습니다."
+  },
+  {
+   "selector": "00/162",
+   "entry_index": 1,
+   "draft_translation": "시간이 꽤... 걸렸군..."
+  },
+  {
+   "selector": "00/162",
+   "entry_index": 2,
+   "draft_translation": "죄송...합니다."
+  },
+  {
+   "selector": "00/162",
+   "entry_index": 3,
+   "draft_translation": "흥... ... 지각이다. / 벌을...!"
+  },
+  {
+   "selector": "00/162",
+   "entry_index": 4,
+   "draft_translation": "넵! ..."
+  },
+  {
+   "selector": "00/162",
+   "entry_index": 5,
+   "draft_translation": "아무튼... 실행하라!"
+  },
+  {
+   "selector": "00/162",
+   "entry_index": 6,
+   "draft_translation": "그럼 우리... / WWW와 같은... / ...세계 정복을...!"
+  },
+  {
+   "selector": "00/162",
+   "entry_index": 7,
+   "draft_translation": "어리석은 놈...! / WWW 따위와... 같다고... / 우리 「....」를 ...하지 마라! // ...프로젝... 개시하라!"
+  },
+  {
+   "selector": "00/162",
+   "entry_index": 8,
+   "draft_translation": "넵! // ·[waitSkip 15] // ·[waitSkip 15] // ·[waitSkip 15]"
+  },
+  {
+   "selector": "00/163",
+   "entry_index": 0,
+   "draft_translation": "덴산시티, 아키하라 초등학교 / 종업식 날 아침..."
+  },
+  {
+   "selector": "00/163",
+   "entry_index": 1,
+   "draft_translation": "넷토! / 오늘은 제시간에 왔네!"
+  },
+  {
+   "selector": "00/163",
+   "entry_index": 2,
+   "draft_translation": "헉... 헉..."
+  },
+  {
+   "selector": "00/163",
+   "entry_index": 3,
+   "draft_translation": "조금만 더 일찍 일어나면 / 느긋하게 올 수 있을 텐데!"
+  },
+  {
+   "selector": "00/163",
+   "entry_index": 4,
+   "draft_translation": "록맨이 말하지 않아도 / 알고 있어!"
+  },
+  {
+   "selector": "00/163",
+   "entry_index": 5,
+   "draft_translation": "알았어, 알았어. 그보다!"
+  },
+  {
+   "selector": "00/163",
+   "entry_index": 6,
+   "draft_translation": "응, 오늘로 학교도 끝! / 방학이 기대된다!"
+  },
+  {
+   "selector": "00/163",
+   "entry_index": 7,
+   "draft_translation": "통지표도 말이지!"
+  },
+  {
+   "selector": "00/163",
+   "entry_index": 8,
+   "draft_translation": "응! 나만 믿으라니까!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 0,
+   "draft_translation": "딩―[wait 40] // 동―[wait 40] // 댕―[wait 40] // 동―[wait 60]"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 1,
+   "draft_translation": "...! 선생님 오셨어!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 2,
+   "draft_translation": "안녕하세요! 드디어 / 내일부터 기다리던 방학이네, / 얘들아!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 3,
+   "draft_translation": "네―엣!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 4,
+   "draft_translation": "다들 / 방학을 어떻게 보낼 거니?"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 5,
+   "draft_translation": "할아버지 댁에 놀러 갈 거예요!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 6,
+   "draft_translation": "후훗,[waitSkip 30] // 나는 가볍게 / 세계 일주 여행이나 / 할 생각이야."
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 7,
+   "draft_translation": "어머나, 다들 계획이 / 잔뜩 있어서 좋겠네. // ...하―지만![waitSkip 30] // 공부도 잊으면 안 돼!?"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 8,
+   "draft_translation": "네―에."
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 9,
+   "draft_translation": "그럼 다들 기다렸지! / 통지표를 나눠 줄게요!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 10,
+   "draft_translation": "에―!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 11,
+   "draft_translation": "에―!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 12,
+   "draft_translation": "...그럼 다들 방학 재미있게 보내! / 그래도 다치거나 아프지 않게 / 조심해야 해!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 13,
+   "draft_translation": "네―에!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 14,
+   "draft_translation": "네―에!"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 15,
+   "draft_translation": "·[waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // · // ·"
+  },
+  {
+   "selector": "00/164",
+   "entry_index": 16,
+   "draft_translation": "어머나, 넷토와 데카오는 / 기운이 쏙 빠진 모양이네."
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 0,
+   "draft_translation": "넷토―!![wait 20]"
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 1,
+   "draft_translation": "생각났다! 자, 어서 내놓으렴!"
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 2,
+   "draft_translation": "뭐가, 엄마?"
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 3,
+   "draft_translation": "뭐냐니, / 통![waitSkip 10] // 지![waitSkip 10] // 표![waitSkip 10] // 말![waitSkip 10] // 이야!"
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 4,
+   "draft_translation": "쳇, 생각나 버렸네.[waitSkip 30] // ...자, 여기."
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 5,
+   "draft_translation": "어디 보자...[waitSkip 30] // 이게 뭐니![waitSkip 30] // ...정말, 넷토!"
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 6,
+   "draft_translation": "큰일이다!"
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 7,
+   "draft_translation": "큰일이다가 아니잖아!"
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 8,
+   "draft_translation": "넷토, 지금은 사과하는 게..."
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 9,
+   "draft_translation": "그렇지...[waitSkip 30] // 엄마, 미안해.[waitSkip 30] // 응?[waitSkip 30] // 친구들과 약속했는데 / 인터넷에서 놀아도..."
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 10,
+   "draft_translation": "될 리가 없잖니!! / 숙제부터 해!"
+  },
+  {
+   "selector": "00/165",
+   "entry_index": 11,
+   "draft_translation": "으에엑!"
+  },
+  {
+   "selector": "00/166",
+   "entry_index": 0,
+   "draft_translation": "드디어 끝났네!"
+  },
+  {
+   "selector": "00/166",
+   "entry_index": 1,
+   "draft_translation": "...어,[waitSkip 30] // 메일이다!"
+  },
+  {
+   "selector": "00/166",
+   "entry_index": 2,
+   "draft_translation": "누구한테서?"
+  },
+  {
+   "selector": "00/166",
+   "entry_index": 3,
+   "draft_translation": "어디 보자, 데카오한테서야! / 「오피셜 스퀘어」로 / 빨리 오래!"
+  },
+  {
+   "selector": "00/166",
+   "entry_index": 4,
+   "draft_translation": "앗! 맞다!"
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 0,
+   "draft_translation": "늦었구려, 거츠!!"
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 1,
+   "draft_translation": "록―! 빨리빨리―!"
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 2,
+   "draft_translation": "롤에 거츠맨! / 지금 갈게!"
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 3,
+   "draft_translation": "오! 드디어 록맨이 왔군![waitSkip 30] // 기다리다 지쳤다고! 넷토!"
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 4,
+   "draft_translation": "미안, 미안! 메일도 미안!"
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 5,
+   "draft_translation": "너무 늦었어! / 정말... 시간 좀 잘 지켜! // 난 집에 오자마자 플러그인해서 / 롤을 보내 놓고 / 계속 기다렸단 말이야. // 미안, 미안! / 엄마한테 붙잡혀서 말이지... // 정말! 넷토도 참!"
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 6,
+   "draft_translation": "록도 조심해!"
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 7,
+   "draft_translation": "미안해, 롤..."
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 8,
+   "draft_translation": "헤헤, 혼나고 있네."
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 9,
+   "draft_translation": "잠깐만, / 애초에 넷토의 성적이 / 나쁘니까..."
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 10,
+   "draft_translation": "너희들! / 떠드는 건 나중에 해! / 우리는 먼저 간다! // 거츠맨! / 「시민 넷배틀러」 모집에 대해 / 물어보러 가자!"
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 11,
+   "draft_translation": "거츠하게 가겠구려!"
+  },
+  {
+   "selector": "00/167",
+   "entry_index": 12,
+   "draft_translation": "롤! 우리도 가자!"
+  },
+  {
+   "selector": "00/168",
+   "entry_index": 0,
+   "draft_translation": "그럼 지금부터 / [printItem item=58] 시험을 / 시작하겠습니다! // 이번에는 바이러스에게 지지 않고 / 인터넷을 돌아다닐 수 있는지 / 확인하는 시험입니다!"
+  },
+  {
+   "selector": "00/168",
+   "entry_index": 1,
+   "draft_translation": "삐로삐로삐로삐로[waitSkip 30] // ·[waitSkip 30] // ·[waitSkip 30] // ·"
+  }
+ ]
 }

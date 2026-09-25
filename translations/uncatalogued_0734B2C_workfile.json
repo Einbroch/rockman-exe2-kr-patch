@@ -1,0 +1,412 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/0734B2C",
+ "entry_prefix": "archive_u0734B2C",
+ "rom_offset": 7555884,
+ "byte_length": 1435,
+ "tpl_filename": "uncatalogued_archive_tpl/0734B2C.tpl",
+ "entry_count": 22,
+ "entries": [
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u0734B2C_entry_0010",
+   "source_entry_offset": 140,
+   "source_entry_byte_length": 50,
+   "source_entry_sha256": "0a920bd17725f32f9386077f410f31d6bd65446b941413bedf4193ed7f173e23",
+   "source_entry_raw_hex": "ed 00 17 f1 00 a2 88 88 88 a2 c2 b2 e8 16 3a 12 35 c0 aa 00 03 01 01 83 88 88 88 81 7c e8 35 59 12 29 3a 81 00 bb a4 9e a4 ab 88 88 88 eb e9 f5 00 0b",
+   "source_tpl_block_sha256": "d3d31890b23074c5502fe49e29becd5f4f289e50e14c6c8aedcc62e1f7922f97",
+   "japanese_characters": 29,
+   "source_literals": [
+    "こ・・・これは\nシンクロりつ 200%・・・!?\nロックマン! もしかして・・・"
+   ],
+   "translated_literals": [
+    "이... 이건\n싱크로율 200%...!?\n록맨! 혹시..."
+   ]
+  },
+  {
+   "entry_index": 11,
+   "entry_id": "archive_u0734B2C_entry_0011",
+   "source_entry_offset": 190,
+   "source_entry_byte_length": 32,
+   "source_entry_sha256": "362ea025d343a62e14f6a25869334b7f9c89ad0c452fba82a4236058839dde32",
+   "source_entry_raw_hex": "ed 00 40 f1 00 9b c8 e8 a2 b1 9e c8 cf 88 88 88 e8 a8 a4 9e e5 79 ae bb 88 88 88 eb e9 f5 00 0c",
+   "source_tpl_block_sha256": "4a6c6e1ff4a36e68836e0283fa6069180ad6be908d4f3f33f4eac549e113f490",
+   "japanese_characters": 19,
+   "source_literals": [
+    "うん\nこのかんじ・・・\nたしか前にも・・・"
+   ],
+   "translated_literals": [
+    "응\n이 느낌...\n분명 전에도..."
+   ]
+  },
+  {
+   "entry_index": 12,
+   "entry_id": "archive_u0734B2C_entry_0012",
+   "source_entry_offset": 222,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "ffdbe8d47560e05cd4eb7a324b7e9574be1239b51cd69be2f96722aa80074e47",
+   "source_entry_raw_hex": "ed 00 17 f1 00 bc b2 c0 a7 9b 9e 88 88 88 81 eb e9 f5 00 0d",
+   "source_tpl_block_sha256": "58d1995924e95aafe15a25bde14c48b349e4a9e8ebb4e733fd333bed99270e15",
+   "japanese_characters": 9,
+   "source_literals": [
+    "やはりそうか・・・!"
+   ],
+   "translated_literals": [
+    "역시 그렇군...!"
+   ]
+  },
+  {
+   "entry_index": 13,
+   "entry_id": "archive_u0734B2C_entry_0013",
+   "source_entry_offset": 242,
+   "source_entry_byte_length": 28,
+   "source_entry_sha256": "474424141d8228daa1e1051d825bd50d500d7a4f5ac323dee46f28d6640111da",
+   "source_entry_raw_hex": "ed 00 00 f1 00 ad ae ad ae 81 00 d7 9b 9a 9b a2 ac 81 7c e8 4f 4f 81 eb e9 f5 00 0e",
+   "source_tpl_block_sha256": "1defde7a9c23f3c68a687f4ab58cbe7133860175f6ac37d34138ea43e2b7348b",
+   "japanese_characters": 12,
+   "source_literals": [
+    "なになに! どういうこと!?\nパパ!"
+   ],
+   "translated_literals": [
+    "뭐야 뭐야! 무슨 일이야!?\n아빠!"
+   ]
+  },
+  {
+   "entry_index": 14,
+   "entry_id": "archive_u0734B2C_entry_0014",
+   "source_entry_offset": 270,
+   "source_entry_byte_length": 277,
+   "source_entry_sha256": "3e516914e2538edca569489848bb7183c9ccc79f81f2f6386686960d72f835bd",
+   "source_entry_raw_hex": "ed 00 17 f1 00 ab cd c4 9a 1f 4b a8 a9 ac b1 4a 1e 33 b1 e5 8a d6 e8 26 33 16 3a 12 35 b1 cf e5 05 9b a8 9a c9 e8 ad c9 a0 00 aa d5 9a a8 88 88 88 a7 b1 a8 ba ae eb e9 35 59 12 29 3a b1 a6 c8 ce 9a 9a a4 9f c9 e8 9a d1 c8 10 0c 41 5c a4 a8 b2 d0 b1 e8 e5 18 e5 06 e5 0e e5 19 e5 14 87 e5 07 e5 06 e5 19 c7 b4 e5 02 9e aa a3 a6 a8 c8 d3 eb e9 a7 9b d3 ad 00 99 9c ab ad d5 a1 c1 ad bf d8 e8 88 88 88 15 0c 1e 17 1a 0c 33 81 eb e9 e5 a3 b1 35 59 12 29 3a b2 e8 9e ad c0 b1 4f 36 78 0b 59 51 c7 a4 ab 9a c1 d3 c3 9b e8 a4 9e a4 88 88 88 eb e9 9d a7 bf a0 10 31 45 b1 e5 ce c9 a7 a2 b7 d6 bb a8 ad 9a e8 65 6d b2 24 3a 3e 3a a4 ab 9a c1 d3 c3 9b ad eb e9 aa be a3 ac 2d 35 a3 c7 00 9e b0 a7 ad 9c a8 17 1a 0c 33 d3 e8 a7 c2 b2 00 e5 93 e5 94 88 88 88 e8 9d b7 9c b1 0f 52 34 78 1d 55 3a 3d ae 9e 9e e5 02 ab 9a c1 d2 81 eb e9 f5 00 0f",
+   "source_tpl_block_sha256": "c9782ba0e04eabf486976b88e61fd0ed9d26d68da6e94944d679ed1a327f4f17",
+   "japanese_characters": 214,
+   "source_literals": [
+    "てごわいナビたちとのバトルの中で\nフルシンクロのじょうたいが\nながく つづいた・・・そのために",
+    "ロックマンのせんざいいしきが\nいぜんカイジョしたはずの\nsaito.batをふっかつさせたんだ",
+    "そうだな あえてなづけるならば\n・・・サイトスタイル!",
+    "今のロックマンは\nかなりのパワーアップをしているだろう\nしかし・・・",
+    "おそらくカラダの方がそこまでもたない\nHPはハンゲンしているだろうな",
+    "つよさとモロさを かねそなえたスタイルだ\nそれは 熱斗・・・\nおまえのオペレーティングにかかっているぞ!"
+   ],
+   "translated_literals": [
+    "강한 내비들과 배틀하는 동안\n풀 싱크로 상태가\n오래 이어졌다... 그 때문에",
+    "록맨의 잠재의식이\n예전에 해제했을 터인\nsaito.bat를 부활시킨 거다",
+    "그래, 굳이 이름을 붙이자면\n...사이토 스타일!",
+    "지금의 록맨은\n상당히 파워 업 했을 거다\n하지만...",
+    "아마 몸이 그걸 버티지 못할 거다\nHP는 절반으로 줄어 있겠지",
+    "강함과 취약함을 겸비한 스타일이다\n그건 넷토...\n네 오퍼레이팅에 달려 있다!"
+   ]
+  },
+  {
+   "entry_index": 15,
+   "entry_id": "archive_u0734B2C_entry_0015",
+   "source_entry_offset": 547,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "00ccd892cb352f288e15396628b90d259519d4a6ac6d4d3c2db917827b06960a",
+   "source_entry_raw_hex": "ed 00 40 f1 00 e5 93 e5 94 a0 c8 e8 a8 b1 c8 d3 be 81 eb e9 f5 00 10",
+   "source_tpl_block_sha256": "6df938c1c230c4d2c5a597728a64144404c63d014aff940d595ab6ba305959bb",
+   "japanese_characters": 9,
+   "source_literals": [
+    "熱斗くん\nたのんだよ!"
+   ],
+   "translated_literals": [
+    "넷토\n부탁해!"
+   ]
+  },
+  {
+   "entry_index": 16,
+   "entry_id": "archive_u0734B2C_entry_0016",
+   "source_entry_offset": 570,
+   "source_entry_byte_length": 39,
+   "source_entry_sha256": "98879d3d8ae164535c5fe129cd316c436ba4884553a3537a58e83dbb8ea4dc1c",
+   "source_entry_raw_hex": "ed 00 00 f1 00 15 0c 1e 17 1a 0c 33 9e e2 e8 a5 cc 78 81 e8 a2 c2 d6 00 b9 9e 9b ac a2 c3 1d 11 ad a4 d3 ad 81 eb e7",
+   "source_tpl_block_sha256": "0b2efd26fd6b4d00bfc16ea414a7c50bb771caf40e558922ee8e3caa660b4a82",
+   "japanese_characters": 27,
+   "source_literals": [
+    "サイトスタイルかぁ\nすげー!\nこれで むかうところテキなしだな!"
+   ],
+   "translated_literals": [
+    "사이토 스타일인가\n굉장해!\n이걸로 천하무적이야!"
+   ]
+  },
+  {
+   "entry_index": 50,
+   "entry_id": "archive_u0734B2C_entry_0050",
+   "source_entry_offset": 609,
+   "source_entry_byte_length": 22,
+   "source_entry_sha256": "d8ddf21e5b42b802a9c632a0d8346d79e22b975b4184d2fec652f697298cdca7",
+   "source_entry_raw_hex": "ed 00 40 f1 00 7c 81 00 a2 b1 9e c8 cf b2 88 88 88 eb e9 f5 00 33",
+   "source_tpl_block_sha256": "917a186400320b96ed60aecf661e9127c31434ca58bfcbf839f597d16b272fe6",
+   "japanese_characters": 9,
+   "source_literals": [
+    "?! このかんじは・・・"
+   ],
+   "translated_literals": [
+    "?! 이 느낌은..."
+   ]
+  },
+  {
+   "entry_index": 51,
+   "entry_id": "archive_u0734B2C_entry_0051",
+   "source_entry_offset": 631,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "c2d0715cb619c11e0d98ab866d777afb9484bd4bdece0a9fdd71e37b4ecdf22d",
+   "source_entry_raw_hex": "ed 00 00 f1 00 17 1a 0c 33 1b 57 3a 41 9e 81 7c eb e9 f5 00 34",
+   "source_tpl_block_sha256": "572beb766dafa94dbd3a35597ddd133aaa0ae052ab2a899f3ad5d0ed2318eb09",
+   "japanese_characters": 9,
+   "source_literals": [
+    "スタイルチェンジか!?"
+   ],
+   "translated_literals": [
+    "스타일 체인지야!?"
+   ]
+  },
+  {
+   "entry_index": 52,
+   "entry_id": "archive_u0734B2C_entry_0052",
+   "source_entry_offset": 652,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "4bea85a3bb3e3413fe5d8b2c997d72fe375a7bc79002926958950418e9313127",
+   "source_entry_raw_hex": "ed 00 40 f1 00 88 88 88 a7 9b b8 a8 9a d3 b0 88 88 88 eb e9 f5 00 35",
+   "source_tpl_block_sha256": "e45f26d690ce6df23b9f04c3a7355a6aee911c0a7e59dfb91e659c6fa3f1f20b",
+   "japanese_characters": 13,
+   "source_literals": [
+    "・・・そうみたいだね・・・"
+   ],
+   "translated_literals": [
+    "...그런 것 같아..."
+   ]
+  },
+  {
+   "entry_index": 53,
+   "entry_id": "archive_u0734B2C_entry_0053",
+   "source_entry_offset": 675,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "b05d44bf33af224d406ef5a5e119871bda7c9d361b9a03c6c17c569ead7e0e9e",
+   "source_entry_raw_hex": "ed 00 00 f1 00 a2 b1 17 1a 0c 33 b2 88 88 88 7c eb e9 f5 00 36",
+   "source_tpl_block_sha256": "ea5b27e93ac43e6128c028793520e107cce4ae0e480ef9591d9e93edac342222",
+   "japanese_characters": 10,
+   "source_literals": [
+    "このスタイルは・・・?"
+   ],
+   "translated_literals": [
+    "이 스타일은...?"
+   ]
+  },
+  {
+   "entry_index": 54,
+   "entry_id": "archive_u0734B2C_entry_0054",
+   "source_entry_offset": 696,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "c3477fc61426b953cd5b18f91314e609360f2029c5a6a2c3e40d9970183726ad",
+   "source_entry_raw_hex": "ed 01 f1 00 fa 0c fa 00 db 00 50 50 50 88 88 88 eb e9 fa 08 f5 00 37",
+   "source_tpl_block_sha256": "b8540b4b6537bc73d84028cf2203d448625242b131ee2fa31e5bfa616685561f",
+   "japanese_characters": 6,
+   "source_literals": [
+    "ピピピ・・・"
+   ],
+   "translated_literals": [
+    "삐삐삐..."
+   ]
+  },
+  {
+   "entry_index": 55,
+   "entry_id": "archive_u0734B2C_entry_0055",
+   "source_entry_offset": 719,
+   "source_entry_byte_length": 39,
+   "source_entry_sha256": "646c21ba241a10fd28505312c6ef350cf0553e859b7ee4e6c3157017abed3989",
+   "source_entry_raw_hex": "ed 00 17 f1 00 99 bf a8 ad 17 1a 0c 33 c9 e8 b2 aa cc c8 a4 a8 b8 a8 9a d3 ad e8 a7 b1 17 1a 0c 33 b2 88 88 88 eb e7",
+   "source_tpl_block_sha256": "a2cf3490097ae9c4d6c074ece3ac157c1d359cee7dba383a510e01346043af49",
+   "japanese_characters": 30,
+   "source_literals": [
+    "あらたなスタイルが\nはつげんしたみたいだな\nそのスタイルは・・・"
+   ],
+   "translated_literals": [
+    "새로운 스타일이\n발현된 모양이구나\n그 스타일은..."
+   ]
+  },
+  {
+   "entry_index": 60,
+   "entry_id": "archive_u0734B2C_entry_0060",
+   "source_entry_offset": 758,
+   "source_entry_byte_length": 262,
+   "source_entry_sha256": "f9f286310b16c9032f14116b97395cd1fbd11eff669001847106c335b39caa9e",
+   "source_entry_raw_hex": "ed 00 17 f1 00 a9 e5 05 e5 02 ac b7 e5 02 a8 e8 be a0 9f a1 00 e5 93 e5 94 88 88 88 eb e9 35 59 12 29 3a b1 2c 2d 32 ae e8 9f 9d a0 d6 9f c1 17 1a 0c 33 b1 cf e5 05 9b b6 9b b2 e8 03 17 1a 0c 33 da c8 a4 9e ad 9a c8 d3 eb e9 35 59 12 29 3a b2 85 bb 9b a5 d6 ae 03 aa b1 e8 17 1a 0c 33 00 c7 b8 ae aa a1 ab 9a c1 eb e9 99 a8 bf a4 9a 17 1a 0c 33 c7 b8 ae aa a1 c1 ae b2 85 e8 9a b7 85 b8 ae aa a1 ab 9a c1 17 1a 0c 33 ae eb e9 99 a8 bf a4 9a 17 1a 0c 33 c7 00 9b c4 c9 9f e8 a4 ad 9a ac 9a a1 ad 9a eb e9 9b c4 c9 9f a5 c1 ac 85 99 a8 bf a4 9a 17 1a 0c 33 c7 e8 b8 ae 00 aa a1 c1 a2 ac c9 d6 9f c1 c9 85 eb e9 9b c4 c9 9f 00 a3 c2 a8 17 1a 0c 33 b2 e8 9f 9c ab a4 b7 9b c8 d3 eb e9 9b c4 c9 9f 00 a5 c1 9e 7c e8 ef 00 11 ee 00 02 b2 9a e8 ef 11 00 ee 00 02 9a 9a 9c f0 06 80 3f 3d ff e7",
+   "source_tpl_block_sha256": "bd82c4b3c007ac5a5acaded5a9f4387abdeb6178d506b914b1e579760d7e8f61",
+   "japanese_characters": 194,
+   "source_literals": [
+    "ちょっとまった\nよくきけ 熱斗・・・",
+    "ロックマンのメモリに\nきおくできるスタイルのじょうほうは\n2スタイルぶんしかないんだ",
+    "ロックマンは、もうすでに2つの\nスタイル をみにつけている",
+    "あたらしいスタイルをみにつけるには、\nいま、みにつけているスタイルに",
+    "あたらしいスタイルを うわがき\nしないといけない",
+    "うわがきすると、あたらしいスタイルを\nみに つけることができるが、",
+    "うわがき されたスタイルは\nきえてしまうんだ",
+    "うわがき するか?\n",
+    "はい\n",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "잠깐 기다려라\n잘 들어라, 넷토...",
+    "록맨의 메모리에\n기억할 수 있는 스타일 정보는\n2개뿐이란다",
+    "록맨은 이미 2개의\n스타일을 갖추고 있다",
+    "새로운 스타일을 갖추려면,\n지금 갖추고 있는 스타일 위에",
+    "새로운 스타일을\n덮어써야 한다",
+    "덮어쓰면 새로운 스타일을\n갖출 수 있지만,",
+    "덮어쓴 스타일은\n사라져 버린단다",
+    "덮어쓰겠니?\n",
+    "예\n",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 61,
+   "entry_id": "archive_u0734B2C_entry_0061",
+   "source_entry_offset": 1020,
+   "source_entry_byte_length": 59,
+   "source_entry_sha256": "14df542187a32b22b6a11056ce68b11f228b5d9891661fed970db3d676b1a39d",
+   "source_entry_raw_hex": "ed 00 17 f1 00 b6 c8 ac 9b ae 85 9b c4 c9 9f a4 ad a0 ab bb e8 9a 9a b1 9e 7c eb e9 ef 00 11 ee 00 02 9b c4 c9 9f a4 ad 9a be e8 ef 11 00 ee 00 02 a5 c1 81 f0 06 80 3e 3f ff e7",
+   "source_tpl_block_sha256": "2ff5966e3d34a7c3035a3e90d7156a28b20d7b8aad22ec254c60a5a34c751197",
+   "japanese_characters": 28,
+   "source_literals": [
+    "ほんとうに、うわがきしなくても\nいいのか?",
+    "うわがきしないよ\n",
+    "する!"
+   ],
+   "translated_literals": [
+    "정말로 덮어쓰지 않아도\n괜찮겠니?",
+    "안 덮어쓸래\n",
+    "덮어쓸래!"
+   ]
+  },
+  {
+   "entry_index": 62,
+   "entry_id": "archive_u0734B2C_entry_0062",
+   "source_entry_offset": 1079,
+   "source_entry_byte_length": 63,
+   "source_entry_sha256": "704993f3a692f44c75cf229ca676972559d335a6d3ede2d816a34fd21e1a6329",
+   "source_entry_raw_hex": "ed 00 17 f1 00 a7 9b d3 ad 85 b3 ac aa b1 17 1a 0c 33 c7 e8 9f c4 ba c1 a2 ac bb 85 a8 9a a6 aa d3 9e bf ad eb e9 9a b7 85 b8 ae aa a1 ab 9a c1 17 1a 0c 33 c7 e8 b8 c9 a0 c8 d3 d2 81 eb e7",
+   "source_tpl_block_sha256": "4412e3f3c5e6bbfee4f92c11e73550cf096f0b45a6bfb105840876db9553d5f3",
+   "japanese_characters": 48,
+   "source_literals": [
+    "そうだな、ひとつのスタイルを\nきわめることも、たいせつだからな",
+    "いま、みにつけているスタイルを\nみがくんだぞ!"
+   ],
+   "translated_literals": [
+    "그렇지, 한 가지 스타일을\n갈고닦는 것도 중요하니까",
+    "지금 갖추고 있는 스타일을\n더 갈고닦으려무나!"
+   ]
+  },
+  {
+   "entry_index": 63,
+   "entry_id": "archive_u0734B2C_entry_0063",
+   "source_entry_offset": 1142,
+   "source_entry_byte_length": 75,
+   "source_entry_sha256": "7a8b2a1398c8e800e7f6cb285ead614246fdc0aa373f0bb89f29830011720d21",
+   "source_entry_raw_hex": "ed 00 17 f1 00 d7 b1 17 1a 0c 33 ae e8 9b c4 c9 9f a5 c1 c8 d3 7c eb e9 ef 00 21 ee 00 02 f9 00 00 10 e8 ef 11 02 ee 00 02 f9 00 00 20 e8 ef 22 10 ee 00 02 bc e5 02 dd c0 85 9a b7 b1 b7 b7 d6 9a 9a 81 f0 07 80 40 45 3e ff e7",
+   "source_tpl_block_sha256": "546f7aebab4f3d43754a4b326f68e4ae578b7632404dc538b12efbe5621ab8ca",
+   "japanese_characters": 27,
+   "source_literals": [
+    "どのスタイルに\nうわがきするんだ?",
+    "\n",
+    "\n",
+    "やっぱり、いまのままでいい!"
+   ],
+   "translated_literals": [
+    "어느 스타일에\n덮어쓸 거니?",
+    "\n",
+    "\n",
+    "역시 지금 그대로가 좋아!"
+   ]
+  },
+  {
+   "entry_index": 64,
+   "entry_id": "archive_u0734B2C_entry_0064",
+   "source_entry_offset": 1217,
+   "source_entry_byte_length": 69,
+   "source_entry_sha256": "1842cd0197cad5371c248188487c0923ae027ff1371a5313b5079a219b4dcfd2",
+   "source_entry_raw_hex": "ed 00 17 f1 00 f2 04 3a 00 a7 c2 cf e5 03 85 f9 00 00 10 b1 e8 48 78 1a ae 9b c4 c9 9f a5 c1 d2 e8 9a 9a 9e 7c eb e9 ef 00 11 ee 00 02 9a 9a be e8 ef 11 00 ee 00 02 bc e5 02 dd bc ba 81 f0 06 80 42 41 ff e7",
+   "source_tpl_block_sha256": "294cd38d93c0c4362cf3ef7d6fded56adc38dab7c03759e530db22c773a516d8",
+   "japanese_characters": 27,
+   "source_literals": [
+    "それじゃ、",
+    "の\nデータにうわがきするぞ\nいいか?",
+    "いいよ\n",
+    "やっぱやめ!"
+   ],
+   "translated_literals": [
+    "그럼 ",
+    "의\n데이터에 덮어쓰겠다\n괜찮겠니?",
+    "좋아\n",
+    "역시 그만둘래!"
+   ]
+  },
+  {
+   "entry_index": 65,
+   "entry_id": "archive_u0734B2C_entry_0065",
+   "source_entry_offset": 1286,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "1e6f4b8dfa4e75d77ec0b4a7652fc14577077969a702677295de655cb768fa51",
+   "source_entry_raw_hex": "ed 00 17 f1 00 be a0 9e c8 c9 9c c1 c8 d3 d2 eb e9 f5 00 3f",
+   "source_tpl_block_sha256": "73949b0bd77a284fcf440543d263990303547255c29b6b40e16e1bd36e5a9aa6",
+   "japanese_characters": 10,
+   "source_literals": [
+    "よくかんがえるんだぞ"
+   ],
+   "translated_literals": [
+    "잘 생각해 보거라"
+   ]
+  },
+  {
+   "entry_index": 66,
+   "entry_id": "archive_u0734B2C_entry_0066",
+   "source_entry_offset": 1306,
+   "source_entry_byte_length": 79,
+   "source_entry_sha256": "4f3e0687d77f9998c4645db9d79bf9b70203ca00609b9d84533215a322dca89d",
+   "source_entry_raw_hex": "ed 00 17 f1 00 fa 0c fa 00 03 01 ed 03 00 1d 10 1d 10 1d 10 88 00 88 00 88 ea 00 1e 00 eb e9 fa 08 ed 03 01 be a4 81 00 a2 c2 d6 35 59 12 29 3a b2 e8 b7 a8 85 99 a8 bf a4 9a 1b 10 31 c7 e8 ab ae 9a c2 a8 d2 81 eb e9 f2 00 39 00 f5 00 43",
+   "source_tpl_block_sha256": "7acd7f75e41ab6ca251e1379f6a427830504d51f2f9b4d82207958034afeabff",
+   "japanese_characters": 37,
+   "source_literals": [
+    "テカテカテカ・ ・ ・",
+    "よし! これでロックマンは\nまた、あたらしいチカラを\nてにいれたぞ!"
+   ],
+   "translated_literals": [
+    "반짝반짝반짝・ ・ ・",
+    "좋아! 이것으로 록맨은\n또 새로운 힘을\n손에 넣었다!"
+   ]
+  },
+  {
+   "entry_index": 67,
+   "entry_id": "archive_u0734B2C_entry_0067",
+   "source_entry_offset": 1385,
+   "source_entry_byte_length": 33,
+   "source_entry_sha256": "003b7eeb1153e6bcb35d098a3ddd7421d6bfd5d138d61ccc34c57aa2bdec5569",
+   "source_entry_raw_hex": "ed 00 00 f1 00 15 3a 11 5b 78 00 4f 4f 81 e8 be a4 00 9a a0 d1 e8 35 59 12 29 3a 81 eb e9 f5 00 44",
+   "source_tpl_block_sha256": "1088c9e7e48614b7f336210d0a42640ec47ade35006ede29696718345bbf3ebc",
+   "japanese_characters": 17,
+   "source_literals": [
+    "サンキュー パパ!\nよし いくぜ\nロックマン!"
+   ],
+   "translated_literals": [
+    "땡큐, 아빠!\n좋아, 가자\n록맨!"
+   ]
+  },
+  {
+   "entry_index": 68,
+   "entry_id": "archive_u0734B2C_entry_0068",
+   "source_entry_offset": 1418,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "b88f9dec4ff37bdf0ea8ae9e72c97e65d8a5e2d9a00d25f4756d596cbb2a676b",
+   "source_entry_raw_hex": "ed 00 40 f1 00 9b c8 e8 e5 93 e5 94 a0 c8 81 eb e7",
+   "source_tpl_block_sha256": "6324c0c70d146a5067083188e96d71153d30c6bbe76c9f700d54a5975c1a5daf",
+   "japanese_characters": 6,
+   "source_literals": [
+    "うん\n熱斗くん!"
+   ],
+   "translated_literals": [
+    "응\n넷토!"
+   ]
+  }
+ ]
+}

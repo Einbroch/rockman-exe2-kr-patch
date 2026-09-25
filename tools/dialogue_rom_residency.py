@@ -37,16 +37,19 @@ READER_BODY = 0x20B0C
 READER_BODY_SOURCE = bytes.fromhex("01 48 00 f0 27 f8 20 bd")
 START_MESSAGE = 0x20B60
 
-# One word of the buffer this change frees. The game clears the whole buffer
-# once during start-up and the measured game-code accesses stay below
-# 0x02039C00, so the top word is free for the pointer the loader records.
-BASE_SLOT = 0x0203BFFC
+# No RAM slot: an earlier attempt parked the archive pointer in the freed
+# buffer's top word and battle wiped it, so the reader read a base of zero and
+# walked memory until the emulator stopped responding. The reader instead calls
+# the loader, which resolves the pointer from the area tables and now simply
+# returns it, so nothing has to survive in RAM between the two.
+RESOLVE_ARCHIVE = 0x20AB0
 
-CAPTURE_TRAMPOLINE = 0x00830400
 READER_TRAMPOLINE = 0x00830440
 
-# 150 through the three area tables, plus the opening area's direct literal.
-EXPECTED_ARCHIVE_COUNT = 151
+# 151 through the three area tables, plus the opening area's direct literal.
+# (0x074B590, Yaito's house, sits in the table at 0x0228A8 but was missing
+# from the catalogue until the pointer scan recovered it.)
+EXPECTED_ARCHIVE_COUNT = 152
 
 
 def reachable(rom: bytes, known_archive_offsets: set[int]) -> set[int]:
@@ -95,25 +98,22 @@ def _stub(offset: int, destination: int, register: int) -> bytes:
 
 
 def _loader_stub() -> bytes:
-    """ldr r3,[pc,#4]; bx r3; nop; .word CAPTURE|1 - the site is not 4-aligned."""
-    return struct.pack("<HHHI", 0x4B01, 0x4718, 0x46C0,
-                       ROM_BASE + CAPTURE_TRAMPOLINE + 1)
-
-
-def make_capture_trampoline(blob_cls, offset: int) -> tuple[bytes, int]:
-    """Record the archive pointer and return from the loader without unpacking."""
-    t = blob_cls(offset)
-    t.ldr_literal(3, BASE_SLOT)
-    t.emit(0x6018)                 # str r0, [r3]
-    t.emit(0xBD20)                 # pop {r5, pc}
-    return t.finish(), t.code_byte_length
+    """pop {r5,pc} and padding: resolve the pointer into r0, then just return."""
+    return struct.pack("<HHHHH", 0xBD20, 0x46C0, 0x46C0, 0x46C0, 0x46C0)
 
 
 def make_reader_trampoline(blob_cls, offset: int) -> tuple[bytes, int]:
-    """Start a message from the recorded ROM archive instead of the EWRAM buffer."""
+    """Resolve this map's archive, then start the message from it.
+
+    Entered with the entry index in r1 and the caller's {r5,lr} already pushed
+    by the function whose body this replaces, so it returns with pop {r5,pc}.
+    """
     t = blob_cls(offset)
-    t.ldr_literal(0, BASE_SLOT)
-    t.emit(0x6800)                 # ldr r0, [r0]
+    t.emit(0xB402)                 # push {r1}      - the resolver clobbers r1
+    t.ldr_literal(3, ROM_BASE + RESOLVE_ARCHIVE + 1)
+    t.emit(0x46FE)                 # mov lr, pc
+    t.emit(0x4718)                 # bx r3          - r0 = archive pointer
+    t.emit(0xBC02)                 # pop {r1}
     t.ldr_literal(3, ROM_BASE + START_MESSAGE + 1)
     t.emit(0x46FE)                 # mov lr, pc
     t.emit(0x4718)                 # bx r3
@@ -123,7 +123,7 @@ def make_reader_trampoline(blob_cls, offset: int) -> tuple[bytes, int]:
 
 def hook_specs() -> list[tuple[int, bytes, bytes, str]]:
     return [
-        (LOADER_TAIL, LOADER_TAIL_SOURCE, _loader_stub(), "dialogue_loader_capture"),
+        (LOADER_TAIL, LOADER_TAIL_SOURCE, _loader_stub(), "dialogue_loader_return"),
         (READER_BODY, READER_BODY_SOURCE,
          _stub(READER_BODY, READER_TRAMPOLINE, 3), "dialogue_reader_base"),
     ]

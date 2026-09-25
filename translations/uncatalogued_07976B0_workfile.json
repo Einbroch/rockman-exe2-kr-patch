@@ -1,0 +1,824 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/07976B0",
+ "entry_prefix": "archive_u07976B0",
+ "rom_offset": 7960240,
+ "byte_length": 3172,
+ "tpl_filename": "uncatalogued_archive_tpl/07976B0.tpl",
+ "entry_count": 40,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u07976B0_entry_0000",
+   "source_entry_offset": 204,
+   "source_entry_byte_length": 50,
+   "source_entry_sha256": "aaf41c90bb4bc2c537c8b40b230ca25af85446711d28b392496600aeb5e281a7",
+   "source_entry_raw_hex": "f1 00 e5 73 e5 6b e5 ba c9 00 b3 d7 a0 00 b8 d3 c2 ab 9a c1 81 eb e9 35 59 12 29 3a b2 e8 b4 a6 9a ad 00 0b 49 34 17 ae 00 ac d8 a3 c2 a8 81 81 eb e7",
+   "source_tpl_block_sha256": "f6479d4a42dcec83f93cea4002856c0cbe2047233409aa0581c22a01fda4db88",
+   "japanese_characters": 33,
+   "source_literals": [
+    "電磁波が ひどく みだれている!",
+    "ロックマンは\nふせいな アドレスに とばされた!!"
+   ],
+   "translated_literals": [
+    "전자파가 심하게 흐트러져 있다!",
+    "록맨은\n잘못된 주소로 날아가 버렸다!!"
+   ]
+  },
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u07976B0_entry_0010",
+   "source_entry_offset": 254,
+   "source_entry_byte_length": 115,
+   "source_entry_sha256": "e7b3762ab26fe51ba602e5a63b5ffba9a42758ec9031b29aa1f702f544dabf03",
+   "source_entry_raw_hex": "f1 00 90 01 09 03 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 0e 31 78 c9 00 e5 6f ab 9a c1 be 9b d3 e8 e5 73 e5 6b e5 ba b1 00 4a 31 3a 17 c9 00 a0 d0 c2 e8 aa be 9a 00 e5 73 e5 6b e5 ba c9 00 b2 e5 02 a6 9a a4 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "2bbdb28866b3f5b6c6a7b3b1dcbc077d02c930fd6b95426052bf76ab4630db52",
+   "japanese_characters": 70,
+   "source_literals": [
+    "「082ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "エラーが 出ているようだ\n電磁波の バランスが くずれ\nつよい 電磁波が はっせいしている"
+   ],
+   "translated_literals": [
+    "「082호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "에러가 난 것 같다\n전자파의 균형이 무너져\n강한 전자파가 발생하고 있다"
+   ]
+  },
+  {
+   "entry_index": 11,
+   "entry_id": "archive_u07976B0_entry_0011",
+   "source_entry_offset": 369,
+   "source_entry_byte_length": 101,
+   "source_entry_sha256": "69f2a7da884577f94f2edb11e2a86859f41038b80f658aaed58a1ae091b61444",
+   "source_entry_raw_hex": "f1 00 90 01 09 03 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 90 f9 00 2c 00 91 c7 00 aa 9e 9a b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 0c ff ff e7",
+   "source_tpl_block_sha256": "6c80d657195011108722399d16d762d007503b04d6c65f1a8619e2b378ed5040",
+   "japanese_characters": 44,
+   "source_literals": [
+    "「082ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "「",
+    "」を つかいますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "「082호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "「",
+    "」를 사용하겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 12,
+   "entry_id": "archive_u07976B0_entry_0012",
+   "source_entry_offset": 470,
+   "source_entry_byte_length": 45,
+   "source_entry_sha256": "f4af62201eba249960a913c2128b28ee2486606fa93e6d8009c6ce31960315dc",
+   "source_entry_raw_hex": "f1 00 f2 00 02 02 35 59 12 29 3a b2 85 e8 90 f9 00 2c 00 91 c7 e8 14 3a 1e 35 78 33 51 35 3d 31 2b ae 00 b2 ba a2 c8 d3 81 eb f5 00 0d",
+   "source_tpl_block_sha256": "98d5cee18edcd22f9fa9796e54e7a8a99565dc5e6e71c8b2dc5148ac2b2fab68",
+   "japanese_characters": 24,
+   "source_literals": [
+    "ロックマンは、\n「",
+    "」を\nコントロールプログラムに はめこんだ!"
+   ],
+   "translated_literals": [
+    "록맨은\n「",
+    "」를\n제어 프로그램에 끼워 넣었다!"
+   ]
+  },
+  {
+   "entry_index": 13,
+   "entry_id": "archive_u07976B0_entry_0013",
+   "source_entry_offset": 515,
+   "source_entry_byte_length": 25,
+   "source_entry_sha256": "aba62d3f1e5aeea455f1b76a2a1dac1402842dd6c0395f0a9fa530a3dff21f43",
+   "source_entry_raw_hex": "f2 00 09 02 ed 00 40 f1 00 d7 9b d3 7c eb f2 00 0a 02 f2 00 0c 02 f5 00 0e",
+   "source_tpl_block_sha256": "243c60cb116ea6b3fd075d89661b3910a4bb125cbfe491fa6f86a615583aae13",
+   "japanese_characters": 3,
+   "source_literals": [
+    "どうだ?"
+   ],
+   "translated_literals": [
+    "어때?"
+   ]
+  },
+  {
+   "entry_index": 14,
+   "entry_id": "archive_u07976B0_entry_0014",
+   "source_entry_offset": 540,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "da7d230add0295f75f339405eb87eae6c4e549a6330ec354ef374e1b28825751",
+   "source_entry_raw_hex": "ed 00 40 f1 00 9b c4 78 78 78 78 81 81 ea ff 00 00",
+   "source_tpl_block_sha256": "29510218637072c1a26ee711dee61a0ffb049bf513656c29ad366961831008c3",
+   "japanese_characters": 6,
+   "source_literals": [
+    "うわーーーー!!"
+   ],
+   "translated_literals": [
+    "으아아아아!!"
+   ]
+  },
+  {
+   "entry_index": 15,
+   "entry_id": "archive_u07976B0_entry_0015",
+   "source_entry_offset": 557,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "748b7ae7e3d401fa73f12c58118035c3c0e661cb242c1986103116b9b1798058",
+   "source_entry_raw_hex": "f1 00 90 01 09 03 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b d3 e8 a2 a2 b2 00 bb 9b 00 a6 9a cf e5 05 9b ae 00 ad e5 02 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "e7ea4a1db51a6246ae25e6667103d7ede89c6369ac777bd65b8273305442d1fb",
+   "japanese_characters": 36,
+   "source_literals": [
+    "「082ごうしつ」の\n電磁波 コントロールプログラムだ\nここは もう せいじょうに なっている"
+   ],
+   "translated_literals": [
+    "「082호실」의\n전자파 제어 프로그램이다\n여기는 이미 정상으로 돌아와 있다"
+   ]
+  },
+  {
+   "entry_index": 16,
+   "entry_id": "archive_u07976B0_entry_0016",
+   "source_entry_offset": 613,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "9a9ccedc511d418b8eeea6c769a6c3305a8d2fb5d1c6af1666a6de7b9ac3d877",
+   "source_entry_raw_hex": "ed 00 40 f1 00 a2 a2 b2 88 88 88 eb e9 f5 00 11",
+   "source_tpl_block_sha256": "a6c4d0c22688614a5e03103b0c6af0d2ce787bce3f03e327452cfae2bc6addc7",
+   "japanese_characters": 6,
+   "source_literals": [
+    "ここは・・・"
+   ],
+   "translated_literals": [
+    "여기는..."
+   ]
+  },
+  {
+   "entry_index": 17,
+   "entry_id": "archive_u07976B0_entry_0017",
+   "source_entry_offset": 629,
+   "source_entry_byte_length": 47,
+   "source_entry_sha256": "c306270abc92f0bdea5dd4a0a76086e265a1807f777f04ff19bbbccf142e1a2d",
+   "source_entry_raw_hex": "ed 00 00 f1 00 a3 e5 02 9f b1 00 ac a2 c3 ac e8 aa ad c9 e5 02 ab a8 00 d8 a4 e5 05 ea 01 1e 00 88 88 88 cf e5 03 ad 9a 9e 7c eb e9 f5 00 12",
+   "source_tpl_block_sha256": "0ecf819ea60e11fbd94669a8e728157e41d0448f3c248375cc90792fd49b82a9",
+   "japanese_characters": 25,
+   "source_literals": [
+    "さっきの ところと\nつながってた ばしょ",
+    "・・・じゃないか?"
+   ],
+   "translated_literals": [
+    "아까 그곳과\n연결되어 있던 장소",
+    "...아니야?"
+   ]
+  },
+  {
+   "entry_index": 18,
+   "entry_id": "archive_u07976B0_entry_0018",
+   "source_entry_offset": 676,
+   "source_entry_byte_length": 32,
+   "source_entry_sha256": "1357f1f291edcc371e4806d2e8b942a7459b9c29804b82eadc434ccc774b4d75",
+   "source_entry_raw_hex": "ed 00 40 f1 00 e5 73 e5 6b e5 ba b1 00 b8 d3 c2 00 9d a3 b7 e5 02 a8 b1 9e ad 7c eb e9 f5 00 13",
+   "source_tpl_block_sha256": "1bb86da0f1b9db09d1a3c0a6b80e065aaa9a106dc869e81088c78d2af7203983",
+   "japanese_characters": 15,
+   "source_literals": [
+    "電磁波の みだれ おさまったのかな?"
+   ],
+   "translated_literals": [
+    "전자파 교란이 가라앉은 걸까?"
+   ]
+  },
+  {
+   "entry_index": 19,
+   "entry_id": "archive_u07976B0_entry_0019",
+   "source_entry_offset": 708,
+   "source_entry_byte_length": 61,
+   "source_entry_sha256": "5744b10397dc391715b3ba0ab46c8d0f4260db656a252661f85971eb4ec49ffe",
+   "source_entry_raw_hex": "ed 00 00 f1 00 c4 9e bf b0 e5 00 88 88 88 ea 01 1e 00 d6 bb e8 36 78 51 a4 ab b8 ab 00 b5 c8 ad 00 0b 49 34 17 ae e8 ac d8 a3 c2 ad 9e e5 02 a8 bf 00 6c 68 cf e5 03 ad 9a 9e 7c eb e7",
+   "source_tpl_block_sha256": "859da261463b7e647241765070c574edcdc8b196b59492e8c9f460b8cad21c52",
+   "japanese_characters": 39,
+   "source_literals": [
+    "わからねぇ・・・",
+    "でも\nワープしてみて へんな アドレスに\nとばされなかったら OKじゃないか?"
+   ],
+   "translated_literals": [
+    "모르겠어...",
+    " 하지만\n워프해 보고 이상한 주소로\n안 날아가면 OK 아닐까?"
+   ]
+  },
+  {
+   "entry_index": 30,
+   "entry_id": "archive_u07976B0_entry_0030",
+   "source_entry_offset": 769,
+   "source_entry_byte_length": 115,
+   "source_entry_sha256": "5c941a8772acf3be7d0dda1aca80f7d3c02cb8d80de6db32d781633be08275a3",
+   "source_entry_raw_hex": "f1 00 90 03 06 04 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 0e 31 78 c9 00 e5 6f ab 9a c1 be 9b d3 e8 e5 73 e5 6b e5 ba b1 00 4a 31 3a 17 c9 00 a0 d0 c2 e8 aa be 9a 00 e5 73 e5 6b e5 ba c9 00 b2 e5 02 a6 9a a4 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "b27a0a6726e9a27e03db2ed846171a31d1146320f9fc2d8688b9c1ef37b2a704",
+   "japanese_characters": 70,
+   "source_literals": [
+    "「253ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "エラーが 出ているようだ\n電磁波の バランスが くずれ\nつよい 電磁波が はっせいしている"
+   ],
+   "translated_literals": [
+    "「253호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "에러가 난 것 같다\n전자파의 균형이 무너져\n강한 전자파가 발생하고 있다"
+   ]
+  },
+  {
+   "entry_index": 31,
+   "entry_id": "archive_u07976B0_entry_0031",
+   "source_entry_offset": 884,
+   "source_entry_byte_length": 101,
+   "source_entry_sha256": "f9bf7c3f5b90d6bad3b8de009a9ba6802a3e7bde2a17919826e101514ccf3be3",
+   "source_entry_raw_hex": "f1 00 90 03 06 04 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 90 f9 00 31 00 91 c7 00 aa 9e 9a b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 20 ff ff e7",
+   "source_tpl_block_sha256": "707c4d0d4ce426290be047995b3237066883a019146482ccde1d1fe5b8e2fea9",
+   "japanese_characters": 44,
+   "source_literals": [
+    "「253ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "「",
+    "」を つかいますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "「253호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "「",
+    "」을 사용하겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 32,
+   "entry_id": "archive_u07976B0_entry_0032",
+   "source_entry_offset": 985,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "5649f99fd1b2dc2554a9e570d0dac676055c0131f1833b031a1058fec6b56b48",
+   "source_entry_raw_hex": "f1 00 f2 00 06 02 f2 00 09 02 35 59 12 29 3a b2 85 e8 90 f9 00 31 00 91 c7 e8 14 3a 1e 35 78 33 51 35 3d 31 2b ae 00 b2 ba a2 c8 d3 81 eb f2 00 0a 02 ea ff 00 00",
+   "source_tpl_block_sha256": "52c59044a512c25c3e3bf6442b2057e129629da0f2df398c38eeb04854877d37",
+   "japanese_characters": 24,
+   "source_literals": [
+    "ロックマンは、\n「",
+    "」を\nコントロールプログラムに はめこんだ!"
+   ],
+   "translated_literals": [
+    "록맨은\n「",
+    "」을\n제어 프로그램에 끼워 넣었다!"
+   ]
+  },
+  {
+   "entry_index": 33,
+   "entry_id": "archive_u07976B0_entry_0033",
+   "source_entry_offset": 1039,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "03288d572ac1cae8fe67478a24e8a50ff2db536850452f86526f24d058e0fa37",
+   "source_entry_raw_hex": "f1 00 90 03 06 04 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b d3 e8 a2 a2 b2 00 bb 9b 00 a6 9a cf e5 05 9b ae 00 ad e5 02 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "838cfda7628f63866deeb671e5b5b0ccc7ad979eca717aa31eec5c3014180afe",
+   "japanese_characters": 36,
+   "source_literals": [
+    "「253ごうしつ」の\n電磁波 コントロールプログラムだ\nここは もう せいじょうに なっている"
+   ],
+   "translated_literals": [
+    "「253호실」의\n전자파 제어 프로그램이다\n여기는 이미 정상으로 돌아와 있다"
+   ]
+  },
+  {
+   "entry_index": 40,
+   "entry_id": "archive_u07976B0_entry_0040",
+   "source_entry_offset": 1095,
+   "source_entry_byte_length": 115,
+   "source_entry_sha256": "5256f7bdf77b7bf53cb8edac2f6bd86c53b748033ef2ecd92671b4f5e5b8839a",
+   "source_entry_raw_hex": "f1 00 90 03 08 02 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 0e 31 78 c9 00 e5 6f ab 9a c1 be 9b d3 e8 e5 73 e5 6b e5 ba b1 00 4a 31 3a 17 c9 00 a0 d0 c2 e8 aa be 9a 00 e5 73 e5 6b e5 ba c9 00 b2 e5 02 a6 9a a4 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "edc488b36f6f47530f1448c5fba0073bc6dbe89a229fdd8572c77672ceed14c4",
+   "japanese_characters": 70,
+   "source_literals": [
+    "「271ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "エラーが 出ているようだ\n電磁波の バランスが くずれ\nつよい 電磁波が はっせいしている"
+   ],
+   "translated_literals": [
+    "「271호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "에러가 난 것 같다\n전자파의 균형이 무너져\n강한 전자파가 발생하고 있다"
+   ]
+  },
+  {
+   "entry_index": 41,
+   "entry_id": "archive_u07976B0_entry_0041",
+   "source_entry_offset": 1210,
+   "source_entry_byte_length": 101,
+   "source_entry_sha256": "483a2bdab349628627a46c073303a4b733be87975d88f43f1b286320d42159cc",
+   "source_entry_raw_hex": "f1 00 90 03 08 02 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 90 f9 00 32 00 91 c7 00 aa 9e 9a b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 2a ff ff e7",
+   "source_tpl_block_sha256": "27ad856fd4747c00a488fc9a0ca3a2fb35d5268e890c1aa45c11a291982ef2c5",
+   "japanese_characters": 44,
+   "source_literals": [
+    "「271ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "「",
+    "」を つかいますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "「271호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "「",
+    "」을 사용하겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 42,
+   "entry_id": "archive_u07976B0_entry_0042",
+   "source_entry_offset": 1311,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "3fadeac89762ad2f4ef319ce6c9d14a2b7d7d067b3bfa473960a46cd82476674",
+   "source_entry_raw_hex": "f1 00 f2 00 07 02 f2 00 09 02 35 59 12 29 3a b2 85 e8 90 f9 00 32 00 91 c7 e8 14 3a 1e 35 78 33 51 35 3d 31 2b ae 00 b2 ba a2 c8 d3 81 eb f2 00 0a 02 ea ff 00 00",
+   "source_tpl_block_sha256": "f3f719db0af6785c8835eea8aa773eb66fc17e5d38e753822243ca4de1b4f6eb",
+   "japanese_characters": 24,
+   "source_literals": [
+    "ロックマンは、\n「",
+    "」を\nコントロールプログラムに はめこんだ!"
+   ],
+   "translated_literals": [
+    "록맨은\n「",
+    "」을\n제어 프로그램에 끼워 넣었다!"
+   ]
+  },
+  {
+   "entry_index": 43,
+   "entry_id": "archive_u07976B0_entry_0043",
+   "source_entry_offset": 1365,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "6ca769f4522ec7731d99e5d557d861ecb8a37c84ff67da2457aab295a0a57c0a",
+   "source_entry_raw_hex": "f1 00 90 03 08 02 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b d3 e8 a2 a2 b2 00 bb 9b 00 a6 9a cf e5 05 9b ae 00 ad e5 02 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "e64d5373a69366c709586239ffe1109653b9087fa3fe10f3dc8455d038203346",
+   "japanese_characters": 36,
+   "source_literals": [
+    "「271ごうしつ」の\n電磁波 コントロールプログラムだ\nここは もう せいじょうに なっている"
+   ],
+   "translated_literals": [
+    "「271호실」의\n전자파 제어 프로그램이다\n여기는 이미 정상으로 돌아와 있다"
+   ]
+  },
+  {
+   "entry_index": 50,
+   "entry_id": "archive_u07976B0_entry_0050",
+   "source_entry_offset": 1421,
+   "source_entry_byte_length": 115,
+   "source_entry_sha256": "412281a6ea99bf037d851e695b76f8808e0f0eca3e4d7063cf8b985dbab3d7c1",
+   "source_entry_raw_hex": "f1 00 90 01 05 03 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 0e 31 78 c9 00 e5 6f ab 9a c1 be 9b d3 e8 e5 73 e5 6b e5 ba b1 00 4a 31 3a 17 c9 00 a0 d0 c2 e8 aa be 9a 00 e5 73 e5 6b e5 ba c9 00 b2 e5 02 a6 9a a4 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "7d8c6d7bcd3d04e1a0818a2c8047544ca54812262375ce73bfcef4eb5a9c7b7d",
+   "japanese_characters": 70,
+   "source_literals": [
+    "「042ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "エラーが 出ているようだ\n電磁波の バランスが くずれ\nつよい 電磁波が はっせいしている"
+   ],
+   "translated_literals": [
+    "「042호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "에러가 난 것 같다\n전자파의 균형이 무너져\n강한 전자파가 발생하고 있다"
+   ]
+  },
+  {
+   "entry_index": 51,
+   "entry_id": "archive_u07976B0_entry_0051",
+   "source_entry_offset": 1536,
+   "source_entry_byte_length": 101,
+   "source_entry_sha256": "91681fa12dde2bf6c90697c10357a4cd84c1d5669b4dcc8639e37b72759ba277",
+   "source_entry_raw_hex": "f1 00 90 01 05 03 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 90 f9 00 2b 00 91 c7 00 aa 9e 9a b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 34 ff ff e7",
+   "source_tpl_block_sha256": "4444a16a6360be836168a89e719e87e2a956b080d3706361c01fc9f022320e34",
+   "japanese_characters": 44,
+   "source_literals": [
+    "「042ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "「",
+    "」を つかいますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "「042호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "「",
+    "」를 사용하겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 52,
+   "entry_id": "archive_u07976B0_entry_0052",
+   "source_entry_offset": 1637,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "473d1a59fab132a53fccd585ae4a7c69a1e42d81b51e6e4e83a9d7806c51b43b",
+   "source_entry_raw_hex": "f1 00 f2 00 00 02 f2 00 09 02 35 59 12 29 3a b2 85 e8 90 f9 00 2b 00 91 c7 e8 14 3a 1e 35 78 33 51 35 3d 31 2b ae 00 b2 ba a2 c8 d3 81 eb f2 00 0a 02 ea ff 00 00",
+   "source_tpl_block_sha256": "01c0bc7b2477b6304d4e9a14fc7cd14c5a780e9b2368b5226d4d82bd874d5d09",
+   "japanese_characters": 24,
+   "source_literals": [
+    "ロックマンは、\n「",
+    "」を\nコントロールプログラムに はめこんだ!"
+   ],
+   "translated_literals": [
+    "록맨은\n「",
+    "」를\n제어 프로그램에 끼워 넣었다!"
+   ]
+  },
+  {
+   "entry_index": 53,
+   "entry_id": "archive_u07976B0_entry_0053",
+   "source_entry_offset": 1691,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "8d2bd15e4432d493a086971e6832f8f10143005572fbc7e2ea710835057e60ec",
+   "source_entry_raw_hex": "f1 00 90 01 05 03 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b d3 e8 a2 a2 b2 00 bb 9b 00 a6 9a cf e5 05 9b ae 00 ad e5 02 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "e27df25ff31c84b7f4753a7305e8f9ca8da91ecac777423857d2e6862cd03ef7",
+   "japanese_characters": 36,
+   "source_literals": [
+    "「042ごうしつ」の\n電磁波 コントロールプログラムだ\nここは もう せいじょうに なっている"
+   ],
+   "translated_literals": [
+    "「042호실」의\n전자파 제어 프로그램이다\n여기는 이미 정상으로 돌아와 있다"
+   ]
+  },
+  {
+   "entry_index": 60,
+   "entry_id": "archive_u07976B0_entry_0060",
+   "source_entry_offset": 1747,
+   "source_entry_byte_length": 115,
+   "source_entry_sha256": "6aad0561e56527ae81659625ec5c2abea8b63a0226759a51e217a98fa87f117b",
+   "source_entry_raw_hex": "f1 00 90 01 0a 04 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 0e 31 78 c9 00 e5 6f ab 9a c1 be 9b d3 e8 e5 73 e5 6b e5 ba b1 00 4a 31 3a 17 c9 00 a0 d0 c2 e8 aa be 9a 00 e5 73 e5 6b e5 ba c9 00 b2 e5 02 a6 9a a4 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "bdcccee27c162bf08cba9b7a17a6d8837ca37320d252c62f5b2f683b89784a42",
+   "japanese_characters": 70,
+   "source_literals": [
+    "「093ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "エラーが 出ているようだ\n電磁波の バランスが くずれ\nつよい 電磁波が はっせいしている"
+   ],
+   "translated_literals": [
+    "「093호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "에러가 난 것 같다\n전자파의 균형이 무너져\n강한 전자파가 발생하고 있다"
+   ]
+  },
+  {
+   "entry_index": 61,
+   "entry_id": "archive_u07976B0_entry_0061",
+   "source_entry_offset": 1862,
+   "source_entry_byte_length": 101,
+   "source_entry_sha256": "647ebf0a551e3191d99b9e26081d37c6e657e7c87c961603f93a591730aa806d",
+   "source_entry_raw_hex": "f1 00 90 01 0a 04 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 90 f9 00 2d 00 91 c7 00 aa 9e 9a b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 3e ff ff e7",
+   "source_tpl_block_sha256": "d5ab306261465f56cb88ccf7de4c01ed6d14ca44fe6aa6e6eb8673f8e81308dc",
+   "japanese_characters": 44,
+   "source_literals": [
+    "「093ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "「",
+    "」を つかいますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "「093호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "「",
+    "」을 사용하겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 62,
+   "entry_id": "archive_u07976B0_entry_0062",
+   "source_entry_offset": 1963,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "7d835ecc51753079e20675d4140e377cb4e36576d217e59c0ba3fe660e9257f4",
+   "source_entry_raw_hex": "f1 00 f2 00 01 02 f2 00 09 02 35 59 12 29 3a b2 85 e8 90 f9 00 2d 00 91 c7 e8 14 3a 1e 35 78 33 51 35 3d 31 2b ae 00 b2 ba a2 c8 d3 81 eb f2 00 0a 02 ea ff 00 00",
+   "source_tpl_block_sha256": "1a5bb9fd656483633e1d6bb7d9353acdf5d35cbd6c211ba90275e3e1f37eb8eb",
+   "japanese_characters": 24,
+   "source_literals": [
+    "ロックマンは、\n「",
+    "」を\nコントロールプログラムに はめこんだ!"
+   ],
+   "translated_literals": [
+    "록맨은\n「",
+    "」을\n제어 프로그램에 끼워 넣었다!"
+   ]
+  },
+  {
+   "entry_index": 63,
+   "entry_id": "archive_u07976B0_entry_0063",
+   "source_entry_offset": 2017,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "27d5159c459eada76c909b6f005193f88d473b16cd1c96ad0048e2e5c78f88cd",
+   "source_entry_raw_hex": "f1 00 90 01 0a 04 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b d3 e8 a2 a2 b2 00 bb 9b 00 a6 9a cf e5 05 9b ae 00 ad e5 02 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "7b9c05b2b293883b091b3dd3e90cfbebbc8aeb854cf597ca90465ff09f4c2cc4",
+   "japanese_characters": 36,
+   "source_literals": [
+    "「093ごうしつ」の\n電磁波 コントロールプログラムだ\nここは もう せいじょうに なっている"
+   ],
+   "translated_literals": [
+    "「093호실」의\n전자파 제어 프로그램이다\n여기는 이미 정상으로 돌아와 있다"
+   ]
+  },
+  {
+   "entry_index": 70,
+   "entry_id": "archive_u07976B0_entry_0070",
+   "source_entry_offset": 2073,
+   "source_entry_byte_length": 115,
+   "source_entry_sha256": "a818b40f707baa8a4a48ac9d8f7cbf16398d547b97908d1196847b04e38461fa",
+   "source_entry_raw_hex": "f1 00 90 03 01 02 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 0e 31 78 c9 00 e5 6f ab 9a c1 be 9b d3 e8 e5 73 e5 6b e5 ba b1 00 4a 31 3a 17 c9 00 a0 d0 c2 e8 aa be 9a 00 e5 73 e5 6b e5 ba c9 00 b2 e5 02 a6 9a a4 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "59c667de91c9b7b0a676a16ec21bd778641696c4490b9ebababdd0a4dc3ba586",
+   "japanese_characters": 70,
+   "source_literals": [
+    "「201ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "エラーが 出ているようだ\n電磁波の バランスが くずれ\nつよい 電磁波が はっせいしている"
+   ],
+   "translated_literals": [
+    "「201호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "에러가 난 것 같다\n전자파의 균형이 무너져\n강한 전자파가 발생하고 있다"
+   ]
+  },
+  {
+   "entry_index": 71,
+   "entry_id": "archive_u07976B0_entry_0071",
+   "source_entry_offset": 2188,
+   "source_entry_byte_length": 101,
+   "source_entry_sha256": "884526300bd37ab8cd412475ce42fcd4bd23cdee9bedc8cbc5000b55f93d1824",
+   "source_entry_raw_hex": "f1 00 90 03 01 02 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 90 f9 00 2e 00 91 c7 00 aa 9e 9a b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 48 ff ff e7",
+   "source_tpl_block_sha256": "e0bfcede97cf7a972a60a401f1b20529addf49b4c8a5604c803b8d4562f0b1e1",
+   "japanese_characters": 44,
+   "source_literals": [
+    "「201ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "「",
+    "」を つかいますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "「201호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "「",
+    "」을 사용하겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 72,
+   "entry_id": "archive_u07976B0_entry_0072",
+   "source_entry_offset": 2289,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "5af74ea295f9f8beac199a7efabb50b464c68513579daa5494571db4923f92c6",
+   "source_entry_raw_hex": "f1 00 f2 00 04 02 f2 00 09 02 35 59 12 29 3a b2 85 e8 90 f9 00 2e 00 91 c7 e8 14 3a 1e 35 78 33 51 35 3d 31 2b ae 00 b2 ba a2 c8 d3 81 eb f2 00 0a 02 ea ff 00 00",
+   "source_tpl_block_sha256": "af595c1024c2f4b05125100962429b17077215c933b1e8ed0cd2def950c6e2bf",
+   "japanese_characters": 24,
+   "source_literals": [
+    "ロックマンは、\n「",
+    "」を\nコントロールプログラムに はめこんだ!"
+   ],
+   "translated_literals": [
+    "록맨은\n「",
+    "」을\n제어 프로그램에 끼워 넣었다!"
+   ]
+  },
+  {
+   "entry_index": 73,
+   "entry_id": "archive_u07976B0_entry_0073",
+   "source_entry_offset": 2343,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "907334edfb221264fc2cf6e2ecb67d772758e756375713654bada71b66219e0d",
+   "source_entry_raw_hex": "f1 00 90 03 01 02 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b d3 e8 a2 a2 b2 00 bb 9b 00 a6 9a cf e5 05 9b ae 00 ad e5 02 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "9914894daf338af1fa3273f87ea1fa27429054e4f62ec0b74f53500f85c84b23",
+   "japanese_characters": 36,
+   "source_literals": [
+    "「201ごうしつ」の\n電磁波 コントロールプログラムだ\nここは もう せいじょうに なっている"
+   ],
+   "translated_literals": [
+    "「201호실」의\n전자파 제어 프로그램이다\n여기는 이미 정상으로 돌아와 있다"
+   ]
+  },
+  {
+   "entry_index": 80,
+   "entry_id": "archive_u07976B0_entry_0080",
+   "source_entry_offset": 2399,
+   "source_entry_byte_length": 115,
+   "source_entry_sha256": "0938128b64c33c3096a87869e81eb10c7ede6349aa6918a42689ac40241edb9a",
+   "source_entry_raw_hex": "f1 00 90 03 04 03 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 0e 31 78 c9 00 e5 6f ab 9a c1 be 9b d3 e8 e5 73 e5 6b e5 ba b1 00 4a 31 3a 17 c9 00 a0 d0 c2 e8 aa be 9a 00 e5 73 e5 6b e5 ba c9 00 b2 e5 02 a6 9a a4 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "62729f857f0b7ed20e9b3463940d5d79ecf98972fe5fc9cc8b5ed31d73a6be05",
+   "japanese_characters": 70,
+   "source_literals": [
+    "「232ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "エラーが 出ているようだ\n電磁波の バランスが くずれ\nつよい 電磁波が はっせいしている"
+   ],
+   "translated_literals": [
+    "「232호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "에러가 난 것 같다\n전자파의 균형이 무너져\n강한 전자파가 발생하고 있다"
+   ]
+  },
+  {
+   "entry_index": 81,
+   "entry_id": "archive_u07976B0_entry_0081",
+   "source_entry_offset": 2514,
+   "source_entry_byte_length": 101,
+   "source_entry_sha256": "865cc46dd74a3bffa582aeea59d97e57ad4d2b4a76673ff680dc9c4644ffbca2",
+   "source_entry_raw_hex": "f1 00 90 03 04 03 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 90 f9 00 2f 00 91 c7 00 aa 9e 9a b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 52 ff ff e7",
+   "source_tpl_block_sha256": "9f32e8f142199ee120a37b3e613c0f3d277ab3ac2c09b31ba565e70141c20bdc",
+   "japanese_characters": 44,
+   "source_literals": [
+    "「232ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "「",
+    "」を つかいますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "「232호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "「",
+    "」를 사용하겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 82,
+   "entry_id": "archive_u07976B0_entry_0082",
+   "source_entry_offset": 2615,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "0466cc9f52e0ac5e727167813e9ed4c45207ac35fa58a9402ae30878e0181db0",
+   "source_entry_raw_hex": "f1 00 f2 00 03 02 f2 00 09 02 35 59 12 29 3a b2 85 e8 90 f9 00 2f 00 91 c7 e8 14 3a 1e 35 78 33 51 35 3d 31 2b ae 00 b2 ba a2 c8 d3 81 eb f2 00 0a 02 ea ff 00 00",
+   "source_tpl_block_sha256": "e2e0589e7197aa741c7eb574a4e4675ee498d07c3bcbd8b0b1d658b14b084a68",
+   "japanese_characters": 24,
+   "source_literals": [
+    "ロックマンは、\n「",
+    "」を\nコントロールプログラムに はめこんだ!"
+   ],
+   "translated_literals": [
+    "록맨은\n「",
+    "」를\n제어 프로그램에 끼워 넣었다!"
+   ]
+  },
+  {
+   "entry_index": 83,
+   "entry_id": "archive_u07976B0_entry_0083",
+   "source_entry_offset": 2669,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "4bf5583ebec4e83bb98ce54d613c3784fc003403c916beca4a1015aca810160f",
+   "source_entry_raw_hex": "f1 00 90 03 04 03 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b d3 e8 a2 a2 b2 00 bb 9b 00 a6 9a cf e5 05 9b ae 00 ad e5 02 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "0281e046b28fe96424256f34af79b14a6143fb72ac130e58af59c20af0084b98",
+   "japanese_characters": 36,
+   "source_literals": [
+    "「232ごうしつ」の\n電磁波 コントロールプログラムだ\nここは もう せいじょうに なっている"
+   ],
+   "translated_literals": [
+    "「232호실」의\n전자파 제어 프로그램이다\n여기는 이미 정상으로 돌아와 있다"
+   ]
+  },
+  {
+   "entry_index": 90,
+   "entry_id": "archive_u07976B0_entry_0090",
+   "source_entry_offset": 2725,
+   "source_entry_byte_length": 115,
+   "source_entry_sha256": "8aea7f9c4ccb0715870488769261e35e9c9a26561c63076a5ccbdc8d9d2d41cf",
+   "source_entry_raw_hex": "f1 00 90 03 05 04 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 0e 31 78 c9 00 e5 6f ab 9a c1 be 9b d3 e8 e5 73 e5 6b e5 ba b1 00 4a 31 3a 17 c9 00 a0 d0 c2 e8 aa be 9a 00 e5 73 e5 6b e5 ba c9 00 b2 e5 02 a6 9a a4 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "39e1a5db9acf46947511474521121afa2230d1a85d2a3d3d721566c5b12408be",
+   "japanese_characters": 70,
+   "source_literals": [
+    "「243ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "エラーが 出ているようだ\n電磁波の バランスが くずれ\nつよい 電磁波が はっせいしている"
+   ],
+   "translated_literals": [
+    "「243호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "에러가 난 것 같다\n전자파의 균형이 무너져\n강한 전자파가 발생하고 있다"
+   ]
+  },
+  {
+   "entry_index": 91,
+   "entry_id": "archive_u07976B0_entry_0091",
+   "source_entry_offset": 2840,
+   "source_entry_byte_length": 101,
+   "source_entry_sha256": "fe292837c3a9af8db300ef4f77ac60f68d70fa23161ebd4c0eef8578bd5ef6bf",
+   "source_entry_raw_hex": "f1 00 90 03 05 04 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 88 88 88 fa 00 bb 00 3b 3c 88 88 88 eb e9 fa 08 90 f9 00 30 00 91 c7 00 aa 9e 9a b7 a5 9e 7c e8 ef 11 00 ee 00 02 b2 9a 00 ef 00 11 ee 00 02 9a 9a 9c f0 06 80 5c ff ff e7",
+   "source_tpl_block_sha256": "7aa3ef870dcde144c9fff73a7e234863abbd3a78ae717c63f40b7efe632c1a12",
+   "japanese_characters": 44,
+   "source_literals": [
+    "「243ごうしつ」の\n電磁波 コントロールプログラム・・・",
+    "ガギ・・・",
+    "ガギ・・・",
+    "「",
+    "」を つかいますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "「243호실」의\n전자파 제어 프로그램...",
+    "지직...",
+    "지직...",
+    "「",
+    "」을 사용하겠습니까?\n",
+    "예 ",
+    "아니요"
+   ]
+  },
+  {
+   "entry_index": 92,
+   "entry_id": "archive_u07976B0_entry_0092",
+   "source_entry_offset": 2941,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "e464b7ff2d534e5c6c8e4b818dae74c2ab375a883b0308fd3941de187738db48",
+   "source_entry_raw_hex": "f1 00 f2 00 05 02 f2 00 09 02 35 59 12 29 3a b2 85 e8 90 f9 00 30 00 91 c7 e8 14 3a 1e 35 78 33 51 35 3d 31 2b ae 00 b2 ba a2 c8 d3 81 eb f2 00 0a 02 ea ff 00 00",
+   "source_tpl_block_sha256": "e3ff8db2a50ad00e4bd78b983b709350f2abb6307675446a4e567531df51c6a0",
+   "japanese_characters": 24,
+   "source_literals": [
+    "ロックマンは、\n「",
+    "」を\nコントロールプログラムに はめこんだ!"
+   ],
+   "translated_literals": [
+    "록맨은\n「",
+    "」을\n제어 프로그램에 끼워 넣었다!"
+   ]
+  },
+  {
+   "entry_index": 93,
+   "entry_id": "archive_u07976B0_entry_0093",
+   "source_entry_offset": 2995,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "a0f9ace87d80514b374599240519d6cb6110b1020660193d8c57f03ab3255ef8",
+   "source_entry_raw_hex": "f1 00 90 03 05 04 cd 9b a4 aa 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b d3 e8 a2 a2 b2 00 bb 9b 00 a6 9a cf e5 05 9b ae 00 ad e5 02 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "200bcfa62476eb794b1b6a837de8ec5862d7dbce77876e08f1d4496edf4034e5",
+   "japanese_characters": 36,
+   "source_literals": [
+    "「243ごうしつ」の\n電磁波 コントロールプログラムだ\nここは もう せいじょうに なっている"
+   ],
+   "translated_literals": [
+    "「243호실」의\n전자파 제어 프로그램이다\n여기는 이미 정상으로 돌아와 있다"
+   ]
+  },
+  {
+   "entry_index": 100,
+   "entry_id": "archive_u07976B0_entry_0100",
+   "source_entry_offset": 3051,
+   "source_entry_byte_length": 121,
+   "source_entry_sha256": "5fae663401eeb034eb8ff38ee7158e2df3332c0d27f48bcd8a6fd794e8fb961a",
+   "source_entry_raw_hex": "f1 00 90 0e 34 4d 78 1a 78 91 b1 e8 e5 73 e5 6b e5 ba 00 14 3a 1e 35 78 33 51 35 3d 31 2b 88 88 88 eb e9 fa 0c fa 00 bb 00 3b 3c 3f 88 88 88 fa 00 bb 00 3b 3c 3d 88 88 88 81 eb e9 fa 08 b2 cc a4 a0 0e 31 78 c9 00 e5 6f ab 9a c1 be 9b d3 e8 e5 73 e5 6b e5 ba b1 00 4a 31 3a 17 c9 00 a0 d0 c2 e8 aa be 9a 00 e5 73 e5 6b e5 ba c9 00 b2 e5 02 a6 9a a4 ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "9d2c7cbdcc79bc8716ecf05966850a57e4fe6613e3d85f10846bd8cc3414ac56",
+   "japanese_characters": 78,
+   "source_literals": [
+    "「エレベーター」の\n電磁波 コントロールプログラム・・・",
+    "ガギゴ・・・",
+    "ガギグ・・・!",
+    "はげしくエラーが 出ているようだ\n電磁波の バランスが くずれ\nつよい 電磁波が はっせいしている"
+   ],
+   "translated_literals": [
+    "「엘리베이터」의\n전자파 제어 프로그램...",
+    "지지직...",
+    "지지지직...!",
+    "심한 에러가 난 것 같다\n전자파의 균형이 무너져\n강한 전자파가 발생하고 있다"
+   ]
+  }
+ ]
+}

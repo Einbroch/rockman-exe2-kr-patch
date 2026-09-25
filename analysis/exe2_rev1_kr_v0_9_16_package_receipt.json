@@ -1,0 +1,38 @@
+{
+  "status": "PENDING_RUNTIME_CHECK",
+  "candidate_sha256": "66d27c09373d43031e5936b1245305e97327012b46154d14ba511f56c4073b49",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "574ba9f435c86230186f5c9f63ec41fbdee9c914e95d3338630b69e09d54a928",
+  "content_qa_sha256": "7db9c5f092f751fea058126f619c0792c2aee3ec73fceaccf50f77d86ae8ffad",
+  "runtime_evidence": {
+    "kind": "human_on_screen_reading",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "케이스",
+      "데크",
+      "메",
+      "라",
+      "러"
+    ],
+    "automated_menu_regression_run": false
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.16_TailsParticles.zip",
+  "package_sha256": "7e43fe4c86032517d395dd21e065aec252ec1da7a53e8552e8431dd0129fc756",
+  "package_size": 883377,
+  "patch_sha256": "465ad69dd98fff5576f066db66deae03fd84f598f6630e874a5fd0bc84a4173f",
+  "patch_size": 338466,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

@@ -71,6 +71,9 @@ def main():
     parser.add_argument('--doc-file', type=Path)
     parser.add_argument('--success')
     parser.add_argument('--labels', help='comma separated labels a person read on screen')
+    parser.add_argument('--runtime-kind', default='human_on_screen_reading',
+                        help='who read the labels and how (recorded as-is in VERIFICATION.json)')
+    parser.add_argument('--runtime-note', help='how the screens were reached, if not by normal play of this exact ROM')
     parser.add_argument('--receipt-status', default='PASS_ARROW_WORDS_PACKAGE')
     # A fixed report path silently overwrites the previous release's receipt,
     # so each package writes one named after itself unless told otherwise.
@@ -153,10 +156,11 @@ def main():
             'claims': claims, 'bps_applied_byte_identical': True,
             'static_qa_sha256': sha(args.static_qa), 'content_qa_sha256': sha(args.content_qa),
             'runtime_evidence': {
-                'kind': 'human_on_screen_reading',
+                'kind': args.runtime_kind,
                 'emulator': 'Mesen 2, muted',
                 'labels_confirmed': args.labels.split(',') if args.labels else  ['케이스', '데크', '메', '라', '러'],
                 'automated_menu_regression_run': False,
+                **({'note': args.runtime_note} if args.runtime_note else {}),
             },
             'flips_source_filtered': True,
             'flips_source_excluded_members': list(UNRELATED),

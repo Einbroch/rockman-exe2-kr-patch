@@ -1,0 +1,1345 @@
+{
+ "schema_version": 1,
+ "kind": "protected_slot_translation_set",
+ "record_count": 51,
+ "records": [
+  {
+   "entry_id": "archive_00_114_entry_0191",
+   "selector": "00/114",
+   "entry_index": 191,
+   "source_tpl_block_sha256": "550dc4db5dbb5301cccdc237d047ee87a98f726c9d201261e7a23367a9fe17e0",
+   "superseded_draft_sha256": "1ada6ab06788b83d4667b908ebf982cc76b471b4b772343990fc7c660461fcc0",
+   "superseded_draft": "사실은... / 팬입니다. // 그냥 지나가던 길입니다.",
+   "source_literals": [
+    "じつは・・・\n",
+    "ファンなんです ",
+    "とおりすがりです"
+   ],
+   "translated_literals": [
+    "사실은...\n",
+    "팬입니다 ",
+    "지나가던 길입니다"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_114_entry_0194",
+   "selector": "00/114",
+   "entry_index": 194,
+   "source_tpl_block_sha256": "05f0cde5b0a5b642fa702f5ab0f03cc3f0a8680a1ab8a7704607820a3e5e8daa",
+   "superseded_draft_sha256": "e1b38631f1f75d8df51111fb5c08c3cb1175bc845b664c412c1b070e8e4e4d58",
+   "superseded_draft": "곧 넷배틀을 하신다고 / 들었습니다. // 작전은 무엇입니까? // 약점은 무엇입니까?",
+   "source_literals": [
+    "こんど、ネットバトルをされるって\nきいたんですけど",
+    "さくせんは ",
+    "あなたのじゃくてんは"
+   ],
+   "translated_literals": [
+    "곧 넷배틀을 하신다고\n들었는데요.",
+    "작전은? ",
+    "당신의 약점은?"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_129_entry_0000",
+   "selector": "00/129",
+   "entry_index": 0,
+   "source_tpl_block_sha256": "b9e9bc7a5dd52bbc7b8c13d6b247b682f948bf8a32d9298102966ae5b98d495b",
+   "superseded_draft_sha256": "c1679487ef46c41d0f51d2e01eab87a65da330d360da939e7e92f62744b50cbf",
+   "superseded_draft": "외국의 인터넷은 / 위험이 가득합니다. // 그러므로 [printItem item=60]를 / 가지고 있거나, // 상당히 강한 내비가 아니면 / 이 앞은 지나갈 수 없습니다.",
+   "source_literals": [
+    "ガイコクの インターネットは\nキケンが イッパイです",
+    "ですので、",
+    "を もってるとか\nけっこう つよいナビで ないと\nこのサキには ススめないんですよ"
+   ],
+   "translated_literals": [
+    "외국의 인터넷은\n위험이 가득합니다.",
+    "그러니 ",
+    "를 가지고 있거나\n상당히 강한 내비가 아니면\n이 앞으로는 갈 수 없습니다."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_129_entry_0015",
+   "selector": "00/129",
+   "entry_index": 15,
+   "source_tpl_block_sha256": "405badb078d136dc9c1bcc553bf410d960ec18ce0b5da3d3574a97fe15fea892",
+   "superseded_draft_sha256": "36eb1434bb356331c3feec34a37550acc8004b386ff9f9afef54132e31038437",
+   "superseded_draft": "조금 전에 나쁜 녀석에게 / 「[printItem item=5]」을 빼앗겨서...[waitSkip 30] // 걷지 못하게 되었습니다... // 보아하니 당신은 착한 것 같군요... // 죄송하지만 나쁜 녀석에게서 / 되찾아 주시겠습니까? // 예 // 아니요 // 그거 아쉽군요...",
+   "source_literals": [
+    "さっき ワルいヤツに\n「",
+    "」を とられてしまって\n・・・",
+    "アルけなく なってしまったのです・・・",
+    "ミたトコロ、あなたは ヤサしそう・・・",
+    "\nすみませんが、ワルい ヤツから\nトりカエして もらえませんか?",
+    "はい ",
+    "いいえ",
+    "それは ザンネンです・・・"
+   ],
+   "translated_literals": [
+    "조금 전에 나쁜 녀석에게\n「",
+    "」을 빼앗겨서\n...",
+    "걷지 못하게 되었습니다...",
+    "보아하니 당신은 착한 것 같군요...",
+    "\n죄송하지만 나쁜 녀석에게서\n되찾아 주시겠습니까?",
+    "예 ",
+    "아니요",
+    "그거 아쉽군요..."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_12_entry_0231",
+   "selector": "00/12",
+   "entry_index": 231,
+   "source_tpl_block_sha256": "a05801b03e8bd0eb2b5ab7dfcc2dba529b7fb611b94dce700677c90c8a33e368",
+   "superseded_draft_sha256": "875f658feb6ed23ace3a093cb24935843c87d73209fab1b5ce62b2d731fef131",
+   "superseded_draft": "목적지를 선택해 주세요. / 아키하라 마을 / 오쿠덴 계곡 / 아무 데도 가지 않는다",
+   "source_literals": [
+    "行き先を えらんでください\n",
+    "秋原町     ",
+    "おくデンだに\n",
+    "どこにも行かない"
+   ],
+   "translated_literals": [
+    "목적지를 선택해 주세요.\n",
+    "아키하라 마을 ",
+    "오쿠덴 계곡\n",
+    "가지 않는다"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_12_entry_0232",
+   "selector": "00/12",
+   "entry_index": 232,
+   "source_tpl_block_sha256": "5de90ab48039698d07dfd4c085d19cec7f0bf5b631a32fc32f38300170d19f63",
+   "superseded_draft_sha256": "129e885ad27872cce7e495049c3bbff11bc3b47d785e9acb6b1e69abc0dff075",
+   "superseded_draft": "목적지를 선택해 주세요. / 아키하라 마을 / 오쿠덴 계곡 / 공항 / 아무 데도 가지 않는다",
+   "source_literals": [
+    "行き先を えらんでください\n",
+    "秋原町     ",
+    "おくデンだに\n",
+    "くうこう    ",
+    "どこにも行かない"
+   ],
+   "translated_literals": [
+    "목적지를 선택해 주세요.\n",
+    "아키하라 마을 ",
+    "오쿠덴 계곡\n",
+    "공항      ",
+    "가지 않는다"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_131_entry_0037",
+   "selector": "00/131",
+   "entry_index": 37,
+   "source_tpl_block_sha256": "de7dcd0862bf25e1e2a8777f890f08375f3bfc85e1855e82f9615623cf3bc451",
+   "superseded_draft_sha256": "ebbad1d37aa736a6226d732ddc4e133a374003eaee863dd40a0c3be2a4fcd9b0",
+   "superseded_draft": "현재 [printItem item=62] / 시험을 실시하고 있습니다.[waitSkip 20].[waitSkip 20].[waitSkip 20].[waitSkip 20].[waitSkip 20] // [printItem item=62] 시험에 응시하려면 / 별의 증표와, // 당신의 강함을 증명할 물건인 / 「[printItem item=57]」가 필요합니다.",
+   "source_literals": [
+    "タダイマ、",
+    "の\nシケンを ジッシしています",
+    "・",
+    "・",
+    "・",
+    "・",
+    "・",
+    "・",
+    "を じゅけんするには、",
+    "ホシの アカシと、\nアナタの ツヨさを\nショウメイするモノとして",
+    "「",
+    "」がヒツヨウです"
+   ],
+   "translated_literals": [
+    "현재 ",
+    " 시험을\n실시하고 있습니다.",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    " 시험에 응시하려면",
+    "별의 증표와,\n당신의 강함을\n증명할 물건으로",
+    "「",
+    "」가 필요합니다."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_131_entry_0042",
+   "selector": "00/131",
+   "entry_index": 42,
+   "source_tpl_block_sha256": "57dc56058002032eeba7c95b499282bad9ea9232cfd3551e188aa73b928b4ce0",
+   "superseded_draft_sha256": "3f21493c9a80ce6dd8fc0f5306917cd599fb686fa450ff56de7a8eda95d10429",
+   "superseded_draft": "현재 [printItem item=63] / 시험을 실시하고 있습니다. // .[waitSkip 20].[waitSkip 20].[waitSkip 20].[waitSkip 20].[waitSkip 20]. // SSS 시험에 응시하기에는 / 아직 실력이 너무 부족합니다. // 자신을 더 단련한 뒤 / 다시 오십시오.",
+   "source_literals": [
+    "タダイマ、",
+    "の\nシケンを ジッシしています",
+    "・",
+    "・",
+    "・",
+    "・",
+    "・",
+    "・",
+    "SSSシケンを ウけるには、\nアナタは まだまだミジュクすぎます",
+    "ジブンを もっとミガいてから\nキてクダさい"
+   ],
+   "translated_literals": [
+    "현재 ",
+    " 시험을\n실시하고 있습니다.",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    "SSS 시험에 응시하기에는\n아직 실력이 너무 부족합니다.",
+    "자신을 더 단련한 뒤\n다시 오십시오."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_131_entry_0166",
+   "selector": "00/131",
+   "entry_index": 166,
+   "source_tpl_block_sha256": "356223f2160a8436ae0f4e8c297bcfeb2db2844d2ddc955b7ccf631a64611c4f",
+   "superseded_draft_sha256": "9357c9208b1c0f44739081453a1ec177e5c251aead688741db07ea30f52d88fd",
+   "superseded_draft": "현재 [printItem item=61] / 시험을 실시하고 있습니다. // .[waitSkip 20].[waitSkip 20].[waitSkip 20].[waitSkip 20].[waitSkip 20]. // 당신은 [printItem item=61] 시험에 / 응시하기에는 아직 경험이 / 부족한 것 같습니다. // 시험을 보고 싶다면 / 경험을 더 쌓은 뒤 다시 오십시오.",
+   "source_literals": [
+    "タダイマ、",
+    "の\nシケンを ジッシしています",
+    "・",
+    "・",
+    "・",
+    "・",
+    "・",
+    "・",
+    "あなたが、",
+    "を\nジュケンするには、まだ ケイケンが\nタりないようですね",
+    "シケンを ウけたいのなら、\nもっと、ケイケンを ツんでから\nまた キてクダさい"
+   ],
+   "translated_literals": [
+    "현재 ",
+    " 시험을\n실시하고 있습니다.",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    "당신은 ",
+    " 시험에\n응시하기에는 아직 경험이\n부족한 것 같습니다.",
+    "시험을 보고 싶다면\n경험을 더 쌓은 뒤\n다시 오십시오."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_13_entry_0000",
+   "selector": "00/13",
+   "entry_index": 0,
+   "source_tpl_block_sha256": "177425eca0f76549cc4c4f6c2c3fb44ff90c69d3d702c7be85e9e5d1c2dee1c9",
+   "superseded_draft_sha256": "963244f2d1d9b476a038677da9be1021c03d9ed58e0e2d4d28693fefc5e84e1a",
+   "superseded_draft": "오피셜 센터에 오신 걸 환영합니다. // 무슨 일이니, 꼬마야? [waitSkip 30] / 설마 라이선스 시험을 / 보러 온 건 아니겠지? // 응, 아니야 / 아니, 시험을 보러 왔어! // 그렇지? / 그럼 오피셜 사람들을 / 방해하지 말고 조용히 있어.",
+   "source_literals": [
+    "ようこそ オフィシャルセンターへ",
+    "どうしたの ボク? ",
+    "まさか\nライセンスしけんを うけにきた\nわけじゃ ないわよね?",
+    "うん、ちがうよ\n",
+    "ううん、しけんを うけにきたんだ!",
+    "そうよね\nじゃあ オフィシャルの 人の\nジャマに ならないように、しずかにね"
+   ],
+   "translated_literals": [
+    "오피셜 센터에 오신 걸 환영합니다.",
+    "무슨 일이니, 꼬마야? ",
+    "설마\n라이선스 시험을 보러\n온 건 아니겠지?",
+    "응, 아니야\n",
+    "아니, 시험 보러 왔어!",
+    "그렇지?\n그럼 오피셜 사람들을\n방해하지 말고 조용히 있어."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_160_entry_0033",
+   "selector": "00/160",
+   "entry_index": 33,
+   "source_tpl_block_sha256": "b69dd4f63bb63583c809653c2ef32f1fcc67ebb468dfb3cb883388471814fa6a",
+   "superseded_draft_sha256": "bc0699615ed3095965653fc83ee3946752c91b09d00d9a4385b954aaef344a14",
+   "superseded_draft": "사실 나도 그 얼음을 / 조사하고 있었단다. // 노란 얼음을 부수는 / 「[printItem item=37]」을 만들려면, // 「노란 조각」과 / 「[printItem item=36]」가 필요하지. // 지금까지 알아낸 건 그것뿐이다. // 내게 「노란 조각」은 있지만... // 「[printItem item=36]」만 있으면 / 「[printItem item=37]」을 만들 수 있지... // 너, 「[printItem item=36]」를 / 가지고 있느냐? // 예! // 없어요 // 불을 일으키는 프로그램 어딘가에 / 있을 게다. // 아무튼 찾아서 가져오너라.",
+   "source_literals": [
+    "じつは、ワシもあのコオリのちょうさを\nしておったのじゃ",
+    "キイロのコオリをコワす\n「",
+    "」をつくるには、",
+    "「きいろのかけら」と\n「",
+    "」がひつようなのじゃ",
+    "いま、わかっておるのは、それだけじゃ",
+    "いまワシのてもとに「きいろのかけら」は\nあるんじゃ・・・",
+    "あと、「",
+    "」があれば\n「",
+    "」はできるが・・・",
+    "おまえさん、「",
+    "」は\nもっておるか?",
+    "ハイ! ",
+    "ないです",
+    "どこか、ほのおをおこすプログラムの\nなかにあるはずじゃ\nとにかくさがしだして、もってきな"
+   ],
+   "translated_literals": [
+    "사실 나도 그 얼음을\n조사하고 있었단다.",
+    "노란 얼음을 부수는\n「",
+    "」을 만들려면,",
+    "「노란 조각」과\n「",
+    "」가 필요하지.",
+    "지금까지 알아낸 건 그것뿐이다.",
+    "내게 「노란 조각」은 있지만...",
+    "「",
+    "」만 있으면\n「",
+    "」을 만들 텐데...",
+    "너, 「",
+    "」를\n가지고 있느냐?",
+    "예! ",
+    "없어요",
+    "불을 일으키는 프로그램 어딘가에\n있을 게다.\n아무튼 찾아서 가져오너라."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_169_entry_0000",
+   "selector": "00/169",
+   "entry_index": 0,
+   "source_tpl_block_sha256": "340882cdcb1a17b4cb11ef1f3dd71469ad61e9ae73fc3e0bf727a429c7243418",
+   "superseded_draft_sha256": "751d4869e060578919a2a030b7921166561502c951dbe7dac66129e591cabc36",
+   "superseded_draft": "오! / 두 개를 가져오셨군요! / 대단합니다! // ...그럼 약속대로 / [printItem item=58]를 드리죠.",
+   "source_literals": [
+    "ヘエ!\n2つを モってキましたね!\nすごいですね!",
+    "・・・では、ヤクソクドオり、\n",
+    "を あげましょう"
+   ],
+   "translated_literals": [
+    "오!\n두 개를 가져오셨군요!\n대단합니다!",
+    "...그럼 약속대로\n",
+    "를 드리죠."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_17_entry_0193",
+   "selector": "00/17",
+   "entry_index": 193,
+   "source_tpl_block_sha256": "569eb2790c7724b05f6bae46afd7699089c5802c499e235565ceeeee415e6d33",
+   "superseded_draft_sha256": "8d3dfe887170e76406aee5805da3df203cb4401c06e861db85a61d580c441125",
+   "superseded_draft": "칩 고마워. / 연구가 진척되겠어! // 너한테만 살짝 알려 줄게. / 내가 발견한 프로그램 어드밴스는 // 「[printChip chip=17] [printCode code=O]」, / 「[printChip chip=18] [printCode code=O]」, / 「[printChip chip=19] [printCode code=O]」의 / 조합으로 발동해. // 모두에게는 비밀이야.",
+   "source_literals": [
+    "チップ ありがとね\nけんきゅうが すすむわ!",
+    "キミにだけ、こっそり おしえてあげる\nワタシがみつけた\nプログラムアドバンスは、",
+    "「",
+    " ",
+    "」、「",
+    " ",
+    "」、\n「",
+    " ",
+    "」、の\nくみあわせで はつどうするのよ",
+    "みんなには、ないしょよ"
+   ],
+   "translated_literals": [
+    "칩 고마워.\n연구가 진척되겠어!",
+    "너한테만 살짝 알려 줄게.\n내가 발견한\n프로그램 어드밴스는",
+    "「",
+    " ",
+    "」, 「",
+    " ",
+    "」,\n「",
+    " ",
+    "」의\n조합으로 발동해.",
+    "모두에게는 비밀이야."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_18_entry_0231",
+   "selector": "00/18",
+   "entry_index": 231,
+   "source_tpl_block_sha256": "6c1c23c91a745f0a4ba079388612b435352669d92c8960cd31a8cb604b0be6ec",
+   "superseded_draft_sha256": "dd876dec4ff718afcd498343afc4d21dcb99db13a61c8c617fb5dd03d1070d1d",
+   "superseded_draft": "목적지를 선택해 주세요. / 아키하라 마을 / 마린하버 / 공항 / 아무 데도 가지 않는다",
+   "source_literals": [
+    "行き先を えらんでください\n",
+    "秋原町     ",
+    "マリンハーバー\n",
+    "くうこう    ",
+    "どこにも行かない"
+   ],
+   "translated_literals": [
+    "목적지를 선택해 주세요.\n",
+    "아키하라 마을 ",
+    "마린하버\n",
+    "공항      ",
+    "가지 않는다"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_206_entry_0000",
+   "selector": "00/206",
+   "entry_index": 0,
+   "source_tpl_block_sha256": "ee18d08a096809f2c1526e4f1bba2602c14202d6391c8f923630fa222bd59476",
+   "superseded_draft_sha256": "2fb8bb4fb7395070f7b415345318b31e1ea372df40f00bcb9d906cfa63c98edc",
+   "superseded_draft": "저는 [printItem item=59]의 / 시험관입니다. // 시험을 보러 오셨군요. // 시험 문제는 모두 3개입니다. / 전부 통과하면 [printItem item=59]를 / 드리겠습니다. // 그럼 제1문!",
+   "source_literals": [
+    "ワタシは\n",
+    "の シケンカンです",
+    "シケンを ウけに キましたね",
+    "シケンは ゼンブで 3モンです\nクリアしたら、",
+    "を あげます\nでは ダイ1モン!"
+   ],
+   "translated_literals": [
+    "저는\n",
+    " 시험관입니다.",
+    "시험을 보러 오셨군요.",
+    "시험은 모두 3문제입니다.\n통과하면 ",
+    "를 드립니다.\n그럼 제1문!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_206_entry_0003",
+   "selector": "00/206",
+   "entry_index": 3,
+   "source_tpl_block_sha256": "bfd144b7e2b2e8ba39d335aa3941c1717430594f077ba00e10c20f8cc1daaf02",
+   "superseded_draft_sha256": "5bc0bfc37281703df56d733ac302a52f76f7f0972eeaccff61a1682e1e7c6aa8",
+   "superseded_draft": "아쉽군요...[waitSkip 30] // 다시 도전하시겠습니까? // 도전한다! / 나중에 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오.",
+   "source_literals": [
+    "ザンネンでしたね・・・",
+    "\nもうイチド チャレンジしますか?\n",
+    "する! ",
+    "あとで",
+    "では、マタ\nワタシに ハナしカけて クダさい"
+   ],
+   "translated_literals": [
+    "아쉽군요...",
+    "\n다시 도전하시겠습니까?\n",
+    "도전한다! ",
+    "나중에",
+    "그럼 나중에 다시\n제게 말을 걸어 주십시오."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_206_entry_0012",
+   "selector": "00/206",
+   "entry_index": 12,
+   "source_tpl_block_sha256": "bb376b781de1b949639f604a7758c984e4800737eb19045132eb36e98748f44f",
+   "superseded_draft_sha256": "5bc0bfc37281703df56d733ac302a52f76f7f0972eeaccff61a1682e1e7c6aa8",
+   "superseded_draft": "아쉽군요...[waitSkip 30] // 다시 도전하시겠습니까? // 도전한다! / 나중에 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오.",
+   "source_literals": [
+    "ザンネンでしたね・・・",
+    "\nもうイチド チャレンジしますか?\n",
+    "する! ",
+    "あとで",
+    "では、マタ\nワタシに ハナしカけて クダさい"
+   ],
+   "translated_literals": [
+    "아쉽군요...",
+    "\n다시 도전하시겠습니까?\n",
+    "도전한다! ",
+    "나중에",
+    "그럼 나중에 다시\n제게 말을 걸어 주십시오."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_20_entry_0194",
+   "selector": "00/20",
+   "entry_index": 194,
+   "source_tpl_block_sha256": "cc08479dc691c644c298382650c597ffb4aa135620dc27a47c7b875876e02377",
+   "superseded_draft_sha256": "a6c895f843cd096fa194f156e770e0b3a6fe19baeaf1a8e5ea0c864d85c544b4",
+   "superseded_draft": "안녕, 형! // 형의 「[printChip chip=153] [printCode code=*]」와 / 내 「[printChip chip=138] [printCode code=N]」을 / 교환해 줘. // 응? 괜찮지? / 좋아 / 싫어 // 교환해 줘, 교환해 줘, / 교환해 줘~!!",
+   "source_literals": [
+    "こんにちは、おにいちゃん!",
+    "おにいちゃんの「",
+    " ",
+    "」と\nボクの「",
+    " ",
+    "」を\nこうかんしておくれよ",
+    "ねえ、いいでしょ?",
+    "いいよ ",
+    "いや",
+    "こうかんして こうかんして\nこうかんして~!!"
+   ],
+   "translated_literals": [
+    "안녕, 형!",
+    "형의 「",
+    " ",
+    "」와\n내 「",
+    " ",
+    "」을\n교환해 줘.",
+    "응? 괜찮지?",
+    "좋아 ",
+    "싫어",
+    "교환해 줘, 교환해 줘,\n교환해 줘~!!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_21_entry_0228",
+   "selector": "00/21",
+   "entry_index": 228,
+   "source_tpl_block_sha256": "7ae9723d56cea81482ae7533cbee4b62f44858a7660c627346d47af760e2e8b7",
+   "superseded_draft_sha256": "11b55b2f2145fe13667a9233e8308ba3a0fb6bc091c2e89b630675a7147237f0",
+   "superseded_draft": "폭포 뒤는 어둡고 축축하다...[waitSkip 30] / 첨벙! [waitSkip 30] 물보라가 차갑다! // ...자세히 보니 반짝이는 게 있지만 / 어두워서 잘 모르겠다... // 주워 볼까? / 예 / 아니요",
+   "source_literals": [
+    "たきの ウラは\nうすぐらくて ジトジトとしている・・・",
+    "\nピチャ! ",
+    "水しぶきが つめたい!",
+    "・・・よく見ると、\nキラリと 光るものが あるようだが\nくらくて よくわからない・・・",
+    "ひろってみますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "폭포 뒤는\n어둡고 축축하다...",
+    "\n첨벙! ",
+    "물보라가 차갑다!",
+    "...자세히 보니\n반짝이는 게 있는 것 같지만\n어두워서 잘 모르겠다...",
+    "주워 볼까?\n",
+    "예 ",
+    "아니요"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_224_entry_0015",
+   "selector": "00/224",
+   "entry_index": 15,
+   "source_tpl_block_sha256": "dbc363141674a8a5aae1799b399d3b4aec73e58a74c04808fcff9b1d0de38288",
+   "superseded_draft_sha256": "0e6f9ead900cab7970bdb5d58564ee4e59ddee807f251158e2345ab9966af269",
+   "superseded_draft": "아까 말한 아빠가 연구 중인 / 프로그램은 // 록맨의 성능을 높여 주는 / 프로그램이야. // 그 프로그램을 완성해 / 록맨에게 설치하면 / 큰 전력이 될 거야. // 그 프로그램의 이름은 / 「[printItem item=21]」(체인지 배치)인데... // 사실 프로그램 이름 말고는 / 아는 게 없단다. // 오피셜 스퀘어의 / 전뇌 게시판에 정보를 구하는 / 글을 올리면 // 뭔가 정보를 / 얻을 수 있을지도 모르니 / 한번 가 보렴. // 사실은 아빠가 찾아야 하지만 / 지금은 자리를 비울 수 없구나.",
+   "source_literals": [
+    "さっき いってた、\nパパのけんきゅうしている\nプログラムは、",
+    "ロックマンのせいのうをアップさせる\nプログラムなんだ",
+    "そのプログラムを かんせいさせ、\nロックマンに くみこめば\nおおきな せんりょくになる",
+    "そのプログラムは\n「",
+    "」(チェンジ.バッチ)\nというんだが・・・",
+    "じつは、プログラムの なまえいがいは\nわからないんだ",
+    "オフィシャルスクエアにある\nでんのう けいじばん に\nじょうほうをもとめる カキコミをすると",
+    "なにか じょうほうが\nえられるかもしれないから\nいちど いってみるといい",
+    "ホントはパパが\nさがしたほうが いいんだが\nいまは てが はなせないんだ"
+   ],
+   "translated_literals": [
+    "아까 말한 아빠가 연구 중인\n프로그램은",
+    "록맨의 성능을 높여 주는\n프로그램이야.",
+    "그 프로그램을 완성해\n록맨에게 설치하면\n큰 전력이 될 거야.",
+    "그 프로그램의 이름은\n「",
+    "」(체인지 배치)\n라고 하는데...",
+    "사실 프로그램 이름 말고는\n아는 게 없단다.",
+    "오피셜 스퀘어의\n전뇌 게시판에 정보를 구하는\n글을 올리면",
+    "뭔가 정보를\n얻을 수 있을지도 모르니\n한번 가 보렴.",
+    "사실은 아빠가 찾아야 하지만\n지금은 자리를 비울 수 없구나."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_245_entry_0000",
+   "selector": "00/245",
+   "entry_index": 0,
+   "source_tpl_block_sha256": "64c5bd0ef6235a1115e68f59598a3b3dd41434302b72983e26d066f6ae22ec05",
+   "superseded_draft_sha256": "998ab45a5b91a6353de9f21ac2de04c7f48e2f640c3ed2f057986cadadab3c41",
+   "superseded_draft": "저는 [printItem item=60] / 시험을 담당하고 있습니다. // 시험을 보러 오셨군요. // 시험은 모두 3문제입니다. / 전부 통과하면 // 보상은 [printItem item=60]입니다. / 그럼 제1문제!",
+   "source_literals": [
+    "ワタシは\n",
+    "の シケンカンです",
+    "シケンを ウけに キましたね",
+    "シケンは ゼンブで 3モンです\nクリアしたら、",
+    "を あげます\nでは ダイ1モン!"
+   ],
+   "translated_literals": [
+    "저는\n",
+    " 시험관입니다.",
+    "시험을 보러 오셨군요.",
+    "시험은 모두 3문제입니다.\n통과하면 ",
+    "를 드립니다.\n그럼 제1문!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_245_entry_0003",
+   "selector": "00/245",
+   "entry_index": 3,
+   "source_tpl_block_sha256": "6599a538afdbbd6911a39dfb4426bcbdb75585c6a845ed639e154b9412416872",
+   "superseded_draft_sha256": "841c8047941c02968cb9a9dba10f1a5f80c15b784aa836753bb8610cc15730f5",
+   "superseded_draft": "아쉽게 됐군요...[waitSkip 30] // 다시 도전하시겠습니까? // 도전한다! / 나중에 // 그럼 나중에 다시 / 제게 말을 걸어 주세요.",
+   "source_literals": [
+    "ザンネンでしたね・・・",
+    "\nもうイチド チャレンジしますか?\n",
+    "する! ",
+    "あとで",
+    "では、マタ\nワタシに ハナしカけて クダさい"
+   ],
+   "translated_literals": [
+    "아쉽게 됐군요...",
+    "\n다시 도전하시겠습니까?\n",
+    "도전한다! ",
+    "나중에",
+    "그럼 나중에 다시\n제게 말을 걸어 주세요."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_245_entry_0012",
+   "selector": "00/245",
+   "entry_index": 12,
+   "source_tpl_block_sha256": "dde75c5e00fbc724e9d1bccd26ab999452259cbaa37988bcbe924ecce0670174",
+   "superseded_draft_sha256": "841c8047941c02968cb9a9dba10f1a5f80c15b784aa836753bb8610cc15730f5",
+   "superseded_draft": "아쉽게 됐군요...[waitSkip 30] // 다시 도전하시겠습니까? // 도전한다! / 나중에 // 그럼 나중에 다시 / 제게 말을 걸어 주세요.",
+   "source_literals": [
+    "ザンネンでしたね・・・",
+    "\nもうイチド チャレンジしますか?",
+    "する!\n",
+    "あとで",
+    "では、マタ\nワタシに ハナしカけて クダさい"
+   ],
+   "translated_literals": [
+    "아쉽게 됐군요...",
+    "\n다시 도전하시겠습니까?",
+    "도전한다!\n",
+    "나중에",
+    "그럼 나중에 다시\n제게 말을 걸어 주세요."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_24_entry_0017",
+   "selector": "00/24",
+   "entry_index": 17,
+   "source_tpl_block_sha256": "11c9181e015d2d5875b98b8a850e461c0c45bf5edbc7de8613397eb9ec59d42e",
+   "superseded_draft_sha256": "c672eb142bc7c4d64eb09fec8a3bd60679ae936d1308fcd0c9beb9a67de2b722",
+   "superseded_draft": "히카리 넷토 군...[waitSkip 30] / 틀림없군![waitSkip 30] / 그런데 어디로 가는 거지? / 아메롭파! / 아지나! // 하지만 표는 아메롭파행인데? / 사실 아메롭파로 가는 거지? / 맞아요 / 아지나! // 음, 이상하네...[waitSkip 30] / 뭐, 됐어. 들어가렴...",
+   "source_literals": [
+    "光熱斗くん・・・",
+    "まちがいなしと!",
+    "\nで、どこへ 行くのかな?\n",
+    "アメロッパ! ",
+    "アジーナ!",
+    "でも チケット、アメロッパ行き だよ?\nほんとは アメロッパに 行くんでしょ?\n",
+    "そうだった ",
+    "アジーナ!",
+    "うーん ヘンだなあ・・・",
+    "\nまあ いいか、じゃ どうぞ・・・"
+   ],
+   "translated_literals": [
+    "히카리 넷토 군... ",
+    "틀림없군!",
+    "\n그런데 어디로 가는 거지?\n",
+    "아메롭파! ",
+    "아지나!",
+    "하지만 표는 아메롭파행인데?\n사실 아메롭파로 가는 거지?\n",
+    "맞아요 ",
+    "아지나!",
+    "음, 이상하네...",
+    "\n뭐, 됐어. 들어가렴..."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_24_entry_0194",
+   "selector": "00/24",
+   "entry_index": 194,
+   "source_tpl_block_sha256": "12d1cc84a1ac73e8a3a7428549fa9b16bc7a5842d0c559e9e91558da6f99b1db",
+   "superseded_draft_sha256": "fa282412a62d560df93e550df4f230c857ec30c9a0c248ea11a4aee9365670b6",
+   "superseded_draft": "뭐야, 「[printChip chip=136] [printCode code=N]」을 / 가져다준 건가? / 그래 / 아니야 // 자네 정말 / 시민 넷배틀러 맞아? // 의뢰를 받았다는 건 / 내게 칩을 넘겨주겠다는 / 뜻 아니었나? // 정말 부탁할게.",
+   "source_literals": [
+    "なんや、「",
+    " ",
+    "」を\nもってきてくれたんかいな?",
+    "そやで ",
+    "ちゃいます",
+    "あんさん、ほんまに\nしみんネットバトラーでっか?",
+    "いらいを うけたちゅうことは、\nワテにチップを ゆずってくれる\nちゅうコトと ちがうんか?",
+    "たのんまっせ、ほんまに"
+   ],
+   "translated_literals": [
+    "뭐야, 「",
+    " ",
+    "」을\n가져다준 건가?",
+    "그래 ",
+    "아니야",
+    "자네 정말\n시민 넷배틀러 맞아?",
+    "의뢰를 받았다는 건\n내게 칩을 넘겨주겠다는\n뜻 아니었나?",
+    "정말 부탁할게."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_25_entry_0160",
+   "selector": "00/25",
+   "entry_index": 160,
+   "source_tpl_block_sha256": "d59f7bb18bdc884feadf6b464a90c85078425140984f8d3d79114baeb841185a",
+   "superseded_draft_sha256": "af92e220b8ce16aa1eeeeaf1080d437950bb3479208726832a1c49e135305a10",
+   "superseded_draft": "흥! / 어디서 본 얼굴인가 했더니 / 히카리 넷토잖아! // ...이봐, 설마 이 히노켄 님의 / 얼굴을 잊은 건 아니겠지!? / 기억해 / 기억 안 나 // 진짜냐! WWW 사건 때 / 네 집 오븐을 고장 낸 / 이 히노켄 님을 기억 못 해? // ...기억났다고 갑자기 / 그렇게 무서운 얼굴 하지 마! // 지금은 아무 사건도 일으키지 않는 / 선량한 시민이라고![waitSkip 15] 지금은 말이지! // 어때!? 내 새로운 내비 / 히트맨과 넷배틀할 생각 없나?",
+   "source_literals": [
+    "ヘッ!\nどこかで 見たカオだと おもったら\n光熱斗 じゃねぇか!",
+    "・・・おいおい、\nまさか このヒノケンさまの カオを\nわすれたんじゃ ねぇだろうな!?",
+    "おぼえてる ",
+    "おぼえがない",
+    "マジかよ! WWWじけんの ときに\nオマエのいえの レンジを バグらせた\nこのヒノケンさまを おぼえてねぇのか?",
+    "・・・って おもいだしたからって\nきゅうに そんなこわいカオ すんなよ!",
+    "今は なんのじけんも おこしていない\nぜんりょうな しみんだぜ! ",
+    "今はな!",
+    "どうだ!? オレさまの あたらしいナビ\nヒートマンと ネットバトルしてみる\n気は ねぇか?"
+   ],
+   "translated_literals": [
+    "흥!\n어디서 본 얼굴인가 했더니\n히카리 넷토잖아!",
+    "...이봐, 설마 이 히노켄 님의\n얼굴을 잊은 건 아니겠지!?",
+    "기억해 ",
+    "기억 안 나",
+    "진짜냐! WWW 사건 때\n네 집 오븐을 고장 낸\n이 히노켄 님을 기억 못 해?",
+    "...기억났다고 갑자기\n그렇게 무서운 얼굴 하지 마!",
+    "지금은 아무 사건도 일으키지 않는\n선량한 시민이라고! ",
+    "지금은 말이지!",
+    "어때!? 내 새로운 내비\n히트맨과 넷배틀할 생각 없나?"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_25_entry_0197",
+   "selector": "00/25",
+   "entry_index": 197,
+   "source_tpl_block_sha256": "7f712d2599b31dac08fb279ab566e686038416d5e46945e3083e229f205dd4c0",
+   "superseded_draft_sha256": "09dcace78ef1017b34c92d1fff19e9332833f6c061e29713d219045ddf1a7710",
+   "superseded_draft": "누가 불렀나~ 퀴즈 군~ / 누가 불렀나~ 퀴즈 군~ // 한번 가 보자~! 풀어 보자~! / 자아, 자자 / 빠바밤! 퀴즈 타임~~ // 역시 도전할 마음이 생겼어? / 좋아 / 싫어 // 언제든 찾아와! / 네 도전을 기다릴게!",
+   "source_literals": [
+    "だれがよんだか~ クイズくん~\nだれがよんだか~ クイズくん~",
+    "いってみよ~! やってみよ~!\nさーぁ さぁさぁ\n(チャッチャー)クイズアワー~~",
+    "やっぱり、ちょうせんする きに\nなったかい?",
+    "いいよ ",
+    "いやん",
+    "いつでも きなよ!\nキミのちょうせん、まってるぜ!"
+   ],
+   "translated_literals": [
+    "누가 불렀나~ 퀴즈 군~\n누가 불렀나~ 퀴즈 군~",
+    "한번 가 보자~! 풀어 보자~!\n자아, 자자\n빠바밤! 퀴즈 타임~~",
+    "역시 도전할 마음이 생겼어?",
+    "좋아 ",
+    "싫어",
+    "언제든 찾아와!\n네 도전을 기다릴게!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_25_entry_0200",
+   "selector": "00/25",
+   "entry_index": 200,
+   "source_tpl_block_sha256": "269c9378997de058f93af0c3ff49920033f647222a2252e8bc80650004591602",
+   "superseded_draft_sha256": "bbb77bd4128e65d0d65007a8f3864b6977d261ff738f4cb564e1b9c96467bc7e",
+   "superseded_draft": "그럼 시작한다! // 제1문 // 아키하라 마을 공원에 있는 미끄럼틀은 / 동물 모양으로 되어 있습니다. / 어떤 동물 모양일까요? / 다람쥐 / 코끼리 / 기린 // [waitSkip 20]정답! / 그럼 다음 문제야!",
+   "source_literals": [
+    "それじゃあ、いくよ!",
+    "だい1問",
+    "秋原町のこうえんにある すべりだいは、\nどうぶつのカタチをしています\nどんな、どうぶつのカタチでしょうか?",
+    "リス\n",
+    "ゾウ\n",
+    "キリン",
+    "せいかい!\nじゃあ、つぎのもんだいだよ!"
+   ],
+   "translated_literals": [
+    "그럼 시작한다!",
+    "제1문",
+    "아키하라 마을 공원에 있는 미끄럼틀은\n동물 모양으로 되어 있습니다.\n어떤 동물 모양일까요?",
+    "다람쥐\n",
+    "코끼리\n",
+    "기린",
+    "정답!\n그럼 다음 문제야!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_25_entry_0201",
+   "selector": "00/25",
+   "entry_index": 201,
+   "source_tpl_block_sha256": "a50e923147fb3038b164122968831064ca9d7e21f0fdcf8e2012cd44d1702df9",
+   "superseded_draft_sha256": "cbbd697d891e6f868702bfeab28b4e077404867b41cafd82a3d87a9053155a0c",
+   "superseded_draft": "제2문 // 메트로마린역에 있는 / 매점의 자랑거리는 무엇일까요? / 다양한 상품 / 엄청나게 싸다 / 아줌마가 미인 // [waitSkip 20]정답! / 그럼 다음 문제야!",
+   "source_literals": [
+    "だい2問",
+    "メトロマリンえきにある\nバイテンのセールスポイントは\nなんでしょう?",
+    "しなかずの ほうふさ\n",
+    "めちゃくちゃ やすい\n",
+    "おばちゃんが びじん",
+    "せいかい!\nじゃあ、つぎのもんだいだよ!"
+   ],
+   "translated_literals": [
+    "제2문",
+    "메트로마린역에 있는\n매점의 자랑거리는 무엇일까요?",
+    "다양한 상품\n",
+    "엄청나게 싸다\n",
+    "아줌마가 미인",
+    "정답!\n그럼 다음 문제야!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_25_entry_0202",
+   "selector": "00/25",
+   "entry_index": 202,
+   "source_tpl_block_sha256": "70349731b214f74b27b71f8f86285d92167193732e7befb8fe2e44a10068d660",
+   "superseded_draft_sha256": "df3a43057d57451038a50f35e3cb154ecb2cb1c209551026ad4f9bbccc22837a",
+   "superseded_draft": "제3문 // 오쿠덴 계곡 캠핑장에는 / 텐트가 몇 개 설치돼 있을까요? / 2개 / 3개 / 4개 // [waitSkip 20]정답! / 그럼 다음 문제야!",
+   "source_literals": [
+    "だい3問",
+    "おくデンだにの キャンプじょうには、\nテントが、いくつ はってあるでしょう?",
+    "2つ\n",
+    "3つ\n",
+    "4つ",
+    "せいかい!\nじゃあ、つぎのもんだいだよ!"
+   ],
+   "translated_literals": [
+    "제3문",
+    "오쿠덴 계곡 캠핑장에는\n텐트가 몇 개 설치돼 있을까요?",
+    "2개\n",
+    "3개\n",
+    "4개",
+    "정답!\n그럼 다음 문제야!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_25_entry_0203",
+   "selector": "00/25",
+   "entry_index": 203,
+   "source_tpl_block_sha256": "0b20ed219c5e42b90c3dcd7ac8067e8765b54117ffaf77b5f0a63965ac659851",
+   "superseded_draft_sha256": "ebe50d315b02e1a6279543fe718b4e64c5bb3710550a04b6d14d5f7a2ceab1ff",
+   "superseded_draft": "제4문 // 마린하버 카페에서 일하는 누나는 / 예전에 어디서 아르바이트했을까요? / 레스토랑 / 오락실 / 오피셜 센터 // [waitSkip 20]정답! / 다음은 드디어 마지막 문제야!",
+   "source_literals": [
+    "だい4問",
+    "マリンハーバーのカフェで\nバイトしている おねえさんは\nいぜん、どこでバイトしていたでしょうか?",
+    "レストラン\n",
+    "ゲームセンター\n",
+    "オフィシャルセンター",
+    "せいかい!\nつぎは、いよいよ さいごの もんだいだよ"
+   ],
+   "translated_literals": [
+    "제4문",
+    "마린하버 카페에서 일하는 누나는\n예전에 어디서 아르바이트했을까요?",
+    "레스토랑\n",
+    "오락실\n",
+    "오피셜 센터",
+    "정답!\n다음은 드디어 마지막 문제야!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_25_entry_0204",
+   "selector": "00/25",
+   "entry_index": 204,
+   "source_tpl_block_sha256": "a55e497b9010ca3a22205e2b8f0f8eac05951166c1339efcfd59712a285caafd",
+   "superseded_draft_sha256": "76338947fc0962e528114a25885d55712a22934efd68d8af5a25491b93f3c072",
+   "superseded_draft": "제5문 // 캐논을 A, B, C 순서로 선택하면 / 발동하는 프로그램 어드밴스는? / 오메가캐논 / 울트라캐논 / 제타캐논 // [waitSkip 20]대대대정답! // 축하해!! // 퀴즈를 모두 맞힌 너에게 / 기념품을 드립니다~! // 와아아아, 짝짝짝~!",
+   "source_literals": [
+    "だい5問",
+    "キャノンを A、B、Cのじゅんばんで\nえらぶと、はつどうする\nプログラムアドバンスは?",
+    "オメガキャノン\n",
+    "ウルトラキャノン\n",
+    "ゼータキャノン",
+    "だーーい せーーいかーーい!",
+    "おめでとう!!",
+    "みごと、クイズを\nぜんもん せいかいした キミには\nきねんひんが ぞうていされます~!",
+    "ワーーーー、パチパチ~!"
+   ],
+   "translated_literals": [
+    "제5문",
+    "캐논을 A, B, C 순서로 선택하면\n발동하는 프로그램 어드밴스는?",
+    "오메가캐논\n",
+    "울트라캐논\n",
+    "제타캐논",
+    "대대대정답!",
+    "축하해!!",
+    "퀴즈를 모두 맞힌 너에게\n기념품을 드립니다~!",
+    "와아아아, 짝짝짝~!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_26_entry_0230",
+   "selector": "00/26",
+   "entry_index": 230,
+   "source_tpl_block_sha256": "3fd015a44d654019a3617a6e6993ccddfea555412b4abc475dcb212a462f5788",
+   "superseded_draft_sha256": "39306933bd69cb91fe218b946eafd6c09173d23869af1820b1970d10347fd323",
+   "superseded_draft": "목적지를 선택해 주세요. / 아키하라 마을 / 마린하버 / 오쿠덴 계곡 / 아무 데도 가지 않는다",
+   "source_literals": [
+    "行き先を えらんでください\n",
+    "秋原町     ",
+    "マリンハーバー\n",
+    "おくデンだに  ",
+    "どこにも行かない"
+   ],
+   "translated_literals": [
+    "목적지를 선택해 주세요.\n",
+    "아키하라 마을 ",
+    "마린하버\n",
+    "오쿠덴 계곡  ",
+    "가지 않는다"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_27_entry_0021",
+   "selector": "00/27",
+   "entry_index": 21,
+   "source_tpl_block_sha256": "2dd3782406e64d953f359e90c70b8aae6b29a97a20d8c34ede2a8a2977b4f3ee",
+   "superseded_draft_sha256": "08e5e5d9d81c06eb949d045ef98aa8eccbb6f721aea85461ebdd84d4e2e56a35",
+   "superseded_draft": "...오, 아까 그 보이! / 무슨 일인가요~? / 돈 돌려줘! / 아무것도 아니야 // 오, 일본인. / 무슨 말인지 확실히 모르겠어요.",
+   "source_literals": [
+    "・・・オー さっきの ボーイ!\nなんか よう ですかー?",
+    "カネかえせ! ",
+    "なんでもない",
+    "オー ニホンジン\nなにが いいたいのか ハッキリしまセーン"
+   ],
+   "translated_literals": [
+    "...오, 아까 그 보이!\n무슨 일인가요~?",
+    "돈 돌려줘! ",
+    "아무것도 아니야",
+    "오, 일본인.\n무슨 말인지 확실히 모르겠어요."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_308_entry_0000",
+   "selector": "00/308",
+   "entry_index": 0,
+   "source_tpl_block_sha256": "19924017efb80e51a41033013322f5bb06b33959d59188e54092b88d546b180c",
+   "superseded_draft_sha256": "f03cc24363043e8fe3036d826d25da044f60ffbfca8b1f2647311b30eddd773d",
+   "superseded_draft": "저는 [printItem item=61] / 시험을 담당하고 있습니다. // 시험을 보러 오셨군요. // 합격 보상은 / [printItem item=61]입니다.",
+   "source_literals": [
+    "ワタシは\n",
+    "の シケンカンです",
+    "シケンを ウけに キましたね",
+    "クリアしたら、",
+    "を あげます"
+   ],
+   "translated_literals": [
+    "저는\n",
+    " 시험관입니다.",
+    "시험을 보러 오셨군요.",
+    "통과하면 ",
+    "를 드립니다."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_308_entry_0001",
+   "selector": "00/308",
+   "entry_index": 1,
+   "source_tpl_block_sha256": "155d7dd70f47495a41752d5ea048cd03b8710acc80d75c2218bc59a0f58d1e08",
+   "superseded_draft_sha256": "0cf8e7d7217bdd49d5c564b9dbecc67ffedb8f165dcd9d947b53307c02646f17",
+   "superseded_draft": "[printItem item=61] / 시험 내용은 서바이벌 배틀입니다. // 연속으로 열 번 나타나는 / 바이러스를 딜리트하면 됩니다. // 도중에는 HP를 / 회복할 수 없으니 / 주의해 주세요. // 문제를 시작하기 전과 / 끝난 뒤에는 / HP를 회복해 드리겠습니다.",
+   "source_literals": [
+    "の\nシケンナイヨウは サバイバルバトルです",
+    "レンゾクで\n10カイ アラワれる ウイルスを\nデリートすれば OKです",
+    "トチュウで\nHPの カイフクは デキませんので\nチュウイして クダさい",
+    "なお、モンダイを ハジめるマエと\nオわったトキには\nHPを カイフクして アげます"
+   ],
+   "translated_literals": [
+    " 시험 내용은\n서바이벌 배틀입니다.",
+    "연속으로 열 번 나타나는\n바이러스를 딜리트하면 됩니다.",
+    "도중에는 HP를\n회복할 수 없으니\n주의해 주세요.",
+    "문제를 시작하기 전과\n끝난 뒤에는\nHP를 회복해 드리겠습니다."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_308_entry_0003",
+   "selector": "00/308",
+   "entry_index": 3,
+   "source_tpl_block_sha256": "a7a317f41f16e76df88fd095c4963e59a5bd5530e3a70a8006f48e99ed67eac3",
+   "superseded_draft_sha256": "461eeaf372deb04c062cd2ee08cbcfadcb970dfff12f837bad4355b6edf76465",
+   "superseded_draft": "아쉽게 됐군요...[waitSkip 30] / 다시 도전하시겠습니까? /  도전한다! /  나중에 // 그럼 나중에 / 다시 말을 걸어 주세요.",
+   "source_literals": [
+    "ザンネンでしたね・・・",
+    "\nもうイチド チャレンジしますか?\n",
+    "する! ",
+    "あとで",
+    "では、マタ\nワタシに ハナしカけて クダさい"
+   ],
+   "translated_literals": [
+    "아쉽게 됐군요...",
+    "\n다시 도전하시겠습니까?\n",
+    "도전한다! ",
+    "나중에",
+    "그럼 나중에\n다시 말을 걸어 주세요."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_30_entry_0045",
+   "selector": "00/30",
+   "entry_index": 45,
+   "source_tpl_block_sha256": "ff1380bb269dfb66a65eaeb93ad2f524576111e0f480df3a601dd54964537bd2",
+   "superseded_draft_sha256": "d1027b86b81910d0db4851e6835a74ac67ad2e982296df229feeaa216a1ea04f",
+   "superseded_draft": "하이! 보이! // 아메롭파 기념품 / 사 가지 않을래? / 살게! / 필요 없어 // 오, 상품만이라도 / 보고 가 줘!",
+   "source_literals": [
+    "ハーイ! ボーイ!",
+    "アメロッパの おみやげ\nかっていかない?",
+    "うん! ",
+    "いらない",
+    "オー せめて、しょうひんだけでも\nみていってよ!"
+   ],
+   "translated_literals": [
+    "하이! 보이!",
+    "아메롭파 기념품\n사 가지 않을래?",
+    "살게! ",
+    "필요 없어",
+    "오, 상품만이라도\n보고 가 줘!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_338_entry_0007",
+   "selector": "00/338",
+   "entry_index": 7,
+   "source_tpl_block_sha256": "707a2092cc2531d2d790ed785427d5c8d14568ca23c23b944da726d52c2ad3a1",
+   "superseded_draft_sha256": "4b7524e65ad585f00c7dd027400c1044e5b1c54b1cd88dc5fc6ba685d4a310a5",
+   "superseded_draft": "아쉬웠습니다...[waitSkip 30] / 다시 도전하시겠습니까? // 한다! / 나중에 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오.",
+   "source_literals": [
+    "ザンネンでしたね・・・",
+    "\nもうイチド チャレンジしますか?\n",
+    "する! ",
+    "あとで",
+    "では、マタ\nワタシに ハナしカけて クダさい"
+   ],
+   "translated_literals": [
+    "아쉬웠습니다...",
+    "\n다시 도전하시겠습니까?\n",
+    "한다! ",
+    "나중에",
+    "그럼 나중에 다시\n제게 말을 걸어 주십시오."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_339_entry_0007",
+   "selector": "00/339",
+   "entry_index": 7,
+   "source_tpl_block_sha256": "42a9577353baeb7975abc426d94e55f3664786e0e1dd0faa0f70534a72c2d8c6",
+   "superseded_draft_sha256": "4b7524e65ad585f00c7dd027400c1044e5b1c54b1cd88dc5fc6ba685d4a310a5",
+   "superseded_draft": "아쉬웠습니다...[waitSkip 30] / 다시 도전하시겠습니까? // 한다! / 나중에 // 그럼 나중에 다시 / 제게 말을 걸어 주십시오.",
+   "source_literals": [
+    "ザンネンでしたね・・・",
+    "\nもうイチド チャレンジしますか?\n",
+    "する! ",
+    "あとで",
+    "では、マタ\nワタシに ハナしカけて クダさい"
+   ],
+   "translated_literals": [
+    "아쉬웠습니다...",
+    "\n다시 도전하시겠습니까?\n",
+    "한다! ",
+    "나중에",
+    "그럼 나중에 다시\n제게 말을 걸어 주십시오."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_34_entry_0180",
+   "selector": "00/34",
+   "entry_index": 180,
+   "source_tpl_block_sha256": "e2d1bf9983071daea347887787c54bfce76866b833a5a1c6c683ce8bbaf8ccf0",
+   "superseded_draft_sha256": "c7651953265f61f7ea4842be1df85ed572cb66cb828a54288ebef2efc3dcb55c",
+   "superseded_draft": "여행 중의 돌발 상황에 대비해 / 서브칩은 조금이라도 / 가지고 있는 편이 좋죠... 어떠세요? / 산다 / 사지 않는다",
+   "source_literals": [
+    "りょこう中の ハプニングに そなえ\nサブチップは すこしでも もっていたい\nもの・・・どうです?",
+    "かう ",
+    "かわない"
+   ],
+   "translated_literals": [
+    "여행 중 돌발 상황에 대비해\n서브칩은 조금이라도\n갖고 있는 게 좋죠... 어때요?",
+    "산다 ",
+    "사지 않는다"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_356_entry_0003",
+   "selector": "00/356",
+   "entry_index": 3,
+   "source_tpl_block_sha256": "9efe482c66b2e0a9dc5dd38da01a298109786744d2728156fa477d74f1b4ad5b",
+   "superseded_draft_sha256": "48e1c49eb8599408b0390746de0f50fbf7f99180427b0a6572f7ccae80ddc0c4",
+   "superseded_draft": "좋아! // 달그락달그락... 툭! // 넷토는 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!! // 한 번 더 하겠습니까? // 예 // 아니요",
+   "source_literals": [
+    "よーし!\n",
+    "ガチャガチャ・・・ゴトン!",
+    "熱斗は、\nチップデータ「",
+    " ",
+    "」\nを ゲットした!!",
+    "もういちど やりますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "좋아!\n",
+    "달그락달그락... 툭!",
+    "넷토는\n칩 데이터 「",
+    " ",
+    "」\n획득!!",
+    "한 번 더 하겠습니까?\n",
+    "예 ",
+    "아니요"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_356_entry_0009",
+   "selector": "00/356",
+   "entry_index": 9,
+   "source_tpl_block_sha256": "8f8e3ef115b6fa8ba2d37547026aa1b195e412e19ad48d3e73b3e7329b576364",
+   "superseded_draft_sha256": "48e1c49eb8599408b0390746de0f50fbf7f99180427b0a6572f7ccae80ddc0c4",
+   "superseded_draft": "좋아! // 달그락달그락... 툭! // 넷토는 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!! // 한 번 더 하겠습니까? // 예 // 아니요",
+   "source_literals": [
+    "よーし!\n",
+    "ガチャガチャ・・・ゴトン!",
+    "熱斗は、\nチップデータ「",
+    " ",
+    "」\nを ゲットした!!",
+    "もういちど やりますか?\n",
+    "はい ",
+    "いいえ"
+   ],
+   "translated_literals": [
+    "좋아!\n",
+    "달그락달그락... 툭!",
+    "넷토는\n칩 데이터 「",
+    " ",
+    "」\n획득!!",
+    "한 번 더 하겠습니까?\n",
+    "예 ",
+    "아니요"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_356_entry_0015",
+   "selector": "00/356",
+   "entry_index": 15,
+   "source_tpl_block_sha256": "5f1805498736e4df6584e8e8e9ab574571600c35b1837959ac36aa88266a3b7f",
+   "superseded_draft_sha256": "299955afa06b11074728f5ada0c3815f0d5f6978999b721f66725306813f77fe",
+   "superseded_draft": "칩 데이터를 수신했습니다 // 좋아! // 달그락달그락... 툭! // 넷토는 / 칩 데이터 「[printChip chip=0] [printCode code=A]」를 / 획득했다!! // ...위이잉... // 레트로 칩 트레이더의 전원이 / 꺼졌다... / 고장 난 모양이다",
+   "source_literals": [
+    "チップデータを じゅしんしました",
+    "よーし!\n",
+    "ガチャガチャ・・・ゴトン!",
+    "熱斗は、\nチップデータ「",
+    " ",
+    "」\nを ゲットした!!",
+    "・・・プゥ~ン・・・",
+    "レトロチップトレーダーのでんげんが\nきれた・・・\nこわれてしまったみたいだ"
+   ],
+   "translated_literals": [
+    "칩 데이터를 수신했습니다",
+    "좋아!\n",
+    "달그락달그락... 툭!",
+    "넷토는\n칩 데이터 「",
+    " ",
+    "」\n획득!!",
+    "...위이잉...",
+    "레트로 칩 트레이더의 전원이\n꺼졌다...\n고장 난 모양이다"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_35_entry_0199",
+   "selector": "00/35",
+   "entry_index": 199,
+   "source_tpl_block_sha256": "5ac8cf27052ea479a02e812bd71b306920c7493515c2802d354d9eda5206df16",
+   "superseded_draft_sha256": "0023b501c79ab647298b8a86874fbc62621b6f5234659f6990772584a50a90d2",
+   "superseded_draft": "제6문 // 어느 넷배틀러가 감기에 걸려 / 누워 있습니다. // 넷배틀러의 집 앞에서는 / 소가 음메~ 하고 울고, // 나비가 날아다닙니다. // 넷배틀러는 무슨 병으로 / 누워 있는 걸까요? // 맹장염 / 꾀병 / 감기 // [waitSkip 20]정답! / 그럼 다음 문제야!",
+   "source_literals": [
+    "だい6問",
+    "ある ネットバトラーが カゼで\nねこんでいます",
+    "ネットバトラーの いえの まえでは、",
+    "ウシが、モ~っとなき、",
+    "チョウが とんでいます",
+    "ネットバトラーは、なんのびょうきで\nねこんでいるのでしょうか?",
+    "モウチョウ\n",
+    "けびょう\n",
+    "カゼ",
+    "せいかい!\nじゃあ、つぎのもんだいだよ!"
+   ],
+   "translated_literals": [
+    "제6문",
+    "어느 넷배틀러가 감기에 걸려\n누워 있습니다.",
+    "넷배틀러의 집 앞에서는,",
+    "소가 음메~ 하고 울고,",
+    "나비가 날아다닙니다.",
+    "넷배틀러는 무슨 병으로\n누워 있는 걸까요?",
+    "맹장염\n",
+    "꾀병\n",
+    "감기",
+    "정답!\n그럼 다음 문제야!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_35_entry_0200",
+   "selector": "00/35",
+   "entry_index": 200,
+   "source_tpl_block_sha256": "96382ea5358dd342086645d4f8c070c549b2205583d9a38017051ca22b882d16",
+   "superseded_draft_sha256": "7fdf0fe9c4ff7281f94b15821e14de37a450f7263191f064404cd4f545ec2636",
+   "superseded_draft": "제7문 // [printChip chip=17]와 [printChip chip=15], / 어느 쪽의 공격력이 더 높을까? // [printChip chip=17] / [printChip chip=15] / 사실은 같다 // [waitSkip 20]정답! / 그럼 다음 문제야!",
+   "source_literals": [
+    "だい7問",
+    "と ",
+    "、\nこうげきりょくは、どっちがうえ?",
+    "\n",
+    "\n",
+    "じつは、おなじ",
+    "せいかい!\nじゃあ、つぎのもんだいだよ!"
+   ],
+   "translated_literals": [
+    "제7문",
+    "과 ",
+    ",\n어느 쪽의 공격력이 더 높을까?",
+    "\n",
+    "\n",
+    "사실은 같다",
+    "정답!\n그럼 다음 문제야!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_37_entry_0196",
+   "selector": "00/37",
+   "entry_index": 196,
+   "source_tpl_block_sha256": "941bbc4cf458445f72e7ee626e4ebb0ad6d8ecdb1ae64a8bf5a40c8ce481873c",
+   "superseded_draft_sha256": "3722634270183a08b62d8de886fdbdadd7c108d664f6e8d1372cfcbe1d2cefd3",
+   "superseded_draft": "제3문 // [printChip chip=232]에 / [printChip chip=49]와 [printChip chip=193]을 / 조합한 공격력은? // 190 / 220 / 240 // [waitSkip 20]정답... / 그럼 다음 문제다.",
+   "source_literals": [
+    "だい3問",
+    "に、\n",
+    "と、",
+    "を\nくみあわせた こうげきりょくは?",
+    "190\n",
+    "220\n",
+    "240",
+    "せいかい・・・\nでは、つぎのもんだいだ"
+   ],
+   "translated_literals": [
+    "제3문",
+    "에\n",
+    "과 ",
+    "을\n조합한 공격력은?",
+    "190\n",
+    "220\n",
+    "240",
+    "정답...\n그럼 다음 문제다."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_394_entry_0007",
+   "selector": "00/394",
+   "entry_index": 7,
+   "source_tpl_block_sha256": "dee0be94e1f4864841722785aad817e9d6e68dd5df54aac0421b731b42627802",
+   "superseded_draft_sha256": "7792aceaeaaed1b2a3a0d7405060035612ace16d818c3885f5a729aafd7711cf",
+   "superseded_draft": "너, 「바이러스 버스팅」이 뭔지 아니? // 예 / 아니요 // 「바이러스 버스팅」은 / 바이러스에 감염된 기계에 / PET를 플러그인한 다음, // 내비를 바이러스와 싸우게 해 / 딜리트(삭제)하는 걸 말해. // 요즘 세상엔 / 「바이러스 버스팅」을 못 하면 / 살아가기 힘들지.",
+   "source_literals": [
+    "きみ、「ウイルスバスティング」って\nしってるかい?\n",
+    "はい ",
+    "いいえ",
+    "「ウイルスバスティング」 ってのは、\nウイルスに おかされた きかいに\nPETを プラグインして、",
+    "ナビを ウイルスと たたかわせて\nデリート(しょうきょ) することを\nいうんだよ",
+    "今の よのなか、\n「ウイルスバスティング」が できなきゃ\n生きていけないね"
+   ],
+   "translated_literals": [
+    "너, 「바이러스 버스팅」이\n뭔지 아니?\n",
+    "예 ",
+    "아니요",
+    "「바이러스 버스팅」은\n바이러스에 감염된 기계에\nPET를 플러그인한 다음,",
+    "내비를 바이러스와 싸우게 해\n딜리트(삭제)하는 걸 말해.",
+    "요즘 세상엔\n「바이러스 버스팅」을 못 하면\n살아가기 힘들지."
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_396_entry_0232",
+   "selector": "00/396",
+   "entry_index": 232,
+   "source_tpl_block_sha256": "9d1f01fda942cf518f1c1e7cfbbfe11a079b9664094fea63d3b68abfec6daa88",
+   "superseded_draft_sha256": "5a987630a63c37cc4cb4cd9043f4c4500b7ab3a4e337fee63c49b744e7148846",
+   "superseded_draft": "행선지를 선택해 주십시오. / 마린하버 / 오쿠덴 계곡 / 공항 / 아무 데도 가지 않는다",
+   "source_literals": [
+    "行き先を えらんでください\n",
+    "マリンハーバー ",
+    "おくデンだに\n",
+    "くうこう    ",
+    "どこにも行かない"
+   ],
+   "translated_literals": [
+    "행선지를 선택해 주십시오.\n",
+    "마린하버    ",
+    "오쿠덴 계곡\n",
+    "공항      ",
+    "가지 않는다"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_401_entry_0046",
+   "selector": "00/401",
+   "entry_index": 46,
+   "source_tpl_block_sha256": "cf9aab4ddb96fa5e3b1925a0248b5f407416b211e61499689364c96b71dde80b",
+   "superseded_draft_sha256": "6754b64923db021ec2848fe3a8c2f25480a78c1c87511da53222bb41d7ecfe19",
+   "superseded_draft": "여, 넷토. 아메롭파는 어땠어? // 내 선물이라고? 주는 거야? // 오! 이건! / 내가 전부터 갖고 싶었던 / [printItem item=28]이잖아! // 내가 원하는 걸 구해 오다니 / 제법 하는데! // 받기만 하기도 미안하니까 / 이걸 줄게!",
+   "source_literals": [
+    "よっ、熱斗 アメロッパはどうだった?",
+    "オレにおみやげ? くれるのか?",
+    "おお! これは!\nオレさまが、まえから ほしかった\n",
+    "じゃねえか!",
+    "オレさまの ほしいものを\nゲットしてくるたあ\nなかなか やるじゃねえか!",
+    "もらいっぱなしも、\nなんか きが ひけるから\nコレをやるぜ!"
+   ],
+   "translated_literals": [
+    "여, 넷토. 아메롭파는 어땠어?",
+    "내 선물이라고? 주는 거야?",
+    "오! 이건!\n내가 전부터 갖고 싶었던\n",
+    "이잖아!",
+    "내가 원하는 걸 구해 오다니\n제법 하는데!",
+    "받기만 하기도 미안하니까\n이걸 줄게!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  },
+  {
+   "entry_id": "archive_00_47_entry_0045",
+   "selector": "00/47",
+   "entry_index": 45,
+   "source_tpl_block_sha256": "d944e9e2a905ba87ee99db44d0c3934f2a65bade3745e9521ccafdb9cf013775",
+   "superseded_draft_sha256": "6794ab9534806a4a9945599b1b39761a5a27e3d94ecf03b70d28c63887910ab9",
+   "superseded_draft": "두근두근 힘내! 사랑을 조심해! / 두근두근 봄버! 사랑에 불을 붙여라! / 두근두근 밤보! 누나를 눈여겨봐!",
+   "source_literals": [
+    "ときめきガンバー! あいにきをつけろ!\n",
+    "ときめきボンバー! あいにひをつけろ!\n",
+    "ときめきバンボー! あねにめをつけろ!"
+   ],
+   "translated_literals": [
+    "두근두근 힘내! 사랑을 조심해!\n",
+    "두근두근 봄버! 사랑에 불붙여라!\n",
+    "두근두근 밤보! 누나를 눈여겨봐!"
+   ],
+   "status": "machine_draft_needs_human_review"
+  }
+ ],
+ "validation": {
+  "passed": true,
+  "checks": [
+   "protected entry exists and has no literal slots yet",
+   "source TPL block hash",
+   "superseded draft pinned by hash",
+   "one translated literal per source literal",
+   "no kana or kanji left",
+   "every character encodable",
+   "build substitution agrees with an independent one",
+   "choice_layout: no choice blank or grown, pages inside the window"
+  ]
+ }
+}

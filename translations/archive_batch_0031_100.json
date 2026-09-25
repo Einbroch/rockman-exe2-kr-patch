@@ -229,7 +229,7 @@
       "source_entry_raw_hex": "ed 00 4b f1 00 ad c8 d3 9a 7c 00 11 2a b2 eb e9 4e 12 c7 00 a2 bf a4 ba ae 9f a8 7c eb e9 24 24 24 00 9d bb a4 c3 9a 00 41 5c 78 12 d3 eb e9 41 5c 78 12 cf e5 03 ad 9a 7c eb e9 14 49 2d b2 24 2e a0 00 9d 0d 1b ae 10 0e c0 ad eb e9 10 0e bf ad 9a 7c eb e9 0f 0c 00 4e 0d 42 81 81 e8 16 1a 1d ae 00 48 ab c0 e5 03 99 00 9a 9a 11 ae e8 ad c0 bc c9 e5 02 ab be 9b 81 81 eb e9 a2 9b ad e5 02 a8 bf 88 88 88 e8 49 1e 0d b1 00 0d 0c 33 17 14 0d 3e 11 c7 12 bf 9c 81 eb e9 f2 00 fe 00 fb 0c ff 00 00 01 01 01 34 00 1b",
       "source_tpl_block_sha256": "307a713886c3dad35c60318935217df707556261d2c3e58d3b8f89927bf4faf9",
       "source_text_transcription": "なんだい? キミは // ボクを こらしめにきた? // ハハハ おもしろい ジョークだ // ジョークじゃない? // コドモはハヤく おウチにカエりな // カエらない? // オイ ボウズ!! / シタテに デてりゃあ いいキに / なりやがってよう!! // こうなったら・・・ / ドトウの ウイルスコウゲキをクらえ!",
-      "draft_translation": "뭐라고? 너는 // 나를 혼내 주러 왔다고? // 하하하, 재미있는 농담이군. // 농담이 아니라고? // 꼬마는 얼른 집으로 돌아가. // 안 돌아가겠다고? // 이봐, 꼬마!! / 내가 부드럽게 말하니까 / 우쭐해져서는!! // 그렇다면... / 성난 파도 같은 바이러스 공격을 받아라!",
+      "draft_translation": "뭐라고? 너는 // 나를 혼내 주러 왔다고? // 하하하, 재미있는 농담이군. // 농담이 아니라고? // 꼬마는 얼른 집으로 돌아가. // 안 돌아가겠다고? // 이봐, 꼬마!! / 내가 부드럽게 말하니까 / 우쭐해져서는!! // 그렇다면... / 성난 파도 같은 바이러스 공격이다!",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },
@@ -677,7 +677,7 @@
       "source_entry_raw_hex": "f6 03 44 01 5d 5d ff ed 00 46 ed 02 01 f1 00 9d 85 a2 ad 9a d3 b1 20 55 a9 e5 03 c8 81 eb e9 28 0d 85 10 3c c7 15 3b a4 ab c1 88 88 88 e8 49 14 b1 10 3c d3 7c eb e9 48 3a 15 3a 0e 32 0b b1 3e 78 1e 7c eb e9 99 a7 a2 b2 85 0f 34 c9 14 0d 41 a4 a8 c8 d3 d1 e8 14 1e 4c 11 0e 32 0b ae 1c 1f c9 c1 3e 78 1e b1 10 3c 9e e8 a7 c8 ad b1 17 3d ae 48 11 c1 d1 eb e9 a9 e5 05 e5 02 ac 29 e5 02 ab ad eb e9 fa 0c fa 00 0a 01 10 1a 10 1a 88 88 88 fa 00 09 01 50 5b 14 78 3a 81 eb e9 fa 08 28 31 85 48 11 a8 81 e8 a2 ad 9a d3 b1 34 0c d3 00 2d e5 02 ab a1 eb e9 f5 00 5c",
       "source_tpl_block_sha256": "14c51a5ffd103cd34c8e431096d06a527a90f085426c08738e9c754e6e83503d",
       "source_text_transcription": "お、こないだのニィちゃん! // ホウ、カギをサガしてる・・・ / ドコのカギだ? // デンサンエリアのゲート? // あそこは、オレがコウジしたんだぜ / コトブキエリアにツナがるゲートのカギか / そんなのスグにデキるぜ // ちょっとマってな // カタカタ・・・ // ピュコーン! // ホラ、デキた! / こないだのレイだ モってけ",
-      "draft_translation": "오, 지난번 형씨! // 그래, 열쇠를 찾는다고... / 어디 열쇠지? // 덴산 영역의 게이트? // 거기는 내가 공사했어. / 코토부키 영역으로 이어지는 게이트 열쇠군. / 그런 건 금방 만들 수 있지. // 잠깐 기다려. // 타다닥... // 삐로롱! // 자, 다 됐다! / 지난번 보답이니 가져가.",
+      "draft_translation": "오, 지난번 형씨! // 그래, 열쇠를 찾는다고... / 어디 열쇠지? // 덴산 영역의 게이트? // 거기는 내가 공사했어. / 코토부키 영역 게이트 열쇠군. / 그런 건 금방 만들 수 있지. // 잠깐 기다려. // 타다닥... // 삐로롱! // 자, 다 됐다! / 지난번 보답이니 가져가.",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },
@@ -1083,7 +1083,7 @@
       "source_entry_raw_hex": "f3 00 08 01 c1 ff f3 00 07 01 c2 ff f2 00 07 01 ed 00 47 f1 00 b0 9c b0 9c 85 11 2a 81 e8 24 41 ba b7 a4 ab 81 eb e9 16 5c 1a 0c 2c 3a d6 85 a2 c8 ad 14 1e 00 0c 9b b1 bb e8 0b 34 ad c8 d3 a1 d7 85 eb e9 90 f9 00 54 01 00 f9 00 19 03 91 e5 02 ab 1b 59 51 e8 2d e5 02 ab ad 9a 7c eb e9 2d e5 02 ab a8 bf a3 00 4e 12 b1 e8 90 f9 00 77 01 00 f9 00 15 03 91 ac e8 14 0d 10 3a a4 ab 28 a4 9a c8 d3 a1 d7 88 88 88 eb e9 14 0d 10 3a 00 a4 ab a0 c2 c1 9e ad 7c e8 ef 11 00 ee 00 02 9b c8 81 00 ef 00 11 ee 00 02 3f 2c 3a f0 06 80 bf ff ff bc e5 02 dd 85 2b 32 d3 be b0 81 e8 16 5c 1a 0c 2c 3a d3 a4 88 88 88 e8 99 85 11 c7 36 33 a0 a4 ad 9a d6 b0 eb e9 d6 85 d6 bb 00 b7 a8 24 1f a4 9e a1 ab b0 eb e7",
       "source_tpl_block_sha256": "5eb8fe36438a1335ff22d90b32bd46d4d930495f2c8fec9a51ed33948a34ddb0",
       "source_text_transcription": "ねえねえ、キミ! / ハジめまして! // ショタイメンで、こんなコト イうのも / アレなんだけど、 // 「 // 」ってチップ / モってない? // モってたらさ ボクの / 「 // 」と / コウカンしてホしいんだけど・・・ // コウカン してくれるかな?\\n // うん! // ゴメン // やっぱ、ムリだよね! / ショタイメンだし・・・ / あ、キをワルくしないでね // で、でも またハナしかけてね",
-      "draft_translation": "저기, 너! / 처음 만나네! // 처음 보면서 이런 말을 하기도 뭐하지만, // 「[printChip chip=84] [printCode code=Z]」 칩 / 가지고 있지 않아? // 가지고 있다면 내 / 「[printChip chip=119] [printCode code=V]」와 / 교환해 줬으면 하는데... // 교환해 줄래? // 응! // 미안해 // 역시 무리겠지! / 처음 만났으니까... / 아, 기분 나쁘게 생각하지 마. // 그, 그래도 또 말 걸어 줘.",
+      "draft_translation": "저기, 너! / 처음 만나네! // 처음 보는데 이런 말 뭐하지만, // 「[printChip chip=84] [printCode code=Z]」 칩 / 가지고 있지 않아? // 가지고 있다면 내 / 「[printChip chip=119] [printCode code=V]」와 / 교환해 줬으면 하는데... // 교환해 줄래? // 응! // 미안해 // 역시 무리겠지! / 처음 만났으니까... / 아, 기분 나쁘게 생각하지 마. // 그, 그래도 또 말 걸어 줘.",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },

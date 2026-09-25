@@ -19,9 +19,14 @@ from exe1_k_font_source import ks_x_1001_ordinal
 
 ROM_BASE = 0x08000000
 NAME_TABLE = 0x7291D0
+# Chip ids 256-510 - the program advances and a few specials - live in a second
+# name table right after the first. Every reader holds the two pointers side
+# by side and picks one with id >> 8, so both have to move.
+SECOND_NAME_TABLE = 0x729B3C
 DESC_TABLE = 0x729FA0
 UI_TABLE = 0x7E1E68
 NAME_RELOC = 0x920000
+SECOND_NAME_RELOC = 0x928000
 DESC_RELOC = 0x930000
 UI_RELOC = 0x940000
 HANGUL_ESCAPE = bytes((0xF9, 0xFC))
@@ -155,6 +160,38 @@ NAME_REPLACEMENTS = {
     "ゲートマン": "게이트맨", "プラネットマン": "플래닛맨", "ナパームマン": "네이팜맨", "ファラオマン": "파라오맨", "フォルテ": "포르테",
     "オオアカツナミ": "대홍수", "フリーズボム": "프리즈봄", "チャージスパーク": "차지스파크", "ガイアソード": "가이아소드",
 }
+
+
+# The second table's names, whole: ids 256-510. Empty slots stay empty and
+# "????" stays as it is; any other name must be listed here.
+SECOND_NAMES = {
+    "ファイターソード": "파이터소드", "ナイトソード": "나이트소드", "パラディンソード": "팔라딘소드",
+    "リュウセイグン": "유성군", "ポルターガイスト": "폴터가이스트",
+    "ファイアゴスペル": "파이어고스펠", "アクアゴスペル": "아쿠아고스펠",
+    "エレキゴスペル": "일렉고스펠", "ウッドゴスペル": "우드고스펠", "ゲートマンSP": "게이트맨SP",
+    "サンクチュアリ": "생크추어리",
+    "ゼータキャノン1": "제타캐논1", "ゼータキャノン2": "제타캐논2", "ゼータキャノン3": "제타캐논3",
+    "ハイパーバースト": "하이퍼버스트", "ゼータホウガン": "제타호우건",
+    "ゼータラットン1": "제타라톤1", "ゼータラットン2": "제타라톤2", "ゼータラットン3": "제타라톤3",
+    "オメガキャノン1": "오메가캐논1", "オメガキャノン2": "오메가캐논2", "オメガキャノン3": "오메가캐논3",
+    "メガデスバースト": "메가데스버스트", "オメガホウガン": "오메가호우건",
+    "オメガラットン1": "오메가라톤1", "オメガラットン2": "오메가라톤2", "オメガラットン3": "오메가라톤3",
+    "ストリームアロー": "스트림애로", "グレイテストボム": "그레이티스트봄",
+    "ドリームソード1": "드림소드1", "ドリームソード2": "드림소드2", "ドリームソード3": "드림소드3",
+    "マシンガンパンチ": "머신건펀치", "カースアンガー": "커스앵거", "ギガカウントボム": "기가카운트봄",
+    "ヘビースタンプ": "헤비스탬프", "ポイズンファラオ": "포이즌파라오", "ゲートマジック": "게이트매직",
+    "ガッツシュート": "거츠슛", "ビッグハート": "빅하트", "ボディガード": "보디가드",
+    "ダブルヒーロー": "더블히어로", "ダークメシア": "다크메시아", "バチアタリ": "천벌",
+    "ファラオトラップ": "파라오트랩", "ダブルプラネット": "더블플래닛", "リモートゲート": "리모트게이트",
+}
+
+
+def translate_second_name(text: str) -> str:
+    if text in SECOND_NAMES:
+        return SECOND_NAMES[text]
+    if re.search(r"[\u3040-\u30ff\u3400-\u9fff]", text):
+        raise ValueError(f"untranslated Japanese chip name in the second table: {text!r}")
+    return text
 
 
 def translate_name(text: str) -> str:
@@ -331,14 +368,47 @@ def _write_record(source: bytes, replacement: bytes, offset: int, name: str, sou
     }
 
 
+def translated_chip_names(source: bytes) -> list[str]:
+    """The chip names the relocated table carries, in table order."""
+    _, raw_entries, _ = _read_table(source, NAME_TABLE)
+    return [translate_name(decode_native(entry)) for entry in raw_entries]
+
+
+def translated_second_chip_names(source: bytes) -> list[str]:
+    """The names of chip ids 256 onward, in table order."""
+    _, raw_entries, _ = _read_table(source, SECOND_NAME_TABLE)
+    names = []
+    for entry in raw_entries:
+        text = decode_native(entry)
+        korean = translate_second_name(text)
+        # A name kept as it was has to come back byte for byte.
+        if korean == text and encode_native(text) + b"\xE7" != entry:
+            raise ValueError(f"second-table name {text!r} does not round-trip")
+        names.append(korean)
+    return names
+
+
+def printed_chip_names(source: bytes) -> list[str]:
+    """Every chip name by chip id, as a printChip of that id draws it.
+
+    Ids 0-254 are the first table and 256 onward the second; id 255 has no
+    entry in either and is left empty.
+    """
+    first = translated_chip_names(source)
+    return first + [""] * (256 - len(first)) + translated_second_chip_names(source)
+
+
 def planned_writes(source: bytes) -> tuple[list[dict], dict]:
-    specs = (("chip_names", NAME_TABLE, NAME_RELOC), ("chip_descriptions", DESC_TABLE, DESC_RELOC), ("pet_submenu_ui", UI_TABLE, UI_RELOC))
+    specs = (("chip_names", NAME_TABLE, NAME_RELOC), ("chip_names_2", SECOND_NAME_TABLE, SECOND_NAME_RELOC),
+             ("chip_descriptions", DESC_TABLE, DESC_RELOC), ("pet_submenu_ui", UI_TABLE, UI_RELOC))
     writes: list[dict] = []
     reports: list[dict] = []
     for table_name, source_base, relocation in specs:
         offsets, raw_entries, original = _read_table(source, source_base)
         if table_name == "chip_names":
-            translated = [encode_native(translate_name(decode_native(entry))) + b"\xE7" for entry in raw_entries]
+            translated = [encode_native(name) + b"\xE7" for name in translated_chip_names(source)]
+        elif table_name == "chip_names_2":
+            translated = [encode_native(name) + b"\xE7" for name in translated_second_chip_names(source)]
         elif table_name == "chip_descriptions":
             translated = []
             for index, entry in enumerate(raw_entries):

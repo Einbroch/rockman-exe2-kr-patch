@@ -1,0 +1,526 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/07E9470",
+ "entry_prefix": "archive_u07E9470",
+ "rom_offset": 8295536,
+ "storage": "lz77",
+ "byte_length": 675,
+ "payload_byte_length": 1554,
+ "tpl_filename": "uncatalogued_archive_tpl/lz_07E9470.tpl",
+ "entry_count": 32,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u07E9470_entry_0000",
+   "source_entry_offset": 128,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "e7a568645092cd4217071de0b39789151f403972b51786f3037d632c238be7d9",
+   "source_entry_raw_hex": "68 88 66 00 00 00 00 00 00 00 25 2a 1c b1 a1 9a cf d8 c8 d3 81 81 e7",
+   "source_tpl_block_sha256": "6881c48b1257e1225fd2549173328fa080e2d5c180a1ca8b45272d6bcdc782ee",
+   "japanese_characters": 11,
+   "source_literals": [
+    "K・I       ヒミツのけいじばんだ!!"
+   ],
+   "translated_literals": [
+    "K・I       비밀 게시판이다!!"
+   ]
+  },
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u07E9470_entry_0001",
+   "source_entry_offset": 151,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "3a6fd4adbf34007304ac01b8162f868f532154352a814e81da5d03d8d4800ba5",
+   "source_entry_raw_hex": "12 2a 0c 3a 00 00 00 00 00 00 a2 9d c0 b1 1f 4b b2 7c e7",
+   "source_tpl_block_sha256": "98fb5d3d532ccc1fd2687a83edb7a1ffab83af4a516af4a292120c8d352a1edf",
+   "japanese_characters": 11,
+   "source_literals": [
+    "クミイン      こおりのナビは?"
+   ],
+   "translated_literals": [
+    "조직원       얼음 내비는?"
+   ]
+  },
+  {
+   "entry_index": 2,
+   "entry_id": "archive_u07E9470_entry_0002",
+   "source_entry_offset": 170,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "875fe31074a4aeccfdfee8dbe9d702765a9f2af582607273b482e55fc0ecbdf3",
+   "source_entry_raw_hex": "12 34 78 29 78 00 00 00 00 00 6f e5 0a 7b a2 9d c0 b1 1f 4b b2 7c e7",
+   "source_tpl_block_sha256": "9ce25832f7e408cc226aabb047b549b70137290158a02b317e7cd6e209f38c3e",
+   "japanese_characters": 12,
+   "source_literals": [
+    "クレーマー     Re:こおりのナビは?"
+   ],
+   "translated_literals": [
+    "클레이머      Re:얼음 내비는?"
+   ]
+  },
+  {
+   "entry_index": 3,
+   "entry_id": "archive_u07E9470_entry_0003",
+   "source_entry_offset": 193,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "493fce4e77800878e76f8083cb8312b4a70f3a394337416b6b9d3bb56d2a5e7f",
+   "source_entry_raw_hex": "cf e5 05 9b b6 9b bc 00 00 00 00 a2 9d c0 b1 1f 4b ad bf e7",
+   "source_tpl_block_sha256": "28493c1a2eea11c0d0f0416806febc137bb1d6fd7254a2c69482ca8ce3f26067",
+   "japanese_characters": 14,
+   "source_literals": [
+    "じょうほうや    こおりのナビなら"
+   ],
+   "translated_literals": [
+    "정보상       얼음 내비라면"
+   ]
+  },
+  {
+   "entry_index": 4,
+   "entry_id": "archive_u07E9470_entry_0004",
+   "source_entry_offset": 213,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "e3439dcfa454a7a02e7dbf83e8c0f087da8d18edc30bc938fb0a3d8242772de3",
+   "source_entry_raw_hex": "12 2a 1b 5c 78 00 00 00 00 00 3f 17 52 33 9e 9a ba aa 81 7c e7",
+   "source_tpl_block_sha256": "c9c1f7909324cedba9123466757f0a318746b9585c306210042df9af05132d04",
+   "japanese_characters": 13,
+   "source_literals": [
+    "クミチョー     ゴスペルかいめつ!?"
+   ],
+   "translated_literals": [
+    "두목        고스펠 괴멸!?"
+   ]
+  },
+  {
+   "entry_index": 5,
+   "entry_id": "archive_u07E9470_entry_0005",
+   "source_entry_offset": 234,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "59794567b7288cdebc6944ecc8e7fc25733e622915ee93e67b21e1ddf06051f4",
+   "source_entry_raw_hex": "cf e5 05 9b b6 9b bc 00 00 00 00 0b 0f 9a 1f 4b e7",
+   "source_tpl_block_sha256": "004c613ab34974e03ec4b7976d895b083ea75839c4578575c575892a153136c0",
+   "japanese_characters": 11,
+   "source_literals": [
+    "じょうほうや    アオいナビ"
+   ],
+   "translated_literals": [
+    "정보상       파란 내비"
+   ]
+  },
+  {
+   "entry_index": 6,
+   "entry_id": "archive_u07E9470_entry_0006",
+   "source_entry_offset": 251,
+   "source_entry_byte_length": 20,
+   "source_entry_sha256": "d91465d7e26a8f50ada70d5c3f2548aef8550036050cece551ffdf236b8989f5",
+   "source_entry_raw_hex": "12 34 78 29 78 00 00 00 00 00 6f e5 0a 7b 0b 0f 9a 1f 4b e7",
+   "source_tpl_block_sha256": "fd3126a95c4bf38f9b480f6d96ccbd0934fd82ab3ec5f65bc0cdefef97159d3a",
+   "japanese_characters": 10,
+   "source_literals": [
+    "クレーマー     Re:アオいナビ"
+   ],
+   "translated_literals": [
+    "클레이머      Re:파란 내비"
+   ]
+  },
+  {
+   "entry_index": 7,
+   "entry_id": "archive_u07E9470_entry_0007",
+   "source_entry_offset": 271,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "016b476f56d400ac5fae154801176e87725d46cdaba34788327dfbbc6000dbb9",
+   "source_entry_raw_hex": "68 88 66 00 00 00 00 00 00 00 b8 9e a1 ad 9a 1f 4b c9 e7",
+   "source_tpl_block_sha256": "b2c6583d215082d82d008885ad7b9c68bb102578e04309b93434c7d3dcd5b9e4",
+   "japanese_characters": 9,
+   "source_literals": [
+    "K・I       みかけないナビが"
+   ],
+   "translated_literals": [
+    "K・I       못 보던 내비가"
+   ]
+  },
+  {
+   "entry_index": 8,
+   "entry_id": "archive_u07E9470_entry_0008",
+   "source_entry_offset": 290,
+   "source_entry_byte_length": 16,
+   "source_entry_sha256": "dee997ecd2d3cba76c37cc192be5c8beee6542d114a28fce9461e9cfc5f284d0",
+   "source_entry_raw_hex": "6b 6c 00 6b 5e 6a 62 00 00 00 13 59 13 59 13 e7",
+   "source_tpl_block_sha256": "1fae2e516425211b595817d4d059b0151578041f8f53491730dab5806116849b",
+   "japanese_characters": 5,
+   "source_literals": [
+    "NO NAME   ケッケッケ"
+   ],
+   "translated_literals": [
+    "NO NAME   켁켁켁"
+   ]
+  },
+  {
+   "entry_index": 9,
+   "entry_id": "archive_u07E9470_entry_0009",
+   "source_entry_offset": 306,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "339841f5d9b3442622f53c96d27e3053e1be92ce4fb67b68be51cfcafa7fb9fa",
+   "source_entry_raw_hex": "25 1e 2a 00 00 00 00 00 00 00 bc c2 bc c2 b0 88 88 88 e7",
+   "source_tpl_block_sha256": "1db3e2e01793da270df27681d99a4f737ef38a6e327b98915764e84570618c67",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ヒトミ       やれやれね・・・"
+   ],
+   "translated_literals": [
+    "히토미       어휴..."
+   ]
+  },
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u07E9470_entry_0010",
+   "source_entry_offset": 325,
+   "source_entry_byte_length": 22,
+   "source_entry_sha256": "c49891332fcc8b6bf19615e18f31c6820594534f5ee66d051f88691ba7a382de",
+   "source_entry_raw_hex": "45 78 12 4a 1e 31 78 00 00 00 cf e5 05 9b b6 9b 00 2d 1e b9 81 e7",
+   "source_tpl_block_sha256": "7af0ab238df93e44efc82a2cc616d32850ce5e20fcffcfd79a674151678c4275",
+   "japanese_characters": 15,
+   "source_literals": [
+    "ダークバトラー   じょうほう モトむ!"
+   ],
+   "translated_literals": [
+    "다크배틀러     정보 구함!"
+   ]
+  },
+  {
+   "entry_index": 11,
+   "entry_id": "archive_u07E9470_entry_0011",
+   "source_entry_offset": 347,
+   "source_entry_byte_length": 26,
+   "source_entry_sha256": "461f4c3fc3930ae2b7e677343785980a06d6aab8894c5a2f7635613809048fa4",
+   "source_entry_raw_hex": "12 2a 0c 3a 00 00 00 00 00 00 6f e5 0a 7b cf e5 05 9b b6 9b 00 2d 1e b9 81 e7",
+   "source_tpl_block_sha256": "0c3b3c90c75d5b6f2f96dd2c5b3a0a901305b2e8cbb191936cc685e0a98fe865",
+   "japanese_characters": 12,
+   "source_literals": [
+    "クミイン      Re:じょうほう モトむ!"
+   ],
+   "translated_literals": [
+    "조직원       Re:정보 구함!"
+   ]
+  },
+  {
+   "entry_index": 12,
+   "entry_id": "archive_u07E9470_entry_0012",
+   "source_entry_offset": 373,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "7cd49333f108032a4d69083212466116e4ce575db3f426dc850a448ec395133d",
+   "source_entry_raw_hex": "24 59 10 78 00 00 00 00 00 00 0d 0c 33 17 d6 10 22 bb 9b a1 e7",
+   "source_tpl_block_sha256": "05852ccd3574594d242e4a4d6fd793647735473077a4f6e664722d127196973a",
+   "japanese_characters": 14,
+   "source_literals": [
+    "ハッカー      ウイルスでカネもうけ"
+   ],
+   "translated_literals": [
+    "해커        바이러스로 돈벌이"
+   ]
+  },
+  {
+   "entry_index": 13,
+   "entry_id": "archive_u07E9470_entry_0013",
+   "source_entry_offset": 394,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "c9d833c6ba1799d21e86cef20616579e80c8caaac68662de0089327b5e5f88cb",
+   "source_entry_raw_hex": "30 0d 41 3a 4e 0d 00 00 00 00 22 59 1e 4a 1e 33 e5 78 e5 6d e7",
+   "source_tpl_block_sha256": "f255220eb68091f795f15e4071d5168fd6af073adeef97983c33febdc8734e8e",
+   "japanese_characters": 14,
+   "source_literals": [
+    "ヨウジンボウ    ネットバトル名人"
+   ],
+   "translated_literals": [
+    "보디가드      넷배틀 명인"
+   ]
+  },
+  {
+   "entry_index": 14,
+   "entry_id": "archive_u07E9470_entry_0014",
+   "source_entry_offset": 415,
+   "source_entry_byte_length": 25,
+   "source_entry_sha256": "a54a115f0dd32f5564fb4adf3aebc3daf63dfbb20232650bd8296c89986e9492",
+   "source_entry_raw_hex": "25 1e 2a 00 00 00 00 00 00 00 6f e5 0a 7b 22 59 1e 4a 1e 33 e5 78 e5 6d e7",
+   "source_tpl_block_sha256": "6404382a58a723f68fa462ce2ff75f995991e06145c29eccc6f7e9b592e2dc63",
+   "japanese_characters": 11,
+   "source_literals": [
+    "ヒトミ       Re:ネットバトル名人"
+   ],
+   "translated_literals": [
+    "히토미       Re:넷배틀 명인"
+   ]
+  },
+  {
+   "entry_index": 15,
+   "entry_id": "archive_u07E9470_entry_0015",
+   "source_entry_offset": 440,
+   "source_entry_byte_length": 22,
+   "source_entry_sha256": "35b38dbe8f0b658356de30dfc14c26507ad14ec9a56e138a6493410cd6a44bb7",
+   "source_entry_raw_hex": "12 34 78 29 78 00 00 00 00 00 1f 4b c7 aa 9e e5 02 a8 6d 5e 7c e7",
+   "source_tpl_block_sha256": "af9049ef32085b0fc39822bbb0d852277eba8793e34fa298c0ba0d7064107515",
+   "japanese_characters": 12,
+   "source_literals": [
+    "クレーマー     ナビをつかったPA?"
+   ],
+   "translated_literals": [
+    "클레이머      내비를 쓰는 PA?"
+   ]
+  },
+  {
+   "entry_index": 16,
+   "entry_id": "archive_u07E9470_entry_0016",
+   "source_entry_offset": 462,
+   "source_entry_byte_length": 26,
+   "source_entry_sha256": "cb7f84386308296f3a956d5f9bfa319de5aa0d72881ac25d4f2f830a00a32602",
+   "source_entry_raw_hex": "25 1e 2a 00 00 00 00 00 00 00 6f e5 0a 7b 1f 4b c7 aa 9e e5 02 a8 6d 5e 7c e7",
+   "source_tpl_block_sha256": "860c17fa963182deebb92c4bf71aa7e1f602dae139ceea627bb8ff236b164404",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ヒトミ       Re:ナビをつかったPA?"
+   ],
+   "translated_literals": [
+    "히토미       Re:내비를 쓰는 PA?"
+   ]
+  },
+  {
+   "entry_index": 17,
+   "entry_id": "archive_u07E9470_entry_0017",
+   "source_entry_offset": 488,
+   "source_entry_byte_length": 26,
+   "source_entry_sha256": "d6bdb70d001bc16b652f920ed50f97350d70c3184d1adcaf7e2e8d202eb49db8",
+   "source_entry_raw_hex": "27 33 88 dc 78 d0 00 00 00 00 6f e5 0a 7b 1f 4b c7 aa 9e e5 02 a8 6d 5e 7c e7",
+   "source_tpl_block_sha256": "253934dc5d2732e158fc768345404231dc15f19648f662cfd5488d6cc189ee94",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ヘル・ぼーず    Re:ナビをつかったPA?"
+   ],
+   "translated_literals": [
+    "헬・보즈      Re:내비를 쓰는 PA?"
+   ]
+  },
+  {
+   "entry_index": 18,
+   "entry_id": "archive_u07E9470_entry_0018",
+   "source_entry_offset": 514,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "e6eab5209d4fefcebcb35143b6d4f51728301af4cf0510f36c7c6023928a2877",
+   "source_entry_raw_hex": "25 1e 2a 00 00 00 00 00 00 00 16 5a 49 78 29 3a b1 7c e7",
+   "source_tpl_block_sha256": "1bf547fab479b0214f31e7ee63085faa0f6ffae2d506528874d6f2fc66a23b74",
+   "japanese_characters": 10,
+   "source_literals": [
+    "ヒトミ       シャドーマンの?"
+   ],
+   "translated_literals": [
+    "히토미       섀도맨의?"
+   ]
+  },
+  {
+   "entry_index": 19,
+   "entry_id": "archive_u07E9470_entry_0019",
+   "source_entry_offset": 533,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "8f1b8bb8713a7e0d4791d4e8e7d5dc6a43a11d7f79042b45e05c8065f10b451b",
+   "source_entry_raw_hex": "27 33 88 dc 78 d0 00 00 00 00 6f e5 0a 7b 16 5a 49 78 29 3a b1 7c e7",
+   "source_tpl_block_sha256": "cb70eeb581bb958eda5eef1453baeb2cd5c613ff93b47770547f928c54e6bbd0",
+   "japanese_characters": 13,
+   "source_literals": [
+    "ヘル・ぼーず    Re:シャドーマンの?"
+   ],
+   "translated_literals": [
+    "헬・보즈      Re:섀도맨의?"
+   ]
+  },
+  {
+   "entry_index": 20,
+   "entry_id": "archive_u07E9470_entry_0020",
+   "source_entry_offset": 556,
+   "source_entry_byte_length": 19,
+   "source_entry_sha256": "8de5ab89802ce2209032523c18ed9dc1c3cf1b3696bc879f2c0d2c8d9eff7ec2",
+   "source_entry_raw_hex": "45 78 12 4a 1e 31 78 00 00 00 1d 3a 41 5c 0d 0d 31 7c e7",
+   "source_tpl_block_sha256": "5650a19c4bd9ed807a6e484bf01e1a89c53fef6807ebb5480a4f743c660d4f0c",
+   "japanese_characters": 14,
+   "source_literals": [
+    "ダークバトラー   テンジョウウラ?"
+   ],
+   "translated_literals": [
+    "다크배틀러     천장뒤?"
+   ]
+  },
+  {
+   "entry_index": 21,
+   "entry_id": "archive_u07E9470_entry_0021",
+   "source_entry_offset": 575,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "f8ccbdf0a9d250496ca9d51fa4f51f23ec39ab4748f91b87dcb759f4bb24d016",
+   "source_entry_raw_hex": "68 88 66 00 00 00 00 00 00 00 2a 23 2b 16 ad bf e7",
+   "source_tpl_block_sha256": "57d7647befe7be412022e1aaf847d8d5d0c35a9300399af8124e7ccae469ee79",
+   "japanese_characters": 7,
+   "source_literals": [
+    "K・I       ミノムシなら"
+   ],
+   "translated_literals": [
+    "K・I       도롱이벌레라면"
+   ]
+  },
+  {
+   "entry_index": 22,
+   "entry_id": "archive_u07E9470_entry_0022",
+   "source_entry_offset": 592,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "f2c81d948456138065de4b12b4b8d276cd192b35b657300b5bad6a47ccbb2aaf",
+   "source_entry_raw_hex": "cf e5 05 9b b6 9b bc 00 00 00 00 14 29 3a 49 b1 1b 59 51 7c e7",
+   "source_tpl_block_sha256": "fe0595ce0a26df5b14880714f70cb70fe44492fe8897664536cf923d68228017",
+   "japanese_characters": 14,
+   "source_literals": [
+    "じょうほうや    コマンドのチップ?"
+   ],
+   "translated_literals": [
+    "정보상       커맨드 칩?"
+   ]
+  },
+  {
+   "entry_index": 23,
+   "entry_id": "archive_u07E9470_entry_0023",
+   "source_entry_offset": 613,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "cfb753d935eb2a4daaa584c1a19f0e096e1ffd730d6ceb1cff3ddae237c218be",
+   "source_entry_raw_hex": "20 5a 3a 48 00 00 00 00 00 00 6f e5 0a 7b 14 29 3a 49 b1 1b 59 51 e7",
+   "source_tpl_block_sha256": "f0e19989c318106495fb6789d257ea27c64b2b8d3cbd4cf36c7fba261f1acfdb",
+   "japanese_characters": 12,
+   "source_literals": [
+    "ニャンデ      Re:コマンドのチップ"
+   ],
+   "translated_literals": [
+    "냥데        Re:커맨드 칩"
+   ]
+  },
+  {
+   "entry_index": 24,
+   "entry_id": "archive_u07E9470_entry_0024",
+   "source_entry_offset": 636,
+   "source_entry_byte_length": 17,
+   "source_entry_sha256": "fd9e9b6580c079a07a2edb01761cfc8e93631dce7aa93ad7a6aecf43c421c186",
+   "source_entry_raw_hex": "16 1a 59 4f 00 00 00 00 00 00 29 3a 1e b1 1f 4b e7",
+   "source_tpl_block_sha256": "6ab73338343cce750a2a9de5c5218c4472c7d393edc433a95ac019db05746a13",
+   "japanese_characters": 10,
+   "source_literals": [
+    "シタッパ      マントのナビ"
+   ],
+   "translated_literals": [
+    "똘마니       망토 내비"
+   ]
+  },
+  {
+   "entry_index": 25,
+   "entry_id": "archive_u07E9470_entry_0025",
+   "source_entry_offset": 653,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "9b4a09d9d899c4f4f18ad8abb052447b46a7a71eca699a8e7e965c5cb76e0b40",
+   "source_entry_raw_hex": "12 31 59 10 78 00 00 00 00 00 6f e5 0a 7b 29 3a 1e b1 1f 4b e7",
+   "source_tpl_block_sha256": "b69c90fb09c28b07dabace4ffe5e6ba05133a31ced4eeca5838d282526d27b42",
+   "japanese_characters": 11,
+   "source_literals": [
+    "クラッカー     Re:マントのナビ"
+   ],
+   "translated_literals": [
+    "크래커       Re:망토 내비"
+   ]
+  },
+  {
+   "entry_index": 26,
+   "entry_id": "archive_u07E9470_entry_0026",
+   "source_entry_offset": 674,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "f84500febcd3a543dc0143a108915193c32ae1b5f77264ffa7137182c83da58c",
+   "source_entry_raw_hex": "16 1a 59 4f 00 00 00 00 00 00 6f e5 0a 7b 29 3a 1e b1 1f 4b e7",
+   "source_tpl_block_sha256": "3467da4af69d23d8347f6ce3ff1e06c3b6dbf25c1fd3224e22959635f3986cfb",
+   "japanese_characters": 10,
+   "source_literals": [
+    "シタッパ      Re:マントのナビ"
+   ],
+   "translated_literals": [
+    "똘마니       Re:망토 내비"
+   ]
+  },
+  {
+   "entry_index": 27,
+   "entry_id": "archive_u07E9470_entry_0027",
+   "source_entry_offset": 695,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "7976b18cf78c80fed979df1375c560ad96b4f27f81702269517e8493894311ef",
+   "source_entry_raw_hex": "1d 59 53 0d 45 29 00 00 00 00 6f e5 0a 7b 29 3a 1e b1 1f 4b e7",
+   "source_tpl_block_sha256": "a322d399b3530dcd5c83d11e6f0372e9082aab12fd981f453b395f5c35b47d33",
+   "japanese_characters": 12,
+   "source_literals": [
+    "テッポウダマ    Re:マントのナビ"
+   ],
+   "translated_literals": [
+    "총알받이      Re:망토 내비"
+   ]
+  },
+  {
+   "entry_index": 28,
+   "entry_id": "archive_u07E9470_entry_0028",
+   "source_entry_offset": 716,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "7d6cee791c84c60598d96d6969f01b05c6cf828920d03e398147f52ba82ad567",
+   "source_entry_raw_hex": "12 2a 1b 5c 78 00 00 00 00 00 6f e5 0a 7b 29 3a 1e b1 1f 4b e7",
+   "source_tpl_block_sha256": "db01a724553dcd1c63954b3fe48d6fa5fbf38014f095ba7377d2f9bc9db731ed",
+   "japanese_characters": 11,
+   "source_literals": [
+    "クミチョー     Re:マントのナビ"
+   ],
+   "translated_literals": [
+    "두목        Re:망토 내비"
+   ]
+  },
+  {
+   "entry_index": 29,
+   "entry_id": "archive_u07E9470_entry_0029",
+   "source_entry_offset": 737,
+   "source_entry_byte_length": 25,
+   "source_entry_sha256": "0caeac433313b0092c576246098001d00ecb22cdee04610f4744a412cfd7ed05",
+   "source_entry_raw_hex": "cf e5 05 9b b6 9b bc 00 00 00 00 9f e5 04 9b 9f e5 05 a0 b1 00 1f 4b 7c e7",
+   "source_tpl_block_sha256": "cf2445078750563890be40df540117f305e2312c03fe717cab683d08c14f6850",
+   "japanese_characters": 15,
+   "source_literals": [
+    "じょうほうや    きゅうきょくの ナビ?"
+   ],
+   "translated_literals": [
+    "정보상       궁극의 내비?"
+   ]
+  },
+  {
+   "entry_index": 30,
+   "entry_id": "archive_u07E9470_entry_0030",
+   "source_entry_offset": 762,
+   "source_entry_byte_length": 27,
+   "source_entry_sha256": "0c143a2cb39630362cb3204b7744429198d69a543804466f1584b6050144ff9b",
+   "source_entry_raw_hex": "27 33 88 dc 78 d0 00 00 00 00 6f e5 0a 7b 9f e5 04 9b 9f e5 05 a0 b1 1f 4b 7c e7",
+   "source_tpl_block_sha256": "fd42aa81b22a0886554407467cf5f0cd61879e673352e0d26426df2bb27d5384",
+   "japanese_characters": 15,
+   "source_literals": [
+    "ヘル・ぼーず    Re:きゅうきょくのナビ?"
+   ],
+   "translated_literals": [
+    "헬・보즈      Re:궁극의 내비?"
+   ]
+  },
+  {
+   "entry_index": 31,
+   "entry_id": "archive_u07E9470_entry_0031",
+   "source_entry_offset": 789,
+   "source_entry_byte_length": 21,
+   "source_entry_sha256": "d4210c68e9b841968222353a05cd064f142605fd47e72e243ecb96722ecda7c6",
+   "source_entry_raw_hex": "1d 59 53 0d 45 29 00 00 00 00 51 35 3d 31 2b e5 02 ab b1 b2 e7",
+   "source_tpl_block_sha256": "7d87e6818692aa44c0d5c4e9e709f3b7ee3482b298b66e6f695a68e94c7380a3",
+   "japanese_characters": 15,
+   "source_literals": [
+    "テッポウダマ    プログラムってのは"
+   ],
+   "translated_literals": [
+    "총알받이      프로그램이란 건"
+   ]
+  }
+ ]
+}

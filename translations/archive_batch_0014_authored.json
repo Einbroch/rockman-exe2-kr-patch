@@ -1,107 +1,507 @@
 {
-  "schema_version": 1,
-  "kind": "authored_multi_archive_translation_batch",
-  "batch_number": 14,
-  "entries": [
-    {"selector":"00/31","entry_index":10,"draft_translation":"무슨 일이냐해? / 함부로 말 걸지 마라해! // 나는 아지나 사람이다해! / 일본인 아니다해!"},
-    {"selector":"00/31","entry_index":11,"draft_translation":"장사에 방해돼! / 저리 가! 고 어웨이!"},
-    {"selector":"00/31","entry_index":15,"draft_translation":"내가 라울인 건 맞지만...[waitSkip 30] / 그렇군, 짐의 소개인가. // 좋다... 하지만 난 / 겁쟁이를 도울 생각은 없다. // 내 선더맨을 쓰러뜨려 봐라! / 그러면 라디오를 통해 / 인터넷에 접속하게 해 주지. // 선더맨을 쓰러뜨릴 실력이라면 / 그 뒤의 길은 저절로 / 열릴 것이다... // 자, 어쩌겠나?"},
-    {"selector":"00/31","entry_index":16,"draft_translation":"왜 그러지? / 나와 넷배틀할 마음이 생겼나?"},
-    {"selector":"00/31","entry_index":17,"draft_translation":"넷토, 라울 씨에게 / 넷배틀을 신청할까? / 예 / 아니요"},
-    {"selector":"00/31","entry_index":18,"draft_translation":"우리 부족과 / 동료들의 긍지가 / 나를 승리로 이끌 것이다!!"},
-    {"selector":"00/31","entry_index":19,"draft_translation":"용기 없는 자에게 / 찾아올 미래는 없다..."},
-    {"selector":"00/31","entry_index":20,"draft_translation":"패자에게는 승자를 기리는 / 시간이 필요하다...[waitSkip 30] / 우리 부족의 규율이다."},
-    {"selector":"00/31","entry_index":23,"draft_translation":"이것이 일본의 사무라이인가..."},
-    {"selector":"00/31","entry_index":24,"draft_translation":"오늘은 패배를 인정하지... / 하지만 다음에는 다른 결과가 / 너를 기다리고 있을 것이다!"},
-    {"selector":"00/31","entry_index":25,"draft_translation":"이렇게 될 줄 알고 있었다... / 우리 부족은 / 최강의 부족이니까..."},
-    {"selector":"00/31","entry_index":27,"draft_translation":"넷토는 / 「[printItem item=84]」을 / 획득했다!!"},
-    {"selector":"00/31","entry_index":31,"draft_translation":"네가 용사라는 사실은 / 증명됐다... // 자, 이제 인터넷에 / 접속하도록 해라..."},
-    {"selector":"00/31","entry_index":32,"draft_translation":"두 번의 패배는 / 한 번의 패배보다 / 훨씬 무거운 의미를 지닌다..."},
-    {"selector":"00/31","entry_index":33,"draft_translation":"우리 부족에 전해지는 / 전설의 강자... / 너는 그의 환생인가...?"},
-    {"selector":"00/31","entry_index":35,"draft_translation":"너는 이제 우리의 동료다."},
-    {"selector":"00/31","entry_index":36,"draft_translation":"라울 씨에게 / 허락을 받은 모양이군... // 그럼 어서 플러그인해서 / 여권과 칩을 찾으러 가. // ...언더넷까지 흘러 들어가면 / 여권은 다시 못 찾으니까 / 서두르는 게 좋아."},
-    {"selector":"00/31","entry_index":37,"draft_translation":"헤이! / 우리의 새 브라더! / 잘 지내고 있어?"},
-    {"selector":"00/31","entry_index":38,"draft_translation":"저쪽 농구 골대 아래에 있는 분이 / 우리 리더 라울 씨야. // ...이런, / 그건 이미 알고 있었지! // 이거 참 우습군! / 와하하하하하하!!!!"},
-    {"selector":"00/31","entry_index":39,"draft_translation":"무슨 일이냐해, 형제? // 아지나인과 일본인은 / 아주 옛날부터 형제다해! / 사이좋게 지내자해!"},
-    {"selector":"00/31","entry_index":40,"draft_translation":"헤이, 컴 온 가이!! / 치킨이 먹고 싶으면 언제든 먹어!"},
-    {"selector":"00/31","entry_index":45,"draft_translation":"찾는 게 있냐해, 형제? // 「[printChip chip=111] [printCode code=*]」은 / 일본에서 흔하다고 들었다해. // 일본인 관광객 중 누군가 / 분명 가지고 있지 않겠냐해?"},
-    {"selector":"00/31","entry_index":46,"draft_translation":"도움이 된 것 같아 기쁘다해."},
-    {"selector":"00/31","entry_index":50,"draft_translation":"헤헤, 내 정보가 도움 됐지? / 그럼 / 전혀 // 배은망덕한 녀석이군. // 저리 가 버려!!"},
-    {"selector":"00/31","entry_index":51,"draft_translation":"역시 그렇지. / 아까 한 말은 농담이었지?"},
-    {"selector":"00/31","entry_index":52,"draft_translation":"그럼 약속대로 / 「[printChip chip=111] [printCode code=*]」을 줘. / 그래! / 싫어 // 뭐라고, 바보야!"},
-    {"selector":"00/31","entry_index":53,"draft_translation":"역시 브라더야![waitSkip 30] // ...라니, 가방 안에 / 없잖아! // ...혹시 장비 중이라면 / 얼른 빼 두라고."},
-    {"selector":"00/31","entry_index":54,"draft_translation":"그럼! 내놔."},
-    {"selector":"00/31","entry_index":55,"draft_translation":"넷토는 / 「[printChip chip=111] [printCode code=*]」을 / 짐에게 주었다!"},
-    {"selector":"00/31","entry_index":56,"draft_translation":"해냈다! / 이제 모두에게 자랑할 수 있어! // ...참, 깜빡했네. / 배틀칩 정보였지?"},
-    {"selector":"00/31","entry_index":57,"draft_translation":"부자로 유명한 밀리어네어라는 / 부인이 희귀한 칩을 / 비싼 값에 샀다는 이야기야. // 워낙 부자니까 / 어디 있을지는 짐작이 가지?"},
-    {"selector":"00/31","entry_index":58,"draft_translation":"다행이네... // 그러고 보니 / 네 이름을 안 물어봤군. // 너는...[waitSkip 30] / 넷토라고 하는구나. // 좋은 이름이야, 넷토!"},
-    {"selector":"00/31","entry_index":60,"draft_translation":"모닝! 넷토! / 아침부터 무슨 일이야? // 오피셜 국제회의? / 그건 여기가 아니겠지."},
-    {"selector":"00/31","entry_index":61,"draft_translation":"여긴 관광객이 올 곳이 아냐!! / 나가! 겟 아웃! // ...라는 건 농담이야![waitSkip 15] / 조크라고, 브라더!"},
-    {"selector":"00/31","entry_index":62,"draft_translation":"우리 리더 라울 씨라면 / 아침 일찍 나갔어. // 성 쪽에 볼일이 있다고 / 말했던 것 같아."},
-    {"selector":"00/31","entry_index":63,"draft_translation":"좋은 아침이다해."},
-    {"selector":"00/31","entry_index":64,"draft_translation":"난 매일 아침 / 기도를 올려... // 마이 갓과 / 신께서 내려 주신 치킨에게... // 무슨 일이든 / 감사하는 마음이 중요해, / 브라더."},
-    {"selector":"00/31","entry_index":80,"draft_translation":"성에서 큰 사건이 / 있었다던데, // 어떤 일본인 소년 넷배틀러의 / 활약으로 해결됐다고 해. // ...혹시 넷토인가? // 설마!"},
-    {"selector":"00/31","entry_index":81,"draft_translation":"네가 우리 리더 라울 씨를 / 넷배틀에서 이겼다는 / 그 녀석이냐? // 제법인데!"},
-    {"selector":"00/31","entry_index":82,"draft_translation":"이젠 괜찮다고 말하고 싶지만 / 우리 부족에게 거짓말은 사형감이다... // 아직 상처가 욱신거리지만 / 용사가 찾아왔으니, / 선더맨과 함께 예를 다하겠다."},
-    {"selector":"00/31","entry_index":90,"draft_translation":"큰길이 소란스럽네. / 무슨 일이 생긴 거야?"},
-    {"selector":"00/31","entry_index":91,"draft_translation":"안녕, 형제! / 잘 지내나!? 뭐? 큰길이 / 큰일 났다고? // 큰길 녀석들을 뒷골목에 / 들여보내 달라고? / 흥! 우리와는 상관없어!"},
-    {"selector":"00/31","entry_index":92,"draft_translation":"... // 큰길 사람들이 / 고통받고 있는 모양이군... // ..."},
-    {"selector":"00/31","entry_index":96,"draft_translation":"햇볕이 그렇게 강하다고? // 그건 아마 환경 유지 시스템에 / 이상이 생긴 거야. // 아메롭파의 기후는 / 환경 유지 시스템으로 / 제어되거든. // 난 뭐든 알고 있지. // 그런데 햇볕이 강하다는 건 / 자외선도 상당히 강할 수 있어. // 잘못하면 / 꽤 위험한 일이 될지도 몰라."},
-    {"selector":"00/31","entry_index":97,"draft_translation":"라울 씨를 이긴 / 네 부탁이라면 / 거절할 수 없지. // 큰길 녀석들을 / 들어오게 해 줬어."},
-    {"selector":"00/31","entry_index":98,"draft_translation":"순순히 뒷골목에 / 들여보내 줬어... // 뒷, 뒷골목 사람들, / 생각보다 친절하네... // 덜덜..."},
-    {"selector":"00/31","entry_index":99,"draft_translation":"여기라면 어떻게든 / 저 강렬한 햇볕을 / 피할 수 있겠어."},
-    {"selector":"00/31","entry_index":100,"draft_translation":"휴~ 살았어~요... / 그런데 이 햇볕은 / 언제까지 계속될까요?"},
-    {"selector":"00/31","entry_index":105,"draft_translation":"햇볕이 원래대로 돌아온 것 같아. // 그렇다면 환경 유지 시스템도 / 고쳐졌다는 건가?"},
-    {"selector":"00/31","entry_index":106,"draft_translation":"아까 큰길 녀석들과 / 조금 이야기해 봤는데, / 제법 재미있는 녀석들이더군. // 잘난 척하는 녀석들뿐이라고 / 생각했는데 아니었던 모양이야."},
-    {"selector":"00/31","entry_index":107,"draft_translation":"상처도 많이 나았다... / 이건 진실이다..."},
-    {"selector":"00/31","entry_index":115,"draft_translation":"고스펠과의 싸움은 힘겹지만 / 모두 하나로 뭉쳐 잘 싸우고 있다... // 녀석들은 나의 긍지... / 모두를 위해 나도 끝까지 / 싸우겠다."},
-    {"selector":"00/31","entry_index":116,"draft_translation":"넷토! // 동료 몇 명이 / 넷 범죄에 휘말려 / 당하고 말았어! // 넷토! // 너라면 어떻게든 / 해결해 줄 거지?[waitSkip 15] 그렇지!"},
-    {"selector":"00/31","entry_index":117,"draft_translation":"브라더! / 오랜만이야! // 우린 괜찮아. / 노 프라블럼이라고! // 뭐? / 내 파트너가 안 보인다고? // 그건 말하지 않기로 프로미스야... / 훌쩍..."},
-    {"selector":"00/31","entry_index":118,"draft_translation":"싸운다해~~~~~~!! / 전투다해~~~~~~~~~!! // 그대가 바이러스를 / 쓰러뜨리지 못할 리 있겠냐해! / 아니, 없다해! // 네트워크를 파괴당한 / 아지나인의 원한, / 지금 갚을 때다해!"},
-    {"selector":"00/31","entry_index":119,"draft_translation":"바이러스로부터 이 노점을 지키겠어! // ...라고 말하고 싶지만 / 사실 난 치킨, 겁쟁이야... // 치킨 장수가 치킨이라니...[waitSkip 15] / 괴롭다고, 마이셀프..."},
-    {"selector":"00/31","entry_index":190,"draft_translation":"헬로~! / 당신 일본인입니~까? // 일본에는 굿한 칩이 / 매니, 매니 있다고 들었어~요. // 당신, 「[printChip chip=157] [printCode code=D]」을 / 가지고 있습니~까? // 있다면 내 / 「[printChip chip=63] [printCode code=P]」와 / 체인지해 주세~요. // OK입니까? 허~헝? / OK / NO예요 // 오~! 왜입니~까? / 와~이? // 일본인은 소문대로 / 구두쇠입니~까? // 그렇지 않다면 / 체인지해 주세~요."},
-    {"selector":"00/31","entry_index":191,"draft_translation":"OK? 예이! // 역시 일본 사람! / 통이 커~요!! // 아메롭파인도 / 거짓말하지 않아~요. // 내 칩을 당신에게 / 포 유예~요!"},
-    {"selector":"00/31","entry_index":192,"draft_translation":"넷토는 / 칩 데이터 「[printChip chip=63] [printCode code=P]」를 / 획득했다!!"},
-    {"selector":"00/31","entry_index":193,"draft_translation":"오! 일본 사람! / 생큐예요!"},
-    {"selector":"00/31","entry_index":194,"draft_translation":"헤이! 일본 남자!! / 역시 와 줬네~요! // 유의 「[printChip chip=157] [printCode code=D]」와 / 미의 「[printChip chip=63] [printCode code=P]」를 / 체인지해 줄 건가~요? 허~헝? // 그래~요! / 아니야 // 오오오~ 노~!! / 난 일본인을 믿어~요. // 유가 칩을 체인지해 주기를 // 기다릴게~요! / 웨이트 포 유예~요!!"},
-    {"selector":"00/31","entry_index":195,"draft_translation":"와우! / 체인지할 칩이 없네~요. // 혹시 폴더 안에 / 들어 있지 않습니~까? // 체인지할 때는 / 교환할 칩을 가방 안에 / 넣어 두세~요."},
-    {"selector":"00/31","entry_index":220,"draft_translation":"쓰레기통이다. / 온갖 쓰레기가 어지럽게 / 들어차 있다."},
-    {"selector":"00/31","entry_index":221,"draft_translation":"버려진 곰 인형... // 왜 이곳에 버려졌는지, / 이 인형은 무슨 생각을 하는지, / 작은 사연이 틀림없이 있을 것이다..."},
-    {"selector":"00/31","entry_index":222,"draft_translation":"빈 병과 목재가 / 버려져 있다."},
-    {"selector":"00/31","entry_index":223,"draft_translation":"쓰레기 사이에서 / 쥐가 비좁은 듯 / 식사를 하고 있다..."},
-    {"selector":"00/31","entry_index":224,"draft_translation":"농구 골대다. / 비교적 낮게 달려 있어서 / 덩크슛도 꿈은 아니다."},
-    {"selector":"00/31","entry_index":225,"draft_translation":"어둠 속에서 빛나는 / 수많은 날카로운 눈이 / 이쪽을 노려보고 있다..."},
-    {"selector":"00/31","entry_index":226,"draft_translation":"몹시 비린내가 난다. / 음식물 쓰레기가 / 버려진 모양이다... // 자세히 보니 수많은 바퀴벌레가 / 꿈틀거리고 있다..."},
-    {"selector":"00/31","entry_index":227,"draft_translation":"털이 완전히 뽑힌 닭들이 / 늘어서 있다..."},
-    {"selector":"00/31","entry_index":228,"draft_translation":"라디오에서 독특한 리듬의 / 음악이 들려온다... / 여기에 플러그인할 수 있다!"},
-    {"selector":"00/31","entry_index":229,"draft_translation":"안에서 돌이 날아왔다!"},
-    {"selector":"00/31","entry_index":230,"draft_translation":"라디오에서 독특한 리듬의 / 음악이 들려온다... // 플러그인할 수 있는 구조지만 / 주변에서 살기가 느껴진다..."},
-    {"selector":"00/31","entry_index":231,"draft_translation":"무언가 적혀 있다... // 「전뇌의 숲에 있는 왕국 / 고귀한 자를 모신 방 / 그 중앙에 선 것」"},
-    {"selector":"00/31","entry_index":235,"draft_translation":"부스럭[textSpeed delay=10]...[textSpeed delay=2] // 다가가자 쥐가 달아났다!! // 쥐가 있던 자리에 / 「[printItem item=99]」이 있다... / 조금 더럽지만 쓸 수 있을 것 같다. // 넷토는 / 강화 프로그램 「[printItem item=99]」을 / 획득했다!! // 레귤러 메모리 용량이 / 2메가 늘었다!!"},
-    {"selector":"00/32","entry_index":0,"draft_translation":"록맨 따위 알 게 뭐야!"},
-    {"selector":"00/32","entry_index":190,"draft_translation":"왜 그러니? 꼬·[waitSkip 20]맹·[waitSkip 20]아? / 누나한테 볼일 있어? // 볼일도 없는데 / 여자 방에 함부로 / 들어오는 거 아녀."},
-    {"selector":"00/32","entry_index":191,"draft_translation":"왜, 왜 이래... / 어, 어서 나가랑께! / 사람 부를 거여!"},
-    {"selector":"00/32","entry_index":192,"draft_translation":"그 특이한 말투... / 「괴도 세 자매」 중 한 명이지!? // 훔친 보석을 돌려줘!!"},
-    {"selector":"00/32","entry_index":193,"draft_translation":"호오~ 네가 요즘 / 우리를 캐고 다닌다는 / 그 꼬맹이구먼... // 뭐, 이야기는 일단... // 이 녀석들을 이기고 나서 하자고!!"},
-    {"selector":"00/32","entry_index":194,"draft_translation":"임시"},
-    {"selector":"00/32","entry_index":195,"draft_translation":"와, 와아! 당해 버렸구먼! / 이런 꼬맹이가 이렇게 강할 줄은 / 몰랐어. // 어쩔 수 없구먼~ / 자, 보석은 돌려줄게. // 하지만 네가 내 동생을 / 찾아낼 수 있을까?"},
-    {"selector":"00/32","entry_index":196,"draft_translation":"넷토는 / 「[printItem item=55]」을 / 획득했다!!"},
-    {"selector":"00/32","entry_index":197,"draft_translation":"들켜 버렸으니 어쩔 수 없지. / 가문의 규율에 따라 / 이제 도둑질은 그만둘게~"},
-    {"selector":"00/32","entry_index":220,"draft_translation":"문 안쪽에는 욕실과 화장실이 있는 / 이른바 유닛 배스가 있다."},
-    {"selector":"00/32","entry_index":221,"draft_translation":"선반 중앙에 냉장고가 있다. / 정비를 위해 플러그인할 수 있는 / 구조로 되어 있다."},
-    {"selector":"00/32","entry_index":222,"draft_translation":"커다란 전기 스탠드다. // 밤에 불을 켜면 / 분위기 있는 아메롭파의 밤을 / 연출해 준다."},
-    {"selector":"00/32","entry_index":223,"draft_translation":"테이블 위에는 룸서비스 / 메뉴가 놓여 있다."},
-    {"selector":"00/32","entry_index":225,"draft_translation":"오늘은 이제 잘까? / 예 / 아니요"},
-    {"selector":"00/32","entry_index":226,"draft_translation":"오늘 있었던 일을 / PET에 저장해 둘까? / 예 / 아니요"},
-    {"selector":"00/32","entry_index":227,"draft_translation":"OK!...[waitSkip 30] / 저장했어!"},
-    {"selector":"00/32","entry_index":228,"draft_translation":"넷토, 잘 자!"},
-    {"selector":"00/32","entry_index":229,"draft_translation":"저장에 실패한 것 같아... // 한 번 더 해 볼게. / 예 / 아니요"},
-    {"selector":"00/32","entry_index":230,"draft_translation":"넷토, 모처럼 외국에 왔는데 / 낮잠을 자면 아깝잖아."},
-    {"selector":"00/32","entry_index":232,"draft_translation":"이미 저장 데이터가 있다면 / 덮어쓰게 되는데 괜찮아? / 예 / 아니요"},
-    {"selector":"00/32","entry_index":233,"draft_translation":"일본에는 없는 커다란 침대다. / 하지만 지금은 졸리지 않다..."},
-    {"selector":"00/32","entry_index":235,"draft_translation":"부스럭[textSpeed delay=10]...[textSpeed delay=2] // 넷토는 / 냉장고를 열어 보았다... // 「[printItem item=96]」이 있다... / 차갑지만 쓸 수 있을 것 같다. // 넷토는 / 강화 프로그램 「[printItem item=96]」을 / 획득했다!!"},
-    {"selector":"00/33","entry_index":2,"draft_translation":"넷토, 밀리어네어 씨에게 / 넷배틀을 신청할까? / 예 / 아니요"},
-    {"selector":"00/33","entry_index":3,"draft_translation":"왠지 온몸이 짜릿해졌어!!"},
-    {"selector":"00/33","entry_index":4,"draft_translation":"그래... 느껴져. / 너에겐 무언가가 부족해."}
-  ]
+ "schema_version": 1,
+ "kind": "authored_multi_archive_translation_batch",
+ "batch_number": 14,
+ "entries": [
+  {
+   "selector": "00/31",
+   "entry_index": 10,
+   "draft_translation": "무슨 일이냐해? / 함부로 말 걸지 마라해! // 나는 아지나 사람이다해! / 일본인 아니다해!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 11,
+   "draft_translation": "장사에 방해돼! / 저리 가! 고 어웨이!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 15,
+   "draft_translation": "내가 라울인 건 맞지만...[waitSkip 30] / 그렇군, 짐의 소개인가. // 좋다... 하지만 난 / 겁쟁이를 도울 생각은 없다. // 내 선더맨을 쓰러뜨려 봐라! / 그러면 라디오를 통해 / 인터넷에 접속하게 해 주지. // 선더맨을 쓰러뜨릴 실력이라면 / 그 뒤의 길은 저절로 / 열릴 것이다... // 자, 어쩌겠나?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 16,
+   "draft_translation": "왜 그러지? / 나와 넷배틀할 마음이 생겼나?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 17,
+   "draft_translation": "넷토, 라울 씨에게 / 넷배틀을 신청할까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 18,
+   "draft_translation": "우리 부족과 / 동료들의 긍지가 / 나를 승리로 이끌 것이다!!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 19,
+   "draft_translation": "용기 없는 자에게 / 찾아올 미래는 없다..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 20,
+   "draft_translation": "패자에게는 승자를 기리는 / 시간이 필요하다...[waitSkip 30] / 우리 부족의 규율이다."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 23,
+   "draft_translation": "이것이 일본의 사무라이인가..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 24,
+   "draft_translation": "오늘은 패배를 인정하지... / 하지만 다음에는 다른 결과가 / 너를 기다리고 있을 것이다!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 25,
+   "draft_translation": "이렇게 될 줄 알고 있었다... / 우리 부족은 / 최강의 부족이니까..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 27,
+   "draft_translation": "넷토는 / 「[printItem item=84]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 31,
+   "draft_translation": "네가 용사라는 사실은 / 증명됐다... // 자, 이제 인터넷에 / 접속하도록 해라..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 32,
+   "draft_translation": "두 번의 패배는 / 한 번의 패배보다 / 훨씬 무거운 의미를 지닌다..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 33,
+   "draft_translation": "우리 부족에 전해지는 / 전설의 강자... / 너는 그의 환생인가...?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 35,
+   "draft_translation": "너는 이제 우리의 동료다."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 36,
+   "draft_translation": "라울 씨에게 / 허락을 받은 모양이군... // 그럼 어서 플러그인해서 / 여권과 칩을 찾으러 가. // ...언더넷까지 흘러 들어가면 / 여권은 다시 못 찾으니까 / 서두르는 게 좋아."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 37,
+   "draft_translation": "헤이! / 우리의 새 브라더! / 잘 지내고 있어?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 38,
+   "draft_translation": "저쪽 농구 골대 아래에 있는 분이 / 우리 리더 라울 씨야. // ...이런, / 그건 이미 알고 있었지! // 이거 참 우습군! / 와하하하하하하!!!!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 39,
+   "draft_translation": "무슨 일이냐해, 형제? // 아지나인과 일본인은 / 아주 옛날부터 형제다해! / 사이좋게 지내자해!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 40,
+   "draft_translation": "헤이, 컴 온 가이!! / 치킨이 먹고 싶으면 언제든 먹어!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 45,
+   "draft_translation": "찾는 게 있냐해, 형제? // 「[printChip chip=111] [printCode code=*]」은 / 일본에서 흔하다고 들었다해. // 일본인 관광객 중 누군가 / 분명 가지고 있지 않겠냐해?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 46,
+   "draft_translation": "도움이 된 것 같아 기쁘다해."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 50,
+   "draft_translation": "헤헤, 내 정보가 도움 됐지? / 그럼 / 전혀 // 배은망덕한 녀석이군. // 저리 가 버려!!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 51,
+   "draft_translation": "역시 그렇지. / 아까 한 말은 농담이었지?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 52,
+   "draft_translation": "그럼 약속대로 / 「[printChip chip=111] [printCode code=*]」을 줘. / 그래! / 싫어 // 뭐라고, 바보야!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 53,
+   "draft_translation": "역시 브라더야![waitSkip 30] // ...라니, 가방 안에 / 없잖아! // ...혹시 장비 중이라면 / 얼른 빼 두라고."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 54,
+   "draft_translation": "그럼! 내놔."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 55,
+   "draft_translation": "넷토는 / 「[printChip chip=111] [printCode code=*]」을 / 짐에게 주었다!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 56,
+   "draft_translation": "해냈다! / 이제 모두에게 자랑할 수 있어! // ...참, 깜빡했네. / 배틀칩 정보였지?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 57,
+   "draft_translation": "부자로 유명한 밀리어네어라는 / 부인이 희귀한 칩을 / 비싼 값에 샀다는 이야기야. // 워낙 부자니까 / 어디 있을지는 짐작이 가지?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 58,
+   "draft_translation": "다행이네... // 그러고 보니 / 네 이름을 안 물어봤군. // 너는...[waitSkip 30] / 넷토라고 하는구나. // 좋은 이름이야, 넷토!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 60,
+   "draft_translation": "모닝! 넷토! / 아침부터 무슨 일이야? // 오피셜 국제회의? / 그건 여기가 아니겠지."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 61,
+   "draft_translation": "여긴 관광객이 올 곳이 아냐!! / 나가! 겟 아웃! // ...라는 건 농담이야![waitSkip 15] / 조크라고, 브라더!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 62,
+   "draft_translation": "우리 리더 라울 씨라면 / 아침 일찍 나갔어. // 성 쪽에 볼일이 있다고 / 말했던 것 같아."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 63,
+   "draft_translation": "좋은 아침이다해."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 64,
+   "draft_translation": "난 매일 아침 / 기도를 올려... // 마이 갓과 / 신께서 내려 주신 치킨에게... // 무슨 일이든 / 감사하는 마음이 중요해, / 브라더."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 80,
+   "draft_translation": "성에서 큰 사건이 / 있었다던데, // 어떤 일본인 소년 넷배틀러의 / 활약으로 해결됐다고 해. // ...혹시 넷토인가? // 설마!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 81,
+   "draft_translation": "네가 우리 리더 라울 씨를 / 넷배틀에서 이겼다는 / 그 녀석이냐? // 제법인데!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 82,
+   "draft_translation": "이젠 괜찮다고 말하고 싶지만 / 우리 부족에게 거짓말은 사형감이다... // 아직 상처가 욱신거리지만 / 용사가 찾아왔으니, / 선더맨과 함께 예를 다하겠다."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 90,
+   "draft_translation": "큰길이 소란스럽네. / 무슨 일이 생긴 거야?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 91,
+   "draft_translation": "안녕, 형제! / 잘 지내나!? 뭐? 큰길이 / 큰일 났다고? // 큰길 녀석들을 뒷골목에 / 들여보내 달라고? / 흥! 우리와는 상관없어!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 92,
+   "draft_translation": "... // 큰길 사람들이 / 고통받고 있는 모양이군... // ..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 96,
+   "draft_translation": "햇볕이 그렇게 강하다고? // 그건 아마 환경 유지 시스템에 / 이상이 생긴 거야. // 아메롭파의 기후는 / 환경 유지 시스템으로 / 제어되거든. // 난 뭐든 알고 있지. // 그런데 햇볕이 강하다는 건 / 자외선도 상당히 강할 수 있어. // 잘못하면 / 꽤 위험한 일이 될지도 몰라."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 97,
+   "draft_translation": "라울 씨를 이긴 / 네 부탁이라면 / 거절할 수 없지. // 큰길 녀석들을 / 들어오게 해 줬어."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 98,
+   "draft_translation": "순순히 뒷골목에 / 들여보내 줬어... // 뒷, 뒷골목 사람들, / 생각보다 친절하네... // 덜덜..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 99,
+   "draft_translation": "여기라면 어떻게든 / 저 강렬한 햇볕을 / 피할 수 있겠어."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 100,
+   "draft_translation": "휴~ 살았어~요... / 그런데 이 햇볕은 / 언제까지 계속될까요?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 105,
+   "draft_translation": "햇볕이 원래대로 돌아온 것 같아. // 그렇다면 환경 유지 시스템도 / 고쳐졌다는 건가?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 106,
+   "draft_translation": "아까 큰길 녀석들과 / 조금 이야기해 봤는데, / 제법 재미있는 녀석들이더군. // 잘난 척하는 녀석들뿐이라고 / 생각했는데 아니었던 모양이야."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 107,
+   "draft_translation": "상처도 많이 나았다... / 이건 진실이다..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 115,
+   "draft_translation": "고스펠과의 싸움은 힘겹지만 / 모두 하나로 뭉쳐 잘 싸우고 있다... // 녀석들은 나의 긍지... / 모두를 위해 나도 끝까지 / 싸우겠다."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 116,
+   "draft_translation": "넷토! // 동료 몇 명이 / 넷 범죄에 휘말려 / 당하고 말았어! // 넷토! // 너라면 어떻게든 / 해결해 줄 거지?[waitSkip 15] 그렇지!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 117,
+   "draft_translation": "브라더! / 오랜만이야! // 우린 괜찮아. / 노 프라블럼이라고! // 뭐? / 내 파트너가 안 보인다고? // 그건 말하지 않기로 프로미스야... / 훌쩍..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 118,
+   "draft_translation": "싸운다해~~~~~~!! / 전투다해~~~~~~~~~!! // 그대가 바이러스를 / 쓰러뜨리지 못할 리 있겠냐해! / 아니, 없다해! // 네트워크를 파괴당한 / 아지나인의 원한, / 지금 갚을 때다해!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 119,
+   "draft_translation": "바이러스로부터 이 노점을 지키겠어! // ...라고 말하고 싶지만 / 사실 난 치킨, 겁쟁이야... // 치킨 장수가 치킨이라니...[waitSkip 15] / 괴롭다고, 마이셀프..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 190,
+   "draft_translation": "헬로~! / 당신 일본인입니~까? // 일본에는 굿한 칩이 / 매니, 매니 있다고 들었어~요. // 당신, 「[printChip chip=157] [printCode code=D]」을 / 가지고 있습니~까? // 있다면 내 / 「[printChip chip=63] [printCode code=P]」와 / 체인지해 주세~요. // OK입니까? 허~헝? / OK / NO예요 // 오~! 왜입니~까? / 와~이? // 일본인은 소문대로 / 구두쇠입니~까? // 그렇지 않다면 / 체인지해 주세~요."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 191,
+   "draft_translation": "OK? 예이! // 역시 일본 사람! / 통이 커~요!! // 아메롭파인도 / 거짓말하지 않아~요. // 내 칩을 당신에게 / 포 유예~요!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 192,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=63] [printCode code=P]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 193,
+   "draft_translation": "오! 일본 사람! / 생큐예요!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 194,
+   "draft_translation": "헤이! 일본 남자!! / 역시 와 줬네~요! // 유의 「[printChip chip=157] [printCode code=D]」와 / 미의 「[printChip chip=63] [printCode code=P]」를 / 체인지해 줄 건가~요? 허~헝? // 그래~요! / 아니야 // 오오오~ 노~!! / 난 일본인을 믿어~요. // 유가 칩을 체인지해 주기를 // 기다릴게~요! / 웨이트 포 유예~요!!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 195,
+   "draft_translation": "와우! / 체인지할 칩이 없네~요. // 혹시 폴더 안에 / 들어 있지 않습니~까? // 체인지할 때는 / 교환할 칩을 가방 안에 / 넣어 두세~요."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 220,
+   "draft_translation": "쓰레기통이다. / 온갖 쓰레기가 어지럽게 / 들어차 있다."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 221,
+   "draft_translation": "버려진 곰 인형... // 왜 이곳에 버려졌는지, / 이 인형은 무슨 생각을 하는지, / 작은 사연이 틀림없이 있을 것이다..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 222,
+   "draft_translation": "빈 병과 목재가 / 버려져 있다."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 223,
+   "draft_translation": "쓰레기 사이에서 / 쥐가 비좁은 듯 / 식사를 하고 있다..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 224,
+   "draft_translation": "농구 골대다. / 비교적 낮게 달려 있어서 / 덩크슛도 꿈은 아니다."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 225,
+   "draft_translation": "어둠 속에서 빛나는 / 수많은 날카로운 눈이 / 이쪽을 노려보고 있다..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 226,
+   "draft_translation": "몹시 비린내가 난다. / 음식물 쓰레기가 / 버려진 모양이다... // 자세히 보니 수많은 바퀴벌레가 / 꿈틀거리고 있다..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 227,
+   "draft_translation": "털이 완전히 뽑힌 닭들이 / 늘어서 있다..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 228,
+   "draft_translation": "라디오에서 독특한 리듬의 / 음악이 들려온다... / 여기에 플러그인할 수 있다!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 229,
+   "draft_translation": "안에서 돌이 날아왔다!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 230,
+   "draft_translation": "라디오에서 독특한 리듬의 / 음악이 들려온다... // 플러그인할 수 있는 구조지만 / 주변에서 살기가 느껴진다..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 231,
+   "draft_translation": "무언가 적혀 있다... // 「전뇌의 숲에 있는 왕국 / 고귀한 자를 모신 방 / 그 중앙에 선 것」"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 235,
+   "draft_translation": "부스럭[textSpeed delay=10]...[textSpeed delay=2] // 다가가자 쥐가 달아났다!! // 쥐가 있던 자리에 / 「[printItem item=99]」이 있다... / 조금 더럽지만 쓸 수 있을 것 같다. // 넷토는 / 강화 프로그램 「[printItem item=99]」을 / 획득했다!! // 레귤러 메모리 용량이 / 2메가 늘었다!!"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 0,
+   "draft_translation": "록맨 따위 알 게 뭐야!"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 190,
+   "draft_translation": "왜 그러니? 꼬·[waitSkip 20]맹·[waitSkip 20]아? / 누나한테 볼일 있어? // 볼일도 없는데 / 여자 방에 함부로 / 들어오는 거 아녀."
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 191,
+   "draft_translation": "왜, 왜 이래... / 어, 어서 나가랑께! / 사람 부를 거여!"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 192,
+   "draft_translation": "그 특이한 말투... / 「괴도 세 자매」 중 한 명이지!? // 훔친 보석을 돌려줘!!"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 193,
+   "draft_translation": "호오~ 네가 요즘 / 우리를 캐고 다닌다는 / 그 꼬맹이구먼... // 뭐, 이야기는 일단... // 이 녀석들을 이기고 나서 하자고!!"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 194,
+   "draft_translation": "임시"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 195,
+   "draft_translation": "와, 와아! 당해 버렸구먼! / 이런 꼬맹이가 이렇게 강할 줄은 / 몰랐어. // 어쩔 수 없구먼~ / 자, 보석은 돌려줄게. // 하지만 네가 내 동생을 / 찾아낼 수 있을까?"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 196,
+   "draft_translation": "넷토는 / 「[printItem item=55]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 197,
+   "draft_translation": "들켜 버렸으니 어쩔 수 없지. / 가문의 규율에 따라 / 이제 도둑질은 그만둘게~"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 220,
+   "draft_translation": "문 안쪽에는 욕실과 화장실이 있는 / 이른바 유닛 배스가 있다."
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 221,
+   "draft_translation": "선반 중앙에 냉장고가 있다. / 정비를 위해 플러그인할 수 있는 / 구조로 되어 있다."
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 222,
+   "draft_translation": "커다란 전기 스탠드다. // 밤에 불을 켜면 / 분위기 있는 아메롭파의 밤을 / 연출해 준다."
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 223,
+   "draft_translation": "테이블 위에는 룸서비스 / 메뉴가 놓여 있다."
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 225,
+   "draft_translation": "오늘은 이제 잘까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 226,
+   "draft_translation": "오늘 있었던 일을 / PET에 저장해 둘까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 227,
+   "draft_translation": "OK!...[waitSkip 30] / 저장했어!"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 228,
+   "draft_translation": "넷토, 잘 자!"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 229,
+   "draft_translation": "저장에 실패한 것 같아... // 한 번 더 해 볼게. / 예 / 아니요"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 230,
+   "draft_translation": "넷토, 모처럼 외국에 왔는데 / 낮잠을 자면 아깝잖아."
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 232,
+   "draft_translation": "이미 저장 데이터가 있다면 / 덮어쓰게 되는데 괜찮아? / 예 / 아니요"
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 233,
+   "draft_translation": "일본에는 없는 커다란 침대다. / 하지만 지금은 졸리지 않다..."
+  },
+  {
+   "selector": "00/32",
+   "entry_index": 235,
+   "draft_translation": "부스럭[textSpeed delay=10]...[textSpeed delay=2] // 넷토는 / 냉장고를 열어 보았다... // 「[printItem item=96]」가 있다... / 차갑지만 쓸 수 있을 것 같다. // 넷토는 / 강화 프로그램 「[printItem item=96]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/33",
+   "entry_index": 2,
+   "draft_translation": "넷토, 밀리어네어 씨에게 / 넷배틀을 신청할까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/33",
+   "entry_index": 3,
+   "draft_translation": "왠지 온몸이 짜릿해졌어!!"
+  },
+  {
+   "selector": "00/33",
+   "entry_index": 4,
+   "draft_translation": "그래... 느껴져. / 너에겐 무언가가 부족해."
+  }
+ ]
 }

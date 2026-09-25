@@ -1,0 +1,1338 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/07EA9C4",
+ "entry_prefix": "archive_u07EA9C4",
+ "rom_offset": 8300996,
+ "storage": "lz77",
+ "byte_length": 5191,
+ "payload_byte_length": 6854,
+ "tpl_filename": "uncatalogued_archive_tpl/lz_07EA9C4.tpl",
+ "entry_count": 63,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u07EA9C4_entry_0000",
+   "source_entry_offset": 128,
+   "source_entry_byte_length": 198,
+   "source_entry_sha256": "fe64088c295e78784755964eb169f084c4d6be748aead610a4636d67271ffef9",
+   "source_entry_raw_hex": "f1 02 0f 24 14 3a 4a 3a 1b 24 81 eb e9 a2 b1 00 a1 9a cf d8 c8 d6 85 e8 0d 0c 33 17 4a 17 1d 55 3a 3d b1 e8 cf e5 05 9b b6 9b a2 9b 9e c8 c7 a4 b7 a4 e5 05 9b 81 eb e9 b8 c8 ad b1 00 9e a0 a4 1d 12 20 59 12 9e bf e8 a3 9a a4 c8 00 1b 59 51 cf e5 05 9b b6 9b b7 d6 e8 ad c8 d6 bb 9a 9a 9e bf 00 9d a4 9c ab 81 81 eb e9 a3 e5 02 a7 a0 00 4a 1e 33 cf e5 05 9b b6 9b 81 eb e9 4a 17 1a 78 72 6d d6 1b 5a 78 41 c7 e8 9f e5 05 9b 9e a5 c1 ac 85 eb e9 5f 4e 1a 3a c7 00 a4 d8 bf a0 9d a4 ab 85 e8 b2 ad a5 ac 00 1b 5a 78 41 16 5c 59 1e c9 e8 9b ab c1 c8 d3 d1 81 00 e5 b1 e5 02 ab a8 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "bc64ad8916e0440b337e3b92f51df80d182f24c85b4c91a07ff48a55aa31d505",
+   "japanese_characters": 145,
+   "source_literals": [
+    "オハコンバンチハ!",
+    "この けいじばんで、\nウイルスバスティングの\nじょうほうこうかんをしましょう!",
+    "みんなの かくしテクニックから\nさいしん チップじょうほうまで\nなんでもいいから おしえて!!",
+    "さっそく バトルじょうほう!",
+    "バスターUPでチャージを\nきょうかすると、",
+    "Bボタンを しばらくおして、\nはなすと チャージショットが\nうてるんだぜ! 知ってた?"
+   ],
+   "translated_literals": [
+    "좋은 아침점심저녁!",
+    "이 게시판에서\n바이러스 버스팅\n정보를 교환합시다!",
+    "다들 숨겨 둔 테크닉부터\n최신 칩 정보까지\n뭐든 좋으니까 알려 줘!!",
+    "그럼 바로 배틀 정보!",
+    "버스터 UP으로 차지를\n강화하면、",
+    "B 버튼을 한동안 누르다가\n떼면 차지 샷을\n쏠 수 있어! 알고 있었어?"
+   ]
+  },
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u07EA9C4_entry_0001",
+   "source_entry_offset": 326,
+   "source_entry_byte_length": 213,
+   "source_entry_sha256": "ef679a7095649ed0841660620923b9db82c2215ccc64c65319e6907b4bf4e31c",
+   "source_entry_raw_hex": "f1 02 a2 b1 99 9a d3 85 0c 3a 1a 78 22 59 1e b1 e8 90 48 3a 15 3a 0e 32 0b 04 91 d6 00 31 4b 32 78 ac 9a 9b e8 0d 0c 33 17 ae d6 99 e5 02 a8 c8 d3 a1 d7 eb e9 ac aa d1 c8 85 b3 9e c0 b1 36 59 10 b8 a8 9a ad b1 c7 e8 a5 cd 9a 17 50 78 49 d6 00 ac d8 a4 ab 9f a8 c8 d3 eb e9 a7 b1 36 59 10 ae 99 a8 c1 ac 85 10 31 45 c9 a4 d9 c2 ab e8 a4 d8 bf a0 00 9b cd a1 ad a0 ad e5 02 ab a4 b7 e5 02 a8 be eb e9 a7 b1 0b 1e 85 ad c8 ac 9e 00 ae cc bf c2 a8 c8 d3 e8 31 4b 32 78 d3 a1 d3 e5 02 a8 9e bf be 9e e5 02 a8 a1 d7 eb e9 b6 9e ae 00 aa be 9a 0d 0c 33 17 c9 9a a8 bf 88 88 88 e8 a4 e5 05 9b cf 9f 85 2e 4a 9e e5 02 a8 d6 a5 ad 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "1df878ef6405da009aacb5e86ff57e9aecdac9861a278f98fa43b324af99607d",
+   "japanese_characters": 171,
+   "source_literals": [
+    "このあいだ、インターネットの\n「デンサンエリア3」で ラビリーという\nウイルスにであったんだけど",
+    "とつぜん、ひかりのワッカみたいなのを\nすごいスピードで とばしてきたんだ",
+    "そのワッカにあたると、カラダがしびれて\nしばらく うごけなくなってしまったよ",
+    "そのアト、なんとか にげられたんだ\nラビリーだけだったからよかったけど",
+    "ほかに つよいウイルスがいたら・・・\nしょうじき、ヤバかったですな!"
+   ],
+   "translated_literals": [
+    "얼마 전에 인터넷의\n「덴산 에어리어 3」에서 라빌리라는\n바이러스를 만났는데",
+    "갑자기 빛나는 고리 같은 걸\n엄청난 속도로 날려 왔어",
+    "그 고리에 맞으면 몸이 저려서\n한동안 움직일 수 없게 돼 버려",
+    "그 뒤로 어떻게든 도망쳤어\n라빌리뿐이라 다행이었지만",
+    "다른 강한 바이러스가 있었다면...\n솔직히 위험했을 거예요!"
+   ]
+  },
+  {
+   "entry_index": 2,
+   "entry_id": "archive_u07EA9C4_entry_0002",
+   "source_entry_offset": 539,
+   "source_entry_byte_length": 145,
+   "source_entry_sha256": "388052c409604d4cb0927766350a7538bc89df50ac8c5779015bb23f1be2155d",
+   "source_entry_raw_hex": "f1 02 d7 9b a4 ab bb 85 2c 59 1e 78 33 ae e8 9e ab ad 9a 0b 1f 1a ae 00 c3 9b b6 9b 81 81 eb e9 d7 a2 ae d6 bb 85 be a0 99 bf c4 c2 c1 00 2c 59 1e 78 33 e8 2c 59 1e 78 33 c7 a2 bf a4 ba c1 b1 ae e8 bd 9b a2 9b ad 1b 59 51 b2 85 42 4a 32 81 81 eb e9 90 f9 00 71 01 91 eb e9 a2 c2 d6 85 99 b1 00 9b e5 02 ac 9b a4 9a e8 a4 e5 05 9b cc 9f b2 a2 9b cc 9f bb e8 16 5a 59 1e 0b 0d 1e 81 81 eb e9 9a a9 d7 85 9d a8 ba a4 99 c2 eb ea ff 00 00",
+   "source_tpl_block_sha256": "5c581a003a44fd192468c21975bedb0c446fe9f910f71d7b8605378b65ef36ca",
+   "japanese_characters": 103,
+   "source_literals": [
+    "どうしても、メットールに\nかてないアナタに ろうほう!!",
+    "どこにでも、よくあらわれる メットール\nメットールをこらしめるのに\nゆうこうなチップは、ズバリ!!",
+    "「",
+    "」",
+    "これで、あの うっとうしい\nしょうげきはこうげきも\nシャットアウト!!",
+    "いちど、おためしあれ"
+   ],
+   "translated_literals": [
+    "아무리 해도 메톨을\n못 이기는 당신에게 희소식!!",
+    "어디에나 자주 나타나는 메톨\n메톨을 혼내 주는 데\n효과적인 칩은 바로!!",
+    "「",
+    "」",
+    "이걸로 그 성가신\n충격파 공격도\n완전 차단!!",
+    "한번 시험해 보시길"
+   ]
+  },
+  {
+   "entry_index": 3,
+   "entry_id": "archive_u07EA9C4_entry_0003",
+   "source_entry_offset": 684,
+   "source_entry_byte_length": 57,
+   "source_entry_sha256": "b3dd3c6fa1d3210e97e20b2b2e2abef7578caf6a1784d1c9149f5c0d95300d20",
+   "source_entry_raw_hex": "f1 02 34 3c 5b 31 78 1b 59 51 ae ad ae 9a c2 be 9b 9e ad e8 0f 34 85 a1 e5 02 a2 9b 4b 4b 32 d3 9e bf eb e9 90 f9 00 7a 01 91 e8 d6 bb 85 9a c2 ac a0 9e 8c eb ea ff 00 00",
+   "source_tpl_block_sha256": "93152425df8a15b2e23a5ef4d000c85da44b4eaacae19c5274f659e92190ec1c",
+   "japanese_characters": 36,
+   "source_literals": [
+    "レギュラーチップになにいれようかな\nオレ、けっこうビビリだから",
+    "「",
+    "」\nでも、いれとくか~"
+   ],
+   "translated_literals": [
+    "레귤러 칩에 뭘 넣을까\n나 꽤 겁쟁이라서",
+    "「",
+    "」\n라도 넣어 둘까~"
+   ]
+  },
+  {
+   "entry_index": 4,
+   "entry_id": "archive_u07EA9C4_entry_0004",
+   "source_entry_offset": 741,
+   "source_entry_byte_length": 37,
+   "source_entry_sha256": "ed525f76d55e0b202f35412dde4c9ba21281a331da621f5ac109a45858c75c09",
+   "source_entry_raw_hex": "f1 02 99 b7 9a b0 00 28 3a 1e b1 4b 4b 32 b2 e8 90 f9 00 8a 01 91 e8 c7 00 9a c2 c1 bb c8 d3 d1 eb ea ff 00 00",
+   "source_tpl_block_sha256": "140cf3f0283a2fd253d646221b18b9724ec69c1d2d1ea3aef057415d4a42de7f",
+   "japanese_characters": 20,
+   "source_literals": [
+    "あまいね ホントのビビリは\n「",
+    "」\nを いれるもんだぜ"
+   ],
+   "translated_literals": [
+    "아직 멀었어 진짜 겁쟁이는\n「",
+    "」\n를 넣는 법이지"
+   ]
+  },
+  {
+   "entry_index": 5,
+   "entry_id": "archive_u07EA9C4_entry_0005",
+   "source_entry_offset": 778,
+   "source_entry_byte_length": 78,
+   "source_entry_sha256": "9e0c3d71949bb7400a04f9dc1e410f7fc379143b18fd86f6bc8522ccea035f0d",
+   "source_entry_raw_hex": "f1 02 a3 9a 9f c8 85 0c 3a 1a 78 22 59 1e c7 e8 9b c3 aa 9a ab 9a c1 ac a3 eb e9 99 b7 c0 85 b8 9e a1 a8 a2 ac b1 ad 9a 1f 4b c9 e8 9a a8 c8 d3 a1 c2 d7 88 88 88 eb e9 0b 34 b2 9a e5 02 a8 9a ad c8 d3 e5 02 a8 c8 d3 c3 eb ea ff 00 00",
+   "source_tpl_block_sha256": "4c4ddfa7b99f3a2165bae20fd2e79569dcff2a84f23da1991c94c1d68249c902",
+   "japanese_characters": 61,
+   "source_literals": [
+    "さいきん、インターネットを\nうろついているとさ",
+    "あまり、みかけたことのないナビが\nいたんだけれど・・・",
+    "アレはいったいなんだったんだろ"
+   ],
+   "translated_literals": [
+    "요즘 인터넷을\n돌아다니다 보면 말이야",
+    "별로 본 적 없는 내비가\n있었는데...",
+    "그건 대체 뭐였을까"
+   ]
+  },
+  {
+   "entry_index": 6,
+   "entry_id": "archive_u07EA9C4_entry_0006",
+   "source_entry_offset": 856,
+   "source_entry_byte_length": 73,
+   "source_entry_sha256": "44ffaf4426c087d36526510672701cd45d90190b4b0d3b3ff209218b429372c6",
+   "source_entry_raw_hex": "f1 02 0f 34 bb 00 b8 a8 be 81 81 e8 b8 a8 ac a2 c3 85 9e ad c0 aa be a7 9b d3 e5 02 a8 81 eb e9 99 c8 ad b1 c9 85 9a 9f ad c0 9d a7 9a 9e 9e e5 02 ab 9f a8 bf e8 4b 4b e5 02 a9 e5 03 9b be 00 29 41 d6 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "b0ef7b06ec88c7def385e9ed1e31c81a6375d4b2dc063e1c147709e09106cd72",
+   "japanese_characters": 50,
+   "source_literals": [
+    "オレも みたよ!!\nみたところ、かなりつよそうだった!",
+    "あんなのが、いきなりおそいかかってきたら\nビビっちゃうよ マジで!"
+   ],
+   "translated_literals": [
+    "나도 봤어!!\n보기엔 꽤 강해 보였어!",
+    "저런 게 갑자기 덮쳐 오면\n진짜 쫄 거야!"
+   ]
+  },
+  {
+   "entry_index": 7,
+   "entry_id": "archive_u07EA9C4_entry_0007",
+   "source_entry_offset": 929,
+   "source_entry_byte_length": 131,
+   "source_entry_sha256": "3dfdaad0d5587613163f60efe68b682b6863f114104309fcb9d4070927dfb2be",
+   "source_entry_raw_hex": "f1 02 4e 12 b1 1d 12 20 59 12 c7 9d a4 9c ab 99 cc c1 be eb e9 90 31 4b 32 3a 3d 91 c7 ab 9f ae 99 ab c1 ac e8 99 9a ab b2 29 25 a5 c1 be b0 eb e9 a7 b1 ac 9f ae 85 9a aa bb b2 ad 9e ad 9e 99 a8 bf ad 9a e8 a2 9b cc 9f c7 a4 ab bc c1 b1 a3 eb e9 4e 12 c9 be a0 aa 9e 9b b1 b2 e8 90 31 4b 32 3a 3d 91 9e bf 90 0b 78 17 12 0e 0c 12 91 e8 a2 c2 c9 a1 e5 02 a2 9b 9f a0 c8 d3 be 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "e862b6ba189822be118f10eeaff9fedc719a437e722f1f8966f5087dd45b1dc7",
+   "japanese_characters": 105,
+   "source_literals": [
+    "ボクのテクニックをおしえてあげるよ",
+    "「ラビリング」をてきにあてると\nあいてはマヒするよね",
+    "そのときに、いつもはなかなかあたらない\nこうげきをしてやるのさ",
+    "ボクがよくつかうのは\n「ラビリング」から「アースクエイク」\nこれがけっこうきくんだよ!"
+   ],
+   "translated_literals": [
+    "내 테크닉을 알려 줄게",
+    "「래빗링」을 적에게 맞히면\n상대는 마비되잖아",
+    "그때 평소엔 잘 안 맞는\n공격을 해 주는 거야",
+    "내가 자주 쓰는 건\n「래빗링」에서 「어스퀘이크」\n이게 꽤 잘 먹혀!"
+   ]
+  },
+  {
+   "entry_index": 8,
+   "entry_id": "archive_u07EA9C4_entry_0008",
+   "source_entry_offset": 1060,
+   "source_entry_byte_length": 108,
+   "source_entry_sha256": "4c23fab90edd0415c0857bdd6bfdde07e05cda68e01f17bf3a474ec4ca6d9082",
+   "source_entry_raw_hex": "f1 02 a2 b1 99 9a d3 85 ad ae cc ae 9d bb e5 02 a8 c8 d3 a1 d7 85 e8 90 0b 1a 59 12 7d 02 01 91 e5 02 ab a3 85 eb e9 90 11 5a 23 3a 91 ac 9e ae 00 a0 e5 02 aa a1 c1 be c0 bb eb e9 90 4c 0c 3b 3a 91 b8 a8 9a ae 00 a2 9b cc 9f b2 c8 9a c9 e8 b3 c3 9a 1b 59 51 ae aa a1 a8 b6 9b c9 85 e8 a2 9b 9e ab 9f d3 be b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "8edfe42084b0d736f471c8c32cfb323401a8e771338838100730d6cc2a5a2673",
+   "japanese_characters": 76,
+   "source_literals": [
+    "このあいだ、なにげにおもったんだけど、\n「アタック+10」ってさ、",
+    "「キャノン」とかに くっつけるよりも",
+    "「ブイガン」みたいに こうげきはんいが\nひろいチップにつけたほうが、\nこうかてきだよね"
+   ],
+   "translated_literals": [
+    "얼마 전에 문득 생각했는데\n「어택+10」 말이야、",
+    "「캐논」 같은 데 붙이는 것보다",
+    "「브이건」처럼 공격 범위가\n넓은 칩에 붙이는 게\n더 효과적이지"
+   ]
+  },
+  {
+   "entry_index": 9,
+   "entry_id": "archive_u07EA9C4_entry_0009",
+   "source_entry_offset": 1168,
+   "source_entry_byte_length": 71,
+   "source_entry_sha256": "2b6ccdbae96551bdc9381f5b171e114d4c7cd72c1ab79ce42c0b237af7b958b7",
+   "source_entry_raw_hex": "f1 02 4a 17 1d 55 3a 3d 34 4d 33 b2 85 0d 0c 33 17 c7 e8 9a e5 02 e0 c8 ae 00 a8 9d a4 a8 c0 85 eb e9 45 2c 78 41 c7 a0 bf c4 d0 ae 00 a8 9d a4 a8 c0 a5 c1 ac e8 99 c9 c0 bc a5 9a bf a4 9a d6 a5 be eb ea ff 00 00",
+   "source_tpl_block_sha256": "3f9a372cc3f77514550e7506a7f4f66cbd6138a53817ef0db9da8deda41e788f",
+   "japanese_characters": 55,
+   "source_literals": [
+    "バスティングレベルは、ウイルスを\nいっぺんに たおしたり、",
+    "ダメージをくらわずに たおしたりすると\nあがりやすいらしいですよ"
+   ],
+   "translated_literals": [
+    "버스팅 레벨은 바이러스를\n한꺼번에 쓰러뜨리거나",
+    "대미지를 안 입고 쓰러뜨리면\n오르기 쉽대요"
+   ]
+  },
+  {
+   "entry_index": 10,
+   "entry_id": "archive_u07EA9C4_entry_0010",
+   "source_entry_offset": 1239,
+   "source_entry_byte_length": 185,
+   "source_entry_sha256": "2facffd6e298d1643b172a5d3c643f00dc100fbc74799ea7fc22eadf346e19d2",
+   "source_entry_raw_hex": "f1 02 9e d1 b1 0d 36 15 d6 00 9f 9a a8 c8 d6 a5 a1 d7 eb e9 19 78 49 85 36 0c 49 19 78 49 85 35 3a 3d 19 78 49 e5 02 ab e8 9d ad cf a1 9a ac 9b b1 00 1b 59 51 d6 a5 be b0 eb e9 a1 9a ac 9b c9 00 9d ad cf 1b 59 51 c7 04 b7 9a e8 cf e5 04 c8 d8 c8 ae 9c bf da ac e8 1f 20 9e c9 00 9d a2 c1 bf a4 9a d6 a5 eb e9 9a e5 02 a8 9a 1f 20 c9 00 9d a2 c1 b1 d6 a4 e5 05 9b 9e b0 eb e9 a8 ba a4 ab b8 be 9b ac 85 9d bb e5 02 a8 c8 d6 a5 c9 85 e8 99 9a ae a0 85 1b 59 51 14 78 49 c9 e8 a7 c3 e5 02 ab 9a ad 9e e5 02 a8 b1 d6 85 d6 9f b7 a6 c8 d6 a4 a8 eb ea ff 00 00",
+   "source_tpl_block_sha256": "ad5fdd47c2bde09f07975890138ba6dd0f3fd7555d261eacf9e8941494b8dcce",
+   "japanese_characters": 146,
+   "source_literals": [
+    "かぜのウワサで きいたんですけど",
+    "ソード、ワイドソード、ロングソードって\nおなじけいとうの チップですよね",
+    "けいとうが おなじチップを3まい\nじゅんばんにえらぶと\nナニかが おこるらしいです",
+    "いったいナニが おこるのでしょうかね",
+    "ためしてみようと、おもったんですが、\nあいにく、チップコードが\nそろっていなかったので、できませんでした"
+   ],
+   "translated_literals": [
+    "바람결에 들은 소문인데요",
+    "소드、 와이드소드、 롱소드는\n같은 계열 칩이잖아요",
+    "같은 계열 칩을 3장\n순서대로 고르면\n뭔가가 일어난대요",
+    "대체 뭐가 일어나는 걸까요",
+    "시험해 보려고 했는데\n공교롭게도 칩 코드가\n안 맞아서 못 했어요"
+   ]
+  },
+  {
+   "entry_index": 11,
+   "entry_id": "archive_u07EA9C4_entry_0011",
+   "source_entry_offset": 1424,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "66cdfca84949ea83570f0ad1bb3fd8fe5fef842ae50f77a3db67bf34d48bbde0",
+   "source_entry_raw_hex": "f1 02 a7 c2 b2 85 b7 e5 02 a8 a0 bb e5 02 ab e8 9f e5 05 9b b8 da 9e 9a d6 a5 b0 8c e8 36 1a 16 bb 00 a2 c8 d7 a9 e5 05 9b a6 c8 a4 ab b8 b7 a5 8c eb ea ff 00 00",
+   "source_tpl_block_sha256": "9c5d0498fc56c9c02be87e27d6319de6147a10557c01fce2f0d3001a05466ee0",
+   "japanese_characters": 37,
+   "source_literals": [
+    "それは、まったくもって\nきょうみぶかいですね~\nワタシも こんどちょうせんしてみます~"
+   ],
+   "translated_literals": [
+    "그거 정말로\n흥미롭네요~\n저도 다음에 도전해 볼게요~"
+   ]
+  },
+  {
+   "entry_index": 12,
+   "entry_id": "archive_u07EA9C4_entry_0012",
+   "source_entry_offset": 1478,
+   "source_entry_byte_length": 64,
+   "source_entry_sha256": "e5f44c4ab22a90cb99d5108d857401bccd1549130b5c4fd081bc178e4456be63",
+   "source_entry_raw_hex": "f1 02 b8 ad a3 c8 b2 85 34 3c 5b 31 78 1b 59 51 ae e8 1f 20 c7 9a c2 ab b7 a5 9e 7c eb e9 0b 1a 16 b2 85 90 11 5a 23 3a 00 5e 91 81 e8 43 78 1a 11 5a 23 3a b0 bf 9a ad b1 81 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "abd073ba49a3509557f7208b8eb2c31b0fb9bee9d356349fc2307ec079318a06",
+   "japanese_characters": 43,
+   "source_literals": [
+    "みなさんは、レギュラーチップに\nナニをいれてますか?",
+    "アタシは、「キャノン A」!\nゼータキャノンねらいなの!!"
+   ],
+   "translated_literals": [
+    "여러분은 레귤러 칩에\n뭘 넣고 있나요?",
+    "나는 「캐논 A」!\n제타캐논을 노리거든!!"
+   ]
+  },
+  {
+   "entry_index": 13,
+   "entry_id": "archive_u07EA9C4_entry_0013",
+   "source_entry_offset": 1542,
+   "source_entry_byte_length": 81,
+   "source_entry_sha256": "fab3b7b1bc496fe36b517b5095eba10bfd825a32d0a2755fe6a93309f653d0b9",
+   "source_entry_raw_hex": "f1 02 51 35 3d 31 2b 0b 49 4a 3a 17 e5 02 ab 00 bc aa d3 b0 e8 4e 12 bb be a0 b0 bf 9b c8 d3 a1 d7 e8 ad 9e ad 9e 00 d6 ad 9a c8 d3 eb e9 d3 a5 53 0c 3a 1e b2 85 34 3c 5b 31 78 1b 59 51 ac e8 5e 61 61 9e ad 7c 00 bc e5 02 dd c0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "6b052726527ec4c7c11750e31b3d3c6917599871111ee504a582d1f9d24cfe0f",
+   "japanese_characters": 59,
+   "source_literals": [
+    "プログラムアドバンスって やつだね\nボクもよくねらうんだけど\nなかなか でないんだ",
+    "だすポイントは、レギュラーチップと\nADDかな? やっぱり"
+   ],
+   "translated_literals": [
+    "프로그램 어드밴스라는 거구나\n나도 자주 노리는데\n좀처럼 안 나와",
+    "내는 포인트는 레귤러 칩과\nADD겠지? 역시"
+   ]
+  },
+  {
+   "entry_index": 14,
+   "entry_id": "archive_u07EA9C4_entry_0014",
+   "source_entry_offset": 1623,
+   "source_entry_byte_length": 123,
+   "source_entry_sha256": "0f373848e4cf976bfeb06f19214c0e08c9f405ccd78e9e3967065a5e794ab38a",
+   "source_entry_raw_hex": "f1 02 14 34 b2 00 ac bb d3 a9 9e bf 9f 9a a8 e8 24 1f 16 ad c8 d3 a1 d7 88 88 88 eb e9 ad c8 d6 bb 85 4a 17 1a 78 d3 a1 d6 b2 e8 d1 e5 02 a8 9a 00 a8 9d a6 ad 9a 0d 0c 33 17 c9 e8 9a c1 bf a4 9a be eb e9 90 16 5c 59 1e 3b 3a 91 bc 90 16 5c 59 12 0d 57 78 4c 91 e8 b8 a8 9a ad 85 9e c8 aa 9b a1 9a b1 1b 59 51 b2 e8 a1 e5 02 a2 9b 00 9e 9e a6 ad 9a be b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "5ee0f0515b15a3d31efe160476bd9c39ff910bac46648654c30325b3ed2dda2f",
+   "japanese_characters": 96,
+   "source_literals": [
+    "コレは ともだちからきいた\nハナシなんだけど・・・",
+    "なんでも、バスターだけでは\nぜったい たおせないウイルスが\nいるらしいよ",
+    "「ショットガン」や「ショックウェーブ」\nみたいな、かんつうけいのチップは\nけっこう かかせないよね"
+   ],
+   "translated_literals": [
+    "이건 친구한테 들은\n얘기인데...",
+    "글쎄、 버스터만으로는\n절대 쓰러뜨릴 수 없는 바이러스가\n있대",
+    "「샷건」이나 「쇼크웨이브」\n같은 관통 계열 칩은\n꽤 필수지"
+   ]
+  },
+  {
+   "entry_index": 15,
+   "entry_id": "archive_u07EA9C4_entry_0015",
+   "source_entry_offset": 1746,
+   "source_entry_byte_length": 67,
+   "source_entry_sha256": "617c9f83eddc1d73049b28309913e36efbb7656d55de3dc52fe8c0b2dda3b35f",
+   "source_entry_raw_hex": "f1 02 bc e5 02 a8 d1 85 b8 c8 ad 9f 9a ab a0 c2 81 e8 90 f9 00 99 01 00 f9 00 1a 03 91 e8 c7 00 3e 59 1e a4 a8 d1 81 81 eb e9 bc e5 02 dd 85 90 80 91 14 78 49 b2 9a 9a be ad 00 2b 26 26 eb ea ff 00 00",
+   "source_tpl_block_sha256": "b4da462ff8ccecc1dfe09cd7ccf5d091dd20c3759e698eb971c3f517f280c84d",
+   "japanese_characters": 33,
+   "source_literals": [
+    "やったぜ、みんなきいてくれ!\n「",
+    " ",
+    "」\nを ゲットしたぜ!!",
+    "やっぱ、「*」コードはいいよな ムフフ"
+   ],
+   "translated_literals": [
+    "해냈다、 다들 들어 줘!\n「",
+    " ",
+    "」\n를 손에 넣었어!!",
+    "역시 「*」 코드는 좋아 무흐흐"
+   ]
+  },
+  {
+   "entry_index": 16,
+   "entry_id": "archive_u07EA9C4_entry_0016",
+   "source_entry_offset": 1813,
+   "source_entry_byte_length": 198,
+   "source_entry_sha256": "94e226e059f4f8f7f6e3224c71b0f8c1d950e4eb59d10920c7dae1473663af70",
+   "source_entry_raw_hex": "f1 02 a9 c4 e5 02 a5 eb e9 0f 34 e5 02 a9 b1 00 cf e5 05 9b b6 9b b2 85 e8 90 f9 00 bc 01 91 e8 b1 14 1e ad c8 d3 a1 d7 eb e9 4a 1e 33 1b 59 51 b1 a2 9b cc 9f c0 e5 05 a0 c7 e8 02 01 99 cc c1 00 a2 9b 9e c9 99 c1 c8 d3 a1 d7 eb e9 a2 9b cc 9f c0 e5 05 a0 c7 00 72 6d a3 a6 a8 9a e8 1b 59 51 c7 9c bf c8 d3 00 0b 1e ae e8 a2 b1 1b 59 51 c7 9c bf d8 ad 9a ac 85 eb e9 a2 9b 9e c9 85 b2 e5 02 9f a3 c2 ad 9a c8 d3 eb e9 99 ac 85 9e 9a b4 a0 a1 9a b1 1b 59 51 ac e8 a0 b8 99 c4 a6 ab bb 00 a2 9b 9e b2 ad 9a 9e bf e8 be 9b a9 e5 04 9b 9a d3 be eb e9 a7 a2 c8 1e 14 85 30 35 16 12 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "8d8ee91851d850cdf335bb538d811f1b13605ae0d4762c56726fa7e81439f5f2",
+   "japanese_characters": 144,
+   "source_literals": [
+    "ちわっす",
+    "オレっちの じょうほうは、\n「",
+    "」\nのコトなんだけど",
+    "バトルチップのこうげきりょくを\n10あげる こうかがあるんだけど",
+    "こうげきりょくを UPさせたい\nチップをえらんだ アトに\nこのチップをえらばないと、",
+    "こうかが、はっきされないんだ",
+    "あと、かいふくけいのチップと\nくみあわせても こうかはないから\nようちゅういだよ",
+    "そこんトコ、ヨロシク!"
+   ],
+   "translated_literals": [
+    "안녕~",
+    "내 정보는\n「",
+    "」\n에 관한 건데",
+    "배틀칩 공격력을\n10 올리는 효과가 있는데",
+    "공격력을 올리고 싶은\n칩을 고른 다음에\n이 칩을 고르지 않으면",
+    "효과가 발휘되지 않아",
+    "그리고 회복 계열 칩과\n조합해도 효과는 없으니까\n주의해야 해",
+    "그 점 잘 부탁해!"
+   ]
+  },
+  {
+   "entry_index": 17,
+   "entry_id": "archive_u07EA9C4_entry_0017",
+   "source_entry_offset": 2011,
+   "source_entry_byte_length": 90,
+   "source_entry_sha256": "814b889ba522c49438f9880d4bfadedd253c2ac602793817367bf419f85ee43e",
+   "source_entry_raw_hex": "f1 02 a2 b1 99 9a d3 85 0b 0f 9a 1f 4b c9 e8 0d 0c 33 17 4a 17 1d 55 3a 3d a4 ab c1 b1 c7 b8 a8 c8 d3 eb e9 a5 cd 1d 12 d3 e5 02 a8 be 81 eb e9 bb a4 9e a4 ab 85 c2 9a b1 00 74 74 74 c7 e8 a8 9d a4 a8 1f 4b d3 e5 02 a8 c0 a4 ab e8 b5 b5 b5 00 b7 a3 9e b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "c296be98b52cb5149388edd7ec275f4ed202f07f00def31813edb9178c732555",
+   "japanese_characters": 66,
+   "source_literals": [
+    "このあいだ、アオいナビが\nウイルスバスティングしてるのをみたんだ",
+    "すごテクだったよ!",
+    "もしかして、れいの WWWを\nたおしたナビだったりして\nへへへ まさかね"
+   ],
+   "translated_literals": [
+    "얼마 전에 파란 내비가\n바이러스 버스팅하는 걸 봤어",
+    "굉장한 테크닉이었어!",
+    "혹시 그 WWW를\n쓰러뜨린 내비였을지도\n헤헤헤 설마"
+   ]
+  },
+  {
+   "entry_index": 18,
+   "entry_id": "archive_u07EA9C4_entry_0018",
+   "source_entry_offset": 2101,
+   "source_entry_byte_length": 76,
+   "source_entry_sha256": "e76dc263192f4bc7330dc07884f647cf9c6d344c941c185c0ba99153ec40e39d",
+   "source_entry_raw_hex": "f1 02 a7 b1 24 1f 16 b2 85 28 3a 1e d6 a5 9e 7c e8 a7 b1 24 1f 16 c9 28 3a 1e ad bf 85 0f 34 bb e8 d1 b3 00 9a a9 d7 b8 ab b8 a8 9a d6 a5 eb e9 d7 b1 b5 c8 d6 00 bb a0 cc 9f a3 c2 a8 9e e8 9d a4 9c ab a0 d3 a3 9a eb ea ff 00 00",
+   "source_tpl_block_sha256": "14be3411f983a7c810d22558d399cf1c02cd30a2c749b2ea4242ce9d4ae6d79e",
+   "japanese_characters": 59,
+   "source_literals": [
+    "そのハナシは、ホントですか?\nそのハナシがホントなら、オレも\nぜひ いちどみてみたいです",
+    "どのへんで もくげきされたか\nおしえてください"
+   ],
+   "translated_literals": [
+    "그 얘기 정말이에요?\n그게 정말이라면 저도\n꼭 한번 보고 싶어요",
+    "어디쯤에서 목격했는지\n알려 주세요"
+   ]
+  },
+  {
+   "entry_index": 19,
+   "entry_id": "archive_u07EA9C4_entry_0019",
+   "source_entry_offset": 2177,
+   "source_entry_byte_length": 53,
+   "source_entry_sha256": "e88f8ba7ab1468e206200be391221a52031dc5a225fdba4562cb8f201588b0dd",
+   "source_entry_raw_hex": "f1 02 a1 e5 02 a2 9b 00 99 a9 a2 a9 d6 00 b8 9e a1 b7 a5 be e8 0b 1f 1a bb 00 9b c8 c9 be 9e e5 02 a8 bf e8 99 9c c1 9e bb a4 c2 ad 9a d6 a5 be eb ea ff 00 00",
+   "source_tpl_block_sha256": "8e9913becc3f62ff52e639d760395c38a8ac7adfb0de1a64c17da0fca12e04ee",
+   "japanese_characters": 39,
+   "source_literals": [
+    "けっこう あちこちで みかけますよ\nアナタも うんがよかったら\nあえるかもしれないですよ"
+   ],
+   "translated_literals": [
+    "꽤 여기저기서 보여요\n당신도 운이 좋으면\n만날 수 있을지도 몰라요"
+   ]
+  },
+  {
+   "entry_index": 20,
+   "entry_id": "archive_u07EA9C4_entry_0020",
+   "source_entry_offset": 2230,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "f98e41f9e118ff6f6b4026cba6ec771c8d6e4efb2d263bfb54249931a288936b",
+   "source_entry_raw_hex": "f1 02 b8 c8 ad a3 78 f9 00 32 01 e5 02 ab e8 aa 9e e5 02 ab c1 7c eb e9 99 b1 1b 59 51 e5 02 ab 00 d6 c9 00 9d a7 9a 9e bf e8 aa 9e 9a ae a0 a0 b0 78 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "9c76e44ee9bd3d153f4513b67c64e227a3ffbe0733e9ad922c8c4e7c13d265a9",
+   "japanese_characters": 34,
+   "source_literals": [
+    "みんなさー",
+    "って\nつかってる?",
+    "あのチップって でが おそいから\nつかいにくくねー?"
+   ],
+   "translated_literals": [
+    "다들 말이야 ",
+    "을\n쓰고 있어?",
+    "그 칩 발동이 느려서\n쓰기 어렵지 않아?"
+   ]
+  },
+  {
+   "entry_index": 21,
+   "entry_id": "archive_u07EA9C4_entry_0021",
+   "source_entry_offset": 2286,
+   "source_entry_byte_length": 112,
+   "source_entry_sha256": "07fc13755a6030bf212756ea7832da4912ab59faec5a80b8f746476faccc7482",
+   "source_entry_raw_hex": "f1 02 aa 9e e5 02 ab c1 be 85 f9 00 32 01 e8 a2 9b cc 9f c0 e5 05 a0 c9 00 1a 10 9a 9e bf b0 8c eb e9 d6 bb 00 a8 a4 9e ae d6 c9 00 9d a7 9a 9e bf 85 e8 ac e5 02 a4 c8 a5 c1 00 b7 9c ae e8 a2 9b cc 9f c7 00 a0 bf 9a bc a5 9a be b0 eb e9 d3 9e bf 0f 34 b2 00 f9 00 99 01 ac e8 a0 b8 99 c4 a6 ab 00 aa 9e e5 02 ab c1 be 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "068784297987fc43c0f027052ac5ce98ff7ca6cebd86fed5082e1465f2e015b1",
+   "japanese_characters": 74,
+   "source_literals": [
+    "つかってるよ、",
+    "\nこうげきりょくが タカいからね~",
+    "でも たしかにでが おそいから、\nとっしんする まえに\nこうげきを くらいやすいよね",
+    "だからオレは ",
+    "と\nくみあわせて つかってるよ!"
+   ],
+   "translated_literals": [
+    "쓰고 있어、 ",
+    "\n공격력이 높으니까~",
+    "하지만 확실히 발동이 느려서\n돌진하기 전에\n공격을 맞기 쉽지",
+    "그래서 나는 ",
+    "과\n조합해서 쓰고 있어!"
+   ]
+  },
+  {
+   "entry_index": 22,
+   "entry_id": "archive_u07EA9C4_entry_0022",
+   "source_entry_offset": 2398,
+   "source_entry_byte_length": 52,
+   "source_entry_sha256": "9d432623c8d7c9c404ae64b7e73ec8af6b5b2bb628a4ec82dffc08e8fa491e19",
+   "source_entry_raw_hex": "f1 02 4a 17 1d 55 3a 3d 34 4d 33 99 c9 bf b0 78 e8 9a a0 bf 00 3b 3a 4a e5 02 ab bb 00 a6 9a d1 9a 07 d7 b7 c0 e8 d3 c2 9e 1a 17 13 1d 78 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "1a1f411cc6c427184c3318114edb7042cb8c8600ce879a6c57e5c42146b801f8",
+   "japanese_characters": 38,
+   "source_literals": [
+    "バスティングレベルあがらねー\nいくら ガンバっても せいぜい6どまり\nだれかタスケテー!"
+   ],
+   "translated_literals": [
+    "버스팅 레벨이 안 올라~\n아무리 노력해도 기껏해야 6까지\n누가 좀 도와줘~!"
+   ]
+  },
+  {
+   "entry_index": 23,
+   "entry_id": "archive_u07EA9C4_entry_0023",
+   "source_entry_offset": 2450,
+   "source_entry_byte_length": 218,
+   "source_entry_sha256": "c066adc8ca9a5ef3c060ecd0c8d8d88f2d926d1a0fe0641270c7b8a322de14db",
+   "source_entry_raw_hex": "f1 02 bc 99 b8 c8 ad 85 3b 3a 4a e5 02 ab c1 9e ad 81 7c e8 22 59 1e 4a 1e 33 e5 78 e5 6d d3 be 81 eb e9 4a 17 1d 55 3a 3d 34 4d 33 c7 99 cc c1 ae b2 e8 bc e5 02 dd 00 d7 9b cf a8 9d a4 00 d3 ad 81 eb e9 02 e5 b9 be c0 03 e5 b9 85 03 e5 b9 be c0 04 e5 b9 81 e8 9e c2 9a ae 00 b7 ac ba ab 48 32 78 1e a4 ab bc c2 d8 e8 4a 17 1d 55 3a 3d 34 4d 33 bb 00 3d 3a ac 99 c9 c1 d2 81 eb e9 a9 ad b8 ae db aa ae 00 d7 9b cf a8 9d a4 d6 e8 26 55 20 59 16 5b a4 ad 9f e5 03 9a a1 ad 9a e8 c4 a1 cf e5 03 ad 9a 9e bf eb e9 1b 5a 3a 17 c9 99 e5 02 a8 bf e8 49 3a 49 3a b0 bf e5 02 ab 9a a2 9b 81 e8 d6 b2 85 c9 c8 d8 c0 a8 b7 9c 81 00 a7 c2 cf e5 03 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "6da0e74a31194a670653af1ce9b45844ace82e5e462bf936efc59d7569e7e687",
+   "japanese_characters": 160,
+   "source_literals": [
+    "やあみんな、ガンバってるかな!?\nネットバトル名人だよ!",
+    "バスティングレベルをあげるには\nやっぱ どうじたおし だな!",
+    "1体より2体、2体より3体!\nかれいに まとめてデリートしてやれば\nバスティングレベルも グンとあがるぞ!",
+    "ちなみにべつに どうじたおしで\nフィニッシュしなきゃいけない\nわけじゃないから",
+    "チャンスがあったら\nドンドンねらっていこう!\nでは、がんばりたまえ! それじゃ!"
+   ],
+   "translated_literals": [
+    "안녕 모두들、 힘내고 있나!?\n넷배틀 명인이다!",
+    "버스팅 레벨을 올리려면\n역시 동시 처치지!",
+    "1마리보다 2마리、 그보다 3마리!\n화려하게 한꺼번에 딜리트하면\n버스팅 레벨도 쑥쑥 오른다!",
+    "참고로 꼭 동시 처치로\n마무리해야 하는\n건 아니니까",
+    "기회가 있으면\n팍팍 노려 보자!\n그럼 힘내게! 이만!"
+   ]
+  },
+  {
+   "entry_index": 24,
+   "entry_id": "archive_u07EA9C4_entry_0024",
+   "source_entry_offset": 2668,
+   "source_entry_byte_length": 143,
+   "source_entry_sha256": "3ecd3838a00e7123408ac2600e1142a15b4e2d93751b3b05db43b5740a948b3a",
+   "source_entry_raw_hex": "f1 02 0d 19 81 eb e9 0f 26 55 16 5a 33 18 3a 1a 78 ae 9a c1 e8 22 59 1e 4a 1e 33 e5 78 e5 6d 81 7c 00 28 3a 2d 23 d6 a5 9e 81 7c eb e9 9b c4 78 85 10 3a 3e 11 d3 ad 81 eb e9 4e 12 a2 ad 9a d3 e5 78 e5 6d b1 00 3e 78 1e 29 3a ae e8 a9 e5 05 9b a6 c8 a4 a8 c8 d6 a5 be 81 e8 d1 c8 d1 c8 9e ad c4 ad 9e e5 02 a8 a1 d7 88 88 88 eb e9 d1 b3 00 a2 c8 d7 00 bb e5 02 9e 9a 85 e8 22 59 1e 4a 1e 33 a4 ab a0 d3 a3 9a b0 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "c67c11377771e5ec97d677d08e83f5b55009777f2b280a8824537d5817bfce71",
+   "japanese_characters": 103,
+   "source_literals": [
+    "ウソ!",
+    "オフィシャルセンターにいる\nネットバトル名人!? ホンモノですか!?",
+    "うわー、カンゲキだな!",
+    "ボクこないだ名人の ゲートマンに\nちょうせんしたんですよ!\nぜんぜんかなわなかったけど・・・",
+    "ぜひ こんど もっかい、\nネットバトルしてくださいね!"
+   ],
+   "translated_literals": [
+    "말도 안 돼!",
+    "오피셜 센터에 있는\n넷배틀 명인!? 진짜예요!?",
+    "우와、 감격이다!",
+    "저 얼마 전에 명인의 게이트맨에게\n도전했었어요!\n전혀 상대가 안 됐지만...",
+    "꼭 다음에 한 번 더\n넷배틀해 주세요!"
+   ]
+  },
+  {
+   "entry_index": 25,
+   "entry_id": "archive_u07EA9C4_entry_0025",
+   "source_entry_offset": 2811,
+   "source_entry_byte_length": 106,
+   "source_entry_sha256": "1abe0624bcb9756fe0f6d7310039394fb46eb8162db93044df465f159f1e4da7",
+   "source_entry_raw_hex": "f1 02 9f e5 03 78 85 e5 78 e5 6d d3 78 81 eb e9 36 1a 16 85 e5 78 e5 6d b1 e5 88 26 54 3a ad c8 d6 a5 78 e8 10 3a 3e 11 78 81 eb e9 a2 c8 d7 85 48 3a 15 3a 16 1d 55 ae e8 9a e5 02 a8 bf 43 59 1a 0c e8 0f 26 55 16 5a 33 18 3a 1a 78 ae be c0 b7 a5 9e bf eb e9 22 59 1e 4a 1e 33 a4 ab a0 d3 a3 9a b0 78 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "89376540a599a5e27733fba9205bd748dd386e0768a93a96918de9729b85f166",
+   "japanese_characters": 77,
+   "source_literals": [
+    "きゃー、名人だー!",
+    "ワタシ、名人の大ファンなんですー\nカンゲキー!",
+    "こんど、デンサンシティに\nいったらゼッタイ\nオフィシャルセンターによりますから",
+    "ネットバトルしてくださいねー!"
+   ],
+   "translated_literals": [
+    "꺄~ 명인이다~!",
+    "저 명인의 열렬한 팬이에요~\n감격~!",
+    "다음에 덴산 시티에\n가면 꼭\n오피셜 센터에 들를 테니까",
+    "넷배틀해 주세요~!"
+   ]
+  },
+  {
+   "entry_index": 26,
+   "entry_id": "archive_u07EA9C4_entry_0026",
+   "source_entry_offset": 2917,
+   "source_entry_byte_length": 150,
+   "source_entry_sha256": "03701b7e273bcea15c91547d05a7c7c1c435f8b1c5c8341c7ef670df598a8725",
+   "source_entry_raw_hex": "f1 02 0f 34 85 b9 9e a4 b2 00 34 3c 5b 31 78 1b 59 51 ae b2 e8 a2 9b cc 9f 1b 59 51 d8 9e c0 00 9a c2 ab a8 c8 d3 a1 d7 eb e9 a3 9a 9f c8 85 a9 e5 05 e5 02 ac 00 9e c8 c9 9c 9e a8 c9 e8 9e c4 e5 02 ab 9f ab e8 d0 e5 02 ac f9 00 8c 01 c7 9a c2 ab c1 c8 d3 eb e9 ad c8 9e a9 e5 05 e5 02 ac 00 16 4c 9a d6 a4 e5 05 7c eb e9 9a e5 02 a1 c8 41 2a ae 00 b8 9c c1 a1 d7 85 e8 9a ce ac 9a 9b ac 9f ae 00 a8 be c0 ae ad c1 c8 d3 ad e8 a2 c2 c9 eb ea ff 00 00",
+   "source_tpl_block_sha256": "10f213da95f050065103e9863ae7560dc0a745dedafec8ee902f8e418f98973c",
+   "japanese_characters": 110,
+   "source_literals": [
+    "オレ、むかしは レギュラーチップには\nこうげきチップばかり いれてたんだけど",
+    "さいきん、ちょっと かんがえかたが\nかわってきて\nずっと",
+    "をいれてるんだ",
+    "なんかちょっと シブいでしょ?",
+    "いっけんジミに みえるけど、\nいざというときに たよりになるんだな\nこれが"
+   ],
+   "translated_literals": [
+    "나 옛날엔 레귤러 칩에\n공격 칩만 넣었었는데",
+    "요즘 생각이 좀\n바뀌어서\n계속 ",
+    "을 넣고 있어",
+    "뭔가 좀 멋스럽지?",
+    "얼핏 수수해 보이지만\n막상 필요할 때 믿음직하다니까\n이게"
+   ]
+  },
+  {
+   "entry_index": 27,
+   "entry_id": "archive_u07EA9C4_entry_0027",
+   "source_entry_offset": 3067,
+   "source_entry_byte_length": 72,
+   "source_entry_sha256": "dfea1d249e74f7b4e5dc56148eaab87098908a7cf335a1527982ab81004939ac",
+   "source_entry_raw_hex": "f1 02 f9 00 8c 01 ac b2 00 a8 a4 9e ae 16 4c 9a e8 4e 12 b2 00 f9 00 83 01 d6 a5 eb e9 19 78 49 a1 9a b1 da 9f 00 d8 9e c0 e5 6e c2 ab c1 bb c8 d6 e8 b8 c8 ad 00 a7 c2 d2 c2 00 a9 c9 9b bb c8 d6 a5 b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "7f0b86fc7fec0cf58d8deff989dc9f64dd7a5252a9e9c5ef0e3f6633ec0c6fe4",
+   "japanese_characters": 47,
+   "source_literals": [
+    "とは たしかにシブい\nボクは ",
+    "です",
+    "ソードけいのぶき ばかり入れてるもんで\nみんな それぞれ ちがうもんですね"
+   ],
+   "translated_literals": [
+    "이라니 확실히 멋스럽네요\n저는 ",
+    "이에요",
+    "소드 계열 무기만 넣고 있어서요\n다들 제각각 다르네요"
+   ]
+  },
+  {
+   "entry_index": 28,
+   "entry_id": "archive_u07EA9C4_entry_0028",
+   "source_entry_offset": 3139,
+   "source_entry_byte_length": 101,
+   "source_entry_sha256": "a22ca51f371f70a5af4290bf2cf11efadcf21bfb09472293085a356a61e8d8df",
+   "source_entry_raw_hex": "f1 02 0f 34 b2 48 10 0f e5 02 ab 9a 9b c8 d3 85 be c3 a4 a0 81 eb e9 0f 34 b1 34 3c 5b 31 78 1b 59 51 b2 e8 9a b7 bb 00 b9 9e a4 bb e8 d0 e5 02 ac f9 00 2d 01 d3 d1 81 eb e9 e5 02 ab 9a 9b 9e 85 e8 a4 e5 05 9b cf 9f 00 f9 00 62 00 c9 e8 d1 c8 d1 c8 00 3e 59 1e d6 9f ad 9a c8 d3 a1 d7 ad eb ea ff 00 00",
+   "source_tpl_block_sha256": "acdcf251d5205a24db73497923be7bbfe133d9b7b800148606d1622a167999ad",
+   "japanese_characters": 67,
+   "source_literals": [
+    "オレはデカオっていうんだ、よろしく!",
+    "オレのレギュラーチップは\nいまも むかしも\nずっと",
+    "だぜ!",
+    "っていうか、\nしょうじき ",
+    "が\nぜんぜん ゲットできないんだけどな"
+   ],
+   "translated_literals": [
+    "나는 데카오라고 한다、 잘 부탁해!",
+    "내 레귤러 칩은\n지금도 옛날에도\n쭉 ",
+    "다!",
+    "그보다、\n솔직히 ",
+    "을\n전혀 못 구하고 있지만"
+   ]
+  },
+  {
+   "entry_index": 29,
+   "entry_id": "archive_u07EA9C4_entry_0029",
+   "source_entry_offset": 3240,
+   "source_entry_byte_length": 124,
+   "source_entry_sha256": "5641f3fa3c4aebda31c8d5559a69af9b57432b9d130b5a23538d8d35d6305548",
+   "source_entry_raw_hex": "f1 02 24 1f 16 b2 00 9e c4 c1 a1 d7 a3 85 e8 4a 1e 33 1b 59 51 b1 00 a2 9b cc 9f ae bb e8 9a c3 9a c3 99 c1 a1 d7 eb e9 e5 8a ae b2 3b 78 49 c7 00 9b a9 bc da c1 00 a2 9b cc 9f c9 e8 99 c1 b8 a8 9a d3 be eb e9 4e 12 c9 e5 9c aa a1 a8 b1 b2 f9 00 54 01 e8 99 b1 00 9b e5 02 ac 9d a4 9a 00 24 33 49 4e 33 42 bb e8 a2 c2 d6 00 a7 e5 02 a2 9b 48 32 78 1e a3 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "c29a6aef7a9cdce815bc55781803d3f0db596611624d9a3ef0987dbd85c8fb20",
+   "japanese_characters": 91,
+   "source_literals": [
+    "ハナシは かわるけどさ、\nバトルチップの こうげきにも\nいろいろあるけど",
+    "中にはガードを うちやぶる こうげきが\nあるみたいだよ",
+    "ボクが見つけたのは",
+    "\nあの うっとおしい ハルドボルズも\nこれで そっこうデリートさ!"
+   ],
+   "translated_literals": [
+    "얘기가 바뀌는데、\n배틀칩 공격에도\n여러 가지가 있잖아",
+    "그중엔 가드를 깨부수는 공격이\n있는 것 같아",
+    "내가 찾은 건 ",
+    "\n그 성가신 하르도볼즈도\n이걸로 순식간에 딜리트야!"
+   ]
+  },
+  {
+   "entry_index": 30,
+   "entry_id": "archive_u07EA9C4_entry_0030",
+   "source_entry_offset": 3364,
+   "source_entry_byte_length": 126,
+   "source_entry_sha256": "a0a282b94a7599d4d15af0e564a5a77c358a7c40cd1198f249166eb4293216ca",
+   "source_entry_raw_hex": "f1 02 4e 12 bb 00 a8 ba a4 ab b8 a8 be e8 a8 a4 9e ae 3b 78 49 c7 00 9b a9 bc da c1 b8 a8 9a 81 eb e9 a7 c2 d6 b0 85 9a c3 9a c3 a4 bf db ab b8 c1 ac 85 e8 f9 00 33 01 bb 00 a7 9b b8 a8 9a eb e9 d7 9b bc bf 10 1a a0 ab 00 9d bb a8 a7 9b ad e8 a2 9b cc 9f ae b2 00 3b 78 49 4c 34 0c 12 b1 e8 a2 9b 9e c9 00 99 c1 b8 a8 9a d3 b0 eb e9 28 10 ae bb 00 99 c1 9e bb 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "79d5ea601ed79dee7331b864b875a78ca3e12d35970eac5c98d1131489ac48cd",
+   "japanese_characters": 94,
+   "source_literals": [
+    "ボクも ためしてみたよ\nたしかにガードを うちやぶるみたい!",
+    "それでね、いろいろしらべてみると、\n",
+    "も そうみたい",
+    "どうやらカタくて おもたそうな\nこうげきには ガードブレイクの\nこうかが あるみたいだね",
+    "ホカにも あるかも?"
+   ],
+   "translated_literals": [
+    "나도 시험해 봤어\n확실히 가드를 깨부수는 것 같아!",
+    "그래서 여러모로 조사해 보니까\n",
+    "도 그런 것 같아",
+    "아무래도 단단하고 무거워 보이는\n공격에는 가드 브레이크\n효과가 있는 것 같아",
+    "다른 것도 있을지도?"
+   ]
+  },
+  {
+   "entry_index": 31,
+   "entry_id": "archive_u07EA9C4_entry_0031",
+   "source_entry_offset": 3490,
+   "source_entry_byte_length": 62,
+   "source_entry_sha256": "f45977b24fe13e7c2016af28f5dde5aa0f40ccba15f994ec180d1b91d9eb506e",
+   "source_entry_raw_hex": "f1 02 b7 85 b7 a3 9e a7 c8 ad 00 1b 59 51 c9 e8 99 e5 02 a8 ad c8 ab 81 81 eb e9 a7 c2 cf e5 03 99 85 36 1a 16 d6 bb e8 f9 00 34 01 c9 ac c2 a8 c0 e8 a5 c1 b1 9e ad 81 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "7e7dee79de70f543372e15db4d6ab15886e7b43eb53a3092bbd92c587f78f6e8",
+   "japanese_characters": 37,
+   "source_literals": [
+    "ま、まさかそんな チップが\nあったなんて!!",
+    "それじゃあ、ワタシでも\n",
+    "がとれたり\nするのかな!?"
+   ],
+   "translated_literals": [
+    "서、 설마 그런 칩이\n있었다니!!",
+    "그럼 저라도\n",
+    "을 얻을 수\n있으려나!?"
+   ]
+  },
+  {
+   "entry_index": 32,
+   "entry_id": "archive_u07EA9C4_entry_0032",
+   "source_entry_offset": 3552,
+   "source_entry_byte_length": 205,
+   "source_entry_sha256": "fafcb85972c160065e23f115c3acf9cbffa3a482292fda5b1f585518d91c01c9",
+   "source_entry_raw_hex": "f1 02 9f b1 9b 00 0f 34 a8 c8 cf e5 05 9b d9 e8 d3 e5 02 a8 c8 d6 a5 be eb e9 a7 c2 d6 85 10 23 41 5c 9e bf 00 51 34 43 3a 1e ae e8 1b 59 51 bb bf e5 02 a8 c8 d6 a5 be eb e9 0f 34 00 1b 5c 78 9b c2 a4 a0 e5 02 ab 85 ad ae 9e ad 78 e5 02 ab e8 36 12 36 12 a4 ad c9 bf 00 24 14 c7 00 99 a1 a8 bf 88 88 88 eb e9 a7 c2 c9 ad c8 ac f9 00 90 01 ad c8 a5 be eb e9 99 c8 b7 c0 00 bc a0 ae 00 a8 a8 ad a3 a7 9b d6 88 88 88 e8 3b 59 12 16 88 88 88 eb e9 d6 bb 00 26 58 33 45 ae e5 6e c2 ab ad 9a ac e8 10 23 41 5c ae 36 33 9a a4 88 88 88 eb e9 ad c8 9e 00 9a 9a aa 9e 9a 9e a8 e5 02 ab e8 99 c0 b7 a5 9e b0 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "5994d6bd598f115a0dda08c5a3eba71e0df4230bbe94e3ed1b099af7e068520b",
+   "japanese_characters": 157,
+   "source_literals": [
+    "きのう オレたんじょうび\nだったんですよ",
+    "それで、カノジョから プレゼントに\nチップもらったんですよ",
+    "オレ チョーうれしくって、なにかなーって\nワクワクしながら ハコを あけたら・・・",
+    "それがなんと",
+    "なんすよ",
+    "あんまり やくに たたなさそうで・・・\nガックシ・・・",
+    "でも フォルダに入れてないと\nカノジョにワルいし・・・",
+    "なんか いいつかいかたって\nありますかね?"
+   ],
+   "translated_literals": [
+    "어제 제 생일\n이었거든요",
+    "그래서 여자 친구한테 선물로\n칩을 받았어요",
+    "완전 기뻐서 뭘까~ 하고\n두근두근하며 상자를 열었더니...",
+    "그게 글쎄 ",
+    "인 거예요",
+    "별로 쓸모가 없어 보여서...\n실망...",
+    "그래도 폴더에 안 넣으면\n여자 친구한테 미안하고...",
+    "뭔가 좋은 사용법\n없을까요?"
+   ]
+  },
+  {
+   "entry_index": 33,
+   "entry_id": "archive_u07EA9C4_entry_0033",
+   "source_entry_offset": 3757,
+   "source_entry_byte_length": 53,
+   "source_entry_sha256": "44c53faf96bc322fe2d9fe2f8e92f3abe8cd379c1044dbc0de3be1cfcbeef6cc",
+   "source_entry_raw_hex": "f1 02 17 1e 78 3a 11 5b 78 4c 9e e8 cf aa b2 00 9a c9 9a ad 0d 0c 33 17 ae e8 bd 9b a2 9b 00 d3 e5 02 a8 c0 a4 b7 a5 be eb e9 26 26 26 88 88 88 eb ea ff 00 00",
+   "source_tpl_block_sha256": "3df2f326e35b8781f4a900ac70f3fd40f4a04a6d904ec9153b6dee9cdd9774c2",
+   "japanese_characters": 39,
+   "source_literals": [
+    "ストーンキューブか\nじつは いがいなウイルスに\nゆうこう だったりしますよ",
+    "フフフ・・・"
+   ],
+   "translated_literals": [
+    "스톤큐브라\n사실 의외의 바이러스에\n효과적이기도 해요",
+    "후후후..."
+   ]
+  },
+  {
+   "entry_index": 34,
+   "entry_id": "archive_u07EA9C4_entry_0034",
+   "source_entry_offset": 3810,
+   "source_entry_byte_length": 71,
+   "source_entry_sha256": "0addd39be9f30cfe782550fb397e3b5668ca8fc410b01af6cf345d60aa7748c5",
+   "source_entry_raw_hex": "f1 02 ad ae ad ae 78 85 17 1e 78 3a 11 5b 78 4c c9 e8 bd 9b a2 9b ad 00 0d 0c 33 17 e5 02 ab 81 7c eb e9 0b 1a 16 bb 11 5c 0d 2a 99 c1 78 81 e8 21 59 11 78 a3 c8 85 bb e5 02 a8 9a da bf ad 9a d6 8c eb ea ff 00 00",
+   "source_tpl_block_sha256": "0a1ee81db0a3793b6a6b7ec050fb9e175803f1e073c94dd0657c24028258fdcc",
+   "japanese_characters": 51,
+   "source_literals": [
+    "なになにー、ストーンキューブが\nゆうこうな ウイルスって!?",
+    "アタシもキョウミあるー!\nヌッキーさん、もったいぶらないで~"
+   ],
+   "translated_literals": [
+    "뭐야 뭐야~ 스톤큐브가\n효과적인 바이러스라니!?",
+    "나도 관심 있어~!\n누키 씨、 뜸 들이지 말고~"
+   ]
+  },
+  {
+   "entry_index": 35,
+   "entry_id": "archive_u07EA9C4_entry_0035",
+   "source_entry_offset": 3881,
+   "source_entry_byte_length": 58,
+   "source_entry_sha256": "fa6d0a521b95623f17ead1f3d5202f6b3827d33ac7b0c072dbcacfc55b4ce0d6",
+   "source_entry_raw_hex": "f1 02 21 59 11 78 d6 a5 e8 9c 78 ac 85 cf e5 03 99 e5 88 25 3a 1e 81 eb e9 11 80 80 80 3a d6 a5 81 eb e9 a2 c0 e5 03 bb 9b c4 9e e5 02 a9 e5 03 9b 9e ad 8c 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "7cf8b130c9f844f2b2de6a43345b351b7115efb640fac83e6bb9377977a77d3d",
+   "japanese_characters": 33,
+   "source_literals": [
+    "ヌッキーです\nえーと、じゃあ大ヒント!",
+    "キ***ンです!",
+    "こりゃもうわかっちゃうかな~?"
+   ],
+   "translated_literals": [
+    "누키예요\n음、 그럼 대힌트!",
+    "키**신이에요!",
+    "이러면 다 알아 버리려나~?"
+   ]
+  },
+  {
+   "entry_index": 36,
+   "entry_id": "archive_u07EA9C4_entry_0036",
+   "source_entry_offset": 3939,
+   "source_entry_byte_length": 75,
+   "source_entry_sha256": "22c91ee559c8a60c91696ecceeb8745fce7be8c0f79312172c9da2ac48f6c56e",
+   "source_entry_raw_hex": "f1 02 99 78 85 0b 0c 1c 9e 8c e8 0f 34 c4 9e e5 02 a9 e5 03 e5 02 a8 81 eb e9 a2 c8 d7 00 a8 ba a4 ab b8 b7 a5 81 e8 10 23 41 5c ae bb 00 9d a4 9c ab 99 cc be e5 02 81 eb e9 99 c0 c9 ac 78 cd ce 9a b7 a4 a8 78 eb ea ff 00 00",
+   "source_tpl_block_sha256": "9dca516f5d3e066dd638a71e30b3446050f1803a1b94f38baafdb880238f1e2d",
+   "japanese_characters": 51,
+   "source_literals": [
+    "あー、アイツか~\nオレわかっちゃった!",
+    "こんど ためしてみます!\nカノジョにも おしえてあげよっ!",
+    "ありがとーございましたー"
+   ],
+   "translated_literals": [
+    "아~ 그 녀석인가~\n알아 버렸다!",
+    "다음에 시험해 볼게요!\n여자 친구한테도 알려 줘야지!",
+    "고맙습니다~"
+   ]
+  },
+  {
+   "entry_index": 37,
+   "entry_id": "archive_u07EA9C4_entry_0037",
+   "source_entry_offset": 4014,
+   "source_entry_byte_length": 96,
+   "source_entry_sha256": "9d91b3ad93635424b630a7f761ab26cd6fc64a3f0c1b36d331803e5785a335dd",
+   "source_entry_raw_hex": "f1 02 a2 c8 ae a9 b2 81 e8 22 59 1e 4a 1e 33 e5 78 e5 6d d3 be 81 eb e9 17 1e 78 3a 11 5b 78 4c b2 e8 cf aa b2 85 4f 3a 1b a1 9a b1 00 1b 59 51 ac e8 a0 b8 99 c4 a6 ab bb 00 bd 9b a2 9b d3 d2 81 eb e9 9a a9 d7 85 a8 ba a4 ab b8 a8 b7 9c 81 e8 24 59 24 59 24 59 24 59 24 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "047300ade56d1f3fb2e8d6ec27ce8e229317561d05527cf8cf571d91c5d6d0d0",
+   "japanese_characters": 70,
+   "source_literals": [
+    "こんにちは!\nネットバトル名人だよ!",
+    "ストーンキューブは\nじつは、パンチけいの チップと\nくみあわせても ゆうこうだぞ!",
+    "いちど、ためしてみたまえ!\nハッハッハッハッハ!"
+   ],
+   "translated_literals": [
+    "안녕!\n넷배틀 명인이다!",
+    "스톤큐브는\n사실 펀치 계열 칩과\n조합해도 효과적이다!",
+    "한번 시험해 보게나!\n하하하하하!"
+   ]
+  },
+  {
+   "entry_index": 38,
+   "entry_id": "archive_u07EA9C4_entry_0038",
+   "source_entry_offset": 4110,
+   "source_entry_byte_length": 64,
+   "source_entry_sha256": "eb647dcd9eee61f7be312cf9005c891443b4472f9ea390b22d751cbddd9128e3",
+   "source_entry_raw_hex": "f1 02 e5 78 e5 6d a5 cc 78 81 e8 ad c8 d6 bb 00 a4 e5 02 ab c8 ad 8c eb e9 4e 12 bb cf da c8 b1 00 ab d6 e8 99 a8 bf a4 9a 1b 59 51 b1 00 aa 9e 9a 9e a8 e8 b8 aa a1 c1 d2 8c 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "9d4d10f1c685c5cdf6789035d57fa9c11a38083965c0d835a026d7872ce445dc",
+   "japanese_characters": 42,
+   "source_literals": [
+    "名人すげー!\nなんでも しってんな~",
+    "ボクもじぶんの てで\nあたらしいチップの つかいかた\nみつけるぞ~!"
+   ],
+   "translated_literals": [
+    "명인 대단해!\n모르는 게 없네~",
+    "나도 내 손으로\n새로운 칩 사용법을\n찾아낼 테다~!"
+   ]
+  },
+  {
+   "entry_index": 39,
+   "entry_id": "archive_u07EA9C4_entry_0039",
+   "source_entry_offset": 4174,
+   "source_entry_byte_length": 128,
+   "source_entry_sha256": "0730b4ba007c682da8e889c638d866dd190e31441a4f1555e8742c19ba20e24a",
+   "source_entry_raw_hex": "f1 02 48 10 0f d3 d1 81 e8 9f e5 05 9b b2 00 a9 e5 05 e5 02 ac 22 59 1e 4a 1e 33 d6 e8 a7 9b d3 c8 00 ad c8 d3 a1 d7 eb e9 ac bb d3 a9 ae 00 a0 bc a4 9a a1 d7 e8 17 3e 78 aa be 9a 00 2e 1c c9 9a c1 c8 d3 eb e9 4f 36 78 d6 b2 45 34 ae bb 00 b7 a1 ad 9a e8 aa bb c0 ad c8 d3 a1 d7 88 88 88 eb e9 0f 34 b1 3b 59 1c 29 3a ae e8 a8 c0 ad 9a b1 b2 00 ad c8 d3 ac 9d bb 9b 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "10c501725c86fc9b90ebbc02d54fad51670e84dec7608130a7d70c27d7e7413f",
+   "japanese_characters": 99,
+   "source_literals": [
+    "デカオだぜ!\nきょうは ちょっとネットバトルで\nそうだん なんだけど",
+    "ともだちに くやしいけど\nスゲーつよい ヤツがいるんだ",
+    "パワーではダレにも まけない\nつもりなんだけど・・・",
+    "オレのガッツマンに\nたりないのは なんだとおもう?"
+   ],
+   "translated_literals": [
+    "데카오다!\n오늘은 넷배틀에 관해\n좀 상담하고 싶은데",
+    "분하지만 친구 중에\n엄청 강한 녀석이 있어",
+    "파워로는 누구한테도 안 질\n자신이 있는데...",
+    "내 거츠맨에게\n부족한 게 뭐라고 생각해?"
+   ]
+  },
+  {
+   "entry_index": 40,
+   "entry_id": "archive_u07EA9C4_entry_0040",
+   "source_entry_offset": 4302,
+   "source_entry_byte_length": 147,
+   "source_entry_sha256": "e1190aae8bfd37cfe5eb6af0c90817bfca8910bb9cd84312b2297352dfe5f840",
+   "source_entry_raw_hex": "f1 02 be e5 02 81 00 e5 78 e5 6d d3 be 81 eb e9 48 10 0f a0 c8 b5 e8 4f 36 78 d3 a1 cf e5 03 00 bc e5 02 dd c0 e8 cc c8 9e 9a c9 00 99 c1 be 81 eb e9 22 59 1e 4a 1e 33 b1 00 10 3e b1 a4 e5 04 bc a0 b2 e8 cf aa b2 00 15 53 78 1e 1b 59 51 00 ad b1 a3 eb e9 0e 32 0b 17 1b 78 33 ac 9e 00 32 10 4a 32 78 00 ad c8 9e b2 e8 3e 59 1e a4 bc a5 9a 9e bf 00 0f 17 17 2c d3 e8 9e ad bf d0 00 26 58 33 45 ae 00 e5 6e c2 ab 9d a0 a2 ac 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "5db560018722d25e0caa6ee06ab9e5657744120dedbddef39e600226710f7528",
+   "japanese_characters": 107,
+   "source_literals": [
+    "よっ! 名人だよ!",
+    "デカオくんへ\nパワーだけじゃ やっぱり\nげんかいが あるよ!",
+    "ネットバトルの カゲのしゅやくは\nじつは サポートチップ なのさ",
+    "エリアスチールとか リカバリー なんかは\nゲットしやすいから オススメだ\nかならず フォルダに 入れておくこと!"
+   ],
+   "translated_literals": [
+    "여! 명인이다!",
+    "데카오 군에게\n파워만으로는 역시\n한계가 있어!",
+    "넷배틀의 숨은 주역은\n사실 서포트 칩이지",
+    "에어리어스틸이나 리커버리 같은 건\n구하기 쉬우니까 추천한다\n꼭 폴더에 넣어 둘 것!"
+   ]
+  },
+  {
+   "entry_index": 41,
+   "entry_id": "archive_u07EA9C4_entry_0041",
+   "source_entry_offset": 4449,
+   "source_entry_byte_length": 105,
+   "source_entry_sha256": "0edbc259cd16447048525f2ab3a502fe6d8838ee3854ba31903835df07e229b0",
+   "source_entry_raw_hex": "f1 02 a2 ad 9a d3 00 2c 33 ac bb c9 e8 90 a5 cd 9a 1b 59 51 c9 99 c1 be 81 91 e5 02 ab e8 1b 59 51 c7 a0 c2 a8 c8 d3 eb e9 f9 00 76 01 e5 02 ab e8 1b 59 51 ad c8 d3 a1 d7 88 88 88 eb e9 a2 c2 e5 02 ab a7 c8 ad ae 00 aa be 9a 1b 59 51 ad b1 9e ad e8 45 34 9e cf e5 05 9b b6 9b 00 99 c0 b7 a6 c8 9e 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "7261c417bd24b45d18182c5d7b1f64457ad4af1011030774340a1d9fd8eb38a9",
+   "japanese_characters": 75,
+   "source_literals": [
+    "こないだ メルともが\n「すごいチップがあるよ!」って\nチップをくれたんだ",
+    "って\nチップなんだけど・・・",
+    "これってそんなに つよいチップなのかな\nダレかじょうほう ありませんか?"
+   ],
+   "translated_literals": [
+    "얼마 전에 메일 친구가\n「굉장한 칩이 있어!」라면서\n칩을 줬어",
+    "라는\n칩인데...",
+    "이게 그렇게 강한 칩일까\n누구 정보 없어요?"
+   ]
+  },
+  {
+   "entry_index": 42,
+   "entry_id": "archive_u07EA9C4_entry_0042",
+   "source_entry_offset": 4554,
+   "source_entry_byte_length": 95,
+   "source_entry_sha256": "0928bcd480cf70aac107cd4314af598f8c7a84955d3d3421adb49a418458ca03",
+   "source_entry_raw_hex": "f1 02 a7 c2 e5 02 ab 00 d6 c8 a6 aa b1 00 9e a0 ac 9b 9e c9 e8 aa 9e e5 02 ab 9a a8 e5 02 ab 9a 9b eb e9 99 b1 f9 00 76 01 9e ad 7c e8 ad c8 d6 bb 90 b3 d6 c8 b1 36 40 91 c9 e8 99 c1 e5 02 ab 9f 9a a8 a1 d7 eb e9 9a c3 9a c3 a8 ba a4 ab b8 a8 bf 00 d7 9b d6 a5 9e b0 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "7fcda7da25ff35d345b3f2c6d051796681bb3e38fe82ff67d6a0dd7d339c1664",
+   "japanese_characters": 66,
+   "source_literals": [
+    "それって でんせつの かくとうかが\nつかっていたっていう",
+    "あの",
+    "かな?\nなんでも「ひでんのワザ」が\nあるってきいたけど",
+    "いろいろためしてみたら どうですかね?"
+   ],
+   "translated_literals": [
+    "그거 전설의 격투가가\n썼다는",
+    "그 ",
+    "일까?\n듣기로는 「비전의 기술」이\n있다던데",
+    "여러 가지 시험해 보면 어떨까요?"
+   ]
+  },
+  {
+   "entry_index": 43,
+   "entry_id": "archive_u07EA9C4_entry_0043",
+   "source_entry_offset": 4649,
+   "source_entry_byte_length": 51,
+   "source_entry_sha256": "cef6ca69912452cf1f103c4587a705f725ac13b091d821fcf1330fb29c78c3b5",
+   "source_entry_raw_hex": "f1 02 90 b3 d6 c8 b1 36 40 91 9e 8c e8 1f 20 9e 25 2a 1c c9 00 99 c1 b8 a8 9a d3 b0 e8 be 78 a4 85 9a c3 9a c3 00 a8 ba a4 ab b8 b7 a5 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "69c0cfcac9af87adce76e5f25875768ddeca3f8619d1fbe5897ebfd26545ae41",
+   "japanese_characters": 35,
+   "source_literals": [
+    "「ひでんのワザ」か~\nナニかヒミツが あるみたいだね\nよーし、いろいろ ためしてみます!"
+   ],
+   "translated_literals": [
+    "「비전의 기술」이라~\n뭔가 비밀이 있나 보네\n좋아、 여러 가지 시험해 볼게요!"
+   ]
+  },
+  {
+   "entry_index": 44,
+   "entry_id": "archive_u07EA9C4_entry_0044",
+   "source_entry_offset": 4700,
+   "source_entry_byte_length": 108,
+   "source_entry_sha256": "41c53301ac6b47365f8f87d00646de19dbbc58f1b613eb69dbe66fdaf40e13a6",
+   "source_entry_raw_hex": "f1 02 b8 c8 ad 00 a4 e5 02 ab c1 7c eb e9 a0 a3 b9 bf b1 e5 62 d6 90 e5 f1 91 a2 9b cc 9f c7 00 99 ab c1 ac e8 03 d8 9a b1 45 2c 78 41 c7 00 99 a8 9c bf c2 c1 c8 d3 be 81 e8 bb a4 85 99 9a ab c9 00 e6 10 e6 01 e6 02 d3 e5 02 a8 ad bf eb e9 a3 bf ae 03 d8 9a d6 05 d8 9a d3 be 81 e8 a5 cd 9a d6 a4 e5 05 81 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "5d40105541c40ce12b225828d82bec1095517d7b817694aaa7146fb10ed7a3f0",
+   "japanese_characters": 71,
+   "source_literals": [
+    "みんな しってる?",
+    "くさむらの上で「炎」こうげきを あてると\n2ばいのダメージを あたえられるんだよ!\nもし、あいてが 木属性だったなら",
+    "さらに2ばいで4ばいだよ!\nすごいでしょ!?"
+   ],
+   "translated_literals": [
+    "다들 알고 있어?",
+    "풀밭 위에서 「불」 공격을 맞히면\n2배의 대미지를 줄 수 있어!\n만약 상대가 나무 속성이라면",
+    "거기에 2배로 4배야!\n굉장하지!?"
+   ]
+  },
+  {
+   "entry_index": 45,
+   "entry_id": "archive_u07EA9C4_entry_0045",
+   "source_entry_offset": 4808,
+   "source_entry_byte_length": 97,
+   "source_entry_sha256": "6fdea4e4e36fbdb48baa4e2df395a964de596cf8918c1341407dfdba182c39d9",
+   "source_entry_raw_hex": "f1 02 29 41 9e be 81 eb e9 0f 34 b1 1f 4b 85 e6 10 e6 01 e6 02 ad c8 d3 81 e8 a0 a3 b9 bf b1 e5 62 ae 9a c1 ac 65 6d c9 e8 cf d7 9b 9e 9a b4 a0 00 a5 c1 c8 d3 a1 d7 88 88 88 eb e9 9b b7 9a 24 1f 16 ae e5 03 00 0d 31 c9 99 c1 e5 02 ab a2 ac 9e e8 e5 74 c7 aa a1 ad 9f e5 03 ad eb ea ff 00 00",
+   "source_tpl_block_sha256": "cda1d6c52868011a3921ea3803acd80181f7c9b3d8bce06ef91ca3d2cf3105dd",
+   "japanese_characters": 68,
+   "source_literals": [
+    "マジかよ!",
+    "オレのナビ、木属性なんだ!\nくさむらの上にいるとHPが\nじどうかいふく するんだけど・・・",
+    "うまいハナシにゃ ウラがあるってことか\n気をつけなきゃな"
+   ],
+   "translated_literals": [
+    "진짜냐!",
+    "내 내비、 나무 속성이야!\n풀밭 위에 있으면 HP가\n자동 회복되긴 하는데...",
+    "좋은 얘기엔 뒤가 있다는 건가\n조심해야겠다"
+   ]
+  },
+  {
+   "entry_index": 46,
+   "entry_id": "archive_u07EA9C4_entry_0046",
+   "source_entry_offset": 4905,
+   "source_entry_byte_length": 129,
+   "source_entry_sha256": "db15b7b5d15bb6fc825300611089ace7d82bc121c550a3aecd18a4235e3e9988",
+   "source_entry_raw_hex": "f1 02 b5 78 85 e6 10 e6 01 e6 02 b1 1f 4b ac 00 a0 a3 b9 bf ae e8 a7 c8 ad 00 9e c8 a1 9a c9 00 99 c1 c8 d3 81 e8 e5 b1 bf ad 9e e5 02 a8 ad 99 eb e9 a9 ad b8 ae 9b a9 b1 1f 4b b2 00 e5 f1 e6 01 e6 02 ad c8 d3 a1 d7 e8 29 3d 29 b1 e5 62 ae 9a ab bb 45 2c 78 41 c7 e8 9b a1 ad 9a c8 d3 be eb e9 e5 f1 e6 01 e6 02 ac e6 10 e6 01 e6 02 b1 1f 4b b2 00 1e 12 4d 1c ad c8 d3 b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "d094858f2bfc627eac7e13226bcfeb5dd723b6108b3d2e30c8b497a7791e96f3",
+   "japanese_characters": 92,
+   "source_literals": [
+    "へー、木属性のナビと くさむらに\nそんな かんけいが あるんだ!\n知らなかったなあ",
+    "ちなみにうちのナビは 炎属性なんだけど\nマグマの上にいてもダメージを\nうけないんだよ",
+    "炎属性と木属性のナビは トクベツなんだね"
+   ],
+   "translated_literals": [
+    "헤에、 나무 속성 내비와 풀밭에\n그런 관계가 있구나!\n몰랐어",
+    "참고로 우리 내비는 불 속성인데\n마그마 위에 있어도 대미지를\n안 입어",
+    "불 속성과 나무 속성 내비는\n특별하구나"
+   ]
+  },
+  {
+   "entry_index": 47,
+   "entry_id": "archive_u07EA9C4_entry_0047",
+   "source_entry_offset": 5034,
+   "source_entry_byte_length": 167,
+   "source_entry_sha256": "7a22ce81669a5e24aa99368881a53b1df5d21f14bfdcede98bdb58ded3c2608a",
+   "source_entry_raw_hex": "f1 02 e5 f1 e6 01 e6 02 b1 1f 4b b2 29 3d 29 b1 e5 62 d6 bb e8 d3 9a cf e5 05 9b da ad b1 81 7c eb e9 a7 e5 02 9e 78 85 0f 34 a2 ad 9a d3 e8 29 3d 29 31 0c 3a e5 02 ab 9a 9b 1b 59 51 c7 e8 e5 66 ae e5 6e c2 a8 c8 d3 a1 d7 eb e9 cf da c8 b1 9a c1 c2 aa c7 00 29 3d 29 ae a4 a9 e5 03 9b 9e bf e8 aa 9e 9b ad c0 9a 9f ad c0 45 2c 78 41 c7 9b a1 a9 e5 03 e5 02 ab eb e9 1f 20 a2 b1 1b 59 51 81 00 e5 02 ab 9d bb e5 02 ab a8 c4 a1 be e8 a7 9b 9a 9b 00 10 31 12 32 c9 00 99 e5 02 a8 b1 9e 8c eb ea ff 00 00",
+   "source_tpl_block_sha256": "2e6c7c1570cdf807e93b1db46127d1a4faa379b3ccbac437ccffc60fd7a2a828",
+   "japanese_characters": 125,
+   "source_literals": [
+    "炎属性のナビはマグマの上でも\nだいじょうぶなの!?",
+    "そっかー、オレこないだ\nマグマラインっていうチップを\n手に入れたんだけど",
+    "じぶんのいるれつを マグマにしちゃうから\nつかうなりいきなりダメージをうけちゃって",
+    "ナニこのチップ! っておもってたわけよ\nそういう カラクリが あったのか~"
+   ],
+   "translated_literals": [
+    "불 속성 내비는 마그마 위에서도\n괜찮은 거야!?",
+    "그렇구나~ 나 얼마 전에\n마그마라인이라는 칩을\n손에 넣었는데",
+    "내가 있는 열을 마그마로 바꿔 버려서\n쓰자마자 바로 대미지를 입었거든",
+    "뭐야 이 칩! 하고 생각했지\n그런 원리가 있었구나~"
+   ]
+  },
+  {
+   "entry_index": 48,
+   "entry_id": "archive_u07EA9C4_entry_0048",
+   "source_entry_offset": 5201,
+   "source_entry_byte_length": 105,
+   "source_entry_sha256": "b4d9f97ecea1ff8b77b0ec06b9de162ac32ee27b0b2d3216eac13e36da35def0",
+   "source_entry_raw_hex": "f1 02 a2 ad 9a d3 f9 00 22 01 e5 02 ab 9a 9b 1b 59 51 c7 e8 0b 1a 29 b1 e5 88 9f 9a 00 b8 d7 c0 9a c3 b1 e8 16 5c 0d 20 3a 1f 4b 9e bf 00 9e e5 02 a8 c8 d3 a1 d7 88 88 88 eb e9 a6 aa ba 9a a4 e5 05 c7 00 ad a0 a4 a9 e5 03 e5 02 a8 c8 d3 e8 99 c2 e5 02 ab d7 9b 9a 9b 00 a2 9b 9e b1 1b 59 51 ad b1 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "390ee94497b5804027c2b8ef107aa1fd60c359061be585f29022e1fbd0b10a14",
+   "japanese_characters": 77,
+   "source_literals": [
+    "こないだ",
+    "っていうチップを\nアタマの大きい みどりいろの\nショウニンナビから かったんだけど・・・",
+    "せつめいしょを なくしちゃったんだ\nあれってどういう こうかのチップなの?"
+   ],
+   "translated_literals": [
+    "얼마 전에 ",
+    "라는 칩을\n머리가 큰 초록색\n상인 내비한테 샀는데...",
+    "설명서를 잃어버렸어\n그거 어떤 효과의 칩이야?"
+   ]
+  },
+  {
+   "entry_index": 49,
+   "entry_id": "archive_u07EA9C4_entry_0049",
+   "source_entry_offset": 5306,
+   "source_entry_byte_length": 202,
+   "source_entry_sha256": "b0bbd2efa7cda34d875df00b46a781cc4df4ef07e72242618930b38cdb6563d4",
+   "source_entry_raw_hex": "f1 02 f9 00 22 01 b2 b0 e8 10 17 1a 2b 3e 78 41 b1 00 c0 e5 05 9b ae 00 9d 9b cf ab e8 a2 9b cc 9f c0 e5 05 a0 c9 00 99 c9 c1 19 78 49 ad c8 d3 eb e9 4a 1e 33 c9 00 b2 cf b7 e5 02 a8 d8 9e c0 b1 00 ac 9f b2 e8 a5 cd a0 be c4 9a a1 d7 85 10 17 1a 2b 3e 78 41 c9 e8 a8 b7 e5 02 ab a0 c1 ac eb e9 a2 9b cc 9f c0 e5 05 a0 bb 00 3d 3a 3d 3a e8 99 c9 e5 02 ab 9a a0 c8 d3 be eb e9 a8 d3 a4 81 eb e9 3e 78 41 c9 00 29 3a 1a 3a ae ad e5 02 a9 e5 03 9b ac e8 a2 9b 9e c7 00 9b a4 ad 9b c8 d3 eb e9 d3 9e bf 3e 78 41 c9 00 29 3a 1a 3a ae ad c1 e8 a9 e5 05 a0 d1 c8 a0 bf 9a ae 00 aa 9e 9b c8 d3 be 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "245e0d75651b06f4ce9284b4188753f1f8f146d2cb5a0a8238b26b141551bb0b",
+   "japanese_characters": 152,
+   "source_literals": [
+    "はね\nカスタムゲージの りょうに おうじて\nこうげきりょくが あがるソードなんだ",
+    "バトルが はじまったばかりの ときは\nすごくよわいけど、カスタムゲージが\nたまってくると",
+    "こうげきりょくも グングン\nあがっていくんだよ",
+    "ただし!",
+    "ゲージが マンタンになっちゃうと\nこうかを うしなうんだ",
+    "だからゲージが マンタンになる\nちょくぜんくらいに つかうんだよ!"
+   ],
+   "translated_literals": [
+    "는\n커스텀 게이지 양에 따라\n공격력이 오르는 소드야",
+    "배틀이 막 시작됐을 때는\n엄청 약하지만 커스텀 게이지가\n차오르면",
+    "공격력도 쭉쭉\n올라가",
+    "단!",
+    "게이지가 가득 차 버리면\n효과를 잃어",
+    "그러니까 게이지가 가득 차기\n직전쯤에 쓰는 거야!"
+   ]
+  },
+  {
+   "entry_index": 50,
+   "entry_id": "archive_u07EA9C4_entry_0050",
+   "source_entry_offset": 5508,
+   "source_entry_byte_length": 44,
+   "source_entry_sha256": "d27e8bc921634bb32ffa6d9acedeee4269e28a141d7044c41af6be47eadfaeb1",
+   "source_entry_raw_hex": "f1 02 f9 00 22 01 ae 00 a7 c8 ad a6 9a b1 9b c9 7c e8 a5 cc 78 85 bc e5 02 ab b8 be e5 02 ac eb e9 99 c0 c9 ac 78 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "4f7fd4490a0cb9a85271bf57c0dc274c4a22b6c714e84557d5988e365340dc19",
+   "japanese_characters": 24,
+   "source_literals": [
+    "に そんなせいのうが?\nすげー、やってみよっと",
+    "ありがとー!"
+   ],
+   "translated_literals": [
+    "에 그런 성능이?\n대박、 해 봐야지",
+    "고마워~!"
+   ]
+  },
+  {
+   "entry_index": 51,
+   "entry_id": "archive_u07EA9C4_entry_0051",
+   "source_entry_offset": 5552,
+   "source_entry_byte_length": 203,
+   "source_entry_sha256": "c63ae372d144633ffec13817874477b6a2c820e4c0b4c6da76f58341bbb0e9bc",
+   "source_entry_raw_hex": "f1 02 a5 cc 78 ad 81 00 9a b7 00 0c 3a 1a 78 22 59 1e e5 8a 85 e8 a2 9d c0 00 d3 bf a1 cf e5 03 c8 81 eb e9 0f 34 b1 1f 4b b2 00 9e ad c0 00 4f 36 78 99 c1 9e bf e8 16 35 9a a2 9d c0 00 14 36 a4 a8 c8 d3 a1 d7 a3 85 eb e9 ad c8 ac 00 e5 8a 9e bf e8 17 3e 78 1c 30 9a 00 0d 0c 33 17 c9 00 d6 ab a0 c8 d3 be eb e9 a4 9e bb 00 cf ba c8 b2 00 a2 9d c0 b1 00 4f 22 33 d3 a4 85 e8 a8 a8 9e 9a d5 bf 9a b1 00 ad c8 b1 e5 02 ab 88 88 88 eb e9 b7 85 ad c8 ac 9e 00 9e c3 9b cf ab e8 48 32 78 1e 00 d6 9f a8 c8 d3 a1 d7 85 eb e9 a2 c0 e5 03 00 a8 9a a3 a0 00 b0 bf ad 9a ac e8 2e 4a 9a be 81 00 29 41 d6 eb ea ff 00 00",
+   "source_tpl_block_sha256": "9a732f9a85c3ca6d705ac6f6e42c20598a707f7934909e6287013c0a09d2feac",
+   "japanese_characters": 149,
+   "source_literals": [
+    "すげーな! いま インターネット中、\nこおり だらけじゃん!",
+    "オレのナビは かなり パワーあるから\nシロいこおり コワしたんだけどさ、",
+    "なんと 中から\nスゲーツヨい ウイルスが でてくんだよ",
+    "しかも じめんは こおりの パネルだし、\nたたかいづらいの なんのって・・・",
+    "ま、なんとか かろうじて\nデリート できたんだけど、",
+    "こりゃ たいさく ねらないと\nヤバいよ! マジで"
+   ],
+   "translated_literals": [
+    "대단하네! 지금 인터넷 곳곳이\n얼음투성이잖아!",
+    "내 내비는 파워가 꽤 세서\n하얀 얼음을 부쉈는데 말이야、",
+    "글쎄 안에서\n엄청 센 바이러스가 나오는 거야",
+    "게다가 바닥은 얼음 패널이라\n싸우기 힘들기가 이만저만...",
+    "뭐、 어떻게든 간신히\n딜리트하긴 했는데、",
+    "이거 대책을 안 세우면\n위험해! 진짜로"
+   ]
+  },
+  {
+   "entry_index": 52,
+   "entry_id": "archive_u07EA9C4_entry_0052",
+   "source_entry_offset": 5755,
+   "source_entry_byte_length": 120,
+   "source_entry_sha256": "113fe21bc91e9cbd84a3cc15aad6806bf3534cedaf67a2f7661d00c7fe23955c",
+   "source_entry_raw_hex": "f1 02 a2 9d c0 b1 00 4f 22 33 9e 88 88 88 e8 1c 33 1c 33 00 a5 db e5 02 a9 e5 03 e5 02 ab bc e5 02 9e 9a d3 be b0 eb e9 d6 bb cf aa b2 00 a2 9d c0 b2 e5 73 e5 74 c9 e8 ac 9d c0 bc a5 9a 9e bf eb e9 e5 73 e5 74 e6 01 e6 02 b1 da 9f c9 e8 bd 9b a2 9b d3 e5 02 a8 c0 a5 c1 be 81 eb e9 a2 c8 ad c8 c7 00 ca e5 03 a0 ae c0 be 9b a4 ab bc c1 b1 a3 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "1b9c75b2b3a149106e0b8c0ca9ef5e49784461f54e4100053db004194e574872",
+   "japanese_characters": 86,
+   "source_literals": [
+    "こおりの パネルか・・・\nツルツル すべっちゃってやっかいだよね",
+    "でもじつは こおりは電気が\nとおりやすいから",
+    "電気属性のぶきが\nゆうこうだったりするよ!",
+    "こんなんを ぎゃくにりようしてやるのさ!"
+   ],
+   "translated_literals": [
+    "얼음 패널이라...\n미끌미끌 미끄러져서 골치 아프지",
+    "하지만 사실 얼음은 전기가\n잘 통해서",
+    "전기 속성 무기가\n효과적이기도 해!",
+    "이런 걸 거꾸로 이용하는 거야!"
+   ]
+  },
+  {
+   "entry_index": 53,
+   "entry_id": "archive_u07EA9C4_entry_0053",
+   "source_entry_offset": 5875,
+   "source_entry_byte_length": 142,
+   "source_entry_sha256": "fca7dae9c9a822d2523d1885d3b6f48b3a79352190ad671b84ecf189a9197a8b",
+   "source_entry_raw_hex": "f1 02 a2 9d c0 b1 00 e5 62 d3 ac e5 73 e5 74 b1 45 2c 78 41 c9 e8 e5 88 9f a0 ad c1 c8 d6 a5 9e 7c eb e9 a7 c0 e5 03 9a 9a a2 ac 9f 9a a8 81 eb e9 88 88 88 d6 bb 85 4e 12 b1 1f 4b b2 e5 9b e6 01 e6 02 ad c8 d3 be b0 e8 bb a4 ca e5 03 a0 ae 00 e5 73 e5 74 e6 01 e6 02 b1 00 a2 9b cc 9f c7 e8 a0 bf e5 02 a9 e5 03 9b ac eb e9 a5 cd 9a 45 2c 78 41 00 a0 bf e5 02 a9 e5 03 9b c4 a1 9e e8 e5 74 c7 aa a1 ad 9a ac b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "674731aea613d5bb13790c0aa90b3d68fc513b944d0016589d88bb594d047904",
+   "japanese_characters": 100,
+   "source_literals": [
+    "こおりの 上だと電気のダメージが\n大きくなるんですか?",
+    "そりゃいいこときいた!",
+    "・・・でも、ボクのナビは水属性なんだよね\nもしぎゃくに 電気属性の こうげきを\nくらっちゃうと",
+    "すごいダメージ くらっちゃうわけか\n気をつけないとね"
+   ],
+   "translated_literals": [
+    "얼음 위에선 전기 대미지가\n커지는 거예요?",
+    "그거 좋은 걸 들었다!",
+    "...그런데 내 내비는 물 속성이거든\n만약 반대로 전기 속성 공격을\n맞아 버리면",
+    "엄청난 대미지를 입는 거구나\n조심해야겠다"
+   ]
+  },
+  {
+   "entry_index": 54,
+   "entry_id": "archive_u07EA9C4_entry_0054",
+   "source_entry_offset": 6017,
+   "source_entry_byte_length": 86,
+   "source_entry_sha256": "29063740d032c9b5d4a421ca66ceff523616130124d64b0b6710b3adf6012684",
+   "source_entry_raw_hex": "f1 02 a9 ad b8 ae 00 29 3d 29 b1 e5 62 d6 e5 9b e6 01 e6 02 b1 e8 a2 9b cc 9f c7 99 ab ab bb eb e9 29 3d 29 c9 00 9f 9c c1 d3 a1 d6 e8 45 2c 78 41 b2 a7 b1 b7 b7 b8 a8 9a e8 e5 f1 e6 01 e6 02 b1 1f 4b b2 00 a1 e5 02 a2 9b 00 bd 9b c0 9e bb b0 eb ea ff 00 00",
+   "source_tpl_block_sha256": "f667575fc7259a878647fcc2e46d8b9f9e9b9c66df61935dc4f6c87a74c14a12",
+   "japanese_characters": 62,
+   "source_literals": [
+    "ちなみに マグマの上で水属性の\nこうげきをあてても",
+    "マグマが きえるだけで\nダメージはそのままみたい\n炎属性のナビは けっこう ゆうりかもね"
+   ],
+   "translated_literals": [
+    "참고로 마그마 위에서 물 속성\n공격을 맞혀도",
+    "마그마가 사라질 뿐\n대미지는 그대로인 것 같아\n불 속성 내비는 꽤 유리할지도"
+   ]
+  },
+  {
+   "entry_index": 55,
+   "entry_id": "archive_u07EA9C4_entry_0055",
+   "source_entry_offset": 6103,
+   "source_entry_byte_length": 83,
+   "source_entry_sha256": "ee3ad99a03733cd752df5f43182032404530171b157172c84b7d404c9ea755d5",
+   "source_entry_raw_hex": "f1 02 51 35 3d 31 2b 0b 49 4a 3a 17 c7 00 b8 aa a1 a8 be 81 e8 a7 b1 ad bb 00 90 10 78 17 0b 3a 3b 78 91 81 eb e9 d3 a4 9e a8 b2 00 26 26 26 88 88 88 25 2a 1c d3 be 81 e8 d6 bb 1f 29 0e c9 00 25 3a 1e ae ad e5 02 a9 e5 03 9b 9e ad 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "5fa17d86935cc79c14cc4b78049b026c286beac2cd3e10572697b245e985a6c2",
+   "japanese_characters": 60,
+   "source_literals": [
+    "プログラムアドバンスを みつけたよ!\nそのなも 「カースアンガー」!",
+    "だしかたは フフフ・・・ヒミツだよ!\nでもナマエが ヒントになっちゃうかな?"
+   ],
+   "translated_literals": [
+    "프로그램 어드밴스를 찾았어!\n그 이름하여 「커스앵거」!",
+    "내는 법은 후후후... 비밀이야!\n그래도 이름이 힌트가 되려나?"
+   ]
+  },
+  {
+   "entry_index": 56,
+   "entry_id": "archive_u07EA9C4_entry_0056",
+   "source_entry_offset": 6186,
+   "source_entry_byte_length": 87,
+   "source_entry_sha256": "89570920764842102e85617a300ff4c6778c44a01fff4954ce98cc168817b58a",
+   "source_entry_raw_hex": "f1 02 9d ad cf 00 a1 9a ac 9b b1 00 1b 59 51 c7 e8 9d ad cf 14 78 49 d6 aa ad cb ac eb e9 51 35 3d 31 2b 0b 49 4a 3a 17 c9 e8 9d a2 e5 02 a8 c0 a5 c1 9e bf 88 88 88 eb e9 10 78 17 0b 3a 3b 78 b2 88 88 88 e8 88 88 88 a7 9b 9e 85 c4 9e e5 02 a8 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "f85b9db17ab1a5b395cbc8234ab8a50c27d0386d294179c57afc1e9b17bd7c42",
+   "japanese_characters": 67,
+   "source_literals": [
+    "おなじ けいとうの チップを\nおなじコードでつなぐと",
+    "プログラムアドバンスが\nおこったりするから・・・",
+    "カースアンガーは・・・\n・・・そうか、わかった!"
+   ],
+   "translated_literals": [
+    "같은 계열 칩을\n같은 코드로 이으면",
+    "프로그램 어드밴스가\n일어나기도 하니까...",
+    "커스앵거는...\n...그렇구나、 알았다!"
+   ]
+  },
+  {
+   "entry_index": 57,
+   "entry_id": "archive_u07EA9C4_entry_0057",
+   "source_entry_offset": 6273,
+   "source_entry_byte_length": 43,
+   "source_entry_sha256": "57d99e1ae7a10e8be020d57fd7100e157521c5c4da1d2ca63466ae315ed49667",
+   "source_entry_raw_hex": "f1 02 aa b7 c0 f9 00 55 01 ac 03 ac 04 c7 e8 cf e5 04 c8 d8 c8 ae 00 aa ad cc d8 9a 9a b1 9e ad 7c e8 99 a8 c0 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "51dcc8cd9bf69d7d01536069f60a5ecd306ea3e715c1610c29cf3c4940340764",
+   "japanese_characters": 24,
+   "source_literals": [
+    "つまり",
+    "と2と3を\nじゅんばんに つなげばいいのかな?\nあたり?"
+   ],
+   "translated_literals": [
+    "그러니까 ",
+    "과 2와 3을\n순서대로 이으면 되는 건가?\n맞아?"
+   ]
+  },
+  {
+   "entry_index": 58,
+   "entry_id": "archive_u07EA9C4_entry_0058",
+   "source_entry_offset": 6316,
+   "source_entry_byte_length": 47,
+   "source_entry_sha256": "0e79bee4b7ca1fbcbb1edef6bcd785d5f0b45deef695d94a38f572d6575af1aa",
+   "source_entry_raw_hex": "f1 02 0b 1a 32 81 e8 d3 a1 d7 00 9e 9a a9 e5 03 45 2c d3 be 8c eb e9 b8 c8 ad ae 00 17 0c 32 a4 ab bb bf 9a a8 9a c8 d3 9e bf eb ea ff 00 00",
+   "source_tpl_block_sha256": "92d853e3ec0d3342b19f265e87f982977a88728460b0da084e8fbafe0b16b16b",
+   "japanese_characters": 32,
+   "source_literals": [
+    "アタリ!\nだけど かいちゃダメだよ~",
+    "みんなに スイリしてもらいたいんだから"
+   ],
+   "translated_literals": [
+    "정답!\n하지만 쓰면 안 돼~",
+    "다들 추리했으면 하니까"
+   ]
+  },
+  {
+   "entry_index": 59,
+   "entry_id": "archive_u07EA9C4_entry_0059",
+   "source_entry_offset": 6363,
+   "source_entry_byte_length": 122,
+   "source_entry_sha256": "1b249d958bb784aa9a65a83655e6c79ee802875c568b1b8b9675501b161b78cf",
+   "source_entry_raw_hex": "f1 02 a7 e5 02 9e 85 a5 9a b7 a6 c8 e8 cf e5 03 99 85 4e 12 bb 22 1a c7 00 ab 9a 9f e5 05 9b a4 b7 a5 81 eb e9 a2 ad 9a d3 00 b8 aa a1 a8 d8 9e c0 b1 e8 51 35 3d 31 2b 0b 49 4a 3a 17 eb e9 a7 b1 ad bb 00 90 27 4b 78 17 1a 3a 51 91 81 eb e9 a5 cd 9a 9d bb a8 a7 9b ad 00 1f 29 0e b1 e8 a2 9b cc 9f d6 a4 e5 05 eb e9 a2 c2 c9 25 3a 1e ae ad c1 9e ad 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "828d709eb629ae524c3724706bd5ac293e8e85e8cdbe7d26f98d832d16a5c108",
+   "japanese_characters": 89,
+   "source_literals": [
+    "そっか、すいません\nじゃあ、ボクもネタを ていきょうします!",
+    "こないだ みつけたばかりの\nプログラムアドバンス",
+    "そのなも 「ヘビースタンプ」!",
+    "すごいおもたそうな ナマエの\nこうげきでしょ",
+    "これがヒントになるかな?"
+   ],
+   "translated_literals": [
+    "그렇구나、 미안해요\n그럼 저도 정보를 하나 드릴게요!",
+    "얼마 전에 막 찾은\n프로그램 어드밴스",
+    "그 이름하여 「헤비스탬프」!",
+    "엄청 무거워 보이는 이름의\n공격이죠",
+    "이게 힌트가 되려나?"
+   ]
+  },
+  {
+   "entry_index": 60,
+   "entry_id": "archive_u07EA9C4_entry_0060",
+   "source_entry_offset": 6485,
+   "source_entry_byte_length": 63,
+   "source_entry_sha256": "a770da5c2728d24ec48dc43c7ef65f72f6080570fdc5938129924ca1d1f0f27c",
+   "source_entry_raw_hex": "f1 02 9d bb a8 a7 9b ad 00 a2 9b cc 9f 88 88 88 7c eb e9 88 88 88 99 c2 9e 81 eb e9 49 17 78 3a 81 00 e5 02 ab 9a a0 bc aa d6 a4 e5 05 7c e8 be 78 a4 85 a8 ba a4 ab b8 be 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "0d522a0ef85bcd94c3ae1e38b3ac93c4844ebccfdd44e50d49a9c8cc6e438909",
+   "japanese_characters": 41,
+   "source_literals": [
+    "おもたそうな こうげき・・・?",
+    "・・・あれか!",
+    "ドスーン! っていくやつでしょ?\nよーし、ためしてみよ!"
+   ],
+   "translated_literals": [
+    "무거워 보이는 공격...?",
+    "...그건가!",
+    "쿠웅! 하는 그거죠?\n좋아、 시험해 봐야지!"
+   ]
+  },
+  {
+   "entry_index": 61,
+   "entry_id": "archive_u07EA9C4_entry_0061",
+   "source_entry_offset": 6548,
+   "source_entry_byte_length": 119,
+   "source_entry_sha256": "e76eade7f42696cf84e9351677bc76630c8709294a01b41002a321e45448a4dc",
+   "source_entry_raw_hex": "f1 02 a2 ad 9a d3 00 ac bb d3 a9 b1 00 26 58 33 45 c7 e8 b8 a6 ab bb bf e5 02 a8 bf 00 b8 a8 a2 ac ad 9a e8 1b 59 51 bb e5 02 ab a8 c8 d3 eb e9 a8 a4 9e f9 00 00 02 ac 9e e5 02 ab e8 1f 29 0e d3 e5 02 a8 ad eb e9 d7 a2 d6 00 ab ae e5 6e c2 a8 b1 9e 00 9f 9a ab bb e8 9d a4 9c ab a0 c2 ad a0 e5 02 ab 88 88 88 e8 d3 c2 9e e5 b1 e5 02 ab c1 7c eb ea ff 00 00",
+   "source_tpl_block_sha256": "365b28b37c71d9be6eaec118f1ef7c7b3310fe913c752be726e7adbcc55499e7",
+   "japanese_characters": 85,
+   "source_literals": [
+    "こないだ ともだちの フォルダを\nみせてもらったら みたことない\nチップもってたんだ",
+    "たしか",
+    "とかって\nナマエだったな",
+    "どこで てに入れたのか きいても\nおしえてくれなくって・・・\nだれか知ってる?"
+   ],
+   "translated_literals": [
+    "얼마 전에 친구 폴더를\n봤더니 처음 보는\n칩을 가지고 있었어",
+    "분명 ",
+    "인가 하는\n이름이었어",
+    "어디서 구했는지 물어봐도\n안 가르쳐 줘서...\n누구 아는 사람?"
+   ]
+  },
+  {
+   "entry_index": 62,
+   "entry_id": "archive_u07EA9C4_entry_0062",
+   "source_entry_offset": 6667,
+   "source_entry_byte_length": 187,
+   "source_entry_sha256": "10249efc964bcfc7762cc3f842911cfd4120a400e51b746519a400e1954649ab",
+   "source_entry_raw_hex": "f1 02 c9 c8 d8 e5 02 ab c1 9e 9a 7c e8 22 59 1e 4a 1e 33 e5 78 e5 6d 00 d3 be 81 eb e9 1f 44 b1 00 1b 59 51 88 88 88 e8 9b 8c c8 85 e5 74 ae ad c1 b0 e5 00 8c 81 eb e9 9d a4 9c ab 99 cc a8 9a c8 d3 a1 d7 85 e8 a2 c2 b2 00 b8 c8 ad b1 00 e5 66 d6 e8 9e 9a ba 9a a4 ab b6 a4 9a 00 1e 14 35 d3 ad 81 eb e9 4a 1e 33 1b 59 51 b1 00 a6 9e 9a b2 00 0f 12 c9 b4 9e 9a 85 e8 a4 e5 05 9b cf c8 00 a5 c1 c8 d3 81 eb e9 e5 78 e5 6d b2 00 9a aa d6 bb e8 11 2a b1 00 a9 e5 05 9b a6 c8 c7 00 b7 e5 02 ab 9a c1 d2 81 eb e9 0f 26 55 16 5a 33 18 3a 1a 78 d6 ad 81 eb ea ff 00 00",
+   "source_tpl_block_sha256": "918e9990a5847971131c97dda0993d6c919f75f4c247e385ffd86d92414121b4",
+   "japanese_characters": 130,
+   "source_literals": [
+    "がんばってるかい?\nネットバトル名人 だよ!",
+    "ナゾの チップ・・・\nう~ん、気になるねぇ~!",
+    "おしえてあげたいんだけど、\nこれは みんなの 手で\nかいめいしてほしい トコロだな!",
+    "バトルチップの せかいは オクがふかい、\nしょうじん するんだ!",
+    "名人は いつでも\nキミの ちょうせんを まっているぞ!",
+    "オフィシャルセンターでな!"
+   ],
+   "translated_literals": [
+    "열심히 하고 있나?\n넷배틀 명인이다!",
+    "수수께끼의 칩...\n으~음、 궁금하군~!",
+    "알려 주고 싶지만\n이건 모두의 손으로\n밝혀냈으면 하는 부분이다!",
+    "배틀칩의 세계는 깊이가 깊다、\n정진하도록!",
+    "명인은 언제나\n너의 도전을 기다리고 있다!",
+    "오피셜 센터에서 말이지!"
+   ]
+  }
+ ]
+}

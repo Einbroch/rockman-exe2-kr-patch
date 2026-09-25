@@ -497,7 +497,7 @@
       "source_entry_raw_hex": "ed 00 00 f1 00 a7 d3 ad 88 88 88 eb e9 a7 9b 9a bc 85 a8 a4 9e 00 a2 b1 0e 32 0b b2 85 e8 51 31 3d 0b 0d 1e d6 9f ad 9e e5 02 a8 c8 cf e5 03 e8 ad 9e e5 02 a8 e5 02 a1 7c eb e9 f5 00 08",
       "source_tpl_block_sha256": "2a22f543465239000f9d7f0d468782e000e37f6ac4f349fbb3ba79691b20861d",
       "source_text_transcription": "そだな・・・ // そういや、たしか このエリアは、 / プラグアウトできなかったんじゃ / なかったっけ?",
-      "draft_translation": "그러자... // 그러고 보니 이 에리어에서는 / 플러그아웃할 수 없지 않았나?",
+      "draft_translation": "그러자... // 그러고 보니 이 에어리어에서는 / 플러그아웃할 수 없지 않았나?",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },
@@ -1225,7 +1225,7 @@
       "source_entry_raw_hex": "ed 00 03 f1 00 cf e5 03 a2 c8 d7 b2 85 15 53 78 1e a2 9b 9e b1 99 c1 e8 1b 59 51 48 78 1a ae aa 9a ab e8 a6 aa ba 9a a4 ab 9a a0 c4 be eb e9 1b 59 51 48 78 1a b1 e5 8a ae b2 85 e8 da 9f b1 48 78 1a 9a c9 9a b1 bb b1 bb 99 c0 b7 a5 eb e9 a8 ac 9c d8 85 a2 c2 b2 0e 32 0b 17 1b 78 33 ac e5 a8 e5 02 ab e8 1f 4b c9 9b cd a1 c1 0e 32 0b c7 e8 e5 76 a0 a5 c1 1b 59 51 48 78 1a d6 a5 eb e7",
       "source_tpl_block_sha256": "39cc34366c0293f229d35d0cd186c1f3f44957f66173875d6b50acfad62d7322",
       "source_text_transcription": "じゃこんどは、サポートこうかのある / チップデータについて / せつめいしていくわよ // チップデータの中には、 / ぶきのデータいがいのものもあります // たとえば、これはエリアスチールと言って / ナビがうごけるエリアを / 広くするチップデータです",
-      "draft_translation": "이번에는 지원 효과가 있는 / 칩 데이터를 설명할게요. // 칩 데이터 중에는 / 무기 데이터가 아닌 것도 있어요. // 예를 들어 이것은 에리어스틸. / 내비가 움직일 수 있는 에리어를 / 넓히는 칩 데이터예요.",
+      "draft_translation": "이번에는 지원 효과가 있는 / 칩 데이터를 설명할게요. // 칩 데이터 중에는 / 무기 데이터가 아닌 것도 있어요. // 예를 들어 이것은 에어리어스틸. / 내비가 움직일 수 있는 에어리어를 / 넓히는 칩 데이터예요.",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },
@@ -1267,7 +1267,7 @@
       "source_entry_raw_hex": "ed 00 03 f1 00 0b 33 26 54 4d 59 1e c9 99 c1 d6 a4 e5 05 7c e8 a2 c2 b2 1b 59 51 14 78 49 ac 9a 9a b7 a5 e8 1e 31 3a 51 b1 29 78 12 b8 a8 9a ad bb b1 b0 eb e9 1b 59 51 14 78 49 c9 e5 d3 cf 1b 59 51 48 78 1a b2 85 e8 a9 c9 9b a4 e5 04 c1 9a d6 bb 9a e5 02 a4 e5 05 ae e8 9c bf da a2 ac c9 d6 9f c1 b1 eb e9 99 ac d6 e5 9c ab b6 a4 9a c8 d3 a1 d7 85 e5 a3 d3 ac e8 0e 32 0b 17 1b 78 33 ac 36 0c 49 19 78 49 b1 e8 1b 59 51 14 78 49 c9 d7 e5 02 a9 bb 69 d3 9e bf 85 eb e9 03 aa b1 1b 59 51 c7 85 e8 9a e5 02 a4 e5 05 ae 9c bf da a2 ac c9 d6 9f c1 c4 eb e9 a9 ad b8 ae 80 e5 02 ab 9a 9b 14 78 49 bb 99 c1 c8 d3 a1 d7 e8 a2 c2 b2 0b 17 1a 32 17 12 e5 02 ab 9a e5 02 ab 85 e8 1e 31 3a 51 b1 41 5c 78 10 78 b8 a8 9a ad bb b1 b0 eb e9 d7 b1 14 78 49 ac d6 bb 00 9a e5 02 a4 e5 05 ae 9c bf db c1 e8 db c8 c0 ad 14 78 49 ad b1 e8 9d dc 9c ab 9d 9a ab b0 eb e9 cf e5 03 e5 a3 e5 bb b2 85 14 78 49 69 d6 aa ad 9a d6 b8 b7 a5 e8 0e 32 0b 17 1b 78 33 ac 85 36 0c 49 19 78 49 c7 e8 c2 c8 d2 a0 d6 aa 9e e5 02 ab b8 b7 a4 e5 05 9b eb e7",
       "source_tpl_block_sha256": "493bf7ec2d0bdd6a77d576dc6d2ca4b4a5ba8949a1f70447d3f1b1fdbc6c9cf2",
       "source_text_transcription": "アルファベットがあるでしょ? / これはチップコードといいます / トランプのマークみたいなものね // チップコードが同じチップデータは、 / ちがうしゅるいでもいっしょに / えらぶことができるの // あとで見てほしいんだけど、今だと / エリアスチールとワイドソードの / チップコードがどっちもLだから、 // 2つのチップを、 / いっしょにえらぶことができるわ // ちなみに*っていうコードもあるんだけど / これはアスタリスクっていって、 / トランプのジョーカーみたいなものね // どのコードとでも いっしょにえらべる / べんりなコードなの / おぼえておいてね // じゃ今回は、コードLでつないでみます / エリアスチールと、ワイドソードを / れんぞくでつかってみましょう",
-      "draft_translation": "알파벳이 있죠? / 이것을 칩 코드라고 해요. / 카드 무늬 같은 거예요. // 칩 코드가 같은 칩 데이터는 / 종류가 달라도 함께 / 고를 수 있어요. // 지금은 에리어스틸과 와이드소드의 / 칩 코드가 둘 다 L이므로 / 두 칩을 함께 고를 수 있죠. // 참고로 *라는 코드도 있는데 / 아스타리스크라고 하며 / 카드의 조커 같은 거예요. // 어떤 코드와도 함께 고를 수 있는 / 편리한 코드니 기억해 두세요. // 이번에는 코드 L로 연결해 볼게요. / 에리어스틸과 와이드소드를 / 연속으로 사용해 봅시다.",
+      "draft_translation": "알파벳이 있죠? / 이것을 칩 코드라고 해요. / 카드 무늬 같은 거예요. // 칩 코드가 같은 칩 데이터는 / 종류가 달라도 함께 / 고를 수 있어요. // 지금은 에어리어스틸과 와이드소드의 / 칩 코드가 둘 다 L이므로 / 두 칩을 함께 고를 수 있죠. // 참고로 *라는 코드도 있는데 / 아스타리스크라고 하며 / 카드의 조커 같은 거예요. // 어떤 코드와도 함께 고를 수 있는 / 편리한 코드니 기억해 두세요. // 이번에는 코드 L로 연결해 볼게요. / 에어리어스틸과 와이드소드를 / 연속으로 사용해 봅시다.",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },
@@ -1295,7 +1295,7 @@
       "source_entry_raw_hex": "ed 00 03 f1 00 e5 a0 ae e8 0e 32 0b 17 1b 78 33 c7 9c bf d9 b7 a4 e5 05 9b e8 5f 4e 1a 3a d6 9a e5 02 a8 c8 11 5a 3a 18 33 a4 ab b0 eb e7",
       "source_tpl_block_sha256": "69e7b2cd508829965d7813b74c2bbcadb0de2416b8d384c3ba334d5fbe1d2a52",
       "source_text_transcription": "先に / エリアスチールをえらびましょう / Bボタンでいったんキャンセルしてね",
-      "draft_translation": "먼저 에리어스틸을 고르세요. / B 버튼으로 일단 취소해 주세요.",
+      "draft_translation": "먼저 에어리어스틸을 고르세요. / B 버튼으로 일단 취소해 주세요.",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },
@@ -1309,7 +1309,7 @@
       "source_entry_raw_hex": "ed 00 03 f1 00 0e 32 0b 17 1b 78 33 c7 9c bf d9 b7 a4 e5 05 9b e8 5f 4e 1a 3a d6 9a e5 02 a8 c8 11 5a 3a 18 33 a4 ab b0 eb e7",
       "source_tpl_block_sha256": "624d6e6cba1aebc39a6b9c247824d8da91ca572cb9f0157128e9773b5134cf29",
       "source_text_transcription": "エリアスチールをえらびましょう / Bボタンでいったんキャンセルしてね",
-      "draft_translation": "에리어스틸을 고르세요. / B 버튼으로 일단 취소해 주세요.",
+      "draft_translation": "에어리어스틸을 고르세요. / B 버튼으로 일단 취소해 주세요.",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },
@@ -1323,7 +1323,7 @@
       "source_entry_raw_hex": "ed 00 03 f1 00 b7 d0 0e 32 0b 17 1b 78 33 c7 9c bf d9 b7 a4 e5 05 9b e8 b6 9e b1 1b 59 51 c7 9c bf c8 d6 c1 ad bf e8 5f 4e 1a 3a d6 9a e5 02 a8 c8 11 5a 3a 18 33 a4 ab b0 eb e7",
       "source_tpl_block_sha256": "3b590c026f7da2d3fdc6e8e43c4638b742555c75cd5f55df3d52cdddbc18efd9",
       "source_text_transcription": "まずエリアスチールをえらびましょう / ほかのチップをえらんでるなら / Bボタンでいったんキャンセルしてね",
-      "draft_translation": "먼저 에리어스틸을 고르세요. / 다른 칩을 골랐다면 / B 버튼으로 일단 취소해 주세요.",
+      "draft_translation": "먼저 에어리어스틸을 고르세요. / 다른 칩을 골랐다면 / B 버튼으로 일단 취소해 주세요.",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },
@@ -1491,7 +1491,7 @@
       "source_entry_raw_hex": "ed 00 03 f1 00 d6 b2 85 a3 e5 02 9f b1 a3 a0 a6 c8 c7 e8 9e a0 ae c8 a4 ab 9d 9f b7 a4 e5 05 9b eb e9 b7 d0 85 e8 5e 4e 1a 3a d6 0e 32 0b 17 1b 78 33 c7 aa 9e 9b b1 e8 a5 c1 ac b0 85 eb e9 0d 0c 33 17 c9 c4 b1 9a a9 d8 c8 e5 64 b1 0e 32 0b c9 e8 a2 e5 02 a9 b1 0e 32 0b ae ad e5 02 ab 85 e8 1f 4b c9 a7 a2 b7 d6 e5 98 a1 c1 be 9b ae ad c1 b1 eb e7",
       "source_tpl_block_sha256": "79eb418799d256c32626eabc8880fd038a9da9da8af2e58e8bc23d82042ea2aa",
       "source_text_transcription": "では、さっきのさくせんを / かくにんしておきましょう // まず、 / Aボタンでエリアスチールをつかうの / するとね、 // ウイルスがわのいちばん左のエリアが / こっちのエリアになって、 / ナビがそこまで行けるようになるの",
-      "draft_translation": "그럼 아까의 작전을 / 확인해 봅시다. // 먼저 A 버튼으로 / 에리어스틸을 사용하세요. // 그러면 바이러스 쪽 가장 왼쪽 / 에리어가 우리 에리어가 되어 / 내비가 그곳까지 갈 수 있어요.",
+      "draft_translation": "그럼 아까의 작전을 / 확인해 봅시다. // 먼저 A 버튼으로 / 에어리어스틸을 사용하세요. // 그러면 바이러스 쪽 가장 왼쪽 / 에어리어가 우리 에어리어가 되어 / 내비가 그곳까지 갈 수 있어요.",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },
@@ -1505,7 +1505,7 @@
       "source_entry_raw_hex": "ed 00 03 f1 00 d6 85 a7 b1 9b d8 e5 02 a8 0e 32 0b ae e5 98 e5 02 ab 85 e8 36 0c 49 19 78 49 81 81 e8 a2 c2 b2 9f a0 c4 be 8c 81 eb e9 a8 d3 a4 85 0d 0c 33 17 ae a9 9e d5 a0 e5 af b2 e8 0d 0c 33 17 b1 e5 d0 e5 d1 ae a9 e5 04 9b 9a a4 ab b0 eb e9 cf e5 03 85 b8 c8 ad c9 c8 d8 e5 02 ab b0 81 81 eb e7",
       "source_tpl_block_sha256": "4015f2613f331e8ff44e13b5a9d9736a6579adf48358f00365850aa0e967e9e1",
       "source_text_transcription": "で、そのうばったエリアに行って、 / ワイドソード!! / これはきくわよ~! // ただし、ウイルスにちかづく時は / ウイルスの攻撃にちゅういしてね // じゃ、みんながんばってね!!",
-      "draft_translation": "그렇게 빼앗은 에리어로 가서 / 와이드소드!! / 이건 잘 통할 거예요~! // 단, 바이러스에 접근할 때는 / 공격에 주의하세요. // 그럼 모두 힘내세요!!",
+      "draft_translation": "그렇게 빼앗은 에어리어로 가서 / 와이드소드!! / 이건 잘 통할 거예요~! // 단, 바이러스에 접근할 때는 / 공격에 주의하세요. // 그럼 모두 힘내세요!!",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },

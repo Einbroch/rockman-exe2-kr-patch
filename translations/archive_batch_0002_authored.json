@@ -1,109 +1,519 @@
 {
-  "schema_version": 1,
-  "kind": "authored_semantic_translation_batch",
-  "batch_number": 2,
-  "entries": [
-    {"selector": "00/11", "entry_index": 200, "draft_translation": "어디, 읽어 볼까. // ·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]· // 어머나!! 이건 / 러브레터잖아! // 이 나이에 이런 걸 받게 될 줄은 / 꿈에도 몰랐구나! // 게다가 얼마나 정열적인 / 문장이냐, / 녹아 버릴 것 같구나! // 이 편지를 쓴 남자는 / 분명 멋진 사람이겠지. // 잊고 지냈던 / 뜨거운 감정이 / 되살아났어!! // 답을 알려 달라고? / 성질도 급하구나. // 하지만 이런 편지를 쓸 줄 아는 사람이라면 / 나쁜 사람은 아니겠지. // 얘야, 이 편지 주인에게 / 전해 주렴. // 「우선 친구부터」라고. // 잘 부탁한다."},
-    {"selector": "00/11", "entry_index": 201, "draft_translation": "그 편지, 어떤 사람이 보낸 걸까. / 설레는구나."},
-    {"selector": "00/11", "entry_index": 202, "draft_translation": "그 할아버지와 / 다음에 함께 온천에 / 가기로 했단다. // 부럽지?"},
-    {"selector": "00/11", "entry_index": 220, "draft_translation": "여기서 옥상에 있는 사람의 / 모습이 보인다!"},
-    {"selector": "00/11", "entry_index": 221, "draft_translation": "카페 간판이다! / 메뉴가 적혀 있다!"},
-    {"selector": "00/11", "entry_index": 222, "draft_translation": "카페 테이블이다! / 아쉽지만 음식은 없다."},
-    {"selector": "00/11", "entry_index": 223, "draft_translation": "여러 꽃이 흐드러지게 핀 / 아름다운 꽃밭이다."},
-    {"selector": "00/11", "entry_index": 224, "draft_translation": "넷배틀러 또는 / 라이선스 시험 수험표를 / 소지한 사람 외 출입 금지!"},
-    {"selector": "00/11", "entry_index": 225, "draft_translation": "오피셜 센터의 / 공식 마크다."},
-    {"selector": "00/11", "entry_index": 226, "draft_translation": "TV 중계차다. / 방송에 쓰는 장비가 / 빼곡하게 실려 있다. // 여기는 플러그인할 수 있을 것 같다!"},
-    {"selector": "00/11", "entry_index": 227, "draft_translation": "무언가 적혀 있다... // 「위대한 물병 / 네 그루 삼나무 안쪽에 서는 자」", "review_notes": ["수수께끼 문구의 고유 해석과 지도 지형 대응은 사람 검토가 필요함."]},
-
-    {"selector": "00/12", "entry_index": 0, "draft_translation": "여기는 메트로라인의 마린역입니다. // 마린하버에 있어서 / 마린역이라고 합니다."},
-    {"selector": "00/12", "entry_index": 1, "draft_translation": "우유를 꿀꺽!!"},
-    {"selector": "00/12", "entry_index": 2, "draft_translation": "라이선스 시험을 보기 전에... [waitSkip 30] / 우유를 꿀꺽!!"},
-    {"selector": "00/12", "entry_index": 3, "draft_translation": "넷토, 메일이야!!"},
-    {"selector": "00/12", "entry_index": 5, "draft_translation": "라이선스 시험엔 떨어졌지만... [waitSkip 30] / 우유를 꿀꺽!!"},
-    {"selector": "00/12", "entry_index": 10, "draft_translation": "여기는 메트로라인의 마린역입니다. // 마린하버에 있어서 / 마린역이라고 합니다."},
-    {"selector": "00/12", "entry_index": 11, "draft_translation": "오피셜 센터에 / 칩 트레이더가 새로 / 설치됐대! // 그게 뭔데? / 정말!? // 정말이야! / 너도 가서 확인해 보는 게 어때?"},
-    {"selector": "00/12", "entry_index": 12, "draft_translation": "필요 없는 칩을 넣으면 / 새로운 칩이 나오는 기계야. / 재미있어!"},
-    {"selector": "00/12", "entry_index": 15, "draft_translation": "여기는 메트로라인의 마린역입니다. // 마린하버에 있어서 / 마린역이라고 합니다."},
-    {"selector": "00/12", "entry_index": 20, "draft_translation": "마린역에 오신 걸 환영합니다!"},
-    {"selector": "00/12", "entry_index": 21, "draft_translation": "아, 여권을 가지고 계시는군요. // 그러시다면 / 공항선을 이용하실 수 있습니다."},
-    {"selector": "00/12", "entry_index": 22, "draft_translation": "미안하지만 지금 바빠. / 이야기는 다음에 해 줘..."},
-    {"selector": "00/12", "entry_index": 25, "draft_translation": "매번 이용해 주셔서 / 감사합니다! // 좋아, 오늘도 절호조!!"},
-    {"selector": "00/12", "entry_index": 30, "draft_translation": "지진 때문에 / 손님이 뚝 / 줄었습니다..."},
-    {"selector": "00/12", "entry_index": 32, "draft_translation": "메트로라인은 역을 포함해 / 지진에 강하도록 / 설계됐으니 안심하세요."},
-    {"selector": "00/12", "entry_index": 34, "draft_translation": "거리도 곧 안정을 / 되찾을 겁니다."},
-    {"selector": "00/12", "entry_index": 40, "draft_translation": "마린역에 오신 걸 환영합니다! // 사건이 늘어나면 / 이 역을 이용하는 손님도 / 많아져서 바빠집니다. // 그래도 고스펠에 대한 불안에서 / 잠시나마 마음을 돌릴 수 있으니 / 나쁘진 않네요."},
-    {"selector": "00/12", "entry_index": 41, "draft_translation": "꿀꺽... 꿀꺽... // 좋아! 기합이 들어갔어! / 의뢰를 해결하러 가자!! // 시민 넷배틀러로서 / 힘내 볼 거야!"},
-    {"selector": "00/12", "entry_index": 42, "draft_translation": "오피셜 센터는 / 어디에 이떠요? // 아빠도 엄마도 집에서 / 바이러뜨를 무찌르고 이써요. // 그러니까 내가... [waitSkip 20] 어라어라... [waitSkip 20] / 뭐 하러 왔더라?", "review_notes": ["유아 발음인 원문의 치환 말투를 한국어 유아 발음으로 잠정 현지화함."]},
-    {"selector": "00/12", "entry_index": 45, "draft_translation": "코토부키 패스를 가지고 계시는군요. / 그럼 바로 개찰구로 / 들어가 주세요. // 코토부키역은 / 이 역에서만 갈 수 있습니다. / 아직 개통하지 않은 노선이니까요."},
-    {"selector": "00/12", "entry_index": 190, "draft_translation": "저기, 너! // 「[printChip chip=107] [printCode code=S]」라는 / 칩을 가지고 있지 않아? // 가지고 있다면 내 / 「[printChip chip=121] [printCode code=B]」와 / 교환해 줬으면 하는데. // 어때? / 좋아 / 싫어 // 싫다면 어쩔 수 없지. / 교환해 줄 생각이 들면 / 다시 내게 말을 걸어 줘."},
-    {"selector": "00/12", "entry_index": 191, "draft_translation": "어? 정말 괜찮아? / 우와~, 기쁘다~!! // 그럼 약속한 칩이야. / 자!"},
-    {"selector": "00/12", "entry_index": 192, "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=121] [printCode code=B]」를 / 획득했다!!"},
-    {"selector": "00/12", "entry_index": 193, "draft_translation": "너는 정말 친절한 사람이구나. / 네게 받은 칩, / 소중히 간직할게!!"},
-    {"selector": "00/12", "entry_index": 194, "draft_translation": "어라? 너는... // 네 「[printChip chip=107] [printCode code=S]」와 / 내 「[printChip chip=121] [printCode code=B]」를 / 교환해 줄 거야? // 좋아 / 싫어 // 싫다면 어쩔 수 없지. / 교환해 줄 생각이 들면 / 다시 내게 말을 걸어 줘. // 계속 기다릴게..."},
-    {"selector": "00/12", "entry_index": 195, "draft_translation": "저기, 「[printChip chip=107] [printCode code=S]」가 / 없는 것 같은데. // 혹시 폴더 안에 / 넣어 둔 건 아니지? // 교환할 칩은 / 가방에 넣어 둬."},
-    {"selector": "00/12", "entry_index": 220, "draft_translation": "타는 쓰레기를 버리는 / 쓰레기통이다. // 하지만 타지 않는 쓰레기도 / 섞여 있다."},
-    {"selector": "00/12", "entry_index": 221, "draft_translation": "「승차 예절을 지키자」"},
-    {"selector": "00/12", "entry_index": 222, "draft_translation": "매점이다. // 메트로 마린역점은 / 풍부한 상품 구성이 자랑이다."},
-    {"selector": "00/12", "entry_index": 223, "draft_translation": "스포츠 신문이다. // 1면에는 유명 감독의 / 사진이 크게 실려 있다. // 「안녕! 미스터 점보즈!」"},
-    {"selector": "00/12", "entry_index": 230, "draft_translation": "목적지를 선택해 주세요. / 아키하라 마을 / 아무 데도 가지 않는다"},
-    {"selector": "00/12", "entry_index": 231, "draft_translation": "목적지를 선택해 주세요. / 아키하라 마을 / 오쿠덴 계곡 / 아무 데도 가지 않는다"},
-    {"selector": "00/12", "entry_index": 232, "draft_translation": "목적지를 선택해 주세요. / 아키하라 마을 / 오쿠덴 계곡 / 공항 / 아무 데도 가지 않는다"},
-    {"selector": "00/12", "entry_index": 233, "draft_translation": "넷토는 / 「[printItem item=88]」을 / 획득했다!!"},
-    {"selector": "00/12", "entry_index": 234, "draft_translation": "넷토는 / 「[printItem item=90]」을 / 획득했다!!"},
-    {"selector": "00/12", "entry_index": 235, "draft_translation": "넷토는 / 「[printItem item=91]」을 / 획득했다!!"},
-    {"selector": "00/12", "entry_index": 236, "draft_translation": "표를 다시 사시겠습니까? / 예 / 아니요"},
-    {"selector": "00/12", "entry_index": 237, "draft_translation": "넷토는 / 가지고 있던 표를 / 반납했다!"},
-    {"selector": "00/12", "entry_index": 238, "draft_translation": "넷토는 / 「[printItem item=88]」을 / 사용했다!"},
-    {"selector": "00/12", "entry_index": 240, "draft_translation": "넷토는 / 「[printItem item=90]」을 / 사용했다!"},
-    {"selector": "00/12", "entry_index": 241, "draft_translation": "넷토는 / 「[printItem item=91]」을 / 사용했다!"},
-    {"selector": "00/12", "entry_index": 242, "draft_translation": "넷토, / [printItem item=41]을 사용할까? / 예 / 아니요 // 넷토는 / 「[printItem item=41]」을 / 사용했다!", "review_notes": ["삽입 아이템명 뒤 조사 형태는 실제 아이템명 전수 검사 전까지 검토 필요."]},
-
-    {"selector": "00/13", "entry_index": 0, "draft_translation": "오피셜 센터에 오신 걸 환영합니다. // 무슨 일이니, 꼬마야? [waitSkip 30] / 설마 라이선스 시험을 / 보러 온 건 아니겠지? // 응, 아니야 / 아니, 시험을 보러 왔어! // 그렇지? / 그럼 오피셜 사람들을 / 방해하지 말고 조용히 있어."},
-    {"selector": "00/13", "entry_index": 1, "draft_translation": "어머, 꼬마야. / 아직 초등학생으로밖에 안 보이는데? // 그럼 PET를 보여 줄래? / 예 / 아니요 // 으음~, 그럼 시험 / 수험표는 줄 수 없겠네."},
-    {"selector": "00/13", "entry_index": 2, "draft_translation": "정말이네, [printItem item=58]을 / 제대로 가지고 있구나. [waitSkip 30] / 의심해서 미안해."},
-    {"selector": "00/13", "entry_index": 3, "draft_translation": "넷토는 / 「[printItem item=4]」를 / 획득했다!!"},
-    {"selector": "00/13", "entry_index": 4, "draft_translation": "잠깐, 이 앞은 / B보다 높은 라이선스를 가진 / 넷배틀러만 갈 수 있어. // [printItem item=58]로는 안 돼. / 시험 수험표라도 가지고 있다면 / 얘기가 다르지만."},
-    {"selector": "00/13", "entry_index": 5, "draft_translation": "너, 어디 가려는 거야? 이 앞은 / B보다 높은 라이선스를 가진 / 넷배틀러만 갈 수 있어. // [printItem item=58]로는 안 돼. / 시험 수험표라도 가지고 있다면 / 얘기가 다르지만."},
-    {"selector": "00/13", "entry_index": 6, "draft_translation": "[printItem item=4]를 받았어? / 그럼 이 앞에서 수속을 밟아."},
-    {"selector": "00/13", "entry_index": 7, "draft_translation": "시험장에는 / 이 카운터 맞은편 통로로 / 들어가렴."},
-    {"selector": "00/13", "entry_index": 8, "draft_translation": "오피셜 센터에서는 / 넷배틀러 라이선스 시험을 / 실시하고, // 시민들이 가져온 / 네트워크 사건 해결 의뢰도 / 접수합니다. // 물론 위층에는 / 네트워크 범죄에 맞서는 / 본부 조직도 있습니다."},
-    {"selector": "00/13", "entry_index": 9, "draft_translation": "최근 다시 네트워크 범죄가 / 늘어나서 많은 사람이 의뢰를 / 가져오게 됐습니다."},
-    {"selector": "00/13", "entry_index": 10, "draft_translation": "우리 집 레인지가 불을 뿜었어! / 빨리 도우러 와 줘! // 뭐, 옛날 얘기라고? / 무슨 소리야?"},
-    {"selector": "00/13", "entry_index": 11, "draft_translation": "내 무선조종 자동차가 고장 났는데 / 고쳐 줬어! // 바이러스가 장난치고 있었대."},
-    {"selector": "00/13", "entry_index": 12, "draft_translation": "초등학생인데 S급을 딴 / 실력 좋은 오피셜 넷배틀러가 / 있다는 모양이에요."},
-    {"selector": "00/13", "entry_index": 13, "draft_translation": "그거라면 나도 들은 적이 있지. / 이름이 엔잔이었나 뭐였나..."},
-    {"selector": "00/13", "entry_index": 14, "draft_translation": "우리 오피셜 넷배틀러는 / 밤낮을 가리지 않고 네트워크 범죄를 / 뿌리 뽑기 위해 활동하고 있다. // 넷마피아가 / 이 나라에 오더라도 / 우리가 있으니 안심해!"},
-    {"selector": "00/13", "entry_index": 15, "draft_translation": "오피셜 센터에 오신 걸 환영합니다."},
-    {"selector": "00/13", "entry_index": 16, "draft_translation": "너, 어디 가려는 거야? 이 앞은 / B보다 높은 라이선스를 가진 / 넷배틀러만 갈 수 있어. // [printItem item=58]을 가지고 있다면 / 조만간 B 라이선스 시험 / 안내가 올 거야."},
-    {"selector": "00/13", "entry_index": 17, "draft_translation": "어머? 나도 / 오피셜 넷배틀러야. // 겉모습만 보고 판단하면 / 큰코다칠지도 몰라!"},
-    {"selector": "00/13", "entry_index": 20, "draft_translation": "요즘 사건이 많아서 / 오피셜 넷배틀러는 / 다들 바쁜 모양이야. // 우리 에이스 넷배틀러인 / 엔잔 군은 특히 그렇지."},
-    {"selector": "00/13", "entry_index": 30, "draft_translation": "오피셜 센터에 오신 걸 환영합니다."},
-    {"selector": "00/13", "entry_index": 31, "draft_translation": "안녕! 넷배틀 연습은 / 하고 있나? / 매일 하지 않으면 실력이 무뎌진다고!"},
-    {"selector": "00/13", "entry_index": 32, "draft_translation": "넌 분명 라이선스를 / 가지고 있지? // 이 오피셜 센터가 / 일본의 보안 시스템이라 / 불리는 건 알고 있나? // 이곳은 시민의 안심과 / 안전을 상징하는 곳이다. // 넷배틀러 라이선스를 / 가진다는 건, // 오피셜의 간판을 / 짊어진다는 뜻이다. // 그만큼 책임감을 가지고 / 행동하도록 해라."},
-    {"selector": "00/13", "entry_index": 33, "draft_translation": "WWW 사건 이후 / 흉악한 네트워크 범죄가 / 급증하고 있습니다. // 오피셜이 바쁘다는 건 / 그만큼 네트워크 사회가 / 어지럽다는 뜻입니다. // ...그보다 저 이상한 기계, / 오늘 와 보니 갑자기 놓여 있던데 / 대체 누가 둔 거지?"},
-    {"selector": "00/13", "entry_index": 34, "draft_translation": "범죄는 일어난 뒤에 / 대처해서는 늦습니다. // 민간인 여러분의 「방범 의식」을 / 높이도록 안내하고 있습니다."},
-    {"selector": "00/13", "entry_index": 35, "draft_translation": "오늘만 사건 세 건을 / 해결하고 왔어. // 오피셜에 들어오는 의뢰는 / 바이러스 버스팅뿐 아니라 // 미아 찾기나 칩 교환 등 / 여러 가지라 힘들어."},
-    {"selector": "00/13", "entry_index": 36, "draft_translation": "난 오피셜 센터가 / 너어어무 좋아!! // 멋있잖아!"},
-    {"selector": "00/13", "entry_index": 37, "draft_translation": "전뇌 세계에서는 어른도 아이도 / 상관없으니까, // 어쩌면 아이들이 / 바이러스 버스팅 실력은 / 더 뛰어날지도 모르겠네요."},
-    {"selector": "00/13", "entry_index": 38, "draft_translation": "그럴지도 모르지. / 아이들은 마른 스펀지처럼 // 새로운 지식과 기술을 / 흡수하니까 말이야~"},
-    {"selector": "00/13", "entry_index": 40, "draft_translation": "오피셜 센터에 오신 걸 환영합니다. // 어머, A 라이선스를 따러 왔니? // 얼마 전에 B 라이선스를 / 딴 참이잖아? // 열심히 하는구나."},
-    {"selector": "00/13", "entry_index": 44, "draft_translation": "오? [printItem item=60]을 / 땄어? // 그거 대단한걸. / 앞으로도 더욱 실력을 / 갈고닦아."},
-    {"selector": "00/13", "entry_index": 45, "draft_translation": "[printItem item=60]을 획득했다고? / 너 아직 초등학생이지? // 엔잔 군과 비슷한 나이잖아. / 요즘 초등학생은 / 정말 대단하군."},
-    {"selector": "00/13", "entry_index": 46, "draft_translation": "오피셜 데 바르바로사 / 데인저러스 캐노오오온!! // 부이이이이이잉!! / 콰아아아아앙!! // 꺄하하하하하하!", "review_notes": ["어린이의 즉흥 필살기명과 의성어는 음성 리듬 검토가 필요함."]},
-    {"selector": "00/13", "entry_index": 47, "draft_translation": "들었어요? / 초등학생 [printItem item=60] / 합격자가 나왔대요."},
-    {"selector": "00/13", "entry_index": 48, "draft_translation": "그거 대단하구나! // 이 정도면 일본의 미래는 / 안심이군. 호호호호."},
-    {"selector": "00/13", "entry_index": 50, "draft_translation": "아지나 스퀘어에 아무도 없었다고? // 분명 축제 같은 게 있어서 / 아무도 플러그인하지 않았던 / 것뿐 아니야?"},
-    {"selector": "00/13", "entry_index": 51, "draft_translation": "아지나 스퀘어에 다녀왔어? // 거긴 언제나 사람이 많이 모여서 / 즐거운 곳이지. // 뭐...? 아무도 없었다고? // 하하하! 그럴 리가 없어. / 꿈이라도 꾼 거 아니야?"},
-    {"selector": "00/13", "entry_index": 54, "draft_translation": "일본을 지키기 위해 / 명인이 할 수 있는 일... // 그건 바로 너희 넷배틀러를 / 단련하는 것이다! / 명인은 그렇게 믿고 있다!"},
-    {"selector": "00/13", "entry_index": 55, "draft_translation": "전에 없던 / 경계 태세네... // 아, 너 위험하니까 / 인터넷에는 플러그인하면 / 안 돼!"},
-    {"selector": "00/13", "entry_index": 56, "draft_translation": "만약 오피셜 스퀘어가 / 습격당한다면, // 우리만으로 끝까지 / 지켜 낼 수 있을까..."},
-    {"selector": "00/13", "entry_index": 57, "draft_translation": "평소에는 접수 담당이지만 / 할 때는 한다고! // 언제든 덤벼!"},
-    {"selector": "00/13", "entry_index": 58, "draft_translation": "참, 난 / 바이러스 버스팅이 / 서툰데... // 하지만 그런 말만 할 수는 없겠군."},
-    {"selector": "00/13", "entry_index": 59, "draft_translation": "이곳은 우리가 / 반드시 지킨다!"},
-    {"selector": "00/13", "entry_index": 60, "draft_translation": "오피셜이 저렇게 / 소란스러운 걸 보면, // 분명 큰 사건이 / 일어난 게 틀림없어! // 어떡하지!"},
-    {"selector": "00/13", "entry_index": 61, "draft_translation": "뭐, 웬만한 사건이라면 / 오피셜 사람들이 / 어떻게든 해결해 줄 거야. // 아저씨는 아무 걱정도 / 안 한다고. 하하하하하."},
-    {"selector": "00/13", "entry_index": 62, "draft_translation": "오랜만에 오피셜 센터에 / 와 봤더니... // 무슨 소란이지?"},
-    {"selector": "00/13", "entry_index": 63, "draft_translation": "하하하, 분명 운동회 같은 걸 / 연습하는 거 아닐까? // 전원 정렬! / ...이러고 있네."},
-    {"selector": "00/13", "entry_index": 64, "draft_translation": "미, 믿을 수가 없어... / 설마 오피셜 스퀘어가 / 점령당하다니..."}
-  ]
+ "schema_version": 1,
+ "kind": "authored_semantic_translation_batch",
+ "batch_number": 2,
+ "entries": [
+  {
+   "selector": "00/11",
+   "entry_index": 200,
+   "draft_translation": "어디, 읽어 볼까. // ·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]·[waitSkip 20]· // 어머나!! 이건 / 러브레터잖아! // 이 나이에 이런 걸 받게 될 줄은 / 꿈에도 몰랐구나! // 게다가 얼마나 정열적인 / 문장이냐, / 녹아 버릴 것 같구나! // 이 편지를 쓴 남자는 / 분명 멋진 사람이겠지. // 잊고 지냈던 / 뜨거운 감정이 / 되살아났어!! // 답을 알려 달라고? / 성질도 급하구나. // 하지만 이런 편지를 쓸 줄 아는 사람이라면 / 나쁜 사람은 아니겠지. // 얘야, 이 편지 주인에게 / 전해 주렴. // 「우선 친구부터」라고. // 잘 부탁한다."
+  },
+  {
+   "selector": "00/11",
+   "entry_index": 201,
+   "draft_translation": "그 편지, 어떤 사람이 보낸 걸까. / 설레는구나."
+  },
+  {
+   "selector": "00/11",
+   "entry_index": 202,
+   "draft_translation": "그 할아버지와 / 다음에 함께 온천에 / 가기로 했단다. // 부럽지?"
+  },
+  {
+   "selector": "00/11",
+   "entry_index": 220,
+   "draft_translation": "여기서 옥상에 있는 사람의 / 모습이 보인다!"
+  },
+  {
+   "selector": "00/11",
+   "entry_index": 221,
+   "draft_translation": "카페 간판이다! / 메뉴가 적혀 있다!"
+  },
+  {
+   "selector": "00/11",
+   "entry_index": 222,
+   "draft_translation": "카페 테이블이다! / 아쉽지만 음식은 없다."
+  },
+  {
+   "selector": "00/11",
+   "entry_index": 223,
+   "draft_translation": "여러 꽃이 흐드러지게 핀 / 아름다운 꽃밭이다."
+  },
+  {
+   "selector": "00/11",
+   "entry_index": 224,
+   "draft_translation": "넷배틀러 또는 / 라이선스 시험 수험표를 / 소지한 사람 외 출입 금지!"
+  },
+  {
+   "selector": "00/11",
+   "entry_index": 225,
+   "draft_translation": "오피셜 센터의 / 공식 마크다."
+  },
+  {
+   "selector": "00/11",
+   "entry_index": 226,
+   "draft_translation": "TV 중계차다. / 방송에 쓰는 장비가 / 빼곡하게 실려 있다. // 여기는 플러그인할 수 있을 것 같다!"
+  },
+  {
+   "selector": "00/11",
+   "entry_index": 227,
+   "draft_translation": "무언가 적혀 있다... // 「위대한 물병 / 네 그루 삼나무 안쪽에 서는 자」",
+   "review_notes": [
+    "수수께끼 문구의 고유 해석과 지도 지형 대응은 사람 검토가 필요함."
+   ]
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 0,
+   "draft_translation": "여기는 메트로라인의 마린역입니다. // 마린하버에 있어서 / 마린역이라고 합니다."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 1,
+   "draft_translation": "우유를 꿀꺽!!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 2,
+   "draft_translation": "라이선스 시험을 보기 전에... [waitSkip 30] / 우유를 꿀꺽!!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 3,
+   "draft_translation": "넷토, 메일이야!!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 5,
+   "draft_translation": "라이선스 시험엔 떨어졌지만... [waitSkip 30] / 우유를 꿀꺽!!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 10,
+   "draft_translation": "여기는 메트로라인의 마린역입니다. // 마린하버에 있어서 / 마린역이라고 합니다."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 11,
+   "draft_translation": "오피셜 센터에 / 칩 트레이더가 새로 / 설치됐대! // 그게 뭔데? / 정말!? // 정말이야! / 너도 가서 확인해 보는 게 어때?"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 12,
+   "draft_translation": "필요 없는 칩을 넣으면 / 새로운 칩이 나오는 기계야. / 재미있어!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 15,
+   "draft_translation": "여기는 메트로라인의 마린역입니다. // 마린하버에 있어서 / 마린역이라고 합니다."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 20,
+   "draft_translation": "마린역에 오신 걸 환영합니다!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 21,
+   "draft_translation": "아, 여권을 가지고 계시는군요. // 그러시다면 / 공항선을 이용하실 수 있습니다."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 22,
+   "draft_translation": "미안하지만 지금 바빠. / 이야기는 다음에 해 줘..."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 25,
+   "draft_translation": "매번 이용해 주셔서 / 감사합니다! // 좋아, 오늘도 절호조!!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 30,
+   "draft_translation": "지진 때문에 / 손님이 뚝 / 줄었습니다..."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 32,
+   "draft_translation": "메트로라인은 역을 포함해 / 지진에 강하도록 / 설계됐으니 안심하세요."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 34,
+   "draft_translation": "거리도 곧 안정을 / 되찾을 겁니다."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 40,
+   "draft_translation": "마린역에 오신 걸 환영합니다! // 사건이 늘어나면 / 이 역을 이용하는 손님도 / 많아져서 바빠집니다. // 그래도 고스펠에 대한 불안에서 / 잠시나마 마음을 돌릴 수 있으니 / 나쁘진 않네요."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 41,
+   "draft_translation": "꿀꺽... 꿀꺽... // 좋아! 기합이 들어갔어! / 의뢰를 해결하러 가자!! // 시민 넷배틀러로서 / 힘내 볼 거야!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 42,
+   "draft_translation": "오피셜 센터는 / 어디에 이떠요? // 아빠도 엄마도 집에서 / 바이러뜨를 무찌르고 이써요. // 그러니까 내가... [waitSkip 20] 어라어라... [waitSkip 20] / 뭐 하러 왔더라?",
+   "review_notes": [
+    "유아 발음인 원문의 치환 말투를 한국어 유아 발음으로 잠정 현지화함."
+   ]
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 45,
+   "draft_translation": "코토부키 패스를 가지고 계시는군요. / 그럼 바로 개찰구로 / 들어가 주세요. // 코토부키역은 / 이 역에서만 갈 수 있습니다. / 아직 개통하지 않은 노선이니까요."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 190,
+   "draft_translation": "저기, 너! // 「[printChip chip=107] [printCode code=S]」라는 / 칩을 가지고 있지 않아? // 가지고 있다면 내 / 「[printChip chip=121] [printCode code=B]」와 / 교환해 줬으면 하는데. // 어때? / 좋아 / 싫어 // 싫다면 어쩔 수 없지. / 교환해 줄 생각이 들면 / 다시 내게 말을 걸어 줘."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 191,
+   "draft_translation": "어? 정말 괜찮아? / 우와~, 기쁘다~!! // 그럼 약속한 칩이야. / 자!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 192,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=121] [printCode code=B]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 193,
+   "draft_translation": "너는 정말 친절한 사람이구나. / 네게 받은 칩, / 소중히 간직할게!!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 194,
+   "draft_translation": "어라? 너는... // 네 「[printChip chip=107] [printCode code=S]」와 / 내 「[printChip chip=121] [printCode code=B]」를 / 교환해 줄 거야? // 좋아 / 싫어 // 싫다면 어쩔 수 없지. / 교환해 줄 생각이 들면 / 다시 내게 말을 걸어 줘. // 계속 기다릴게..."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 195,
+   "draft_translation": "저기, 「[printChip chip=107] [printCode code=S]」가 / 없는 것 같은데. // 혹시 폴더 안에 / 넣어 둔 건 아니지? // 교환할 칩은 / 가방에 넣어 둬."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 220,
+   "draft_translation": "타는 쓰레기를 버리는 / 쓰레기통이다. // 하지만 타지 않는 쓰레기도 / 섞여 있다."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 221,
+   "draft_translation": "「승차 예절을 지키자」"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 222,
+   "draft_translation": "매점이다. // 메트로 마린역점은 / 풍부한 상품 구성이 자랑이다."
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 223,
+   "draft_translation": "스포츠 신문이다. // 1면에는 유명 감독의 / 사진이 크게 실려 있다. // 「안녕! 미스터 점보즈!」"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 230,
+   "draft_translation": "목적지를 선택해 주세요. / 아키하라 마을 / 아무 데도 가지 않는다"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 231,
+   "draft_translation": "목적지를 선택해 주세요. / 아키하라 마을 / 오쿠덴 계곡 / 아무 데도 가지 않는다"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 232,
+   "draft_translation": "목적지를 선택해 주세요. / 아키하라 마을 / 오쿠덴 계곡 / 공항 / 아무 데도 가지 않는다"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 233,
+   "draft_translation": "넷토는 / 「[printItem item=88]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 234,
+   "draft_translation": "넷토는 / 「[printItem item=90]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 235,
+   "draft_translation": "넷토는 / 「[printItem item=91]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 236,
+   "draft_translation": "표를 다시 사시겠습니까? / 예 / 아니요"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 237,
+   "draft_translation": "넷토는 / 가지고 있던 표를 / 반납했다!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 238,
+   "draft_translation": "넷토는 / 「[printItem item=88]」를 / 사용했다!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 240,
+   "draft_translation": "넷토는 / 「[printItem item=90]」를 / 사용했다!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 241,
+   "draft_translation": "넷토는 / 「[printItem item=91]」를 / 사용했다!"
+  },
+  {
+   "selector": "00/12",
+   "entry_index": 242,
+   "draft_translation": "넷토, / [printItem item=41]를 사용할까? / 예 / 아니요 // 넷토는 / 「[printItem item=41]」를 / 사용했다!",
+   "review_notes": [
+    "삽입 아이템명 뒤 조사 형태는 실제 아이템명 전수 검사 전까지 검토 필요."
+   ]
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 0,
+   "draft_translation": "오피셜 센터에 오신 걸 환영합니다. // 무슨 일이니, 꼬마야? [waitSkip 30] / 설마 라이선스 시험을 / 보러 온 건 아니겠지? // 응, 아니야 / 아니, 시험을 보러 왔어! // 그렇지? / 그럼 오피셜 사람들을 / 방해하지 말고 조용히 있어."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 1,
+   "draft_translation": "어머, 꼬마야. / 아직 초등학생으로밖에 안 보이는데? // 그럼 PET를 보여 줄래? / 예 / 아니요 // 으음~, 그럼 시험 / 수험표는 줄 수 없겠네."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 2,
+   "draft_translation": "정말이네, [printItem item=58]를 / 제대로 가지고 있구나. [waitSkip 30] / 의심해서 미안해."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 3,
+   "draft_translation": "넷토는 / 「[printItem item=4]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 4,
+   "draft_translation": "잠깐, 이 앞은 / B보다 높은 라이선스를 가진 / 넷배틀러만 갈 수 있어. // [printItem item=58]로는 안 돼. / 시험 수험표라도 가지고 있다면 / 얘기가 다르지만."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 5,
+   "draft_translation": "너, 어디 가려는 거야? 이 앞은 / B보다 높은 라이선스를 가진 / 넷배틀러만 갈 수 있어. // [printItem item=58]로는 안 돼. / 시험 수험표라도 가지고 있다면 / 얘기가 다르지만."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 6,
+   "draft_translation": "[printItem item=4]를 받았어? / 그럼 이 앞에서 수속을 밟아."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 7,
+   "draft_translation": "시험장에는 / 이 카운터 맞은편 통로로 / 들어가렴."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 8,
+   "draft_translation": "오피셜 센터에서는 / 넷배틀러 라이선스 시험을 / 실시하고, // 시민들이 가져온 / 네트워크 사건 해결 의뢰도 / 접수합니다. // 물론 위층에는 / 네트워크 범죄에 맞서는 / 본부 조직도 있습니다."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 9,
+   "draft_translation": "최근 다시 네트워크 범죄가 / 늘어나서 많은 사람이 의뢰를 / 가져오게 됐습니다."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 10,
+   "draft_translation": "우리 집 레인지가 불을 뿜었어! / 빨리 도우러 와 줘! // 뭐, 옛날 얘기라고? / 무슨 소리야?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 11,
+   "draft_translation": "내 무선조종 자동차가 고장 났는데 / 고쳐 줬어! // 바이러스가 장난치고 있었대."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 12,
+   "draft_translation": "초등학생인데 S급을 딴 / 실력 좋은 오피셜 넷배틀러가 / 있다는 모양이에요."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 13,
+   "draft_translation": "그거라면 나도 들은 적이 있지. / 이름이 엔잔이었나 뭐였나..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 14,
+   "draft_translation": "우리 오피셜 넷배틀러는 / 밤낮을 가리지 않고 네트워크 범죄를 / 뿌리 뽑기 위해 활동하고 있다. // 넷마피아가 / 이 나라에 오더라도 / 우리가 있으니 안심해!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 15,
+   "draft_translation": "오피셜 센터에 오신 걸 환영합니다."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 16,
+   "draft_translation": "너, 어디 가려는 거야? 이 앞은 / B보다 높은 라이선스를 가진 / 넷배틀러만 갈 수 있어. // [printItem item=58]를 가지고 있다면 / 조만간 B 라이선스 시험 / 안내가 올 거야."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 17,
+   "draft_translation": "어머? 나도 / 오피셜 넷배틀러야. // 겉모습만 보고 판단하면 / 큰코다칠지도 몰라!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 20,
+   "draft_translation": "요즘 사건이 많아서 / 오피셜 넷배틀러는 / 다들 바쁜 모양이야. // 우리 에이스 넷배틀러인 / 엔잔 군은 특히 그렇지."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 30,
+   "draft_translation": "오피셜 센터에 오신 걸 환영합니다."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 31,
+   "draft_translation": "안녕! 넷배틀 연습은 / 하고 있나? / 매일 하지 않으면 실력이 무뎌진다고!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 32,
+   "draft_translation": "넌 분명 라이선스를 / 가지고 있지? // 이 오피셜 센터가 / 일본의 보안 시스템이라 / 불리는 건 알고 있나? // 이곳은 시민의 안심과 / 안전을 상징하는 곳이다. // 넷배틀러 라이선스를 / 가진다는 건, // 오피셜의 간판을 / 짊어진다는 뜻이다. // 그만큼 책임감을 가지고 / 행동하도록 해라."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 33,
+   "draft_translation": "WWW 사건 이후 / 흉악한 네트워크 범죄가 / 급증하고 있습니다. // 오피셜이 바쁘다는 건 / 그만큼 네트워크 사회가 / 어지럽다는 뜻입니다. // ...그보다 저 이상한 기계, / 오늘 와 보니 갑자기 놓여 있던데 / 대체 누가 둔 거지?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 34,
+   "draft_translation": "범죄는 일어난 뒤에 / 대처해서는 늦습니다. // 민간인 여러분의 「방범 의식」을 / 높이도록 안내하고 있습니다."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 35,
+   "draft_translation": "오늘만 사건 세 건을 / 해결하고 왔어. // 오피셜에 들어오는 의뢰는 / 바이러스 버스팅뿐 아니라 // 미아 찾기나 칩 교환 등 / 여러 가지라 힘들어."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 36,
+   "draft_translation": "난 오피셜 센터가 / 너어어무 좋아!! // 멋있잖아!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 37,
+   "draft_translation": "전뇌 세계에서는 어른도 아이도 / 상관없으니까, // 어쩌면 아이들이 / 바이러스 버스팅 실력은 / 더 뛰어날지도 모르겠네요."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 38,
+   "draft_translation": "그럴지도 모르지. / 아이들은 마른 스펀지처럼 // 새로운 지식과 기술을 / 흡수하니까 말이야~"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 40,
+   "draft_translation": "오피셜 센터에 오신 걸 환영합니다. // 어머, A 라이선스를 따러 왔니? // 얼마 전에 B 라이선스를 / 딴 참이잖아? // 열심히 하는구나."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 44,
+   "draft_translation": "오? [printItem item=60]를 / 땄어? // 그거 대단한걸. / 앞으로도 더욱 실력을 / 갈고닦아."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 45,
+   "draft_translation": "[printItem item=60]를 획득했다고? / 너 아직 초등학생이지? // 엔잔 군과 비슷한 나이잖아. / 요즘 초등학생은 / 정말 대단하군."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 46,
+   "draft_translation": "오피셜 데 바르바로사 / 데인저러스 캐노오오온!! // 부이이이이이잉!! / 콰아아아아앙!! // 꺄하하하하하하!",
+   "review_notes": [
+    "어린이의 즉흥 필살기명과 의성어는 음성 리듬 검토가 필요함."
+   ]
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 47,
+   "draft_translation": "들었어요? / 초등학생 [printItem item=60] / 합격자가 나왔대요."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 48,
+   "draft_translation": "그거 대단하구나! // 이 정도면 일본의 미래는 / 안심이군. 호호호호."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 50,
+   "draft_translation": "아지나 스퀘어에 아무도 없었다고? // 분명 축제 같은 게 있어서 / 아무도 플러그인하지 않았던 / 것뿐 아니야?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 51,
+   "draft_translation": "아지나 스퀘어에 다녀왔어? // 거긴 언제나 사람이 많이 모여서 / 즐거운 곳이지. // 뭐...? 아무도 없었다고? // 하하하! 그럴 리가 없어. / 꿈이라도 꾼 거 아니야?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 54,
+   "draft_translation": "일본을 지키기 위해 / 명인이 할 수 있는 일... // 그건 바로 너희 넷배틀러를 / 단련하는 것이다! / 명인은 그렇게 믿고 있다!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 55,
+   "draft_translation": "전에 없던 / 경계 태세네... // 아, 너 위험하니까 / 인터넷에는 플러그인하면 / 안 돼!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 56,
+   "draft_translation": "만약 오피셜 스퀘어가 / 습격당한다면, // 우리만으로 끝까지 / 지켜 낼 수 있을까..."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 57,
+   "draft_translation": "평소에는 접수 담당이지만 / 할 때는 한다고! // 언제든 덤벼!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 58,
+   "draft_translation": "참, 난 / 바이러스 버스팅이 / 서툰데... // 하지만 그런 말만 할 수는 없겠군."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 59,
+   "draft_translation": "이곳은 우리가 / 반드시 지킨다!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 60,
+   "draft_translation": "오피셜이 저렇게 / 소란스러운 걸 보면, // 분명 큰 사건이 / 일어난 게 틀림없어! // 어떡하지!"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 61,
+   "draft_translation": "뭐, 웬만한 사건이라면 / 오피셜 사람들이 / 어떻게든 해결해 줄 거야. // 아저씨는 아무 걱정도 / 안 한다고. 하하하하하."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 62,
+   "draft_translation": "오랜만에 오피셜 센터에 / 와 봤더니... // 무슨 소란이지?"
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 63,
+   "draft_translation": "하하하, 분명 운동회 같은 걸 / 연습하는 거 아닐까? // 전원 정렬! / ...이러고 있네."
+  },
+  {
+   "selector": "00/13",
+   "entry_index": 64,
+   "draft_translation": "미, 믿을 수가 없어... / 설마 오피셜 스퀘어가 / 점령당하다니..."
+  }
+ ]
 }

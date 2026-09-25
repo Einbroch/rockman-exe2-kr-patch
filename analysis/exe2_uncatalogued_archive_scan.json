@@ -1,0 +1,307 @@
+{
+ "schema_version": 1,
+ "kind": "exe2_pointer_reachable_text_archive_scan",
+ "criterion": "aligned u32 literal in ROM plus a valid boundary table",
+ "catalogued_recovered": 383,
+ "catalogued_total": 383,
+ "uncatalogued_count": 37,
+ "uncatalogued_decoded": 36,
+ "uncatalogued_byte_total": 198413,
+ "uncatalogued": [
+  {
+   "rom_offset": 39062,
+   "entry_count": 3,
+   "byte_length": 2056,
+   "pointer_reference_count": 4,
+   "decoded": true,
+   "tpl_filename": "0009896.tpl"
+  },
+  {
+   "rom_offset": 411708,
+   "entry_count": 32,
+   "byte_length": 98,
+   "pointer_reference_count": 6,
+   "decoded": true,
+   "tpl_filename": "006483C.tpl"
+  },
+  {
+   "rom_offset": 449404,
+   "entry_count": 8,
+   "byte_length": 26,
+   "pointer_reference_count": 4,
+   "decoded": true,
+   "tpl_filename": "006DB7C.tpl"
+  },
+  {
+   "rom_offset": 449440,
+   "entry_count": 17,
+   "byte_length": 53,
+   "pointer_reference_count": 8,
+   "decoded": true,
+   "tpl_filename": "006DBA0.tpl"
+  },
+  {
+   "rom_offset": 502300,
+   "entry_count": 3,
+   "byte_length": 11,
+   "pointer_reference_count": 3,
+   "decoded": true,
+   "tpl_filename": "007AA1C.tpl"
+  },
+  {
+   "rom_offset": 516256,
+   "entry_count": 7,
+   "byte_length": 23,
+   "pointer_reference_count": 3,
+   "decoded": true,
+   "tpl_filename": "007E0A0.tpl"
+  },
+  {
+   "rom_offset": 531452,
+   "entry_count": 7,
+   "byte_length": 23,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0081BFC.tpl"
+  },
+  {
+   "rom_offset": 531484,
+   "entry_count": 15,
+   "byte_length": 47,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0081C1C.tpl"
+  },
+  {
+   "rom_offset": 531516,
+   "entry_count": 23,
+   "byte_length": 71,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0081C3C.tpl"
+  },
+  {
+   "rom_offset": 531548,
+   "entry_count": 31,
+   "byte_length": 95,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0081C5C.tpl"
+  },
+  {
+   "rom_offset": 531580,
+   "entry_count": 39,
+   "byte_length": 119,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0081C7C.tpl"
+  },
+  {
+   "rom_offset": 531612,
+   "entry_count": 47,
+   "byte_length": 143,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0081C9C.tpl"
+  },
+  {
+   "rom_offset": 531644,
+   "entry_count": 55,
+   "byte_length": 167,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0081CBC.tpl"
+  },
+  {
+   "rom_offset": 531676,
+   "entry_count": 63,
+   "byte_length": 191,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0081CDC.tpl"
+  },
+  {
+   "rom_offset": 531708,
+   "entry_count": 71,
+   "byte_length": 215,
+   "pointer_reference_count": 1,
+   "decoded": false
+  },
+  {
+   "rom_offset": 531740,
+   "entry_count": 79,
+   "byte_length": 239,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0081D1C.tpl"
+  },
+  {
+   "rom_offset": 553348,
+   "entry_count": 4,
+   "byte_length": 63353,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0087184.tpl"
+  },
+  {
+   "rom_offset": 556124,
+   "entry_count": 4,
+   "byte_length": 63354,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0087C5C.tpl"
+  },
+  {
+   "rom_offset": 764460,
+   "entry_count": 11,
+   "byte_length": 129,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "00BAA2C.tpl"
+  },
+  {
+   "rom_offset": 7508432,
+   "entry_count": 255,
+   "byte_length": 2405,
+   "pointer_reference_count": 14,
+   "decoded": true,
+   "tpl_filename": "07291D0.tpl"
+  },
+  {
+   "rom_offset": 7510844,
+   "entry_count": 255,
+   "byte_length": 1122,
+   "pointer_reference_count": 14,
+   "decoded": true,
+   "tpl_filename": "0729B3C.tpl"
+  },
+  {
+   "rom_offset": 7511968,
+   "entry_count": 255,
+   "byte_length": 9872,
+   "pointer_reference_count": 3,
+   "decoded": true,
+   "tpl_filename": "0729FA0.tpl"
+  },
+  {
+   "rom_offset": 7521880,
+   "entry_count": 255,
+   "byte_length": 4053,
+   "pointer_reference_count": 3,
+   "decoded": true,
+   "tpl_filename": "072C658.tpl"
+  },
+  {
+   "rom_offset": 7525944,
+   "entry_count": 255,
+   "byte_length": 10863,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "072D638.tpl"
+  },
+  {
+   "rom_offset": 7536852,
+   "entry_count": 255,
+   "byte_length": 4541,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "07300D4.tpl"
+  },
+  {
+   "rom_offset": 7541408,
+   "entry_count": 27,
+   "byte_length": 110,
+   "pointer_reference_count": 6,
+   "decoded": true,
+   "tpl_filename": "07312A0.tpl"
+  },
+  {
+   "rom_offset": 7541520,
+   "entry_count": 44,
+   "byte_length": 2343,
+   "pointer_reference_count": 7,
+   "decoded": true,
+   "tpl_filename": "0731310.tpl"
+  },
+  {
+   "rom_offset": 7543928,
+   "entry_count": 69,
+   "byte_length": 2859,
+   "pointer_reference_count": 2,
+   "decoded": true,
+   "tpl_filename": "0731C78.tpl"
+  },
+  {
+   "rom_offset": 7546856,
+   "entry_count": 69,
+   "byte_length": 2894,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "07327E8.tpl"
+  },
+  {
+   "rom_offset": 7549820,
+   "entry_count": 69,
+   "byte_length": 2887,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "073337C.tpl"
+  },
+  {
+   "rom_offset": 7552776,
+   "entry_count": 69,
+   "byte_length": 3039,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0733F08.tpl"
+  },
+  {
+   "rom_offset": 7555884,
+   "entry_count": 69,
+   "byte_length": 1435,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0734B2C.tpl"
+  },
+  {
+   "rom_offset": 7939264,
+   "entry_count": 254,
+   "byte_length": 11898,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "07924C0.tpl"
+  },
+  {
+   "rom_offset": 7959928,
+   "entry_count": 29,
+   "byte_length": 312,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "0797578.tpl"
+  },
+  {
+   "rom_offset": 7960240,
+   "entry_count": 101,
+   "byte_length": 3172,
+   "pointer_reference_count": 2,
+   "decoded": true,
+   "tpl_filename": "07976B0.tpl"
+  },
+  {
+   "rom_offset": 8265320,
+   "entry_count": 142,
+   "byte_length": 4310,
+   "pointer_reference_count": 26,
+   "decoded": true,
+   "tpl_filename": "07E1E68.tpl"
+  },
+  {
+   "rom_offset": 8291736,
+   "entry_count": 4,
+   "byte_length": 100,
+   "pointer_reference_count": 1,
+   "decoded": true,
+   "tpl_filename": "07E8598.tpl"
+  }
+ ]
+}

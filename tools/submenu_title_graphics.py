@@ -28,6 +28,22 @@ HEADERS = (
     (0x7E0154, 13, 3, '저장'),
     (0x7E0454, 12, 5, '서브칩'),
 )
+# The bulletin board title bar is a BG1 map row per board (0x7E7F98 for boards
+# 1-7, 0x7E8298 for the request board) drawing from this same bank: 掲示板 in
+# tiles 0x130-0x134 over 0x136-0x13A, and 依頼 in 0x147-0x149 over 0x14A-0x14C.
+# The letters are white strokes with a one-pixel grey outline laid straight on
+# the striped bar. Only those two title rows use the tiles, so they are
+# re-lettered in place; the request map already shows the 掲示板 tiles after
+# its own 依頼 strip and keeps doing so.
+BBS_MAPS = (0x7E7F98, 0x7E8298)
+BBS_MAP_WORDS = 384
+# (text, top tiles, bottom tiles, x of the first glyph cell in the strip).
+# 게시판 sits centred on the plain title row (tiles at x=96..135, screen
+# centre 120); 의뢰 ends at its strip's edge so the two words keep a gap.
+BBS_LETTERING = (('게시판', tuple(range(0x130, 0x135)), tuple(range(0x136, 0x13B)), 10),
+                 ('의뢰', tuple(range(0x147, 0x14A)), tuple(range(0x14A, 0x14D)), 6))
+BBS_BAR_TILES = (0x12F, 0x135)       # the plain bar, top and bottom half
+BBS_INK, BBS_OUTLINE, BBS_ADVANCE = 5, 14, 9
 digest = lambda b: hashlib.sha256(b).hexdigest()
 
 
@@ -115,6 +131,43 @@ def planned_writes(source, master_font):
             put(27, 9, 2, '패', False)
         assert all(a == b for i,(a,b) in enumerate(zip(before,result)) if i not in editable)
         write(base, struct.pack('<'+str(len(result))+'H', *result), f'submenu_map_{base:06x}')
+    # Bulletin board titles: erase the old letters back to the bar, then draw
+    # the master glyphs (ink rows 1-14) in white with a one-pixel grey outline.
+    bbs_maps = {base: struct.unpack_from('<%dH' % BBS_MAP_WORDS, source, base) for base in BBS_MAPS}
+    submenu_maps = source[0x7DD09C:0x7E1308]
+    bar = [unpack(original[(t-1)*32:t*32]) for t in BBS_BAR_TILES]
+    assert all(len(set(row[y*8:(y+1)*8])) == 1 for row in bar for y in range(8)), 'Bar tiles are not plain stripes'
+    bbs_receipts = []
+    for text, top, bottom, left in BBS_LETTERING:
+        tiles = top + bottom
+        for index in tiles:
+            # Only the two title rows name these tiles, and no submenu map does.
+            assert all(cell < 64 for cells in bbs_maps.values()
+                       for cell, entry in enumerate(cells) if entry & 0x3FF == index)
+            assert all(struct.unpack_from('<H', submenu_maps, i)[0] & 0x3FF != index
+                       for i in range(0, len(submenu_maps), 2)
+                       if struct.unpack_from('<H', submenu_maps, i)[0] & 0xF000 == 0x4000)
+        width = len(top) * 8
+        canvas = [[bar[y // 8][(y % 8) * 8] for x in range(width)] for y in range(16)]
+        ink = set()
+        for n, char in enumerate(text):
+            mask = glyph(char, False)
+            ink |= {(left + n*BBS_ADVANCE + x, y) for y in range(16) for x in range(8) if mask[y*8+x] == 3}
+        outline = {(x+dx, y+dy) for x, y in ink for dx in (-1, 0, 1) for dy in (-1, 0, 1)} - ink
+        assert all(0 <= x < width and 0 <= y < 16 for x, y in ink | outline), 'Board title leaves its strip'
+        for x, y in outline:
+            canvas[y][x] = BBS_OUTLINE
+        for x, y in ink:
+            canvas[y][x] = BBS_INK
+        for k, index in enumerate(tiles):
+            half, column = divmod(k, len(top))
+            pixels = [canvas[half*8 + y][column*8 + x] for y in range(8) for x in range(8)]
+            bank[(index-1)*32:index*32] = pack(pixels)
+            changed_original_tiles.add(index)
+        span = sorted(x for x, _ in ink | outline)
+        bbs_receipts.append({'text': text, 'tile_ids': list(tiles), 'strip_columns': [span[0], span[-1]],
+                             'advance': BBS_ADVANCE,
+                             'pixels_sha256': digest(bytes(v for row in canvas for v in row))})
     # PA memo lettering is 8 pixels tall, on the existing orange arrow.
     # Retain its top border row and change only original ink-bearing cells.
     small_labels = []
@@ -180,5 +233,6 @@ def planned_writes(source, master_font):
                     'changed_original_lettering_tiles':sorted(changed_original_tiles),
                     'small_arrow_font_sha256':digest(Path(__file__).with_name('arrow_small_font.py').read_bytes()),
                     'small_arrows':arrow_receipts,
+                    'bbs_titles':bbs_receipts,
                     'glyph_sources':sorted(receipts.values(),key=lambda x:x['character']),
                     'protected_pixels_preserved':True, 'protected_map_cells_preserved':True}

@@ -39,15 +39,22 @@ from exe1_k_font_source import (
     load_source as load_exe1_font,
 )
 from gba_lz77 import compress, decompress
-from dialogue_layout import layout_script, literal as layout_literal
+from dialogue_layout import (layout_script, literal as layout_literal, quote as layout_quote,
+                             capacity_violations as layout_capacity_violations)
+
+DIALOGUE_WINDOW_CELLS = 21
+DIALOGUE_WINDOW_ROWS = 3
 from layout_byte_verifier import table_mapping, verify_changed_literals
 from menu_hangul_hook import planned_writes as menu_hook_writes, HOOK_OFFSET as MENU_HOOK_OFFSET
 import dialogue_rom_residency as dialogue_rom
 from reviewed_choice_layout import REVIEWED_IDS, validate_choice_layout
+import choice_layout
 from pet_menu_graphics import planned_writes as pet_graphics_writes
-from static_submenu_tables import planned_writes as static_submenu_writes
+from static_submenu_tables import planned_writes as static_submenu_writes, printed_chip_names
 from submenu_title_graphics import planned_writes as submenu_graphics_writes
 from title_menu_graphics import planned_writes as title_menu_writes
+from chip_panel_graphics import planned_writes as chip_panel_writes
+from result_window_graphics import planned_writes as result_window_writes
 
 
 SOURCE_SHA256 = "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
@@ -80,8 +87,13 @@ TOKEN_RE = re.compile(r"\[[A-Za-z]+(?:\s+[^\]]+)?\]|\{[^{}\r\n]+\}|\s+//\s+|\s+/
 JUMP_TARGET_RE = re.compile(r"\bjump\s+target\s*=\s*(\d+)")
 TRACKED = {"wait", "waitSkip", "printItem", "printChip", "printCode", "textSpeed"}
 # Byte forms of a script that ends immediately, reachable through the boundary
-# table's terminal slot: "end" and "waitHold" (the latter reserves four bytes).
-TERMINAL_EMPTY_SCRIPTS = (bytes([0xE7]), bytes([0xEA, 0xFF, 0x00, 0x00]))
+# table's terminal slot: "end", "waitHold" (the latter reserves four bytes), and
+# the bulletin-board bodies' "msgOpenQuick" then "waitHold" - an empty window.
+TERMINAL_EMPTY_SCRIPTS = (bytes([0xE7]), bytes([0xEA, 0xFF, 0x00, 0x00]),
+                          bytes([0xF1, 0x02, 0xEA, 0xFF, 0x00, 0x00]))
+# A script parameter naming the entry its control goes to: jump's target, the
+# checkFlag family's jumpIfTrue/jumpIfFalse, a select's `jump = n`, and so on.
+ENTRY_TARGET_RE = re.compile(r"\b(?:jump\w*|target)\s*=\s*(\d+)")
 # Measured EWRAM ceilings, not guesses. On a map load the game decompresses the
 # map's dialogue archive to 0x02038800 and, just before it, the map's sprite
 # blocks to 0x0203C000, so a dialogue archive has 14,336 bytes before it runs
@@ -97,10 +109,37 @@ EWRAM_DESTINATIONS = {
     "00/mailbody": (0x02027000, 0x02033000),
 }
 DEFAULT_EWRAM_DESTINATION = (0x02038800, 0x0203C000)
+# The bulletin boards reuse the e-mail buffers. Loader 0x0802F28C takes board
+# n's (list, body) archive pair from the table at 0x0802F014 and unpacks the
+# list to the literal at 0x0802F2B0 and the body to the one at 0x0802F2B4.
+BBS_PAIR_TABLE = 0x2F014
+BBS_PAIR_COUNT = 8
+BBS_DESTINATION_LITERALS = 0x2F2B0
 
 
-def ewram_budget(selector: str) -> tuple[int, int, int]:
-    start, limit = EWRAM_DESTINATIONS.get(selector, DEFAULT_EWRAM_DESTINATION)
+def bulletin_board_destinations(rom: bytes) -> dict[int, tuple[int, int]]:
+    """Archive offset -> the EWRAM window the board loader unpacks it into.
+
+    Read from the loader's own table and literals rather than written down, so
+    a board archive gets the window its code actually uses.
+    """
+    list_window, body_window = EWRAM_DESTINATIONS["00/mail"], EWRAM_DESTINATIONS["00/mailbody"]
+    if struct.unpack_from("<2I", rom, BBS_DESTINATION_LITERALS) != (list_window[0], body_window[0]):
+        raise ValueError("bulletin board loader no longer unpacks into the e-mail buffers")
+    found: dict[int, tuple[int, int]] = {}
+    for pair in range(BBS_PAIR_COUNT):
+        pointers = struct.unpack_from("<2I", rom, BBS_PAIR_TABLE + pair * 8)
+        for pointer, window in zip(pointers, (list_window, body_window)):
+            if not ROM_BASE <= pointer < ROM_BASE + len(rom):
+                raise ValueError("bulletin board pair table holds a non-ROM pointer")
+            if found.setdefault(pointer - ROM_BASE, window) != window:
+                raise ValueError(f"0x{pointer - ROM_BASE:07X}: both a board list and a board body")
+    return found
+
+
+def ewram_budget(selector: str, archive_offset: int,
+                 boards: dict[int, tuple[int, int]]) -> tuple[int, int, int]:
+    start, limit = EWRAM_DESTINATIONS.get(selector) or boards.get(archive_offset) or DEFAULT_EWRAM_DESTINATION
     return start, limit, limit - start
 PUNCTUATION_NORMALIZATION = str.maketrans({",": "、", "-": "ー", "·": "・", "―": "ー"})
 
@@ -130,6 +169,14 @@ def hangul_from_ordinal(ordinal: int) -> str:
 def directory_argument(path: Path) -> str:
     value = str(path.resolve())
     return value if value.endswith(("/", "\\")) else value + "\\"
+
+
+def continuation_archive_name(continuation: dict) -> str:
+    """The TextPet archive name a translated continuation compiles under."""
+    if continuation["source_rom_offset"] is not None:
+        return f"{continuation['source_rom_offset']:07X}"
+    # A tail inside a decompressed buffer has no ROM offset of its own.
+    return f"{continuation['archive_offset']:07X}T"
 
 
 def run_textpet(executable: Path, plugins: Path, source: Path, destination: Path) -> str:
@@ -193,6 +240,38 @@ def load_source_archive(rom: bytes, metadata: dict) -> tuple[bytes, bytes]:
     return raw, trailing
 
 
+# The last catalogued archive has no next archive to bound its trailing script,
+# so the shared rule would skip it. These two windows bound the search instead:
+# how far to look for the terminator the reader stops at, and how much padding
+# after it has to be padding for the extent to count as established.
+SCRIPT_END_COMMAND = 0xE7
+TERMINAL_CONTINUATION_SCAN = 64
+TERMINAL_CONTINUATION_PADDING = 64
+
+
+def terminal_continuation_end(rom: bytes, boundary: int, selector: str):
+    """Where the last catalogued archive's trailing script stops.
+
+    Every other archive is bounded by the next one in the catalogue; this one
+    is not, so the extent has to come from the data. Follow the script to the
+    terminator, then insist the bytes after it are padding - that is what says
+    the script ended there rather than the window running out. If they are not,
+    stop the build instead of guessing how many bytes to carry.
+    """
+    window = rom[boundary:boundary + TERMINAL_CONTINUATION_SCAN]
+    if all(value == 0xFF for value in window):
+        return None
+    stop = window.find(bytes((SCRIPT_END_COMMAND,)))
+    if stop < 0:
+        raise ValueError(f"{selector}: trailing script has no terminator within "
+                         f"{TERMINAL_CONTINUATION_SCAN} bytes")
+    end = boundary + stop + 1
+    if not set(rom[end:end + TERMINAL_CONTINUATION_PADDING]) <= {0x00, 0xFF}:
+        raise ValueError(f"{selector}: content follows the trailing script terminator; "
+                         "its extent is not established")
+    return end
+
+
 def find_raw_physical_continuations(
     rom: bytes,
     archives: dict[str, dict],
@@ -221,20 +300,32 @@ def find_raw_physical_continuations(
                 if target >= entry_count:
                     outbound.append({"entry_index": entry_index, "jump_target": target})
         if not outbound:
-            # Native menu callers can select the table's final index directly,
-            # without a script jump. In 00/359 the empty subchip slot selects
-            # index 159, whose E7 is physically just outside the formal archive.
-            # Preserve this exact empty-script terminator wherever the same raw
-            # boundary exists; never invent a universal padding/control byte.
+            # A raw archive's script can continue past the length its boundary
+            # table declares, and callers reach it without a script jump - by
+            # selecting the terminal index, or by simply reading on. Relocating
+            # only the formal archive leaves those bytes behind and the reader
+            # walks into expanded-ROM fill. Keep every byte between the declared
+            # end and the next catalogued archive, exactly as the source has it.
             boundary = int(metadata["archive_offset"]) + len(source_raw[selector])
-            if metadata["storage"] == "raw" and rom[boundary:boundary+1] == b"\xe7":
-                continuations[selector] = {
-                    "payload": b"\xe7", "source_rom_offset": boundary,
-                    "source_sha256": sha256(b"\xe7"),
-                    "next_catalog_selector": ordered[position+1][0] if position+1 < len(ordered) else None,
-                    "outbound_entries": [],
-                    "reason": "native caller can select terminal empty script; exact source E7 retained",
-                }
+            following = (int(ordered[position+1][1]["archive_offset"])
+                         if position + 1 < len(ordered) else None)
+            if metadata["storage"] == "raw" and (following is None or following > boundary):
+                if following is None:
+                    end = terminal_continuation_end(rom, boundary, selector)
+                    next_selector = None
+                else:
+                    end, next_selector = following, ordered[position+1][0]
+                payload = rom[boundary:end] if end is not None else b""
+                if end is not None and len(payload) != end - boundary:
+                    raise ValueError(f"{selector}: trailing script is truncated in source ROM")
+                if any(value != 0xFF for value in payload):
+                    continuations[selector] = {
+                        "payload": payload, "source_rom_offset": boundary,
+                        "source_sha256": sha256(payload),
+                        "next_catalog_selector": next_selector,
+                        "outbound_entries": [],
+                        "reason": "script continues past the declared length; exact source bytes retained",
+                    }
             elif metadata["storage"] == "lz77" and source_trailing.get(selector):
                 # A compressed archive keeps that same terminator inside its
                 # decompressed buffer instead of in ROM. 00/mail is one: the
@@ -243,17 +334,29 @@ def find_raw_physical_continuations(
                 # walks EWRAM with no terminator left to find.
                 trailing = source_trailing[selector]
                 # E7 ends a script; EA FF 00 00 is waitHold, which the command
-                # database marks as always ending one. Anything else is not a
-                # terminal empty script, so stop rather than guess.
-                if trailing not in TERMINAL_EMPTY_SCRIPTS:
+                # database marks as always ending one. A longer tail counts as
+                # a script only when the archive itself sends control to the
+                # terminal index: the request board's body 118 ("this request
+                # is in progress") lies past the table, and script 17 jumps to
+                # it. Anything else is not known to be a script, so stop
+                # rather than guess.
+                reached = any(int(match.group(1)) == entry_count
+                              for match in ENTRY_TARGET_RE.finditer(text))
+                empty = trailing in TERMINAL_EMPTY_SCRIPTS
+                ends = trailing.endswith(bytes([SCRIPT_END_COMMAND])) or trailing.endswith(
+                    bytes([0xEA, 0xFF, 0x00, 0x00]))
+                if not empty and not (reached and ends):
                     raise ValueError(f"{selector}: unexpected bytes past the compressed payload")
                 continuations[selector] = {
                     "payload": trailing, "source_rom_offset": None,
+                    "archive_offset": int(metadata["archive_offset"]),
                     "source_sha256": sha256(trailing),
                     "next_catalog_selector": None,
                     "outbound_entries": [],
                     "storage_form": "inside_decompressed_buffer",
-                    "reason": "native caller selects terminal empty script inside the decompressed buffer",
+                    "reason": ("native caller selects terminal empty script inside the decompressed buffer"
+                               if empty else
+                               "a script jumps to the terminal index; its script lies inside the decompressed buffer"),
                 }
             continue
         if metadata["storage"] != "raw":
@@ -578,6 +681,61 @@ def transform_script(block: str, translation: str, stable_id: str, *, preserve_o
     }
 
 
+def substitute_literals(block: str, translated: list[str], stable_id: str) -> tuple[str, dict]:
+    """Replace each quoted literal in place; every control stays where the source has it.
+
+    The archives the pointer scan recovered are translated slot by slot rather
+    than through the draft grammar. That grammar has no way to keep an option's
+    trailing newline or space, to leave two literals on one line around a sound
+    effect, or to keep a literal's leading space, so a draft either round-trips
+    by luck or moves text between slots. Here a slot cannot move: the result
+    differs from the source only inside the literals.
+    """
+    quotes = list(QUOTE_RE.finditer(block))
+    if len(translated) != len(quotes):
+        raise ValueError(f"{stable_id}: {len(translated)} translated literals for {len(quotes)} source slots")
+    values = [value.translate(PUNCTUATION_NORMALIZATION) for value in translated]
+    pieces: list[str] = []
+    cursor = 0
+    for match, value in zip(quotes, values):
+        if not value:
+            # TextPet v1.0.0 rejects an empty literal.
+            raise ValueError(f"{stable_id}: empty translated literal")
+        pieces.append(block[cursor:match.start()])
+        pieces.append(match.group(0) if value == layout_literal(match) else layout_quote(value))
+        cursor = match.end()
+    pieces.append(block[cursor:])
+    transformed = "".join(pieces)
+    if QUOTE_RE.sub("<TEXT>", transformed) != QUOTE_RE.sub("<TEXT>", block):
+        raise AssertionError(f"{stable_id}: non-text TPL skeleton changed")
+    return transformed, {
+        "text_slot_count": len(quotes),
+        "boundaries": [],
+        "expected_hangul": "".join(HANGUL_RE.findall("".join(values))),
+        "literal_substitution": True,
+    }
+
+
+def translate_block(block: str, entry: dict) -> tuple[str, dict]:
+    """One protected entry's script before layout, by whichever form it was authored in."""
+    if "translated_literals" in entry:
+        return substitute_literals(block, entry["translated_literals"], entry["entry_id"])
+    # A choice's slots are found by the source's own line count and keep the
+    # source's suffix; without that, a question's line break is taken for the
+    # option boundary and every choice shifts a slot. The choice gate proves,
+    # entry by entry, that the draft agreed with the source's slots.
+    return transform_script(block, entry["draft_translation"], entry["entry_id"],
+                            preserve_option_layout=(entry["entry_id"] in REVIEWED_IDS
+                                                    or choice_layout.has_options(block)))
+
+
+def translated_text(entry: dict) -> str:
+    """Everything an entry will print, for the Hangul the font has to carry."""
+    if "translated_literals" in entry:
+        return "".join(entry["translated_literals"])
+    return entry["draft_translation"]
+
+
 class ThumbBlob:
     """Small fixed-sequence encoder; Capstone verifies the final placed code."""
 
@@ -755,7 +913,43 @@ def apply_expected_write(output: bytearray, source: bytes, start: int, expected:
     output[start:start + len(replacement)] = replacement
 
 
-def load_batches(translations_dir: Path) -> tuple[dict[tuple[str, int], dict], dict[str, dict], list[dict]]:
+SLOT_TRANSLATION_FILENAME = "slot_translations.json"
+SLOT_TRANSLATION_KIND = "protected_slot_translation_set"
+
+
+def apply_slot_translations(entry_map: dict[tuple[str, int], dict], document: dict) -> int:
+    """Give each entry the set carries its authored slots in place of its draft.
+
+    These are the entries whose drafts disagree with the source's slots - a
+    choice window whose question takes a choice's slot, or a page whose line
+    break the draft grammar drops beside a printed name - so they are carried
+    literal by literal. A record pins the draft it supersedes: if that draft
+    is edited, the slots were reviewed against text that no longer exists, so
+    loading stops.
+    """
+    if document.get("kind") != SLOT_TRANSLATION_KIND or not document.get("validation", {}).get("passed"):
+        raise ValueError("unexpected slot translation set")
+    for record in document["records"]:
+        key = (record["selector"], int(record["entry_index"]))
+        entry = entry_map.get(key)
+        if entry is None or entry["entry_id"] != record["entry_id"]:
+            raise ValueError(f"{record['entry_id']}: slots name an entry the batches lack")
+        if "translated_literals" in entry:
+            raise ValueError(f"{record['entry_id']}: entry already carries literal slots")
+        if sha256(entry["draft_translation"].encode("utf-8")) != record["superseded_draft_sha256"]:
+            raise ValueError(f"{record['entry_id']}: draft changed after its slots were "
+                             "authored; review the slots against the new draft")
+        if record["source_tpl_block_sha256"] != entry["source_tpl_block_sha256"]:
+            raise ValueError(f"{record['entry_id']}: slots were authored for another source block")
+        if record.get("status") != "machine_draft_needs_human_review":
+            raise ValueError(f"{record['entry_id']}: unexpected slot review state")
+        entry["translated_literals"] = list(record["translated_literals"])
+        entry["slot_translation"] = True
+    return len(document["records"])
+
+
+def load_batches(translations_dir: Path, *, apply_slots: bool = True
+                 ) -> tuple[dict[tuple[str, int], dict], dict[str, dict], list[dict]]:
     entry_map: dict[tuple[str, int], dict] = {}
     archive_map: dict[str, dict] = {}
     batch_records: list[dict] = []
@@ -766,13 +960,18 @@ def load_batches(translations_dir: Path) -> tuple[dict[tuple[str, int], dict], d
     # The two e-mail archives carry 127-entry batches, so they sit outside the
     # numbered glob the dialogue batches follow. The list uses the mmbn2s
     # command set; the bodies use mmbn2, like ordinary dialogue.
+    # These sit outside the numbered glob: the two e-mail archives carry
+    # 127-entry batches, and the uncatalogued batch holds the archives the
+    # catalogue never listed - ones the game reaches through a code literal
+    # rather than the pointer tables the catalogue was built from.
     for name in ("archive_00_mail_batch_0078_127.json",
-                 "archive_00_mailbody_batch_0079_127.json"):
+                 "archive_00_mailbody_batch_0079_127.json",
+                 "archive_uncatalogued_batch_0080.json"):
         candidate = translations_dir / name
         if candidate.is_file():
             files.append(candidate)
-    if len(files) != 79:
-        raise ValueError(f"expected 79 protected batches, found {len(files)}")
+    if len(files) != 80:
+        raise ValueError(f"expected 80 protected batches, found {len(files)}")
     for path in files:
         payload = path.read_bytes()
         document = json.loads(payload)
@@ -824,6 +1023,9 @@ def load_batches(translations_dir: Path) -> tuple[dict[tuple[str, int], dict], d
                 raise ValueError(f"{entry['entry_id']}: unexpected review state")
             entry_map[key] = entry
         batch_records.append({"filename": path.name, "sha256": sha256(payload), "entry_count": len(document["entries"])})
+    slot_path = translations_dir / SLOT_TRANSLATION_FILENAME
+    if apply_slots and slot_path.is_file():
+        apply_slot_translations(entry_map, json.loads(slot_path.read_bytes()))
     return entry_map, archive_map, batch_records
 
 
@@ -875,7 +1077,9 @@ def main() -> None:
         raise ValueError("font permission is not adopted")
 
     entries, archives, batches = load_batches(args.translations_dir)
-    if len(entries) != 7954:
+    # 7954 protected batch entries plus the 1241 translated entries of the
+    # 25 uncatalogued archives the pointer scan recovered (10 raw, 15 LZ77).
+    if len(entries) != 9195:
         raise ValueError(f"protected batch entry count changed: {len(entries)}")
     base_translation_bytes = args.base_translation.read_bytes()
     if sha256(base_translation_bytes) != BASE_TRANSLATION_SHA256:
@@ -916,7 +1120,7 @@ def main() -> None:
         "entry_count": len(carry_indices),
         "role": "base_only_shared_archive_addendum",
     })
-    if len(entries) != 7956:
+    if len(entries) != 9197:
         raise ValueError(f"protected integrated entry count changed: {len(entries)}")
     source_raw: dict[str, bytes] = {}
     source_trailing: dict[str, bytes] = {}
@@ -937,6 +1141,7 @@ def main() -> None:
     # 14,336-byte EWRAM buffer stops bounding how long a translated map script can be.
     rom_resident = dialogue_rom.reachable(
         source, {int(meta["archive_offset"]) for meta in archives.values()})
+    board_destinations = bulletin_board_destinations(source)
 
     physical_continuations = find_raw_physical_continuations(
         source, archives, source_raw, source_tpl, source_trailing)
@@ -954,8 +1159,22 @@ def main() -> None:
         continuation = physical_continuations.get(selector)
         if continuation is None:
             raise ValueError(f"{selector}: translated physical continuation is not present in the source")
-        if (
-            int(record["source_rom_offset"]) != continuation["source_rom_offset"]
+        if record.get("head_of_gap"):
+            # A bulk gap: one tail script, then data nothing reads through
+            # this archive. The translation replaces the head script only and
+            # the relocated copy stops there; the gap itself stays in place.
+            payload = continuation["payload"]
+            head = int(record["source_byte_length"])
+            if (
+                record["source_rom_offset"] != continuation["source_rom_offset"]
+                or int(record["gap_byte_length"]) != len(payload)
+                or record["gap_sha256"] != continuation["source_sha256"]
+                or not 0 < head < len(payload)
+                or sha256(payload[:head]) != record["source_sha256"]
+            ):
+                raise ValueError(f"{selector}: physical continuation head identity mismatch")
+        elif (
+            record["source_rom_offset"] != continuation["source_rom_offset"]
             or int(record["source_byte_length"]) != len(continuation["payload"])
             or record["source_sha256"] != continuation["source_sha256"]
         ):
@@ -972,7 +1191,7 @@ def main() -> None:
         physical_translations[selector] = {"record": record, "tpl": translated_tpl}
 
     required_hangul = sorted(
-        {char for entry in entries.values() for char in HANGUL_RE.findall(entry["draft_translation"])}
+        {char for entry in entries.values() for char in HANGUL_RE.findall(translated_text(entry))}
         | {char for item in physical_translations.values() for char in HANGUL_RE.findall(item["tpl"].decode("utf-8-sig"))}
     )
     for char in required_hangul:
@@ -1005,6 +1224,14 @@ def main() -> None:
 
         transformed_by_selector: dict[str, bytes] = {}
         transform_meta: dict[tuple[str, int], dict] = {}
+        window_breaks: list[dict] = []
+        window_checked = 0
+        # Printed names at the width the game will draw them: item names are
+        # archive 00/359's translated entries, chip names the relocated table.
+        name_width = choice_layout.name_widths(
+            {index: translated_text(entry) for (selector, index), entry in entries.items()
+             if selector == "00/359"},
+            printed_chip_names(source))
         for selector, tpl_bytes in source_tpl.items():
             if selector in SKIPPED_NO_LITERAL_POINTER:
                 skipped_entries += sum(1 for key in entries if key[0] == selector)
@@ -1029,15 +1256,25 @@ def main() -> None:
                         raise ValueError(f"{entry['entry_id']}: protected source TPL block mismatch")
                     try:
                         source_block = block
-                        block, detail = transform_script(
-                            block, entry["draft_translation"], entry["entry_id"],
-                            preserve_option_layout=entry['entry_id'] in REVIEWED_IDS,
-                        )
+                        block, detail = translate_block(block, entry)
                         if entry['entry_id'] in REVIEWED_IDS:
                             layout_detail = validate_choice_layout(source_block, block, entry['entry_id'])
                         else:
                             block, layout_detail = layout_script(source_block, block, entry["entry_id"])
                         detail["dialogue_layout"] = layout_detail
+                        # Every window, not only choices: the whitespace
+                        # layout pass measures a printed name as nothing, and
+                        # a name is what pushes a line past the box.
+                        window_checked += 1
+                        found = choice_layout.problems(source_block, block, name_width)
+                        if found:
+                            window_breaks.append({"entry_id": entry["entry_id"],
+                                                  "problems": found})
+                        if detail.get("literal_substitution"):
+                            # Every slot was authored, so every slot is checked
+                            # in the compiled bytes - not only pages the layout
+                            # pass happened to rewrite.
+                            detail["exact_literals"] = [layout_literal(q) for q in QUOTE_RE.finditer(block)]
                     except (ValueError, AssertionError) as error:
                         raise type(error)(f"{entry['entry_id']}: {error}") from error
                     transform_meta[(selector, entry_index)] = detail
@@ -1054,8 +1291,8 @@ def main() -> None:
             (tpl_input / f"{int(archives[selector]['archive_offset']):07X}.tpl").write_bytes(transformed)
 
         for selector, item in physical_translations.items():
-            source_offset = physical_continuations[selector]["source_rom_offset"]
-            (tpl_input / f"{source_offset:07X}.tpl").write_bytes(item["tpl"])
+            name = continuation_archive_name(physical_continuations[selector])
+            (tpl_input / f"{name}.tpl").write_bytes(item["tpl"])
 
         run_textpet(args.textpet_exe, plugins, tpl_input, bin_output)
         placement = ARCHIVE_RELOCATION_BASE
@@ -1085,6 +1322,12 @@ def main() -> None:
                 layout = transform_meta[(selector, entry_index)].get("dialogue_layout")
                 if layout is not None:
                     verify_changed_literals(raw_entry, layout, layout_mapping)
+                exact = transform_meta[(selector, entry_index)].get("exact_literals")
+                if exact is not None:
+                    verify_changed_literals(raw_entry, {
+                        "entry_id": f"{selector}/{entry_index}",
+                        "pages": [{"status": "changed", "text_after": exact}],
+                    }, layout_mapping)
                 pos = 0
                 while True:
                     pos = raw_entry.find(HANGUL_ESCAPE, pos)
@@ -1110,7 +1353,7 @@ def main() -> None:
             continuation_payload = continuation["payload"] if continuation is not None else b""
             continuation_translation = physical_translations.get(selector)
             if continuation_translation is not None:
-                continuation_msg = bin_output / f"{continuation['source_rom_offset']:07X}.msg"
+                continuation_msg = bin_output / f"{continuation_archive_name(continuation)}.msg"
                 if not continuation_msg.is_file():
                     raise FileNotFoundError(continuation_msg)
                 continuation_archive = continuation_msg.read_bytes()
@@ -1128,9 +1371,12 @@ def main() -> None:
                     "pages": [{"status": "changed", "text_after": tail_literals}],
                 }, layout_mapping)
             resident = int(metadata["archive_offset"]) in rom_resident
-            destination, limit, budget = ewram_budget(selector)
+            destination, limit, budget = ewram_budget(
+                selector, int(metadata["archive_offset"]), board_destinations)
             decompressed_length = len(rebuilt) + len(continuation_payload)
-            if not resident and decompressed_length > budget:
+            # Only a compressed archive is unpacked into that buffer; a raw one
+            # is read where it lies in ROM, so the ceiling does not apply to it.
+            if metadata["storage"] == "lz77" and not resident and decompressed_length > budget:
                 raise ValueError(
                     f"{selector}: decompressed archive is {decompressed_length} bytes, "
                     f"over the {budget}-byte EWRAM budget at 0x{destination:08X} "
@@ -1144,8 +1390,6 @@ def main() -> None:
             elif metadata["storage"] == "lz77":
                 if continuation is not None and continuation.get("storage_form") != "inside_decompressed_buffer":
                     raise AssertionError(f"{selector}: compressed continuation passed validation unexpectedly")
-                if continuation_translation is not None:
-                    raise ValueError(f"{selector}: a continuation inside a compressed buffer cannot be translated")
                 # The terminator travels inside the blob, so it has to be
                 # compressed with the payload rather than appended after it.
                 stored = compress(rebuilt + continuation_payload)
@@ -1226,6 +1470,10 @@ def main() -> None:
                         "sha256": continuation_translation["record"]["translated_tpl_sha256"],
                         "status": continuation_translation["record"]["status"],
                     }
+                    if continuation_translation["record"].get("head_of_gap"):
+                        # Only the gap's head script was translated and carried.
+                        archive_report["physical_continuation"]["translated_head_source_byte_length"] = int(
+                            continuation_translation["record"]["source_byte_length"])
             archive_reports.append(archive_report)
             placement = end
 
@@ -1261,8 +1509,6 @@ def main() -> None:
         ("main_dispatch", TRAMPOLINE_BASE, *make_main_dispatch_trampoline(TRAMPOLINE_BASE)),
         ("scanner", TRAMPOLINE_BASE + 0x100, *make_scanner_trampoline(TRAMPOLINE_BASE + 0x100)),
         ("font_base", TRAMPOLINE_BASE + 0x200, *make_font_base_trampoline(TRAMPOLINE_BASE + 0x200)),
-        ("dialogue_loader_capture", dialogue_rom.CAPTURE_TRAMPOLINE,
-         *dialogue_rom.make_capture_trampoline(ThumbBlob, dialogue_rom.CAPTURE_TRAMPOLINE)),
         ("dialogue_reader_base", dialogue_rom.READER_TRAMPOLINE,
          *dialogue_rom.make_reader_trampoline(ThumbBlob, dialogue_rom.READER_TRAMPOLINE)),
     ]
@@ -1327,6 +1573,12 @@ def main() -> None:
     static_writes.extend(title_writes)
     menu_writes, title_menu = title_menu_writes(source, master_font)
     static_writes.extend(menu_writes)
+    # The OK/ADD message panels of the custom screen are pictures, not text.
+    panel_writes, chip_panels = chip_panel_writes(source, master_font)
+    static_writes.extend(panel_writes)
+    # So are the battle result windows' labels (virus, WINNER, LOSER).
+    result_writes, result_windows = result_window_writes(source, master_font)
+    static_writes.extend(result_writes)
     from verify_semantic_translation_emulator_rom import expected_range
     prior_ranges = [expected_range(w) for w in expected_writes]
     for write in static_writes:
@@ -1347,6 +1599,47 @@ def main() -> None:
             replacement = bytes.fromhex(write["replacement_hex"])
             output[start:start + len(replacement)] = replacement
     expected_writes.extend(static_writes)
+
+    # A line wider than the dialogue window is not a cosmetic overflow: the
+    # renderer keeps writing past the window's reserved tiles and the screen
+    # that follows hangs on real hardware, which is how the tutorial battle
+    # froze. The original never exceeds the window, so anything that does is
+    # ours - refuse to write a ROM that carries one.
+    all_layout_overruns = layout_capacity_violations(
+        [item["dialogue_layout"] for item in transform_meta.values() if "dialogue_layout" in item])
+    # Only the standard dialogue box has a measured geometry. Choice and
+    # cursor-positioned windows draw elsewhere, so an overrun measured
+    # against 21x3 there is a lead, not a proven defect - record those and
+    # stop the build only for the box we know.
+    layout_violations = [x for x in all_layout_overruns if x.get("window") != "nonstandard"]
+    layout_leads = [x for x in all_layout_overruns if x.get("window") == "nonstandard"]
+    if all_layout_overruns or window_breaks:
+        report = args.manifest.with_name(args.manifest.stem + '_layout_violations.json')
+        report.parent.mkdir(parents=True, exist_ok=True)
+        report.write_text(json.dumps(
+            {'blocking': layout_violations, 'nonstandard_window_leads': layout_leads,
+             'windows': window_breaks},
+            ensure_ascii=False, indent=1), encoding='utf-8')
+    # A choice window is the same box with a cursor, so its geometry is known
+    # too: a shifted choice, or any page past the window the source draws once
+    # printed names are counted, is a defect this pipeline made, and the build
+    # refuses it like any other.
+    if window_breaks:
+        lines = [f"{len(window_breaks)} windows break the layout their source draws:"]
+        for item in window_breaks[:40]:
+            lines.append(f"  {item['entry_id']}: {'; '.join(item['problems'])}")
+        raise ValueError(chr(10).join(lines))
+    if layout_violations:
+        lines = [f"{len(layout_violations)} dialogue pages exceed the "
+                 f"{DIALOGUE_WINDOW_CELLS}-cell x {DIALOGUE_WINDOW_ROWS}-row window "
+                 f"the source stays inside:"]
+        for item in layout_violations:
+            where = (f"slots {item['slots']}" if 'slots' in item else f"literal {item['literal']}")
+            lines.append(f"  {item['entry_id']} {where}: source "
+                         f"{item['source']['rows']}x{max(item['source']['columns'])} -> "
+                         f"shipped {item['shipped']['rows']}x{max(item['shipped']['columns'])} "
+                         f"({item['blocked_by']})")
+        raise ValueError(chr(10).join(lines))
 
     output_bytes = bytes(output)
     if len(output_bytes) != OUTPUT_SIZE:
@@ -1382,12 +1675,24 @@ def main() -> None:
         "static_submenu_tables": static_submenus,
         "submenu_title_graphics": submenu_graphics,
         "title_menu_graphics": title_menu,
+        "chip_panel_graphics": chip_panels,
+        "result_window_graphics": result_windows,
         "reviewed_choice_layout": {
             "module_sha256": sha256(Path(__file__).with_name('reviewed_choice_layout.py').read_bytes()),
             "entry_ids": sorted(REVIEWED_IDS),
         },
+        "choice_layout": {
+            "module_sha256": sha256(Path(__file__).with_name('choice_layout.py').read_bytes()),
+            "policy": "entries with option commands keep the source's choice slots and suffixes; "
+                      "every translated entry fails the build on a blank or grown choice or a "
+                      "page past the source's window, printed names at their real width",
+            "checked_entries": window_checked,
+            "breaks": len(window_breaks),
+        },
         "dialogue_layout": {
             "policy": "whitespace_only_standard_dialogue_21_cells_3_rows",
+            "capacity_gate": "build fails when a standard-window page the source fits exceeds 21x3",
+            "nonstandard_window_overrun_count": len(layout_leads),
             "module_sha256": sha256(Path(__file__).with_name("dialogue_layout.py").read_bytes()),
             "scope": "Formal translated entries with explicit standard msgOpen and supported controls; choices, dynamic fields and unresolved page capacity remain deferred.",
             "summary": dict(Counter(item["dialogue_layout"]["status"] for item in transform_meta.values() if "dialogue_layout" in item)),
@@ -1397,6 +1702,12 @@ def main() -> None:
             "filename": physical_translation_path.name,
             "sha256": sha256(physical_translation_bytes),
             "record_count": len(physical_translations),
+        },
+        "slot_translation_set": {
+            "filename": SLOT_TRANSLATION_FILENAME,
+            "sha256": sha256((args.translations_dir / SLOT_TRANSLATION_FILENAME).read_bytes())
+                      if (args.translations_dir / SLOT_TRANSLATION_FILENAME).is_file() else None,
+            "record_count": sum(1 for entry in entries.values() if entry.get("slot_translation")),
         },
         "translation_scope": {
             "protected_batch_entry_count": len(entries),

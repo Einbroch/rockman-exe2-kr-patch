@@ -1,107 +1,507 @@
 {
-  "schema_version": 1,
-  "kind": "authored_multi_archive_translation_batch",
-  "batch_number": 13,
-  "entries": [
-    {"selector":"00/30","entry_index":1,"draft_translation":"헬로, 보이!! / 여긴 다운타운이라고! // 뭐? 내가 칩 강도라고?[waitSkip 30] // 나랑 비슷하게 생긴 녀석이 / 많다고 해도 너무하잖아."},
-    {"selector":"00/30","entry_index":2,"draft_translation":"하이! 왜 그렇게 풀이 죽었어? / 내가 도와줄까? / 호텔이 어디죠? / 괜찮아요 // 어머? / 아메롭파인은 믿을 수 없다는 / 표정인데... // 물론 나쁜 사람도 있지만 / 그건 어느 나라나 똑같잖아?"},
-    {"selector":"00/30","entry_index":3,"draft_translation":"첫 번째 모퉁이에 있어. / 문 위에 「HOTEL」이라고 / 쓰여 있단다."},
-    {"selector":"00/30","entry_index":4,"draft_translation":"쏘리! 지금 바빠."},
-    {"selector":"00/30","entry_index":5,"draft_translation":"서두르는 중이야, 미안!"},
-    {"selector":"00/30","entry_index":6,"draft_translation":"여긴 세계 경제의 / 중심지라서 말이야. / 모두 바쁘게 지내지."},
-    {"selector":"00/30","entry_index":7,"draft_translation":"어머!! 히카리 군 아니니! // 선생님도 휴가 중이야! // 남은 돈을... / 미식에 쓸까, 보석에 쓸까...[waitSkip 30] / 아~ 고민되네~"},
-    {"selector":"00/30","entry_index":8,"draft_translation":"쏘리~ / 지금 갈 길이 바쁘니까 / 길을 비켜 주세~요."},
-    {"selector":"00/30","entry_index":9,"draft_translation":"호텔 옆에 / 이상한 기계가 있지? // 그거 이상한 일본인이 두고 갔어. / 「여기 두고 가겠슴다」 / 이러면서 말이야! // 일본인은 다 그런 거야?"},
-    {"selector":"00/30","entry_index":10,"draft_translation":"후후... / 일본 남자애는 / 와일드해서 멋지네!"},
-    {"selector":"00/30","entry_index":15,"draft_translation":"헬로, 보이!! / 여긴 다운타운이라고! // 뭐야! 그렇게 죽상 쓰지 마!"},
-    {"selector":"00/30","entry_index":16,"draft_translation":"하이! 무슨 일이야?[waitSkip 30] // 아까보다 더 / 풀이 죽어 있네..."},
-    {"selector":"00/30","entry_index":17,"draft_translation":"일본 남자애... / 아까보다 덜 와일드해졌네."},
-    {"selector":"00/30","entry_index":18,"draft_translation":"헬로, 보이!! / 여긴 다운타운이라고! // 기운을 되찾은 것 같네! / 보이는 그래야지!"},
-    {"selector":"00/30","entry_index":19,"draft_translation":"하이! 좋은 미소네!"},
-    {"selector":"00/30","entry_index":20,"draft_translation":"역시 와일드해서 멋지네, / 일본 남자애!"},
-    {"selector":"00/30","entry_index":25,"draft_translation":"보이, 곤란한 일이 있어? / 그렇다면 아메롭파크에 있는 / 그 사람에게 물어봐. // 그 사람, 보기와 달리 / 꽤 믿음직하거든. // 두근."},
-    {"selector":"00/30","entry_index":26,"draft_translation":"야, 저쪽에 / 그 이상한 일본인이 있어! // 위험한가!? 무서운가!?"},
-    {"selector":"00/30","entry_index":27,"draft_translation":"어때? / 그 사람 믿음직하지? // 두근."},
-    {"selector":"00/30","entry_index":28,"draft_translation":"보이, 한마디 해 두마. // 오늘 생긴 일은 / 오늘 안에 매듭지어 두렴. // 내일도 오늘과 같으리란 / 보장은 어디에도 없으니까. // 짚이는 일이 없다면 / 상관없지만 말이야."},
-    {"selector":"00/30","entry_index":30,"draft_translation":"최강 콤비가 / 부활한 모양임다. / 정말 다행임다!! // 그건 그렇고, 아까는 / 허둥대서 미안했슴다... / 이건 사과와 병문안 선물임다."},
-    {"selector":"00/30","entry_index":31,"draft_translation":"넷토는 / 칩 데이터 「[printChip chip=43] [printCode code=W]」를 / 획득했다!! // 넷토는 / 칩 데이터 「[printChip chip=20] [printCode code=*]」를 / 획득했다!! // 넷토는 / 칩 데이터 「[printChip chip=40] [printCode code=I]」를 / 획득했다!!"},
-    {"selector":"00/30","entry_index":32,"draft_translation":"자, 가는 검다!"},
-    {"selector":"00/30","entry_index":33,"draft_translation":"아야야야~... 「[printChip chip=111] [printCode code=*]」은 / 희귀한 칩이 아님다~[waitSkip 15] / 그래서 안 갖고 있슴다~..."},
-    {"selector":"00/30","entry_index":34,"draft_translation":"슬슬 전 여행을 떠날 검다...[waitSkip 20] / 또 만납시다! [waitSkip 20]임다!"},
-    {"selector":"00/30","entry_index":35,"draft_translation":"넷토, 메일이야!!"},
-    {"selector":"00/30","entry_index":36,"draft_translation":"굿모닝! 보이!!"},
-    {"selector":"00/30","entry_index":37,"draft_translation":"눈부셔... // 그래도 반짝이며 비치는 / 아침 햇살은 마음에 들어."},
-    {"selector":"00/30","entry_index":38,"draft_translation":"쏘리! 서두르지 않으면 / 사무실에 늦겠어."},
-    {"selector":"00/30","entry_index":39,"draft_translation":"아메롭파는 / 아침부터 활기가 넘치네~"},
-    {"selector":"00/30","entry_index":40,"draft_translation":"쏘리~ / 오늘도 난 바쁘다구~요!"},
-    {"selector":"00/30","entry_index":41,"draft_translation":"또 만났네. // 어쩌면 유와 미는 / 인연이 있을지도 몰라! // 유, / 여자 친구는 있어?"},
-    {"selector":"00/30","entry_index":45,"draft_translation":"하이! 보이! // 아메롭파 기념품 / 사 가지 않을래? / 살게! / 필요 없어 // 오, 상품만이라도 / 보고 가 줘!"},
-    {"selector":"00/30","entry_index":46,"draft_translation":"먼저 이거야! // 「[printItem item=27]」 // 옛날 아메롭파 공주가 / 착용했다는 보물이라고! // 정상 가격 10만 제니지만 / 이번 한정으로, // 단돈 1000제니에 대방출이야! / 살래? / 살게! / 필요 없어 // 또 말을 걸어 줘."},
-    {"selector":"00/30","entry_index":47,"draft_translation":"「[printItem item=27]」 구매 완료~! / 생큐! 보이! // 상품은 아직 있으니까 / 원하면 또 말을 걸어 줘!"},
-    {"selector":"00/30","entry_index":48,"draft_translation":"넷토는 / 「[printItem item=27]」을 / 획득했다!!"},
-    {"selector":"00/30","entry_index":49,"draft_translation":"다음 상품은 이거야! / 아메롭파의 모든 아이가 // 갖고 싶어 하는 인기 로봇! // 「[printItem item=28]」 // 좀처럼 구하기 힘든 / 인기 상품이지. // 이것도 특별 봉사 가격 / 1000제니야! // 살래? / 살게! / 필요 없어 // 또 말을 걸어 줘."},
-    {"selector":"00/30","entry_index":50,"draft_translation":"하하~! // 「[printItem item=28]」 구매 완료~! / 생큐, 통 큰 보이! // 하지만 상품은 하나 더 있어. / 괜찮다면 / 또 말을 걸어 줘."},
-    {"selector":"00/30","entry_index":51,"draft_translation":"넷토는 / 「[printItem item=28]」을 / 획득했다!!"},
-    {"selector":"00/30","entry_index":52,"draft_translation":"그리고 오늘 소개할 / 마지막 상품은... / 바로 이것!! // 「[printItem item=29]」 // 여자 친구에게 선물하기에 / 딱 좋다고!! // 이것도 통 크게 / 1000제니야!! // 살래!? / 살게! / 필요 없어 // 또 말을 걸어 줘."},
-    {"selector":"00/30","entry_index":53,"draft_translation":"「[printItem item=29]」 구매 완료~! // 이것으로 모든 상품이 / 매진됐습니다~! // 생큐! 생큐!"},
-    {"selector":"00/30","entry_index":54,"draft_translation":"넷토는 / 「[printItem item=29]」을 / 획득했다!!"},
-    {"selector":"00/30","entry_index":55,"draft_translation":"헤이! 정말 생큐! // 일본 사람들에게 안부 전해 줘!"},
-    {"selector":"00/30","entry_index":56,"draft_translation":"보이, 미안하지만 / 돈이 모자란 것 같아. // 돈을 마련해서 다시 와."},
-    {"selector":"00/30","entry_index":57,"draft_translation":"어머? 오늘 일본으로 / 돌아가는 거야? // 아메롭파는 어땠어? / 그렇게 나쁜 곳은 아니었지? // 괜찮다면 또 놀러 와."},
-    {"selector":"00/30","entry_index":58,"draft_translation":"쏘리, 난 역시 / 바쁜 사람이야. // 비지! 비지!"},
-    {"selector":"00/30","entry_index":59,"draft_translation":"미안, 지금 바빠! // 휴~"},
-    {"selector":"00/30","entry_index":60,"draft_translation":"성에서 큰 사건이 / 일어났다던데. // 뭐? 보이가 해결했다고? / 그거 놀랍구나!"},
-    {"selector":"00/30","entry_index":61,"draft_translation":"쏘리, 쏘리! 서두르는 중이야!"},
-    {"selector":"00/30","entry_index":62,"draft_translation":"전에 그 이상한 기계에 / 칩을 10장 넣어 봤어. // 그랬더니 무려 초희귀 칩 / 「[printChip chip=167] [printCode code=*]」이 나왔지! // 얼마나 기뻤는지 몰라!"},
-    {"selector":"00/30","entry_index":63,"draft_translation":"벌써 일본으로 돌아가? / 넌 제법 내 취향인데 / 아쉽네."},
-    {"selector":"00/30","entry_index":66,"draft_translation":"오늘은 사람이 적네... // 뭐, 이 햇볕이라면 당연하지. / 햇볕을 쬐고 있으면 피부가 / 따끔따끔하거든."},
-    {"selector":"00/30","entry_index":67,"draft_translation":"비지, 비지에 / 허리, 허리! 해야 하는데 / 오늘은 못 움직이겠어~요. // 왜 이렇게 더운 거예요? / 헉헉..."},
-    {"selector":"00/30","entry_index":68,"draft_translation":"밖이 소란스러운 것 같아 / 보러 왔는데, // 아무리 그래도 이 햇볕은 / 정상이 아니야!"},
-    {"selector":"00/30","entry_index":69,"draft_translation":"큰길은 햇볕이 너무 강해. / 뒷골목으로 피하고 싶지만, // 뒷골목은 무섭고...[waitSkip 20] / 어떡하지..."},
-    {"selector":"00/30","entry_index":72,"draft_translation":"이 햇볕 때문에 / 도시 기능이 거의 마비됐어. // 이대로라면 아메롭파 전체의 / 경제가 엉망이 되고 말 거야."},
-    {"selector":"00/30","entry_index":73,"draft_translation":"하아~!! / 이젠 일할 때가 아니에~요!! / 오늘은 임시 휴업이에~요!"},
-    {"selector":"00/30","entry_index":74,"draft_translation":"매일 정신없이 일하던 / 큰길 녀석들이 뻗어 버렸어. // 이건 좀 / 위험할지도 모르겠는데."},
-    {"selector":"00/30","entry_index":75,"draft_translation":"역시 뒷골목으로 / 피해야겠어... // 이대로라면 위험할 것 같아."},
-    {"selector":"00/30","entry_index":80,"draft_translation":"아무래도 평소 햇볕으로 / 돌아온 것 같네. // 이제 아메롭파도 활기를 / 되찾을 수 있겠어."},
-    {"selector":"00/30","entry_index":81,"draft_translation":"자, 업무 재개다! / 쉰 만큼 / 만회하겠어~!!"},
-    {"selector":"00/30","entry_index":82,"draft_translation":"하하~!! / 일, 일해~요! // 열심히 할게~요!"},
-    {"selector":"00/30","entry_index":83,"draft_translation":"드디어 밖에 나올 수 있겠구나. // 역시 집 안에만 / 틀어박혀 있으면 / 몸이 굳고 말아."},
-    {"selector":"00/30","entry_index":84,"draft_translation":"앞으로는 큰길과 뒷골목이 / 더 활발히 교류하도록 / 해야겠어."},
-    {"selector":"00/30","entry_index":85,"draft_translation":"자, 칩 모으기에 / 힘써 볼까!"},
-    {"selector":"00/30","entry_index":86,"draft_translation":"역시 노출이 많은 옷은 / 햇빛이 너무 따갑네. // 자외선 차단제를 / 잔뜩 사 둬야겠어."},
-    {"selector":"00/30","entry_index":95,"draft_translation":"지금이야말로 / 단결이 필요해, 에브리원!! // 원, 투! // 아메롭파! [waitSkip 15]아메롭파!"},
-    {"selector":"00/30","entry_index":96,"draft_translation":"아메롭파! [waitSkip 15]아메롭파!"},
-    {"selector":"00/30","entry_index":97,"draft_translation":"아메롭파! [waitSkip 15]아메롭파!"},
-    {"selector":"00/30","entry_index":98,"draft_translation":"아메롭파! [waitSkip 15]아메롭파!"},
-    {"selector":"00/30","entry_index":99,"draft_translation":"저쪽에서 모두가 / 단결하는 모습 봤지? // 일본에서는 보기 드문 / 광경일지도 모르지만, / 저게 우리의 전통이야."},
-    {"selector":"00/30","entry_index":100,"draft_translation":"사무실이 / 고스펠의 바이러스에게 당했어! // 쏘리! 거기서 비켜 줘!"},
-    {"selector":"00/30","entry_index":101,"draft_translation":"쏘리~ / 갈 길이 바빠~요! // 이유를 설명할 / 타임은 없어~요!"},
-    {"selector":"00/30","entry_index":102,"draft_translation":"모두 나라를 지키는 데 / 온 힘을 쏟고 있어. // 많이 상대해 줄 수 없지만 / 나쁘게 생각하진 마!"},
-    {"selector":"00/30","entry_index":103,"draft_translation":"일본 남자애는 / 여전히 와일드해서 멋지네. // 하지만 나우는 그럴 때가 아냐. / 나도 와일드하게 고 할 거야!"},
-    {"selector":"00/30","entry_index":190,"draft_translation":"내가 의뢰인이야! // 게시판에도 썼지만 / 「건달 사천왕」을 / 혼내 줬으면 해. // 녀석들은 지금쯤 / 아메롭파 스퀘어 입구에서 / 집회를 열고 있을 거야."},
-    {"selector":"00/30","entry_index":191,"draft_translation":"그 녀석들 때문에 다들 골치야. / 어서 쓰러뜨려 줘! / 아메롭파 스퀘어 입구야!"},
-    {"selector":"00/30","entry_index":192,"draft_translation":"쓰러뜨리고 왔구나! / 너 의외로 강하네. / 난 강한 사람이 좋아. // 후후, 농담이야! / 이건 답례야."},
-    {"selector":"00/30","entry_index":193,"draft_translation":"넷토는 / 칩 데이터 「[printChip chip=32] [printCode code=M]」을 / 획득했다!!"},
-    {"selector":"00/30","entry_index":194,"draft_translation":"이제 조금은 평화로워지겠네. / 고마워."},
-    {"selector":"00/30","entry_index":196,"draft_translation":"보이, 혹시 「[printChip chip=119] [printCode code=V]」라는 / 칩을 가지고 있니? // 손주가 그 칩을 / 꼭 갖고 싶다고 해서 말이야. // 괜찮다면 내가 가진 / 「[printChip chip=19] [printCode code=*]」과 / 교환해 주지 않겠니? // 어떠니? / 좋아요 / 안 돼요 // 그렇구나. 어디서 발견하면 / 내게 넘겨주지 않겠니? // 늙은이의 부탁을 / 들어주지 않으련~?"},
-    {"selector":"00/30","entry_index":197,"draft_translation":"정말 넘겨주겠니? / 고맙구나. / 이제 손주도 기뻐하겠어. // 아, 그렇지. / 이거와 교환하기로 했지."},
-    {"selector":"00/30","entry_index":198,"draft_translation":"넷토는 / 칩 데이터 「[printChip chip=19] [printCode code=*]」를 / 획득했다!!"},
-    {"selector":"00/30","entry_index":199,"draft_translation":"보이, 고맙구나. / 분명 손주도 / 기뻐할 거야."},
-    {"selector":"00/30","entry_index":200,"draft_translation":"무슨 일이니, 보이? // 보이의 「[printChip chip=119] [printCode code=V]」와 / 내 「[printChip chip=19] [printCode code=*]」을 / 교환해 주겠니? // 예 / 아니요 // 또 마음이 내키면 / 말을 걸어 주렴."},
-    {"selector":"00/30","entry_index":201,"draft_translation":"보이의 「[printChip chip=119] [printCode code=V]」는 / 어디 있니? // 아무리 봐도 안 보이는구나... // 혹시 폴더 안에 / 들어 있지 않니? // 폴더 안에 들어 있으면 / 교환할 수 없단다. // 한번 확인해 보렴. // 교환할 칩은 / 가방 안에 넣어 두렴."},
-    {"selector":"00/30","entry_index":220,"draft_translation":"아메롭파에서 가장 큰 / 은행이다. // 매일 수억 제니나 되는 / 돈이 오간다."},
-    {"selector":"00/30","entry_index":221,"draft_translation":"레스토랑 안에서 / 녹아 버릴 것처럼 좋은 냄새가 / 풍겨 온다."},
-    {"selector":"00/30","entry_index":222,"draft_translation":"레이디스 앤 젠틀맨을 위한 / 레스토랑. // 어린이는 출입 금지."},
-    {"selector":"00/30","entry_index":223,"draft_translation":"화려한 보석들이 / 빈틈없이 진열되어 있어 / 나도 모르게 걸음을 멈추게 된다."},
-    {"selector":"00/31","entry_index":0,"draft_translation":"뭐야, 너? / 외지인이랑 이야기할 생각 없어."},
-    {"selector":"00/31","entry_index":1,"draft_translation":"뭐? 내가 짐이냐고? / 왜 너 같은 녀석에게 이름을 / 가르쳐 줘야 하는데! // ...응? / 영감에게 이야기를 듣고 왔다고? / 여권과 칩을 아느냐고? // ...쳇, 영감이 보냈다면 / 무시할 수는 없지... / 하지만 공짜로는 안 돼. // 일본에는 「[printChip chip=111] [printCode code=*]」이라는 / 희귀한 칩이 있다지? / 그걸 주면 정보를 넘겨줄게."},
-    {"selector":"00/31","entry_index":2,"draft_translation":"준다 / 안 준다 // 너 지금 곤란한 거 아니었어? // ...뭐, 나중에 줘도 돼."},
-    {"selector":"00/31","entry_index":3,"draft_translation":"「[printChip chip=111] [printCode code=*]」을 / 줄 마음이 생겼어?"},
-    {"selector":"00/31","entry_index":4,"draft_translation":"그럼 여권 정보부터 / 알려 주지... // 여권은 아마 지금쯤 / 인터넷에 흘러 들어갔을 거야. / 우리 세계를 찾아봐야 소용없어. // 플러그인해서 내비를 인터넷으로 보내고 / 여권을 빼앗아 간 내비를 / 찾아내는 거야. // 다만 이 근처에서 인터넷에 / 접속하려면 여길 관리하는 / 라울 씨의 허락을 받아야 해. // 뭐, 내가 들었다고 말해 봐. // ...언더넷까지 흘러 들어가면 / 여권은 다시 못 찾을 거야. / 서두르는 게 좋아."},
-    {"selector":"00/31","entry_index":5,"draft_translation":"이곳에는 부유하지 않은 사람과 / 소수 민족 사람들이 / 많이 살고 있다... // 모두 거칠기는 하지만 / 우리는 동료를 / 무엇보다 소중히 여기지... // 하지만... 믿을 수 없는 외지인에게 / 친절을 베풀 만큼 / 만만하진 않다."},
-    {"selector":"00/31","entry_index":6,"draft_translation":"여긴 관광객이 올 곳이 아냐!! / 나가! 겟 아웃!"},
-    {"selector":"00/31","entry_index":7,"draft_translation":"저쪽 농구 골대 아래에 있는 분이 / 우리 리더 라울 씨야. // ...이런, / 외지인에게 쓸데없는 말을 / 해 버렸군..."},
-    {"selector":"00/31","entry_index":8,"draft_translation":"[textSpeed delay=4]히~호! 호~호!"},
-    {"selector":"00/31","entry_index":9,"draft_translation":"[textSpeed delay=4]요~호! 로~호!"}
-  ]
+ "schema_version": 1,
+ "kind": "authored_multi_archive_translation_batch",
+ "batch_number": 13,
+ "entries": [
+  {
+   "selector": "00/30",
+   "entry_index": 1,
+   "draft_translation": "헬로, 보이!! / 여긴 다운타운이라고! // 뭐? 내가 칩 강도라고?[waitSkip 30] // 나랑 비슷하게 생긴 녀석이 / 많다고 해도 너무하잖아."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 2,
+   "draft_translation": "하이! 왜 그렇게 풀이 죽었어? / 내가 도와줄까? / 호텔이 어디죠? / 괜찮아요 // 어머? / 아메롭파인은 믿을 수 없다는 / 표정인데... // 물론 나쁜 사람도 있지만 / 그건 어느 나라나 똑같잖아?"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 3,
+   "draft_translation": "첫 번째 모퉁이에 있어. / 문 위에 「HOTEL」이라고 / 쓰여 있단다."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 4,
+   "draft_translation": "쏘리! 지금 바빠."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 5,
+   "draft_translation": "서두르는 중이야, 미안!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 6,
+   "draft_translation": "여긴 세계 경제의 / 중심지라서 말이야. / 모두 바쁘게 지내지."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 7,
+   "draft_translation": "어머!! 히카리 군 아니니! // 선생님도 휴가 중이야! // 남은 돈을... / 미식에 쓸까, 보석에 쓸까...[waitSkip 30] / 아~ 고민되네~"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 8,
+   "draft_translation": "쏘리~ / 지금 갈 길이 바쁘니까 / 길을 비켜 주세~요."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 9,
+   "draft_translation": "호텔 옆에 / 이상한 기계가 있지? // 그거 이상한 일본인이 두고 갔어. / 「여기 두고 가겠슴다」 / 이러면서 말이야! // 일본인은 다 그런 거야?"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 10,
+   "draft_translation": "후후... / 일본 남자애는 / 와일드해서 멋지네!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 15,
+   "draft_translation": "헬로, 보이!! / 여긴 다운타운이라고! // 뭐야! 그렇게 죽상 쓰지 마!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 16,
+   "draft_translation": "하이! 무슨 일이야?[waitSkip 30] // 아까보다 더 / 풀이 죽어 있네..."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 17,
+   "draft_translation": "일본 남자애... / 아까보다 덜 와일드해졌네."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 18,
+   "draft_translation": "헬로, 보이!! / 여긴 다운타운이라고! // 기운을 되찾은 것 같네! / 보이는 그래야지!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 19,
+   "draft_translation": "하이! 좋은 미소네!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 20,
+   "draft_translation": "역시 와일드해서 멋지네, / 일본 남자애!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 25,
+   "draft_translation": "보이, 곤란한 일이 있어? / 그렇다면 아메롭파크에 있는 / 그 사람에게 물어봐. // 그 사람, 보기와 달리 / 꽤 믿음직하거든. // 두근."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 26,
+   "draft_translation": "야, 저쪽에 / 그 이상한 일본인이 있어! // 위험한가!? 무서운가!?"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 27,
+   "draft_translation": "어때? / 그 사람 믿음직하지? // 두근."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 28,
+   "draft_translation": "보이, 한마디 해 두마. // 오늘 생긴 일은 / 오늘 안에 매듭지어 두렴. // 내일도 오늘과 같으리란 / 보장은 어디에도 없으니까. // 짚이는 일이 없다면 / 상관없지만 말이야."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 30,
+   "draft_translation": "최강 콤비가 / 부활한 모양임다. / 정말 다행임다!! // 그건 그렇고, 아까는 / 허둥대서 미안했슴다... / 이건 사과와 병문안 선물임다."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 31,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=43] [printCode code=W]」를 / 획득했다!! // 넷토는 / 칩 데이터 「[printChip chip=20] [printCode code=*]」를 / 획득했다!! // 넷토는 / 칩 데이터 「[printChip chip=40] [printCode code=I]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 32,
+   "draft_translation": "자, 가는 검다!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 33,
+   "draft_translation": "아야야야~... 「[printChip chip=111] [printCode code=*]」은 / 희귀한 칩이 아님다~[waitSkip 15] / 그래서 안 갖고 있슴다~..."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 34,
+   "draft_translation": "슬슬 전 여행을 떠날 검다...[waitSkip 20] / 또 만납시다! [waitSkip 20]임다!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 35,
+   "draft_translation": "넷토, 메일이야!!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 36,
+   "draft_translation": "굿모닝! 보이!!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 37,
+   "draft_translation": "눈부셔... // 그래도 반짝이며 비치는 / 아침 햇살은 마음에 들어."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 38,
+   "draft_translation": "쏘리! 서두르지 않으면 / 사무실에 늦겠어."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 39,
+   "draft_translation": "아메롭파는 / 아침부터 활기가 넘치네~"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 40,
+   "draft_translation": "쏘리~ / 오늘도 난 바쁘다구~요!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 41,
+   "draft_translation": "또 만났네. // 어쩌면 유와 미는 / 인연이 있을지도 몰라! // 유, / 여자 친구는 있어?"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 45,
+   "draft_translation": "하이! 보이! // 아메롭파 기념품 / 사 가지 않을래? / 살게! / 필요 없어 // 오, 상품만이라도 / 보고 가 줘!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 46,
+   "draft_translation": "먼저 이거야! // 「[printItem item=27]」 // 옛날 아메롭파 공주가 / 착용했다는 보물이라고! // 정상 가격 10만 제니지만 / 이번 한정으로, // 단돈 1000제니에 대방출이야! / 살래? / 살게! / 필요 없어 // 또 말을 걸어 줘."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 47,
+   "draft_translation": "「[printItem item=27]」 구매 완료~! / 생큐! 보이! // 상품은 아직 있으니까 / 원하면 또 말을 걸어 줘!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 48,
+   "draft_translation": "넷토는 / 「[printItem item=27]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 49,
+   "draft_translation": "다음 상품은 이거야! / 아메롭파의 모든 아이가 // 갖고 싶어 하는 인기 로봇! // 「[printItem item=28]」 // 좀처럼 구하기 힘든 / 인기 상품이지. // 이것도 특별 봉사 가격 / 1000제니야! // 살래? / 살게! / 필요 없어 // 또 말을 걸어 줘."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 50,
+   "draft_translation": "하하~! // 「[printItem item=28]」 구매 완료~! / 생큐, 통 큰 보이! // 하지만 상품은 하나 더 있어. / 괜찮다면 / 또 말을 걸어 줘."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 51,
+   "draft_translation": "넷토는 / 「[printItem item=28]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 52,
+   "draft_translation": "그리고 오늘 소개할 / 마지막 상품은... / 바로 이것!! // 「[printItem item=29]」 // 여자 친구에게 선물하기에 / 딱 좋다고!! // 이것도 통 크게 / 1000제니야!! // 살래!? / 살게! / 필요 없어 // 또 말을 걸어 줘."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 53,
+   "draft_translation": "「[printItem item=29]」 구매 완료~! // 이것으로 모든 상품이 / 매진됐습니다~! // 생큐! 생큐!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 54,
+   "draft_translation": "넷토는 / 「[printItem item=29]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 55,
+   "draft_translation": "헤이! 정말 생큐! // 일본 사람들에게 안부 전해 줘!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 56,
+   "draft_translation": "보이, 미안하지만 / 돈이 모자란 것 같아. // 돈을 마련해서 다시 와."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 57,
+   "draft_translation": "어머? 오늘 일본으로 / 돌아가는 거야? // 아메롭파는 어땠어? / 그렇게 나쁜 곳은 아니었지? // 괜찮다면 또 놀러 와."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 58,
+   "draft_translation": "쏘리, 난 역시 / 바쁜 사람이야. // 비지! 비지!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 59,
+   "draft_translation": "미안, 지금 바빠! // 휴~"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 60,
+   "draft_translation": "성에서 큰 사건이 / 일어났다던데. // 뭐? 보이가 해결했다고? / 그거 놀랍구나!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 61,
+   "draft_translation": "쏘리, 쏘리! 서두르는 중이야!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 62,
+   "draft_translation": "전에 그 이상한 기계에 / 칩을 10장 넣어 봤어. // 그랬더니 무려 초희귀 칩 / 「[printChip chip=167] [printCode code=*]」이 나왔지! // 얼마나 기뻤는지 몰라!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 63,
+   "draft_translation": "벌써 일본으로 돌아가? / 넌 제법 내 취향인데 / 아쉽네."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 66,
+   "draft_translation": "오늘은 사람이 적네... // 뭐, 이 햇볕이라면 당연하지. / 햇볕을 쬐고 있으면 피부가 / 따끔따끔하거든."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 67,
+   "draft_translation": "비지, 비지에 / 허리, 허리! 해야 하는데 / 오늘은 못 움직이겠어~요. // 왜 이렇게 더운 거예요? / 헉헉..."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 68,
+   "draft_translation": "밖이 소란스러운 것 같아 / 보러 왔는데, // 아무리 그래도 이 햇볕은 / 정상이 아니야!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 69,
+   "draft_translation": "큰길은 햇볕이 너무 강해. / 뒷골목으로 피하고 싶지만, // 뒷골목은 무섭고...[waitSkip 20] / 어떡하지..."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 72,
+   "draft_translation": "이 햇볕 때문에 / 도시 기능이 거의 마비됐어. // 이대로라면 아메롭파 전체의 / 경제가 엉망이 되고 말 거야."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 73,
+   "draft_translation": "하아~!! / 이젠 일할 때가 아니에~요!! / 오늘은 임시 휴업이에~요!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 74,
+   "draft_translation": "매일 정신없이 일하던 / 큰길 녀석들이 뻗어 버렸어. // 이건 좀 / 위험할지도 모르겠는데."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 75,
+   "draft_translation": "역시 뒷골목으로 / 피해야겠어... // 이대로라면 위험할 것 같아."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 80,
+   "draft_translation": "아무래도 평소 햇볕으로 / 돌아온 것 같네. // 이제 아메롭파도 활기를 / 되찾을 수 있겠어."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 81,
+   "draft_translation": "자, 업무 재개다! / 쉰 만큼 / 만회하겠어~!!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 82,
+   "draft_translation": "하하~!! / 일, 일해~요! // 열심히 할게~요!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 83,
+   "draft_translation": "드디어 밖에 나올 수 있겠구나. // 역시 집 안에만 / 틀어박혀 있으면 / 몸이 굳고 말아."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 84,
+   "draft_translation": "앞으로는 큰길과 뒷골목이 / 더 활발히 교류하도록 / 해야겠어."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 85,
+   "draft_translation": "자, 칩 모으기에 / 힘써 볼까!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 86,
+   "draft_translation": "역시 노출이 많은 옷은 / 햇빛이 너무 따갑네. // 자외선 차단제를 / 잔뜩 사 둬야겠어."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 95,
+   "draft_translation": "지금이야말로 / 단결이 필요해, 에브리원!! // 원, 투! // 아메롭파! [waitSkip 15]아메롭파!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 96,
+   "draft_translation": "아메롭파! [waitSkip 15]아메롭파!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 97,
+   "draft_translation": "아메롭파! [waitSkip 15]아메롭파!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 98,
+   "draft_translation": "아메롭파! [waitSkip 15]아메롭파!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 99,
+   "draft_translation": "저쪽에서 모두가 / 단결하는 모습 봤지? // 일본에서는 보기 드문 / 광경일지도 모르지만, / 저게 우리의 전통이야."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 100,
+   "draft_translation": "사무실이 / 고스펠의 바이러스에게 당했어! // 쏘리! 거기서 비켜 줘!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 101,
+   "draft_translation": "쏘리~ / 갈 길이 바빠~요! // 이유를 설명할 / 타임은 없어~요!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 102,
+   "draft_translation": "모두 나라를 지키는 데 / 온 힘을 쏟고 있어. // 많이 상대해 줄 수 없지만 / 나쁘게 생각하진 마!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 103,
+   "draft_translation": "일본 남자애는 / 여전히 와일드해서 멋지네. // 하지만 나우는 그럴 때가 아냐. / 나도 와일드하게 고 할 거야!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 190,
+   "draft_translation": "내가 의뢰인이야! // 게시판에도 썼지만 / 「건달 사천왕」을 / 혼내 줬으면 해. // 녀석들은 지금쯤 / 아메롭파 스퀘어 입구에서 / 집회를 열고 있을 거야."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 191,
+   "draft_translation": "그 녀석들 때문에 다들 골치야. / 어서 쓰러뜨려 줘! / 아메롭파 스퀘어 입구야!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 192,
+   "draft_translation": "쓰러뜨리고 왔구나! / 너 의외로 강하네. / 난 강한 사람이 좋아. // 후후, 농담이야! / 이건 답례야."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 193,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=32] [printCode code=M]」을 / 획득했다!!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 194,
+   "draft_translation": "이제 조금은 평화로워지겠네. / 고마워."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 196,
+   "draft_translation": "보이, 혹시 「[printChip chip=119] [printCode code=V]」라는 / 칩을 가지고 있니? // 손주가 그 칩을 / 꼭 갖고 싶다고 해서 말이야. // 괜찮다면 내가 가진 / 「[printChip chip=19] [printCode code=*]」과 / 교환해 주지 않겠니? // 어떠니? / 좋아요 / 안 돼요 // 그렇구나. 어디서 발견하면 / 내게 넘겨주지 않겠니? // 늙은이의 부탁을 / 들어주지 않으련~?"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 197,
+   "draft_translation": "정말 넘겨주겠니? / 고맙구나. / 이제 손주도 기뻐하겠어. // 아, 그렇지. / 이거와 교환하기로 했지."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 198,
+   "draft_translation": "넷토는 / 칩 데이터 「[printChip chip=19] [printCode code=*]」를 / 획득했다!!"
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 199,
+   "draft_translation": "보이, 고맙구나. / 분명 손주도 / 기뻐할 거야."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 200,
+   "draft_translation": "무슨 일이니, 보이? // 보이의 「[printChip chip=119] [printCode code=V]」와 / 내 「[printChip chip=19] [printCode code=*]」을 / 교환해 주겠니? // 예 / 아니요 // 또 마음이 내키면 / 말을 걸어 주렴."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 201,
+   "draft_translation": "보이의 「[printChip chip=119] [printCode code=V]」는 / 어디 있니? // 아무리 봐도 안 보이는구나... // 혹시 폴더 안에 / 들어 있지 않니? // 폴더 안에 들어 있으면 / 교환할 수 없단다. // 한번 확인해 보렴. // 교환할 칩은 / 가방 안에 넣어 두렴."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 220,
+   "draft_translation": "아메롭파에서 가장 큰 / 은행이다. // 매일 수억 제니나 되는 / 돈이 오간다."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 221,
+   "draft_translation": "레스토랑 안에서 / 녹아 버릴 것처럼 좋은 냄새가 / 풍겨 온다."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 222,
+   "draft_translation": "레이디스 앤 젠틀맨을 위한 / 레스토랑. // 어린이는 출입 금지."
+  },
+  {
+   "selector": "00/30",
+   "entry_index": 223,
+   "draft_translation": "화려한 보석들이 / 빈틈없이 진열되어 있어 / 나도 모르게 걸음을 멈추게 된다."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 0,
+   "draft_translation": "뭐야, 너? / 외지인이랑 이야기할 생각 없어."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 1,
+   "draft_translation": "뭐? 내가 짐이냐고? / 왜 너 같은 녀석에게 이름을 / 가르쳐 줘야 하는데! // ...응? / 영감에게 이야기를 듣고 왔다고? / 여권과 칩을 아느냐고? // ...쳇, 영감이 보냈다면 / 무시할 수는 없지... / 하지만 공짜로는 안 돼. // 일본에는 「[printChip chip=111] [printCode code=*]」이라는 / 희귀한 칩이 있다지? / 그걸 주면 정보를 넘겨줄게."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 2,
+   "draft_translation": "준다 / 안 준다 // 너 지금 곤란한 거 아니었어? // ...뭐, 나중에 줘도 돼."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 3,
+   "draft_translation": "「[printChip chip=111] [printCode code=*]」을 / 줄 마음이 생겼어?"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 4,
+   "draft_translation": "그럼 여권 정보부터 / 알려 주지... // 여권은 아마 지금쯤 / 인터넷에 흘러 들어갔을 거야. / 우리 세계를 찾아봐야 소용없어. // 플러그인해서 내비를 인터넷으로 보내고 / 여권을 빼앗아 간 내비를 / 찾아내는 거야. // 다만 이 근처에서 인터넷에 / 접속하려면 여길 관리하는 / 라울 씨의 허락을 받아야 해. // 뭐, 내가 들었다고 말해 봐. // ...언더넷까지 흘러 들어가면 / 여권은 다시 못 찾을 거야. / 서두르는 게 좋아."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 5,
+   "draft_translation": "이곳에는 부유하지 않은 사람과 / 소수 민족 사람들이 / 많이 살고 있다... // 모두 거칠기는 하지만 / 우리는 동료를 / 무엇보다 소중히 여기지... // 하지만... 믿을 수 없는 외지인에게 / 친절을 베풀 만큼 / 만만하진 않다."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 6,
+   "draft_translation": "여긴 관광객이 올 곳이 아냐!! / 나가! 겟 아웃!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 7,
+   "draft_translation": "저쪽 농구 골대 아래에 있는 분이 / 우리 리더 라울 씨야. // ...이런, / 외지인에게 쓸데없는 말을 / 해 버렸군..."
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 8,
+   "draft_translation": "[textSpeed delay=4]히~호! 호~호!"
+  },
+  {
+   "selector": "00/31",
+   "entry_index": 9,
+   "draft_translation": "[textSpeed delay=4]요~호! 로~호!"
+  }
+ ]
 }

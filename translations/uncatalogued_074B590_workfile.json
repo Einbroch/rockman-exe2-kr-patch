@@ -1,0 +1,387 @@
+{
+ "schema_version": 2,
+ "kind": "exe2_uncatalogued_archive_translation_workfile",
+ "selector": "u0/074B590",
+ "entry_prefix": "archive_u074B590",
+ "rom_offset": 7648656,
+ "storage": "lz77",
+ "byte_length": 1590,
+ "tpl_filename": "uncatalogued_archive_tpl/lz_074B590.tpl",
+ "entry_count": 19,
+ "entries": [
+  {
+   "entry_index": 0,
+   "entry_id": "archive_u074B590_entry_0000",
+   "source_entry_offset": 510,
+   "source_entry_byte_length": 39,
+   "source_entry_sha256": "7a38c6867a363a0f414242c530ec37eb01745ac5fd00b08b626c1fac0b116235",
+   "source_entry_raw_hex": "f1 00 1e 4b 31 ae b2 e8 d6 c8 a4 35 59 12 c9 00 9e 9e e5 02 ab 9a c1 81 e8 a7 ac ae b2 00 e5 6f bf c2 ad 9a 81 eb e7",
+   "source_tpl_block_sha256": "7dc88214e15f757aa8dc92a612ce1b0ec66aebb01949b2785b485c98046ca702",
+   "japanese_characters": 27,
+   "source_literals": [
+    "トビラには\nでんしロックが かかっている!\nそとには 出られない!"
+   ],
+   "translated_literals": [
+    "문에\n전자 잠금이 걸려 있다!\n밖으로 나갈 수 없다!"
+   ]
+  },
+  {
+   "entry_index": 1,
+   "entry_id": "archive_u074B590_entry_0001",
+   "source_entry_offset": 549,
+   "source_entry_byte_length": 23,
+   "source_entry_sha256": "8c1f5186b34d70a4fea307f640da8c1a70535c1076bef5f9c6b40d1f259e8eeb",
+   "source_entry_raw_hex": "ed 00 40 f1 00 f2 0c 01 07 2c 78 33 d3 81 00 ad c8 d3 c3 9b 7c eb e7",
+   "source_tpl_block_sha256": "28bdb0867b4d0588e0c2faccc2588b083590e5733f9cd427ce05e26ac2d66691",
+   "japanese_characters": 9,
+   "source_literals": [
+    "メールだ! なんだろう?"
+   ],
+   "translated_literals": [
+    "메일이다! 뭘까?"
+   ]
+  },
+  {
+   "entry_index": 5,
+   "entry_id": "archive_u074B590_entry_0005",
+   "source_entry_offset": 572,
+   "source_entry_byte_length": 73,
+   "source_entry_sha256": "cd4ebcc748c8bebf81b3873c923f7f113a757c989e15373332908785bcadbc6f",
+   "source_entry_raw_hex": "f3 00 8e 02 06 ff f3 00 2d 02 ff 07 ed 00 02 f1 00 f9 00 03 00 9e 88 88 88 ea 01 1e 00 e8 bc 9a ac b1 00 a2 ac d3 9e bf 00 e5 6d ae e5 9c bf c2 ad 9a e8 be 9b ad ac a2 c3 ae 00 9e a0 a4 ab c1 ac 00 9d bb 9b d1 81 eb e7",
+   "source_tpl_block_sha256": "ff78ac4242a2efefd6f122a23517b2d10761171ce9212d97996864fb2a16955e",
+   "japanese_characters": 37,
+   "source_literals": [
+    "か・・・",
+    "\nやいとの ことだから 人に見られない\nようなところに かくしてると おもうぜ!"
+   ],
+   "translated_literals": [
+    "라...",
+    "\n야이토 성격이면 남 눈에 안 띄는\n곳에 숨겨 뒀을 거라고!"
+   ]
+  },
+  {
+   "entry_index": 6,
+   "entry_id": "archive_u074B590_entry_0006",
+   "source_entry_offset": 645,
+   "source_entry_byte_length": 56,
+   "source_entry_sha256": "647bbc612518e35e5e9c69dd12a5733455b1595a1b6e7354ebc3ee6615615d12",
+   "source_entry_raw_hex": "ed 00 02 f1 00 be a4 81 00 9a a1 3b 59 1c 29 3a 81 00 a7 a2 d3 81 eb e9 a7 b1 0d 0c 33 17 c7 00 bc e5 02 a8 bf e8 1e 4b 31 b1 00 35 59 12 c9 00 b2 d0 c2 c1 43 81 eb e7",
+   "source_tpl_block_sha256": "7d440a361d5f6c0b50e5180cdb0e90704dbbdd98b46c55b9c5eaadc0422ce0ad",
+   "japanese_characters": 36,
+   "source_literals": [
+    "よし! いけガッツマン! そこだ!",
+    "そのウイルスを やったら\nトビラの ロックが はずれるゼ!"
+   ],
+   "translated_literals": [
+    "좋아! 가라、 거츠맨! 거기다!",
+    "그 바이러스를 해치우면\n문 잠금이 풀린다고!"
+   ]
+  },
+  {
+   "entry_index": 7,
+   "entry_id": "archive_u074B590_entry_0007",
+   "source_entry_offset": 701,
+   "source_entry_byte_length": 69,
+   "source_entry_sha256": "fd1007e2632afeb0c46f21f5662ef748217cea70620a17198ef888926a3bd33a",
+   "source_entry_raw_hex": "ed 00 02 f1 00 1e 4b 31 b1 00 35 59 12 51 35 3d 31 2b bb e8 0d 0c 33 17 ae 00 bc bf c2 a9 b7 e5 02 ab c1 81 eb e9 d3 c9 88 88 88 81 00 a2 a2 b2 e8 0f 34 a3 b7 ac 00 3b 59 1c 29 3a ae 00 b7 9e a6 ad 81 eb e7",
+   "source_tpl_block_sha256": "37234ae3beb2b906e186f8c0def0bf2c9cf982e4e96b0436d640c0aa71484540",
+   "japanese_characters": 49,
+   "source_literals": [
+    "トビラの ロックプログラムも\nウイルスに やられちまってる!",
+    "だが・・・! ここは\nオレさまと ガッツマンに まかせな!"
+   ],
+   "translated_literals": [
+    "문 잠금 프로그램도\n바이러스한테 당했어!",
+    "하지만...! 여기는\n이 몸과 거츠맨에게 맡기라고!"
+   ]
+  },
+  {
+   "entry_index": 190,
+   "entry_id": "archive_u074B590_entry_0190",
+   "source_entry_offset": 770,
+   "source_entry_byte_length": 332,
+   "source_entry_sha256": "348cb98711441c276db1f1818551ab3a211ce02ea65c33c7d38b412271d82396",
+   "source_entry_raw_hex": "f3 00 8f 0c c0 ff f3 00 a5 00 c5 ff f2 00 a5 00 ed 00 2e f1 00 bc 99 85 11 2a c9 00 4e 12 b1 9d b0 c9 9a c7 e8 9f 9a ab a0 c2 c1 b1 9e 9a 7c eb e9 4e 12 b2 85 a3 9a c9 9a a1 9a d9 b1 e8 9e 9a a4 e5 03 c7 00 a1 9a 9c 9a a4 ab c1 c8 d3 88 88 88 eb e9 d3 a1 d7 85 9a b7 b1 00 cf d3 9a 00 ad c8 d6 bb e8 0f 26 55 16 5a 33 22 59 1e 4a 1e 31 78 c9 e8 bc e5 02 a9 e5 03 9b 9e bf 85 eb e9 16 3f 1e c9 00 ad a0 ad e5 02 ab 9f a8 c8 d3 eb e9 a7 c2 d6 85 9e 9a a4 e5 03 b1 00 9b c8 9c 9a a4 9f c8 bb e8 a7 a2 c7 00 aa 9a ab 9f a8 b1 a3 eb e9 06 01 01 01 01 43 20 78 99 c2 d8 85 e8 ad c8 ac 9e 85 a2 c8 cc aa 00 b1 c0 9f c1 14 1e c9 e8 d6 9f c1 c8 d3 a1 d7 85 eb e9 a7 b1 00 9d 10 22 c9 ad 9a ac 00 9e 9a a4 e5 03 b2 e8 ac 9b a3 c8 00 a4 a9 e5 03 9b c8 d3 88 88 88 eb e9 ac 9a 9b 36 13 d6 85 06 01 01 01 01 43 20 78 c7 e8 9e a4 ab a0 d3 a3 9a 81 81 eb e9 ef 11 00 ee 00 02 bb a9 c3 c8 00 ef 00 11 ee 00 02 0c 2e d6 a5 f0 06 80 bf ff ff 11 85 11 2a b2 00 4e 12 c7 e8 b3 bc 9e a4 ae 9f a8 b1 9e 9a 81 7c eb e7",
+   "source_tpl_block_sha256": "0a4b5ffc1342e279a5755c7b3ed8abcbfa29bcc7d9ad15c2ee293cba9b3635e7",
+   "japanese_characters": 220,
+   "source_literals": [
+    "やあ、キミが ボクのおねがいを\nきいてくれるのかい?",
+    "ボクは、さいがいけいびの\nかいしゃを けいえいしてるんだ・・・",
+    "だけど、いまの じだい なんでも\nオフィシャルネットバトラーが\nやっちゃうから、",
+    "シゴトが なくなってきたんだ",
+    "それで、かいしゃの うんえいしきんも\nそこを ついてきたのさ",
+    "50000ゼニーあれば、\nなんとか、こんげつ のりきるコトが\nできるんだけど、",
+    "その おカネがないと かいしゃは\nとうさん しちゃうんだ・・・",
+    "というワケで、50000ゼニーを\nかしてください!!",
+    "もちろん ",
+    "イヤです",
+    "キ、キミは ボクを\nひやかしにきたのかい!?"
+   ],
+   "translated_literals": [
+    "여어、 네가 내 부탁을\n들어주겠다는 거니?",
+    "나는 재해 경비\n회사를 경영하고 있어...",
+    "그런데 요즘 시대엔 뭐든지\n오피셜 넷배틀러가\n다 해 버리니까、",
+    "일이 점점 줄어들었어",
+    "그래서 회사 운영 자금도\n바닥나 버렸지",
+    "50000제니만 있으면\n어떻게든 이번 달은\n버틸 수 있는데、",
+    "그 돈이 없으면 회사는\n도산하고 말아...",
+    "그러니까 50000제니를\n빌려 주세요!!",
+    "물론 ",
+    "싫어요",
+    "너、 너는 나를\n놀리러 온 거니!?"
+   ]
+  },
+  {
+   "entry_index": 191,
+   "entry_id": "archive_u074B590_entry_0191",
+   "source_entry_offset": 1102,
+   "source_entry_byte_length": 302,
+   "source_entry_sha256": "27553019da143f37ab8baa22541b7537f3d2ef190b3be1a9bd6ab00ddf43e750",
+   "source_entry_raw_hex": "f6 33 50 c3 00 00 ff ff c4 f6 31 50 c3 00 00 ff ff ff f2 00 8f 0c f2 04 52 00 ed 00 2e f1 00 9d 10 22 c7 00 9e a4 ab a0 c2 c1 b1 9e 9a 7c e8 99 c0 c9 ac 9b 81 81 eb e9 a3 e5 02 a7 a0 85 6d 62 71 9e bf 00 ca c8 a2 9b ae e8 9d 9e b0 c7 00 b4 c0 a2 b9 be 88 88 88 eb e9 a2 c2 d6 00 be a4 e5 02 81 eb e9 28 3a 1e a8 a5 9e e5 02 a8 be e8 99 c0 c9 ac 9b 11 2a 81 81 eb e9 9a b7 17 3d 00 9d c2 9a c7 00 a4 a8 9a c8 d3 a1 d7 85 e8 9a b7 b2 85 a9 e5 05 e5 02 ac 2b 32 d3 9e bf 85 eb e9 9d 10 22 c9 00 b2 9a e5 02 a8 ac 9f ae e8 49 78 78 78 3a e5 02 ac 85 9d c2 9a a3 a6 ab bb bf 9b be eb e9 9c 7c 00 4e 12 c9 ad c8 d6 00 14 14 ae 9a c1 b1 9e 7c eb e9 cf aa b2 85 a4 e5 03 e5 02 9f c8 ac c0 9e bf e8 ae cc ab 9a c1 1e 14 35 c7 00 a2 b1 bc a4 9f b1 e8 2b 17 2c a3 c8 c9 85 9e a0 b7 e5 02 ab a0 c2 a8 c8 d3 eb e9 16 3f 1e c9 85 9f d7 9b ae 00 b1 c1 b7 d6 e8 14 14 ae 00 9a a7 9b c3 9b 00 a3 a6 ab bb bf 9b b1 a3 eb e7",
+   "source_tpl_block_sha256": "52d8a2f6f6e8e5b7984855a732894fbda7dd390b4bd491f6b09f71367a337f8c",
+   "japanese_characters": 203,
+   "source_literals": [
+    "おカネを かしてくれるのかい?\nありがとう!!",
+    "さっそく、PETから ぎんこうに\nおかねを ふりこむよ・・・",
+    "これで よしっ!",
+    "ホントたすかったよ\nありがとうキミ!!",
+    "いまスグ おれいを したいんだけど、\nいまは、ちょっとムリだから、",
+    "おカネが はいったときに\nドーーーンっと、おれいさせてもらうよ",
+    "え? ボクがなんで ココにいるのか?",
+    "じつは、しゃっきんとりから\nにげているトコロを このやしきの\nムスメさんが、かくまってくれたんだ",
+    "シゴトが、きどうに のるまで\nココに いそうろう させてもらうのさ"
+   ],
+   "translated_literals": [
+    "돈을 빌려주는 거야?\n고마워!!",
+    "당장 PET에서 은행으로\n돈을 이체할게...",
+    "이제 됐다!",
+    "정말 살았어\n고마워!!",
+    "지금 당장 사례하고 싶지만\n지금은 좀 무리라서、",
+    "돈이 들어오면 그때\n화끈하게 사례할게",
+    "응? 내가 왜 여기 있냐고?",
+    "실은 빚쟁이한테서\n도망치던 걸 이 저택의\n따님이 숨겨 줬거든",
+    "일이 궤도에 오를 때까지\n여기 얹혀살기로 했어"
+   ]
+  },
+  {
+   "entry_index": 192,
+   "entry_id": "archive_u074B590_entry_0192",
+   "source_entry_offset": 1404,
+   "source_entry_byte_length": 58,
+   "source_entry_sha256": "c16ad5b5e901a22568459ee31c070a4af0facdf89d0d52dd9d47a1640091e83e",
+   "source_entry_raw_hex": "f3 00 a6 00 c3 ff f3 00 19 01 c1 ff ed 00 2e f1 00 9a aa 9d 10 22 c9 00 d6 9f c1 9e e8 c4 9e bf ad 9a a1 d7 eb e9 9e ad bf d0 00 9e 9c a6 c1 be 9b ae e8 3b 3a 4a c1 be eb e7",
+   "source_tpl_block_sha256": "f225f2d1405fa3ff8daae7be8e5a44ef466d531e7c11f5777db6cdad5179ee1a",
+   "japanese_characters": 33,
+   "source_literals": [
+    "いつおカネが できるか\nわからないけど",
+    "かならず かえせるように\nガンバるよ"
+   ],
+   "translated_literals": [
+    "언제 돈이 생길지는\n모르겠지만",
+    "꼭 갚을 수 있도록\n노력할게"
+   ]
+  },
+  {
+   "entry_index": 193,
+   "entry_id": "archive_u074B590_entry_0193",
+   "source_entry_offset": 1462,
+   "source_entry_byte_length": 112,
+   "source_entry_sha256": "ad05770cd9c7e5d58ca289ec6f32d452661f00918a16915b5b6eb34f4995f8a3",
+   "source_entry_raw_hex": "f2 00 a6 00 ed 00 2e f1 00 a5 cd 9a be 00 11 2a 81 eb e9 a9 9e cd c3 85 9d a2 e5 02 a8 e8 a4 d1 c8 a3 9a c9 9a b1 00 9d 9e cc d6 85 e8 16 3f 1e c9 00 c4 c8 a3 9e 00 b2 9a e5 02 ab 9f a8 c8 d3 eb e9 a7 a4 ab 85 9d 10 22 bb 00 a8 c8 b7 c0 e8 b2 9a e5 02 ab 9f a8 be eb e9 a7 c2 cf e5 03 85 14 34 00 ac e5 02 ab 9d 9a ab be eb e9 f5 00 c2",
+   "source_tpl_block_sha256": "43a486b3570cd776e6288087e2e3aedb2ca828f5f6a083d375d56148f6823d7a",
+   "japanese_characters": 73,
+   "source_literals": [
+    "すごいよ キミ!",
+    "ちかごろ、おこった\nしぜんさいがいの おかげで、\nシゴトが わんさか はいってきたんだ",
+    "そして、おカネも たんまり\nはいってきたよ",
+    "それじゃ、コレ とっておいてよ"
+   ],
+   "translated_literals": [
+    "굉장한 일이 생겼어!",
+    "요즘 일어난\n자연재해 덕분에\n일이 잔뜩 들어왔거든",
+    "그래서 돈도 두둑하게\n들어왔어",
+    "그러니까 이거 받아 둬"
+   ]
+  },
+  {
+   "entry_index": 194,
+   "entry_id": "archive_u074B590_entry_0194",
+   "source_entry_offset": 1574,
+   "source_entry_byte_length": 54,
+   "source_entry_sha256": "30dfedb81e6f38b77a5c90f702255e403fe2b753d1ec1fe2775e547ba8a8e529",
+   "source_entry_raw_hex": "ed 01 f1 00 f8 00 f8 04 18 f6 30 a0 86 01 00 ff ff ff e5 93 e5 94 b2 85 e8 90 02 01 01 01 01 01 43 20 78 91 e8 c7 00 3e 59 1e a4 a8 81 81 eb f8 0c f8 10 f8 08 e7",
+   "source_tpl_block_sha256": "de6c1245ab7bfd790bd25e941ac5df45b333e4995f5bb5ba88356e8e3114389c",
+   "japanese_characters": 12,
+   "source_literals": [
+    "熱斗は、\n「100000ゼニー」\nを ゲットした!!"
+   ],
+   "translated_literals": [
+    "넷토는\n「100000제니」를\n획득했다!!"
+   ]
+  },
+  {
+   "entry_index": 195,
+   "entry_id": "archive_u074B590_entry_0195",
+   "source_entry_offset": 1628,
+   "source_entry_byte_length": 113,
+   "source_entry_sha256": "29fd568af2a3f304ad22589fdf30e73f0dee75134a955fc7d201568e6aa4ced7",
+   "source_entry_raw_hex": "ed 00 2e f1 00 b8 c8 ad c9 85 a2 b7 c1 ac 00 bb 9b 9e c1 e8 a4 e5 05 9b d8 9a d3 9e bf 85 9d 9d be c3 a2 d9 00 a5 c1 b1 b2 e8 9f c9 00 b3 a1 c1 a1 d7 eb e9 a3 9a c9 9a b1 00 9d 9e cc d6 85 e8 9e 9a a4 e5 03 c9 00 a8 a5 9e e5 02 a8 14 1e b2 e8 a4 c8 cf aa 00 d3 9e bf b0 eb e9 bb a9 c3 c8 85 11 2a ae bb 00 9e c8 a4 e5 03 a4 ab c1 be eb e7",
+   "source_tpl_block_sha256": "362b3c4aca58eb55f89110dc2c805656393d4f000d4e96a0f94f62e663dd4ef8",
+   "japanese_characters": 83,
+   "source_literals": [
+    "みんなが、こまると もうかる\nしょうばいだから、おおよろこび するのは\nきが ひけるけど",
+    "さいがいの おかげで、\nかいしゃが たすかったコトは\nしんじつ だからね",
+    "もちろん、キミにも かんしゃしてるよ"
+   ],
+   "translated_literals": [
+    "다들 곤란해야 돈을 버는\n장사라서 크게 기뻐하기는\n좀 미안하지만",
+    "재해 덕분에\n회사가 살아난 건\n사실이니까",
+    "물론 너한테도 고마워하고 있어"
+   ]
+  },
+  {
+   "entry_index": 196,
+   "entry_id": "archive_u074B590_entry_0196",
+   "source_entry_offset": 1741,
+   "source_entry_byte_length": 78,
+   "source_entry_sha256": "83e65d20140b3bd074d803755e2e9894346fe8ca6d4fae73705c7117b0dd0e7f",
+   "source_entry_raw_hex": "ed 00 2e f1 00 11 2a 85 36 33 9a a1 d7 e8 9d 10 22 c9 a8 c0 ad 9a be 88 88 88 e8 9f bb a9 b2 85 9b c2 a4 9a c8 d3 a1 d7 b0 88 88 88 eb e9 24 24 88 88 88 e8 06 01 01 01 01 43 20 78 00 b3 aa be 9b ad c8 d3 e8 3f 2c 3a b0 88 88 88 eb e7",
+   "source_tpl_block_sha256": "641018a8d17faa764069f1851bfb23422c0973b27b56c9a26e282695f2426b9e",
+   "japanese_characters": 57,
+   "source_literals": [
+    "キミ、ワルいけど\nおカネがたりないよ・・・\nきもちは、うれしいんだけどね・・・",
+    "ハハ・・・\n50000ゼニー ひつようなんだ\nゴメンね・・・"
+   ],
+   "translated_literals": [
+    "미안하지만\n돈이 모자라...\n마음은 고맙지만...",
+    "하하...\n50000제니가 필요하거든\n미안해..."
+   ]
+  },
+  {
+   "entry_index": 197,
+   "entry_id": "archive_u074B590_entry_0197",
+   "source_entry_offset": 1819,
+   "source_entry_byte_length": 83,
+   "source_entry_sha256": "7d23039e126ed71c54e4653cba0b86c05bb65235ec894d99c5a0ec88fbf88d36",
+   "source_entry_raw_hex": "ed 00 2e f1 00 06 01 01 01 01 43 20 78 00 be 9b 9a d6 9f a8 b1 9e 9a 7c eb e9 b3 bc 9e a4 b2 85 9e c8 db c8 a4 ab a0 c2 be e8 ef 11 00 ee 00 02 9e a5 be 00 ef 00 11 ee 00 02 b3 bc 9e a4 d6 a5 f0 06 80 bf ff ff ad bf 85 9e 9c e5 02 ab a0 c2 81 eb e7",
+   "source_tpl_block_sha256": "e3a66c6726a26500cdab73e64853824a1da018c9221e508abdde09a04e13f58e",
+   "japanese_characters": 43,
+   "source_literals": [
+    "50000ゼニー よういできたのかい?",
+    "ひやかしは、かんべんしてくれよ\n",
+    "かすよ ",
+    "ひやかしです",
+    "なら、かえってくれ!"
+   ],
+   "translated_literals": [
+    "50000제니 준비됐니?",
+    "놀리는 건 사양이야\n",
+    "빌려줄게 ",
+    "놀리러 왔어요",
+    "그럼 돌아가 줘!"
+   ]
+  },
+  {
+   "entry_index": 220,
+   "entry_id": "archive_u074B590_entry_0220",
+   "source_entry_offset": 1902,
+   "source_entry_byte_length": 31,
+   "source_entry_sha256": "af3ef1b81b4a384822a3a8c3add5eb2e8eb63010e58e1a9600e6c1cb6865cc9b",
+   "source_entry_raw_hex": "f1 00 28 3a 2d 23 ac b8 b7 a9 c9 9b b6 d7 ae e8 be a0 d6 9f a8 0c 21 b1 9d 9f bb b1 d3 eb e7",
+   "source_tpl_block_sha256": "6c8cede3fabe1dff775cea092911983fd897a510abec80d79d2c16b9db2f6362",
+   "japanese_characters": 26,
+   "source_literals": [
+    "ホンモノとみまちがうほどに\nよくできたイヌのおきものだ"
+   ],
+   "translated_literals": [
+    "진짜로 착각할 만큼\n잘 만든 개 장식품이다"
+   ]
+  },
+  {
+   "entry_index": 221,
+   "entry_id": "archive_u074B590_entry_0221",
+   "source_entry_offset": 1933,
+   "source_entry_byte_length": 41,
+   "source_entry_sha256": "510e9a3e4060d4936a59a15a18f0dac810ba406fcde997a7648c23be057d98a1",
+   "source_entry_raw_hex": "f1 00 a6 9e 9a ab 9f ae 00 bd 9b ba 9a ad 00 ba 9a c9 d3 88 88 88 e8 a3 a5 c9 ae 85 a2 c2 b2 34 51 32 10 b1 be 9b d3 eb e7",
+   "source_tpl_block_sha256": "b4b805259959a2b46f8492ca392cb5458671a56c27f303023004e7b590e12fe5",
+   "japanese_characters": 33,
+   "source_literals": [
+    "せかいてきに ゆうめいな めいがだ・・・\nさすがに、これはレプリカのようだ"
+   ],
+   "translated_literals": [
+    "세계적으로 유명한 명화다...\n역시 이건 복제품인 것 같다"
+   ]
+  },
+  {
+   "entry_index": 222,
+   "entry_id": "archive_u074B590_entry_0222",
+   "source_entry_offset": 1974,
+   "source_entry_byte_length": 85,
+   "source_entry_sha256": "ab6f7b47ff36884513e15fdd3f5f9321e6257fa3dee421be6bb4e912f1e61984",
+   "source_entry_raw_hex": "f3 04 07 2f e1 ff f3 04 05 06 e0 ff f1 00 bc 9a ac b1 00 a6 c8 d2 00 d3 c3 9b 9e e8 a9 9a a3 9a ad c9 bf bb 00 c0 c0 a4 9a 00 d3 c8 a6 9a b1 e8 d7 9b d2 9b 00 d3 eb e9 be a0 b8 c1 ac 85 51 31 3d 0c 3a 00 d6 9f a7 9b ad e8 0b 1f c9 00 99 9a ab 9a c1 eb e7",
+   "source_tpl_block_sha256": "d1b75229b60341a6f56c08653cabfb56da25034fe05837420c085f2e4b7836ff",
+   "japanese_characters": 56,
+   "source_literals": [
+    "やいとの せんぞ だろうか\nちいさいながらも りりしい だんせいの\nどうぞう だ",
+    "よくみると、プラグイン できそうな\nアナが あいている"
+   ],
+   "translated_literals": [
+    "야이토의 조상일까?\n작지만 늠름한 남성의\n동상이다",
+    "자세히 보니 플러그인할 수\n있을 것 같은 구멍이 나 있다"
+   ]
+  },
+  {
+   "entry_index": 223,
+   "entry_id": "archive_u074B590_entry_0223",
+   "source_entry_offset": 2059,
+   "source_entry_byte_length": 30,
+   "source_entry_sha256": "a76a485b6afd3509e20c62e9a711bcef9637a854ca446070182ef3d9d688483d",
+   "source_entry_raw_hex": "f1 00 3b 17 c9 00 a8 a9 a2 ba ab 9a c1 81 e8 a9 9e d5 a0 b1 b2 00 11 13 3a d3 81 81 eb e7",
+   "source_tpl_block_sha256": "78f190fdf18e0b28a3477a1c4f263ae62fad9ebba39e27da1c784d51c59a7415",
+   "japanese_characters": 20,
+   "source_literals": [
+    "ガスが たちこめている!\nちかづくのは キケンだ!!"
+   ],
+   "translated_literals": [
+    "가스가 자욱하다!\n가까이 가면 위험하다!!"
+   ]
+  },
+  {
+   "entry_index": 224,
+   "entry_id": "archive_u074B590_entry_0224",
+   "source_entry_offset": 2089,
+   "source_entry_byte_length": 81,
+   "source_entry_sha256": "9a26cb69f67bde9964df1d914af4c93da23b94b0d57c7283524acea3f166679a",
+   "source_entry_raw_hex": "f1 00 bc 9a ac b1 00 a6 c8 d2 00 d3 c3 9b 9e e8 a9 9a a3 9a ad c9 bf bb 00 c0 c0 a4 9a 00 d3 c8 a6 9a b1 e8 d7 9b d2 9b 00 d3 eb e9 51 31 3d 0c 3a d6 9f a7 9b ad 00 0b 1f c9 00 99 c1 c9 e8 9a b7 b2 00 a7 c2 d7 a2 c3 d6 b2 00 ad 9a 81 81 eb e7",
+   "source_tpl_block_sha256": "6a966061ce8c8976f06b13bf7545f10a094c15bbffc500dba2b36ac184e8e145",
+   "japanese_characters": 61,
+   "source_literals": [
+    "やいとの せんぞ だろうか\nちいさいながらも りりしい だんせいの\nどうぞう だ",
+    "プラグインできそうな アナが あるが\nいまは それどころでは ない!!"
+   ],
+   "translated_literals": [
+    "야이토의 조상일까?\n작지만 늠름한 남성의\n동상이다",
+    "플러그인할 수 있을 것 같은 구멍이\n있지만 지금은 그럴 때가 아니다!!"
+   ]
+  },
+  {
+   "entry_index": 225,
+   "entry_id": "archive_u074B590_entry_0225",
+   "source_entry_offset": 2170,
+   "source_entry_byte_length": 86,
+   "source_entry_sha256": "5307fc0aae6b09bd98976f2eff942ee362a90430786960ba7526d7fde6e45d84",
+   "source_entry_raw_hex": "f1 00 bc 9a ac b1 00 a6 c8 d2 00 d3 c3 9b 9e e8 a9 9a a3 9a ad c9 bf bb 00 c0 c0 a4 9a 00 d3 c8 a6 9a b1 e8 d7 9b d2 9b 00 d3 eb e9 51 31 3d 0c 3a d6 9f a7 9b ad 00 0b 1f c9 00 99 c1 c9 e8 28 14 32 d6 00 aa b7 e5 02 ab 00 a4 b7 e5 02 ab 9a c1 88 88 88 eb e7",
+   "source_tpl_block_sha256": "ff8d27c321ab9069aed98e10a9e19ae312ed1175fb6b399a288d672b5c24b768",
+   "japanese_characters": 66,
+   "source_literals": [
+    "やいとの せんぞ だろうか\nちいさいながらも りりしい だんせいの\nどうぞう だ",
+    "プラグインできそうな アナが あるが\nホコリで つまって しまっている・・・"
+   ],
+   "translated_literals": [
+    "야이토의 조상일까?\n작지만 늠름한 남성의\n동상이다",
+    "플러그인할 수 있을 것 같은 구멍이\n있지만 먼지로 막혀 있다..."
+   ]
+  }
+ ]
+}

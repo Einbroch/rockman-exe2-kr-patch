@@ -1,0 +1,37 @@
+{
+  "status": "PENDING_RUNTIME_CHECK",
+  "candidate_sha256": "cbcecd2bf990e59d890d4f3bbbed4657ae57bb728cb8b44b801f609fedbdb0de",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "2b7535cadc072bf5adb49e62c3fd5206ba1ae92f38333eb9d9c65292ce209fdc",
+  "content_qa_sha256": "4e385c4ef4c8be8ea77c37e4bdd2c206c303d9cad8cfa7e180a3fa3cf74da8f9",
+  "runtime_evidence": {
+    "kind": "agent_read_emulator_captures",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "게시판",
+      "의뢰 게시판",
+      "파이터소드"
+    ],
+    "automated_menu_regression_run": false,
+    "note": "Mesen 2 test runner captures read by the AI assistant. The bulletin board screens were opened in a test-only copy of this ROM with a one-entry dispatch stub (not shipped); the shipped ROM differs from it only in those bytes."
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.24_Rest.zip",
+  "package_sha256": "c510b42daf7f8abeffe9397bdba74a247ea904f7aae2e7fa3d77f6acc638226f",
+  "package_size": 931739,
+  "patch_sha256": "17b292478f94e0a1568dffb992303b506af105d298b42c09198f55ca02615c5f",
+  "patch_size": 391454,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

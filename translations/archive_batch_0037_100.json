@@ -1349,7 +1349,7 @@
       "source_entry_raw_hex": "ed 00 40 f1 00 9b c8 85 0b 1a 32 d3 b0 81 e8 bc e5 02 dd c0 00 14 34 00 9f d8 a0 a7 9b a9 d3 be 81 eb e9 a2 b1 e5 8a b1 00 d7 a2 9e d6 00 9f d8 a0 51 35 3d 31 2b c9 e8 a6 9a ca e5 05 00 a3 c2 ab 9a c1 b2 d0 eb e9 99 ac 88 88 88 ea 01 1e 00 e8 0d 0c 33 17 b1 00 a1 b2 9a c7 00 9e c8 cf c1 81 e8 a1 e5 02 a2 9b 00 ab cd c4 a7 9b d3 be 81 eb e9 f5 00 02",
       "source_tpl_block_sha256": "20f7f7d7979d0d6593488694e39e3c5f6e98b54a1931189508b1b38cbe88e2a5",
       "source_text_transcription": "うん、アタリだね! / やっぱり コレ きばくそうちだよ! // この中の どこかで きばくプログラムが / せいぎょ されているはず // あと・・・ // ウイルスの けはいを かんじる! / けっこう てごわそうだよ!",
-      "draft_translation": "응, 맞아![waitSkip 30] / 역시 이건 기폭 장치야! // 이 안 어딘가에서 기폭 프로그램이 / 제어되고 있을 거야. // 그리고... // 바이러스의 기척이 느껴져! / 제법 강한 녀석들 같아!",
+      "draft_translation": "응, 맞아![waitSkip 30] / 역시 이건 기폭 장치야! // 어딘가에서 기폭 프로그램이 제어돼. // 강한 바이러스 기척도 느껴져!",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },

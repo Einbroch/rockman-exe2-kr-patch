@@ -130,9 +130,10 @@ def main() -> None:
             if consumed != length:
                 raise ValueError(f"{archive['selector']}: compressed extent mismatch")
             if continuation is not None:
-                # The terminal empty script this archive's caller selects by
-                # index lives inside the decompressed buffer, one byte past the
-                # payload the boundary table declares.
+                # The terminal script this archive's caller selects by index
+                # lives inside the decompressed buffer, right past the payload
+                # the boundary table declares. A translated one is held to the
+                # replacement the manifest records; any other to the source.
                 core_length = int(archive["replacement_decompressed_byte_length"])
                 continuation_length = int(continuation.get(
                     "replacement_byte_length", continuation["source_byte_length"]))
@@ -144,9 +145,8 @@ def main() -> None:
                     "replacement_sha256", continuation["source_sha256"])
                 if sha256(continuation_bytes) != expected_continuation_sha256:
                     raise ValueError(f"{archive['selector']}: physical continuation hash mismatch")
-                if continuation.get("translated", False):
-                    raise ValueError(f"{archive['selector']}: a continuation inside a compressed buffer must not be translated")
-                if (continuation_length != int(continuation["source_byte_length"])
+                if not continuation.get("translated", False) and (
+                        continuation_length != int(continuation["source_byte_length"])
                         or expected_continuation_sha256 != continuation["source_sha256"]):
                     raise ValueError(f"{archive['selector']}: untranslated continuation differs from source")
                 if continuation["outbound_entries"]:
@@ -255,6 +255,28 @@ def main() -> None:
             start = write['rom_offset']
             if candidate[start:start+len(payload)] != payload:
                 raise ValueError('Title menu graphics reproduction failed')
+
+    if 'chip_panel_graphics' in manifest:
+        from chip_panel_graphics import planned_writes
+        planned, graphics = planned_writes(source, candidate[font_start:font_start+font_length])
+        if graphics != manifest['chip_panel_graphics']:
+            raise ValueError('Chip panel graphics provenance mismatch')
+        for write in planned:
+            payload = bytes.fromhex(write['replacement_hex'])
+            start = write['rom_offset']
+            if candidate[start:start+len(payload)] != payload:
+                raise ValueError('Chip panel graphics reproduction failed')
+
+    if 'result_window_graphics' in manifest:
+        from result_window_graphics import planned_writes
+        planned, graphics = planned_writes(source, candidate[font_start:font_start+font_length])
+        if graphics != manifest['result_window_graphics']:
+            raise ValueError('Result window graphics provenance mismatch')
+        for write in planned:
+            payload = bytes.fromhex(write['replacement_hex'])
+            start = write['rom_offset']
+            if candidate[start:start+len(payload)] != payload:
+                raise ValueError('Result window graphics reproduction failed')
 
     intervals = sorted(expected_range(write) for write in manifest["expected_writes"])
     for previous, current in zip(intervals, intervals[1:]):
