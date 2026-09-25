@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "kind": "github_release_publication_receipt",
+  "repository": "Einbroch/rockman-exe2-kr-patch",
+  "tag": "v0.9.24",
+  "release_id": 396837806,
+  "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.24",
+  "draft": false,
+  "prerelease": true,
+  "target_commitish": "main",
+  "tag_commit": "078bbffff2220f0f303e640550cd7eccec1bbb60",
+  "published_at": "2026-09-25T18:29:27Z",
+  "rom_included": false,
+  "save_included": false,
+  "assets": [
+    {
+      "name": "EXE2_Rev1_KR_V0.9.24_Rest.xdelta",
+      "server_size": 408831,
+      "local_size": 408831,
+      "server_digest": "sha256:826ec4b45bc0aed0279b2c18a27dd9000644601db71b2c18e8f97efc5732d060",
+      "local_sha256": "826ec4b45bc0aed0279b2c18a27dd9000644601db71b2c18e8f97efc5732d060",
+      "state": "uploaded",
+      "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.24/EXE2_Rev1_KR_V0.9.24_Rest.xdelta"
+    },
+    {
+      "name": "EXE2_Rev1_KR_V0.9.24_Rest.zip",
+      "server_size": 931739,
+      "local_size": 931739,
+      "server_digest": "sha256:c510b42daf7f8abeffe9397bdba74a247ea904f7aae2e7fa3d77f6acc638226f",
+      "local_sha256": "c510b42daf7f8abeffe9397bdba74a247ea904f7aae2e7fa3d77f6acc638226f",
+      "state": "uploaded",
+      "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.24/EXE2_Rev1_KR_V0.9.24_Rest.zip"
+    }
+  ],
+  "verified": {
+    "server_size_matches_local": true,
+    "server_digest_matches_local_sha256": true,
+    "asset_names": true
+  }
+}

@@ -1,5 +1,14 @@
 # Handoff
 
+## [2026-09-26] [github-publication] [v0.9.24]
+
+- V0.9.24 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.24 (release ID 396837806). 태그 `v0.9.24` 는 커밋 `078bbffff2220f0f303e640550cd7eccec1bbb60` (V0.9.10~V0.9.24 작업 전체를 한 커밋으로 main 에 푸시).
+- 자산은 BPS ZIP 931,739 B(`c510b42d...`)와 xdelta 408,831 B(`826ec4b4...`) 둘뿐이다. 서버가 보고한 크기와 SHA-256 다이제스트가 로컬과 일치하고, 게시 뒤 draft=false/prerelease=true 를 확인했다. ROM/저장 파일은 올리지 않았다. 결과 ROM SHA-256 `cbcecd2bf990e59d890d4f3bbbed4657ae57bb728cb8b44b801f609fedbdb0de`.
+- GitHub 직전 릴리스가 V0.9.9 라 노트는 V0.9.10~V0.9.24 누적이다. 맨 위에 V0.9.9 이하의 튜토리얼 배틀·회복 NPC 정지 경고와 교체 안내를 넣었다.
+- 패키지 `manifest.json` 의 적용 완료 문구가 V0.9.10 이후 도구 기본값("V0.9.6 화살표 글자 수정 패치 적용 완료.")으로 들어가 있던 것을 발견해 V0.9.24 문구로 다시 만들었다(`--success`). `VERIFICATION.json` 실행 증거도 사실대로 적었다: AI 가 Mesen 캡처를 읽었고, 게시판은 진입 스텁을 넣은 시험 사본으로 열었다(`--runtime-kind`, `--runtime-note` 신설).
+- 기존 V0.9.4~V0.9.9 릴리스는 손대지 않았다. 내릴지 경고만 붙일지는 사용자 결정 대기.
+- 영수증: `analysis/github_release_v0924_publication.json`. 노트 원본: `analysis/github_release_v0924_notes.md`.
+
 ## [2026-09-22] [github-publication] [v0.9.9]
 
 - V0.9.9 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.9 (release ID 393142397). 대상 커밋 `644794d711584ca8ef2bb87424682c9736c2de8c`.
