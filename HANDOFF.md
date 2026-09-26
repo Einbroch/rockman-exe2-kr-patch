@@ -1,5 +1,13 @@
 # Handoff
 
+## [2026-09-26] [github-publication] [v0.9.25]
+
+- V0.9.25 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.25 (release ID 397247765). 태그 `v0.9.25` 는 커밋 `bfe33387fce2029c1b4d2075388fd7ee98906c3f` 이고 소스 변경도 같은 커밋으로 main 에 푸시했다.
+- 자산은 BPS ZIP 932,370 B(`8c0e69e1...`)와 xdelta 408,705 B(`8e24acfa...`) 둘뿐이다. 서버가 보고한 크기·SHA-256 다이제스트가 로컬과 일치하고, 원격 태그 커밋도 로컬과 같다. 게시 뒤 draft=false/prerelease=true 를 확인했다. ROM/저장 파일은 올리지 않았다.
+- 노트 맨 위에 V0.9.4~V0.9.9·V0.9.24 전부의 버스터 강화 멈춤 경고, 멈추기 직전 자동 저장 안내(버스터 UP 은 남아 있고 이 판에서 그대로 강화 가능)를 넣었다.
+- 기존 릴리스는 손대지 않았다. 내릴지 경고만 붙일지는 사용자 결정 대기.
+- 영수증: `analysis/github_release_v0925_publication.json`. 노트 원본: `analysis/github_release_v0925_notes.md`.
+
 ## [2026-09-26] [runtime-fix] [V0.9.25]
 
 - 사용자 제보: 버스터 UP 강화를 적용하면 "내비 칩은 전부8장까지 넣을 수 없어"가 나온 뒤 멈춘다. Mesen 에서 v0.9.24 로 재현했다. 버스터 UP 개수는 EWRAM `0x02000EE1`(`0x02000E80` + 아이템 0x61, 조회 함수 `0x08024774`)에 있다.
