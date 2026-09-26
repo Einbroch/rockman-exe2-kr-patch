@@ -1,5 +1,16 @@
 # Handoff
 
+## [2026-09-26] [github-publication] [old-release-warnings]
+
+- 사용자 결정("예전 릴리스는 경고 문구만 붙여줘")에 따라 v0.9.4~v0.9.9·v0.9.24 일곱 릴리스 본문 맨 위에 멈춤 경고와 V0.9.25 링크를 붙였다. 삭제한 것은 없고, 제목·첨부 파일·태그·프리릴리스 상태도 그대로다.
+- 판별 경고 항목은 공개판 ROM(xdelta 영수증의 target SHA 로 식별)을 직접 조사해 정했다.
+  - 학교 퇴장 블랙아웃: v0.9.4~v0.9.8
+  - 튜토리얼 배틀: v0.9.4~v0.9.9. `00/352#8` 22칸 줄이 들어 있다.
+  - 회복 프로그램: v0.9.4~v0.9.9. `00/128#0` 이 한 페이지 4줄이다. v0.9.4~v0.9.8 은 LZ77 압축본(0x8BE938)을 풀어서 확인했다.
+  - 버스터 강화: 7개 판 전부. UI 표 45/47/49번이 `F9 04 00 F9` 로 깨져 있다.
+- 편집 뒤 다시 받아서 확인했다. 본문이 의도와 일치하고, 원래 본문은 경고 아래에 바이트 그대로 남아 있으며, 첨부 파일 이름·크기·다이제스트도 바뀌지 않았다.
+- 원래 본문 백업: `analysis/github_release_body_backup/<tag>_before.md`. 영수증: `analysis/github_release_old_warnings_publication.json`.
+
 ## [2026-09-26] [github-publication] [v0.9.25]
 
 - V0.9.25 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.25 (release ID 397247765). 태그 `v0.9.25` 는 커밋 `bfe33387fce2029c1b4d2075388fd7ee98906c3f` 이고 소스 변경도 같은 커밋으로 main 에 푸시했다.

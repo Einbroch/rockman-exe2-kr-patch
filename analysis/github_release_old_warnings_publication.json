@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "kind": "github_release_warning_receipt",
+  "repository": "Einbroch/rockman-exe2-kr-patch",
+  "request": "예전 릴리스는 경고 문구만 붙여줘",
+  "replacement_release": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.25",
+  "warning_items": {
+    "school": "학교에서 나가는 순간 화면이 검게 멈춤 (V0.9.9에서 수정)",
+    "tutorial": "집에 도착한 뒤의 튜토리얼 배틀에서 멈춤 (V0.9.24에서 수정)",
+    "heal": "넷 상인 옆 회복 프로그램에게 말을 걸면 멈춤 (V0.9.24에서 수정)",
+    "buster": "록맨 상태 화면에서 버스터 UP으로 강화하면 엉뚱한 대사가 나온 뒤 멈춤 (V0.9.25에서 수정). 멈추기 직전에 게임이 한 번 자동 저장되지만 버스터 UP은 남아 있어서, V0.9.25에서 그 세이브로 다시 강화하면 됩니다."
+  },
+  "releases": [
+    {
+      "tag": "v0.9.4",
+      "release_id": 388318785,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.4",
+      "name": "록맨 에그제 2 한글패치 V0.9.4 — PET 메뉴 프리징 수정 (프리릴리스)",
+      "affected_by": [
+        "school",
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before": "aff3fac12e16808b0f817db49a61cccbf18fae7d15b28924458b2345bf35c0f8",
+      "body_sha256_after": "b65c720fc216eba5e385c1b341e47005dbf044f3a8b65e29aec37b5b54b27066",
+      "backup": "analysis/github_release_body_backup/v0.9.4_before.md",
+      "updated_at": "2026-09-26T13:41:07Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true,
+        "tag_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.5",
+      "release_id": 388514878,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.5",
+      "name": "록맨 에그제 2 한글패치 V0.9.5 — 화살표·저장 항목 표시 수정 (프리릴리스)",
+      "affected_by": [
+        "school",
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before": "225416eb8b7511cdab14955446e0e5d681587842a3a59411d3424dd4eaf59156",
+      "body_sha256_after": "81e9f439ffd80685a608f3dae27215c7dfbe0c6ca289703885c4d1314197f75e",
+      "backup": "analysis/github_release_body_backup/v0.9.5_before.md",
+      "updated_at": "2026-09-26T13:41:09Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true,
+        "tag_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.6",
+      "release_id": 392926078,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.6",
+      "name": "록맨 에그제 2 한글패치 V0.9.6 — 전환 화살표 글자 수정 (프리릴리스)",
+      "affected_by": [
+        "school",
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before": "027fffba4549470e6d6039445a1ceb55ba922d72f449944576e1b58d7747ba26",
+      "body_sha256_after": "6dce84cfa311c6b9da7d4e5a105884e04597aad80e801d1ebb2d704972d63554",
+      "backup": "analysis/github_release_body_backup/v0.9.6_before.md",
+      "updated_at": "2026-09-26T13:41:10Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true,
+        "tag_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.7",
+      "release_id": 392941489,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.7",
+      "name": "록맨 에그제 2 한글패치 V0.9.7 — 타이틀 메뉴 한글화 (프리릴리스)",
+      "affected_by": [
+        "school",
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before": "53f249f754fbaad0958c2ba3121aff2eb3ce98ba7a1eebae65387a793e23d40d",
+      "body_sha256_after": "d132a45a57c012a1deabbd997f13fe8c784ea200bde5b6b31b4757f66205cd31",
+      "backup": "analysis/github_release_body_backup/v0.9.7_before.md",
+      "updated_at": "2026-09-26T13:41:12Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true,
+        "tag_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.8",
+      "release_id": 393099149,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.8",
+      "name": "록맨 에그제 2 한글패치 V0.9.8 — 이메일 한글화 (프리릴리스)",
+      "affected_by": [
+        "school",
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before": "9476d128b9e44951a1199c416c0017b6993194890b1d2e2010016a4c3ff690b3",
+      "body_sha256_after": "ffb617f8cf79106d4f4599a888920011c0f8dedf867d60ef075958b56b813894",
+      "backup": "analysis/github_release_body_backup/v0.9.8_before.md",
+      "updated_at": "2026-09-26T13:41:14Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true,
+        "tag_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.9",
+      "release_id": 393142397,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.9",
+      "name": "록맨 에그제 2 한글패치 V0.9.9 — 학교 퇴장 정지 수정 (프리릴리스)",
+      "affected_by": [
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before": "fc8ba18b02b2f63b5411ca467cb0c6da16932c63be4117d54c9fa558ab6e29e5",
+      "body_sha256_after": "01554c18276a4fe11c63796efe53511981f5c186908157fd79f394dfdd0c8bc7",
+      "backup": "analysis/github_release_body_backup/v0.9.9_before.md",
+      "updated_at": "2026-09-26T13:41:16Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true,
+        "tag_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.24",
+      "release_id": 396837806,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.24",
+      "name": "록맨 에그제 2 한글패치 V0.9.24 — 게시판·남은 일본어 한글화, 정지 수정 (프리릴리스)",
+      "affected_by": [
+        "buster"
+      ],
+      "body_sha256_before": "6f71e9dde94158037142434a8b0e666aefa80d9d7b02ed2d46c4100b5403ea85",
+      "body_sha256_after": "addf6758c28c24739859b853fc1f7ebabf1eb9d107641b590f07bcb9191f01e8",
+      "backup": "analysis/github_release_body_backup/v0.9.24_before.md",
+      "updated_at": "2026-09-26T13:41:17Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true,
+        "tag_unchanged": true
+      }
+    }
+  ],
+  "evidence": {
+    "school": "V0.9.9 노트와 HANDOFF [runtime-fix][V0.9.9]: V0.9.4~V0.9.8 학교 퇴장 블랙아웃",
+    "tutorial": "공개판 ROM(xdelta 영수증 target SHA로 식별) 6개 모두 00/352#8 의 22칸 줄 \"3장이 늘어난 건 3장을 버렸기 때문에、\" 포함, V0.9.24 는 21칸",
+    "heal": "V0.9.4~V0.9.8 은 00/128 LZ77 압축본(0x8BE938, sha256 93aa8040...)을 풀면, V0.9.9 는 ROM 원문에서 \"지금은 제가/회복해 드리겠습니다./.../록맨의 HP가/MAX가 되었다!!\" 한 페이지 4줄. V0.9.24 는 3줄",
+    "buster": "공개판 ROM 7개 모두 공용 UI 표 45/47/49번에 F9 04 00 F9 (원본 F9 04 00 61)"
+  },
+  "deleted": false,
+  "assets_modified": false
+}
