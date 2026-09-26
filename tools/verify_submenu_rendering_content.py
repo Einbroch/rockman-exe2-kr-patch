@@ -3,10 +3,86 @@ import argparse
 import hashlib
 import json
 import re
+import shutil
 import struct
+import subprocess
+import tempfile
 from pathlib import Path
-from static_submenu_tables import (_read_table, FORWARD, DESC_RELOC, UI_TABLE, UI_RELOC,
+from static_submenu_tables import (_read_table, FORWARD, DESC_TABLE, DESC_RELOC, UI_TABLE, UI_RELOC,
                                    NAME_TABLE, NAME_RELOC, SECOND_NAME_TABLE, SECOND_NAME_RELOC)
+
+ROOT = Path(__file__).resolve().parents[1]
+TEXTPET_EXE = ROOT / 'external' / 'TextPet-v1.0.0' / 'TextPet.exe'
+PLUGINS_DIR = (ROOT / 'external' / 'TextPet-plugins-6c6d705' / 'TextPet-6c6d70561290b42d8261f6d76b03051d534c7032'
+               / 'TextPet' / 'plugins')
+TABLES = (('pet_submenu_ui', UI_TABLE, UI_RELOC), ('chip_descriptions', DESC_TABLE, DESC_RELOC),
+          ('chip_names', NAME_TABLE, NAME_RELOC), ('chip_names_2', SECOND_NAME_TABLE, SECOND_NAME_RELOC))
+
+
+def skeleton(tpl_body):
+    """A TPL script's commands and parameters, its text literals removed."""
+    body = re.sub(r'(?ms)^\t"""\n.*?^\t"""\n', '', tpl_body)
+    body = re.sub(r'(?m)^\t".*"\n', '', body)
+    return [line.strip() for line in body.splitlines() if line.strip()]
+
+
+def textpet_scripts(archives):
+    """Each binary archive as TextPet reads it: {name: {script: skeleton}}.
+
+    TextPet parses the script commands by its own database, not by the
+    tokenizer that built the translation. Hangul F9 FC escapes are added to
+    its table from EUC-KR so they read back as text.
+    """
+    with tempfile.TemporaryDirectory(prefix='tmp-exe2-ui-skeleton-') as temp:
+        temp = Path(temp)
+        plugins, source, output = temp / 'plugins', temp / 'bin', temp / 'tpl'
+        shutil.copytree(PLUGINS_DIR, plugins)
+        source.mkdir()
+        output.mkdir()
+        table = plugins / 'exe2-utf8.tbl'
+        hangul = [f'F9FC{code & 0xFF:02X}{code >> 8:02X}=' + bytes((0xB0+code//94, 0xA1+code%94)).decode('euc_kr')
+                  for code in range(2350)]
+        table.write_text(table.read_text(encoding='utf-8-sig').rstrip() + '\n' + '\n'.join(hangul) + '\n',
+                         encoding='utf-8')
+        for name, raw in archives.items():
+            (source / f'{name}.msg').write_bytes(raw)
+        run = subprocess.run([str(TEXTPET_EXE), 'silent', 'load-plugins', str(plugins) + '\\', 'game', 'exe2',
+                              'read-text-archives', str(source) + '\\', '-f', 'bin',
+                              'write-text-archives', str(output) + '\\', '-f', 'tpl'],
+                             capture_output=True, text=True, encoding='utf-8')
+        assert run.returncode == 0 and 'Done.' in run.stdout, run.stdout[-500:] + run.stderr[-500:]
+        scripts = {}
+        for name in archives:
+            text = (output / f'{name}.tpl').read_text(encoding='utf-8-sig')
+            scripts[name] = {int(m.group(1)): skeleton(m.group(2))
+                             for m in re.finditer(r'(?ms)^script (\d+) \w+ \{\n(.*?)^\}', text)}
+        return scripts
+
+
+def verify_command_skeletons(source, candidate):
+    """Every translated script runs the commands its source runs, byte for byte.
+
+    Phrase replacement once rewrote printItemAmount's item byte (0x61 reads
+    as "D"); the next bytes then parsed as a save command jumping to an
+    unrelated script, and the status screen froze. Empty slots stay empty:
+    a caller of one runs the next script, as in the source.
+    """
+    archives, report = {}, {}
+    for name, old, new in TABLES:
+        before, after = _read_table(source, old)[1], _read_table(candidate, new)[1]
+        assert len(before) == len(after), name
+        empty = [i for i, (a, b) in enumerate(zip(before, after)) if (not a) != (not b)]
+        assert not empty, (name, 'empty slots changed', empty[:10])
+        archives[name + '_source'] = _read_table(source, old)[2]
+        archives[name + '_candidate'] = _read_table(candidate, new)[2]
+    scripts = textpet_scripts(archives)
+    for name, _, _ in TABLES:
+        before, after = scripts[name + '_source'], scripts[name + '_candidate']
+        assert before, name
+        changed = sorted(i for i in set(before) | set(after) if before.get(i) != after.get(i))
+        assert not changed, (name, 'commands changed in scripts', changed[:10])
+        report[name] = {'scripts': len(before), 'commands_changed': 0}
+    return report
 
 
 def decode_names(candidate, base):
@@ -84,7 +160,9 @@ def verify(source, candidate):
         expected_label.extend(b'\xf9\xfc'+struct.pack('<H',(a-0xB0)*94+b-0xA1))
     assert after[65] == bytes(expected_label)+b'\xE7', 'Save label must fit eight complete Hangul syllables'
     chip_names = verify_chip_names(source, candidate)
+    command_skeletons = verify_command_skeletons(source, candidate)
     return {'status':'PASS (bench)', 'description_count':len(decoded), 'chip_names':chip_names,
+            'command_skeletons':command_skeletons,
             'japanese_description_bodies':0, 'overflowing_descriptions':0,
             'panel_columns':10, 'panel_rows':3, 'numeric_control_parameters_preserved':True,
             'save_label':'데이터라이브러리','save_label_cells':8,

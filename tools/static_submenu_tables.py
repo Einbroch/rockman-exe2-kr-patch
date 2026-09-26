@@ -31,6 +31,7 @@ DESC_RELOC = 0x930000
 UI_RELOC = 0x940000
 HANGUL_ESCAPE = bytes((0xF9, 0xFC))
 TABLE_PATH = Path(__file__).resolve().parents[1] / "external" / "TextPet-plugins-6c6d705" / "TextPet-6c6d70561290b42d8261f6d76b03051d534c7032" / "TextPet" / "plugins" / "exe2-utf8.tbl"
+COMMAND_DB_PATH = TABLE_PATH.with_name("mmbn2.ini")
 
 
 def sha256(data: bytes) -> str:
@@ -110,6 +111,94 @@ def encode_native(text: str) -> bytes:
             continue
         pos += 1
     return bytes(out)
+
+
+def _command_database() -> list[tuple[bytes, bytes, str, bool]]:
+    """(base, mask, name, ends) of every mmbn2 script command TextPet knows."""
+    commands = []
+    for block in re.split(r"(?m)^\[", COMMAND_DB_PATH.read_text(encoding="utf-8-sig")):
+        header, _, body = block.partition("]")
+        if header not in ("Command", "Extension"):
+            continue
+        fields = dict(re.findall(r"(?m)^(\w+) *= *(.*?) *$", body))
+        mask = bytes.fromhex(fields["mask"])
+        base = bytes.fromhex(fields["base"]).ljust(len(mask), b"\0")
+        commands.append((base, mask, fields["name"], fields.get("ends") == "always"))
+    return commands
+
+
+COMMANDS = _command_database()
+# In these short label-renderer strings E9 is a three-byte number field, not
+# the script engine's clearMsg.
+NUMERIC_ROWS = frozenset({2, 3, 8, 31, 32, 68, 69, 70, 71, 72, 80, 105, 106})
+
+
+def command_length(data: bytes, pos: int) -> tuple[int, bool]:
+    """Byte length of the script command at pos, and whether it ends the script.
+
+    The most specific mask wins; select carries its own length in its second
+    byte (targets + 3).
+    """
+    matches = []
+    for base, mask, name, ends in COMMANDS:
+        if pos + len(mask) > len(data):
+            continue
+        if any(data[pos + i] & bits != base[i] & bits for i, bits in enumerate(mask)):
+            continue
+        length = len(mask)
+        if name == "select":
+            length = data[pos + 1]
+            if length < 3 or length & 0x10:
+                raise ValueError(f"unsupported select length 0x{length:02X}")
+        matches.append((sum(bin(bits).count("1") for bits in mask), length, ends))
+    if not matches:
+        raise ValueError(f"no script command matches {data[pos:pos + 4].hex(' ')}")
+    best = max(match[0] for match in matches)
+    kinds = {(length, ends) for bits, length, ends in matches if bits == best}
+    if len(kinds) != 1:
+        raise ValueError(f"ambiguous script command {data[pos:pos + 4].hex(' ')}")
+    length, ends = kinds.pop()
+    if pos + length > len(data):
+        raise ValueError(f"script command {data[pos:pos + 4].hex(' ')} runs past its string")
+    return length, ends
+
+
+def ui_tokens(entry: bytes, numeric: bool = False) -> list[tuple[str, bytes]]:
+    """Split a UI string into ("text", bytes) runs and whole ("command", bytes).
+
+    Command parameters are plain bytes, and many decode as kana or digits:
+    printItemAmount's item 0x61 reads as "D". Phrase replacement may only
+    ever see the text runs.
+    """
+    tokens: list[tuple[str, bytes]] = []
+    pos = start = 0
+    while pos < len(entry):
+        byte = entry[pos]
+        if entry.startswith(HANGUL_ESCAPE, pos):
+            pos += 4
+            continue
+        if byte in (0xE5, 0xE6):
+            pos += 2
+            continue
+        if byte < 0xE7 or byte == 0xE8:
+            pos += 1
+            continue
+        if start < pos:
+            tokens.append(("text", entry[start:pos]))
+        length, ends = (3, False) if numeric and byte == 0xE9 else command_length(entry, pos)
+        tokens.append(("command", entry[pos:pos + length]))
+        pos = start = pos + length
+        if ends and pos < len(entry):
+            # Past a script end nothing runs; keep whatever is there as is.
+            tokens.append(("command", entry[pos:]))
+            pos = start = len(entry)
+    if start < pos:
+        tokens.append(("text", entry[start:pos]))
+    return tokens
+
+
+def ui_commands(entry: bytes, numeric: bool = False) -> list[bytes]:
+    return [chunk for kind, chunk in ui_tokens(entry, numeric) if kind == "command"]
 
 
 # Korean chip terminology already used by the authored archive translations is
@@ -257,7 +346,7 @@ UI_REPLACEMENTS = {
     "あたらしいメールが きてるみたいだね": "새 메일이 왔나 봐", "どのメールを よむの?": "어떤 메일을 읽을까?", "だれからも きてないよ・・・": "온 메일이 없어…",
     "アタラシイ メールガ キテイマス": "새 메일이 왔습니다", "ドノ メールヲ ヨミマスカ?": "어떤 메일을 읽을까요?", "メールハ キテイマセン・・・": "메일이 오지 않았습니다…",
     "ステータス": "상태", "どのキノウを きょうかするの?": "어떤 기능을 강화할까?", "ノーマルスタイル": "노멀 스타일", "もどしたよ!": "로 돌아왔어!",
-    "ロックバスター": "록버스터", "攻撃力をUPさせる?": "공격력을 올릴까?", "連射力をUPさせる?": "연사력을 올릴까?", "チャージ力をUPさせる?": "차지력을 올릴까?",
+    "ロックバスター": "록버스터", "ロックバスターの": "록버스터의 ", "攻撃力をUPさせる?": "공격력을 올릴까?", "連射力をUPさせる?": "연사력을 올릴까?", "チャージ力をUPさせる?": "차지력을 올릴까?",
     "攻撃力がUPしたよ!": "공격력이 올랐어!", "連射力がUPしたよ!": "연사력이 올랐어!", "チャージ力がUPしたよ!": "차지력이 올랐어!",
     "そこはそれいじょう きょうかできないよ": "더 이상 강화할 수 없어", "バスターアップを もってないよ・・・": "버스터 업이 없어…", "スタイルを もってないよ・・・": "스타일이 없어…",
     "どのスタイルにするの?": "어떤 스타일로 할까?", "やめる": "취소", "はい": "예", "いいえ": "아니요",
@@ -280,7 +369,7 @@ UI_REPLACEMENTS = {
     "5枚までしか": "5장까지", "8枚までしか": "8장까지", "レギュラーチップにできないよ": "레귤러 칩으로 만들 수 없어",
     "いまのスタイルでは": "지금 스타일은", "スタイルのまま": "스타일인 채로", "フォルダへんしゅうがめんで": "폴더 편집 화면에서", "5枚いかにしてね!": "5장 이하로 해!",
     "これがボクの": "이게 내", "ノーマルスタイルに": "노멀 스타일로", "を そうびしたよ!": "을 장착했어!",
-    "バスターUP のこり": "버스터 UP 남은 횟수", "Dコ": "개", "のこり": "남은", "つかうよ?": "을 사용할까?", "つかってるよ?": "을 사용 중이야?",
+    "バスターUP のこり": "남은 버스터 UP", "コ)": "개)", "のこり": "남은", "つかうよ?": "을 사용할까?", "つかってるよ?": "을 사용 중이야?",
     "ロックマンのHPが": "록맨의 HP가", "よし ": "좋아, ", "ともだちと": "친구와", "友だちと": "친구와", "まだ": "아직",
     "ともだちの方も": "친구도", "をえらんでるよ?": "을 선택했어?", "ふたりともが えらんじゃダメだよ": "둘 다 선택하면 안 돼",
     "どのスタイルを こうかんする?": "어떤 스타일을 교환할까?", "セーブシマスカ?": "저장할까요?", "ココマデノカツヤクヲ": "여기까지의 기록을",
@@ -293,23 +382,45 @@ UI_REPLACEMENTS = {
 }
 
 
+# Whole text runs whose phrase-by-phrase result gets a particle wrong. A run
+# right after a printed name or number drops its particle: the last syllable
+# it would attach to is not known here.
+UI_RUNS = {
+    "を\nそうびしました": "\n장착했습니다",
+    "ナビチップが おおすぎるよ!\nへんしゅうがめんで こうかんして!": "내비 칩이 너무 많아!\n편집 화면에서 교환해!",
+    "レギュラーようりょうが たりないから\nレギュラーチップにできないよ": "레귤러 용량이 부족해서\n레귤러 칩으로 만들 수 없어",
+    "これがボクのステータスだよ": "이게 내 상태야",
+    "ノーマルスタイルに もどしたよ!": "노멀 스타일로 돌아왔어!",
+    "を そうびしたよ!": " 장착했어!",
+    "いちど ブラザースタイルのまま\nフォルダへんしゅうがめんで\nナビチップを 5枚いかにしてね!": "일단 브라더 스타일인 채로\n폴더 편집 화면에서\n내비 칩을 5장 이하로 줄여 줘!",
+    "」を つかうよ?\n": "」 사용할까?\n",
+    "」は つかってるよ?": "」\n이미 사용 중이야!",
+    "ともだちの方はまだ\nトレードに出すチップを\nえらんでるところだね・・・": "친구 쪽은 아직\n교환할 칩을\n고르는 중이야…",
+    "ともだちの方はまだ\nトレードに出すスタイルを\nえらんでるところだね・・・": "친구 쪽은 아직\n교환할 스타일을\n고르는 중이야…",
+    "ともだちの方も「なし」をえらんでるよ?\nふたりともが えらんじゃダメだよ": "친구도 「없음」을 골랐어?\n둘 다 고르면 안 돼",
+}
+
+
 def translate_ui(text: str) -> str:
+    if text in UI_RUNS:
+        return UI_RUNS[text]
     for source in sorted(UI_REPLACEMENTS, key=len, reverse=True):
         text = text.replace(source, UI_REPLACEMENTS[source])
     # A few native shorthand fragments are only present in dynamic menu rows.
-    extra = {"おなじチップは": "같은 칩은", "までしか": "까지", "入れられないよ": "넣을 수 없어", "ぜんぶで": "전부", "枚になってないよ!": "장이 아니야!", "おなじ": "같은", "きてる": "왔어", "みたいだね": "것 같아", "よむ": "읽기", "きてない": "오지 않았어", "きょうか": "강화", "おく": "놓기", "せんようチップ": "전용 칩"}
+    extra = {"おなじチップは": "같은 칩은", "までしか": "까지", "入れられないよ": "넣을 수 없어", "ぜんぶで": "전부 ", "枚になってないよ!": "장이 아니야!", "おなじ": "같은", "きてる": "왔어", "みたいだね": "것 같아", "よむ": "읽기", "きてない": "오지 않았어", "きょうか": "강화", "おく": "놓기", "せんようチップ": "전용 칩"}
     for source in sorted(extra, key=len, reverse=True):
         text = text.replace(source, extra[source])
-    # These katakana are parameters of the original control protocol (speaker
-    # portrait, option row, and dynamic item fields), not rendered prose.  They
-    # must remain native bytes so the menu engine keeps its original behavior.
-    visible_japanese = set(re.findall(r"[\u3040-\u30ff\u3400-\u9fff]", text)) - set("ザヴキカアネニヨルイオフダソタチビブベボヤリコ")
-    if visible_japanese:
+    # Only text runs reach here (see ui_tokens), so any kana left is prose.
+    if re.search(r"[\u3040-\u30ff\u3400-\u9fff]", text):
         raise ValueError(f"untranslated Japanese static UI text: {text!r}")
     return text
 
 
 def translate_ui_entry(index: int, entry: bytes) -> bytes:
+    if not entry:
+        # An empty slot shares its offset with the next script, so a caller
+        # of this index runs that script. It stays empty.
+        return entry
     if index == 65:
         # Save summary has an eight-cell consumer (0802A3FA), with its next
         # label buffer only 0x200 bytes away. Keep all eight Korean syllables
@@ -318,22 +429,14 @@ def translate_ui_entry(index: int, entry: bytes) -> bytes:
         text='데이터라이브러리'
         assert len(text)==8
         return encode_native(text)+b'\xE7'
-    # In these short renderer strings E9 is a three-byte numeric field, not
-    # the dialogue clear-message opcode. Its width byte can decode as Japanese
-    # punctuation/kana; never subject numeric parameters to phrase replacement.
-    numeric_rows = {2, 3, 8, 31, 32, 68, 69, 70, 71, 72, 80, 105, 106}
-    if index not in numeric_rows:
-        return encode_native(translate_ui(decode_native(entry))) + b'\xE7'
-    pattern = re.compile(b'\xe9[\x00\x01].', re.DOTALL)
-    chunks = []
-    cursor = 0
-    for match in pattern.finditer(entry):
-        chunks.append(encode_native(translate_ui(decode_native(entry[cursor:match.start()]))))
-        chunks.append(match.group())
-        cursor = match.end()
-    chunks.append(encode_native(translate_ui(decode_native(entry[cursor:]))))
-    result = b''.join(chunks) + b'\xE7'
-    assert pattern.findall(result) == pattern.findall(entry)
+    # Translate the text runs only; every command keeps its bytes, and the
+    # string keeps its own terminator rather than gaining one.
+    numeric = index in NUMERIC_ROWS
+    result = b"".join(
+        encode_native(translate_ui(decode_native(chunk))) if kind == "text" else chunk
+        for kind, chunk in ui_tokens(entry, numeric))
+    if ui_commands(result, numeric) != ui_commands(entry, numeric):
+        raise ValueError(f"UI entry {index}: translation changed its commands")
     return result
 
 

@@ -1,0 +1,39 @@
+{
+  "status": "PENDING_RUNTIME_CHECK",
+  "candidate_sha256": "bd9f83ce8b703fd659f6df1f98937759a8889cbc7e5dcd27d6deaf1311eb5ac6",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "0a11071d8e54e4c4e895f8355713ea62963e85b045f7c27a0e5afee17ce7716f",
+  "content_qa_sha256": "07ceee267c1cba267e5efaca0af1cfaa8b5f22b94701f3729bb937c48cd9f718",
+  "runtime_evidence": {
+    "kind": "agent_read_emulator_captures",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "록버스터의 공격력을 올릴까?",
+      "(남은 버스터 UP 3개)",
+      "록버스터의 공격력이 올랐어!",
+      "록버스터의 연사력을 올릴까?",
+      "록버스터의 차지력이 올랐어!"
+    ],
+    "automated_menu_regression_run": false,
+    "note": "Mesen 2 test runner captures read by the AI assistant. The Buster UP count (EWRAM 0x02000EE1) was set to 3, 1 and 0 before opening the status screen; the shipped ROM is this exact candidate, and a save written by the V0.9.24 fault loaded and upgraded normally."
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.25_BusterFix.zip",
+  "package_sha256": "8c0e69e17b6ad776a9ad5d811a4de32d7cc25f82eaafcd213e3895cf4305bf66",
+  "package_size": 932370,
+  "patch_sha256": "218c5c525c82341defccca18c779292d08633e1cf75c5c4570dce5a62f93000d",
+  "patch_size": 391273,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}
