@@ -1,0 +1,36 @@
+{
+  "status": "PENDING_RUNTIME_CHECK",
+  "candidate_sha256": "85100f6b5c7deb94b67890cc0e370cb2fe2ca0ba933173face5fb9ec749a8886",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "aedef53472fc1f2667557b7020e94a54a731a7285eb5421c8d3ee9d41889d57b",
+  "content_qa_sha256": "3ec60dc2745674943880b81aa60fd77704d37ea415ac46b0cbc8d7495b2d4a80",
+  "runtime_evidence": {
+    "kind": "agent_read_emulator_captures",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "사이토 스타일은 / 록맨의 잠재 능력을 / 100% 끌어내는 스타일이다",
+      "즉、 사이토 스타일일 때는 / 모든 스타일의 성능이 / 동시에 발현되고 있는 거다"
+    ],
+    "automated_menu_regression_run": false,
+    "note": "Mesen 2 test runner captures read by the AI assistant. The mail body script 35 was drawn in the field dialogue box of a test-only copy of this ROM (a decompressed copy of the mail body archive placed in free ROM and opened through the dialogue start routine 0x08020B60; not shipped). The mail screen itself and the mail list row were checked by decoding the built archives, not on screen."
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.27_Saito.zip",
+  "package_sha256": "b73dd99484e661193840bf033841626bb205ac2eacfc852c0839246a361d8457",
+  "package_size": 930840,
+  "patch_sha256": "b2cc5d35e22846fe3a9baeec6d60490d8eeba894953202499184aa3a34fd7668",
+  "patch_size": 391521,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

@@ -1,5 +1,17 @@
 # Handoff
 
+## [2026-09-27] [term-fix] [V0.9.27]
+
+- 사용자 요청: "사이트 스타일" 표기를 "사이토 스타일"로(サイトスタイル, 히카리 사이토 유래 — 용어집 423행). 틀린 곳은 이메일뿐이었다. 목록 `00/mail#35` 제목 1곳, 본문 `00/mailbody#35` 3곳이다. 각각 `_authored.json` 과 배치 파일(0078/0079)에 한 벌씩 있어 둘 다 바이트 치환했다(개수 단언).
+- 스타일 이름표 `00/359#153`, `u0/0734B2C#14·16` 은 이미 "사이토 스타일"이었다. 남은 "사이트" 표기는 옛 릴리스 문서(`tools/release_doc_v0918.md`)의 기록뿐이다.
+- 결과: `poc/output/exe2_rev1_kr_v0_9_27_saito.gba`, SHA-256 `85100f6b5c7deb94b67890cc0e370cb2fe2ca0ba933173face5fb9ec749a8886`. 정적·내용 QA `PASS (bench)`, 띄어쓰기 감사 PASS.
+- v0.9.26 대비 바뀐 엔트리는 2개다. TextPet 으로 풀어 보면 명령 골격이 같고, 글자 차이는 "사이트→사이토" 네 곳뿐이다.
+- 런타임(Mesen): 시험 사본의 빈 영역에 압축 푼 이메일 본문 아카이브를 두고, `make_dialog_probe.py` 스텁으로 본문 35번을 대화창에 띄워 확인했다(`analysis/exe2_rev1_kr_v0_9_27_saito_mailbody.png`). 이메일 화면 자체와 목록 행은 화면으로 보지 않았다.
+- 배포 파일(로컬):
+  - `dist/EXE2_Rev1_KR_V0.9.27_Saito.zip`: 930,840 B, `b73dd994...`
+  - `dist/EXE2_Rev1_KR_V0.9.27_Saito.xdelta`: 408,779 B, `5e8924da...`
+- 사용자 요청("릴리즈 해주고 github에도 올려줘")으로 v0.9.27 프리릴리스로 게시한다. 노트 원본: `analysis/github_release_v0927_notes.md`.
+
 ## [2026-09-27] [github-publication] [v0.9.26]
 
 - V0.9.26 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.26 (release ID 397453065). 태그 `v0.9.26` 는 커밋 `01d1df125ccde1b556b0eeb5fc20e0fdb1d70e2a` 이고 소스 변경도 같은 커밋으로 main 에 푸시했다.
