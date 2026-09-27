@@ -1626,6 +1626,49 @@ def main() -> None:
             archive_reports.append(archive_report)
             placement = end
 
+    # The loader no longer unpacks anything, so an archive its tables name but
+    # the catalogue does not hold must also be readable where it lies. Each is
+    # named by one table slot and nowhere else; identical ones share one copy.
+    loader_raw_copies: dict[bytes, int] = {}
+    loader_only = dialogue_rom.uncatalogued_targets(
+        source, {int(meta["archive_offset"]) for meta in archives.values()})
+    for target, slots in sorted(loader_only.items()):
+        unpacked, _ = decompress(source, target)
+        archive_offsets(unpacked)
+        target_pointer = struct.pack("<I", ROM_BASE + target)
+        elsewhere = [pos for pos in range(0, len(source) - 3, 4)
+                     if source[pos:pos + 4] == target_pointer and pos not in slots]
+        if elsewhere:
+            raise ValueError(f"loader-only archive 0x{target:X} is also named at {elsewhere}")
+        if unpacked not in loader_raw_copies:
+            placement = (placement + 3) & ~3
+            end = placement + len(unpacked)
+            if end > OUTPUT_SIZE:
+                raise ValueError("loader-only archives exceed the expanded ROM")
+            if any(value != 0xFF for value in clean_base[placement:end]):
+                raise ValueError("loader-only archive target is not clean expanded-ROM fill")
+            output[placement:end] = unpacked
+            loader_raw_copies[unpacked] = placement
+            expected_writes.append({
+                "kind": "relocated_archive",
+                "selector": f"loader-only/{target:07X}",
+                "rom_offset": placement,
+                "byte_length": len(unpacked),
+                "sha256": sha256(unpacked),
+                "storage": "raw",
+            })
+            placement = end
+        replacement_pointer = struct.pack("<I", ROM_BASE + loader_raw_copies[unpacked])
+        for slot in slots:
+            output[slot:slot + 4] = replacement_pointer
+            expected_writes.append({
+                "kind": "archive_pointer",
+                "selector": f"loader-only/{target:07X}",
+                "rom_offset": slot,
+                "expected_source_hex": target_pointer.hex(" "),
+                "replacement_hex": replacement_pointer.hex(" "),
+            })
+
     font_start = EXE1_FONT_BASE + HANGUL_BASE_INDEX * FONT_RECORD_BYTES
     font_end = font_start + KS_X_1001_HANGUL_COUNT * FONT_RECORD_BYTES
     master_font = exe1[font_start:font_end]

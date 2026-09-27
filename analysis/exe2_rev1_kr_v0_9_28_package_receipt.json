@@ -1,0 +1,37 @@
+{
+  "status": "PENDING_RUNTIME_CHECK",
+  "candidate_sha256": "3a6ce2d06f4e8e03b080aba25d790bb9d81354e2f4f8ab4f759641a2bba2da1f",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "cc931942132a93abf84f8622fe763b155318bdb78203e9f93c0f89561054cf0e",
+  "content_qa_sha256": "f0519c56dbec8b3cf47589315e88dfdaf2734e6b974e1d50e81be409127399b3",
+  "runtime_evidence": {
+    "kind": "agent_read_emulator_captures",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "일본의 두뇌、 마더 컴퓨터를 / 제어하는 패널이다.",
+      "유지 보수용으로 플러그인할 수 있다.",
+      "꽤나 버거운 상대야!!"
+    ],
+    "automated_menu_regression_run": false,
+    "note": "Mesen 2 test runner captures read by the AI assistant. In test-only copies of V0.9.27 and of this ROM (a stub, not shipped, calls the dialogue start routine 0x08020B60), the archive named by the map table slot 0x228C8 (Mother Computer room, 00/17) was opened: V0.9.27 showed nothing, this ROM showed scripts 224 and 11. Plug-in and the room's events were not played through; the save that exposed the fault is the user's."
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.28_MotherComputer.zip",
+  "package_sha256": "3d7cfcdb6c3e4c4ff32aff0514f154ab90d8fb93e813ad6c795e046f612a821c",
+  "package_size": 928702,
+  "patch_sha256": "d522f5367826066ac10c92b0569423011c2a27797a3c9fbb7df744f833bdfddf",
+  "patch_size": 388509,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

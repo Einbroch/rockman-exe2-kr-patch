@@ -46,47 +46,90 @@ RESOLVE_ARCHIVE = 0x20AB0
 
 READER_TRAMPOLINE = 0x00830440
 
-# 151 through the three area tables, plus the opening area's direct literal.
+# The area tables and every sub-table they name lie in one list that ends
+# where the three tables of the other lookup (0x20B18, raw archives read in
+# place, no unpacking) begin.
+LOADER_TABLE_END = 0x22B10
+ARCHIVE_POINTER_RANGE = range(ROM_BASE + 0x00700000, ROM_BASE + 0x00800000)
+
+# 157 through the three area tables, plus the opening area's direct literal.
 # (0x074B590, Yaito's house, sits in the table at 0x0228A8 but was missing
-# from the catalogue until the pointer scan recovered it.)
-EXPECTED_ARCHIVE_COUNT = 152
+# from the catalogue until the pointer scan recovered it.) Until V0.9.27 the
+# walk stopped at the first zero slot and read at most 64 slots per table, so
+# the Mother Computer room (00/17, right after a zero) and 00/157-00/161 (past
+# the window) stayed compressed while the loader no longer unpacked them: their
+# scripts were read out of LZ77 bytes, and NPCs and plug-in points did nothing.
+EXPECTED_ARCHIVE_COUNT = 158
+# Five more slots name an archive the catalogue does not hold: one empty
+# 254-entry archive, stored compressed five times. They need a raw copy too.
+EXPECTED_UNCATALOGUED_TARGETS = 5
+
+
+def loader_targets(rom: bytes) -> dict[int, list[int]]:
+    """Every archive the map dialogue loader can resolve, with the slots naming it.
+
+    Walks area tables to sub-tables to archives. A zero slot is an area or sub
+    area without dialogue and is skipped, not an end; a table runs until a slot
+    holds something other than zero, a table pointer or an archive pointer, and
+    never past LOADER_TABLE_END.
+    """
+    def u32(position: int) -> int:
+        return struct.unpack_from("<I", rom, position)[0]
+
+    sub_tables: set[int] = set()
+    for table in DIALOGUE_TABLES:
+        position = table
+        while position < LOADER_TABLE_END:
+            value = u32(position)
+            if ROM_BASE + TABLE_REGION.start <= value < ROM_BASE + LOADER_TABLE_END:
+                sub_tables.add(value - ROM_BASE)
+            elif value and value not in ARCHIVE_POINTER_RANGE:
+                break
+            position += 4
+    targets: dict[int, list[int]] = {}
+    for table in sorted(sub_tables):
+        position = table
+        while position < LOADER_TABLE_END:
+            value = u32(position)
+            if value in ARCHIVE_POINTER_RANGE:
+                targets.setdefault(value - ROM_BASE, []).append(position)
+            elif value and not ROM_BASE + TABLE_REGION.start <= value < ROM_BASE + TABLE_REGION.stop:
+                break
+            position += 4
+    for slots in targets.values():
+        slots[:] = sorted(set(slots))
+    return targets
 
 
 def reachable(rom: bytes, known_archive_offsets: set[int]) -> set[int]:
-    """Every archive the map dialogue loader can resolve, walked from the tables.
+    """Every catalogued archive the map dialogue loader can resolve.
 
-    Self-validating: every pointer the walk accepts has to be an archive the
-    build already knows about, and the count is pinned, so a wrong walk is a
-    build failure rather than a silently short list.
+    Self-validating: the catalogued count and the count of targets outside the
+    catalogue are both pinned, so a wrong walk is a build failure rather than a
+    silently short list.
     """
-    found: set[int] = set()
     direct = struct.unpack_from("<I", rom, DIRECT_ARCHIVE_LITERAL)[0] - ROM_BASE
     if direct not in known_archive_offsets:
         raise ValueError("the loader's direct archive literal is not a known archive")
-    found.add(direct)
-    pending, visited = list(DIALOGUE_TABLES), set()
-    while pending:
-        table = pending.pop(0)
-        if table in visited:
-            continue
-        visited.add(table)
-        for index in range(64):
-            entry = table + index * 4
-            if entry + 4 > len(rom):
-                break
-            value = struct.unpack_from("<I", rom, entry)[0]
-            if not ROM_BASE <= value < ROM_BASE + 0x00800000:
-                break
-            offset = value - ROM_BASE
-            if offset in known_archive_offsets:
-                found.add(offset)
-            elif offset in TABLE_REGION:
-                pending.append(offset)
+    targets = loader_targets(rom)
+    found = {offset for offset in targets if offset in known_archive_offsets} | {direct}
     if len(found) != EXPECTED_ARCHIVE_COUNT:
         raise ValueError(
             f"map dialogue loader resolves {len(found)} archives, expected {EXPECTED_ARCHIVE_COUNT}"
         )
+    outside = [offset for offset in targets if offset not in known_archive_offsets]
+    if len(outside) != EXPECTED_UNCATALOGUED_TARGETS:
+        raise ValueError(
+            f"map dialogue loader names {len(outside)} archives outside the catalogue, "
+            f"expected {EXPECTED_UNCATALOGUED_TARGETS}"
+        )
     return found
+
+
+def uncatalogued_targets(rom: bytes, known_archive_offsets: set[int]) -> dict[int, list[int]]:
+    """Loader targets the catalogue does not hold, with their table slots."""
+    return {offset: slots for offset, slots in loader_targets(rom).items()
+            if offset not in known_archive_offsets}
 
 
 def _stub(offset: int, destination: int, register: int) -> bytes:

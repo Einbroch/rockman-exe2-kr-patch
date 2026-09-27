@@ -81,6 +81,33 @@ def verify_final_write_plan(source: bytes, candidate: bytes, writes: list[dict])
         raise ValueError("unexplained final tail")
 
 
+# The map dialogue loader (0x20AD0) no longer unpacks anything: the reader gets
+# whatever its tables name. So every archive pointer in that table span has to
+# lead to an archive readable in place. Checked slot by slot, without the
+# builder's table walk, which once stopped at a zero slot and left the Mother
+# Computer room compressed.
+LOADER_TABLE_SPAN = range(0x22804, 0x22B10, 4)
+LOADER_DIRECT_LITERAL = 0x20B04
+
+
+def verify_loader_archives_raw(candidate: bytes) -> int:
+    checked = 0
+    for slot in [*LOADER_TABLE_SPAN, LOADER_DIRECT_LITERAL]:
+        value = struct.unpack_from("<I", candidate, slot)[0]
+        if not 0x08700000 <= value < 0x08000000 + len(candidate):
+            continue
+        offset = value - 0x08000000
+        size = struct.unpack_from("<H", candidate, offset)[0]
+        values = ([struct.unpack_from("<H", candidate, offset + i)[0] for i in range(0, size, 2)]
+                  if 4 <= size and size % 2 == 0 and offset + size <= len(candidate) else [])
+        if (not values or any(a > b for a, b in zip(values, values[1:]))
+                or offset + values[-1] > len(candidate)):
+            raise ValueError(f"map dialogue slot 0x{slot:X} names 0x{value:08X}, "
+                             "which is not an archive readable in place")
+        checked += 1
+    return checked
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source-rom", type=Path, required=True)
@@ -293,6 +320,7 @@ def main() -> None:
             interval_index += 1
         if interval_index >= len(intervals) or not intervals[interval_index][0] <= offset < intervals[interval_index][1]:
             raise ValueError(f"unexplained final difference at ROM 0x{offset:X}")
+    loader_archive_count = verify_loader_archives_raw(candidate)
 
     report = {
         "schema_version": 1,
@@ -311,6 +339,7 @@ def main() -> None:
             "raw_physical_continuation_count": physical_continuation_count,
             "raw_physical_continuations_verified": True,
             "relocated_pointer_count": pointer_count,
+            "map_dialogue_loader_slots_readable_in_place": loader_archive_count,
             "font_record_count": int(font["record_count"]),
             "font_payload_hash": True,
             "thumb_instruction_boundaries": True,
