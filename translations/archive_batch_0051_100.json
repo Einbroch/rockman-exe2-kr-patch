@@ -1145,7 +1145,7 @@
       "source_entry_raw_hex": "ed 00 07 f1 00 99 81 00 e5 93 e5 94 81 ea 01 1e 00 00 0b 1a 16 00 b7 a8 e8 b6 9b a9 e5 05 9b 00 c4 a5 c2 ab 9f a9 e5 03 e5 02 a8 b8 a8 9a 81 eb e9 f5 00 16",
       "source_tpl_block_sha256": "5f5e3dec185aa8f87045929534df340e58766a43a565ab7355979c020b835fc5",
       "source_text_transcription": "あ! 熱斗! // アタシ また / ほうちょう わすれてきちゃったみたい!",
-      "draft_translation": "아! 넷토![waitSkip 30] / 나 또 칼을 두고 왔나 봐!",
+      "draft_translation": "아! 넷토![waitSkip 30] 나 또 / 칼을 두고 왔나 봐!",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },

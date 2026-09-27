@@ -1003,7 +1003,7 @@
       "source_entry_raw_hex": "f6 03 3e 01 07 07 ff f3 00 e1 00 09 ff f3 00 e2 00 07 ff f3 00 e3 00 05 ff f3 00 ea 00 03 ff f3 00 e9 00 02 ff ed 00 46 f1 00 36 1a 16 b2 e8 f9 00 3e 00 b1 00 16 13 3a 10 3a d6 a5 eb e9 16 13 3a c7 00 0d a1 ae 00 11 b7 a4 a8 b0 eb e9 16 13 3a b2 00 43 3a 4c d6 00 03 2d 3a d6 a5 e8 12 32 0b a4 a8 bf 85 f9 00 3e 00 c7 00 99 cc b7 a5 e8 d6 b2 00 45 0c 02 2d 3a 81 eb e9 f5 00 01",
       "source_tpl_block_sha256": "145f44ceca92ac4bbbbf7e1a93e6380497e2bde1ffb5ee247c01f7d5d47be4c9",
       "source_text_transcription": "ワタシは\\n // の シケンカンです // シケンを ウけに キましたね // シケンは ゼンブで 2モンです / クリアしたら、 // を あげます / では ダイ1モン!",
-      "draft_translation": "저는 [printItem item=62] / 시험관입니다. // 시험을 받으러 왔군요. // 시험은 모두 2문제입니다. / 클리어 보상은 / [printItem item=62]입니다. / 그럼 제1문!",
+      "draft_translation": "저는 [printItem item=62] / 시험관입니다. // 시험을 받으러 왔군요. // 시험은 모두 2문제입니다. / 클리어 보상은 [printItem item=62]입니다. / 그럼 제1문!",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },
@@ -1171,7 +1171,7 @@
       "source_entry_raw_hex": "f6 03 3f 01 07 07 ff f3 00 eb 00 09 ff f3 00 ec 00 07 ff f3 00 ed 00 05 ff f3 00 f4 00 03 ff f3 00 f3 00 02 ff ed 00 46 f1 00 36 1a 16 b2 e8 f9 00 3f 00 b1 00 16 13 3a 10 3a d6 a5 eb e9 16 13 3a c7 00 0d a1 ae 00 11 b7 a4 a8 b0 eb e9 16 13 3a b2 00 43 3a 4c d6 00 03 2d 3a d6 a5 e8 12 32 0b a4 a8 bf 85 f9 00 3f 00 c7 00 99 cc b7 a5 e8 d6 b2 00 45 0c 02 2d 3a 81 eb e9 f5 00 01",
       "source_tpl_block_sha256": "5747b2e093c347a1b5da06d3522e0ac73f03cf3d85775e6d724588150f537de0",
       "source_text_transcription": "ワタシは\\n // の シケンカンです // シケンを ウけに キましたね // シケンは ゼンブで 2モンです / クリアしたら、 // を あげます / では ダイ1モン!",
-      "draft_translation": "저는 [printItem item=63] / 시험관입니다. // 시험을 받으러 왔군요. // 시험은 모두 2문제입니다. / 클리어 보상은 / [printItem item=63]입니다. / 그럼 제1문!",
+      "draft_translation": "저는 [printItem item=63] / 시험관입니다. // 시험을 받으러 왔군요. // 시험은 모두 2문제입니다. / 클리어 보상은 [printItem item=63]입니다. / 그럼 제1문!",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },

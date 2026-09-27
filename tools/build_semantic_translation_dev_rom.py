@@ -86,6 +86,16 @@ QUOTE_RE = re.compile(r'(?s)"""(.*?)"""|"([^"\r\n]*)"')
 TOKEN_RE = re.compile(r"\[[A-Za-z]+(?:\s+[^\]]+)?\]|\{[^{}\r\n]+\}|\s+//\s+|\s+/\s+")
 JUMP_TARGET_RE = re.compile(r"\bjump\s+target\s*=\s*(\d+)")
 TRACKED = {"wait", "waitSkip", "printItem", "printChip", "printCode", "textSpeed"}
+# A name, chip code or amount the script prints inside a line of text. The
+# draft's space or line break beside one belongs to the neighbouring literal,
+# which is otherwise trimmed like any other slot.
+PRINT_COMMANDS = ("printItem", "printChip", "printCode", "printItemAmount", "printBuffer")
+PRINT_TAG_PREFIXES = ("[printItem ", "[printChip ", "[printCode ")
+# Commands that can sit between a printed name and its text on one line.
+LINE_INLINE_COMMANDS = {*PRINT_COMMANDS, "wait", "waitSkip", "textSpeed"}
+COMMAND_LINE_RE = re.compile(r"(?m)^\t([A-Za-z][A-Za-z0-9]*)\b")
+# Marks a pause-by-pause ellipsis or exclamation is built from.
+PAUSE_PUNCTUATION = frozenset("・.…!?~〜ー、")
 # Byte forms of a script that ends immediately, reachable through the boundary
 # table's terminal slot: "end", "waitHold" (the latter reserves four bytes), and
 # the bulletin-board bodies' "msgOpenQuick" then "waitHold" - an empty window.
@@ -457,6 +467,47 @@ def render_text_tokens(tokens: list[DraftToken]) -> str:
     return value
 
 
+def is_printed_name(token: DraftToken) -> bool:
+    return token.kind == "dynamic" or (token.kind == "tag" and token.value.startswith(PRINT_TAG_PREFIXES))
+
+
+def inline_sides(segment: str) -> tuple[bool, bool]:
+    """Whether the prints and pauses in a command run share a line with the text before and after them."""
+    names = COMMAND_LINE_RE.findall(segment)
+    marks = [i for i, name in enumerate(names) if name in LINE_INLINE_COMMANDS]
+    if not marks:
+        return False, False
+    # A sound command only plays audio; the text goes on in the same line.
+    def same_line(name: str) -> bool:
+        return name in LINE_INLINE_COMMANDS or name.startswith("sound")
+    return (all(same_line(name) for name in names[:marks[0]]),
+            all(same_line(name) for name in names[marks[-1] + 1:]))
+
+
+def edge_separator(tokens: list[DraftToken], side: str) -> str:
+    """The draft's whitespace at one end of a slot: a line break, a space, or nothing."""
+    raw = "".join(token.value if token.kind == "text" else "\n" if token.kind in {"line", "page"} else ""
+                  for token in tokens)
+    kept = raw.rstrip() if side == "end" else raw.lstrip()
+    edge = raw[len(kept):] if side == "end" else raw[:len(raw) - len(kept)]
+    return "\n" if "\n" in edge else " " if edge else ""
+
+
+def render_slot(tokens: list[DraftToken], name_before: bool, name_after: bool) -> str:
+    """A slot's text, keeping the draft's separator on a side that meets a printed name.
+
+    Trimming a slot is right at a page or a choice, but not beside a name
+    printed in the same line: "정말이네, [item]를" lost its space and
+    "열려면 / [item]가" its line break, gluing the name to the word before.
+    """
+    body = render_text_tokens(tokens)
+    lead = edge_separator(tokens, "start") if name_before else ""
+    tail = edge_separator(tokens, "end") if name_after else ""
+    if not body:
+        return "\n" if "\n" in lead + tail else (" " if lead + tail else "")
+    return lead + body + tail
+
+
 def quote_for_tpl(value: str) -> str:
     if '"""' in value:
         raise ValueError("translation contains an unsupported triple quote")
@@ -464,6 +515,10 @@ def quote_for_tpl(value: str) -> str:
         # TextPet v1.0.0 rejects an empty literal. A blank glyph keeps the
         # immutable command/quote slot valid when a draft merges source slots.
         return '" "'
+    if value.startswith("\n"):
+        # TextPet's heredoc start swallows leading blank LF lines; the layout
+        # quote's CRLF form keeps a line break that follows a printed name.
+        return layout_quote(value)
     lines = value.split("\n")
     if len(lines) == 1 and '"' not in value:
         return f'"{value}"'
@@ -590,7 +645,7 @@ def transform_script(block: str, translation: str, stable_id: str, *, preserve_o
     }
     if unsupported_counts:
         raise ValueError(f"authored tags are not a subset of source controls: {unsupported_counts}")
-    replacements: list[str] = []
+    texts: list[str] = []
     cursor = 0
     boundary_trace: list[dict] = []
 
@@ -603,6 +658,14 @@ def transform_script(block: str, translation: str, stable_id: str, *, preserve_o
         if cursor < len(tokens) and tokens[cursor].kind == "tag" and tokens[cursor].value == expected:
             cursor += 1
             boundary_trace.append({"before_slot": 0, "kind": "tag", "tags": [expected]})
+    # Where a slot meets a name printed in the same line, the draft's
+    # separator on that side is kept (see render_slot); a pause gets one
+    # separator for both sides of it.
+    separator_edges: list[dict] = []
+    pause_edges: list[dict] = []
+    name_before = (cursor > 0 and is_printed_name(tokens[cursor - 1])
+                   and inline_sides(block[:quotes[0].start()])[1])
+    forced_lead = ""
 
     for index in range(len(quotes) - 1):
         between = block[quotes[index].end():quotes[index + 1].start()]
@@ -626,19 +689,62 @@ def transform_script(block: str, translation: str, stable_id: str, *, preserve_o
             end, after = find_dynamic_boundary(tokens, cursor, internal_breaks)
         else:
             end, after = find_boundary(tokens, cursor, kind, tags)
+        inline_before, inline_after = inline_sides(between) if kind in {"tag", "dynamic"} else (False, False)
+        first = tokens[end] if end < len(tokens) and after > end else None
+        last = tokens[after - 1] if after > end else None
+        name_after = inline_before and first is not None and is_printed_name(first)
+        name_next = inline_after and last is not None and is_printed_name(last)
+        # A pause or a speed change prints nothing, so the text either side of
+        # it shares one line: the draft's separator there, a line break if
+        # either side has one, is kept once.
+        pause_separator = ""
+        if (inline_before and inline_after and first is not None and first.kind == "tag"
+                and not is_printed_name(first) and not is_printed_name(last)):
+            following = tokens[after] if after < len(tokens) else None
+            beyond = ("\n" if following is not None and following.kind == "line" else
+                      " " if following is not None and following.kind == "text" and following.value[:1].isspace()
+                      else "")
+            joined = edge_separator(tokens[cursor:end], "end") + beyond
+            pause_separator = "\n" if "\n" in joined else " " if joined else ""
+        # Whether a pause breaks the line is the source's call, as it is for
+        # the layout pass: drafts put a stray "/" after pauses, even between
+        # the dots of an ellipsis. Where the source breaks, break on its side
+        # (the layout pass copies the break there, and a second one on the
+        # other side would open an empty line); where it runs on, a space.
+        lead_next = ""
+        if pause_separator and layout_literal(quotes[index + 1]).startswith("\n"):
+            pause_separator, lead_next = "", "\n"
+        elif pause_separator and layout_literal(quotes[index]).endswith("\n"):
+            pause_separator = "\n"
+        elif pause_separator:
+            pause_separator = " "
         if (
             tags
             and any(token.kind == "tag" for token in tokens[end:after])
             and after < len(tokens)
             and tokens[after].kind in {"line", "page"}
+            # A line break right after a name printed mid-line is the next
+            # slot's own first character, not a boundary to swallow.
+            and not (name_next and tokens[after].kind == "line")
         ):
             after += 1
-        replacement_text = render_text_tokens(tokens[cursor:end])
+        replacement_text = render_slot(tokens[cursor:end], name_before, name_after)
+        if forced_lead and replacement_text.strip() and not replacement_text.startswith("\n"):
+            replacement_text = forced_lead + replacement_text
+            pause_edges.append({"slot": index, "side": "start"})
+        if pause_separator and replacement_text.strip():
+            replacement_text += pause_separator
+            pause_edges.append({"slot": index, "side": "end"})
         if kind == "option":
             replacement_text += option_suffix
-        replacements.append(quote_for_tpl(replacement_text))
+        for side, active in (("start", name_before), ("end", name_after)):
+            if active and edge_separator(tokens[cursor:end], side):
+                separator_edges.append({"slot": index, "side": side})
+        texts.append(replacement_text)
         boundary_trace.append({"after_slot": index, "kind": kind, "tags": tags})
         cursor = after
+        name_before = name_next
+        forced_lead = lead_next
 
     remaining = tokens[cursor:]
     suffix_tags = [tag for _, tag in source_tracked_tags(block[quotes[-1].end():])]
@@ -657,9 +763,44 @@ def transform_script(block: str, translation: str, stable_id: str, *, preserve_o
             # complete source script above; discard only the annotation while
             # retaining the source command at its immutable original position.
             boundary_trace.append({"kind": "unplaced_authored_tag", "tags": [token.value]})
-    replacements.append(quote_for_tpl(render_text_tokens(final_tokens)))
-    if len(replacements) != len(quotes):
+    final_text = render_slot(final_tokens, name_before, False)
+    if forced_lead and final_text.strip() and not final_text.startswith("\n"):
+        final_text = forced_lead + final_text
+        pause_edges.append({"slot": len(quotes) - 1, "side": "start"})
+    if name_before and edge_separator(final_tokens, "start"):
+        separator_edges.append({"slot": len(quotes) - 1, "side": "start"})
+    texts.append(final_text)
+    if len(texts) != len(quotes):
         raise AssertionError("replacement slot count mismatch")
+    # A slot across the pause that holds no text is drawn as one blank glyph,
+    # which already separates the two sides; a second separator would indent
+    # the next line or double the space. A pause that spells out an ellipsis
+    # dot by dot stays tight as in the source ("・・・", not "・ ・ ・"): a
+    # space is kept only between words, a line break always.
+    for edge in pause_edges:
+        neighbour = edge["slot"] + (1 if edge["side"] == "end" else -1)
+        separator = texts[edge["slot"]][-1] if edge["side"] == "end" else texts[edge["slot"]][0]
+        blank = not texts[neighbour].strip()
+        # A stutter keeps its middle dots tight too ("뭐・뭐・뭐라고").
+        dots = separator == " " and (any(PAUSE_PUNCTUATION.issuperset(texts[slot].strip())
+                                         for slot in (edge["slot"], neighbour))
+                                     or texts[edge["slot"]].rstrip().endswith("・")
+                                     or texts[neighbour].lstrip().startswith("・"))
+        if not blank and not dots:
+            separator_edges.append(edge)
+        elif edge["side"] == "end":
+            texts[edge["slot"]] = texts[edge["slot"]][:-1]
+        else:
+            texts[edge["slot"]] = texts[edge["slot"]][1:]
+    # A slot the draft leaves empty takes the source's own whitespace where
+    # that is all the source has there: a lone line break, filled with the
+    # blank glyph instead, gained a line of its own from the layout pass.
+    for slot, match in enumerate(quotes):
+        source_text = layout_literal(match)
+        if not texts[slot] and source_text and not source_text.strip():
+            texts[slot] = source_text
+            separator_edges.append({"slot": slot, "side": "start"})
+    replacements = [quote_for_tpl(text) for text in texts]
 
     pieces: list[str] = []
     source_cursor = 0
@@ -678,6 +819,7 @@ def transform_script(block: str, translation: str, stable_id: str, *, preserve_o
         "text_slot_count": len(quotes),
         "boundaries": boundary_trace,
         "expected_hangul": "".join(HANGUL_RE.findall("".join(replacements))),
+        "separator_edges": separator_edges,
     }
 
 
@@ -1270,11 +1412,18 @@ def main() -> None:
                         if found:
                             window_breaks.append({"entry_id": entry["entry_id"],
                                                   "problems": found})
-                        if detail.get("literal_substitution"):
+                        final_literals = [layout_literal(q) for q in QUOTE_RE.finditer(block)]
+                        for edge in detail.get("separator_edges", []):
+                            value = final_literals[edge["slot"]]
+                            if not (value[-1:] if edge["side"] == "end" else value[:1]).isspace():
+                                raise ValueError(f"slot {edge['slot']} lost the separator beside a printed name or pause")
+                        if detail.get("literal_substitution") or detail.get("separator_edges"):
                             # Every slot was authored, so every slot is checked
                             # in the compiled bytes - not only pages the layout
-                            # pass happened to rewrite.
-                            detail["exact_literals"] = [layout_literal(q) for q in QUOTE_RE.finditer(block)]
+                            # pass happened to rewrite. So is a slot keeping a
+                            # separator beside a printed name: TextPet drops a
+                            # heredoc's leading line break.
+                            detail["exact_literals"] = final_literals
                     except (ValueError, AssertionError) as error:
                         raise type(error)(f"{entry['entry_id']}: {error}") from error
                     transform_meta[(selector, entry_index)] = detail

@@ -941,7 +941,7 @@
       "source_entry_raw_hex": "ed 00 06 f1 00 88 ea 01 1e 00 88 ea 01 1e 00 88 ea 01 1e 00 26 59 ea 01 1e 00 e8 a2 c2 d6 00 bc bf ad 9f e5 03 00 0f 1e 14 cf e5 03 ad 9a ad ea 01 1e 00 e8 88 88 88 99 ac b2 00 ea 01 1e 00 b7 9e a6 a8 d1 88 88 88 eb e7",
       "source_tpl_block_sha256": "2b0704c2355f640adae5859099cae4643068cf506a01faf5c6a633e61c28659b",
       "source_text_transcription": "・ // ・ // ・ // フッ // \\nこれで やらなきゃ オトコじゃないな // \\n・・・あとは // まかせたぜ・・・",
-      "draft_translation": "·[waitSkip 30]·[waitSkip 30]·[waitSkip 30] 훗.[waitSkip 30] / 이 상황에서도 해내지 못하면 남자가 아니지.[waitSkip 30] / ...나머지는[waitSkip 30] 맡긴다...",
+      "draft_translation": "·[waitSkip 30]·[waitSkip 30]·[waitSkip 30] 훗.[waitSkip 30] / 이걸로 못 해내면 남자가 아니지.[waitSkip 30] / ...나머지는[waitSkip 30] 맡긴다...",
       "status": "machine_draft_needs_human_review",
       "review_notes": []
     },

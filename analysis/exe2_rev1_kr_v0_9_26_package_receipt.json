@@ -1,0 +1,39 @@
+{
+  "status": "PENDING_RUNTIME_CHECK",
+  "candidate_sha256": "80979c71739b001ea7527338a15509ace96d6ceb125d19a714614c3caf995022",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "e8c4657e3fedaba8028e6e537f0079a05a4af5baac9606d8e517a9855b8e9652",
+  "content_qa_sha256": "856bd74eefc83404a8d17e94229efa6c142c19db72cad493cc19542f37c4d785",
+  "runtime_evidence": {
+    "kind": "agent_read_emulator_captures",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "들었어요? / 초등학생 A 라이선스 / 합격자가 나왔대요.",
+      "오~ 서브 라이선스 / 시험을 보고 있구나.",
+      "넷토、 / 서브 라이선스 시험 중이잖아~",
+      "분하지만... 자・극・적・이・야.",
+      "아메롭파! 아메롭파!"
+    ],
+    "automated_menu_regression_run": false,
+    "note": "Mesen 2 test runner captures read by the AI assistant. The five dialogues were opened in a test-only copy of this ROM whose field handler calls the dialogue start routine 0x08020B60 on a poked flag (not shipped); the shipped ROM differs from it only in those stub bytes."
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.26_Spacing.zip",
+  "package_sha256": "8d2d16a68246a3214f74fb10cfb87bd557d1ec74911c04072a04dcd22d2df66c",
+  "package_size": 931865,
+  "patch_sha256": "38e17792bd7fb7a6178c9badaf48e33327fd598f75c3e1f874b193ce0cacc1e0",
+  "patch_size": 391410,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

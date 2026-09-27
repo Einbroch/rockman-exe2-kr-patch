@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "stats": {
+    "draft_marks_without_inline_command": 2,
+    "marks": 3425
+  },
+  "entries_with_losses": 0,
+  "losses": []
+}
