@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "kind": "github_release_publication_receipt",
+  "repository": "Einbroch/rockman-exe2-kr-patch",
+  "tag": "v0.9.26",
+  "release_id": 397453065,
+  "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.26",
+  "name": "록맨 에그제 2 한글패치 V0.9.26 — 대사 띄어쓰기·줄바꿈 수정 (프리릴리스)",
+  "draft": false,
+  "prerelease": true,
+  "target_commitish": "main",
+  "tag_commit": "01d1df125ccde1b556b0eeb5fc20e0fdb1d70e2a",
+  "remote_tag_commit": "01d1df125ccde1b556b0eeb5fc20e0fdb1d70e2a",
+  "published_at": "2026-09-27T00:59:21Z",
+  "rom_included": false,
+  "save_included": false,
+  "candidate_rom_sha256": "80979c71739b001ea7527338a15509ace96d6ceb125d19a714614c3caf995022",
+  "assets": [
+    {
+      "name": "EXE2_Rev1_KR_V0.9.26_Spacing.xdelta",
+      "server_size": 408683,
+      "local_size": 408683,
+      "server_digest": "sha256:8d00c3522e8cc15d2c2daf6ba2b0b878a91b428ea8fb95b5b259c2bc3fa23453",
+      "local_sha256": "8d00c3522e8cc15d2c2daf6ba2b0b878a91b428ea8fb95b5b259c2bc3fa23453",
+      "state": "uploaded",
+      "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.26/EXE2_Rev1_KR_V0.9.26_Spacing.xdelta"
+    },
+    {
+      "name": "EXE2_Rev1_KR_V0.9.26_Spacing.zip",
+      "server_size": 931865,
+      "local_size": 931865,
+      "server_digest": "sha256:8d2d16a68246a3214f74fb10cfb87bd557d1ec74911c04072a04dcd22d2df66c",
+      "local_sha256": "8d2d16a68246a3214f74fb10cfb87bd557d1ec74911c04072a04dcd22d2df66c",
+      "state": "uploaded",
+      "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.26/EXE2_Rev1_KR_V0.9.26_Spacing.zip"
+    }
+  ],
+  "verified": {
+    "server_size_matches_local": true,
+    "server_digest_matches_local_sha256": true,
+    "asset_names": true,
+    "remote_tag_matches_local": true
+  }
+}

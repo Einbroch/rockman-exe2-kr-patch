@@ -1,5 +1,12 @@
 # Handoff
 
+## [2026-09-27] [github-publication] [v0.9.26]
+
+- V0.9.26 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.26 (release ID 397453065). 태그 `v0.9.26` 는 커밋 `01d1df125ccde1b556b0eeb5fc20e0fdb1d70e2a` 이고 소스 변경도 같은 커밋으로 main 에 푸시했다.
+- 자산은 BPS ZIP 931,865 B(`8d2d16a6...`)와 xdelta 408,683 B(`8d00c352...`) 둘뿐이다. 서버가 보고한 크기·SHA-256 다이제스트와 원격 태그 커밋이 로컬과 일치한다. 게시 뒤 draft=false/prerelease=true 를 확인했다. ROM/저장 파일은 올리지 않았다.
+- 노트 맨 위에 V0.9.4~V0.9.24 버스터 강화 멈춤 경고를 유지했다. 구판 경고는 "V0.9.25 이상"을 가리키므로 손대지 않았다.
+- 영수증: `analysis/github_release_v0926_publication.json`. 노트 원본: `analysis/github_release_v0926_notes.md`.
+
 ## [2026-09-26] [dialogue-spacing] [V0.9.26]
 
 - 사용자 요청: 대사 중 이름 앞 띄어쓰기 누락 정리. 원인은 `transform_script` 가 초안을 원문 글자 칸으로 나눈 뒤 칸마다 `strip()` 하는 데 있었다. 이름·코드·금액을 찍는 명령이나 대기(`wait`·`waitSkip`·`textSpeed`)가 한 줄 안에 있으면, 그 옆 공백·줄바꿈이 칸 가장자리에서 함께 지워졌다. 대기 태그 바로 뒤의 `/` 는 `after += 1` 규칙이 삼켰다.
