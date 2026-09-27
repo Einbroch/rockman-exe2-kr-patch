@@ -1,5 +1,12 @@
 # Handoff
 
+## [2026-09-27] [github-publication] [v0.9.27]
+
+- V0.9.27 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.27 (release ID 397455058). 태그 `v0.9.27` 는 커밋 `5804a386b4bbeaf43f8a7c421242f4b252e3696b` 이고 소스 변경도 같은 커밋으로 main 에 푸시했다.
+- 자산은 BPS ZIP 930,840 B(`b73dd994...`)와 xdelta 408,779 B(`5e8924da...`) 둘뿐이다. 서버가 보고한 크기·SHA-256 다이제스트와 원격 태그 커밋이 로컬과 일치한다. 게시 뒤 draft=false/prerelease=true 를 확인했다. ROM/저장 파일은 올리지 않았다.
+- 노트에 V0.9.4~V0.9.24 버스터 강화 멈춤 경고와, V0.9.25에서 바로 오는 사람을 위한 V0.9.26 요약을 함께 넣었다.
+- 영수증: `analysis/github_release_v0927_publication.json`. 노트 원본: `analysis/github_release_v0927_notes.md`.
+
 ## [2026-09-27] [term-fix] [V0.9.27]
 
 - 사용자 요청: "사이트 스타일" 표기를 "사이토 스타일"로(サイトスタイル, 히카리 사이토 유래 — 용어집 423행). 틀린 곳은 이메일뿐이었다. 목록 `00/mail#35` 제목 1곳, 본문 `00/mailbody#35` 3곳이다. 각각 `_authored.json` 과 배치 파일(0078/0079)에 한 벌씩 있어 둘 다 바이트 치환했다(개수 단언).

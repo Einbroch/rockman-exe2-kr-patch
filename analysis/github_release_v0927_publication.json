@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "kind": "github_release_publication_receipt",
+  "repository": "Einbroch/rockman-exe2-kr-patch",
+  "tag": "v0.9.27",
+  "release_id": 397455058,
+  "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.27",
+  "name": "록맨 에그제 2 한글패치 V0.9.27 — 사이토 스타일 표기 수정 (프리릴리스)",
+  "draft": false,
+  "prerelease": true,
+  "target_commitish": "main",
+  "tag_commit": "5804a386b4bbeaf43f8a7c421242f4b252e3696b",
+  "remote_tag_commit": "5804a386b4bbeaf43f8a7c421242f4b252e3696b",
+  "published_at": "2026-09-27T01:07:29Z",
+  "rom_included": false,
+  "save_included": false,
+  "candidate_rom_sha256": "85100f6b5c7deb94b67890cc0e370cb2fe2ca0ba933173face5fb9ec749a8886",
+  "assets": [
+    {
+      "name": "EXE2_Rev1_KR_V0.9.27_Saito.xdelta",
+      "server_size": 408779,
+      "local_size": 408779,
+      "server_digest": "sha256:5e8924da5491e9f604c95360e37ce454a0e635ba11314cfb39d59bd917a08380",
+      "local_sha256": "5e8924da5491e9f604c95360e37ce454a0e635ba11314cfb39d59bd917a08380",
+      "state": "uploaded",
+      "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.27/EXE2_Rev1_KR_V0.9.27_Saito.xdelta"
+    },
+    {
+      "name": "EXE2_Rev1_KR_V0.9.27_Saito.zip",
+      "server_size": 930840,
+      "local_size": 930840,
+      "server_digest": "sha256:b73dd99484e661193840bf033841626bb205ac2eacfc852c0839246a361d8457",
+      "local_sha256": "b73dd99484e661193840bf033841626bb205ac2eacfc852c0839246a361d8457",
+      "state": "uploaded",
+      "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.27/EXE2_Rev1_KR_V0.9.27_Saito.zip"
+    }
+  ],
+  "verified": {
+    "server_size_matches_local": true,
+    "server_digest_matches_local_sha256": true,
+    "asset_names": true,
+    "remote_tag_matches_local": true
+  }
+}
