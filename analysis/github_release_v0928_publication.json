@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "kind": "github_release_publication_receipt",
+  "repository": "Einbroch/rockman-exe2-kr-patch",
+  "tag": "v0.9.28",
+  "release_id": 397782630,
+  "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.28",
+  "name": "록맨 에그제 2 한글패치 V0.9.28 — 마더컴퓨터 방 진행 막힘 수정 (프리릴리스)",
+  "draft": false,
+  "prerelease": true,
+  "target_commitish": "main",
+  "tag_commit": "15715d5f668d81bd9762cd743a8ddc1028a6c137",
+  "remote_tag_commit": "15715d5f668d81bd9762cd743a8ddc1028a6c137",
+  "published_at": "2026-09-27T19:34:18Z",
+  "rom_included": false,
+  "save_included": false,
+  "candidate_rom_sha256": "3a6ce2d06f4e8e03b080aba25d790bb9d81354e2f4f8ab4f759641a2bba2da1f",
+  "assets": [
+    {
+      "name": "EXE2_Rev1_KR_V0.9.28_MotherComputer.xdelta",
+      "server_size": 406775,
+      "local_size": 406775,
+      "server_digest": "sha256:3e767c7a17e1aa2bb34692bbf2565abf25c1b153120bb5647568669a40b0c4e7",
+      "local_sha256": "3e767c7a17e1aa2bb34692bbf2565abf25c1b153120bb5647568669a40b0c4e7",
+      "state": "uploaded",
+      "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.28/EXE2_Rev1_KR_V0.9.28_MotherComputer.xdelta"
+    },
+    {
+      "name": "EXE2_Rev1_KR_V0.9.28_MotherComputer.zip",
+      "server_size": 928702,
+      "local_size": 928702,
+      "server_digest": "sha256:3d7cfcdb6c3e4c4ff32aff0514f154ab90d8fb93e813ad6c795e046f612a821c",
+      "local_sha256": "3d7cfcdb6c3e4c4ff32aff0514f154ab90d8fb93e813ad6c795e046f612a821c",
+      "state": "uploaded",
+      "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.28/EXE2_Rev1_KR_V0.9.28_MotherComputer.zip"
+    }
+  ],
+  "verified": {
+    "server_size_matches_local": true,
+    "server_digest_matches_local_sha256": true,
+    "asset_names": true,
+    "remote_tag_matches_local": true
+  }
+}

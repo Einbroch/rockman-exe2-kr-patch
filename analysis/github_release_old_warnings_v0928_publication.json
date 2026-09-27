@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "kind": "github_release_warning_receipt",
+  "repository": "Einbroch/rockman-exe2-kr-patch",
+  "request": "릴리즈 해주고 github에도 올려줘 (v0.9.28 게시와 이전 릴리스 경고 갱신 제안에 대한 답)",
+  "replacement_release": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.28",
+  "warning_items": {
+    "school": "학교에서 나가는 순간 화면이 검게 멈춤 (V0.9.9에서 수정)",
+    "tutorial": "집에 도착한 뒤의 튜토리얼 배틀에서 멈춤 (V0.9.24에서 수정)",
+    "heal": "넷 상인 옆 회복 프로그램에게 말을 걸면 멈춤 (V0.9.24에서 수정)",
+    "buster": "록맨 상태 화면에서 버스터 UP으로 강화하면 엉뚱한 대사가 나온 뒤 멈춤 (V0.9.25에서 수정). 멈추기 직전에 게임이 한 번 자동 저장되지만 버스터 UP은 남아 있어서, 새 판에서 그 세이브로 다시 강화하면 됩니다.",
+    "mother": "마더컴퓨터 방(체인지.bat 에피소드)에서 NPC에게 말을 걸어도 반응이 없고 플러그인도 되지 않아 진행할 수 없음 (V0.9.28에서 수정). 그 세이브는 새 판에서 그대로 이어서 할 수 있습니다."
+  },
+  "releases": [
+    {
+      "tag": "v0.9.4",
+      "release_id": 388318785,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.4",
+      "affected_by": [
+        "school",
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before_edit": "b65c720fc216eba5e385c1b341e47005dbf044f3a8b65e29aec37b5b54b27066",
+      "body_sha256_after": "318201d5f48b651f14db2021c9029bd4abae6ecec0334bdd826dcedbdb80ea18",
+      "original_body_backup": "analysis/github_release_body_backup/v0.9.4_before.md",
+      "updated_at": "2026-09-27T19:35:27Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.5",
+      "release_id": 388514878,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.5",
+      "affected_by": [
+        "school",
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before_edit": "81e9f439ffd80685a608f3dae27215c7dfbe0c6ca289703885c4d1314197f75e",
+      "body_sha256_after": "0f29e126a612e5d7f4f7d8e2452ddf359b5a10c009ab8b0fc63f2d3c64644a89",
+      "original_body_backup": "analysis/github_release_body_backup/v0.9.5_before.md",
+      "updated_at": "2026-09-27T19:35:29Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.6",
+      "release_id": 392926078,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.6",
+      "affected_by": [
+        "school",
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before_edit": "6dce84cfa311c6b9da7d4e5a105884e04597aad80e801d1ebb2d704972d63554",
+      "body_sha256_after": "19428ba1972d70cdaf168dafbfd19d553e24ee6cce894524263738d75a096a02",
+      "original_body_backup": "analysis/github_release_body_backup/v0.9.6_before.md",
+      "updated_at": "2026-09-27T19:35:31Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.7",
+      "release_id": 392941489,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.7",
+      "affected_by": [
+        "school",
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before_edit": "d132a45a57c012a1deabbd997f13fe8c784ea200bde5b6b31b4757f66205cd31",
+      "body_sha256_after": "2777fdc3adc46f75c138f52f87e8c15878b38eee54b60a81427e2a8e98ae6409",
+      "original_body_backup": "analysis/github_release_body_backup/v0.9.7_before.md",
+      "updated_at": "2026-09-27T19:35:33Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.8",
+      "release_id": 393099149,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.8",
+      "affected_by": [
+        "school",
+        "tutorial",
+        "heal",
+        "buster"
+      ],
+      "body_sha256_before_edit": "ffb617f8cf79106d4f4599a888920011c0f8dedf867d60ef075958b56b813894",
+      "body_sha256_after": "fcd4755a46daabcddb6d34d9a2ee5ee9b882837da24388139e1f33d8c36074b9",
+      "original_body_backup": "analysis/github_release_body_backup/v0.9.8_before.md",
+      "updated_at": "2026-09-27T19:35:35Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.9",
+      "release_id": 393142397,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.9",
+      "affected_by": [
+        "tutorial",
+        "heal",
+        "buster",
+        "mother"
+      ],
+      "body_sha256_before_edit": "01554c18276a4fe11c63796efe53511981f5c186908157fd79f394dfdd0c8bc7",
+      "body_sha256_after": "8e0bb17a3a43da123dbf1836b0d4f5cf8c6cc863f231625db54c2fd80eadc14a",
+      "original_body_backup": "analysis/github_release_body_backup/v0.9.9_before.md",
+      "updated_at": "2026-09-27T19:35:37Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.24",
+      "release_id": 396837806,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.24",
+      "affected_by": [
+        "buster",
+        "mother"
+      ],
+      "body_sha256_before_edit": "addf6758c28c24739859b853fc1f7ebabf1eb9d107641b590f07bcb9191f01e8",
+      "body_sha256_after": "568e0f8a53491218fd9bd349b53f7779f591b46695d2da27852a4a29c2e629f8",
+      "original_body_backup": "analysis/github_release_body_backup/v0.9.24_before.md",
+      "updated_at": "2026-09-27T19:35:39Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.25",
+      "release_id": 397247765,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.25",
+      "affected_by": [
+        "mother"
+      ],
+      "body_sha256_before_edit": "573a4af5ded158863869426a0dee5638b6252feafd74e5f6b42fc3d19913c0fe",
+      "body_sha256_after": "d93340a1e7ad217054c9349b7d89410013a011a0e990232e2e2e7b0e50d29c30",
+      "original_body_backup": "analysis/github_release_body_backup/v0.9.25_before.md",
+      "updated_at": "2026-09-27T19:35:41Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.26",
+      "release_id": 397453065,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.26",
+      "affected_by": [
+        "mother"
+      ],
+      "body_sha256_before_edit": "5cadd49e449911fe5f4894f061f13ebc868ec0415f5ae08d8f0657c19012b728",
+      "body_sha256_after": "0a245b174268689037cb9e83c59ded8195fd5671a5ec9f236ad2c8eb12273a52",
+      "original_body_backup": "analysis/github_release_body_backup/v0.9.26_before.md",
+      "updated_at": "2026-09-27T19:35:43Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true
+      }
+    },
+    {
+      "tag": "v0.9.27",
+      "release_id": 397455058,
+      "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.27",
+      "affected_by": [
+        "mother"
+      ],
+      "body_sha256_before_edit": "0a4a3857137f323f788bfe4f0aae8f5e3cd3c45bc50e3e8c6f04154f9d176083",
+      "body_sha256_after": "b4c5d2b792b97184bf8ff9faa54e74d554bb4392ec166b5428be5242f6babc28",
+      "original_body_backup": "analysis/github_release_body_backup/v0.9.27_before.md",
+      "updated_at": "2026-09-27T19:35:45Z",
+      "verified": {
+        "body_equals_intended": true,
+        "original_body_preserved_below_warning": true,
+        "title_unchanged": true,
+        "draft_prerelease_unchanged": true,
+        "assets_unchanged": true
+      }
+    }
+  ],
+  "evidence": {
+    "mother": "v0.9.9 로더 훅 이후 로더 표 대상 11개가 압축된 채 남음; v0.9.27 에서 표 칸 0x228C8 대상을 열면 무반응, v0.9.28 정상 (HANDOFF [runtime-fix][V0.9.28])",
+    "earlier": "analysis/github_release_old_warnings_publication.json 참조"
+  },
+  "deleted": false,
+  "assets_modified": false
+}

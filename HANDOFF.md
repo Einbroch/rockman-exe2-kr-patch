@@ -1,5 +1,13 @@
 # Handoff
 
+## [2026-09-28] [github-publication] [v0.9.28]
+
+- V0.9.28 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.28 (release ID 397782630). 태그 `v0.9.28` 는 커밋 `15715d5f668d81bd9762cd743a8ddc1028a6c137` 이고 소스 변경도 같은 커밋으로 main 에 푸시했다.
+- 자산은 BPS ZIP 928,702 B(`3d7cfcdb...`)와 xdelta 406,775 B(`3e767c7a...`) 둘뿐이다. 서버가 보고한 크기·SHA-256 다이제스트와 원격 태그 커밋이 로컬과 일치한다. 게시 뒤 draft=false/prerelease=true 를 확인했다. ROM/저장 파일은 올리지 않았다.
+- 노트 맨 위 경고: V0.9.9·V0.9.24~27 마더컴퓨터 방 진행 불가, V0.9.4~24 버스터 강화 멈춤. 막힌 세이브도 이어서 가능하고, 안 되면 방을 나갔다 다시 들어가라는 안내를 넣었다.
+- 이전 릴리스 10개(v0.9.4~9, v0.9.24~27)의 경고를 V0.9.28 기준으로 갱신했다. 판별 해당 결함만 나열하고(마더컴퓨터: v0.9.9, v0.9.24~27), 원래 본문은 백업과 대조해 경고 아래에 바이트 그대로 두었다. 새로 경고를 붙인 v0.9.25~27 의 원래 본문도 `analysis/github_release_body_backup/` 에 백업했다. 제목·첨부 파일·프리릴리스 상태는 그대로다.
+- 영수증: `analysis/github_release_v0928_publication.json`, `analysis/github_release_old_warnings_v0928_publication.json`.
+
 ## [2026-09-28] [runtime-fix] [V0.9.28]
 
 - 사용자 제보(스크린샷): 마더컴퓨터 에피소드(체인지.bat)에서 아빠를 만난 뒤 마더컴퓨터 방의 NPC 말 걸기와 플러그인이 모두 무반응이라 진행 불가. 방의 대사 아카이브는 `00/17` 이다(표 칸 0x228C8).
