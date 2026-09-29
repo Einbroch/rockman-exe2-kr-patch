@@ -1,0 +1,38 @@
+{
+  "status": "PENDING_RUNTIME_CHECK",
+  "candidate_sha256": "8e4ab7665384edb635741496f4404dfdea327394190fb6e040adaf9cfe89fe92",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "27e9e74d1f9cfafb2fe672e3fbc28dc742e6f9d3954956eda0b570edbe7d57f2",
+  "content_qa_sha256": "70a75a547a98102b96a3ccb290ec68df63ceff1a70657f1c371bf7d84f013f46",
+  "runtime_evidence": {
+    "kind": "agent_read_emulator_captures",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "배틀 네트워크 >>",
+      "록맨 에그제",
+      "PRESS START",
+      "처음부터"
+    ],
+    "automated_menu_regression_run": false,
+    "note": "Mesen 2 test runner captures read by the AI assistant. This exact ROM was cold-booted without a save; the title screen was captured at frames 400, 800 and 1000, then Start was pressed and the title menu (처음부터) captured. Against V0.9.28 at the same frame, BG0-BG2 VRAM, palette and OAM were identical; the only screen differences outside the redrawn logo pixels were BG2 seen through the ring's transparent pixels (animation timing). Not checked on My Boy!."
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.29_TitleLogo.zip",
+  "package_sha256": "d820a4c6e4f8bf8fdb79cd258d48a69e116cb86d1f8a36b1c80e8be48f0f99bd",
+  "package_size": 931753,
+  "patch_sha256": "8fb03d82783a1d90aa6f47b5fd08a954e83abfcffea2701935c6968f72f18540",
+  "patch_size": 392439,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

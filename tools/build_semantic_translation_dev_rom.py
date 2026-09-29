@@ -55,6 +55,7 @@ from submenu_title_graphics import planned_writes as submenu_graphics_writes
 from title_menu_graphics import planned_writes as title_menu_writes
 from chip_panel_graphics import planned_writes as chip_panel_writes
 from result_window_graphics import planned_writes as result_window_writes
+from title_logo_graphics import planned_writes as title_logo_writes
 
 
 SOURCE_SHA256 = "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
@@ -1771,6 +1772,9 @@ def main() -> None:
     # So are the battle result windows' labels (virus, WINNER, LOSER).
     result_writes, result_windows = result_window_writes(source, master_font)
     static_writes.extend(result_writes)
+    # The title logo (배틀 네트워크 / 록맨 에그제) is one BG3 picture, re-tiled whole.
+    logo_writes, title_logo = title_logo_writes(source, master_font)
+    static_writes.extend(logo_writes)
     from verify_semantic_translation_emulator_rom import expected_range
     prior_ranges = [expected_range(w) for w in expected_writes]
     for write in static_writes:
@@ -1869,6 +1873,7 @@ def main() -> None:
         "title_menu_graphics": title_menu,
         "chip_panel_graphics": chip_panels,
         "result_window_graphics": result_windows,
+        "title_logo_graphics": title_logo,
         "reviewed_choice_layout": {
             "module_sha256": sha256(Path(__file__).with_name('reviewed_choice_layout.py').read_bytes()),
             "entry_ids": sorted(REVIEWED_IDS),

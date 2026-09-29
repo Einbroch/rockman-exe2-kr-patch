@@ -86,6 +86,38 @@ def verify_final_write_plan(source: bytes, candidate: bytes, writes: list[dict])
 # lead to an archive readable in place. Checked slot by slot, without the
 # builder's table walk, which once stopped at a zero slot and left the Mother
 # Computer room compressed.
+# The title loader (0x0801C868) names BG3's tileset, its DMA word count and its
+# map by one literal each. Decoded through the candidate's own literals, not the
+# module's writes, the logo layer has to be the one the manifest records, fit
+# VRAM tiles 1..511 (BG0-BG2 characters begin at 0x06008000) and name no tile
+# the tileset does not hold. The original never names tile 0 or sets flip bits.
+TITLE_TILESET_LITERAL, TITLE_WORDS_LITERAL, TITLE_MAP_LITERAL = 0x1C914, 0x1C91C, 0x1C964
+TITLE_MAP_CELLS, TITLE_TILE_LIMIT = 32 * 20, 511
+
+
+def decode_title_logo_layer(candidate: bytes) -> dict:
+    tiles_at = struct.unpack_from("<I", candidate, TITLE_TILESET_LITERAL)[0] - 0x08000000
+    words = struct.unpack_from("<I", candidate, TITLE_WORDS_LITERAL)[0]
+    map_at = struct.unpack_from("<I", candidate, TITLE_MAP_LITERAL)[0] - 0x08000000
+    tile_count, remainder = divmod(words * 4, 64)
+    if remainder or not 0 < tile_count <= TITLE_TILE_LIMIT:
+        raise ValueError(f"title logo tileset of {words} words does not fit VRAM tiles 1..{TITLE_TILE_LIMIT}")
+    if not (0 <= tiles_at and tiles_at + words * 4 <= len(candidate)
+            and 0 <= map_at and map_at + TITLE_MAP_CELLS * 2 <= len(candidate)):
+        raise ValueError("title logo tileset or map lies outside the ROM")
+    tiles = candidate[tiles_at:tiles_at + words * 4]
+    layer = bytearray(256 * 160)
+    for cell, entry in enumerate(struct.unpack_from(f"<{TITLE_MAP_CELLS}H", candidate, map_at)):
+        index = entry & 0x3FF
+        if entry & 0xFC00 or not 1 <= index <= tile_count:
+            raise ValueError(f"title logo map cell {cell} = 0x{entry:04X} names no tile of the tileset")
+        row, column = divmod(cell, 32)
+        for y in range(8):
+            at = (row * 8 + y) * 256 + column * 8
+            layer[at:at + 8] = tiles[(index - 1) * 64 + y * 8:(index - 1) * 64 + y * 8 + 8]
+    return {"tile_count": tile_count, "layer_sha256": sha256(bytes(layer))}
+
+
 LOADER_TABLE_SPAN = range(0x22804, 0x22B10, 4)
 LOADER_DIRECT_LITERAL = 0x20B04
 
@@ -305,6 +337,17 @@ def main() -> None:
             if candidate[start:start+len(payload)] != payload:
                 raise ValueError('Result window graphics reproduction failed')
 
+    if 'title_logo_graphics' in manifest:
+        from title_logo_graphics import planned_writes
+        planned, graphics = planned_writes(source)
+        if graphics != manifest['title_logo_graphics']:
+            raise ValueError('Title logo graphics provenance mismatch')
+        for write in planned:
+            payload = bytes.fromhex(write['replacement_hex'])
+            start = write['rom_offset']
+            if candidate[start:start+len(payload)] != payload:
+                raise ValueError('Title logo graphics reproduction failed')
+
     intervals = sorted(expected_range(write) for write in manifest["expected_writes"])
     for previous, current in zip(intervals, intervals[1:]):
         if current[0] < previous[1]:
@@ -321,6 +364,9 @@ def main() -> None:
         if interval_index >= len(intervals) or not intervals[interval_index][0] <= offset < intervals[interval_index][1]:
             raise ValueError(f"unexplained final difference at ROM 0x{offset:X}")
     loader_archive_count = verify_loader_archives_raw(candidate)
+    title_logo = decode_title_logo_layer(candidate)
+    if 'title_logo_graphics' in manifest and title_logo['layer_sha256'] != manifest['title_logo_graphics']['layer_sha256']:
+        raise ValueError('title logo layer read through the loader literals is not the recorded one')
 
     report = {
         "schema_version": 1,
@@ -340,6 +386,7 @@ def main() -> None:
             "raw_physical_continuations_verified": True,
             "relocated_pointer_count": pointer_count,
             "map_dialogue_loader_slots_readable_in_place": loader_archive_count,
+            "title_logo_layer_through_loader_literals": title_logo,
             "font_record_count": int(font["record_count"]),
             "font_payload_hash": True,
             "thumb_instruction_boundaries": True,
