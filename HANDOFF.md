@@ -1,5 +1,13 @@
 # Handoff
 
+## [2026-09-29] [github-publication] [v0.9.30]
+
+- V0.9.30 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.30 (release ID 399207577). 태그 `v0.9.30`(주석 태그)는 커밋 `e9c06e21a7926478e7649db37f9e466f0d038fcf` 이고 소스 변경도 같은 커밋으로 main 에 푸시했다.
+- 자산은 BPS ZIP 931,631 B(`69664835...`)와 xdelta 409,990 B(`ec688305...`) 둘뿐이다. 서버가 보고한 크기·SHA-256 다이제스트와 원격 태그 커밋이 로컬과 일치한다. 게시 뒤 draft=false/prerelease=true 를 확인했고 본문도 노트 파일과 같다. ROM/저장 파일은 올리지 않았다.
+- 노트에 작은 글씨 비교 그림(태그에 고정한 raw 주소, 200 확인)과 V0.9.27 이하 경고 두 줄을 넣었다.
+- V0.9.29 릴리스 본문과 구판 경고는 건드리지 않았다(보기 문제라 경고 대상이 아니다).
+- 영수증: `analysis/github_release_v0930_publication.json`.
+
 ## [2026-09-29] [graphics-fix] [V0.9.30]
 
 - 사용자 제보: 공개된 V0.9.29 타이틀의 작은 글씨 "배틀 네트워크"가 "네트위크"로 보인다.

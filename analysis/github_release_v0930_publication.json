@@ -1,0 +1,45 @@
+{
+ "schema_version": 1,
+ "kind": "github_release_publication_receipt",
+ "repository": "Einbroch/rockman-exe2-kr-patch",
+ "tag": "v0.9.30",
+ "release_id": 399207577,
+ "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.30",
+ "name": "록맨 에그제 2 한글패치 V0.9.30 — 타이틀 '네트워크' 글자 수정 (프리릴리스)",
+ "draft": false,
+ "prerelease": true,
+ "target_commitish": "main",
+ "tag_commit": "e9c06e21a7926478e7649db37f9e466f0d038fcf",
+ "remote_tag_commit": "e9c06e21a7926478e7649db37f9e466f0d038fcf",
+ "published_at": "2026-09-29T14:03:27Z",
+ "rom_included": false,
+ "save_included": false,
+ "candidate_rom_sha256": "6b0d8a9e7c132fd1201f6739a214794be8fcbee7f0aa7db1d31256cb303583c2",
+ "assets": [
+  {
+   "name": "EXE2_Rev1_KR_V0.9.30_TitleFix.xdelta",
+   "server_size": 409990,
+   "local_size": 409990,
+   "server_digest": "sha256:ec6883052d638db0cbf936668a5d19a78078c77226c137dbc34f85ef5c052a84",
+   "local_sha256": "ec6883052d638db0cbf936668a5d19a78078c77226c137dbc34f85ef5c052a84",
+   "state": "uploaded",
+   "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.30/EXE2_Rev1_KR_V0.9.30_TitleFix.xdelta"
+  },
+  {
+   "name": "EXE2_Rev1_KR_V0.9.30_TitleFix.zip",
+   "server_size": 931631,
+   "local_size": 931631,
+   "server_digest": "sha256:696648357444396cad8a6b2e09f68252703c7e8363f6809cedae91c441c9eebd",
+   "local_sha256": "696648357444396cad8a6b2e09f68252703c7e8363f6809cedae91c441c9eebd",
+   "state": "uploaded",
+   "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.30/EXE2_Rev1_KR_V0.9.30_TitleFix.zip"
+  }
+ ],
+ "verified": {
+  "server_size_matches_local": true,
+  "server_digest_matches_local_sha256": true,
+  "asset_names": true,
+  "remote_tag_matches_local": true,
+  "body_matches_notes_file": true
+ }
+}
