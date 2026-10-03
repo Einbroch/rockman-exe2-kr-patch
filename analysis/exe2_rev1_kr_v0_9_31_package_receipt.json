@@ -1,0 +1,37 @@
+{
+  "status": "PENDING_RUNTIME_CHECK",
+  "candidate_sha256": "fc5f8bf35ee6dcc07fed00902f6ff3a2d975e4b7e946e41735c085fc7b7c7cbf",
+  "claims": {
+    "rom_included": false,
+    "save_included": false,
+    "myboy_device_verified": false,
+    "full_game_qa_complete": false,
+    "official_final_release": false
+  },
+  "bps_applied_byte_identical": true,
+  "static_qa_sha256": "a114585dce01ada2d86d2285ad7ef29962f6daad2d2aa64e97ce68da78ec234d",
+  "content_qa_sha256": "22847007c9677d83627087a0a030969da3e3c347f29528a85a70d90660ebc951",
+  "runtime_evidence": {
+    "kind": "agent_read_emulator_captures",
+    "emulator": "Mesen 2, muted",
+    "labels_confirmed": [
+      "그리고・・・ / 세계에 평화가 돌아왔다・・・",
+      "록맨은 「아지나의 열쇠」를 사용했다!!",
+      "록맨은 「포르테 F」를 획득했다!!"
+    ],
+    "automated_menu_regression_run": false,
+    "note": "Mesen 2 test runner captures read by the AI assistant. In test-only copies (a stub, not shipped, calls the dialogue start routine 0x08020B60) the three small archives named by code literals 0x0DFC98, 0x0CFCEC and 0x0E1C50 were opened: V0.9.30 showed the Japanese ending line, this ROM showed Korean for all three. The ending itself was not played through. Not checked on My Boy!."
+  },
+  "flips_source_filtered": true,
+  "flips_source_excluded_members": [
+    "profile/firefox-17.0esr.tar",
+    "profile/firefox-10.0esr.tar"
+  ],
+  "package_path": "dist\\EXE2_Rev1_KR_V0.9.31_Ending.zip",
+  "package_sha256": "fbdb528cc6a135f83164bb067dd46ff66f7555fd07d44a2acd077b3415988353",
+  "package_size": 931443,
+  "patch_sha256": "20db6464337956f8dfb59c4bcdbc0e4aef3422bd587d3a5845d69ec8866a5d75",
+  "patch_size": 392441,
+  "zip_integrity_verified": true,
+  "zip_rom_save_members_absent": true
+}

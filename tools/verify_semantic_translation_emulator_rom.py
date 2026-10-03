@@ -118,6 +118,47 @@ def decode_title_logo_layer(candidate: bytes) -> dict:
     return {"tile_count": tile_count, "layer_sha256": sha256(bytes(layer))}
 
 
+# Some translated continuations hold a small archive of their own that game
+# code loads through a literal (the ending narration after 00/334). Scanned
+# here word by word, without the builder's code-literal filter: any word aiming
+# at an archive header inside a translated continuation must have moved to a
+# relocated archive that carries Hangul, or the game shows the old Japanese.
+def verify_continuation_entry_points(source: bytes, candidate: bytes, manifest: dict) -> int:
+    ranges = []
+    for report in manifest["archives"]:
+        continuation = report.get("physical_continuation")
+        if continuation and continuation.get("translated") and                 continuation.get("storage_form", "rom_bytes_after_archive") == "rom_bytes_after_archive":
+            start = int(continuation["source_rom_offset"])
+            # A bulk gap is carried only up to its translated head.
+            carried = int(continuation.get("translated_head_source_byte_length")
+                          or continuation["source_byte_length"])
+            ranges.append((start, start + carried, report["selector"]))
+
+    def header_size(data: bytes, offset: int) -> int:
+        if not 0 <= offset <= len(data) - 2:
+            return 0
+        size = struct.unpack_from("<H", data, offset)[0]
+        if size < 2 or size % 2 or offset + size > len(data):
+            return 0
+        table = [struct.unpack_from("<H", data, offset + k)[0] for k in range(0, size, 2)]
+        return size if table[0] == size and table == sorted(table) else 0
+
+    checked = 0
+    for word in range(0, len(source) - 3, 4):
+        target = struct.unpack_from("<I", source, word)[0] - 0x08000000
+        hit = next((r for r in ranges if r[0] < target < r[1]), None)
+        if hit is None or not header_size(source, target):
+            continue
+        moved = struct.unpack_from("<I", candidate, word)[0] - 0x08000000
+        size = header_size(candidate, moved)
+        script = candidate[moved + size:moved + size + 512] if size else b""
+        if moved == target or not size or moved % 4 or bytes((0xF9, 0xFC)) not in script:
+            raise ValueError(f"{hit[2]}: word at 0x{word:X} still names the source small archive "
+                             f"0x{target:X} (now 0x{moved:X}); the game would show the untranslated text")
+        checked += 1
+    return checked
+
+
 LOADER_TABLE_SPAN = range(0x22804, 0x22B10, 4)
 LOADER_DIRECT_LITERAL = 0x20B04
 
@@ -364,6 +405,7 @@ def main() -> None:
         if interval_index >= len(intervals) or not intervals[interval_index][0] <= offset < intervals[interval_index][1]:
             raise ValueError(f"unexplained final difference at ROM 0x{offset:X}")
     loader_archive_count = verify_loader_archives_raw(candidate)
+    continuation_entry_count = verify_continuation_entry_points(source, candidate, manifest)
     title_logo = decode_title_logo_layer(candidate)
     if 'title_logo_graphics' in manifest and title_logo['layer_sha256'] != manifest['title_logo_graphics']['layer_sha256']:
         raise ValueError('title logo layer read through the loader literals is not the recorded one')
@@ -386,6 +428,7 @@ def main() -> None:
             "raw_physical_continuations_verified": True,
             "relocated_pointer_count": pointer_count,
             "map_dialogue_loader_slots_readable_in_place": loader_archive_count,
+            "continuation_small_archive_literals_redirected": continuation_entry_count,
             "title_logo_layer_through_loader_literals": title_logo,
             "font_record_count": int(font["record_count"]),
             "font_payload_hash": True,

@@ -1043,8 +1043,8 @@
       "source_tpl_filename": "07813C5.tpl",
       "source_tpl_sha256": "8f3e12d36ae982ad533c61137de3df0e734d859f0a50301afd25507bf3047766",
       "translated_tpl_filename": "physical_continuation_00_226.tpl",
-      "translated_tpl_sha256": "f4b737a2a944bded5bebae74bcd2beee2c36161c83321ed61871e8dfa29e688d",
-      "translation": "좋아! 1 록맨은\n「 」\n을 사용했다!!",
+      "translated_tpl_sha256": "c00fe437f11a89de8a410d0c0e101fa3c8aa610aa2505134dda90617d6b72890",
+      "translation": "좋아! 1 록맨은\n「 」\n를 사용했다!!",
       "status": "machine_draft_needs_human_review"
     },
     {
@@ -2423,8 +2423,8 @@
       "source_tpl_filename": "079611C.tpl",
       "source_tpl_sha256": "1e8c19e7cd3231dc8b89f6464475e8a9a2fc48f55bb7ac9f51b0c9e3c67b7ed9",
       "translated_tpl_filename": "physical_continuation_00_347.tpl",
-      "translated_tpl_sha256": "efb232f8795cb09daebaaca66d2eb65f0e3c4bd56caeb5166c273fa6715b7c0b",
-      "translation": "응! 1 록맨은\n「 」\n을 사용했다!!",
+      "translated_tpl_sha256": "69d221b12954f94c5fbe6ffd99366b4070d0d95ef8b2e63054f62ec51a2795f5",
+      "translation": "응! 1 록맨은\n「 」\n를 획득했다!!",
       "status": "machine_draft_needs_human_review"
     },
     {

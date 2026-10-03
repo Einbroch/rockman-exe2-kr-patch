@@ -56,6 +56,7 @@ from title_menu_graphics import planned_writes as title_menu_writes
 from chip_panel_graphics import planned_writes as chip_panel_writes
 from result_window_graphics import planned_writes as result_window_writes
 from title_logo_graphics import planned_writes as title_logo_writes
+from continuation_entry_points import code_literals_to_archives, code_entry_points, place_entry_points
 
 
 SOURCE_SHA256 = "1afe35e1d00099d62cbddad43c2be3f0f3c3f0f333e8df54456076cb2df6a6b8"
@@ -1288,6 +1289,9 @@ def main() -> None:
 
     physical_continuations = find_raw_physical_continuations(
         source, archives, source_raw, source_tpl, source_trailing)
+    # Code literals that load an archive header directly; some aim inside a
+    # continuation and must follow it when it is relocated and translated.
+    archive_code_literals = code_literals_to_archives(source)
 
     physical_translation_path = args.translations_dir / "physical_continuation_translations.json"
     physical_translation_bytes = physical_translation_path.read_bytes()
@@ -1546,6 +1550,27 @@ def main() -> None:
             else:
                 stored = rebuilt + continuation_payload
             placement = (placement + 3) & ~3
+            # A small archive inside the continuation that game code loads by
+            # its own literal (the ending narration after 00/334) moves with
+            # the translated continuation; the literal is redirected below.
+            entry_targets: dict[int, int] = {}
+            # Only bytes that sat in ROM after the archive can be named by a literal.
+            if (continuation is not None and continuation_translation is not None
+                    and continuation.get("source_rom_offset") is not None):
+                continuation_start = continuation["source_rom_offset"]
+                # A bulk gap carries only its translated head; the rest stays in place.
+                carried = (int(continuation_translation["record"]["source_byte_length"])
+                           if continuation_translation["record"].get("head_of_gap")
+                           else len(continuation["payload"]))
+                entries_inside = code_entry_points(
+                    archive_code_literals, continuation_start, continuation_start + carried)
+                if entries_inside:
+                    if metadata["storage"] != "raw" or resident:
+                        raise ValueError(f"{selector}: continuation entry points need a raw relocated continuation")
+                    continuation_payload, entry_targets = place_entry_points(
+                        continuation["payload"], continuation_start, continuation_payload,
+                        placement + len(rebuilt), entries_inside)
+                    stored = rebuilt + continuation_payload
             end = placement + len(stored)
             if end > OUTPUT_SIZE:
                 raise ValueError("relocated archives exceed the expanded ROM")
@@ -1571,6 +1596,17 @@ def main() -> None:
                     "rom_offset": pointer_offset,
                     "expected_source_hex": pointer.hex(" "),
                     "replacement_hex": replacement_pointer.hex(" "),
+                })
+            for literal_offset, new_target in sorted(entry_targets.items()):
+                old_literal = source[literal_offset:literal_offset + 4]
+                new_literal = struct.pack("<I", ROM_BASE + new_target)
+                output[literal_offset:literal_offset + 4] = new_literal
+                expected_writes.append({
+                    "kind": "archive_pointer",
+                    "selector": f"{selector}/continuation-entry",
+                    "rom_offset": literal_offset,
+                    "expected_source_hex": old_literal.hex(" "),
+                    "replacement_hex": new_literal.hex(" "),
                 })
             expected_writes.append({
                 "kind": "relocated_archive",
@@ -1614,6 +1650,12 @@ def main() -> None:
                 }
                 if continuation.get("storage_form") != "inside_decompressed_buffer":
                     archive_report["physical_continuation"]["relocated_rom_offset"] = placement + len(rebuilt)
+                if entry_targets:
+                    archive_report["physical_continuation"]["code_entry_points"] = [
+                        {"literal_rom_offset": literal_offset,
+                         "source_target": struct.unpack_from("<I", source, literal_offset)[0] - ROM_BASE,
+                         "relocated_target": new_target}
+                        for literal_offset, new_target in sorted(entry_targets.items())]
                 if continuation_translation is not None:
                     archive_report["physical_continuation"]["translation_asset"] = {
                         "filename": continuation_translation["record"]["translated_tpl_filename"],

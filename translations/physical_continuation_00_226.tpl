@@ -20,7 +20,7 @@ script 0 mmbn2 {
 		item = 19
 	"""
 	」
-	을 사용했다!!
+	를 사용했다!!
 	"""
 	keyWait
 	flagSet

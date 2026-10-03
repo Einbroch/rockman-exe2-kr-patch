@@ -30,7 +30,7 @@ script 0 mmbn2 {
 		code = F
 	"""
 	」
-	을 사용했다!!
+	를 획득했다!!
 	"""
 	playerFinish
 	playerAnimate
