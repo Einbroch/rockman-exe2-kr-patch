@@ -1,5 +1,11 @@
 # Handoff
 
+## [2026-10-03] [github-publication] [v0.9.31]
+
+- V0.9.31 프리릴리스 게시 완료: https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.31 (release ID 402521967). 태그 `v0.9.31`(주석 태그)는 커밋 `486ec781d088e3b7e58c6fbe80d54ff185d24f1b`, 소스도 같은 커밋으로 main 에 푸시했다.
+- 자산은 BPS ZIP 931,443 B(`fbdb528c...`)와 xdelta 410,013 B(`a143d4be...`) 둘뿐이다. 서버 크기·다이제스트·원격 태그·본문이 로컬과 일치하고 draft=false/prerelease=true 다. ROM/저장 파일은 올리지 않았다.
+- 구판 경고는 갱신하지 않았다(미번역은 진행 막힘이 아니다). 영수증: `analysis/github_release_v0931_publication.json`.
+
 ## [2026-10-03] [runtime-fix] [V0.9.31]
 
 - 사용자 제보(스크린샷): 엔딩에 들어가면 "そして・・・ / 世界に へいわが もどった・・・"가 일본어로 나온다.

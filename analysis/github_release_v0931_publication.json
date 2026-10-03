@@ -1,0 +1,45 @@
+{
+ "schema_version": 1,
+ "kind": "github_release_publication_receipt",
+ "repository": "Einbroch/rockman-exe2-kr-patch",
+ "tag": "v0.9.31",
+ "release_id": 402521967,
+ "html_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/tag/v0.9.31",
+ "name": "록맨 에그제 2 한글패치 V0.9.31 — 엔딩 미번역 문장 수정 (프리릴리스)",
+ "draft": false,
+ "prerelease": true,
+ "target_commitish": "main",
+ "tag_commit": "486ec781d088e3b7e58c6fbe80d54ff185d24f1b",
+ "remote_tag_commit": "486ec781d088e3b7e58c6fbe80d54ff185d24f1b",
+ "published_at": "2026-10-03T13:18:51Z",
+ "rom_included": false,
+ "save_included": false,
+ "candidate_rom_sha256": "fc5f8bf35ee6dcc07fed00902f6ff3a2d975e4b7e946e41735c085fc7b7c7cbf",
+ "assets": [
+  {
+   "name": "EXE2_Rev1_KR_V0.9.31_Ending.xdelta",
+   "server_size": 410013,
+   "local_size": 410013,
+   "server_digest": "sha256:a143d4be3984ef770f206dc22ca516326b410ee36ed053da21abdb0080c4514f",
+   "local_sha256": "a143d4be3984ef770f206dc22ca516326b410ee36ed053da21abdb0080c4514f",
+   "state": "uploaded",
+   "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.31/EXE2_Rev1_KR_V0.9.31_Ending.xdelta"
+  },
+  {
+   "name": "EXE2_Rev1_KR_V0.9.31_Ending.zip",
+   "server_size": 931443,
+   "local_size": 931443,
+   "server_digest": "sha256:fbdb528cc6a135f83164bb067dd46ff66f7555fd07d44a2acd077b3415988353",
+   "local_sha256": "fbdb528cc6a135f83164bb067dd46ff66f7555fd07d44a2acd077b3415988353",
+   "state": "uploaded",
+   "download_url": "https://github.com/Einbroch/rockman-exe2-kr-patch/releases/download/v0.9.31/EXE2_Rev1_KR_V0.9.31_Ending.zip"
+  }
+ ],
+ "verified": {
+  "server_size_matches_local": true,
+  "server_digest_matches_local_sha256": true,
+  "asset_names": true,
+  "remote_tag_matches_local": true,
+  "body_matches_notes_file": true
+ }
+}
